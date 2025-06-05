@@ -1,0 +1,35 @@
+{
+  "Changes": [
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Wizard",
+      "FromFile": "assets/Characters/Wizard.png",
+      "When": { "Futanari": "false" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Wizard",
+      "FromFile": "assets/Characters/Wizard_Futanari.png",
+      "When": { "Futanari": "true" }
+    },
+	// Portraits -----------------------------------------------------------------------------------
+	{
+      "Action": "EditImage",
+      "Target": "Portraits/Wizard",
+      "FromFile": "assets/Portraits/Wizard.png",
+      "When": { 
+		"Hypnosis": "false",
+		"Wizard": "On",
+	  }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Wizard",
+      "FromFile": "assets/Portraits/Wizard_Hypnosis.png",
+      "When": { 
+		"Hypnosis": "true",
+		"Wizard": "On",
+	  }
+    },	
+  ]
+}

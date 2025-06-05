@@ -1,0 +1,20 @@
+﻿{
+  "Name": "Email",
+  "Author": "JoXW",
+  "Version": "1.0.0",
+  "Description": "Check mail on your mobile phone.",
+  "UniqueID": "JoXW.Email",
+  "EntryDll": "Email.dll",
+  "MinimumApiVersion": "4.0.0",
+  "UpdateKeys": [ "Nexus:21017@Email" ],
+  "Dependencies": [
+    {
+      "UniqueID": "Platonymous.ModUpdater",
+      "IsRequired": false
+    },
+    {
+      "UniqueID": "JoXW.MobilePhone",
+      "IsRequired": true
+    }
+  ]
+}

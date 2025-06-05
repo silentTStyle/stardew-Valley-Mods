@@ -1,0 +1,228 @@
+{
+	"Changes": [
+		{
+			"LogName": "Fishing Shop Tackle Prices 25% Cheaper",
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "FishShop", "Items" ],
+			"Fields": {
+			    "(O)686": {"Price": "{{Round: {{Query: (500 - (500 * 0.25)) }} }}"}, //Spinner
+				"(O)687": {"Price": "{{Round: {{Query: (1000 - (1000 * 0.25)) }} }}"}, //Dressed Spinner
+				"(O)691": {"Price": "{{Round: {{Query: (1000 - (1000 * 0.25)) }} }}"}, //Barbed Hook
+				"(O)692": {"Price": "{{Round: {{Query: (200 - (200 * 0.25)) }} }}"}, //Lead Bobber
+				"(O)693": {"Price": "{{Round: {{Query: (750 - (750 * 0.25)) }} }}"}, //Treasure Hunter
+				"(O)694": {"Price": "{{Round: {{Query: (500 - (500 * 0.25)) }} }}"}, //Trap Bobber
+				"(O)695": {"Price": "{{Round: {{Query: (750 - (750 * 0.25)) }} }}"}, //Cork Bobber
+				"(O)SonarBobber": {"Price": "{{Round: {{Query: (500 - (500 * 0.25)) }} }}"}, //Sonar Bobber
+					   },
+			"When": {"Fish Shop Tackle Prices": "25% Cheaper"},
+		},
+		{
+			"LogName": "Fishing Shop Tackle Prices 50% Cheaper",
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "FishShop", "Items" ],
+			"Fields": {
+			    "(O)686": {"Price": "{{Round: {{Query: (500 - (500 * 0.50)) }} }}"}, //Spinner
+				"(O)687": {"Price": "{{Round: {{Query: (1000 - (1000 * 0.50)) }} }}"}, //Dressed Spinner
+				"(O)691": {"Price": "{{Round: {{Query: (1000 - (1000 * 0.50)) }} }}"}, //Barbed Hook
+				"(O)692": {"Price": "{{Round: {{Query: (200 - (200 * 0.50)) }} }}"}, //Lead Bobber
+				"(O)693": {"Price": "{{Round: {{Query: (750 - (750 * 0.50)) }} }}"}, //Treasure Hunter
+				"(O)694": {"Price": "{{Round: {{Query: (500 - (500 * 0.50)) }} }}"}, //Trap Bobber
+				"(O)695": {"Price": "{{Round: {{Query: (750 - (750 * 0.50)) }} }}"}, //Cork Bobber
+				"(O)SonarBobber": {"Price": "{{Round: {{Query: (500 - (500 * 0.50)) }} }}"}, //Sonar Bobber
+					   },
+			"When": {"Fish Shop Tackle Prices": "50% Cheaper"},
+		},
+		{
+			"LogName": "Fishing Shop Tackle Prices 75% Cheaper",
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "FishShop", "Items" ],
+			"Fields": {
+			    "(O)686": {"Price": "{{Round: {{Query: (500 - (500 * 0.75)) }} }}"}, //Spinner
+				"(O)687": {"Price": "{{Round: {{Query: (1000 - (1000 * 0.75)) }} }}"}, //Dressed Spinner
+				"(O)691": {"Price": "{{Round: {{Query: (1000 - (1000 * 0.75)) }} }}"}, //Barbed Hook
+				"(O)692": {"Price": "{{Round: {{Query: (200 - (200 * 0.75)) }} }}"}, //Lead Bobber
+				"(O)693": {"Price": "{{Round: {{Query: (750 - (750 * 0.75)) }} }}"}, //Treasure Hunter
+				"(O)694": {"Price": "{{Round: {{Query: (500 - (500 * 0.75)) }} }}"}, //Trap Bobber
+				"(O)695": {"Price": "{{Round: {{Query: (750 - (750 * 0.75)) }} }}"}, //Cork Bobber
+				"(O)SonarBobber": {"Price": "{{Round: {{Query: (500 - (500 * 0.75)) }} }}"}, //Sonar Bobber
+					   },
+			"When": {"Fish Shop Tackle Prices": "75% Cheaper"},
+		},
+		{
+			"LogName": "Fishing Shop Tackle Prices 99% Cheaper",
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "FishShop", "Items" ],
+			"Fields": {
+			    "(O)686": {"Price": 1}, //Spinner
+				"(O)687": {"Price": 1}, //Dressed Spinner
+				"(O)691": {"Price": 1}, //Barbed Hook
+				"(O)692": {"Price": 1}, //Lead Bobber
+				"(O)693": {"Price": 1}, //Treasure Hunter
+				"(O)694": {"Price": 1}, //Trap Bobber
+				"(O)695": {"Price": 1}, //Cork Bobber
+				"(O)SonarBobber": {"Price": 1}, //Sonar Bobber
+					   },
+			"When": {"Fish Shop Tackle Prices": "99% Cheaper"},
+		},
+		{
+			"LogName": "Fishing Shop Tackle Prices 25% More Expensive",
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "FishShop", "Items" ],
+			"Fields": {
+			    "(O)686": {"Price": "{{Round: {{Query: (500 + (500 * 0.25)) }} }}"}, //Spinner
+				"(O)687": {"Price": "{{Round: {{Query: (1000 + (1000 * 0.25)) }} }}"}, //Dressed Spinner
+				"(O)691": {"Price": "{{Round: {{Query: (1000 + (1000 * 0.25)) }} }}"}, //Barbed Hook
+				"(O)692": {"Price": "{{Round: {{Query: (200 + (200 * 0.25)) }} }}"}, //Lead Bobber
+				"(O)693": {"Price": "{{Round: {{Query: (750 + (750 * 0.25)) }} }}"}, //Treasure Hunter
+				"(O)694": {"Price": "{{Round: {{Query: (500 + (500 * 0.25)) }} }}"}, //Trap Bobber
+				"(O)695": {"Price": "{{Round: {{Query: (750 + (750 * 0.25)) }} }}"}, //Cork Bobber
+				"(O)SonarBobber": {"Price": "{{Round: {{Query: (500 + (500 * 0.25)) }} }}"}, //Sonar Bobber
+					   },
+			"When": {"Fish Shop Tackle Prices": "25% More Expensive"},
+		},
+		{
+			"LogName": "Fishing Shop Tackle Prices 50% More Expensive",
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "FishShop", "Items" ],
+			"Fields": {
+			    "(O)686": {"Price": "{{Round: {{Query: (500 + (500 * 0.50)) }} }}"}, //Spinner
+				"(O)687": {"Price": "{{Round: {{Query: (1000 + (1000 * 0.50)) }} }}"}, //Dressed Spinner
+				"(O)691": {"Price": "{{Round: {{Query: (1000 + (1000 * 0.50)) }} }}"}, //Barbed Hook
+				"(O)692": {"Price": "{{Round: {{Query: (200 + (200 * 0.50)) }} }}"}, //Lead Bobber
+				"(O)693": {"Price": "{{Round: {{Query: (750 + (750 * 0.50)) }} }}"}, //Treasure Hunter
+				"(O)694": {"Price": "{{Round: {{Query: (500 + (500 * 0.50)) }} }}"}, //Trap Bobber
+				"(O)695": {"Price": "{{Round: {{Query: (750 + (750 * 0.50)) }} }}"}, //Cork Bobber
+				"(O)SonarBobber": {"Price": "{{Round: {{Query: (500 + (500 * 0.50)) }} }}"}, //Sonar Bobber
+					   },
+			"When": {"Fish Shop Tackle Prices": "50% More Expensive"},
+		},
+		{
+			"LogName": "Fishing Shop Tackle Prices 75% More Expensive",
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "FishShop", "Items" ],
+			"Fields": {
+			    "(O)686": {"Price": "{{Round: {{Query: (500 + (500 * 0.75)) }} }}"}, //Spinner
+				"(O)687": {"Price": "{{Round: {{Query: (1000 + (1000 * 0.75)) }} }}"}, //Dressed Spinner
+				"(O)691": {"Price": "{{Round: {{Query: (1000 + (1000 * 0.75)) }} }}"}, //Barbed Hook
+				"(O)692": {"Price": "{{Round: {{Query: (200 + (200 * 0.75)) }} }}"}, //Lead Bobber
+				"(O)693": {"Price": "{{Round: {{Query: (750 + (750 * 0.75)) }} }}"}, //Treasure Hunter
+				"(O)694": {"Price": "{{Round: {{Query: (500 + (500 * 0.75)) }} }}"}, //Trap Bobber
+				"(O)695": {"Price": "{{Round: {{Query: (750 + (750 * 0.75)) }} }}"}, //Cork Bobber
+				"(O)SonarBobber": {"Price": "{{Round: {{Query: (500 + (500 * 0.75)) }} }}"}, //Sonar Bobber
+					   },
+			"When": {"Fish Shop Tackle Prices": "75% More Expensive"},
+		},
+		{
+			"LogName": "Fishing Shop Tackle Prices 100% More Expensive",
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "FishShop", "Items" ],
+			"Fields": {
+			    "(O)686": {"Price": "{{Round: {{Query: (500 + (500 * 1)) }} }}"}, //Spinner
+				"(O)687": {"Price": "{{Round: {{Query: (1000 + (1000 * 1)) }} }}"}, //Dressed Spinner
+				"(O)691": {"Price": "{{Round: {{Query: (1000 + (1000 * 1)) }} }}"}, //Barbed Hook
+				"(O)692": {"Price": "{{Round: {{Query: (200 + (200 * 1)) }} }}"}, //Lead Bobber
+				"(O)693": {"Price": "{{Round: {{Query: (750 + (750 * 1)) }} }}"}, //Treasure Hunter
+				"(O)694": {"Price": "{{Round: {{Query: (500 + (500 * 1)) }} }}"}, //Trap Bobber
+				"(O)695": {"Price": "{{Round: {{Query: (750 + (750 * 1)) }} }}"}, //Cork Bobber
+				"(O)SonarBobber": {"Price": "{{Round: {{Query: (500 + (500 * 1)) }} }}"}, //Sonar Bobber
+					   },
+			"When": {"Fish Shop Tackle Prices": "100% More Expensive"},
+		},
+		{
+			"LogName": "Fishing Shop Curiosity/Quality 25% Cheaper",
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "FishShop", "Items" ],
+			"Fields": {
+			    "(O)856": {"Price": "{{Round: {{Query: (1 - (1 * 0.25)) }} }}"}, //Curiosity Lure
+				"(O)877": {"Price": "{{Round: {{Query: (1 - (1 * 0.25)) }} }}"}, //Quality Bobber
+					   },
+			"When": {"Fish Shop Curiosity/Quality": true, "Fish Shop Tackle Prices": "25% Cheaper"},
+		},
+		{
+			"LogName": "Fishing Shop Curiosity/Quality 50% Cheaper",
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "FishShop", "Items" ],
+			"Fields": {
+			    "(O)856": {"Price": "{{Round: {{Query: (1 - (1 * 0.50)) }} }}"}, //Curiosity Lure
+				"(O)877": {"Price": "{{Round: {{Query: (1 - (1 * 0.50)) }} }}"}, //Quality Bobber
+					   },
+			"When": {"Fish Shop Curiosity/Quality": true, "Fish Shop Tackle Prices": "50% Cheaper"},
+		},
+		{
+			"LogName": "Fishing Shop Curiosity/Quality 75% Cheaper",
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "FishShop", "Items" ],
+			"Fields": {
+			    "(O)856": {"Price": "{{Round: {{Query: (1 - (1 * 0.75)) }} }}"}, //Curiosity Lure
+				"(O)877": {"Price": "{{Round: {{Query: (1 - (1 * 0.75)) }} }}"}, //Quality Bobber
+					   },
+			"When": {"Fish Shop Curiosity/Quality": true, "Fish Shop Tackle Prices": "75% Cheaper"},
+		},
+		{
+			"LogName": "Fishing Shop Curiosity/Quality 99% Cheaper",
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "FishShop", "Items" ],
+			"Fields": {
+			    "(O)856": {"Price": 1}, //Curiosity Lure
+				"(O)877": {"Price": 1}, //Quality Bobber
+					   },
+			"When": {"Fish Shop Curiosity/Quality": true, "Fish Shop Tackle Prices": "99% Cheaper"},
+		},
+		{
+			"LogName": "Fishing Shop Curiosity/Quality 25% More Expensive",
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "FishShop", "Items" ],
+			"Fields": {
+			    "(O)856": {"Price": "{{Round: {{Query: (1 + (1 * 0.25)) }} }}"}, //Curiosity Lure
+				"(O)877": {"Price": "{{Round: {{Query: (1 + (1 * 0.25)) }} }}"}, //Quality Bobber
+					   },
+			"When": {"Fish Shop Curiosity/Quality": true, "Fish Shop Tackle Prices": "25% More Expensive"},
+		},
+		{
+			"LogName": "Fishing Shop Curiosity/Quality 50% More Expensive",
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "FishShop", "Items" ],
+			"Fields": {
+			    "(O)856": {"Price": "{{Round: {{Query: (1 + (1 * 0.50)) }} }}"}, //Curiosity Lure
+				"(O)877": {"Price": "{{Round: {{Query: (1 + (1 * 0.50)) }} }}"}, //Quality Bobber
+					   },
+			"When": {"Fish Shop Curiosity/Quality": true, "Fish Shop Tackle Prices": "50% More Expensive"},
+		},
+		{
+			"LogName": "Fishing Shop Curiosity/Quality 75% More Expensive",
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "FishShop", "Items" ],
+			"Fields": {
+			    "(O)856": {"Price": "{{Round: {{Query: (1 + (1 * 0.75)) }} }}"}, //Curiosity Lure
+				"(O)877": {"Price": "{{Round: {{Query: (1 + (1 * 0.75)) }} }}"}, //Quality Bobber
+					   },
+			"When": {"Fish Shop Curiosity/Quality": true, "Fish Shop Tackle Prices": "75% More Expensive"},
+		},
+		{
+			"LogName": "Fishing Shop Curiosity/Quality 100% More Expensive",
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "FishShop", "Items" ],
+			"Fields": {
+			    "(O)856": {"Price": "{{Round: {{Query: (1 + (1 * 1)) }} }}"}, //Curiosity Lure
+				"(O)877": {"Price": "{{Round: {{Query: (1 + (1 * 1)) }} }}"}, //Quality Bobber
+					   },
+			"When": {"Fish Shop Curiosity/Quality": true, "Fish Shop Tackle Prices": "100% More Expensive"},
+		},
+	]
+}

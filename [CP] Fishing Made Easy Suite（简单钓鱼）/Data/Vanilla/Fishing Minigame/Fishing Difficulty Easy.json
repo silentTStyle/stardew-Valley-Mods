@@ -1,0 +1,1384 @@
+{
+	"Changes": [
+		{
+			"LogName": "Fishing Difficulty 5% Easier",
+			"Action": "EditData",
+			"Target": "Data/Fish",
+			"Fields": {
+			    "128": {1: "{{Round: {{Query: (80 - (80 * 0.05)) }} }}"}, //Pufferfish
+				"129": {1: "{{Round: {{Query: (30 - (30 * 0.05)) }} }}"}, //Anchovy
+				"130": {1: "{{Round: {{Query: (70 - (70 * 0.05)) }} }}"}, //Tuna
+				"131": {1: "{{Round: {{Query: (30 - (30 * 0.05)) }} }}"}, //Sardine
+				"132": {1: "{{Round: {{Query: (35 - (35 * 0.05)) }} }}"}, //Bream
+				"136": {1: "{{Round: {{Query: (50 - (50 * 0.05)) }} }}"}, //Largemouth Bass
+				"137": {1: "{{Round: {{Query: (28 - (28 * 0.05)) }} }}"}, //Smallmouth Bass
+				"138": {1: "{{Round: {{Query: (45 - (45 * 0.05)) }} }}"}, //Rainbow Trout
+				"139": {1: "{{Round: {{Query: (50 - (50 * 0.05)) }} }}"}, //Salmon
+				"140": {1: "{{Round: {{Query: (45 - (45 * 0.05)) }} }}"}, //Walleye
+				"141": {1: "{{Round: {{Query: (35 - (35 * 0.05)) }} }}"}, //Perch
+				"142": {1: "{{Round: {{Query: (15 - (15 * 0.05)) }} }}"}, //Carp
+				"143": {1: "{{Round: {{Query: (75 - (75 * 0.05)) }} }}"}, //Catfish
+				"144": {1: "{{Round: {{Query: (60 - (60 * 0.05)) }} }}"}, //Pike
+				"145": {1: "{{Round: {{Query: (30 - (30 * 0.05)) }} }}"}, //Sunfish
+				"146": {1: "{{Round: {{Query: (55 - (55 * 0.05)) }} }}"}, //Red Mullet
+				"147": {1: "{{Round: {{Query: (25 - (25 * 0.05)) }} }}"}, //Herring
+				"148": {1: "{{Round: {{Query: (70 - (70 * 0.05)) }} }}"}, //Eel
+				"149": {1: "{{Round: {{Query: (95 - (95 * 0.05)) }} }}"}, //Octopus
+				"150": {1: "{{Round: {{Query: (40 - (40 * 0.05)) }} }}"}, //Red Snapper
+				"151": {1: "{{Round: {{Query: (75 - (75 * 0.05)) }} }}"}, //Squid
+				"154": {1: "{{Round: {{Query: (40 - (40 * 0.05)) }} }}"}, //Sea Cucumber
+				"155": {1: "{{Round: {{Query: (80 - (80 * 0.05)) }} }}"}, //Super Cucumber
+				"156": {1: "{{Round: {{Query: (50 - (50 * 0.05)) }} }}"}, //Ghostfish
+				"158": {1: "{{Round: {{Query: (65 - (65 * 0.05)) }} }}"}, //Stonefish
+				"159": {1: "{{Round: {{Query: (95 - (95 * 0.05)) }} }}"}, //Crimsonfish
+				"160": {1: "{{Round: {{Query: (85 - (85 * 0.05)) }} }}"}, //Angler
+				"161": {1: "{{Round: {{Query: (85 - (85 * 0.05)) }} }}"}, //Ice Pip
+				"162": {1: "{{Round: {{Query: (90 - (90 * 0.05)) }} }}"}, //Lava Eel
+				"163": {1: "{{Round: {{Query: (110 - (110 * 0.05)) }} }}"}, //Legend
+				"164": {1: "{{Round: {{Query: (65 - (65 * 0.05)) }} }}"}, //Sandfish
+				"165": {1: "{{Round: {{Query: (90 - (90 * 0.05)) }} }}"}, //Scorpion Carp
+				"267": {1: "{{Round: {{Query: (50 - (50 * 0.05)) }} }}"}, //Flounder
+				"269": {1: "{{Round: {{Query: (55 - (55 * 0.05)) }} }}"}, //Midnight Carp
+				"682": {1: "{{Round: {{Query: (80 - (80 * 0.05)) }} }}"}, //Mutant Carp
+				"698": {1: "{{Round: {{Query: (78 - (78 * 0.05)) }} }}"}, //Sturgeon
+				"699": {1: "{{Round: {{Query: (60 - (60 * 0.05)) }} }}"}, //Tiger Trout
+				"700": {1: "{{Round: {{Query: (46 - (46 * 0.05)) }} }}"}, //Bullhead
+				"701": {1: "{{Round: {{Query: (50 - (50 * 0.05)) }} }}"}, //Tilapia
+				"702": {1: "{{Round: {{Query: (35 - (35 * 0.05)) }} }}"}, //Chub
+				"704": {1: "{{Round: {{Query: (78 - (78 * 0.05)) }} }}"}, //Dorado
+				"705": {1: "{{Round: {{Query: (60 - (60 * 0.05)) }} }}"}, //Albacore
+				"706": {1: "{{Round: {{Query: (45 - (45 * 0.05)) }} }}"}, //Shad
+				"707": {1: "{{Round: {{Query: (85 - (85 * 0.05)) }} }}"}, //Lingcod
+				"708": {1: "{{Round: {{Query: (50 - (50 * 0.05)) }} }}"}, //Halibut
+				"734": {1: "{{Round: {{Query: (50 - (50 * 0.05)) }} }}"}, //Woodskip
+				"775": {1: "{{Round: {{Query: (100 - (100 * 0.05)) }} }}"}, //Glacierfish
+				"795": {1: "{{Round: {{Query: (80 - (80 * 0.05)) }} }}"}, //Void Salmon
+				"796": {1: "{{Round: {{Query: (55 - (55 * 0.05)) }} }}"}, //Slimejack
+				"798": {1: "{{Round: {{Query: (55 - (55 * 0.05)) }} }}"}, //Midnight Squid
+				"799": {1: "{{Round: {{Query: (60 - (60 * 0.05)) }} }}"}, //Spook Fish
+				"800": {1: "{{Round: {{Query: (75 - (75 * 0.05)) }} }}"}, //Blobfish
+				"836": {1: "{{Round: {{Query: (80 - (80 * 0.05)) }} }}"}, //Stingray
+				"837": {1: "{{Round: {{Query: (50 - (50 * 0.05)) }} }}"}, //Lionfish
+				"838": {1: "{{Round: {{Query: (60 - (60 * 0.05)) }} }}"}, //Blue Discus
+				"898": {1: "{{Round: {{Query: (95 - (95 * 0.05)) }} }}"}, //Son of Crimsonfish
+				"899": {1: "{{Round: {{Query: (85 - (85 * 0.05)) }} }}"}, //Ms. Angler
+				"900": {1: "{{Round: {{Query: (110 - (110 * 0.05)) }} }}"}, //Legend II
+				"901": {1: "{{Round: {{Query: (80 - (80 * 0.05)) }} }}"}, //Radioactive Carp
+				"902": {1: "{{Round: {{Query: (100 - (100 * 0.05)) }} }}"}, //Glacierfish Jr
+				"Goby": {1: "{{Round: {{Query: (55 - (55 * 0.05)) }} }}"}, //Goby
+					  }, 
+				"When": {"Fishing Difficulty": "5% Easier"},
+		},
+		{
+			"LogName": "Fishing Difficulty 10% Easier",
+			"Action": "EditData",
+			"Target": "Data/Fish",
+			"Fields": {
+			    "128": {1: "{{Round: {{Query: (80 - (80 * 0.10)) }} }}"}, //Pufferfish
+				"129": {1: "{{Round: {{Query: (30 - (30 * 0.10)) }} }}"}, //Anchovy
+				"130": {1: "{{Round: {{Query: (70 - (70 * 0.10)) }} }}"}, //Tuna
+				"131": {1: "{{Round: {{Query: (30 - (30 * 0.10)) }} }}"}, //Sardine
+				"132": {1: "{{Round: {{Query: (35 - (35 * 0.10)) }} }}"}, //Bream
+				"136": {1: "{{Round: {{Query: (50 - (50 * 0.10)) }} }}"}, //Largemouth Bass
+				"137": {1: "{{Round: {{Query: (28 - (28 * 0.10)) }} }}"}, //Smallmouth Bass
+				"138": {1: "{{Round: {{Query: (45 - (45 * 0.10)) }} }}"}, //Rainbow Trout
+				"139": {1: "{{Round: {{Query: (50 - (50 * 0.10)) }} }}"}, //Salmon
+				"140": {1: "{{Round: {{Query: (45 - (45 * 0.10)) }} }}"}, //Walleye
+				"141": {1: "{{Round: {{Query: (35 - (35 * 0.10)) }} }}"}, //Perch
+				"142": {1: "{{Round: {{Query: (15 - (15 * 0.10)) }} }}"}, //Carp
+				"143": {1: "{{Round: {{Query: (75 - (75 * 0.10)) }} }}"}, //Catfish
+				"144": {1: "{{Round: {{Query: (60 - (60 * 0.10)) }} }}"}, //Pike
+				"145": {1: "{{Round: {{Query: (30 - (30 * 0.10)) }} }}"}, //Sunfish
+				"146": {1: "{{Round: {{Query: (55 - (55 * 0.10)) }} }}"}, //Red Mullet
+				"147": {1: "{{Round: {{Query: (25 - (25 * 0.10)) }} }}"}, //Herring
+				"148": {1: "{{Round: {{Query: (70 - (70 * 0.10)) }} }}"}, //Eel
+				"149": {1: "{{Round: {{Query: (95 - (95 * 0.10)) }} }}"}, //Octopus
+				"150": {1: "{{Round: {{Query: (40 - (40 * 0.10)) }} }}"}, //Red Snapper
+				"151": {1: "{{Round: {{Query: (75 - (75 * 0.10)) }} }}"}, //Squid
+				"154": {1: "{{Round: {{Query: (40 - (40 * 0.10)) }} }}"}, //Sea Cucumber
+				"155": {1: "{{Round: {{Query: (80 - (80 * 0.10)) }} }}"}, //Super Cucumber
+				"156": {1: "{{Round: {{Query: (50 - (50 * 0.10)) }} }}"}, //Ghostfish
+				"158": {1: "{{Round: {{Query: (65 - (65 * 0.10)) }} }}"}, //Stonefish
+				"159": {1: "{{Round: {{Query: (95 - (95 * 0.10)) }} }}"}, //Crimsonfish
+				"160": {1: "{{Round: {{Query: (85 - (85 * 0.10)) }} }}"}, //Angler
+				"161": {1: "{{Round: {{Query: (85 - (85 * 0.10)) }} }}"}, //Ice Pip
+				"162": {1: "{{Round: {{Query: (90 - (90 * 0.10)) }} }}"}, //Lava Eel
+				"163": {1: "{{Round: {{Query: (110 - (110 * 0.10)) }} }}"}, //Legend
+				"164": {1: "{{Round: {{Query: (65 - (65 * 0.10)) }} }}"}, //Sandfish
+				"165": {1: "{{Round: {{Query: (90 - (90 * 0.10)) }} }}"}, //Scorpion Carp
+				"267": {1: "{{Round: {{Query: (50 - (50 * 0.10)) }} }}"}, //Flounder
+				"269": {1: "{{Round: {{Query: (55 - (55 * 0.10)) }} }}"}, //Midnight Carp
+				"682": {1: "{{Round: {{Query: (80 - (80 * 0.10)) }} }}"}, //Mutant Carp
+				"698": {1: "{{Round: {{Query: (78 - (78 * 0.10)) }} }}"}, //Sturgeon
+				"699": {1: "{{Round: {{Query: (60 - (60 * 0.10)) }} }}"}, //Tiger Trout
+				"700": {1: "{{Round: {{Query: (46 - (46 * 0.10)) }} }}"}, //Bullhead
+				"701": {1: "{{Round: {{Query: (50 - (50 * 0.10)) }} }}"}, //Tilapia
+				"702": {1: "{{Round: {{Query: (35 - (35 * 0.10)) }} }}"}, //Chub
+				"704": {1: "{{Round: {{Query: (78 - (78 * 0.10)) }} }}"}, //Dorado
+				"705": {1: "{{Round: {{Query: (60 - (60 * 0.10)) }} }}"}, //Albacore
+				"706": {1: "{{Round: {{Query: (45 - (45 * 0.10)) }} }}"}, //Shad
+				"707": {1: "{{Round: {{Query: (85 - (85 * 0.10)) }} }}"}, //Lingcod
+				"708": {1: "{{Round: {{Query: (50 - (50 * 0.10)) }} }}"}, //Halibut
+				"734": {1: "{{Round: {{Query: (50 - (50 * 0.10)) }} }}"}, //Woodskip
+				"775": {1: "{{Round: {{Query: (100 - (100 * 0.10)) }} }}"}, //Glacierfish
+				"795": {1: "{{Round: {{Query: (80 - (80 * 0.10)) }} }}"}, //Void Salmon
+				"796": {1: "{{Round: {{Query: (55 - (55 * 0.10)) }} }}"}, //Slimejack
+				"798": {1: "{{Round: {{Query: (55 - (55 * 0.10)) }} }}"}, //Midnight Squid
+				"799": {1: "{{Round: {{Query: (60 - (60 * 0.10)) }} }}"}, //Spook Fish
+				"800": {1: "{{Round: {{Query: (75 - (75 * 0.10)) }} }}"}, //Blobfish
+				"836": {1: "{{Round: {{Query: (80 - (80 * 0.10)) }} }}"}, //Stingray
+				"837": {1: "{{Round: {{Query: (50 - (50 * 0.10)) }} }}"}, //Lionfish
+				"838": {1: "{{Round: {{Query: (60 - (60 * 0.10)) }} }}"}, //Blue Discus
+				"898": {1: "{{Round: {{Query: (95 - (95 * 0.10)) }} }}"}, //Son of Crimsonfish
+				"899": {1: "{{Round: {{Query: (85 - (85 * 0.10)) }} }}"}, //Ms. Angler
+				"900": {1: "{{Round: {{Query: (110 - (110 * 0.10)) }} }}"}, //Legend II
+				"901": {1: "{{Round: {{Query: (80 - (80 * 0.10)) }} }}"}, //Radioactive Carp
+				"902": {1: "{{Round: {{Query: (100 - (100 * 0.10)) }} }}"}, //Glacierfish Jr
+				"Goby": {1: "{{Round: {{Query: (55 - (55 * 0.10)) }} }}"}, //Goby
+					  }, 
+				"When": {"Fishing Difficulty": "10% Easier"},
+		},
+		{
+			"LogName": "Fishing Difficulty 15% Easier",
+			"Action": "EditData",
+			"Target": "Data/Fish",
+			"Fields": {
+			    "128": {1: "{{Round: {{Query: (80 - (80 * 0.15)) }} }}"}, //Pufferfish
+				"129": {1: "{{Round: {{Query: (30 - (30 * 0.15)) }} }}"}, //Anchovy
+				"130": {1: "{{Round: {{Query: (70 - (70 * 0.15)) }} }}"}, //Tuna
+				"131": {1: "{{Round: {{Query: (30 - (30 * 0.15)) }} }}"}, //Sardine
+				"132": {1: "{{Round: {{Query: (35 - (35 * 0.15)) }} }}"}, //Bream
+				"136": {1: "{{Round: {{Query: (50 - (50 * 0.15)) }} }}"}, //Largemouth Bass
+				"137": {1: "{{Round: {{Query: (28 - (28 * 0.15)) }} }}"}, //Smallmouth Bass
+				"138": {1: "{{Round: {{Query: (45 - (45 * 0.15)) }} }}"}, //Rainbow Trout
+				"139": {1: "{{Round: {{Query: (50 - (50 * 0.15)) }} }}"}, //Salmon
+				"140": {1: "{{Round: {{Query: (45 - (45 * 0.15)) }} }}"}, //Walleye
+				"141": {1: "{{Round: {{Query: (35 - (35 * 0.15)) }} }}"}, //Perch
+				"142": {1: "{{Round: {{Query: (15 - (15 * 0.15)) }} }}"}, //Carp
+				"143": {1: "{{Round: {{Query: (75 - (75 * 0.15)) }} }}"}, //Catfish
+				"144": {1: "{{Round: {{Query: (60 - (60 * 0.15)) }} }}"}, //Pike
+				"145": {1: "{{Round: {{Query: (30 - (30 * 0.15)) }} }}"}, //Sunfish
+				"146": {1: "{{Round: {{Query: (55 - (55 * 0.15)) }} }}"}, //Red Mullet
+				"147": {1: "{{Round: {{Query: (25 - (25 * 0.15)) }} }}"}, //Herring
+				"148": {1: "{{Round: {{Query: (70 - (70 * 0.15)) }} }}"}, //Eel
+				"149": {1: "{{Round: {{Query: (95 - (95 * 0.15)) }} }}"}, //Octopus
+				"150": {1: "{{Round: {{Query: (40 - (40 * 0.15)) }} }}"}, //Red Snapper
+				"151": {1: "{{Round: {{Query: (75 - (75 * 0.15)) }} }}"}, //Squid
+				"154": {1: "{{Round: {{Query: (40 - (40 * 0.15)) }} }}"}, //Sea Cucumber
+				"155": {1: "{{Round: {{Query: (80 - (80 * 0.15)) }} }}"}, //Super Cucumber
+				"156": {1: "{{Round: {{Query: (50 - (50 * 0.15)) }} }}"}, //Ghostfish
+				"158": {1: "{{Round: {{Query: (65 - (65 * 0.15)) }} }}"}, //Stonefish
+				"159": {1: "{{Round: {{Query: (95 - (95 * 0.15)) }} }}"}, //Crimsonfish
+				"160": {1: "{{Round: {{Query: (85 - (85 * 0.15)) }} }}"}, //Angler
+				"161": {1: "{{Round: {{Query: (85 - (85 * 0.15)) }} }}"}, //Ice Pip
+				"162": {1: "{{Round: {{Query: (90 - (90 * 0.15)) }} }}"}, //Lava Eel
+				"163": {1: "{{Round: {{Query: (110 - (110 * 0.15)) }} }}"}, //Legend
+				"164": {1: "{{Round: {{Query: (65 - (65 * 0.15)) }} }}"}, //Sandfish
+				"165": {1: "{{Round: {{Query: (90 - (90 * 0.15)) }} }}"}, //Scorpion Carp
+				"267": {1: "{{Round: {{Query: (50 - (50 * 0.15)) }} }}"}, //Flounder
+				"269": {1: "{{Round: {{Query: (55 - (55 * 0.15)) }} }}"}, //Midnight Carp
+				"682": {1: "{{Round: {{Query: (80 - (80 * 0.15)) }} }}"}, //Mutant Carp
+				"698": {1: "{{Round: {{Query: (78 - (78 * 0.15)) }} }}"}, //Sturgeon
+				"699": {1: "{{Round: {{Query: (60 - (60 * 0.15)) }} }}"}, //Tiger Trout
+				"700": {1: "{{Round: {{Query: (46 - (46 * 0.15)) }} }}"}, //Bullhead
+				"701": {1: "{{Round: {{Query: (50 - (50 * 0.15)) }} }}"}, //Tilapia
+				"702": {1: "{{Round: {{Query: (35 - (35 * 0.15)) }} }}"}, //Chub
+				"704": {1: "{{Round: {{Query: (78 - (78 * 0.15)) }} }}"}, //Dorado
+				"705": {1: "{{Round: {{Query: (60 - (60 * 0.15)) }} }}"}, //Albacore
+				"706": {1: "{{Round: {{Query: (45 - (45 * 0.15)) }} }}"}, //Shad
+				"707": {1: "{{Round: {{Query: (85 - (85 * 0.15)) }} }}"}, //Lingcod
+				"708": {1: "{{Round: {{Query: (50 - (50 * 0.15)) }} }}"}, //Halibut
+				"734": {1: "{{Round: {{Query: (50 - (50 * 0.15)) }} }}"}, //Woodskip
+				"775": {1: "{{Round: {{Query: (100 - (100 * 0.15)) }} }}"}, //Glacierfish
+				"795": {1: "{{Round: {{Query: (80 - (80 * 0.15)) }} }}"}, //Void Salmon
+				"796": {1: "{{Round: {{Query: (55 - (55 * 0.15)) }} }}"}, //Slimejack
+				"798": {1: "{{Round: {{Query: (55 - (55 * 0.15)) }} }}"}, //Midnight Squid
+				"799": {1: "{{Round: {{Query: (60 - (60 * 0.15)) }} }}"}, //Spook Fish
+				"800": {1: "{{Round: {{Query: (75 - (75 * 0.15)) }} }}"}, //Blobfish
+				"836": {1: "{{Round: {{Query: (80 - (80 * 0.15)) }} }}"}, //Stingray
+				"837": {1: "{{Round: {{Query: (50 - (50 * 0.15)) }} }}"}, //Lionfish
+				"838": {1: "{{Round: {{Query: (60 - (60 * 0.15)) }} }}"}, //Blue Discus
+				"898": {1: "{{Round: {{Query: (95 - (95 * 0.15)) }} }}"}, //Son of Crimsonfish
+				"899": {1: "{{Round: {{Query: (85 - (85 * 0.15)) }} }}"}, //Ms. Angler
+				"900": {1: "{{Round: {{Query: (110 - (110 * 0.15)) }} }}"}, //Legend II
+				"901": {1: "{{Round: {{Query: (80 - (80 * 0.15)) }} }}"}, //Radioactive Carp
+				"902": {1: "{{Round: {{Query: (100 - (100 * 0.15)) }} }}"}, //Glacierfish Jr
+				"Goby": {1: "{{Round: {{Query: (55 - (55 * 0.15)) }} }}"}, //Goby
+					  }, 
+				"When": {"Fishing Difficulty": "15% Easier"},
+		},
+	    {
+			"LogName": "Fishing Difficulty 20% Easier",
+			"Action": "EditData",
+			"Target": "Data/Fish",
+			"Fields": {
+			    "128": {1: "{{Round: {{Query: (80 - (80 * 0.20)) }} }}"}, //Pufferfish
+				"129": {1: "{{Round: {{Query: (30 - (30 * 0.20)) }} }}"}, //Anchovy
+				"130": {1: "{{Round: {{Query: (70 - (70 * 0.20)) }} }}"}, //Tuna
+				"131": {1: "{{Round: {{Query: (30 - (30 * 0.20)) }} }}"}, //Sardine
+				"132": {1: "{{Round: {{Query: (35 - (35 * 0.20)) }} }}"}, //Bream
+				"136": {1: "{{Round: {{Query: (50 - (50 * 0.20)) }} }}"}, //Largemouth Bass
+				"137": {1: "{{Round: {{Query: (28 - (28 * 0.20)) }} }}"}, //Smallmouth Bass
+				"138": {1: "{{Round: {{Query: (45 - (45 * 0.20)) }} }}"}, //Rainbow Trout
+				"139": {1: "{{Round: {{Query: (50 - (50 * 0.20)) }} }}"}, //Salmon
+				"140": {1: "{{Round: {{Query: (45 - (45 * 0.20)) }} }}"}, //Walleye
+				"141": {1: "{{Round: {{Query: (35 - (35 * 0.20)) }} }}"}, //Perch
+				"142": {1: "{{Round: {{Query: (15 - (15 * 0.20)) }} }}"}, //Carp
+				"143": {1: "{{Round: {{Query: (75 - (75 * 0.20)) }} }}"}, //Catfish
+				"144": {1: "{{Round: {{Query: (60 - (60 * 0.20)) }} }}"}, //Pike
+				"145": {1: "{{Round: {{Query: (30 - (30 * 0.20)) }} }}"}, //Sunfish
+				"146": {1: "{{Round: {{Query: (55 - (55 * 0.20)) }} }}"}, //Red Mullet
+				"147": {1: "{{Round: {{Query: (25 - (25 * 0.20)) }} }}"}, //Herring
+				"148": {1: "{{Round: {{Query: (70 - (70 * 0.20)) }} }}"}, //Eel
+				"149": {1: "{{Round: {{Query: (95 - (95 * 0.20)) }} }}"}, //Octopus
+				"150": {1: "{{Round: {{Query: (40 - (40 * 0.20)) }} }}"}, //Red Snapper
+				"151": {1: "{{Round: {{Query: (75 - (75 * 0.20)) }} }}"}, //Squid
+				"154": {1: "{{Round: {{Query: (40 - (40 * 0.20)) }} }}"}, //Sea Cucumber
+				"155": {1: "{{Round: {{Query: (80 - (80 * 0.20)) }} }}"}, //Super Cucumber
+				"156": {1: "{{Round: {{Query: (50 - (50 * 0.20)) }} }}"}, //Ghostfish
+				"158": {1: "{{Round: {{Query: (65 - (65 * 0.20)) }} }}"}, //Stonefish
+				"159": {1: "{{Round: {{Query: (95 - (95 * 0.20)) }} }}"}, //Crimsonfish
+				"160": {1: "{{Round: {{Query: (85 - (85 * 0.20)) }} }}"}, //Angler
+				"161": {1: "{{Round: {{Query: (85 - (85 * 0.20)) }} }}"}, //Ice Pip
+				"162": {1: "{{Round: {{Query: (90 - (90 * 0.20)) }} }}"}, //Lava Eel
+				"163": {1: "{{Round: {{Query: (110 - (110 * 0.20)) }} }}"}, //Legend
+				"164": {1: "{{Round: {{Query: (65 - (65 * 0.20)) }} }}"}, //Sandfish
+				"165": {1: "{{Round: {{Query: (90 - (90 * 0.20)) }} }}"}, //Scorpion Carp
+				"267": {1: "{{Round: {{Query: (50 - (50 * 0.20)) }} }}"}, //Flounder
+				"269": {1: "{{Round: {{Query: (55 - (55 * 0.20)) }} }}"}, //Midnight Carp
+				"682": {1: "{{Round: {{Query: (80 - (80 * 0.20)) }} }}"}, //Mutant Carp
+				"698": {1: "{{Round: {{Query: (78 - (78 * 0.20)) }} }}"}, //Sturgeon
+				"699": {1: "{{Round: {{Query: (60 - (60 * 0.20)) }} }}"}, //Tiger Trout
+				"700": {1: "{{Round: {{Query: (46 - (46 * 0.20)) }} }}"}, //Bullhead
+				"701": {1: "{{Round: {{Query: (50 - (50 * 0.20)) }} }}"}, //Tilapia
+				"702": {1: "{{Round: {{Query: (35 - (35 * 0.20)) }} }}"}, //Chub
+				"704": {1: "{{Round: {{Query: (78 - (78 * 0.20)) }} }}"}, //Dorado
+				"705": {1: "{{Round: {{Query: (60 - (60 * 0.20)) }} }}"}, //Albacore
+				"706": {1: "{{Round: {{Query: (45 - (45 * 0.20)) }} }}"}, //Shad
+				"707": {1: "{{Round: {{Query: (85 - (85 * 0.20)) }} }}"}, //Lingcod
+				"708": {1: "{{Round: {{Query: (50 - (50 * 0.20)) }} }}"}, //Halibut
+				"734": {1: "{{Round: {{Query: (50 - (50 * 0.20)) }} }}"}, //Woodskip
+				"775": {1: "{{Round: {{Query: (100 - (100 * 0.20)) }} }}"}, //Glacierfish
+				"795": {1: "{{Round: {{Query: (80 - (80 * 0.20)) }} }}"}, //Void Salmon
+				"796": {1: "{{Round: {{Query: (55 - (55 * 0.20)) }} }}"}, //Slimejack
+				"798": {1: "{{Round: {{Query: (55 - (55 * 0.20)) }} }}"}, //Midnight Squid
+				"799": {1: "{{Round: {{Query: (60 - (60 * 0.20)) }} }}"}, //Spook Fish
+				"800": {1: "{{Round: {{Query: (75 - (75 * 0.20)) }} }}"}, //Blobfish
+				"836": {1: "{{Round: {{Query: (80 - (80 * 0.20)) }} }}"}, //Stingray
+				"837": {1: "{{Round: {{Query: (50 - (50 * 0.20)) }} }}"}, //Lionfish
+				"838": {1: "{{Round: {{Query: (60 - (60 * 0.20)) }} }}"}, //Blue Discus
+				"898": {1: "{{Round: {{Query: (95 - (95 * 0.20)) }} }}"}, //Son of Crimsonfish
+				"899": {1: "{{Round: {{Query: (85 - (85 * 0.20)) }} }}"}, //Ms. Angler
+				"900": {1: "{{Round: {{Query: (110 - (110 * 0.20)) }} }}"}, //Legend II
+				"901": {1: "{{Round: {{Query: (80 - (80 * 0.20)) }} }}"}, //Radioactive Carp
+				"902": {1: "{{Round: {{Query: (100 - (100 * 0.20)) }} }}"}, //Glacierfish Jr
+				"Goby": {1: "{{Round: {{Query: (55 - (55 * 0.20)) }} }}"}, //Goby
+					  },
+				"When": {"Fishing Difficulty": "20% Easier"},
+		},
+		{
+			"LogName": "Fishing Difficulty 25% Easier",
+			"Action": "EditData",
+			"Target": "Data/Fish",
+			"Fields": {
+			    "128": {1: "{{Round: {{Query: (80 - (80 * 0.25)) }} }}"}, //Pufferfish
+				"129": {1: "{{Round: {{Query: (30 - (30 * 0.25)) }} }}"}, //Anchovy
+				"130": {1: "{{Round: {{Query: (70 - (70 * 0.25)) }} }}"}, //Tuna
+				"131": {1: "{{Round: {{Query: (30 - (30 * 0.25)) }} }}"}, //Sardine
+				"132": {1: "{{Round: {{Query: (35 - (35 * 0.25)) }} }}"}, //Bream
+				"136": {1: "{{Round: {{Query: (50 - (50 * 0.25)) }} }}"}, //Largemouth Bass
+				"137": {1: "{{Round: {{Query: (28 - (28 * 0.25)) }} }}"}, //Smallmouth Bass
+				"138": {1: "{{Round: {{Query: (45 - (45 * 0.25)) }} }}"}, //Rainbow Trout
+				"139": {1: "{{Round: {{Query: (50 - (50 * 0.25)) }} }}"}, //Salmon
+				"140": {1: "{{Round: {{Query: (45 - (45 * 0.25)) }} }}"}, //Walleye
+				"141": {1: "{{Round: {{Query: (35 - (35 * 0.25)) }} }}"}, //Perch
+				"142": {1: "{{Round: {{Query: (15 - (15 * 0.25)) }} }}"}, //Carp
+				"143": {1: "{{Round: {{Query: (75 - (75 * 0.25)) }} }}"}, //Catfish
+				"144": {1: "{{Round: {{Query: (60 - (60 * 0.25)) }} }}"}, //Pike
+				"145": {1: "{{Round: {{Query: (30 - (30 * 0.25)) }} }}"}, //Sunfish
+				"146": {1: "{{Round: {{Query: (55 - (55 * 0.25)) }} }}"}, //Red Mullet
+				"147": {1: "{{Round: {{Query: (25 - (25 * 0.25)) }} }}"}, //Herring
+				"148": {1: "{{Round: {{Query: (70 - (70 * 0.25)) }} }}"}, //Eel
+				"149": {1: "{{Round: {{Query: (95 - (95 * 0.25)) }} }}"}, //Octopus
+				"150": {1: "{{Round: {{Query: (40 - (40 * 0.25)) }} }}"}, //Red Snapper
+				"151": {1: "{{Round: {{Query: (75 - (75 * 0.25)) }} }}"}, //Squid
+				"154": {1: "{{Round: {{Query: (40 - (40 * 0.25)) }} }}"}, //Sea Cucumber
+				"155": {1: "{{Round: {{Query: (80 - (80 * 0.25)) }} }}"}, //Super Cucumber
+				"156": {1: "{{Round: {{Query: (50 - (50 * 0.25)) }} }}"}, //Ghostfish
+				"158": {1: "{{Round: {{Query: (65 - (65 * 0.25)) }} }}"}, //Stonefish
+				"159": {1: "{{Round: {{Query: (95 - (95 * 0.25)) }} }}"}, //Crimsonfish
+				"160": {1: "{{Round: {{Query: (85 - (85 * 0.25)) }} }}"}, //Angler
+				"161": {1: "{{Round: {{Query: (85 - (85 * 0.25)) }} }}"}, //Ice Pip
+				"162": {1: "{{Round: {{Query: (90 - (90 * 0.25)) }} }}"}, //Lava Eel
+				"163": {1: "{{Round: {{Query: (110 - (110 * 0.25)) }} }}"}, //Legend
+				"164": {1: "{{Round: {{Query: (65 - (65 * 0.25)) }} }}"}, //Sandfish
+				"165": {1: "{{Round: {{Query: (90 - (90 * 0.25)) }} }}"}, //Scorpion Carp
+				"267": {1: "{{Round: {{Query: (50 - (50 * 0.25)) }} }}"}, //Flounder
+				"269": {1: "{{Round: {{Query: (55 - (55 * 0.25)) }} }}"}, //Midnight Carp
+				"682": {1: "{{Round: {{Query: (80 - (80 * 0.25)) }} }}"}, //Mutant Carp
+				"698": {1: "{{Round: {{Query: (78 - (78 * 0.25)) }} }}"}, //Sturgeon
+				"699": {1: "{{Round: {{Query: (60 - (60 * 0.25)) }} }}"}, //Tiger Trout
+				"700": {1: "{{Round: {{Query: (46 - (46 * 0.25)) }} }}"}, //Bullhead
+				"701": {1: "{{Round: {{Query: (50 - (50 * 0.25)) }} }}"}, //Tilapia
+				"702": {1: "{{Round: {{Query: (35 - (35 * 0.25)) }} }}"}, //Chub
+				"704": {1: "{{Round: {{Query: (78 - (78 * 0.25)) }} }}"}, //Dorado
+				"705": {1: "{{Round: {{Query: (60 - (60 * 0.25)) }} }}"}, //Albacore
+				"706": {1: "{{Round: {{Query: (45 - (45 * 0.25)) }} }}"}, //Shad
+				"707": {1: "{{Round: {{Query: (85 - (85 * 0.25)) }} }}"}, //Lingcod
+				"708": {1: "{{Round: {{Query: (50 - (50 * 0.25)) }} }}"}, //Halibut
+				"734": {1: "{{Round: {{Query: (50 - (50 * 0.25)) }} }}"}, //Woodskip
+				"775": {1: "{{Round: {{Query: (100 - (100 * 0.25)) }} }}"}, //Glacierfish
+				"795": {1: "{{Round: {{Query: (80 - (80 * 0.25)) }} }}"}, //Void Salmon
+				"796": {1: "{{Round: {{Query: (55 - (55 * 0.25)) }} }}"}, //Slimejack
+				"798": {1: "{{Round: {{Query: (55 - (55 * 0.25)) }} }}"}, //Midnight Squid
+				"799": {1: "{{Round: {{Query: (60 - (60 * 0.25)) }} }}"}, //Spook Fish
+				"800": {1: "{{Round: {{Query: (75 - (75 * 0.25)) }} }}"}, //Blobfish
+				"836": {1: "{{Round: {{Query: (80 - (80 * 0.25)) }} }}"}, //Stingray
+				"837": {1: "{{Round: {{Query: (50 - (50 * 0.25)) }} }}"}, //Lionfish
+				"838": {1: "{{Round: {{Query: (60 - (60 * 0.25)) }} }}"}, //Blue Discus
+				"898": {1: "{{Round: {{Query: (95 - (95 * 0.25)) }} }}"}, //Son of Crimsonfish
+				"899": {1: "{{Round: {{Query: (85 - (85 * 0.25)) }} }}"}, //Ms. Angler
+				"900": {1: "{{Round: {{Query: (110 - (110 * 0.25)) }} }}"}, //Legend II
+				"901": {1: "{{Round: {{Query: (80 - (80 * 0.25)) }} }}"}, //Radioactive Carp
+				"902": {1: "{{Round: {{Query: (100 - (100 * 0.25)) }} }}"}, //Glacierfish Jr
+				"Goby": {1: "{{Round: {{Query: (55 - (55 * 0.25)) }} }}"}, //Goby
+					  }, 
+				"When": {"Fishing Difficulty": "25% Easier"},
+		},
+		{
+			"LogName": "Fishing Difficulty 30% Easier",
+			"Action": "EditData",
+			"Target": "Data/Fish",
+			"Fields": {
+			    "128": {1: "{{Round: {{Query: (80 - (80 * 0.30)) }} }}"}, //Pufferfish
+				"129": {1: "{{Round: {{Query: (30 - (30 * 0.30)) }} }}"}, //Anchovy
+				"130": {1: "{{Round: {{Query: (70 - (70 * 0.30)) }} }}"}, //Tuna
+				"131": {1: "{{Round: {{Query: (30 - (30 * 0.30)) }} }}"}, //Sardine
+				"132": {1: "{{Round: {{Query: (35 - (35 * 0.30)) }} }}"}, //Bream
+				"136": {1: "{{Round: {{Query: (50 - (50 * 0.30)) }} }}"}, //Largemouth Bass
+				"137": {1: "{{Round: {{Query: (28 - (28 * 0.30)) }} }}"}, //Smallmouth Bass
+				"138": {1: "{{Round: {{Query: (45 - (45 * 0.30)) }} }}"}, //Rainbow Trout
+				"139": {1: "{{Round: {{Query: (50 - (50 * 0.30)) }} }}"}, //Salmon
+				"140": {1: "{{Round: {{Query: (45 - (45 * 0.30)) }} }}"}, //Walleye
+				"141": {1: "{{Round: {{Query: (35 - (35 * 0.30)) }} }}"}, //Perch
+				"142": {1: "{{Round: {{Query: (15 - (15 * 0.30)) }} }}"}, //Carp
+				"143": {1: "{{Round: {{Query: (75 - (75 * 0.30)) }} }}"}, //Catfish
+				"144": {1: "{{Round: {{Query: (60 - (60 * 0.30)) }} }}"}, //Pike
+				"145": {1: "{{Round: {{Query: (30 - (30 * 0.30)) }} }}"}, //Sunfish
+				"146": {1: "{{Round: {{Query: (55 - (55 * 0.30)) }} }}"}, //Red Mullet
+				"147": {1: "{{Round: {{Query: (25 - (25 * 0.30)) }} }}"}, //Herring
+				"148": {1: "{{Round: {{Query: (70 - (70 * 0.30)) }} }}"}, //Eel
+				"149": {1: "{{Round: {{Query: (95 - (95 * 0.30)) }} }}"}, //Octopus
+				"150": {1: "{{Round: {{Query: (40 - (40 * 0.30)) }} }}"}, //Red Snapper
+				"151": {1: "{{Round: {{Query: (75 - (75 * 0.30)) }} }}"}, //Squid
+				"154": {1: "{{Round: {{Query: (40 - (40 * 0.30)) }} }}"}, //Sea Cucumber
+				"155": {1: "{{Round: {{Query: (80 - (80 * 0.30)) }} }}"}, //Super Cucumber
+				"156": {1: "{{Round: {{Query: (50 - (50 * 0.30)) }} }}"}, //Ghostfish
+				"158": {1: "{{Round: {{Query: (65 - (65 * 0.30)) }} }}"}, //Stonefish
+				"159": {1: "{{Round: {{Query: (95 - (95 * 0.30)) }} }}"}, //Crimsonfish
+				"160": {1: "{{Round: {{Query: (85 - (85 * 0.30)) }} }}"}, //Angler
+				"161": {1: "{{Round: {{Query: (85 - (85 * 0.30)) }} }}"}, //Ice Pip
+				"162": {1: "{{Round: {{Query: (90 - (90 * 0.30)) }} }}"}, //Lava Eel
+				"163": {1: "{{Round: {{Query: (110 - (110 * 0.30)) }} }}"}, //Legend
+				"164": {1: "{{Round: {{Query: (65 - (65 * 0.30)) }} }}"}, //Sandfish
+				"165": {1: "{{Round: {{Query: (90 - (90 * 0.30)) }} }}"}, //Scorpion Carp
+				"267": {1: "{{Round: {{Query: (50 - (50 * 0.30)) }} }}"}, //Flounder
+				"269": {1: "{{Round: {{Query: (55 - (55 * 0.30)) }} }}"}, //Midnight Carp
+				"682": {1: "{{Round: {{Query: (80 - (80 * 0.30)) }} }}"}, //Mutant Carp
+				"698": {1: "{{Round: {{Query: (78 - (78 * 0.30)) }} }}"}, //Sturgeon
+				"699": {1: "{{Round: {{Query: (60 - (60 * 0.30)) }} }}"}, //Tiger Trout
+				"700": {1: "{{Round: {{Query: (46 - (46 * 0.30)) }} }}"}, //Bullhead
+				"701": {1: "{{Round: {{Query: (50 - (50 * 0.30)) }} }}"}, //Tilapia
+				"702": {1: "{{Round: {{Query: (35 - (35 * 0.30)) }} }}"}, //Chub
+				"704": {1: "{{Round: {{Query: (78 - (78 * 0.30)) }} }}"}, //Dorado
+				"705": {1: "{{Round: {{Query: (60 - (60 * 0.30)) }} }}"}, //Albacore
+				"706": {1: "{{Round: {{Query: (45 - (45 * 0.30)) }} }}"}, //Shad
+				"707": {1: "{{Round: {{Query: (85 - (85 * 0.30)) }} }}"}, //Lingcod
+				"708": {1: "{{Round: {{Query: (50 - (50 * 0.30)) }} }}"}, //Halibut
+				"734": {1: "{{Round: {{Query: (50 - (50 * 0.30)) }} }}"}, //Woodskip
+				"775": {1: "{{Round: {{Query: (100 - (100 * 0.30)) }} }}"}, //Glacierfish
+				"795": {1: "{{Round: {{Query: (80 - (80 * 0.30)) }} }}"}, //Void Salmon
+				"796": {1: "{{Round: {{Query: (55 - (55 * 0.30)) }} }}"}, //Slimejack
+				"798": {1: "{{Round: {{Query: (55 - (55 * 0.30)) }} }}"}, //Midnight Squid
+				"799": {1: "{{Round: {{Query: (60 - (60 * 0.30)) }} }}"}, //Spook Fish
+				"800": {1: "{{Round: {{Query: (75 - (75 * 0.30)) }} }}"}, //Blobfish
+				"836": {1: "{{Round: {{Query: (80 - (80 * 0.30)) }} }}"}, //Stingray
+				"837": {1: "{{Round: {{Query: (50 - (50 * 0.30)) }} }}"}, //Lionfish
+				"838": {1: "{{Round: {{Query: (60 - (60 * 0.30)) }} }}"}, //Blue Discus
+				"898": {1: "{{Round: {{Query: (95 - (95 * 0.30)) }} }}"}, //Son of Crimsonfish
+				"899": {1: "{{Round: {{Query: (85 - (85 * 0.30)) }} }}"}, //Ms. Angler
+				"900": {1: "{{Round: {{Query: (110 - (110 * 0.30)) }} }}"}, //Legend II
+				"901": {1: "{{Round: {{Query: (80 - (80 * 0.30)) }} }}"}, //Radioactive Carp
+				"902": {1: "{{Round: {{Query: (100 - (100 * 0.30)) }} }}"}, //Glacierfish Jr
+				"Goby": {1: "{{Round: {{Query: (55 - (55 * 0.30)) }} }}"}, //Goby
+					  },
+				"When": {"Fishing Difficulty": "30% Easier"},
+		},
+		{
+			"LogName": "Fishing Difficulty 35% Easier",
+			"Action": "EditData",
+			"Target": "Data/Fish",
+			"Fields": {
+			    "128": {1: "{{Round: {{Query: (80 - (80 * 0.35)) }} }}"}, //Pufferfish
+				"129": {1: "{{Round: {{Query: (30 - (30 * 0.35)) }} }}"}, //Anchovy
+				"130": {1: "{{Round: {{Query: (70 - (70 * 0.35)) }} }}"}, //Tuna
+				"131": {1: "{{Round: {{Query: (30 - (30 * 0.35)) }} }}"}, //Sardine
+				"132": {1: "{{Round: {{Query: (35 - (35 * 0.35)) }} }}"}, //Bream
+				"136": {1: "{{Round: {{Query: (50 - (50 * 0.35)) }} }}"}, //Largemouth Bass
+				"137": {1: "{{Round: {{Query: (28 - (28 * 0.35)) }} }}"}, //Smallmouth Bass
+				"138": {1: "{{Round: {{Query: (45 - (45 * 0.35)) }} }}"}, //Rainbow Trout
+				"139": {1: "{{Round: {{Query: (50 - (50 * 0.35)) }} }}"}, //Salmon
+				"140": {1: "{{Round: {{Query: (45 - (45 * 0.35)) }} }}"}, //Walleye
+				"141": {1: "{{Round: {{Query: (35 - (35 * 0.35)) }} }}"}, //Perch
+				"142": {1: "{{Round: {{Query: (15 - (15 * 0.35)) }} }}"}, //Carp
+				"143": {1: "{{Round: {{Query: (75 - (75 * 0.35)) }} }}"}, //Catfish
+				"144": {1: "{{Round: {{Query: (60 - (60 * 0.35)) }} }}"}, //Pike
+				"145": {1: "{{Round: {{Query: (30 - (30 * 0.35)) }} }}"}, //Sunfish
+				"146": {1: "{{Round: {{Query: (55 - (55 * 0.35)) }} }}"}, //Red Mullet
+				"147": {1: "{{Round: {{Query: (25 - (25 * 0.35)) }} }}"}, //Herring
+				"148": {1: "{{Round: {{Query: (70 - (70 * 0.35)) }} }}"}, //Eel
+				"149": {1: "{{Round: {{Query: (95 - (95 * 0.35)) }} }}"}, //Octopus
+				"150": {1: "{{Round: {{Query: (40 - (40 * 0.35)) }} }}"}, //Red Snapper
+				"151": {1: "{{Round: {{Query: (75 - (75 * 0.35)) }} }}"}, //Squid
+				"154": {1: "{{Round: {{Query: (40 - (40 * 0.35)) }} }}"}, //Sea Cucumber
+				"155": {1: "{{Round: {{Query: (80 - (80 * 0.35)) }} }}"}, //Super Cucumber
+				"156": {1: "{{Round: {{Query: (50 - (50 * 0.35)) }} }}"}, //Ghostfish
+				"158": {1: "{{Round: {{Query: (65 - (65 * 0.35)) }} }}"}, //Stonefish
+				"159": {1: "{{Round: {{Query: (95 - (95 * 0.35)) }} }}"}, //Crimsonfish
+				"160": {1: "{{Round: {{Query: (85 - (85 * 0.35)) }} }}"}, //Angler
+				"161": {1: "{{Round: {{Query: (85 - (85 * 0.35)) }} }}"}, //Ice Pip
+				"162": {1: "{{Round: {{Query: (90 - (90 * 0.35)) }} }}"}, //Lava Eel
+				"163": {1: "{{Round: {{Query: (110 - (110 * 0.35)) }} }}"}, //Legend
+				"164": {1: "{{Round: {{Query: (65 - (65 * 0.35)) }} }}"}, //Sandfish
+				"165": {1: "{{Round: {{Query: (90 - (90 * 0.35)) }} }}"}, //Scorpion Carp
+				"267": {1: "{{Round: {{Query: (50 - (50 * 0.35)) }} }}"}, //Flounder
+				"269": {1: "{{Round: {{Query: (55 - (55 * 0.35)) }} }}"}, //Midnight Carp
+				"682": {1: "{{Round: {{Query: (80 - (80 * 0.35)) }} }}"}, //Mutant Carp
+				"698": {1: "{{Round: {{Query: (78 - (78 * 0.35)) }} }}"}, //Sturgeon
+				"699": {1: "{{Round: {{Query: (60 - (60 * 0.35)) }} }}"}, //Tiger Trout
+				"700": {1: "{{Round: {{Query: (46 - (46 * 0.35)) }} }}"}, //Bullhead
+				"701": {1: "{{Round: {{Query: (50 - (50 * 0.35)) }} }}"}, //Tilapia
+				"702": {1: "{{Round: {{Query: (35 - (35 * 0.35)) }} }}"}, //Chub
+				"704": {1: "{{Round: {{Query: (78 - (78 * 0.35)) }} }}"}, //Dorado
+				"705": {1: "{{Round: {{Query: (60 - (60 * 0.35)) }} }}"}, //Albacore
+				"706": {1: "{{Round: {{Query: (45 - (45 * 0.35)) }} }}"}, //Shad
+				"707": {1: "{{Round: {{Query: (85 - (85 * 0.35)) }} }}"}, //Lingcod
+				"708": {1: "{{Round: {{Query: (50 - (50 * 0.35)) }} }}"}, //Halibut
+				"734": {1: "{{Round: {{Query: (50 - (50 * 0.35)) }} }}"}, //Woodskip
+				"775": {1: "{{Round: {{Query: (100 - (100 * 0.35)) }} }}"}, //Glacierfish
+				"795": {1: "{{Round: {{Query: (80 - (80 * 0.35)) }} }}"}, //Void Salmon
+				"796": {1: "{{Round: {{Query: (55 - (55 * 0.35)) }} }}"}, //Slimejack
+				"798": {1: "{{Round: {{Query: (55 - (55 * 0.35)) }} }}"}, //Midnight Squid
+				"799": {1: "{{Round: {{Query: (60 - (60 * 0.35)) }} }}"}, //Spook Fish
+				"800": {1: "{{Round: {{Query: (75 - (75 * 0.35)) }} }}"}, //Blobfish
+				"836": {1: "{{Round: {{Query: (80 - (80 * 0.35)) }} }}"}, //Stingray
+				"837": {1: "{{Round: {{Query: (50 - (50 * 0.35)) }} }}"}, //Lionfish
+				"838": {1: "{{Round: {{Query: (60 - (60 * 0.35)) }} }}"}, //Blue Discus
+				"898": {1: "{{Round: {{Query: (95 - (95 * 0.35)) }} }}"}, //Son of Crimsonfish
+				"899": {1: "{{Round: {{Query: (85 - (85 * 0.35)) }} }}"}, //Ms. Angler
+				"900": {1: "{{Round: {{Query: (110 - (110 * 0.35)) }} }}"}, //Legend II
+				"901": {1: "{{Round: {{Query: (80 - (80 * 0.35)) }} }}"}, //Radioactive Carp
+				"902": {1: "{{Round: {{Query: (100 - (100 * 0.35)) }} }}"}, //Glacierfish Jr
+				"Goby": {1: "{{Round: {{Query: (55 - (55 * 0.35)) }} }}"}, //Goby
+					  }, 
+				"When": {"Fishing Difficulty": "35% Easier"},
+		},
+	    {
+			"LogName": "Fishing Difficulty 40% Easier",
+			"Action": "EditData",
+			"Target": "Data/Fish",
+			"Fields": {
+			    "128": {1: "{{Round: {{Query: (80 - (80 * 0.40)) }} }}"}, //Pufferfish
+				"129": {1: "{{Round: {{Query: (30 - (30 * 0.40)) }} }}"}, //Anchovy
+				"130": {1: "{{Round: {{Query: (70 - (70 * 0.40)) }} }}"}, //Tuna
+				"131": {1: "{{Round: {{Query: (30 - (30 * 0.40)) }} }}"}, //Sardine
+				"132": {1: "{{Round: {{Query: (35 - (35 * 0.40)) }} }}"}, //Bream
+				"136": {1: "{{Round: {{Query: (50 - (50 * 0.40)) }} }}"}, //Largemouth Bass
+				"137": {1: "{{Round: {{Query: (28 - (28 * 0.40)) }} }}"}, //Smallmouth Bass
+				"138": {1: "{{Round: {{Query: (45 - (45 * 0.40)) }} }}"}, //Rainbow Trout
+				"139": {1: "{{Round: {{Query: (50 - (50 * 0.40)) }} }}"}, //Salmon
+				"140": {1: "{{Round: {{Query: (45 - (45 * 0.40)) }} }}"}, //Walleye
+				"141": {1: "{{Round: {{Query: (35 - (35 * 0.40)) }} }}"}, //Perch
+				"142": {1: "{{Round: {{Query: (15 - (15 * 0.40)) }} }}"}, //Carp
+				"143": {1: "{{Round: {{Query: (75 - (75 * 0.40)) }} }}"}, //Catfish
+				"144": {1: "{{Round: {{Query: (60 - (60 * 0.40)) }} }}"}, //Pike
+				"145": {1: "{{Round: {{Query: (30 - (30 * 0.40)) }} }}"}, //Sunfish
+				"146": {1: "{{Round: {{Query: (55 - (55 * 0.40)) }} }}"}, //Red Mullet
+				"147": {1: "{{Round: {{Query: (25 - (25 * 0.40)) }} }}"}, //Herring
+				"148": {1: "{{Round: {{Query: (70 - (70 * 0.40)) }} }}"}, //Eel
+				"149": {1: "{{Round: {{Query: (95 - (95 * 0.40)) }} }}"}, //Octopus
+				"150": {1: "{{Round: {{Query: (40 - (40 * 0.40)) }} }}"}, //Red Snapper
+				"151": {1: "{{Round: {{Query: (75 - (75 * 0.40)) }} }}"}, //Squid
+				"154": {1: "{{Round: {{Query: (40 - (40 * 0.40)) }} }}"}, //Sea Cucumber
+				"155": {1: "{{Round: {{Query: (80 - (80 * 0.40)) }} }}"}, //Super Cucumber
+				"156": {1: "{{Round: {{Query: (50 - (50 * 0.40)) }} }}"}, //Ghostfish
+				"158": {1: "{{Round: {{Query: (65 - (65 * 0.40)) }} }}"}, //Stonefish
+				"159": {1: "{{Round: {{Query: (95 - (95 * 0.40)) }} }}"}, //Crimsonfish
+				"160": {1: "{{Round: {{Query: (85 - (85 * 0.40)) }} }}"}, //Angler
+				"161": {1: "{{Round: {{Query: (85 - (85 * 0.40)) }} }}"}, //Ice Pip
+				"162": {1: "{{Round: {{Query: (90 - (90 * 0.40)) }} }}"}, //Lava Eel
+				"163": {1: "{{Round: {{Query: (110 - (110 * 0.40)) }} }}"}, //Legend
+				"164": {1: "{{Round: {{Query: (65 - (65 * 0.40)) }} }}"}, //Sandfish
+				"165": {1: "{{Round: {{Query: (90 - (90 * 0.40)) }} }}"}, //Scorpion Carp
+				"267": {1: "{{Round: {{Query: (50 - (50 * 0.40)) }} }}"}, //Flounder
+				"269": {1: "{{Round: {{Query: (55 - (55 * 0.40)) }} }}"}, //Midnight Carp
+				"682": {1: "{{Round: {{Query: (80 - (80 * 0.40)) }} }}"}, //Mutant Carp
+				"698": {1: "{{Round: {{Query: (78 - (78 * 0.40)) }} }}"}, //Sturgeon
+				"699": {1: "{{Round: {{Query: (60 - (60 * 0.40)) }} }}"}, //Tiger Trout
+				"700": {1: "{{Round: {{Query: (46 - (46 * 0.40)) }} }}"}, //Bullhead
+				"701": {1: "{{Round: {{Query: (50 - (50 * 0.40)) }} }}"}, //Tilapia
+				"702": {1: "{{Round: {{Query: (35 - (35 * 0.40)) }} }}"}, //Chub
+				"704": {1: "{{Round: {{Query: (78 - (78 * 0.40)) }} }}"}, //Dorado
+				"705": {1: "{{Round: {{Query: (60 - (60 * 0.40)) }} }}"}, //Albacore
+				"706": {1: "{{Round: {{Query: (45 - (45 * 0.40)) }} }}"}, //Shad
+				"707": {1: "{{Round: {{Query: (85 - (85 * 0.40)) }} }}"}, //Lingcod
+				"708": {1: "{{Round: {{Query: (50 - (50 * 0.40)) }} }}"}, //Halibut
+				"734": {1: "{{Round: {{Query: (50 - (50 * 0.40)) }} }}"}, //Woodskip
+				"775": {1: "{{Round: {{Query: (100 - (100 * 0.40)) }} }}"}, //Glacierfish
+				"795": {1: "{{Round: {{Query: (80 - (80 * 0.40)) }} }}"}, //Void Salmon
+				"796": {1: "{{Round: {{Query: (55 - (55 * 0.40)) }} }}"}, //Slimejack
+				"798": {1: "{{Round: {{Query: (55 - (55 * 0.40)) }} }}"}, //Midnight Squid
+				"799": {1: "{{Round: {{Query: (60 - (60 * 0.40)) }} }}"}, //Spook Fish
+				"800": {1: "{{Round: {{Query: (75 - (75 * 0.40)) }} }}"}, //Blobfish
+				"836": {1: "{{Round: {{Query: (80 - (80 * 0.40)) }} }}"}, //Stingray
+				"837": {1: "{{Round: {{Query: (50 - (50 * 0.40)) }} }}"}, //Lionfish
+				"838": {1: "{{Round: {{Query: (60 - (60 * 0.40)) }} }}"}, //Blue Discus
+				"898": {1: "{{Round: {{Query: (95 - (95 * 0.40)) }} }}"}, //Son of Crimsonfish
+				"899": {1: "{{Round: {{Query: (85 - (85 * 0.40)) }} }}"}, //Ms. Angler
+				"900": {1: "{{Round: {{Query: (110 - (110 * 0.40)) }} }}"}, //Legend II
+				"901": {1: "{{Round: {{Query: (80 - (80 * 0.40)) }} }}"}, //Radioactive Carp
+				"902": {1: "{{Round: {{Query: (100 - (100 * 0.40)) }} }}"}, //Glacierfish Jr
+				"Goby": {1: "{{Round: {{Query: (55 - (55 * 0.40)) }} }}"}, //Goby
+					  },
+				"When": {"Fishing Difficulty": "40% Easier"},
+		},
+		{
+			"LogName": "Fishing Difficulty 45% Easier",
+			"Action": "EditData",
+			"Target": "Data/Fish",
+			"Fields": {
+			    "128": {1: "{{Round: {{Query: (80 - (80 * 0.45)) }} }}"}, //Pufferfish
+				"129": {1: "{{Round: {{Query: (30 - (30 * 0.45)) }} }}"}, //Anchovy
+				"130": {1: "{{Round: {{Query: (70 - (70 * 0.45)) }} }}"}, //Tuna
+				"131": {1: "{{Round: {{Query: (30 - (30 * 0.45)) }} }}"}, //Sardine
+				"132": {1: "{{Round: {{Query: (35 - (35 * 0.45)) }} }}"}, //Bream
+				"136": {1: "{{Round: {{Query: (50 - (50 * 0.45)) }} }}"}, //Largemouth Bass
+				"137": {1: "{{Round: {{Query: (28 - (28 * 0.45)) }} }}"}, //Smallmouth Bass
+				"138": {1: "{{Round: {{Query: (45 - (45 * 0.45)) }} }}"}, //Rainbow Trout
+				"139": {1: "{{Round: {{Query: (50 - (50 * 0.45)) }} }}"}, //Salmon
+				"140": {1: "{{Round: {{Query: (45 - (45 * 0.45)) }} }}"}, //Walleye
+				"141": {1: "{{Round: {{Query: (35 - (35 * 0.45)) }} }}"}, //Perch
+				"142": {1: "{{Round: {{Query: (15 - (15 * 0.45)) }} }}"}, //Carp
+				"143": {1: "{{Round: {{Query: (75 - (75 * 0.45)) }} }}"}, //Catfish
+				"144": {1: "{{Round: {{Query: (60 - (60 * 0.45)) }} }}"}, //Pike
+				"145": {1: "{{Round: {{Query: (30 - (30 * 0.45)) }} }}"}, //Sunfish
+				"146": {1: "{{Round: {{Query: (55 - (55 * 0.45)) }} }}"}, //Red Mullet
+				"147": {1: "{{Round: {{Query: (25 - (25 * 0.45)) }} }}"}, //Herring
+				"148": {1: "{{Round: {{Query: (70 - (70 * 0.45)) }} }}"}, //Eel
+				"149": {1: "{{Round: {{Query: (95 - (95 * 0.45)) }} }}"}, //Octopus
+				"150": {1: "{{Round: {{Query: (40 - (40 * 0.45)) }} }}"}, //Red Snapper
+				"151": {1: "{{Round: {{Query: (75 - (75 * 0.45)) }} }}"}, //Squid
+				"154": {1: "{{Round: {{Query: (40 - (40 * 0.45)) }} }}"}, //Sea Cucumber
+				"155": {1: "{{Round: {{Query: (80 - (80 * 0.45)) }} }}"}, //Super Cucumber
+				"156": {1: "{{Round: {{Query: (50 - (50 * 0.45)) }} }}"}, //Ghostfish
+				"158": {1: "{{Round: {{Query: (65 - (65 * 0.45)) }} }}"}, //Stonefish
+				"159": {1: "{{Round: {{Query: (95 - (95 * 0.45)) }} }}"}, //Crimsonfish
+				"160": {1: "{{Round: {{Query: (85 - (85 * 0.45)) }} }}"}, //Angler
+				"161": {1: "{{Round: {{Query: (85 - (85 * 0.45)) }} }}"}, //Ice Pip
+				"162": {1: "{{Round: {{Query: (90 - (90 * 0.45)) }} }}"}, //Lava Eel
+				"163": {1: "{{Round: {{Query: (110 - (110 * 0.45)) }} }}"}, //Legend
+				"164": {1: "{{Round: {{Query: (65 - (65 * 0.45)) }} }}"}, //Sandfish
+				"165": {1: "{{Round: {{Query: (90 - (90 * 0.45)) }} }}"}, //Scorpion Carp
+				"267": {1: "{{Round: {{Query: (50 - (50 * 0.45)) }} }}"}, //Flounder
+				"269": {1: "{{Round: {{Query: (55 - (55 * 0.45)) }} }}"}, //Midnight Carp
+				"682": {1: "{{Round: {{Query: (80 - (80 * 0.45)) }} }}"}, //Mutant Carp
+				"698": {1: "{{Round: {{Query: (78 - (78 * 0.45)) }} }}"}, //Sturgeon
+				"699": {1: "{{Round: {{Query: (60 - (60 * 0.45)) }} }}"}, //Tiger Trout
+				"700": {1: "{{Round: {{Query: (46 - (46 * 0.45)) }} }}"}, //Bullhead
+				"701": {1: "{{Round: {{Query: (50 - (50 * 0.45)) }} }}"}, //Tilapia
+				"702": {1: "{{Round: {{Query: (35 - (35 * 0.45)) }} }}"}, //Chub
+				"704": {1: "{{Round: {{Query: (78 - (78 * 0.45)) }} }}"}, //Dorado
+				"705": {1: "{{Round: {{Query: (60 - (60 * 0.45)) }} }}"}, //Albacore
+				"706": {1: "{{Round: {{Query: (45 - (45 * 0.45)) }} }}"}, //Shad
+				"707": {1: "{{Round: {{Query: (85 - (85 * 0.45)) }} }}"}, //Lingcod
+				"708": {1: "{{Round: {{Query: (50 - (50 * 0.45)) }} }}"}, //Halibut
+				"734": {1: "{{Round: {{Query: (50 - (50 * 0.45)) }} }}"}, //Woodskip
+				"775": {1: "{{Round: {{Query: (100 - (100 * 0.45)) }} }}"}, //Glacierfish
+				"795": {1: "{{Round: {{Query: (80 - (80 * 0.45)) }} }}"}, //Void Salmon
+				"796": {1: "{{Round: {{Query: (55 - (55 * 0.45)) }} }}"}, //Slimejack
+				"798": {1: "{{Round: {{Query: (55 - (55 * 0.45)) }} }}"}, //Midnight Squid
+				"799": {1: "{{Round: {{Query: (60 - (60 * 0.45)) }} }}"}, //Spook Fish
+				"800": {1: "{{Round: {{Query: (75 - (75 * 0.45)) }} }}"}, //Blobfish
+				"836": {1: "{{Round: {{Query: (80 - (80 * 0.45)) }} }}"}, //Stingray
+				"837": {1: "{{Round: {{Query: (50 - (50 * 0.45)) }} }}"}, //Lionfish
+				"838": {1: "{{Round: {{Query: (60 - (60 * 0.45)) }} }}"}, //Blue Discus
+				"898": {1: "{{Round: {{Query: (95 - (95 * 0.45)) }} }}"}, //Son of Crimsonfish
+				"899": {1: "{{Round: {{Query: (85 - (85 * 0.45)) }} }}"}, //Ms. Angler
+				"900": {1: "{{Round: {{Query: (110 - (110 * 0.45)) }} }}"}, //Legend II
+				"901": {1: "{{Round: {{Query: (80 - (80 * 0.45)) }} }}"}, //Radioactive Carp
+				"902": {1: "{{Round: {{Query: (100 - (100 * 0.45)) }} }}"}, //Glacierfish Jr
+				"Goby": {1: "{{Round: {{Query: (55 - (55 * 0.45)) }} }}"}, //Goby
+					  }, 
+				"When": {"Fishing Difficulty": "45% Easier"},
+		},
+		{
+			"LogName": "Fishing Difficulty 50% Easier",
+			"Action": "EditData",
+			"Target": "Data/Fish",
+			"Fields": {
+			    "128": {1: "{{Round: {{Query: (80 - (80 * 0.50)) }} }}"}, //Pufferfish
+				"129": {1: "{{Round: {{Query: (30 - (30 * 0.50)) }} }}"}, //Anchovy
+				"130": {1: "{{Round: {{Query: (70 - (70 * 0.50)) }} }}"}, //Tuna
+				"131": {1: "{{Round: {{Query: (30 - (30 * 0.50)) }} }}"}, //Sardine
+				"132": {1: "{{Round: {{Query: (35 - (35 * 0.50)) }} }}"}, //Bream
+				"136": {1: "{{Round: {{Query: (50 - (50 * 0.50)) }} }}"}, //Largemouth Bass
+				"137": {1: "{{Round: {{Query: (28 - (28 * 0.50)) }} }}"}, //Smallmouth Bass
+				"138": {1: "{{Round: {{Query: (45 - (45 * 0.50)) }} }}"}, //Rainbow Trout
+				"139": {1: "{{Round: {{Query: (50 - (50 * 0.50)) }} }}"}, //Salmon
+				"140": {1: "{{Round: {{Query: (45 - (45 * 0.50)) }} }}"}, //Walleye
+				"141": {1: "{{Round: {{Query: (35 - (35 * 0.50)) }} }}"}, //Perch
+				"142": {1: "{{Round: {{Query: (15 - (15 * 0.50)) }} }}"}, //Carp
+				"143": {1: "{{Round: {{Query: (75 - (75 * 0.50)) }} }}"}, //Catfish
+				"144": {1: "{{Round: {{Query: (60 - (60 * 0.50)) }} }}"}, //Pike
+				"145": {1: "{{Round: {{Query: (30 - (30 * 0.50)) }} }}"}, //Sunfish
+				"146": {1: "{{Round: {{Query: (55 - (55 * 0.50)) }} }}"}, //Red Mullet
+				"147": {1: "{{Round: {{Query: (25 - (25 * 0.50)) }} }}"}, //Herring
+				"148": {1: "{{Round: {{Query: (70 - (70 * 0.50)) }} }}"}, //Eel
+				"149": {1: "{{Round: {{Query: (95 - (95 * 0.50)) }} }}"}, //Octopus
+				"150": {1: "{{Round: {{Query: (40 - (40 * 0.50)) }} }}"}, //Red Snapper
+				"151": {1: "{{Round: {{Query: (75 - (75 * 0.50)) }} }}"}, //Squid
+				"154": {1: "{{Round: {{Query: (40 - (40 * 0.50)) }} }}"}, //Sea Cucumber
+				"155": {1: "{{Round: {{Query: (80 - (80 * 0.50)) }} }}"}, //Super Cucumber
+				"156": {1: "{{Round: {{Query: (50 - (50 * 0.50)) }} }}"}, //Ghostfish
+				"158": {1: "{{Round: {{Query: (65 - (65 * 0.50)) }} }}"}, //Stonefish
+				"159": {1: "{{Round: {{Query: (95 - (95 * 0.50)) }} }}"}, //Crimsonfish
+				"160": {1: "{{Round: {{Query: (85 - (85 * 0.50)) }} }}"}, //Angler
+				"161": {1: "{{Round: {{Query: (85 - (85 * 0.50)) }} }}"}, //Ice Pip
+				"162": {1: "{{Round: {{Query: (90 - (90 * 0.50)) }} }}"}, //Lava Eel
+				"163": {1: "{{Round: {{Query: (110 - (110 * 0.50)) }} }}"}, //Legend
+				"164": {1: "{{Round: {{Query: (65 - (65 * 0.50)) }} }}"}, //Sandfish
+				"165": {1: "{{Round: {{Query: (90 - (90 * 0.50)) }} }}"}, //Scorpion Carp
+				"267": {1: "{{Round: {{Query: (50 - (50 * 0.50)) }} }}"}, //Flounder
+				"269": {1: "{{Round: {{Query: (55 - (55 * 0.50)) }} }}"}, //Midnight Carp
+				"682": {1: "{{Round: {{Query: (80 - (80 * 0.50)) }} }}"}, //Mutant Carp
+				"698": {1: "{{Round: {{Query: (78 - (78 * 0.50)) }} }}"}, //Sturgeon
+				"699": {1: "{{Round: {{Query: (60 - (60 * 0.50)) }} }}"}, //Tiger Trout
+				"700": {1: "{{Round: {{Query: (46 - (46 * 0.50)) }} }}"}, //Bullhead
+				"701": {1: "{{Round: {{Query: (50 - (50 * 0.50)) }} }}"}, //Tilapia
+				"702": {1: "{{Round: {{Query: (35 - (35 * 0.50)) }} }}"}, //Chub
+				"704": {1: "{{Round: {{Query: (78 - (78 * 0.50)) }} }}"}, //Dorado
+				"705": {1: "{{Round: {{Query: (60 - (60 * 0.50)) }} }}"}, //Albacore
+				"706": {1: "{{Round: {{Query: (45 - (45 * 0.50)) }} }}"}, //Shad
+				"707": {1: "{{Round: {{Query: (85 - (85 * 0.50)) }} }}"}, //Lingcod
+				"708": {1: "{{Round: {{Query: (50 - (50 * 0.50)) }} }}"}, //Halibut
+				"734": {1: "{{Round: {{Query: (50 - (50 * 0.50)) }} }}"}, //Woodskip
+				"775": {1: "{{Round: {{Query: (100 - (100 * 0.50)) }} }}"}, //Glacierfish
+				"795": {1: "{{Round: {{Query: (80 - (80 * 0.50)) }} }}"}, //Void Salmon
+				"796": {1: "{{Round: {{Query: (55 - (55 * 0.50)) }} }}"}, //Slimejack
+				"798": {1: "{{Round: {{Query: (55 - (55 * 0.50)) }} }}"}, //Midnight Squid
+				"799": {1: "{{Round: {{Query: (60 - (60 * 0.50)) }} }}"}, //Spook Fish
+				"800": {1: "{{Round: {{Query: (75 - (75 * 0.50)) }} }}"}, //Blobfish
+				"836": {1: "{{Round: {{Query: (80 - (80 * 0.50)) }} }}"}, //Stingray
+				"837": {1: "{{Round: {{Query: (50 - (50 * 0.50)) }} }}"}, //Lionfish
+				"838": {1: "{{Round: {{Query: (60 - (60 * 0.50)) }} }}"}, //Blue Discus
+				"898": {1: "{{Round: {{Query: (95 - (95 * 0.50)) }} }}"}, //Son of Crimsonfish
+				"899": {1: "{{Round: {{Query: (85 - (85 * 0.50)) }} }}"}, //Ms. Angler
+				"900": {1: "{{Round: {{Query: (110 - (110 * 0.50)) }} }}"}, //Legend II
+				"901": {1: "{{Round: {{Query: (80 - (80 * 0.50)) }} }}"}, //Radioactive Carp
+				"902": {1: "{{Round: {{Query: (100 - (100 * 0.50)) }} }}"}, //Glacierfish Jr
+				"Goby": {1: "{{Round: {{Query: (55 - (55 * 0.50)) }} }}"}, //Goby
+			          },	
+				"When": {"Fishing Difficulty": "50% Easier"},
+		},
+		{
+			"LogName": "Fishing Difficulty 55% Easier",
+			"Action": "EditData",
+			"Target": "Data/Fish",
+			"Fields": {
+			    "128": {1: "{{Round: {{Query: (80 - (80 * 0.55)) }} }}"}, //Pufferfish
+				"129": {1: "{{Round: {{Query: (30 - (30 * 0.55)) }} }}"}, //Anchovy
+				"130": {1: "{{Round: {{Query: (70 - (70 * 0.55)) }} }}"}, //Tuna
+				"131": {1: "{{Round: {{Query: (30 - (30 * 0.55)) }} }}"}, //Sardine
+				"132": {1: "{{Round: {{Query: (35 - (35 * 0.55)) }} }}"}, //Bream
+				"136": {1: "{{Round: {{Query: (50 - (50 * 0.55)) }} }}"}, //Largemouth Bass
+				"137": {1: "{{Round: {{Query: (28 - (28 * 0.55)) }} }}"}, //Smallmouth Bass
+				"138": {1: "{{Round: {{Query: (45 - (45 * 0.55)) }} }}"}, //Rainbow Trout
+				"139": {1: "{{Round: {{Query: (50 - (50 * 0.55)) }} }}"}, //Salmon
+				"140": {1: "{{Round: {{Query: (45 - (45 * 0.55)) }} }}"}, //Walleye
+				"141": {1: "{{Round: {{Query: (35 - (35 * 0.55)) }} }}"}, //Perch
+				"142": {1: "{{Round: {{Query: (15 - (15 * 0.55)) }} }}"}, //Carp
+				"143": {1: "{{Round: {{Query: (75 - (75 * 0.55)) }} }}"}, //Catfish
+				"144": {1: "{{Round: {{Query: (60 - (60 * 0.55)) }} }}"}, //Pike
+				"145": {1: "{{Round: {{Query: (30 - (30 * 0.55)) }} }}"}, //Sunfish
+				"146": {1: "{{Round: {{Query: (55 - (55 * 0.55)) }} }}"}, //Red Mullet
+				"147": {1: "{{Round: {{Query: (25 - (25 * 0.55)) }} }}"}, //Herring
+				"148": {1: "{{Round: {{Query: (70 - (70 * 0.55)) }} }}"}, //Eel
+				"149": {1: "{{Round: {{Query: (95 - (95 * 0.55)) }} }}"}, //Octopus
+				"150": {1: "{{Round: {{Query: (40 - (40 * 0.55)) }} }}"}, //Red Snapper
+				"151": {1: "{{Round: {{Query: (75 - (75 * 0.55)) }} }}"}, //Squid
+				"154": {1: "{{Round: {{Query: (40 - (40 * 0.55)) }} }}"}, //Sea Cucumber
+				"155": {1: "{{Round: {{Query: (80 - (80 * 0.55)) }} }}"}, //Super Cucumber
+				"156": {1: "{{Round: {{Query: (50 - (50 * 0.55)) }} }}"}, //Ghostfish
+				"158": {1: "{{Round: {{Query: (65 - (65 * 0.55)) }} }}"}, //Stonefish
+				"159": {1: "{{Round: {{Query: (95 - (95 * 0.55)) }} }}"}, //Crimsonfish
+				"160": {1: "{{Round: {{Query: (85 - (85 * 0.55)) }} }}"}, //Angler
+				"161": {1: "{{Round: {{Query: (85 - (85 * 0.55)) }} }}"}, //Ice Pip
+				"162": {1: "{{Round: {{Query: (90 - (90 * 0.55)) }} }}"}, //Lava Eel
+				"163": {1: "{{Round: {{Query: (110 - (110 * 0.55)) }} }}"}, //Legend
+				"164": {1: "{{Round: {{Query: (65 - (65 * 0.55)) }} }}"}, //Sandfish
+				"165": {1: "{{Round: {{Query: (90 - (90 * 0.55)) }} }}"}, //Scorpion Carp
+				"267": {1: "{{Round: {{Query: (50 - (50 * 0.55)) }} }}"}, //Flounder
+				"269": {1: "{{Round: {{Query: (55 - (55 * 0.55)) }} }}"}, //Midnight Carp
+				"682": {1: "{{Round: {{Query: (80 - (80 * 0.55)) }} }}"}, //Mutant Carp
+				"698": {1: "{{Round: {{Query: (78 - (78 * 0.55)) }} }}"}, //Sturgeon
+				"699": {1: "{{Round: {{Query: (60 - (60 * 0.55)) }} }}"}, //Tiger Trout
+				"700": {1: "{{Round: {{Query: (46 - (46 * 0.55)) }} }}"}, //Bullhead
+				"701": {1: "{{Round: {{Query: (50 - (50 * 0.55)) }} }}"}, //Tilapia
+				"702": {1: "{{Round: {{Query: (35 - (35 * 0.55)) }} }}"}, //Chub
+				"704": {1: "{{Round: {{Query: (78 - (78 * 0.55)) }} }}"}, //Dorado
+				"705": {1: "{{Round: {{Query: (60 - (60 * 0.55)) }} }}"}, //Albacore
+				"706": {1: "{{Round: {{Query: (45 - (45 * 0.55)) }} }}"}, //Shad
+				"707": {1: "{{Round: {{Query: (85 - (85 * 0.55)) }} }}"}, //Lingcod
+				"708": {1: "{{Round: {{Query: (50 - (50 * 0.55)) }} }}"}, //Halibut
+				"734": {1: "{{Round: {{Query: (50 - (50 * 0.55)) }} }}"}, //Woodskip
+				"775": {1: "{{Round: {{Query: (100 - (100 * 0.55)) }} }}"}, //Glacierfish
+				"795": {1: "{{Round: {{Query: (80 - (80 * 0.55)) }} }}"}, //Void Salmon
+				"796": {1: "{{Round: {{Query: (55 - (55 * 0.55)) }} }}"}, //Slimejack
+				"798": {1: "{{Round: {{Query: (55 - (55 * 0.55)) }} }}"}, //Midnight Squid
+				"799": {1: "{{Round: {{Query: (60 - (60 * 0.55)) }} }}"}, //Spook Fish
+				"800": {1: "{{Round: {{Query: (75 - (75 * 0.55)) }} }}"}, //Blobfish
+				"836": {1: "{{Round: {{Query: (80 - (80 * 0.55)) }} }}"}, //Stingray
+				"837": {1: "{{Round: {{Query: (50 - (50 * 0.55)) }} }}"}, //Lionfish
+				"838": {1: "{{Round: {{Query: (60 - (60 * 0.55)) }} }}"}, //Blue Discus
+				"898": {1: "{{Round: {{Query: (95 - (95 * 0.55)) }} }}"}, //Son of Crimsonfish
+				"899": {1: "{{Round: {{Query: (85 - (85 * 0.55)) }} }}"}, //Ms. Angler
+				"900": {1: "{{Round: {{Query: (110 - (110 * 0.55)) }} }}"}, //Legend II
+				"901": {1: "{{Round: {{Query: (80 - (80 * 0.55)) }} }}"}, //Radioactive Carp
+				"902": {1: "{{Round: {{Query: (100 - (100 * 0.55)) }} }}"}, //Glacierfish Jr
+				"Goby": {1: "{{Round: {{Query: (55 - (55 * 0.55)) }} }}"}, //Goby
+					  }, 
+				"When": {"Fishing Difficulty": "55% Easier"},
+		},
+	    {
+			"LogName": "Fishing Difficulty 60% Easier",
+			"Action": "EditData",
+			"Target": "Data/Fish",
+			"Fields": {
+			    "128": {1: "{{Round: {{Query: (80 - (80 * 0.60)) }} }}"}, //Pufferfish
+				"129": {1: "{{Round: {{Query: (30 - (30 * 0.60)) }} }}"}, //Anchovy
+				"130": {1: "{{Round: {{Query: (70 - (70 * 0.60)) }} }}"}, //Tuna
+				"131": {1: "{{Round: {{Query: (30 - (30 * 0.60)) }} }}"}, //Sardine
+				"132": {1: "{{Round: {{Query: (35 - (35 * 0.60)) }} }}"}, //Bream
+				"136": {1: "{{Round: {{Query: (50 - (50 * 0.60)) }} }}"}, //Largemouth Bass
+				"137": {1: "{{Round: {{Query: (28 - (28 * 0.60)) }} }}"}, //Smallmouth Bass
+				"138": {1: "{{Round: {{Query: (45 - (45 * 0.60)) }} }}"}, //Rainbow Trout
+				"139": {1: "{{Round: {{Query: (50 - (50 * 0.60)) }} }}"}, //Salmon
+				"140": {1: "{{Round: {{Query: (45 - (45 * 0.60)) }} }}"}, //Walleye
+				"141": {1: "{{Round: {{Query: (35 - (35 * 0.60)) }} }}"}, //Perch
+				"142": {1: "{{Round: {{Query: (15 - (15 * 0.60)) }} }}"}, //Carp
+				"143": {1: "{{Round: {{Query: (75 - (75 * 0.60)) }} }}"}, //Catfish
+				"144": {1: "{{Round: {{Query: (60 - (60 * 0.60)) }} }}"}, //Pike
+				"145": {1: "{{Round: {{Query: (30 - (30 * 0.60)) }} }}"}, //Sunfish
+				"146": {1: "{{Round: {{Query: (55 - (55 * 0.60)) }} }}"}, //Red Mullet
+				"147": {1: "{{Round: {{Query: (25 - (25 * 0.60)) }} }}"}, //Herring
+				"148": {1: "{{Round: {{Query: (70 - (70 * 0.60)) }} }}"}, //Eel
+				"149": {1: "{{Round: {{Query: (95 - (95 * 0.60)) }} }}"}, //Octopus
+				"150": {1: "{{Round: {{Query: (40 - (40 * 0.60)) }} }}"}, //Red Snapper
+				"151": {1: "{{Round: {{Query: (75 - (75 * 0.60)) }} }}"}, //Squid
+				"154": {1: "{{Round: {{Query: (40 - (40 * 0.60)) }} }}"}, //Sea Cucumber
+				"155": {1: "{{Round: {{Query: (80 - (80 * 0.60)) }} }}"}, //Super Cucumber
+				"156": {1: "{{Round: {{Query: (50 - (50 * 0.60)) }} }}"}, //Ghostfish
+				"158": {1: "{{Round: {{Query: (65 - (65 * 0.60)) }} }}"}, //Stonefish
+				"159": {1: "{{Round: {{Query: (95 - (95 * 0.60)) }} }}"}, //Crimsonfish
+				"160": {1: "{{Round: {{Query: (85 - (85 * 0.60)) }} }}"}, //Angler
+				"161": {1: "{{Round: {{Query: (85 - (85 * 0.60)) }} }}"}, //Ice Pip
+				"162": {1: "{{Round: {{Query: (90 - (90 * 0.60)) }} }}"}, //Lava Eel
+				"163": {1: "{{Round: {{Query: (110 - (110 * 0.60)) }} }}"}, //Legend
+				"164": {1: "{{Round: {{Query: (65 - (65 * 0.60)) }} }}"}, //Sandfish
+				"165": {1: "{{Round: {{Query: (90 - (90 * 0.60)) }} }}"}, //Scorpion Carp
+				"267": {1: "{{Round: {{Query: (50 - (50 * 0.60)) }} }}"}, //Flounder
+				"269": {1: "{{Round: {{Query: (55 - (55 * 0.60)) }} }}"}, //Midnight Carp
+				"682": {1: "{{Round: {{Query: (80 - (80 * 0.60)) }} }}"}, //Mutant Carp
+				"698": {1: "{{Round: {{Query: (78 - (78 * 0.60)) }} }}"}, //Sturgeon
+				"699": {1: "{{Round: {{Query: (60 - (60 * 0.60)) }} }}"}, //Tiger Trout
+				"700": {1: "{{Round: {{Query: (46 - (46 * 0.60)) }} }}"}, //Bullhead
+				"701": {1: "{{Round: {{Query: (50 - (50 * 0.60)) }} }}"}, //Tilapia
+				"702": {1: "{{Round: {{Query: (35 - (35 * 0.60)) }} }}"}, //Chub
+				"704": {1: "{{Round: {{Query: (78 - (78 * 0.60)) }} }}"}, //Dorado
+				"705": {1: "{{Round: {{Query: (60 - (60 * 0.60)) }} }}"}, //Albacore
+				"706": {1: "{{Round: {{Query: (45 - (45 * 0.60)) }} }}"}, //Shad
+				"707": {1: "{{Round: {{Query: (85 - (85 * 0.60)) }} }}"}, //Lingcod
+				"708": {1: "{{Round: {{Query: (50 - (50 * 0.60)) }} }}"}, //Halibut
+				"734": {1: "{{Round: {{Query: (50 - (50 * 0.60)) }} }}"}, //Woodskip
+				"775": {1: "{{Round: {{Query: (100 - (100 * 0.60)) }} }}"}, //Glacierfish
+				"795": {1: "{{Round: {{Query: (80 - (80 * 0.60)) }} }}"}, //Void Salmon
+				"796": {1: "{{Round: {{Query: (55 - (55 * 0.60)) }} }}"}, //Slimejack
+				"798": {1: "{{Round: {{Query: (55 - (55 * 0.60)) }} }}"}, //Midnight Squid
+				"799": {1: "{{Round: {{Query: (60 - (60 * 0.60)) }} }}"}, //Spook Fish
+				"800": {1: "{{Round: {{Query: (75 - (75 * 0.60)) }} }}"}, //Blobfish
+				"836": {1: "{{Round: {{Query: (80 - (80 * 0.60)) }} }}"}, //Stingray
+				"837": {1: "{{Round: {{Query: (50 - (50 * 0.60)) }} }}"}, //Lionfish
+				"838": {1: "{{Round: {{Query: (60 - (60 * 0.60)) }} }}"}, //Blue Discus
+				"898": {1: "{{Round: {{Query: (95 - (95 * 0.60)) }} }}"}, //Son of Crimsonfish
+				"899": {1: "{{Round: {{Query: (85 - (85 * 0.60)) }} }}"}, //Ms. Angler
+				"900": {1: "{{Round: {{Query: (110 - (110 * 0.60)) }} }}"}, //Legend II
+				"901": {1: "{{Round: {{Query: (80 - (80 * 0.60)) }} }}"}, //Radioactive Carp
+				"902": {1: "{{Round: {{Query: (100 - (100 * 0.60)) }} }}"}, //Glacierfish Jr
+				"Goby": {1: "{{Round: {{Query: (55 - (55 * 0.60)) }} }}"}, //Goby
+					  },
+				"When": {"Fishing Difficulty": "60% Easier"},
+		},
+		{
+			"LogName": "Fishing Difficulty 65% Easier",
+			"Action": "EditData",
+			"Target": "Data/Fish",
+			"Fields": {
+			    "128": {1: "{{Round: {{Query: (80 - (80 * 0.65)) }} }}"}, //Pufferfish
+				"129": {1: "{{Round: {{Query: (30 - (30 * 0.65)) }} }}"}, //Anchovy
+				"130": {1: "{{Round: {{Query: (70 - (70 * 0.65)) }} }}"}, //Tuna
+				"131": {1: "{{Round: {{Query: (30 - (30 * 0.65)) }} }}"}, //Sardine
+				"132": {1: "{{Round: {{Query: (35 - (35 * 0.65)) }} }}"}, //Bream
+				"136": {1: "{{Round: {{Query: (50 - (50 * 0.65)) }} }}"}, //Largemouth Bass
+				"137": {1: "{{Round: {{Query: (28 - (28 * 0.65)) }} }}"}, //Smallmouth Bass
+				"138": {1: "{{Round: {{Query: (45 - (45 * 0.65)) }} }}"}, //Rainbow Trout
+				"139": {1: "{{Round: {{Query: (50 - (50 * 0.65)) }} }}"}, //Salmon
+				"140": {1: "{{Round: {{Query: (45 - (45 * 0.65)) }} }}"}, //Walleye
+				"141": {1: "{{Round: {{Query: (35 - (35 * 0.65)) }} }}"}, //Perch
+				"142": {1: "{{Round: {{Query: (15 - (15 * 0.65)) }} }}"}, //Carp
+				"143": {1: "{{Round: {{Query: (75 - (75 * 0.65)) }} }}"}, //Catfish
+				"144": {1: "{{Round: {{Query: (60 - (60 * 0.65)) }} }}"}, //Pike
+				"145": {1: "{{Round: {{Query: (30 - (30 * 0.65)) }} }}"}, //Sunfish
+				"146": {1: "{{Round: {{Query: (55 - (55 * 0.65)) }} }}"}, //Red Mullet
+				"147": {1: "{{Round: {{Query: (25 - (25 * 0.65)) }} }}"}, //Herring
+				"148": {1: "{{Round: {{Query: (70 - (70 * 0.65)) }} }}"}, //Eel
+				"149": {1: "{{Round: {{Query: (95 - (95 * 0.65)) }} }}"}, //Octopus
+				"150": {1: "{{Round: {{Query: (40 - (40 * 0.65)) }} }}"}, //Red Snapper
+				"151": {1: "{{Round: {{Query: (75 - (75 * 0.65)) }} }}"}, //Squid
+				"154": {1: "{{Round: {{Query: (40 - (40 * 0.65)) }} }}"}, //Sea Cucumber
+				"155": {1: "{{Round: {{Query: (80 - (80 * 0.65)) }} }}"}, //Super Cucumber
+				"156": {1: "{{Round: {{Query: (50 - (50 * 0.65)) }} }}"}, //Ghostfish
+				"158": {1: "{{Round: {{Query: (65 - (65 * 0.65)) }} }}"}, //Stonefish
+				"159": {1: "{{Round: {{Query: (95 - (95 * 0.65)) }} }}"}, //Crimsonfish
+				"160": {1: "{{Round: {{Query: (85 - (85 * 0.65)) }} }}"}, //Angler
+				"161": {1: "{{Round: {{Query: (85 - (85 * 0.65)) }} }}"}, //Ice Pip
+				"162": {1: "{{Round: {{Query: (90 - (90 * 0.65)) }} }}"}, //Lava Eel
+				"163": {1: "{{Round: {{Query: (110 - (110 * 0.65)) }} }}"}, //Legend
+				"164": {1: "{{Round: {{Query: (65 - (65 * 0.65)) }} }}"}, //Sandfish
+				"165": {1: "{{Round: {{Query: (90 - (90 * 0.65)) }} }}"}, //Scorpion Carp
+				"267": {1: "{{Round: {{Query: (50 - (50 * 0.65)) }} }}"}, //Flounder
+				"269": {1: "{{Round: {{Query: (55 - (55 * 0.65)) }} }}"}, //Midnight Carp
+				"682": {1: "{{Round: {{Query: (80 - (80 * 0.65)) }} }}"}, //Mutant Carp
+				"698": {1: "{{Round: {{Query: (78 - (78 * 0.65)) }} }}"}, //Sturgeon
+				"699": {1: "{{Round: {{Query: (60 - (60 * 0.65)) }} }}"}, //Tiger Trout
+				"700": {1: "{{Round: {{Query: (46 - (46 * 0.65)) }} }}"}, //Bullhead
+				"701": {1: "{{Round: {{Query: (50 - (50 * 0.65)) }} }}"}, //Tilapia
+				"702": {1: "{{Round: {{Query: (35 - (35 * 0.65)) }} }}"}, //Chub
+				"704": {1: "{{Round: {{Query: (78 - (78 * 0.65)) }} }}"}, //Dorado
+				"705": {1: "{{Round: {{Query: (60 - (60 * 0.65)) }} }}"}, //Albacore
+				"706": {1: "{{Round: {{Query: (45 - (45 * 0.65)) }} }}"}, //Shad
+				"707": {1: "{{Round: {{Query: (85 - (85 * 0.65)) }} }}"}, //Lingcod
+				"708": {1: "{{Round: {{Query: (50 - (50 * 0.65)) }} }}"}, //Halibut
+				"734": {1: "{{Round: {{Query: (50 - (50 * 0.65)) }} }}"}, //Woodskip
+				"775": {1: "{{Round: {{Query: (100 - (100 * 0.65)) }} }}"}, //Glacierfish
+				"795": {1: "{{Round: {{Query: (80 - (80 * 0.65)) }} }}"}, //Void Salmon
+				"796": {1: "{{Round: {{Query: (55 - (55 * 0.65)) }} }}"}, //Slimejack
+				"798": {1: "{{Round: {{Query: (55 - (55 * 0.65)) }} }}"}, //Midnight Squid
+				"799": {1: "{{Round: {{Query: (60 - (60 * 0.65)) }} }}"}, //Spook Fish
+				"800": {1: "{{Round: {{Query: (75 - (75 * 0.65)) }} }}"}, //Blobfish
+				"836": {1: "{{Round: {{Query: (80 - (80 * 0.65)) }} }}"}, //Stingray
+				"837": {1: "{{Round: {{Query: (50 - (50 * 0.65)) }} }}"}, //Lionfish
+				"838": {1: "{{Round: {{Query: (60 - (60 * 0.65)) }} }}"}, //Blue Discus
+				"898": {1: "{{Round: {{Query: (95 - (95 * 0.65)) }} }}"}, //Son of Crimsonfish
+				"899": {1: "{{Round: {{Query: (85 - (85 * 0.65)) }} }}"}, //Ms. Angler
+				"900": {1: "{{Round: {{Query: (110 - (110 * 0.65)) }} }}"}, //Legend II
+				"901": {1: "{{Round: {{Query: (80 - (80 * 0.65)) }} }}"}, //Radioactive Carp
+				"902": {1: "{{Round: {{Query: (100 - (100 * 0.65)) }} }}"}, //Glacierfish Jr
+				"Goby": {1: "{{Round: {{Query: (55 - (55 * 0.65)) }} }}"}, //Goby
+					  }, 
+				"When": {"Fishing Difficulty": "65% Easier"},
+		},
+		{
+			"LogName": "Fishing Difficulty 70% Easier",
+			"Action": "EditData",
+			"Target": "Data/Fish",
+			"Fields": {
+			    "128": {1: "{{Round: {{Query: (80 - (80 * 0.70)) }} }}"}, //Pufferfish
+				"129": {1: "{{Round: {{Query: (30 - (30 * 0.70)) }} }}"}, //Anchovy
+				"130": {1: "{{Round: {{Query: (70 - (70 * 0.70)) }} }}"}, //Tuna
+				"131": {1: "{{Round: {{Query: (30 - (30 * 0.70)) }} }}"}, //Sardine
+				"132": {1: "{{Round: {{Query: (35 - (35 * 0.70)) }} }}"}, //Bream
+				"136": {1: "{{Round: {{Query: (50 - (50 * 0.70)) }} }}"}, //Largemouth Bass
+				"137": {1: "{{Round: {{Query: (28 - (28 * 0.70)) }} }}"}, //Smallmouth Bass
+				"138": {1: "{{Round: {{Query: (45 - (45 * 0.70)) }} }}"}, //Rainbow Trout
+				"139": {1: "{{Round: {{Query: (50 - (50 * 0.70)) }} }}"}, //Salmon
+				"140": {1: "{{Round: {{Query: (45 - (45 * 0.70)) }} }}"}, //Walleye
+				"141": {1: "{{Round: {{Query: (35 - (35 * 0.70)) }} }}"}, //Perch
+				"142": {1: "{{Round: {{Query: (15 - (15 * 0.70)) }} }}"}, //Carp
+				"143": {1: "{{Round: {{Query: (75 - (75 * 0.70)) }} }}"}, //Catfish
+				"144": {1: "{{Round: {{Query: (60 - (60 * 0.70)) }} }}"}, //Pike
+				"145": {1: "{{Round: {{Query: (30 - (30 * 0.70)) }} }}"}, //Sunfish
+				"146": {1: "{{Round: {{Query: (55 - (55 * 0.70)) }} }}"}, //Red Mullet
+				"147": {1: "{{Round: {{Query: (25 - (25 * 0.70)) }} }}"}, //Herring
+				"148": {1: "{{Round: {{Query: (70 - (70 * 0.70)) }} }}"}, //Eel
+				"149": {1: "{{Round: {{Query: (95 - (95 * 0.70)) }} }}"}, //Octopus
+				"150": {1: "{{Round: {{Query: (40 - (40 * 0.70)) }} }}"}, //Red Snapper
+				"151": {1: "{{Round: {{Query: (75 - (75 * 0.70)) }} }}"}, //Squid
+				"154": {1: "{{Round: {{Query: (40 - (40 * 0.70)) }} }}"}, //Sea Cucumber
+				"155": {1: "{{Round: {{Query: (80 - (80 * 0.70)) }} }}"}, //Super Cucumber
+				"156": {1: "{{Round: {{Query: (50 - (50 * 0.70)) }} }}"}, //Ghostfish
+				"158": {1: "{{Round: {{Query: (65 - (65 * 0.70)) }} }}"}, //Stonefish
+				"159": {1: "{{Round: {{Query: (95 - (95 * 0.70)) }} }}"}, //Crimsonfish
+				"160": {1: "{{Round: {{Query: (85 - (85 * 0.70)) }} }}"}, //Angler
+				"161": {1: "{{Round: {{Query: (85 - (85 * 0.70)) }} }}"}, //Ice Pip
+				"162": {1: "{{Round: {{Query: (90 - (90 * 0.70)) }} }}"}, //Lava Eel
+				"163": {1: "{{Round: {{Query: (110 - (110 * 0.70)) }} }}"}, //Legend
+				"164": {1: "{{Round: {{Query: (65 - (65 * 0.70)) }} }}"}, //Sandfish
+				"165": {1: "{{Round: {{Query: (90 - (90 * 0.70)) }} }}"}, //Scorpion Carp
+				"267": {1: "{{Round: {{Query: (50 - (50 * 0.70)) }} }}"}, //Flounder
+				"269": {1: "{{Round: {{Query: (55 - (55 * 0.70)) }} }}"}, //Midnight Carp
+				"682": {1: "{{Round: {{Query: (80 - (80 * 0.70)) }} }}"}, //Mutant Carp
+				"698": {1: "{{Round: {{Query: (78 - (78 * 0.70)) }} }}"}, //Sturgeon
+				"699": {1: "{{Round: {{Query: (60 - (60 * 0.70)) }} }}"}, //Tiger Trout
+				"700": {1: "{{Round: {{Query: (46 - (46 * 0.70)) }} }}"}, //Bullhead
+				"701": {1: "{{Round: {{Query: (50 - (50 * 0.70)) }} }}"}, //Tilapia
+				"702": {1: "{{Round: {{Query: (35 - (35 * 0.70)) }} }}"}, //Chub
+				"704": {1: "{{Round: {{Query: (78 - (78 * 0.70)) }} }}"}, //Dorado
+				"705": {1: "{{Round: {{Query: (60 - (60 * 0.70)) }} }}"}, //Albacore
+				"706": {1: "{{Round: {{Query: (45 - (45 * 0.70)) }} }}"}, //Shad
+				"707": {1: "{{Round: {{Query: (85 - (85 * 0.70)) }} }}"}, //Lingcod
+				"708": {1: "{{Round: {{Query: (50 - (50 * 0.70)) }} }}"}, //Halibut
+				"734": {1: "{{Round: {{Query: (50 - (50 * 0.70)) }} }}"}, //Woodskip
+				"775": {1: "{{Round: {{Query: (100 - (100 * 0.70)) }} }}"}, //Glacierfish
+				"795": {1: "{{Round: {{Query: (80 - (80 * 0.70)) }} }}"}, //Void Salmon
+				"796": {1: "{{Round: {{Query: (55 - (55 * 0.70)) }} }}"}, //Slimejack
+				"798": {1: "{{Round: {{Query: (55 - (55 * 0.70)) }} }}"}, //Midnight Squid
+				"799": {1: "{{Round: {{Query: (60 - (60 * 0.70)) }} }}"}, //Spook Fish
+				"800": {1: "{{Round: {{Query: (75 - (75 * 0.70)) }} }}"}, //Blobfish
+				"836": {1: "{{Round: {{Query: (80 - (80 * 0.70)) }} }}"}, //Stingray
+				"837": {1: "{{Round: {{Query: (50 - (50 * 0.70)) }} }}"}, //Lionfish
+				"838": {1: "{{Round: {{Query: (60 - (60 * 0.70)) }} }}"}, //Blue Discus
+				"898": {1: "{{Round: {{Query: (95 - (95 * 0.70)) }} }}"}, //Son of Crimsonfish
+				"899": {1: "{{Round: {{Query: (85 - (85 * 0.70)) }} }}"}, //Ms. Angler
+				"900": {1: "{{Round: {{Query: (110 - (110 * 0.70)) }} }}"}, //Legend II
+				"901": {1: "{{Round: {{Query: (80 - (80 * 0.70)) }} }}"}, //Radioactive Carp
+				"902": {1: "{{Round: {{Query: (100 - (100 * 0.70)) }} }}"}, //Glacierfish Jr
+				"Goby": {1: "{{Round: {{Query: (55 - (55 * 0.70)) }} }}"}, //Goby
+					  },
+				"When": {"Fishing Difficulty": "70% Easier"},
+		},
+		{
+			"LogName": "Fishing Difficulty 75% Easier",
+			"Action": "EditData",
+			"Target": "Data/Fish",
+			"Fields": {
+			    "128": {1: "{{Round: {{Query: (80 - (80 * 0.75)) }} }}"}, //Pufferfish
+				"129": {1: "{{Round: {{Query: (30 - (30 * 0.75)) }} }}"}, //Anchovy
+				"130": {1: "{{Round: {{Query: (70 - (70 * 0.75)) }} }}"}, //Tuna
+				"131": {1: "{{Round: {{Query: (30 - (30 * 0.75)) }} }}"}, //Sardine
+				"132": {1: "{{Round: {{Query: (35 - (35 * 0.75)) }} }}"}, //Bream
+				"136": {1: "{{Round: {{Query: (50 - (50 * 0.75)) }} }}"}, //Largemouth Bass
+				"137": {1: "{{Round: {{Query: (28 - (28 * 0.75)) }} }}"}, //Smallmouth Bass
+				"138": {1: "{{Round: {{Query: (45 - (45 * 0.75)) }} }}"}, //Rainbow Trout
+				"139": {1: "{{Round: {{Query: (50 - (50 * 0.75)) }} }}"}, //Salmon
+				"140": {1: "{{Round: {{Query: (45 - (45 * 0.75)) }} }}"}, //Walleye
+				"141": {1: "{{Round: {{Query: (35 - (35 * 0.75)) }} }}"}, //Perch
+				"142": {1: "{{Round: {{Query: (15 - (15 * 0.75)) }} }}"}, //Carp
+				"143": {1: "{{Round: {{Query: (75 - (75 * 0.75)) }} }}"}, //Catfish
+				"144": {1: "{{Round: {{Query: (60 - (60 * 0.75)) }} }}"}, //Pike
+				"145": {1: "{{Round: {{Query: (30 - (30 * 0.75)) }} }}"}, //Sunfish
+				"146": {1: "{{Round: {{Query: (55 - (55 * 0.75)) }} }}"}, //Red Mullet
+				"147": {1: "{{Round: {{Query: (25 - (25 * 0.75)) }} }}"}, //Herring
+				"148": {1: "{{Round: {{Query: (70 - (70 * 0.75)) }} }}"}, //Eel
+				"149": {1: "{{Round: {{Query: (95 - (95 * 0.75)) }} }}"}, //Octopus
+				"150": {1: "{{Round: {{Query: (40 - (40 * 0.75)) }} }}"}, //Red Snapper
+				"151": {1: "{{Round: {{Query: (75 - (75 * 0.75)) }} }}"}, //Squid
+				"154": {1: "{{Round: {{Query: (40 - (40 * 0.75)) }} }}"}, //Sea Cucumber
+				"155": {1: "{{Round: {{Query: (80 - (80 * 0.75)) }} }}"}, //Super Cucumber
+				"156": {1: "{{Round: {{Query: (50 - (50 * 0.75)) }} }}"}, //Ghostfish
+				"158": {1: "{{Round: {{Query: (65 - (65 * 0.75)) }} }}"}, //Stonefish
+				"159": {1: "{{Round: {{Query: (95 - (95 * 0.75)) }} }}"}, //Crimsonfish
+				"160": {1: "{{Round: {{Query: (85 - (85 * 0.75)) }} }}"}, //Angler
+				"161": {1: "{{Round: {{Query: (85 - (85 * 0.75)) }} }}"}, //Ice Pip
+				"162": {1: "{{Round: {{Query: (90 - (90 * 0.75)) }} }}"}, //Lava Eel
+				"163": {1: "{{Round: {{Query: (110 - (110 * 0.75)) }} }}"}, //Legend
+				"164": {1: "{{Round: {{Query: (65 - (65 * 0.75)) }} }}"}, //Sandfish
+				"165": {1: "{{Round: {{Query: (90 - (90 * 0.75)) }} }}"}, //Scorpion Carp
+				"267": {1: "{{Round: {{Query: (50 - (50 * 0.75)) }} }}"}, //Flounder
+				"269": {1: "{{Round: {{Query: (55 - (55 * 0.75)) }} }}"}, //Midnight Carp
+				"682": {1: "{{Round: {{Query: (80 - (80 * 0.75)) }} }}"}, //Mutant Carp
+				"698": {1: "{{Round: {{Query: (78 - (78 * 0.75)) }} }}"}, //Sturgeon
+				"699": {1: "{{Round: {{Query: (60 - (60 * 0.75)) }} }}"}, //Tiger Trout
+				"700": {1: "{{Round: {{Query: (46 - (46 * 0.75)) }} }}"}, //Bullhead
+				"701": {1: "{{Round: {{Query: (50 - (50 * 0.75)) }} }}"}, //Tilapia
+				"702": {1: "{{Round: {{Query: (35 - (35 * 0.75)) }} }}"}, //Chub
+				"704": {1: "{{Round: {{Query: (78 - (78 * 0.75)) }} }}"}, //Dorado
+				"705": {1: "{{Round: {{Query: (60 - (60 * 0.75)) }} }}"}, //Albacore
+				"706": {1: "{{Round: {{Query: (45 - (45 * 0.75)) }} }}"}, //Shad
+				"707": {1: "{{Round: {{Query: (85 - (85 * 0.75)) }} }}"}, //Lingcod
+				"708": {1: "{{Round: {{Query: (50 - (50 * 0.75)) }} }}"}, //Halibut
+				"734": {1: "{{Round: {{Query: (50 - (50 * 0.75)) }} }}"}, //Woodskip
+				"775": {1: "{{Round: {{Query: (100 - (100 * 0.75)) }} }}"}, //Glacierfish
+				"795": {1: "{{Round: {{Query: (80 - (80 * 0.75)) }} }}"}, //Void Salmon
+				"796": {1: "{{Round: {{Query: (55 - (55 * 0.75)) }} }}"}, //Slimejack
+				"798": {1: "{{Round: {{Query: (55 - (55 * 0.75)) }} }}"}, //Midnight Squid
+				"799": {1: "{{Round: {{Query: (60 - (60 * 0.75)) }} }}"}, //Spook Fish
+				"800": {1: "{{Round: {{Query: (75 - (75 * 0.75)) }} }}"}, //Blobfish
+				"836": {1: "{{Round: {{Query: (80 - (80 * 0.75)) }} }}"}, //Stingray
+				"837": {1: "{{Round: {{Query: (50 - (50 * 0.75)) }} }}"}, //Lionfish
+				"838": {1: "{{Round: {{Query: (60 - (60 * 0.75)) }} }}"}, //Blue Discus
+				"898": {1: "{{Round: {{Query: (95 - (95 * 0.75)) }} }}"}, //Son of Crimsonfish
+				"899": {1: "{{Round: {{Query: (85 - (85 * 0.75)) }} }}"}, //Ms. Angler
+				"900": {1: "{{Round: {{Query: (110 - (110 * 0.75)) }} }}"}, //Legend II
+				"901": {1: "{{Round: {{Query: (80 - (80 * 0.75)) }} }}"}, //Radioactive Carp
+				"902": {1: "{{Round: {{Query: (100 - (100 * 0.75)) }} }}"}, //Glacierfish Jr
+				"Goby": {1: "{{Round: {{Query: (55 - (55 * 0.75)) }} }}"}, //Goby
+					  }, 
+				"When": {"Fishing Difficulty": "75% Easier"},
+		},
+		{
+			"LogName": "Fishing Difficulty 80% Easier",
+			"Action": "EditData",
+			"Target": "Data/Fish",
+			"Fields": {
+			    "128": {1: "{{Round: {{Query: (80 - (80 * 0.80)) }} }}"}, //Pufferfish
+				"129": {1: "{{Round: {{Query: (30 - (30 * 0.80)) }} }}"}, //Anchovy
+				"130": {1: "{{Round: {{Query: (70 - (70 * 0.80)) }} }}"}, //Tuna
+				"131": {1: "{{Round: {{Query: (30 - (30 * 0.80)) }} }}"}, //Sardine
+				"132": {1: "{{Round: {{Query: (35 - (35 * 0.80)) }} }}"}, //Bream
+				"136": {1: "{{Round: {{Query: (50 - (50 * 0.80)) }} }}"}, //Largemouth Bass
+				"137": {1: "{{Round: {{Query: (28 - (28 * 0.80)) }} }}"}, //Smallmouth Bass
+				"138": {1: "{{Round: {{Query: (45 - (45 * 0.80)) }} }}"}, //Rainbow Trout
+				"139": {1: "{{Round: {{Query: (50 - (50 * 0.80)) }} }}"}, //Salmon
+				"140": {1: "{{Round: {{Query: (45 - (45 * 0.80)) }} }}"}, //Walleye
+				"141": {1: "{{Round: {{Query: (35 - (35 * 0.80)) }} }}"}, //Perch
+				"142": {1: "{{Round: {{Query: (15 - (15 * 0.80)) }} }}"}, //Carp
+				"143": {1: "{{Round: {{Query: (75 - (75 * 0.80)) }} }}"}, //Catfish
+				"144": {1: "{{Round: {{Query: (60 - (60 * 0.80)) }} }}"}, //Pike
+				"145": {1: "{{Round: {{Query: (30 - (30 * 0.80)) }} }}"}, //Sunfish
+				"146": {1: "{{Round: {{Query: (55 - (55 * 0.80)) }} }}"}, //Red Mullet
+				"147": {1: "{{Round: {{Query: (25 - (25 * 0.80)) }} }}"}, //Herring
+				"148": {1: "{{Round: {{Query: (70 - (70 * 0.80)) }} }}"}, //Eel
+				"149": {1: "{{Round: {{Query: (95 - (95 * 0.80)) }} }}"}, //Octopus
+				"150": {1: "{{Round: {{Query: (40 - (40 * 0.80)) }} }}"}, //Red Snapper
+				"151": {1: "{{Round: {{Query: (75 - (75 * 0.80)) }} }}"}, //Squid
+				"154": {1: "{{Round: {{Query: (40 - (40 * 0.80)) }} }}"}, //Sea Cucumber
+				"155": {1: "{{Round: {{Query: (80 - (80 * 0.80)) }} }}"}, //Super Cucumber
+				"156": {1: "{{Round: {{Query: (50 - (50 * 0.80)) }} }}"}, //Ghostfish
+				"158": {1: "{{Round: {{Query: (65 - (65 * 0.80)) }} }}"}, //Stonefish
+				"159": {1: "{{Round: {{Query: (95 - (95 * 0.80)) }} }}"}, //Crimsonfish
+				"160": {1: "{{Round: {{Query: (85 - (85 * 0.80)) }} }}"}, //Angler
+				"161": {1: "{{Round: {{Query: (85 - (85 * 0.80)) }} }}"}, //Ice Pip
+				"162": {1: "{{Round: {{Query: (90 - (90 * 0.80)) }} }}"}, //Lava Eel
+				"163": {1: "{{Round: {{Query: (110 - (110 * 0.80)) }} }}"}, //Legend
+				"164": {1: "{{Round: {{Query: (65 - (65 * 0.80)) }} }}"}, //Sandfish
+				"165": {1: "{{Round: {{Query: (90 - (90 * 0.80)) }} }}"}, //Scorpion Carp
+				"267": {1: "{{Round: {{Query: (50 - (50 * 0.80)) }} }}"}, //Flounder
+				"269": {1: "{{Round: {{Query: (55 - (55 * 0.80)) }} }}"}, //Midnight Carp
+				"682": {1: "{{Round: {{Query: (80 - (80 * 0.80)) }} }}"}, //Mutant Carp
+				"698": {1: "{{Round: {{Query: (78 - (78 * 0.80)) }} }}"}, //Sturgeon
+				"699": {1: "{{Round: {{Query: (60 - (60 * 0.80)) }} }}"}, //Tiger Trout
+				"700": {1: "{{Round: {{Query: (46 - (46 * 0.80)) }} }}"}, //Bullhead
+				"701": {1: "{{Round: {{Query: (50 - (50 * 0.80)) }} }}"}, //Tilapia
+				"702": {1: "{{Round: {{Query: (35 - (35 * 0.80)) }} }}"}, //Chub
+				"704": {1: "{{Round: {{Query: (78 - (78 * 0.80)) }} }}"}, //Dorado
+				"705": {1: "{{Round: {{Query: (60 - (60 * 0.80)) }} }}"}, //Albacore
+				"706": {1: "{{Round: {{Query: (45 - (45 * 0.80)) }} }}"}, //Shad
+				"707": {1: "{{Round: {{Query: (85 - (85 * 0.80)) }} }}"}, //Lingcod
+				"708": {1: "{{Round: {{Query: (50 - (50 * 0.80)) }} }}"}, //Halibut
+				"734": {1: "{{Round: {{Query: (50 - (50 * 0.80)) }} }}"}, //Woodskip
+				"775": {1: "{{Round: {{Query: (100 - (100 * 0.80)) }} }}"}, //Glacierfish
+				"795": {1: "{{Round: {{Query: (80 - (80 * 0.80)) }} }}"}, //Void Salmon
+				"796": {1: "{{Round: {{Query: (55 - (55 * 0.80)) }} }}"}, //Slimejack
+				"798": {1: "{{Round: {{Query: (55 - (55 * 0.80)) }} }}"}, //Midnight Squid
+				"799": {1: "{{Round: {{Query: (60 - (60 * 0.80)) }} }}"}, //Spook Fish
+				"800": {1: "{{Round: {{Query: (75 - (75 * 0.80)) }} }}"}, //Blobfish
+				"836": {1: "{{Round: {{Query: (80 - (80 * 0.80)) }} }}"}, //Stingray
+				"837": {1: "{{Round: {{Query: (50 - (50 * 0.80)) }} }}"}, //Lionfish
+				"838": {1: "{{Round: {{Query: (60 - (60 * 0.80)) }} }}"}, //Blue Discus
+				"898": {1: "{{Round: {{Query: (95 - (95 * 0.80)) }} }}"}, //Son of Crimsonfish
+				"899": {1: "{{Round: {{Query: (85 - (85 * 0.80)) }} }}"}, //Ms. Angler
+				"900": {1: "{{Round: {{Query: (110 - (110 * 0.80)) }} }}"}, //Legend II
+				"901": {1: "{{Round: {{Query: (80 - (80 * 0.80)) }} }}"}, //Radioactive Carp
+				"902": {1: "{{Round: {{Query: (100 - (100 * 0.80)) }} }}"}, //Glacierfish Jr
+				"Goby": {1: "{{Round: {{Query: (55 - (55 * 0.80)) }} }}"}, //Goby
+					  },
+				"When": {"Fishing Difficulty": "80% Easier"},
+		},
+		{
+			"LogName": "Fishing Difficulty 85% Easier",
+			"Action": "EditData",
+			"Target": "Data/Fish",
+			"Fields": {
+			    "128": {1: "{{Round: {{Query: (80 - (80 * 0.85)) }} }}"}, //Pufferfish
+				"129": {1: "{{Round: {{Query: (30 - (30 * 0.85)) }} }}"}, //Anchovy
+				"130": {1: "{{Round: {{Query: (70 - (70 * 0.85)) }} }}"}, //Tuna
+				"131": {1: "{{Round: {{Query: (30 - (30 * 0.85)) }} }}"}, //Sardine
+				"132": {1: "{{Round: {{Query: (35 - (35 * 0.85)) }} }}"}, //Bream
+				"136": {1: "{{Round: {{Query: (50 - (50 * 0.85)) }} }}"}, //Largemouth Bass
+				"137": {1: "{{Round: {{Query: (28 - (28 * 0.85)) }} }}"}, //Smallmouth Bass
+				"138": {1: "{{Round: {{Query: (45 - (45 * 0.85)) }} }}"}, //Rainbow Trout
+				"139": {1: "{{Round: {{Query: (50 - (50 * 0.85)) }} }}"}, //Salmon
+				"140": {1: "{{Round: {{Query: (45 - (45 * 0.85)) }} }}"}, //Walleye
+				"141": {1: "{{Round: {{Query: (35 - (35 * 0.85)) }} }}"}, //Perch
+				"142": {1: "{{Round: {{Query: (15 - (15 * 0.85)) }} }}"}, //Carp
+				"143": {1: "{{Round: {{Query: (75 - (75 * 0.85)) }} }}"}, //Catfish
+				"144": {1: "{{Round: {{Query: (60 - (60 * 0.85)) }} }}"}, //Pike
+				"145": {1: "{{Round: {{Query: (30 - (30 * 0.85)) }} }}"}, //Sunfish
+				"146": {1: "{{Round: {{Query: (55 - (55 * 0.85)) }} }}"}, //Red Mullet
+				"147": {1: "{{Round: {{Query: (25 - (25 * 0.85)) }} }}"}, //Herring
+				"148": {1: "{{Round: {{Query: (70 - (70 * 0.85)) }} }}"}, //Eel
+				"149": {1: "{{Round: {{Query: (95 - (95 * 0.85)) }} }}"}, //Octopus
+				"150": {1: "{{Round: {{Query: (40 - (40 * 0.85)) }} }}"}, //Red Snapper
+				"151": {1: "{{Round: {{Query: (75 - (75 * 0.85)) }} }}"}, //Squid
+				"154": {1: "{{Round: {{Query: (40 - (40 * 0.85)) }} }}"}, //Sea Cucumber
+				"155": {1: "{{Round: {{Query: (80 - (80 * 0.85)) }} }}"}, //Super Cucumber
+				"156": {1: "{{Round: {{Query: (50 - (50 * 0.85)) }} }}"}, //Ghostfish
+				"158": {1: "{{Round: {{Query: (65 - (65 * 0.85)) }} }}"}, //Stonefish
+				"159": {1: "{{Round: {{Query: (95 - (95 * 0.85)) }} }}"}, //Crimsonfish
+				"160": {1: "{{Round: {{Query: (85 - (85 * 0.85)) }} }}"}, //Angler
+				"161": {1: "{{Round: {{Query: (85 - (85 * 0.85)) }} }}"}, //Ice Pip
+				"162": {1: "{{Round: {{Query: (90 - (90 * 0.85)) }} }}"}, //Lava Eel
+				"163": {1: "{{Round: {{Query: (110 - (110 * 0.85)) }} }}"}, //Legend
+				"164": {1: "{{Round: {{Query: (65 - (65 * 0.85)) }} }}"}, //Sandfish
+				"165": {1: "{{Round: {{Query: (90 - (90 * 0.85)) }} }}"}, //Scorpion Carp
+				"267": {1: "{{Round: {{Query: (50 - (50 * 0.85)) }} }}"}, //Flounder
+				"269": {1: "{{Round: {{Query: (55 - (55 * 0.85)) }} }}"}, //Midnight Carp
+				"682": {1: "{{Round: {{Query: (80 - (80 * 0.85)) }} }}"}, //Mutant Carp
+				"698": {1: "{{Round: {{Query: (78 - (78 * 0.85)) }} }}"}, //Sturgeon
+				"699": {1: "{{Round: {{Query: (60 - (60 * 0.85)) }} }}"}, //Tiger Trout
+				"700": {1: "{{Round: {{Query: (46 - (46 * 0.85)) }} }}"}, //Bullhead
+				"701": {1: "{{Round: {{Query: (50 - (50 * 0.85)) }} }}"}, //Tilapia
+				"702": {1: "{{Round: {{Query: (35 - (35 * 0.85)) }} }}"}, //Chub
+				"704": {1: "{{Round: {{Query: (78 - (78 * 0.85)) }} }}"}, //Dorado
+				"705": {1: "{{Round: {{Query: (60 - (60 * 0.85)) }} }}"}, //Albacore
+				"706": {1: "{{Round: {{Query: (45 - (45 * 0.85)) }} }}"}, //Shad
+				"707": {1: "{{Round: {{Query: (85 - (85 * 0.85)) }} }}"}, //Lingcod
+				"708": {1: "{{Round: {{Query: (50 - (50 * 0.85)) }} }}"}, //Halibut
+				"734": {1: "{{Round: {{Query: (50 - (50 * 0.85)) }} }}"}, //Woodskip
+				"775": {1: "{{Round: {{Query: (100 - (100 * 0.85)) }} }}"}, //Glacierfish
+				"795": {1: "{{Round: {{Query: (80 - (80 * 0.85)) }} }}"}, //Void Salmon
+				"796": {1: "{{Round: {{Query: (55 - (55 * 0.85)) }} }}"}, //Slimejack
+				"798": {1: "{{Round: {{Query: (55 - (55 * 0.85)) }} }}"}, //Midnight Squid
+				"799": {1: "{{Round: {{Query: (60 - (60 * 0.85)) }} }}"}, //Spook Fish
+				"800": {1: "{{Round: {{Query: (75 - (75 * 0.85)) }} }}"}, //Blobfish
+				"836": {1: "{{Round: {{Query: (80 - (80 * 0.85)) }} }}"}, //Stingray
+				"837": {1: "{{Round: {{Query: (50 - (50 * 0.85)) }} }}"}, //Lionfish
+				"838": {1: "{{Round: {{Query: (60 - (60 * 0.85)) }} }}"}, //Blue Discus
+				"898": {1: "{{Round: {{Query: (95 - (95 * 0.85)) }} }}"}, //Son of Crimsonfish
+				"899": {1: "{{Round: {{Query: (85 - (85 * 0.85)) }} }}"}, //Ms. Angler
+				"900": {1: "{{Round: {{Query: (110 - (110 * 0.85)) }} }}"}, //Legend II
+				"901": {1: "{{Round: {{Query: (80 - (80 * 0.85)) }} }}"}, //Radioactive Carp
+				"902": {1: "{{Round: {{Query: (100 - (100 * 0.85)) }} }}"}, //Glacierfish Jr
+				"Goby": {1: "{{Round: {{Query: (55 - (55 * 0.85)) }} }}"}, //Goby
+					  }, 
+				"When": {"Fishing Difficulty": "85% Easier"},
+		},
+		{
+			"LogName": "Fishing Difficulty 90% Easier",
+			"Action": "EditData",
+			"Target": "Data/Fish",
+			"Fields": {
+			    "128": {1: "{{Round: {{Query: (80 - (80 * 0.90)) }} }}"}, //Pufferfish
+				"129": {1: "{{Round: {{Query: (30 - (30 * 0.90)) }} }}"}, //Anchovy
+				"130": {1: "{{Round: {{Query: (70 - (70 * 0.90)) }} }}"}, //Tuna
+				"131": {1: "{{Round: {{Query: (30 - (30 * 0.90)) }} }}"}, //Sardine
+				"132": {1: "{{Round: {{Query: (35 - (35 * 0.90)) }} }}"}, //Bream
+				"136": {1: "{{Round: {{Query: (50 - (50 * 0.90)) }} }}"}, //Largemouth Bass
+				"137": {1: "{{Round: {{Query: (28 - (28 * 0.90)) }} }}"}, //Smallmouth Bass
+				"138": {1: "{{Round: {{Query: (45 - (45 * 0.90)) }} }}"}, //Rainbow Trout
+				"139": {1: "{{Round: {{Query: (50 - (50 * 0.90)) }} }}"}, //Salmon
+				"140": {1: "{{Round: {{Query: (45 - (45 * 0.90)) }} }}"}, //Walleye
+				"141": {1: "{{Round: {{Query: (35 - (35 * 0.90)) }} }}"}, //Perch
+				"142": {1: "{{Round: {{Query: (15 - (15 * 0.90)) }} }}"}, //Carp
+				"143": {1: "{{Round: {{Query: (75 - (75 * 0.90)) }} }}"}, //Catfish
+				"144": {1: "{{Round: {{Query: (60 - (60 * 0.90)) }} }}"}, //Pike
+				"145": {1: "{{Round: {{Query: (30 - (30 * 0.90)) }} }}"}, //Sunfish
+				"146": {1: "{{Round: {{Query: (55 - (55 * 0.90)) }} }}"}, //Red Mullet
+				"147": {1: "{{Round: {{Query: (25 - (25 * 0.90)) }} }}"}, //Herring
+				"148": {1: "{{Round: {{Query: (70 - (70 * 0.90)) }} }}"}, //Eel
+				"149": {1: "{{Round: {{Query: (95 - (95 * 0.90)) }} }}"}, //Octopus
+				"150": {1: "{{Round: {{Query: (40 - (40 * 0.90)) }} }}"}, //Red Snapper
+				"151": {1: "{{Round: {{Query: (75 - (75 * 0.90)) }} }}"}, //Squid
+				"154": {1: "{{Round: {{Query: (40 - (40 * 0.90)) }} }}"}, //Sea Cucumber
+				"155": {1: "{{Round: {{Query: (80 - (80 * 0.90)) }} }}"}, //Super Cucumber
+				"156": {1: "{{Round: {{Query: (50 - (50 * 0.90)) }} }}"}, //Ghostfish
+				"158": {1: "{{Round: {{Query: (65 - (65 * 0.90)) }} }}"}, //Stonefish
+				"159": {1: "{{Round: {{Query: (95 - (95 * 0.90)) }} }}"}, //Crimsonfish
+				"160": {1: "{{Round: {{Query: (85 - (85 * 0.90)) }} }}"}, //Angler
+				"161": {1: "{{Round: {{Query: (85 - (85 * 0.90)) }} }}"}, //Ice Pip
+				"162": {1: "{{Round: {{Query: (90 - (90 * 0.90)) }} }}"}, //Lava Eel
+				"163": {1: "{{Round: {{Query: (110 - (110 * 0.90)) }} }}"}, //Legend
+				"164": {1: "{{Round: {{Query: (65 - (65 * 0.90)) }} }}"}, //Sandfish
+				"165": {1: "{{Round: {{Query: (90 - (90 * 0.90)) }} }}"}, //Scorpion Carp
+				"267": {1: "{{Round: {{Query: (50 - (50 * 0.90)) }} }}"}, //Flounder
+				"269": {1: "{{Round: {{Query: (55 - (55 * 0.90)) }} }}"}, //Midnight Carp
+				"682": {1: "{{Round: {{Query: (80 - (80 * 0.90)) }} }}"}, //Mutant Carp
+				"698": {1: "{{Round: {{Query: (78 - (78 * 0.90)) }} }}"}, //Sturgeon
+				"699": {1: "{{Round: {{Query: (60 - (60 * 0.90)) }} }}"}, //Tiger Trout
+				"700": {1: "{{Round: {{Query: (46 - (46 * 0.90)) }} }}"}, //Bullhead
+				"701": {1: "{{Round: {{Query: (50 - (50 * 0.90)) }} }}"}, //Tilapia
+				"702": {1: "{{Round: {{Query: (35 - (35 * 0.90)) }} }}"}, //Chub
+				"704": {1: "{{Round: {{Query: (78 - (78 * 0.90)) }} }}"}, //Dorado
+				"705": {1: "{{Round: {{Query: (60 - (60 * 0.90)) }} }}"}, //Albacore
+				"706": {1: "{{Round: {{Query: (45 - (45 * 0.90)) }} }}"}, //Shad
+				"707": {1: "{{Round: {{Query: (85 - (85 * 0.90)) }} }}"}, //Lingcod
+				"708": {1: "{{Round: {{Query: (50 - (50 * 0.90)) }} }}"}, //Halibut
+				"734": {1: "{{Round: {{Query: (50 - (50 * 0.90)) }} }}"}, //Woodskip
+				"775": {1: "{{Round: {{Query: (100 - (100 * 0.90)) }} }}"}, //Glacierfish
+				"795": {1: "{{Round: {{Query: (80 - (80 * 0.90)) }} }}"}, //Void Salmon
+				"796": {1: "{{Round: {{Query: (55 - (55 * 0.90)) }} }}"}, //Slimejack
+				"798": {1: "{{Round: {{Query: (55 - (55 * 0.90)) }} }}"}, //Midnight Squid
+				"799": {1: "{{Round: {{Query: (60 - (60 * 0.90)) }} }}"}, //Spook Fish
+				"800": {1: "{{Round: {{Query: (75 - (75 * 0.90)) }} }}"}, //Blobfish
+				"836": {1: "{{Round: {{Query: (80 - (80 * 0.90)) }} }}"}, //Stingray
+				"837": {1: "{{Round: {{Query: (50 - (50 * 0.90)) }} }}"}, //Lionfish
+				"838": {1: "{{Round: {{Query: (60 - (60 * 0.90)) }} }}"}, //Blue Discus
+				"898": {1: "{{Round: {{Query: (95 - (95 * 0.90)) }} }}"}, //Son of Crimsonfish
+				"899": {1: "{{Round: {{Query: (85 - (85 * 0.90)) }} }}"}, //Ms. Angler
+				"900": {1: "{{Round: {{Query: (110 - (110 * 0.90)) }} }}"}, //Legend II
+				"901": {1: "{{Round: {{Query: (80 - (80 * 0.90)) }} }}"}, //Radioactive Carp
+				"902": {1: "{{Round: {{Query: (100 - (100 * 0.90)) }} }}"}, //Glacierfish Jr
+				"Goby": {1: "{{Round: {{Query: (55 - (55 * 0.90)) }} }}"}, //Goby
+					  },
+				"When": {"Fishing Difficulty": "90% Easier"},
+		},
+		{
+			"LogName": "Fishing Difficulty 95% Easier",
+			"Action": "EditData",
+			"Target": "Data/Fish",
+			"Fields": {
+			    "128": {1: "{{Round: {{Query: (80 - (80 * 0.95)) }} }}"}, //Pufferfish
+				"129": {1: "{{Round: {{Query: (30 - (30 * 0.95)) }} }}"}, //Anchovy
+				"130": {1: "{{Round: {{Query: (70 - (70 * 0.95)) }} }}"}, //Tuna
+				"131": {1: "{{Round: {{Query: (30 - (30 * 0.95)) }} }}"}, //Sardine
+				"132": {1: "{{Round: {{Query: (35 - (35 * 0.95)) }} }}"}, //Bream
+				"136": {1: "{{Round: {{Query: (50 - (50 * 0.95)) }} }}"}, //Largemouth Bass
+				"137": {1: "{{Round: {{Query: (28 - (28 * 0.95)) }} }}"}, //Smallmouth Bass
+				"138": {1: "{{Round: {{Query: (45 - (45 * 0.95)) }} }}"}, //Rainbow Trout
+				"139": {1: "{{Round: {{Query: (50 - (50 * 0.95)) }} }}"}, //Salmon
+				"140": {1: "{{Round: {{Query: (45 - (45 * 0.95)) }} }}"}, //Walleye
+				"141": {1: "{{Round: {{Query: (35 - (35 * 0.95)) }} }}"}, //Perch
+				"142": {1: "{{Round: {{Query: (15 - (15 * 0.95)) }} }}"}, //Carp
+				"143": {1: "{{Round: {{Query: (75 - (75 * 0.95)) }} }}"}, //Catfish
+				"144": {1: "{{Round: {{Query: (60 - (60 * 0.95)) }} }}"}, //Pike
+				"145": {1: "{{Round: {{Query: (30 - (30 * 0.95)) }} }}"}, //Sunfish
+				"146": {1: "{{Round: {{Query: (55 - (55 * 0.95)) }} }}"}, //Red Mullet
+				"147": {1: "{{Round: {{Query: (25 - (25 * 0.95)) }} }}"}, //Herring
+				"148": {1: "{{Round: {{Query: (70 - (70 * 0.95)) }} }}"}, //Eel
+				"149": {1: "{{Round: {{Query: (95 - (95 * 0.95)) }} }}"}, //Octopus
+				"150": {1: "{{Round: {{Query: (40 - (40 * 0.95)) }} }}"}, //Red Snapper
+				"151": {1: "{{Round: {{Query: (75 - (75 * 0.95)) }} }}"}, //Squid
+				"154": {1: "{{Round: {{Query: (40 - (40 * 0.95)) }} }}"}, //Sea Cucumber
+				"155": {1: "{{Round: {{Query: (80 - (80 * 0.95)) }} }}"}, //Super Cucumber
+				"156": {1: "{{Round: {{Query: (50 - (50 * 0.95)) }} }}"}, //Ghostfish
+				"158": {1: "{{Round: {{Query: (65 - (65 * 0.95)) }} }}"}, //Stonefish
+				"159": {1: "{{Round: {{Query: (95 - (95 * 0.95)) }} }}"}, //Crimsonfish
+				"160": {1: "{{Round: {{Query: (85 - (85 * 0.95)) }} }}"}, //Angler
+				"161": {1: "{{Round: {{Query: (85 - (85 * 0.95)) }} }}"}, //Ice Pip
+				"162": {1: "{{Round: {{Query: (90 - (90 * 0.95)) }} }}"}, //Lava Eel
+				"163": {1: "{{Round: {{Query: (110 - (110 * 0.95)) }} }}"}, //Legend
+				"164": {1: "{{Round: {{Query: (65 - (65 * 0.95)) }} }}"}, //Sandfish
+				"165": {1: "{{Round: {{Query: (90 - (90 * 0.95)) }} }}"}, //Scorpion Carp
+				"267": {1: "{{Round: {{Query: (50 - (50 * 0.95)) }} }}"}, //Flounder
+				"269": {1: "{{Round: {{Query: (55 - (55 * 0.95)) }} }}"}, //Midnight Carp
+				"682": {1: "{{Round: {{Query: (80 - (80 * 0.95)) }} }}"}, //Mutant Carp
+				"698": {1: "{{Round: {{Query: (78 - (78 * 0.95)) }} }}"}, //Sturgeon
+				"699": {1: "{{Round: {{Query: (60 - (60 * 0.95)) }} }}"}, //Tiger Trout
+				"700": {1: "{{Round: {{Query: (46 - (46 * 0.95)) }} }}"}, //Bullhead
+				"701": {1: "{{Round: {{Query: (50 - (50 * 0.95)) }} }}"}, //Tilapia
+				"702": {1: "{{Round: {{Query: (35 - (35 * 0.95)) }} }}"}, //Chub
+				"704": {1: "{{Round: {{Query: (78 - (78 * 0.95)) }} }}"}, //Dorado
+				"705": {1: "{{Round: {{Query: (60 - (60 * 0.95)) }} }}"}, //Albacore
+				"706": {1: "{{Round: {{Query: (45 - (45 * 0.95)) }} }}"}, //Shad
+				"707": {1: "{{Round: {{Query: (85 - (85 * 0.95)) }} }}"}, //Lingcod
+				"708": {1: "{{Round: {{Query: (50 - (50 * 0.95)) }} }}"}, //Halibut
+				"734": {1: "{{Round: {{Query: (50 - (50 * 0.95)) }} }}"}, //Woodskip
+				"775": {1: "{{Round: {{Query: (100 - (100 * 0.95)) }} }}"}, //Glacierfish
+				"795": {1: "{{Round: {{Query: (80 - (80 * 0.95)) }} }}"}, //Void Salmon
+				"796": {1: "{{Round: {{Query: (55 - (55 * 0.95)) }} }}"}, //Slimejack
+				"798": {1: "{{Round: {{Query: (55 - (55 * 0.95)) }} }}"}, //Midnight Squid
+				"799": {1: "{{Round: {{Query: (60 - (60 * 0.95)) }} }}"}, //Spook Fish
+				"800": {1: "{{Round: {{Query: (75 - (75 * 0.95)) }} }}"}, //Blobfish
+				"836": {1: "{{Round: {{Query: (80 - (80 * 0.95)) }} }}"}, //Stingray
+				"837": {1: "{{Round: {{Query: (50 - (50 * 0.95)) }} }}"}, //Lionfish
+				"838": {1: "{{Round: {{Query: (60 - (60 * 0.95)) }} }}"}, //Blue Discus
+				"898": {1: "{{Round: {{Query: (95 - (95 * 0.95)) }} }}"}, //Son of Crimsonfish
+				"899": {1: "{{Round: {{Query: (85 - (85 * 0.95)) }} }}"}, //Ms. Angler
+				"900": {1: "{{Round: {{Query: (110 - (110 * 0.95)) }} }}"}, //Legend II
+				"901": {1: "{{Round: {{Query: (80 - (80 * 0.95)) }} }}"}, //Radioactive Carp
+				"902": {1: "{{Round: {{Query: (100 - (100 * 0.95)) }} }}"}, //Glacierfish Jr
+				"Goby": {1: "{{Round: {{Query: (55 - (55 * 0.95)) }} }}"}, //Goby
+					  }, 
+				"When": {"Fishing Difficulty": "95% Easier"},
+		},
+	    {
+			"LogName": "Fishing Difficulty 100% Easier",
+			"Action": "EditData",
+			"Target": "Data/Fish",
+			"Fields": {
+			    "128": {1: "0", 2: "smooth"}, //Pufferfish
+				"129": {1: "0"}, //Anchovy
+				"130": {1: "0"}, //Tuna
+				"131": {1: "0"}, //Sardine
+				"132": {1: "0"}, //Bream
+				"136": {1: "0"}, //Largemouth Bass
+				"137": {1: "0"}, //Smallmouth Bass
+				"138": {1: "0"}, //Rainbow Trout
+				"139": {1: "0"}, //Salmon
+				"140": {1: "0"}, //Walleye
+				"141": {1: "0"}, //Perch
+				"142": {1: "0"}, //Carp
+				"143": {1: "0"}, //Catfish
+				"144": {1: "0"}, //Pike
+				"145": {1: "0"}, //Sunfish
+				"146": {1: "0"}, //Red Mullet
+				"147": {1: "0"}, //Herring
+				"148": {1: "0"}, //Eel
+				"149": {1: "0"}, //Octopus
+				"150": {1: "0"}, //Red Snapper
+				"151": {1: "0"}, //Squid
+				"154": {1: "0"}, //Sea Cucumber
+				"155": {1: "0"}, //Super Cucumber
+				"156": {1: "0"}, //Ghostfish
+				"158": {1: "0"}, //Stonefish
+				"159": {1: "0"}, //Crimsonfish
+				"160": {1: "0"}, //Angler
+				"161": {1: "0"}, //Ice Pip
+				"162": {1: "0"}, //Lava Eel
+				"163": {1: "0"}, //Legend
+				"164": {1: "0"}, //Sandfish
+				"165": {1: "0"}, //Scorpion Carp
+				"267": {1: "0"}, //Flounder
+				"269": {1: "0"}, //Midnight Carp
+				"682": {1: "0"}, //Mutant Carp
+				"698": {1: "0"}, //Sturgeon
+				"699": {1: "0"}, //Tiger Trout
+				"700": {1: "0"}, //Bullhead
+				"701": {1: "0"}, //Tilapia
+				"702": {1: "0"}, //Chub
+				"704": {1: "0"}, //Dorado
+				"705": {1: "0"}, //Albacore
+				"706": {1: "0"}, //Shad
+				"707": {1: "0"}, //Lingcod
+				"708": {1: "0"}, //Halibut
+				"734": {1: "0"}, //Woodskip
+				"775": {1: "0"}, //Glacierfish
+				"795": {1: "0"}, //Void Salmon
+				"796": {1: "0"}, //Slimejack
+				"798": {1: "0"}, //Midnight Squid
+				"799": {1: "0"}, //Spook Fish
+				"800": {1: "0", 2: "smooth"}, //Blobfish
+				"836": {1: "0"}, //Stingray
+				"837": {1: "0"}, //Lionfish
+				"838": {1: "0"}, //Blue Discus
+				"898": {1: "0"}, //Son of Crimsonfish
+				"899": {1: "0"}, //Ms. Angler
+				"900": {1: "0"}, //Legend II
+				"901": {1: "0"}, //Radioactive Carp
+				"902": {1: "0"}, //Glacierfish Jr
+				"Goby": {1: "0"}, //Goby
+				      },
+				"When": {"Fishing Difficulty": "100% Easier"},
+		},
+	]
+}

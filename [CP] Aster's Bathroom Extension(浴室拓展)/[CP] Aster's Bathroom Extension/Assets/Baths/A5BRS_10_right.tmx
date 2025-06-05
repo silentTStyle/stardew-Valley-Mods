@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="6" height="9" tilewidth="16" tileheight="16" infinite="0" nextlayerid="12" nextobjectid="113">
+ <properties>
+  <property name="DayTiles" value="Front 2 0 225"/>
+  <property name="Light" value="2 0 6"/>
+  <property name="NightTiles" value="Front 2 0 1222"/>
+ </properties>
+ <tileset firstgid="1" name="p" tilewidth="16" tileheight="16" tilecount="64" columns="4">
+  <image source="paths.png" width="64" height="256"/>
+ </tileset>
+ <tileset firstgid="65" name="z_A5_SpouseBaths_14" tilewidth="16" tileheight="16" tilecount="108" columns="12">
+  <image source="A5_SpouseBaths_14.png" width="192" height="144"/>
+  <tile id="46">
+   <animation>
+    <frame tileid="46" duration="250"/>
+    <frame tileid="36" duration="250"/>
+    <frame tileid="38" duration="250"/>
+    <frame tileid="40" duration="250"/>
+    <frame tileid="42" duration="250"/>
+    <frame tileid="44" duration="250"/>
+   </animation>
+  </tile>
+  <tile id="47">
+   <animation>
+    <frame tileid="47" duration="250"/>
+    <frame tileid="37" duration="250"/>
+    <frame tileid="39" duration="250"/>
+    <frame tileid="41" duration="250"/>
+    <frame tileid="43" duration="250"/>
+    <frame tileid="45" duration="250"/>
+   </animation>
+  </tile>
+  <tile id="58">
+   <animation>
+    <frame tileid="58" duration="250"/>
+    <frame tileid="48" duration="250"/>
+    <frame tileid="50" duration="250"/>
+    <frame tileid="52" duration="250"/>
+    <frame tileid="54" duration="250"/>
+    <frame tileid="56" duration="250"/>
+   </animation>
+  </tile>
+  <tile id="59">
+   <animation>
+    <frame tileid="59" duration="250"/>
+    <frame tileid="49" duration="250"/>
+    <frame tileid="51" duration="250"/>
+    <frame tileid="53" duration="250"/>
+    <frame tileid="55" duration="250"/>
+    <frame tileid="57" duration="250"/>
+   </animation>
+  </tile>
+  <tile id="70">
+   <animation>
+    <frame tileid="70" duration="250"/>
+    <frame tileid="60" duration="250"/>
+    <frame tileid="62" duration="250"/>
+    <frame tileid="64" duration="250"/>
+    <frame tileid="66" duration="250"/>
+    <frame tileid="68" duration="250"/>
+   </animation>
+  </tile>
+  <tile id="71">
+   <animation>
+    <frame tileid="71" duration="250"/>
+    <frame tileid="61" duration="250"/>
+    <frame tileid="63" duration="250"/>
+    <frame tileid="65" duration="250"/>
+    <frame tileid="67" duration="250"/>
+    <frame tileid="69" duration="250"/>
+   </animation>
+  </tile>
+ </tileset>
+ <layer id="1" name="Back" width="6" height="9">
+  <data encoding="csv">
+72,72,72,72,72,72,
+84,84,84,84,84,84,
+96,96,96,96,96,96,
+143,143,143,143,143,143,
+143,143,143,143,143,143,
+143,143,143,143,143,143,
+146,147,148,143,143,143,
+157,2147483804,160,143,143,143,
+157,157,2147483815,143,143,143
+</data>
+ </layer>
+ <layer id="2" name="Buildings" width="6" height="9">
+  <data encoding="csv">
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+96,96,96,96,96,96,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,147,0,0,0,0,
+0,0,160,0,0,0,
+0,0,2147483815,0,0,0
+</data>
+ </layer>
+ <layer id="4" name="Front" width="6" height="9">
+  <data encoding="csv">
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="5" name="Back">
+  <object id="97" name="TileData" x="0" y="80" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="t"/>
+    <property name="TouchAction" value="PoolExit"/>
+   </properties>
+  </object>
+  <object id="98" name="TileData" x="32" y="80" width="16" height="16">
+   <properties>
+    <property name="TouchAction" value="ChangeOutOfSwimsuit"/>
+   </properties>
+  </object>
+  <object id="99" name="TileData" x="16" y="80" width="16" height="16">
+   <properties>
+    <property name="TouchAction" value="ChangeIntoSwimsuit"/>
+   </properties>
+  </object>
+  <object id="100" name="TileData" x="0" y="96" width="16" height="16">
+   <properties>
+    <property name="NPCBarrier" value="t"/>
+    <property name="TouchAction" value="PoolEntrance"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="6" name="Buildings"/>
+ <objectgroup id="8" name="Front"/>
+</map>

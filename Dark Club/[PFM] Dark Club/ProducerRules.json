@@ -1,0 +1,230 @@
+[
+  // Vanilla ---------------------------------------------------------------------------------------
+  {
+    "ProducerName": "Oil Maker",
+	"ProducerQualifiedItemId": "(BC)19",
+    "InputIdentifier": "(O)Cannabis",
+    "InputStack": 1,
+    "MinutesUntilReady": 360,
+    "SubtractTimeOfDay": false,
+    "OutputIdentifier": "(O)CannabisOil",
+    "OutputMaxStack": 1,
+    "Sounds": [ "bubbles" ],
+    "DelayedSounds": [ { "sipTea": 0 } ]
+  },
+  {
+    "ProducerName": "Oil Maker",
+	"ProducerQualifiedItemId": "(BC)19",
+    "InputIdentifier": "(O)Opium",
+    "InputStack": 1,
+    "MinutesUntilReady": 360,
+    "SubtractTimeOfDay": false,
+    "OutputIdentifier": "(O)Heroin",
+    "OutputMaxStack": 1,
+    "Sounds": [ "bubbles" ],
+    "DelayedSounds": [ { "sipTea": 0 } ]
+  },
+  {
+    "ProducerName": "Loom",
+	"ProducerQualifiedItemId": "(BC)17",
+    "InputIdentifier": "(O)SlaveHair",
+    "InputStack": 1,
+    "MinutesUntilReady": 240,
+    "SubtractTimeOfDay": false,
+    "OutputIdentifier": "(O)428",
+    "OutputMaxStack": 1,
+    "Sounds": [ "Ship" ]
+  },
+  {
+    "ProducerName": "Keg",
+	"ProducerQualifiedItemId": "(BC)12",
+    "InputIdentifier": "(O)PubicHair",
+    "InputStack": 1,
+    "MinutesUntilReady": 600,
+    "SubtractTimeOfDay": false,
+    "OutputIdentifier": "(O)SeaweedWine",
+    "OutputMaxStack": 1,
+    "Sounds": [ "Ship" ],
+    "DelayedSounds": [ { "bubbles": 0 } ]
+  },
+  // Fucking Machine -------------------------------------------------------------------------------
+  {
+    "ProducerName": "Milking Machine A",
+	"ProducerQualifiedItemId": "(BC)Milking_Machine_A",
+    "MinutesUntilReady": 100,
+    "SubtractTimeOfDay": false,
+    "OutputIdentifier": "(O)BreastMilk",
+    "OutputMaxStack": 2,
+    "Sounds": [ "dc_moan" ]
+  },
+  {
+    "ProducerName": "Milking Machine B",
+	"ProducerQualifiedItemId": "(BC)Milking_Machine_B",
+    "MinutesUntilReady": 1600,
+    "SubtractTimeOfDay": true,
+    "OutputIdentifier": "(O)BreastMilk",
+    "OutputStack": 8,
+    "Sounds": [ "dc_moan" ]
+  },
+  {
+    "ProducerName": "Semen Milking Machine A",
+	"ProducerQualifiedItemId": "(BC)Semen_Milking_Machine_A",
+    "MinutesUntilReady": 100,
+    "SubtractTimeOfDay": false,
+    "OutputIdentifier": "(O)Semen",
+    "OutputMaxStack": 2,
+    "Sounds": [ "dc_moan" ]
+  },
+  {
+    "ProducerName": "Semen Milking Machine B",
+    "ProducerQualifiedItemId": "(BC)Semen_Milking_Machine_B",
+    "MinutesUntilReady": 1600,
+    "SubtractTimeOfDay": true,
+    "OutputIdentifier": "(O)Semen",
+    "OutputStack": 8,
+    "Sounds": [ "dc_moan" ]
+  },
+  {
+    "ProducerName": "Feed Maker",
+	"ProducerQualifiedItemId": "(BC)Feed_Maker",
+    "InputIdentifier": "ero_milk",
+    "InputStack": 5,
+    "MinutesUntilReady": 500,
+    "SubtractTimeOfDay": false,
+    "OutputIdentifier": "(O)178",
+    "OutputStack": 5,
+    "Sounds": [ "dc_moan" ]
+  },
+  {
+    "ProducerName": "Fertilizer Maker",
+	"ProducerQualifiedItemId": "(BC)Fertilizer_Maker",
+    "InputIdentifier": "ero_milk",
+    "InputStack": 5,
+    "MinutesUntilReady": 500,
+    "SubtractTimeOfDay": false,
+    "OutputIdentifier": "(O)369",
+    "OutputStack": 5,
+    "Sounds": [ "dc_moan" ]
+  },
+  {
+    "ProducerName": "Tree Fertilizer Maker",
+	"ProducerQualifiedItemId": "(BC)Tree_Fertilizer_Maker",
+    "InputIdentifier": "ero_milk",
+    "InputStack": 5,
+    "MinutesUntilReady": 500,
+    "SubtractTimeOfDay": false,
+    "OutputIdentifier": "(O)805",
+    "OutputStack": 5,
+    "Sounds": [ "dc_moan" ]
+  },
+  {
+    "ProducerName": "Speed-Gro Maker",
+	"ProducerQualifiedItemId": "(BC)Speed_Gro_Maker",
+    "InputIdentifier": "ero_milk",
+    "InputStack": 5,
+    "MinutesUntilReady": 500,
+    "SubtractTimeOfDay": false,
+    "OutputIdentifier": "(O)466",
+    "OutputStack": 1,
+    "Sounds": [ "dc_moan" ]
+  },
+  {
+    "ProducerName": "Milk Concentrator",
+	"ProducerQualifiedItemId": "(BC)Milk_Concentrator",
+    "InputIdentifier": "(O)BreastMilk",
+    "InputStack": 5,
+    "MinutesUntilReady": 1600,
+    "SubtractTimeOfDay": true,
+    "OutputIdentifier": "(O)ConcentratedMilk",
+    "OutputStack": 1,
+    "Sounds": [ "dc_moan" ]
+  },
+  {
+    "ProducerName": "Semen Concentrator",
+	"ProducerQualifiedItemId": "(BC)Semen_Concentrator",
+    "InputIdentifier": "(O)Semen",
+    "InputStack": 5,
+    "MinutesUntilReady": 1600,
+    "SubtractTimeOfDay": true,
+    "OutputIdentifier": "(O)ConcentratedSemen",
+    "OutputStack": 1,
+    "Sounds": [ "dc_moan" ]
+  },
+  {
+    "ProducerName": "Gem Maker",
+	"ProducerQualifiedItemId": "(BC)Gem_Maker",
+    "InputIdentifier": "(O)766",
+    "InputStack": 30,
+    "MinutesUntilReady": 1600,
+    "SubtractTimeOfDay": true,
+    "AdditionalOutputs": [
+      {
+        "OutputProbability": 0.15,
+        "OutputIdentifier": "(O)60",
+        "OutputMaxStack": 2
+      },
+      {
+        "OutputProbability": 0.15,
+        "OutputIdentifier": "(O)62",
+        "OutputMaxStack": 2
+      },
+      {
+        "OutputProbability": 0.15,
+        "OutputIdentifier": "(O)64",
+        "OutputMaxStack": 2
+      },
+      {
+        "OutputProbability": 0.15,
+        "OutputIdentifier": "(O)66",
+        "OutputMaxStack": 2
+      },
+      {
+        "OutputProbability": 0.15,
+        "OutputIdentifier": "(O)68",
+        "OutputMaxStack": 2
+      },
+      {
+        "OutputProbability": 0.15,
+        "OutputIdentifier": "(O)70",
+        "OutputMaxStack": 2
+      },
+      {
+        "OutputProbability": 0.1,
+        "OutputIdentifier": "(O)72",
+        "OutputMaxStack": 2
+      }
+    ],
+    "Sounds": [ "dc_moan" ]
+  },
+  {
+    "ProducerName": "Slime Regenerator",
+	"ProducerQualifiedItemId": "(BC)Slime_Regenerator",
+    "InputIdentifier": "(O)557",
+    "InputStack": 1,
+    "MinutesUntilReady": 1600,
+    "SubtractTimeOfDay": true,
+    "AdditionalOutputs": [
+      {
+        "OutputProbability": 0.65,
+        "OutputIdentifier": "(O)680",
+        "OutputStack": 1
+      },
+      {
+        "OutputProbability": 0.2,
+        "OutputIdentifier": "(O)413",
+        "OutputStack": 1
+      },
+      {
+        "OutputProbability": 0.1,
+        "OutputIdentifier": "(O)437",
+        "OutputStack": 1
+      },
+      {
+        "OutputProbability": 0.05,
+        "OutputIdentifier": "(O)439",
+        "OutputStack": 1
+      }
+    ],
+    "Sounds": [ "dc_moan" ]
+  }
+]

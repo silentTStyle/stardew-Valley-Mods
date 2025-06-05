@@ -1,0 +1,202 @@
+{
+	"Changes": [
+		{
+			"LogName": "Chowder Duration",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [ "727", "Buffs" ],
+			"Fields": {
+				"Food": {"Duration": -2},
+				},
+			"When": {"Chowder Duration": true}
+		},
+		{
+			"LogName": "Chowder Level Boost Fishing Level +2",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [ "727", "Buffs", "Food" ],
+			"Fields": {
+			    "CustomAttributes": {"FishingLevel": 2},
+					   },
+			"When": {"Chowder Level Boost": "Fishing Level +2"},
+		},
+		{
+			"LogName": "Chowder Level Boost Fishing Level +3",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [ "727", "Buffs", "Food" ],
+			"Fields": {
+			    "CustomAttributes": {"FishingLevel": 3},
+					   },
+			"When": {"Chowder Level Boost": "Fishing Level +3"},
+		},
+		{
+			"LogName": "Chowder Level Boost Fishing Level +4",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [ "727", "Buffs", "Food" ],
+			"Fields": {
+			    "CustomAttributes": {"FishingLevel": 4},
+					   },
+			"When": {"Chowder Level Boost": "Fishing Level +4"},
+		},
+		{
+			"LogName": "Chowder Level Boost Fishing Level +5",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [ "727", "Buffs", "Food" ],
+			"Fields": {
+			    "CustomAttributes": {"FishingLevel": 5},
+					   },
+			"When": {"Chowder Level Boost": "Fishing Level +5"},
+		},
+		{
+			"LogName": "Chowder Level Boost Fishing Level +6",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [ "727", "Buffs", "Food" ],
+			"Fields": {
+			    "CustomAttributes": {"FishingLevel": 6},
+					   },
+			"When": {"Chowder Level Boost": "Fishing Level +6"},
+		},
+		{
+			"LogName": "Chowder Level Boost Fishing Level +7",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [ "727", "Buffs", "Food" ],
+			"Fields": {
+			    "CustomAttributes": {"FishingLevel": 7},
+					   },
+			"When": {"Chowder Level Boost": "Fishing Level +7"},
+		},
+		{
+			"LogName": "Chowder Level Boost Fishing Level +8",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [ "727", "Buffs", "Food" ],
+			"Fields": {
+			    "CustomAttributes": {"FishingLevel": 8},
+					   },
+			"When": {"Chowder Level Boost": "Fishing Level +8"},
+		},
+		{
+			"LogName": "Chowder Level Boost Fishing Level +9",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [ "727", "Buffs", "Food" ],
+			"Fields": {
+			    "CustomAttributes": {"FishingLevel": 9},
+					   },
+			"When": {"Chowder Level Boost": "Fishing Level +9"},
+		},
+		{
+			"LogName": "Chowder Level Boost Fishing Level +10",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [ "727", "Buffs", "Food" ],
+			"Fields": {
+			    "CustomAttributes": {"FishingLevel": 10},
+					   },
+			"When": {"Chowder Level Boost": "Fishing Level +10"},
+		},
+		{
+			"LogName": "Chowder Level Boost Fishing Level +15",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [ "727", "Buffs", "Food" ],
+			"Fields": {
+			    "CustomAttributes": {"FishingLevel": 15},
+					   },
+			"When": {"Chowder Level Boost": "Fishing Level +15"},
+		},
+		{
+			"LogName": "Chowder Level Boost Fishing Level +20",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [ "727", "Buffs", "Food" ],
+			"Fields": {
+			    "CustomAttributes": {"FishingLevel": 20},
+					   },
+			"When": {"Chowder Level Boost": "Fishing Level +20"},
+		},
+		{
+			"LogName": "Chowder Level Boost Fishing Level +25",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [ "727", "Buffs", "Food" ],
+			"Fields": {
+			    "CustomAttributes": {"FishingLevel": 25},
+					   },
+			"When": {"Chowder Level Boost": "Fishing Level +25"},
+		},
+		{
+			"LogName": "Chowder Level Boost Fishing Level +30",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [ "727", "Buffs", "Food" ],
+			"Fields": {
+			    "CustomAttributes": {"FishingLevel": 30},
+					   },
+			"When": {"Chowder Level Boost": "Fishing Level +30"},
+		},
+		{
+			"LogName": "Chowder Level Boost Fishing Level +35",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [ "727", "Buffs", "Food" ],
+			"Fields": {
+			    "CustomAttributes": {"FishingLevel": 35},
+					   },
+			"When": {"Chowder Level Boost": "Fishing Level +35"},
+		},
+		{
+			"LogName": "Chowder Level Boost Fishing Level +40",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [ "727", "Buffs", "Food" ],
+			"Fields": {
+			    "CustomAttributes": {"FishingLevel": 40},
+					   },
+			"When": {"Chowder Level Boost": "Fishing Level +40"},
+		},
+		{
+			"LogName": "Chowder Level Boost Fishing Level +45",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [ "727", "Buffs", "Food" ],
+			"Fields": {
+			    "CustomAttributes": {"FishingLevel": 45},
+					   },
+			"When": {"Chowder Level Boost": "Fishing Level +45"},
+		},
+		{
+			"LogName": "Chowder Level Boost Fishing Level +50",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [ "727", "Buffs", "Food" ],
+			"Fields": {
+			    "CustomAttributes": {"FishingLevel": 50},
+					   },
+			"When": {"Chowder Level Boost": "Fishing Level +50"},
+		},
+		{
+			"LogName": "Chowder Lessened Ingredients",
+			"Action": "EditData",
+			"Target": "Data/CookingRecipes",
+			"Fields": {
+			    "Chowder": {0: "372 1"},
+					},
+			"When": {"Chowder Ingredients": "Lessened Ingredients"},
+		},
+		{
+			"LogName": "Chowder 1 of Any Fish",
+			"Action": "EditData",
+			"Target": "Data/CookingRecipes",
+			"Fields": {
+			    "Chowder": {0: "-4 1"},
+					},
+			"When": {"Chowder Ingredients": "1 of Any Fish"},
+		},
+	]
+}

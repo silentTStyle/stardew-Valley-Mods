@@ -1,0 +1,144 @@
+{
+	"Changes": [
+		{
+			"LogName": "Worm Bin Bait Max Amount 6",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)154", "OutputRules", "Default", "OutputItem" ],
+			"Fields": {
+			    "(O)685": {"MaxStack": 6},
+					},
+			"When": {"Worm Bin Bait Max Amount": "6"},
+		},
+		{
+			"LogName": "Worm Bin Bait Max Amount 7",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)154", "OutputRules", "Default", "OutputItem" ],
+			"Fields": {
+			    "(O)685": {"MaxStack": 7},
+					},
+			"When": {"Worm Bin Bait Max Amount": "7"},
+		},
+		{
+			"LogName": "Worm Bin Bait Max Amount 8",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)154", "OutputRules", "Default", "OutputItem" ],
+			"Fields": {
+			    "(O)685": {"MaxStack": 8},
+					},
+			"When": {"Worm Bin Bait Max Amount": "8"},
+		},
+		{
+			"LogName": "Worm Bin Bait Max Amount 9",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)154", "OutputRules", "Default", "OutputItem" ],
+			"Fields": {
+			    "(O)685": {"MaxStack": 9},
+					},
+			"When": {"Worm Bin Bait Max Amount": "9"},
+		},
+		{
+			"LogName": "Worm Bin Bait Max Amount 10",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)154", "OutputRules", "Default", "OutputItem" ],
+			"Fields": {
+			    "(O)685": {"MaxStack": 10},
+					},
+			"When": {"Worm Bin Bait Max Amount": "10"},
+		},
+		{
+			"LogName": "Worm Bin Bait Max Amount 15",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)154", "OutputRules", "Default", "OutputItem" ],
+			"Fields": {
+			    "(O)685": {"MaxStack": 15},
+					},
+			"When": {"Worm Bin Bait Max Amount": "15"},
+		},
+		{
+			"LogName": "Worm Bin Bait Max Amount 20",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)154", "OutputRules", "Default", "OutputItem" ],
+			"Fields": {
+			    "(O)685": {"MaxStack": 20},
+					},
+			"When": {"Worm Bin Bait Max Amount": "20"},
+		},
+		{
+			"LogName": "Worm Bin Bait Max Amount 25",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)154", "OutputRules", "Default", "OutputItem" ],
+			"Fields": {
+			    "(O)685": {"MaxStack": 25},
+					},
+			"When": {"Worm Bin Bait Max Amount": "25"},
+		},
+		{
+			"LogName": "Worm Bin Bait Max Amount 30",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)154", "OutputRules", "Default", "OutputItem" ],
+			"Fields": {
+			    "(O)685": {"MaxStack": 30},
+					},
+			"When": {"Worm Bin Bait Max Amount": "30"},
+		},
+		{
+			"LogName": "Worm Bin Bait Max Amount 35",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)154", "OutputRules", "Default", "OutputItem" ],
+			"Fields": {
+			    "(O)685": {"MaxStack": 35},
+					},
+			"When": {"Worm Bin Bait Max Amount": "35"},
+		},
+		{
+			"LogName": "Worm Bin Bait Max Amount 40",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)154", "OutputRules", "Default", "OutputItem" ],
+			"Fields": {
+			    "(O)685": {"MaxStack": 40},
+					},
+			"When": {"Worm Bin Bait Max Amount": "40"},
+		},
+		{
+			"LogName": "Worm Bin Bait Max Amount 45",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)154", "OutputRules", "Default", "OutputItem" ],
+			"Fields": {
+			    "(O)685": {"MaxStack": 45},
+					},
+			"When": {"Worm Bin Bait Max Amount": "45"},
+		},
+		{
+			"LogName": "Worm Bin Bait Max Amount 50",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)154", "OutputRules", "Default", "OutputItem" ],
+			"Fields": {
+			    "(O)685": {"MaxStack": 50},
+					},
+			"When": {"Worm Bin Bait Max Amount": "50"},
+		},
+		{
+			"LogName": "Worm Bin Bait Max Amount 100",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)154", "OutputRules", "Default", "OutputItem" ],
+			"Fields": {
+			    "(O)685": {"MaxStack": 100},
+					},
+			"When": {"Worm Bin Bait Max Amount": "100"},
+		},
+	]
+}

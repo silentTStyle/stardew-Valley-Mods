@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="6" height="9" tilewidth="16" tileheight="16" infinite="0" nextlayerid="12" nextobjectid="93">
+ <properties>
+  <property name="DayTiles" value="Front 2 0 225"/>
+  <property name="Light" value="2 0 6"/>
+  <property name="NightTiles" value="Front 2 0 1222"/>
+ </properties>
+ <tileset firstgid="1" name="p" tilewidth="16" tileheight="16" tilecount="64" columns="4">
+  <image source="paths.png" width="64" height="256"/>
+ </tileset>
+ <tileset firstgid="65" name="z_A5_SpouseBaths_2" tilewidth="16" tileheight="16" tilecount="70" columns="10">
+  <image source="A5_SpouseBaths_2.png" width="160" height="112"/>
+ </tileset>
+ <layer id="1" name="Back" width="6" height="9">
+  <data encoding="csv">
+94,94,94,94,94,94,
+104,104,104,104,104,104,
+99,100,0,100,99,100,
+83,84,83,115,116,84,
+73,74,73,74,73,74,
+83,84,83,84,83,84,
+73,109,110,111,112,74,
+83,119,120,121,122,84,
+73,129,130,131,132,74
+</data>
+ </layer>
+ <layer id="2" name="Buildings" width="6" height="9">
+  <data encoding="csv">
+0,92,0,0,0,0,
+0,102,0,95,96,0,
+99,100,99,105,106,100,
+0,0,0,0,0,0,
+0,0,0,125,126,0,
+0,0,0,0,0,0,
+0,109,110,0,112,0,
+0,119,0,0,122,0,
+0,129,0,0,132,0
+</data>
+ </layer>
+ <layer id="4" name="Front" width="6" height="9">
+  <data encoding="csv">
+0,0,0,0,0,0,
+0,0,0,97,98,0,
+0,0,0,107,108,0,
+0,0,0,117,118,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="5" name="Back">
+  <object id="73" name="TileData" x="48" y="80" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="t"/>
+    <property name="TouchAction" value="PoolExit"/>
+   </properties>
+  </object>
+  <object id="76" name="TileData" x="48" y="96" width="16" height="16">
+   <properties>
+    <property name="NPCBarrier" value="t"/>
+    <property name="TouchAction" value="PoolEntrance"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="6" name="Buildings"/>
+ <objectgroup id="8" name="Front"/>
+</map>

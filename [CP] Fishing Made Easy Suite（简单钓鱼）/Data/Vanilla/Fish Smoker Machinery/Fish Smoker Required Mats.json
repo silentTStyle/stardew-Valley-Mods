@@ -1,0 +1,184 @@
+{
+	"Changes": [
+		{
+			"LogName": "Fish Smoker Required Mats 2",
+		    "Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)FishSmoker", "OutputRules", "SmokedFish", "Triggers" ],
+			"Fields": {
+				"ItemPlacedInMachine": {"RequiredCount": 2},
+		           },
+				"When": {"Fish Smoker Required Mats.": "2"},				 
+	    },
+		{
+			"LogName": "Fish Smoker Required Mats 3",
+		    "Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)FishSmoker", "OutputRules", "SmokedFish", "Triggers" ],
+			"Fields": {
+				"ItemPlacedInMachine": {"RequiredCount": 3},
+		           },
+				"When": {"Fish Smoker Required Mats.": "3"},				 
+	    },
+		{
+			"LogName": "Fish Smoker Required Mats 4",
+		    "Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)FishSmoker", "OutputRules", "SmokedFish", "Triggers" ],
+			"Fields": {
+				"ItemPlacedInMachine": {"RequiredCount": 4},
+		           },
+				"When": {"Fish Smoker Required Mats.": "4"},				 
+	    },
+		{
+			"LogName": "Fish Smoker Required Mats 5",
+		    "Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)FishSmoker", "OutputRules", "SmokedFish", "Triggers" ],
+			"Fields": {
+				"ItemPlacedInMachine": {"RequiredCount": 5},
+		           },
+				"When": {"Fish Smoker Required Mats.": "5"},				 
+	    },
+		{
+			"LogName": "Fish Smoker Required Mats 6",
+		    "Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)FishSmoker", "OutputRules", "SmokedFish", "Triggers" ],
+			"Fields": {
+				"ItemPlacedInMachine": {"RequiredCount": 6},
+		           },
+				"When": {"Fish Smoker Required Mats.": "6"},				 
+	    },
+		{
+			"LogName": "Fish Smoker Required Mats 7",
+		    "Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)FishSmoker", "OutputRules", "SmokedFish", "Triggers" ],
+			"Fields": {
+				"ItemPlacedInMachine": {"RequiredCount": 7},
+		           },
+				"When": {"Fish Smoker Required Mats.": "7"},				 
+	    },
+		{
+			"LogName": "Fish Smoker Required Mats 8",
+		    "Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)FishSmoker", "OutputRules", "SmokedFish", "Triggers" ],
+			"Fields": {
+				"ItemPlacedInMachine": {"RequiredCount": 8},
+		           },
+				"When": {"Fish Smoker Required Mats.": "8"},				 
+	    },
+		{
+			"LogName": "Fish Smoker Required Mats 9",
+		    "Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)FishSmoker", "OutputRules", "SmokedFish", "Triggers" ],
+			"Fields": {
+				"ItemPlacedInMachine": {"RequiredCount": 9},
+		           },
+				"When": {"Fish Smoker Required Mats.": "9"},				 
+	    },
+		{
+			"LogName": "Fish Smoker Required Mats 10",
+		    "Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)FishSmoker", "OutputRules", "SmokedFish", "Triggers" ],
+			"Fields": {
+				"ItemPlacedInMachine": {"RequiredCount": 10},
+		           },
+				"When": {"Fish Smoker Required Mats.": "10"},				 
+	    },
+		{
+			"LogName": "Fish Smoker Required Mats 15",
+		    "Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)FishSmoker", "OutputRules", "SmokedFish", "Triggers" ],
+			"Fields": {
+				"ItemPlacedInMachine": {"RequiredCount": 15},
+		           },
+				"When": {"Fish Smoker Required Mats.": "15"},				 
+	    },
+		{
+			"LogName": "Fish Smoker Required Mats 20",
+		    "Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)FishSmoker", "OutputRules", "SmokedFish", "Triggers" ],
+			"Fields": {
+				"ItemPlacedInMachine": {"RequiredCount": 20},
+		           },
+				"When": {"Fish Smoker Required Mats.": "20"},				 
+	    },
+		{
+			"LogName": "Fish Smoker Required Mats 25",
+		    "Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)FishSmoker", "OutputRules", "SmokedFish", "Triggers" ],
+			"Fields": {
+				"ItemPlacedInMachine": {"RequiredCount": 25},
+		           },
+				"When": {"Fish Smoker Required Mats.": "25"},				 
+	    },
+		{
+			"LogName": "Fish Smoker Required Mats 30",
+		    "Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)FishSmoker", "OutputRules", "SmokedFish", "Triggers" ],
+			"Fields": {
+				"ItemPlacedInMachine": {"RequiredCount": 30},
+		           },
+				"When": {"Fish Smoker Required Mats.": "30"},				 
+	    },
+		{
+			"LogName": "Fish Smoker Required Mats 35",
+		    "Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)FishSmoker", "OutputRules", "SmokedFish", "Triggers" ],
+			"Fields": {
+				"ItemPlacedInMachine": {"RequiredCount": 35},
+		           },
+				"When": {"Fish Smoker Required Mats.": "35"},				 
+	    },
+		{
+			"LogName": "Fish Smoker Required Mats 40",
+		    "Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)FishSmoker", "OutputRules", "SmokedFish", "Triggers" ],
+			"Fields": {
+				"ItemPlacedInMachine": {"RequiredCount": 40},
+		           },
+				"When": {"Fish Smoker Required Mats.": "40"},				 
+	    },
+		{
+			"LogName": "Fish Smoker Required Mats 45",
+		    "Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)FishSmoker", "OutputRules", "SmokedFish", "Triggers" ],
+			"Fields": {
+				"ItemPlacedInMachine": {"RequiredCount": 45},
+		           },
+				"When": {"Fish Smoker Required Mats.": "45"},				 
+	    },
+		{
+			"LogName": "Fish Smoker Required Mats 50",
+		    "Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)FishSmoker", "OutputRules", "SmokedFish", "Triggers" ],
+			"Fields": {
+				"ItemPlacedInMachine": {"RequiredCount": 50},
+		           },
+				"When": {"Fish Smoker Required Mats.": "50"},				 
+	    },
+		{
+			"LogName": "Fish Smoker Required Mats 100",
+		    "Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)FishSmoker", "OutputRules", "SmokedFish", "Triggers" ],
+			"Fields": {
+				"ItemPlacedInMachine": {"RequiredCount": 100},
+		           },
+				"When": {"Fish Smoker Required Mats.": "100"},				 
+	    },
+	]
+}

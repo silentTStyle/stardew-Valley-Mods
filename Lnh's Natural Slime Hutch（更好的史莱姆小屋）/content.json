@@ -1,0 +1,58 @@
+{
+    "Format": "2.0",
+    "ConfigSchema": {
+        "ChangeWater": {
+            "AllowValues": "true, false",
+            "Default": true
+        }
+    },
+    "Changes": [
+        {
+            "Action": "Load",
+            "Target": "Maps/z_Cloudy_Ocean_BG_1",
+            "FromFile": "assets/z_Cloudy_Ocean_BG_1.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "Maps/SlimeHutch",
+            "FromFile": "assets/NaturalSlimeHutch_{{season}}.tmx"
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/SlimeHutch",
+            "FromFile": "Assets/NaturalSlimeHutch_Water.tmx",
+            "PatchMode": "Overlay",
+            "When": {
+                "ChangeWater": true
+            }
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/SlimeHutch",
+            "FromFile": "Assets/NaturalSlimeHutch_Night.tmx",
+            "PatchMode": "Overlay",
+            "When": {
+                "Time": "{{Range: 1900, 2500}}"
+            },
+            "Update": "OnTimeChange"
+        },
+		// {
+        //     "Action": "EditData",
+        //     "Target": "Data/Locations",
+        //     "Entries": {
+        //         "SlimeHutch": {
+        //             "DisplayName": null,
+        //             "CreateOnLoad": {
+        //                 "MapPath": "Maps\\SlimeHutch"
+        //             },
+        //             "Fish": [
+        //                 {
+        //                     "Id": "LOCATION_FISH Mountain BOBBER_X BOBBER_Y WATER_DEPTH",
+        //                     "ItemId": "LOCATION_FISH Mountain BOBBER_X BOBBER_Y WATER_DEPTH"
+        //                 }
+        //             ]
+        //         }
+        //     }
+        // }
+    ]
+}

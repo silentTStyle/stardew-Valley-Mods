@@ -1,0 +1,11 @@
+{
+  "Name": "Dark_Club_PFM",
+  "Author": "simezi21",
+  "Version": "2.13.2",
+  "Description": "MOD 07",
+  "UniqueID": "simezi21.Dark_Club_PFM",
+  "MinimumApiVersion": "3.13.0",
+  "ContentPackFor": {
+    "UniqueID": "DIGUS.ProducerFrameworkMod"
+  }
+}

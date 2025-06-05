@@ -1,0 +1,74 @@
+{
+  "Changes": [
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Pam",
+      "FromFile": "assets/Characters/Pam.png"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Pam_Beach",
+      "FromFile": "assets/Characters/Pam_Beach.png"
+    },
+	{
+      "Action": "EditImage",
+      "Target": "Characters/Pam_Winter",
+      "FromFile": "assets/Characters/Pam.png"
+    },
+	// Portraits -----------------------------------------------------------------------------------
+	{
+      "Action": "EditImage",
+      "Target": "Portraits/Pam",
+      "FromFile": "assets/Portraits/Pam.png",
+      "When": { 
+		"Hypnosis": "false",
+		"Pam": "On",
+	  }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Pam",
+      "FromFile": "assets/Portraits/Pam_Hypnosis.png",
+      "When": { 
+		"Hypnosis": "true",
+		"Pam": "On",
+	  }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Pam_Beach",
+      "FromFile": "assets/Portraits/Pam_Beach.png",
+      "When": { 
+		"Hypnosis": "false",
+		"Pam": "On",
+	  }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Pam_Beach",
+      "FromFile": "assets/Portraits/Pam_Beach_Hypnosis.png",
+      "When": { 
+		"Hypnosis": "true",
+		"Pam": "On",
+	  }
+    },
+	{
+      "Action": "EditImage",
+      "Target": "Portraits/Pam_Winter",
+      "FromFile": "assets/Portraits/Pam.png",
+      "When": { 
+		"Hypnosis": "false",
+		"Pam": "On",
+	  }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Pam_Winter",
+      "FromFile": "assets/Portraits/Pam_Hypnosis.png",
+      "When": { 
+		"Hypnosis": "true",
+		"Pam": "On",
+	  }
+    },
+  ]
+}

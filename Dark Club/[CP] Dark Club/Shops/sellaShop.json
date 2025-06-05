@@ -1,0 +1,66 @@
+{
+	"Changes": [
+		{
+			"Action": "Load",
+			"Target": "Mods/{{ModId}}/Portraits/SellaShop",
+			"FromFile": "Shops/assets/SellaShop.png",
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"Entries": {
+				"SellaShop": {
+					"Owners": [
+						{
+							"Condition": "TIME 830 2400",
+							"Portrait": "Mods/{{ModId}}/Portraits/SellaShop",
+							"Dialogues": [
+								{
+									"Id": "SellaShop.openMessage",
+									"Dialogue": "{{i18n:Shop.Sella.WelcomeMessage}}",
+								}
+							],
+							"Id": "Sella",
+							"Name": "Sella",
+							"Type": "NamedNpc"
+						},
+					],
+					"SalableItemTags": ["slave_egg"],
+					"Items": [
+						{
+							"Id": "Incubator",
+							"ItemId": "(BC)101",
+							"Price": 1500,
+						},
+						{
+							"Id": "MilkEgg",
+							"ItemId": "(0)MilkEgg",
+							"Price": 1500,
+						},
+						{
+							"Id": "SemenEgg",
+							"ItemId": "(0)SemenEgg",
+							"Price": 1500,
+						},
+						{
+							"Id": "HairEgg",
+							"ItemId": "(0)HairEgg",
+							"Price": 8000,
+						},
+						{
+							"Id": "MagicEgg",
+							"ItemId": "(0)MagicEgg",
+							"Price": 16000,
+						},
+						{
+							"Id": "EggEgg",
+							"ItemId": "(0)EggEgg",
+							"Price": 32000,
+						},
+					],
+					"SalableItemTags": ["slave_egg", "soul",],
+				}
+			}
+		}
+	]
+}

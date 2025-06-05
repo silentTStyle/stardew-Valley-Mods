@@ -1,0 +1,16 @@
+{
+  "Name": "Xtardew Female - Poly Leah and Abigail",
+  "Author": "hixega",
+  "Version": "2.2.0",
+  "Description": "Patch Xtardew Valley poly romance with Leah and Abigail to support a female farmer.",
+  "UniqueID": "hixega.XtardewFemale.PolyLeahAbigail",
+  "UpdateKeys": ["Nexus:16739"],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  },
+  "Dependencies": [
+    {
+      "UniqueID": "Pseudodiego.LAtardewValley"
+    }
+  ]
+}

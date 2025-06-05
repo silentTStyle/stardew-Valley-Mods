@@ -1,0 +1,116 @@
+{
+  "Changes": [
+    // Change NPC Schedules - Portraits ------------------------------------------------------------
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Maru",
+      "FromFile": "Characters/Maru/assets/Portraits/Maru_Lewd.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 128 },
+      "ToArea": { "X": 0, "Y": 640, "Width": 128, "Height": 128 },
+      "When": { 
+		"Change NPC Schedules": "true",
+		"Hypnosis": "false",
+		"Maru": "true",
+	  }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Maru",
+      "FromFile": "Characters/Maru/assets/Portraits/Maru_Lewd_Hypnosis.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 128 },
+      "ToArea": { "X": 0, "Y": 640, "Width": 128, "Height": 128 },
+      "When": {
+		"Change NPC Schedules": "true", 
+		"Hypnosis": "true",
+		"Maru": "true",
+	  }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Maru_Hospital",
+      "FromFile": "Characters/Maru/assets/Portraits/Maru_Hospital_Lewd.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 128 },
+      "ToArea": { "X": 0, "Y": 640, "Width": 128, "Height": 128 },
+      "When": { "Change NPC Schedules": "true", "Hypnosis": "false" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Maru_Hospital",
+      "FromFile": "Characters/Maru/assets/Portraits/Maru_Hospital_Lewd_Hypnosis.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 128 },
+      "ToArea": { "X": 0, "Y": 640, "Width": 128, "Height": 128 },
+      "When": { "Change NPC Schedules": "true", "Hypnosis": "true" }
+    },
+	{
+      "Action": "EditImage",
+      "Target": "Portraits/Maru_Winter",
+      "FromFile": "Characters/Maru/assets/Portraits/Maru_Lewd.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 128 },
+      "ToArea": { "X": 0, "Y": 640, "Width": 128, "Height": 128 },
+      "When": { 
+		"Change NPC Schedules": "true",
+		"Hypnosis": "false",
+		"Maru": "true",
+	  }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Maru_Winter",
+      "FromFile": "Characters/Maru/assets/Portraits/Maru_Lewd_Hypnosis.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 128 },
+      "ToArea": { "X": 0, "Y": 640, "Width": 128, "Height": 128 },
+      "When": {
+		"Change NPC Schedules": "true", 
+		"Hypnosis": "true",
+		"Maru": "true",
+	  }
+    },
+    // Change NPC Schedules - schedules ------------------------------------------------------------
+    {
+      "Action": "EditData",
+      "Target": "Characters/schedules/Maru",
+      "Entries": {
+        "rain": "800 ScienceHouse 6 4 0/1000 ScienceHouse 5 6 2 maru_drill/1230 ScienceHouse 2 21 1/1430 ScienceHouse 19 18 0/1630 ScienceHouse 3 7 2 maru_vibrator1/2000 ScienceHouse 5 6 1 maru_saw/2400 ScienceHouse 2 4 3 maru_sleep",
+        "rain2": "800 ScienceHouse 6 4 0/1000 ScienceHouse 3 7 2 maru_vibrator1/1230 ScienceHouse 2 21 1/1430 ScienceHouse 19 18 0/1630 ScienceHouse 5 6 1 maru_saw/1800 Custom_Prison 26 10 2 maru_vibrator2",
+        "Mon": "800 ScienceHouse 5 6 1 maru_tinker/1000 ScienceHouse 19 18 1 maru_saw/1330 Town 43 77 2 maru_sit_down/1830 Custom_Prison 26 10 2 maru_vibrator2",
+        "Tue": "730 Hospital 6 15 2/1400 Hospital 19 12 2 maru_onanie/1700 ScienceHouse 26 13 1/2200 ScienceHouse 3 7 2 maru_vibrator1/2400 ScienceHouse 2 4 3 maru_sleep",
+        "Thu": "GOTO Tue",
+        "Sun": "800 ScienceHouse 5 6 1 maru_tinker/1000 ScienceHouse 19 18 2 maru_drill/1330 Town 43 77 2 maru_sit_down/1830 ScienceHouse 5 6 1 maru_saw/2200 ScienceHouse 2 4 3 maru_uplate",
+        "spring": "800 ScienceHouse 5 6 1 maru_tinker/1000 ScienceHouse 19 18 0/1400 Town 64 16 2 maru_vibrator1/1800 ScienceHouse 5 6 2 maru_drill/2200 ScienceHouse 2 4 3 maru_sleep",
+        "summer": "800 ScienceHouse 5 6 1 maru_tinker/1000 ScienceHouse 19 18 0/1400 ScienceHouse 5 6 2 maru_drill/1900 Mountain 8 23 3 \"Strings\\schedules\\Maru:summer.000\"/2400 ScienceHouse 2 4 3 maru_sleep",
+        "summer_Mon": "800 ScienceHouse 5 6 1 maru_tinker/1000 ScienceHouse 19 18 0/1310 Town 64 16 2 maru_vibrator1/1830 Custom_Prison 26 10 2 maru_vibrator2",
+        "summer_Sun": "800 ScienceHouse 5 6 1 maru_tinker/1000 ScienceHouse 19 18 2 maru_drill/1320 ScienceHouse 2 4 3 maru_uplate/1810 ScienceHouse 5 6 1 maru_saw/2200 ScienceHouse 2 4 3 maru_uplate",
+        "winter": "800 ScienceHouse 5 6 1 maru_tinker/900 ScienceHouse 19 18 0/1100 CommunityCenter 15 27 0/1600 ScienceHouse 3 7 2 maru_vibrator1/2400 ScienceHouse 2 4 3 maru_sleep"
+      },
+      "When": { "Change NPC Schedules": "true" }
+    },
+    // Change NPC Schedules - animationDescriptions ------------------------------------------------
+    {
+      "Action": "EditData",
+      "Target": "Data/animationDescriptions",
+      "Entries": {
+        "maru_uplate": "100/100/100/Strings\\animationDescriptions:maru_uplate",
+        "maru_saw": "101/101/101/Strings\\animationDescriptions:maru_saw",
+        "maru_drill": "102/102/102/Strings\\animationDescriptions:maru_drill",
+        "maru_vibrator1": "103/103/103/Strings\\animationDescriptions:maru_vibrator1",
+        "maru_vibrator2": "104/104/104/Strings\\animationDescriptions:maru_vibrator2",
+        "maru_onanie": "105/105/105/Strings\\animationDescriptions:maru_onanie",
+      },
+      "When": { "Change NPC Schedules": "true" }
+    },
+    // Change NPC Schedules - animationDescriptions Dialogue ---------------------------------------
+    {
+      "Action": "EditData",
+      "Target": "Strings/animationDescriptions",
+      "Entries": {
+        "maru_uplate": "{{i18n:NPC.Maru.UpLate}}",
+        "maru_saw": "{{i18n:NPC.Maru.Fuck}}",
+        "maru_drill": "{{i18n:NPC.Maru.Fuck}}",
+        "maru_vibrator1": "{{i18n:NPC.Maru.Fuck}}",
+        "maru_vibrator2": "{{i18n:NPC.Maru.Vibrator}}",
+        "maru_onanie": "{{i18n:NPC.Maru.Fuck}}",
+      },
+      "When": { "Change NPC Schedules": "true" }
+    },
+  ]
+}

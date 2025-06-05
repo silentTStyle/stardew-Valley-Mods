@@ -1,0 +1,13 @@
+{
+    "Name": "[MD] Expansion Shops",
+    "Author": "lisonaza",
+    "Version": "1.0.1",
+    "Description": "Expansion shops for Market Day by shanesv and lisonaza",
+    "UniqueID": "lisonaza.MarketDay.ExpansionShops",
+    "UpdateKeys": ["Nexus:???"],
+    "MinimumApiVersion": "4.0.0",
+    "ContentPackFor": {
+        "UniqueID": "ceruleandeep.MarketDay",
+        "MinimumVersion": "1.0.1"
+    }
+}

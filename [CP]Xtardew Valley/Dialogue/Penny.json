@@ -1,0 +1,12 @@
+{
+    "Changes": [
+        {
+            "LogName": "Penny Marriage",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/MarriageDialoguePenny",
+            "Entries": {
+                "Indoor_Day_0": "这里真平静啊。我曾经做过最可怕的噩梦，但现在我熟睡得像个婴儿。#$b#特别是我们做爱的那些日子。$4"
+            }
+        }
+    ]
+}

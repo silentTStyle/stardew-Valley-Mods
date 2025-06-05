@@ -1,0 +1,954 @@
+{
+	"Changes": [
+		{
+			"LogName": "Curious Legendary Fish Increase by 10%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Town", "Fish" ],
+			"Fields": { 
+				"(O)160": {"CuriosityLureBuff": 0.10},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 10%"},
+	    },
+		{
+			"LogName": "Curious Legendary Fish Increase by 10%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Beach", "Fish" ],
+			"Fields": { 
+				"(O)159": {"CuriosityLureBuff": 0.10},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 10%"},
+	    },
+		{
+			"LogName": "Curious Legendary Fish Increase by 10%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Mountain", "Fish" ],
+			"Fields": { 
+				"(O)163": {"CuriosityLureBuff": 0.10},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 10%"},
+	    },
+		{
+			"LogName": "Curious Legendary Fish Increase by 10%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Forest", "Fish" ],
+			"Fields": { 
+				"(O)775": {"CuriosityLureBuff": 0.10},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 10%"},
+	    },
+		{
+			"LogName": "Curious Legendary Fish Increase by 10%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Sewer", "Fish" ],
+			"Fields": { 
+				"(O)682": {"CuriosityLureBuff": 0.10},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 10%"},
+	    },
+		{
+			"LogName": "Curious Legendary Fish Increase by 15%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Town", "Fish" ],
+			"Fields": { 
+				"(O)160": {"CuriosityLureBuff": 0.15},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 15%"},
+	    },
+		{
+			"LogName": "Curious Legendary Fish Increase by 15%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Beach", "Fish" ],
+			"Fields": { 
+				"(O)159": {"CuriosityLureBuff": 0.15},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 15%"},
+	    },
+		{
+			"LogName": "Curious Legendary Fish Increase by 15%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Mountain", "Fish" ],
+			"Fields": { 
+				"(O)163": {"CuriosityLureBuff": 0.15},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 15%"},
+	    },
+		{
+			"LogName": "Curious Legendary Fish Increase by 15%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Forest", "Fish" ],
+			"Fields": { 
+				"(O)775": {"CuriosityLureBuff": 0.15},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 15%"},
+	    },
+		{
+			"LogName": "Curious Legendary Fish Increase by 15%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Sewer", "Fish" ],
+			"Fields": { 
+				"(O)682": {"CuriosityLureBuff": 0.15},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 15%"},
+	    },
+		{
+			"LogName": "Curious Legendary Fish Increase by 20%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Town", "Fish" ],
+			"Fields": { 
+				"(O)160": {"CuriosityLureBuff": 0.20},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 20%"},
+	    },
+		{
+			"LogName": "Curious Legendary Fish Increase by 20%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Beach", "Fish" ],
+			"Fields": { 
+				"(O)159": {"CuriosityLureBuff": 0.20},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 20%"},
+	    },
+		{
+			"LogName": "Curious Legendary Fish Increase by 20%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Mountain", "Fish" ],
+			"Fields": { 
+				"(O)163": {"CuriosityLureBuff": 0.20},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 20%"},
+	    },
+		{
+			"LogName": "Curious Legendary Fish Increase by 20%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Forest", "Fish" ],
+			"Fields": { 
+				"(O)775": {"CuriosityLureBuff": 0.20},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 20%"},
+	    },
+		{
+			"LogName": "Curious Legendary Fish Increase by 20%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Sewer", "Fish" ],
+			"Fields": { 
+				"(O)682": {"CuriosityLureBuff": 0.20},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 20%"},
+	    },
+		{
+			"LogName": "Curious Legendary Fish Increase by 25%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Town", "Fish" ],
+			"Fields": { 
+				"(O)160": {"CuriosityLureBuff": 0.25},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 25%"},
+	    },
+		{
+			"LogName": "Curious Legendary Fish Increase by 25%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Beach", "Fish" ],
+			"Fields": { 
+				"(O)159": {"CuriosityLureBuff": 0.25},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 25%"},
+	    },
+		{
+			"LogName": "Curious Legendary Fish Increase by 25%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Mountain", "Fish" ],
+			"Fields": { 
+				"(O)163": {"CuriosityLureBuff": 0.25},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 25%"},
+	    },
+		{
+			"LogName": "Curious Legendary Fish Increase by 25%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Forest", "Fish" ],
+			"Fields": { 
+				"(O)775": {"CuriosityLureBuff": 0.25},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 25%"},
+	    },
+		{
+			"LogName": "Curious Legendary Fish Increase by 25%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Sewer", "Fish" ],
+			"Fields": { 
+				"(O)682": {"CuriosityLureBuff": 0.25},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 25%"},
+	    },
+		{
+			"LogName": "Curious Legendary Fish Increase by 30%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Town", "Fish" ],
+			"Fields": { 
+				"(O)160": {"CuriosityLureBuff": 0.30},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 30%"},
+	    },
+		{
+			"LogName": "Curious Legendary Fish Increase by 30%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Beach", "Fish" ],
+			"Fields": { 
+				"(O)159": {"CuriosityLureBuff": 0.30},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 30%"},
+	    },
+		{
+			"LogName": "Curious Legendary Fish Increase by 30%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Mountain", "Fish" ],
+			"Fields": { 
+				"(O)163": {"CuriosityLureBuff": 0.30},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 30%"},
+	    },
+		{
+			"LogName": "Curious Legendary Fish Increase by 30%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Forest", "Fish" ],
+			"Fields": { 
+				"(O)775": {"CuriosityLureBuff": 0.30},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 30%"},
+	    },
+		{
+			"LogName": "Curious Legendary Fish Increase by 30%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Sewer", "Fish" ],
+			"Fields": { 
+				"(O)682": {"CuriosityLureBuff": 0.30},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 30%"},
+	    },
+		{
+			"LogName": "Curious Legendary Fish Increase by 35%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Town", "Fish" ],
+			"Fields": { 
+				"(O)160": {"CuriosityLureBuff": 0.35},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 35%"},
+	    },
+		{
+			"LogName": "Curious Legendary Fish Increase by 35%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Beach", "Fish" ],
+			"Fields": { 
+				"(O)159": {"CuriosityLureBuff": 0.35},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 35%"},
+	    },
+		{
+			"LogName": "Curious Legendary Fish Increase by 35%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Mountain", "Fish" ],
+			"Fields": { 
+				"(O)163": {"CuriosityLureBuff": 0.35},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 35%"},
+	    },
+		{
+			"LogName": "Curious Legendary Fish Increase by 35%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Forest", "Fish" ],
+			"Fields": { 
+				"(O)775": {"CuriosityLureBuff": 0.35},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 35%"},
+	    },
+		{
+			"LogName": "Curious Legendary Fish Increase by 35%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Sewer", "Fish" ],
+			"Fields": { 
+				"(O)682": {"CuriosityLureBuff": 0.35},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 35%"},
+	    },
+		{
+			"LogName": "Curious Legendary Fish Increase by 40%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Town", "Fish" ],
+			"Fields": { 
+				"(O)160": {"CuriosityLureBuff": 0.40},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 40%"},
+	    },
+		{
+			"LogName": "Curious Legendary Fish Increase by 40%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Beach", "Fish" ],
+			"Fields": { 
+				"(O)159": {"CuriosityLureBuff": 0.40},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 40%"},
+	    },
+		{
+			"LogName": "Curious Legendary Fish Increase by 40%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Mountain", "Fish" ],
+			"Fields": { 
+				"(O)163": {"CuriosityLureBuff": 0.40},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 40%"},
+	    },
+		{
+			"LogName": "Curious Legendary Fish Increase by 40%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Forest", "Fish" ],
+			"Fields": { 
+				"(O)775": {"CuriosityLureBuff": 0.40},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 40%"},
+	    },
+		{
+			"LogName": "Curious Legendary Fish Increase by 40%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Sewer", "Fish" ],
+			"Fields": { 
+				"(O)682": {"CuriosityLureBuff": 0.40},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 40%"},
+	    },
+		{
+			"LogName": "Curious Legendary Fish Increase by 45%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Town", "Fish" ],
+			"Fields": { 
+				"(O)160": {"CuriosityLureBuff": 0.45},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 45%"},
+	    },
+		{
+			"LogName": "Curious Legendary Fish Increase by 45%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Beach", "Fish" ],
+			"Fields": { 
+				"(O)159": {"CuriosityLureBuff": 0.45},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 45%"},
+	    },
+		{
+			"LogName": "Curious Legendary Fish Increase by 45%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Mountain", "Fish" ],
+			"Fields": { 
+				"(O)163": {"CuriosityLureBuff": 0.45},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 45%"},
+	    },
+		{
+			"LogName": "Curious Legendary Fish Increase by 45%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Forest", "Fish" ],
+			"Fields": { 
+				"(O)775": {"CuriosityLureBuff": 0.45},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 45%"},
+	    },
+		{
+			"LogName": "Curious Legendary Fish Increase by 45%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Sewer", "Fish" ],
+			"Fields": { 
+				"(O)682": {"CuriosityLureBuff": 0.45},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 45%"},
+	    },
+		{
+			"LogName": "Curious Legendary Fish Increase by 50%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Town", "Fish" ],
+			"Fields": { 
+				"(O)160": {"CuriosityLureBuff": 0.50},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 50%"},
+	    },
+		{
+			"LogName": "Curious Legendary Fish Increase by 50%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Beach", "Fish" ],
+			"Fields": { 
+				"(O)159": {"CuriosityLureBuff": 0.50},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 50%"},
+	    },
+		{
+			"LogName": "Curious Legendary Fish Increase by 50%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Mountain", "Fish" ],
+			"Fields": { 
+				"(O)163": {"CuriosityLureBuff": 0.50},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 50%"},
+	    },
+		{
+			"LogName": "Curious Legendary Fish Increase by 50%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Forest", "Fish" ],
+			"Fields": { 
+				"(O)775": {"CuriosityLureBuff": 0.50},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 50%"},
+	    },
+		{
+			"LogName": "Curious Legendary Fish Increase by 50%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Sewer", "Fish" ],
+			"Fields": { 
+				"(O)682": {"CuriosityLureBuff": 0.50},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 50%"},
+	    },
+		{
+			"LogName": "Curious Legendary Fish Increase by 55%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Town", "Fish" ],
+			"Fields": { 
+				"(O)160": {"CuriosityLureBuff": 0.55},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 55%"},
+	    },
+		{
+			"LogName": "Curious Legendary Fish Increase by 55%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Beach", "Fish" ],
+			"Fields": { 
+				"(O)159": {"CuriosityLureBuff": 0.55},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 55%"},
+	    },
+		{
+			"LogName": "Curious Legendary Fish Increase by 55%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Mountain", "Fish" ],
+			"Fields": { 
+				"(O)163": {"CuriosityLureBuff": 0.55},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 55%"},
+	    },
+		{
+			"LogName": "Curious Legendary Fish Increase by 55%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Forest", "Fish" ],
+			"Fields": { 
+				"(O)775": {"CuriosityLureBuff": 0.55},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 55%"},
+	    },
+		{
+			"LogName": "Curious Legendary Fish Increase by 55%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Sewer", "Fish" ],
+			"Fields": { 
+				"(O)682": {"CuriosityLureBuff": 0.55},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 55%"},
+	    },
+		{
+			"LogName": "Curious Legendary Fish Increase by 60%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Town", "Fish" ],
+			"Fields": { 
+				"(O)160": {"CuriosityLureBuff": 0.60},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 60%"},
+	    },
+		{
+			"LogName": "Curious Legendary Fish Increase by 60%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Beach", "Fish" ],
+			"Fields": { 
+				"(O)159": {"CuriosityLureBuff": 0.60},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 60%"},
+	    },
+		{
+			"LogName": "Curious Legendary Fish Increase by 60%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Mountain", "Fish" ],
+			"Fields": { 
+				"(O)163": {"CuriosityLureBuff": 0.60},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 60%"},
+	    },
+		{
+			"LogName": "Curious Legendary Fish Increase by 60%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Forest", "Fish" ],
+			"Fields": { 
+				"(O)775": {"CuriosityLureBuff": 0.60},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 60%"},
+	    },
+		{
+			"LogName": "Curious Legendary Fish Increase by 60%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Sewer", "Fish" ],
+			"Fields": { 
+				"(O)682": {"CuriosityLureBuff": 0.60},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 60%"},
+	    },
+		{
+			"LogName": "Curious Legendary Fish Increase by 65%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Town", "Fish" ],
+			"Fields": { 
+				"(O)160": {"CuriosityLureBuff": 0.65},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 65%"},
+	    },
+		{
+			"LogName": "Curious Legendary Fish Increase by 65%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Beach", "Fish" ],
+			"Fields": { 
+				"(O)159": {"CuriosityLureBuff": 0.65},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 65%"},
+	    },
+		{
+			"LogName": "Curious Legendary Fish Increase by 65%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Mountain", "Fish" ],
+			"Fields": { 
+				"(O)163": {"CuriosityLureBuff": 0.65},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 65%"},
+	    },
+		{
+			"LogName": "Curious Legendary Fish Increase by 65%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Forest", "Fish" ],
+			"Fields": { 
+				"(O)775": {"CuriosityLureBuff": 0.65},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 65%"},
+	    },
+		{
+			"LogName": "Curious Legendary Fish Increase by 65%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Sewer", "Fish" ],
+			"Fields": { 
+				"(O)682": {"CuriosityLureBuff": 0.65},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 65%"},
+	    },
+		{
+			"LogName": "Curious Legendary Fish Increase by 70%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Town", "Fish" ],
+			"Fields": { 
+				"(O)160": {"CuriosityLureBuff": 0.70},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 70%"},
+	    },
+		{
+			"LogName": "Curious Legendary Fish Increase by 70%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Beach", "Fish" ],
+			"Fields": { 
+				"(O)159": {"CuriosityLureBuff": 0.70},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 70%"},
+	    },
+		{
+			"LogName": "Curious Legendary Fish Increase by 70%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Mountain", "Fish" ],
+			"Fields": { 
+				"(O)163": {"CuriosityLureBuff": 0.70},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 70%"},
+	    },
+		{
+			"LogName": "Curious Legendary Fish Increase by 70%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Forest", "Fish" ],
+			"Fields": { 
+				"(O)775": {"CuriosityLureBuff": 0.70},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 70%"},
+	    },
+		{
+			"LogName": "Curious Legendary Fish Increase by 70%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Sewer", "Fish" ],
+			"Fields": { 
+				"(O)682": {"CuriosityLureBuff": 0.70},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 70%"},
+	    },
+		{
+			"LogName": "Curious Legendary Fish Increase by 75%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Town", "Fish" ],
+			"Fields": { 
+				"(O)160": {"CuriosityLureBuff": 0.75},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 75%"},
+	    },
+		{
+			"LogName": "Curious Legendary Fish Increase by 75%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Beach", "Fish" ],
+			"Fields": { 
+				"(O)159": {"CuriosityLureBuff": 0.75},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 75%"},
+	    },
+		{
+			"LogName": "Curious Legendary Fish Increase by 75%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Mountain", "Fish" ],
+			"Fields": { 
+				"(O)163": {"CuriosityLureBuff": 0.75},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 75%"},
+	    },
+		{
+			"LogName": "Curious Legendary Fish Increase by 75%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Forest", "Fish" ],
+			"Fields": { 
+				"(O)775": {"CuriosityLureBuff": 0.75},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 75%"},
+	    },
+		{
+			"LogName": "Curious Legendary Fish Increase by 75%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Sewer", "Fish" ],
+			"Fields": { 
+				"(O)682": {"CuriosityLureBuff": 0.75},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 75%"},
+	    },
+		{
+			"LogName": "Curious Legendary Fish Increase by 80%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Town", "Fish" ],
+			"Fields": { 
+				"(O)160": {"CuriosityLureBuff": 0.80},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 80%"},
+	    },
+		{
+			"LogName": "Curious Legendary Fish Increase by 80%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Beach", "Fish" ],
+			"Fields": { 
+				"(O)159": {"CuriosityLureBuff": 0.80},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 80%"},
+	    },
+		{
+			"LogName": "Curious Legendary Fish Increase by 80%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Mountain", "Fish" ],
+			"Fields": { 
+				"(O)163": {"CuriosityLureBuff": 0.80},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 80%"},
+	    },
+		{
+			"LogName": "Curious Legendary Fish Increase by 80%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Forest", "Fish" ],
+			"Fields": { 
+				"(O)775": {"CuriosityLureBuff": 0.80},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 80%"},
+	    },
+		{
+			"LogName": "Curious Legendary Fish Increase by 80%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Sewer", "Fish" ],
+			"Fields": { 
+				"(O)682": {"CuriosityLureBuff": 0.80},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 80%"},
+	    },
+		{
+			"LogName": "Curious Legendary Fish Increase by 85%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Town", "Fish" ],
+			"Fields": { 
+				"(O)160": {"CuriosityLureBuff": 0.85},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 85%"},
+	    },
+		{
+			"LogName": "Curious Legendary Fish Increase by 85%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Beach", "Fish" ],
+			"Fields": { 
+				"(O)159": {"CuriosityLureBuff": 0.85},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 85%"},
+	    },
+		{
+			"LogName": "Curious Legendary Fish Increase by 85%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Mountain", "Fish" ],
+			"Fields": { 
+				"(O)163": {"CuriosityLureBuff": 0.85},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 85%"},
+	    },
+		{
+			"LogName": "Curious Legendary Fish Increase by 85%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Forest", "Fish" ],
+			"Fields": { 
+				"(O)775": {"CuriosityLureBuff": 0.85},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 85%"},
+	    },
+		{
+			"LogName": "Curious Legendary Fish Increase by 85%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Sewer", "Fish" ],
+			"Fields": { 
+				"(O)682": {"CuriosityLureBuff": 0.85},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 85%"},
+	    },
+		{
+			"LogName": "Curious Legendary Fish Increase by 90%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Town", "Fish" ],
+			"Fields": { 
+				"(O)160": {"CuriosityLureBuff": 0.90},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 90%"},
+	    },
+		{
+			"LogName": "Curious Legendary Fish Increase by 90%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Beach", "Fish" ],
+			"Fields": { 
+				"(O)159": {"CuriosityLureBuff": 0.90},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 90%"},
+	    },
+		{
+			"LogName": "Curious Legendary Fish Increase by 90%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Mountain", "Fish" ],
+			"Fields": { 
+				"(O)163": {"CuriosityLureBuff": 0.90},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 90%"},
+	    },
+		{
+			"LogName": "Curious Legendary Fish Increase by 90%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Forest", "Fish" ],
+			"Fields": { 
+				"(O)775": {"CuriosityLureBuff": 0.90},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 90%"},
+	    },
+		{
+			"LogName": "Curious Legendary Fish Increase by 90%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Sewer", "Fish" ],
+			"Fields": { 
+				"(O)682": {"CuriosityLureBuff": 0.90},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 90%"},
+	    },
+		{
+			"LogName": "Curious Legendary Fish Increase by 95%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Town", "Fish" ],
+			"Fields": { 
+				"(O)160": {"CuriosityLureBuff": 0.95},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 95%"},
+	    },
+		{
+			"LogName": "Curious Legendary Fish Increase by 95%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Beach", "Fish" ],
+			"Fields": { 
+				"(O)159": {"CuriosityLureBuff": 0.95},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 95%"},
+	    },
+		{
+			"LogName": "Curious Legendary Fish Increase by 95%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Mountain", "Fish" ],
+			"Fields": { 
+				"(O)163": {"CuriosityLureBuff": 0.95},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 95%"},
+	    },
+		{
+			"LogName": "Curious Legendary Fish Increase by 95%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Forest", "Fish" ],
+			"Fields": { 
+				"(O)775": {"CuriosityLureBuff": 0.95},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 95%"},
+	    },
+		{
+			"LogName": "Curious Legendary Fish Increase by 95%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Sewer", "Fish" ],
+			"Fields": { 
+				"(O)682": {"CuriosityLureBuff": 0.95},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 95%"},
+	    },
+		{
+			"LogName": "Curious Legendary Fish Increase by 100%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Town", "Fish" ],
+			"Fields": { 
+				"(O)160": {"CuriosityLureBuff": 1.0},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 100%"},
+	    },
+		{
+			"LogName": "Curious Legendary Fish Increase by 100%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Beach", "Fish" ],
+			"Fields": { 
+				"(O)159": {"CuriosityLureBuff": 1.0},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 100%"},
+	    },
+		{
+			"LogName": "Curious Legendary Fish Increase by 100%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Mountain", "Fish" ],
+			"Fields": { 
+				"(O)163": {"CuriosityLureBuff": 1.0},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 100%"},
+	    },
+		{
+			"LogName": "Curious Legendary Fish Increase by 100%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Forest", "Fish" ],
+			"Fields": { 
+				"(O)775": {"CuriosityLureBuff": 1.0},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 100%"},
+	    },
+		{
+			"LogName": "Curious Legendary Fish Increase by 100%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Sewer", "Fish" ],
+			"Fields": { 
+				"(O)682": {"CuriosityLureBuff": 1.0},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 100%"},
+	    },
+	]
+}

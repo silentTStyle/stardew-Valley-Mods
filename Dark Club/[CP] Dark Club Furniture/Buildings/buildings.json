@@ -1,0 +1,63 @@
+{
+    "Changes": [
+		{
+			"Action": "Load",
+			"Target": "Mods/{{ModId}}/WarpCircle",
+			"FromFile": "Buildings/assets/WarpMagicCircleDarkClub.png"
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Buildings",
+			"Entries": {
+				"{{ModId}}_WarpCircle": {
+					"Name": "{{i18n:building.WarpCircle.Name}}",
+					"DisplayName": "{{i18n:building.WarpCircle.Name}}",
+					"Description": "{{i18n:building.WarpCircle.Description}}",
+					"Texture": "Mods/{{ModId}}/WarpCircle",
+					"SourceRect": {
+						"X": 0,
+						"Y": 0,
+						"Width": 16,
+						"Height": 16,
+					},
+					"DrawLayers": [
+						{
+							"Id": "circleAnimation",
+							"SourceRect": {
+								"X": 0,
+								"Y": 0,
+								"Width": 16,
+								"Height": 16,
+							},
+							"DrawPosition": "0, 0",
+							"FrameCount": 6,
+							"FrameDuration": 240,
+						},
+					],
+					"DrawShadow": false,
+					"FadeWhenBehind": false,
+					"Builder": "Wizard",
+					"BuildMaterials": [
+						{
+							"ItemId": "(O)SuccubusMilk",
+							"Amount": 3,
+						}
+					],
+					"MagicalConstruction": true,
+					"CollisionMap": "X",
+					"ActionTiles": [
+						{
+							"Id": "warp",
+							"Tile": {
+								"X": "0",
+								"Y": "0",
+							},
+							"Action": "ObeliskWarp Custom_DarkClub 10 36",
+						},
+					],
+					
+				},
+			}
+		}
+    ]
+}

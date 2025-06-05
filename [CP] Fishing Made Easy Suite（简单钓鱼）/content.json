@@ -1,0 +1,2538 @@
+{
+    "Format": "2.6.0",
+    "ConfigSchema": {
+		    "Highlight Texts For More Info!": {
+			"Section": "= 欢迎！=",
+			"Description": "= 祝您拥有美好的一天，钓鱼愉快！=",
+			"AllowValues": "Version 7.0.2",
+			"Default": "Version 7.0.2"
+        },
+		    "Disable Yearly Developer Gifts": {
+			"Description": "此设置将禁用您每年会收到的模组开发者礼物。默认情况下，您每年会收到我随机赠送的礼物 :-)",
+			"Section": "= 欢迎！=",
+            "AllowValues": "true, false",
+            "Default": "false"
+		},
+		    "Fishing Difficulty": {
+			"Description": "选择Fishing Minigame的难度设定。简单模式：难度降低 5% 至 100%，包含“超级简单钓鱼”选项。注意：“超级简单：最大鱼条和增益”选项会通过增益提升钓鱼等级，同时增加特定鱼类的出现概率。此增强对收集钓鱼宝箱和获取完整钓鱼经验特别有用。轻松周日钓鱼：仅在周日降低 10% 至 50% 难度。困难模式：难度增加 5% 至 100%，包含“噩梦”选项供追求终极挑战的玩家！动态天气设定详情，请高亮下方的“动态天气信息”查看。向下滚动查看更多选项。",
+            "Section": "钓鱼小游戏",
+			"AllowValues": "Default, 5% Easier, 10% Easier, 15% Easier, 20% Easier, 25% Easier, 30% Easier, 35% Easier, 40% Easier, 45% Easier, 50% Easier, 55% Easier, 60% Easier, 65% Easier, 70% Easier, 75% Easier, 80% Easier, 85% Easier, 90% Easier, 95% Easier, 100% Easier, Super Easy; Max Fish Bar & Buff, 10% Easy Sunday, 20% Easy Sunday, 30% Easy Sunday, 40% Easy Sunday, 50% Easy Sunday, 5% Harder, 10% Harder, 15% Harder, 20% Harder, 25% Harder, 30% Harder, 35% Harder, 40% Harder, 45% Harder, 50% Harder, 55% Harder, 60% Harder, 65% Harder, 70% Harder, 75% Harder, 80% Harder, 85% Harder, 90% Harder, 95% Harder, 100% Harder, NIGHTMARE, Dynamic Weather (Easy), Dynamic Weather (Easier), Dynamic Weather (Easiest)",
+            "Default": "Default"
+        },
+		    "Randomized Difficulty": {
+            "Description": "当启用钓鱼难度设置时，每日实际难度会在所选范围内随机波动。例如：选择『25%更易』意味着每日难度会在0%-25%更易间浮动（某日可能17%更易，次日23%更易）。此设置兼容简单模式、周日简单模式和困难模式，但不可与Super Easy/NIGHTMARE/Dynamic Weather选项共用。",
+            "Section": "钓鱼小游戏",
+            "AllowValues": "true, false",
+            "Default": "false"
+        },
+        "= Dynamic Weather Info =": {
+            "Description": "动态天气钓鱼难度调整规则：\n• 大风天气：难度+15%\n• 雨天：难度-10%\n• 雪天：难度-15%\n• 雷暴：难度-20%\n『Easier』选项将在基础值上再降10%，『Easiest』再降20%",
+            "Section": "钓鱼小游戏",
+            "AllowValues": "= Highlight For Info. =",
+            "Default": "= Highlight For Info. ="
+        },
+        "All Times Of Day": {
+            "Description": "解除时间限制：所有鱼类现在全天24小时可钓获",
+            "Section": "钓鱼小游戏",
+            "AllowValues": "true, false",
+            "Default": "false"
+        },
+        "All Types Of Weather": {
+            "Description": "解除天气限制：除传说鱼外，所有鱼类现在可在任意天气条件下钓获",
+            "Section": "钓鱼小游戏",
+            "AllowValues": "true, false",
+            "Default": "false"
+        },
+        "All Seasons": {
+            "Description": "解除季节限制：除传说鱼外，所有鱼类现在全年四季均可钓获",
+            "Section": "钓鱼小游戏",
+            "AllowValues": "true, false",
+            "Default": "false"
+        },
+        "Same Spawn Rates": {
+            "Description": "统一生成概率：除传说鱼外，所有鱼类现在拥有相同的出现几率",
+            "Section": "钓鱼小游戏",
+            "AllowValues": "true, false",
+            "Default": "false"
+        },
+		            "Cave/Mine Fish Availability": {
+            "Description": "稀有洞穴与矿洞鱼类（石鱼、冰柱鱼、熔岩鳗）特定位置解锁：\n• 石鱼：山区水域（需钓鱼5级）\n• 冰柱鱼：森林湖泊（需钓鱼5级）\n• 熔岩鳗：沙漠水域（需钓鱼5级）\n生成概率调节范围：1%-50%",
+            "Section": "鱼类生成",
+            "AllowValues": "Default, 1% Chance, 5% Chance, 10% Chance, 15% Chance, 20% Chance, 25% Chance, 30% Chance, 35% Chance, 40% Chance, 45% Chance, 50% Chance",
+            "Default": "Default"
+        },
+        "Night Market Fish Availability": {
+            "Description": "夜市专属鱼类（午夜鱿鱼、幽灵鱼、水滴鱼）扩展捕捉规则：\n• 生效条件：冬季+下午5点后+海滩区域+钓鱼5级\n• 受「全天候钓鱼」和「全季节钓鱼」设置影响",
+            "Section": "鱼类生成",
+            "AllowValues": "true, false",
+            "Default": "false"
+        },
+        "Fishable Prize Tickets": {
+            "Description": "奖券钓鱼系统（类似海藻机制）：\n• 无小游戏直接获取\n• 生成概率梯度：1%-50%（支持1%为单位的精细调节）",
+            "Section": "鱼类生成",
+            "AllowValues": "Default, 1% Chance, 2% Chance, 3% Chance, 4% Chance, 5% Chance, 6% Chance, 7% Chance, 8% Chance, 9% Chance, 10% Chance, 15% Chance, 20% Chance, 25% Chance, 30% Chance, 35% Chance, 40% Chance, 45% Chance, 50% Chance",
+            "Default": "Default"
+        },
+        "Clean Waters/No Trash": {
+            "Description": "钓鱼垃圾处理方案：\n▸ 无垃圾模式：完全禁用钓鱼垃圾\n▸ 蟹笼鱼类替代：将垃圾替换为蟹笼可捕获鱼类（注：极端情况下仍可能钓到少量垃圾）",
+            "Section": "干净的水域",
+            "AllowValues": "Default, No Trash, Crab Pot Fish",
+            "Default": "Default"
+        },
+        "Clean Waters/No Weeds": {
+            "Description": "海藻类清除方案：\n▸ 纯净模式：完全禁用所有海藻\n▸ 蟹笼鱼类替代：将海藻替换为蟹笼专属鱼类",
+            "Section": "干净的水域",
+            "AllowValues": "Default, No Weeds and Algae, Crab Pot Fish",
+            "Default": "Default"
+        },
+        "Iridium Rod Attach. Slots": {
+            "Description": "铱制钓竿扩展槽配置：\n• 默认1个槽位 → 可扩展至2-10槽（支持钓具+鱼饵效果叠加）\n• 仅对新获取的钓竿生效（需重新购买）\n• 界面提示：槽位过多可能导致UI显示溢出（不影响实际功能）",
+            "Section": "钓鱼竿",
+            "AllowValues": "Default (1), 2 Slots, 3 Slots, 4 Slots, 5 Slots, 6 Slots, 7 Slots, 8 Slots, 9 Slots, 10 Slots",
+            "Default": "Default (1)"
+        },
+
+		            "Adv. Iridium Rod Attach. Slots": {
+            "Description": "高级铱制钓竿附加槽位配置：\n• 默认2槽位 → 可扩展至3-10槽（支持鱼饵+钓具效果叠加）\n• 仅对新获取的高级铱制钓竿生效（需重新购买）\n• 界面提示：槽位过多可能导致UI显示溢出（不影响实际功能）",
+            "Section": "钓鱼竿",
+            "AllowValues": "Default (2), 3 Slots, 4 Slots, 5 Slots, 6 Slots, 7 Slots, 8 Slots, 9 Slots, 10 Slots",
+            "Default": "Default (2)"
+        },
+        "Crab Pots Same Spawn Rates": {
+            "Description": "统一蟹笼产出概率：\n▸ 所有蟹笼鱼类现拥有相同生成率\n※ 注意：不适用于下方『水母模式』和『虫肉设置』！", 
+            "Section": "蟹笼捕捞",
+            "AllowValues": "true, false",
+            "Default": "false"
+        },
+        "Crab Pots No Trash": {
+            "Description": "清洁蟹笼模式：完全禁用蟹笼产出的垃圾物品",
+            "Section": "蟹笼捕捞",
+            "AllowValues": "true, false",
+            "Default": "false"
+        },
+        "Crab Pots Jellies": {
+            "Description": "蟹笼水母生态改造：\n• 新增产出河口水母/海水母/洞穴水母\n• 兼容性说明：与「Lookup Anything」「Stardew Progress」模组共用时将自动从图鉴移除水母条目（原版游戏BUG规避措施，不影响成就解锁）", 
+            "Section": "蟹笼捕捞",
+            "AllowValues": "true, false",
+            "Default": "false"
+        },
+        "Crab Pots Bug Meat": {
+            "Description": "蟹笼虫肉产出设定：\n• 可选择虫肉生成水域类型（淡水/海洋）\n• 默认状态不产出虫肉",
+            "Section": "蟹笼捕捞",
+            "AllowValues": "Default, Freshwater, Ocean",
+            "Default": "Default"
+        },
+
+			"Jelly Spawn Rates": {
+            "Description": "水母生成率精密调节：\n▸ 独立生成池模式（True X%）：水母拥有独立概率池\n▸ 默认模式：与其他鱼类共享概率池（实际出现率低于标称值）\n▸ 特殊机制：启用本设置后将禁用幸运值对水母生成的影响",
+            "Section": "水母生态",
+            "AllowValues": "Default (10%), Slightly Common (True 10%), Common (20%), More Common (30%), Very Common (50%), Rare (7%), Very Rare (5%), Near Impossible (1%), No Jellies",
+            "Default": "Default (10%)"
+        },
+			        "Cave Jelly Desert": {
+            "Description": "沙漠水域生态改造：洞穴水母现可在沙漠钓鱼区域生成（替代原本的河流水母）",
+            "Section": "水母生态",
+            "AllowValues": "true, false",
+            "Default": "false"
+        },
+        "Jellies Are Crab Pot Fish": {
+            "Description": "水母捕捞机制革新：所有水母现视为蟹笼捕获鱼类\n※ 注意：本设置不影响『洞穴水母沙漠』选项",
+            "Section": "水母生态",
+            "AllowValues": "true, false",
+            "Default": "false"
+        },
+        "Fish Sell Value": {
+            "Description": "常规鱼类售价调节体系（传说鱼除外）：\n▸ 调整幅度：-99% 至 +1000%（以10%为梯度）\n▸ 仅对新捕获的鱼生效",
+            "Section": "渔获价值体系",
+            "AllowValues": "Default, Increase by 10%, Increase by 20%, Increase by 30%, Increase by 40%, Increase by 50%, Increase by 60%, Increase by 70%, Increase by 80%, Increase by 90%, Increase by 100%, Increase by 125%, Increase by 150%, Increase by 175%, Increase by 200%, Increase by 225%, Increase by 250%, Increase by 275%, Increase by 300%, Increase by 325%, Increase by 350%, Increase by 375%, Increase by 400%, Increase by 425%, Increase by 450%, Increase by 475%, Increase by 500%, Increase by 525%, Increase by 550%, Increase by 575%, Increase by 600%, Increase by 625%, Increase by 650%, Increase by 675%, Increase by 700%, Increase by 725%, Increase by 750%, Increase by 775%, Increase by 800%, Increase by 825%, Increase by 850%, Increase by 875%, Increase by 900%, Increase by 925%, Increase by 950%, Increase by 975%, Increase by 1000%, Decrease by 10%, Decrease by 20%, Decrease by 30%, Decrease by 40%, Decrease by 50%, Decrease by 60%, Decrease by 70%, Decrease by 80%, Decrease by 90%, Decrease by 99%",
+            "Default": "Default"
+        },
+        "Legendary Fish Sell Value": {
+            "Description": "传说鱼类专属售价调节：\n▸ 调整幅度：-99% 至 +1000%（以10%为梯度）\n▸ 仅对新捕获的传说鱼生效",
+            "Section": "渔获价值体系",
+            "AllowValues": "Default, Increase by 10%, Increase by 20%, Increase by 30%, Increase by 40%, Increase by 50%, Increase by 60%, Increase by 70%, Increase by 80%, Increase by 90%, Increase by 100%, Increase by 125%, Increase by 150%, Increase by 175%, Increase by 200%, Increase by 225%, Increase by 250%, Increase by 275%, Increase by 300%, Increase by 325%, Increase by 350%, Increase by 375%, Increase by 400%, Increase by 425%, Increase by 450%, Increase by 475%, Increase by 500%, Increase by 525%, Increase by 550%, Increase by 575%, Increase by 600%, Increase by 625%, Increase by 650%, Increase by 675%, Increase by 700%, Increase by 725%, Increase by 750%, Increase by 775%, Increase by 800%, Increase by 825%, Increase by 850%, Increase by 875%, Increase by 900%, Increase by 925%, Increase by 950%, Increase by 975%, Increase by 1000%, Decrease by 10%, Decrease by 20%, Decrease by 30%, Decrease by 40%, Decrease by 50%, Decrease by 60%, Decrease by 70%, Decrease by 80%, Decrease by 90%, Decrease by 99%",
+            "Default": "Default"
+        },
+        "Seasonal Fish On Farm": {
+            "Description": "农场生态扩展：所有农场地图现可捕获季节性鱼类",
+            "Section": "农场水域扩展",
+            "AllowValues": "true, false",
+            "Default": "false"
+        },
+        "Specialty Fish On Farm": {
+            "Description": "农场特供：所有农场地图现可捕获特殊鱼类",
+            "Section": "农场水域扩展",
+            "AllowValues": "true, false",
+            "Default": "false"
+        },
+        "Legendary Fish On Farm": {
+            "Description": "传奇农场：所有农场地图现可捕获传说鱼类\n※ 默认限制：每张农场地图仅限捕获1条传说鱼（需启用『重复捕获传说鱼』解除限制）",
+            "Section": "农场水域扩展",
+            "AllowValues": "true, false",
+            "Default": "false"
+        },
+        "Recatch Legendary Fish": {
+            "Description": "解除传说鱼唯一性限制：可重复捕获同种传说鱼",
+            "Section": "传说鱼生态",
+            "AllowValues": "true, false",
+            "Default": "false"
+        },
+        "Legendary Quests (Recatch REQ)": {
+            "Description": "传说鱼任务链解锁：\n▸ 前置条件：必须启用『重复捕获传说鱼』\n▸ 触发机制：成功捕获传说鱼+处于对应季节",
+            "Section": "传说鱼生态",
+            "AllowValues": "true, false",
+            "Default": "false"
+        },
+        "Entire Area Legendary Fish": {
+            "Description": "传说鱼全域分布模式：\n• 示例：绯红鱼(Crimsonfish)可在整个海滩区域捕获（不再局限于东部码头）",
+            "Section": "传说鱼生态",
+            "AllowValues": "true, false",
+            "Default": "false"
+        },
+		            "Legendary Fish Spawn Rates": {
+            "Description": "传说鱼生成概率调控系统：\n• 稀有度梯度：默认→常见(20%)→更常见(30%)→极常见(50%)→稀有(7-14%)→极稀有(5%)→近乎不可能(1%)",
+            "Section": "传说鱼生态",
+            "AllowValues": "Default, Common (20%), More Common (30%), Very Common (50%), Rare (7-14%), Very Rare (5%), Near Impossible (1%)",
+            "Default": "Default"
+        },
+        "Legendary Fish No Level": {
+            "Description": "解锁传说鱼无等级限制：移除钓鱼等级要求（默认需要至少5级）",
+            "Section": "传说鱼生态",
+            "AllowValues": "true, false",
+            "Default": "false"
+        },
+        "Legendary Fish No Crown": {
+            "Description": "传说鱼普通化改造：\n▸ 移除小游戏中皇冠(BOSS鱼)图标\n▸ 经验值降至普通鱼类标准",
+            "Section": "传说鱼生态",
+            "AllowValues": "true, false",
+            "Default": "false"
+        },
+        "Qi's Legendary Fish Crown": {
+            "Description": "齐的特殊订单传说鱼强化：\n• 追加皇冠(BOSS鱼)图标显示\n• 经验值提升至传说鱼标准",
+            "Section": "传说鱼生态",
+            "AllowValues": "true, false",
+            "Default": "false"
+        },
+        "All Weather Legendary Fish": {
+            "Description": "解除天气限制：传说鱼现可于任何天气条件下捕获",
+            "Section": "传说鱼生态",
+            "AllowValues": "true, false",
+            "Default": "false"
+        },
+        "All Seasons Legendary Fish": {
+            "Description": "解除季节限制：传说鱼现可全年四季捕获",
+            "Section": "传说鱼生态",
+            "AllowValues": "true, false",
+            "Default": "false"
+        },
+        "Remove Shinidamachu Day Req.": {
+            "Description": "★MNF模组专属★ 解除传说鱼「死魂虫」的日期生成限制\n※ 需安装『More New Fish』模组方可生效",
+            "Section": "传说鱼生态",
+            "AllowValues": "true, false",
+            "Default": "false"
+        },
+        "Lucky Legendary Fish": {
+            "Description": "绑定运势机制：传说鱼仅在电视占卜显示最高幸运日时生成",
+            "Section": "传说鱼生态",
+            "AllowValues": "true, false",
+            "Default": "false"
+        },
+        "Curious Legendary Fish": {
+            "Description": "珍稀诱钩增效系统：\n▸ 调节范围：+10% 至 +100%（以5%为梯度）\n▸ 仅影响传说鱼的诱饵效果",
+            "Section": "传说鱼生态",
+            "AllowValues": "Default, Increase by 10%, Increase by 15%, Increase by 20%, Increase by 25%, Increase by 30%, Increase by 35%, Increase by 40%, Increase by 45%, Increase by 50%, Increase by 55%, Increase by 60%, Increase by 65%, Increase by 70%, Increase by 75%, Increase by 80%, Increase by 85%, Increase by 90%, Increase by 95%, Increase by 100%",
+            "Default": "Default"
+        },
+		            "Legendary Fish Gifts": {
+            "Description": "传说鱼社交革命：所有村民现对传说鱼产生狂热喜爱（成为通用最爱礼物）",
+            "Section": "传说鱼生态",
+            "AllowValues": "true, false",
+            "Default": "false"
+        },
+        "Legendary Fish 7am To 9am": {
+            "Description": "传说鱼晨间特供：仅在7AM至9AM时段生成\n※ 可与其他时段设置叠加生效",
+            "Section": "传说鱼生态",
+            "AllowValues": "true, false",
+            "Default": "false"
+        },
+        "Legendary Fish 12pm To 2pm": {
+            "Description": "传说鱼午间特供：仅在12PM至2PM时段生成\n※ 可与其他时段设置叠加生效",
+            "Section": "传说鱼生态",
+            "AllowValues": "true, false",
+            "Default": "false"
+        },
+        "Legendary Fish 11pm To 1am": {
+            "Description": "传说鱼午夜特供：仅在11PM至1AM时段生成\n※ 可与其他时段设置叠加生效",
+            "Section": "传说鱼生态",
+            "AllowValues": "true, false",
+            "Default": "false"
+        },
+
+	    "Fishable Prismatic Shards (REQ)": {
+            "Description": "★ 五彩碎片钓鱼系统 ★\n▸ 解锁条件：钓鱼等级≥5级\n▸ 新增功能：可将五彩碎片放入鱼缸展示\n※ 此为下方所有五彩碎片设置的前置选项！",
+            "Section": "五彩碎片生态",
+            "AllowValues": "true, false",
+            "Default": "false"
+        },
+        "Prismatic Shard Spawn Rate": {
+            "Description": "五彩碎片生成概率调控：\n▸ 默认(15%) → 常见(30%) → 极常见(50%)\n▸ 稀有(10%) → 极稀有(5%) → 近乎不可能(1%)\n※ 需启用『可钓鱼获取五彩碎片』生效",
+            "Section": "五彩碎片生态",
+            "AllowValues": "Default (15%), Common (30%), Very Common (50%), Rare (10%), Very Rare (5%), Near Impossible (1%)",
+            "Default": "Default (15%)"
+        },
+        "Prismatic Shards No Level": {
+            "Description": "解除等级限制：移除钓鱼5级要求\n※ 需启用『可钓鱼获取五彩碎片』生效",
+            "Section": "五彩碎片生态",
+            "AllowValues": "true, false",
+            "Default": "false"
+        },
+        "Prismatic Shards No Crown": {
+            "Description": "五彩碎片普通化：\n▸ 移除小游戏中皇冠图标\n▸ 经验值降至普通鱼类标准\n※ 需启用『可钓鱼获取五彩碎片』生效",
+            "Section": "五彩碎片生态",
+            "AllowValues": "true, false",
+            "Default": "false"
+        },
+        "Lucky Prismatic Shards": {
+            "Description": "幸运日限定：五彩碎片仅在电视占卜显示紫色星标时生成\n※ 需启用『可钓鱼获取五彩碎片』生效",
+            "Section": "五彩碎片生态",
+            "AllowValues": "true, false",
+            "Default": "false"
+        },
+        "Prismatic Shards Weather": {
+            "Description": "天气限定模式：五彩碎片仅限雨天/雪天生成\n※ 需启用『可钓鱼获取五彩碎片』生效",
+            "Section": "五彩碎片生态",
+            "AllowValues": "true, false",
+            "Default": "false"
+        },
+        "Prismatic Shards 7am To 9am": {
+            "Description": "晨间限定：五彩碎片仅在7AM至9AM生成\n※ 可与其他时段设置叠加生效\n※ 需启用『可钓鱼获取五彩碎片』生效",
+            "Section": "五彩碎片生态",
+            "AllowValues": "true, false",
+            "Default": "false"
+        },
+        "Prismatic Shards 12pm To 2pm": {
+            "Description": "午间限定：五彩碎片仅在12PM至2PM生成\n※ 可与其他时段设置叠加生效\n※ 需启用『可钓鱼获取五彩碎片』生效",
+            "Section": "五彩碎片生态",
+            "AllowValues": "true, false",
+            "Default": "false"
+        },
+        "Prismatic Shards 11pm To 1am": {
+            "Description": "午夜限定：五彩碎片仅在11PM至1AM生成\n※ 可与其他时段设置叠加生效\n※ 需启用『可钓鱼获取五彩碎片』生效",
+            "Section": "五彩碎片生态",
+            "AllowValues": "true, false",
+            "Default": "false"
+        },
+        "Prismatic Shard Sell Value": {
+            "Description": "五彩碎片定价系统：\n▸ 默认2000g → 可下调至1g\n▸ 仅对新获取的碎片生效\n※ 本设置独立生效不受其他配置影响",
+            "Section": "五彩碎片生态",
+            "AllowValues": "2000g (Default), 1750g, 1500g, 1250g, 1000g, 750g, 500g, 250g, 1g",
+            "Default": "2000g (Default)"
+        },
+        "Fish Pond Rare Loot": {
+            "Description": "鱼塘稀有掉落增强系统：\n▸ 概率提升：2倍→5倍\n▸ 均衡模式：所有稀有物50%等概率\n▸ 鱼籽优先：减少稀有物概率，提升鱼籽产出",
+            "Section": "鱼塘建筑系统",
+            "AllowValues": "Default, Rare Loot Chance 2X, Rare Loot Chance 3X, Rare Loot Chance 4X, Rare Loot Chance 5X, Rare Loot Chance All 50%, Less Rare More Roe",
+            "Default": "Default"
+        },
+        "FP Fish/Quest Spawn Time": {
+            "Description": "鱼塘生产周期加速：\n▸ 生效条件：鱼塘清空+启用本设置后添加新鱼\n▸ 选项效果：默认周期 → 半周期 → 每日刷新",
+            "Section": "鱼塘建筑系统",
+            "AllowValues": "Default, Half The Time, Every Day",
+            "Default": "Default"
+        },
+        "Fish Pond Legendary Fish (REQ)": {
+            "Description": "★ 传说鱼鱼塘改造 ★\n▸ 新增多样化产出（不再仅限于鱼籽）\n※ 此为下方传说鱼鱼塘设置的前置条件！",
+            "Section": "鱼塘建筑系统",
+            "AllowValues": "true, false",
+            "Default": "false"
+        },
+        "Legendary Fish Pond Loot": {
+            "Description": "传说鱼鱼塘稀有物调控：\n▸ 概率提升：2倍→5倍\n▸ 均衡模式：所有稀有物50%等概率\n▸ 鱼籽优先：减少稀有物概率，提升鱼籽产出\n※ 需启用『传说鱼鱼塘改造』生效",
+            "Section": "鱼塘建筑系统",
+            "AllowValues": "Default, Rare Loot Chance 2X, Rare Loot Chance 3X, Rare Loot Chance 4X, Rare Loot Chance 5X, Rare Loot Chance All 50%, Less Rare More Roe",
+            "Default": "Default"
+        },
+        "LG Fish/Quest Spawn Time": {
+            "Description": "传说鱼鱼塘生产周期加速：\n▸ 生效条件：鱼塘清空+启用本设置后添加新鱼\n▸ 选项效果：默认周期 → 半周期 → 每日刷新\n※ 需启用『传说鱼鱼塘改造』生效",
+            "Section": "鱼塘建筑系统",
+            "AllowValues": "Default, Half The Time, Every Day",
+            "Default": "Default"
+        },
+        "Fish Pond Prismatic Shards": {
+            "Description": "鱼塘终极奖励：满容量鱼塘现可产出五彩碎片",
+            "Section": "鱼塘建筑系统",
+            "AllowValues": "true, false",
+            "Default": "false"
+        },
+
+		    "Tackle Materials": {
+        "Description": "降低制作钓具和鱼饵的材料需求",
+        "Section": "钓具与鱼饵",
+        "AllowValues": "Default, Lessened Materials, 1 Copper Bar",
+        "Default": "Default"
+    },
+    "Tackle Fishing Level 1": {
+        "Description": "所有钓具配方现可在钓鱼等级1解锁",
+        "Section": "钓具与鱼饵",
+        "AllowValues": "true, false",
+        "Default": "false"
+    },
+    "Craftable Curiosity Lure": {
+        "Description": "解锁珍稀诱钩制作配方（默认钓鱼等级9或1级可学），提升稀有鱼类生成概率",
+        "Section": "钓具与鱼饵",
+        "AllowValues": "Default (Disabled), Enabled (Fish Level 9), Enabled (Fish Level 1)",
+        "Default": "Default (Disabled)"
+    },
+    "Curiosity Lure Materials": {
+        "Description": "降低珍稀诱钩制作材料需求（需先启用'可制作好奇诱饵'）",
+        "Section": "钓具与鱼饵",
+        "AllowValues": "Default, Lessened Materials, 1 Copper Bar",
+        "Default": "Default"
+    },
+    "Wild Bait Crafting Materials": {
+        "Description": "降低万能鱼饵制作材料需求",
+        "Section": "钓具与鱼饵",
+        "AllowValues": "Default, Lessened Materials, 2 Bug Meat",
+        "Default": "Default"
+    },
+    "Trout Soup Duration": {
+        "Description": "鲑鱼汤增益效果持续一整天",
+        "Section": "钓鱼食物与原料",
+        "AllowValues": "true, false",
+        "Default": "false"
+    },
+    "Trout Soup Level Boost": {
+        "Description": "调节鲑鱼汤钓鱼等级加成（默认+1，范围+2至+50）",
+        "Section": "钓鱼食物与原料",
+        "AllowValues": "Default (+1), Fishing Level +2, Fishing Level +3, Fishing Level +4, Fishing Level +5, Fishing Level +6, Fishing Level +7, Fishing Level +8, Fishing Level +9, Fishing Level +10, Fishing Level +15, Fishing Level +20, Fishing Level +25, Fishing Level +30, Fishing Level +35, Fishing Level +40, Fishing Level +45, Fishing Level +50",
+        "Default": "Default (+1)"
+    },
+    "Trout Soup Ingredients": {
+        "Description": "降低鲑鱼汤食谱原料需求",
+        "Section": "钓鱼食物与原料",
+        "AllowValues": "Default, Lessened Ingredients, 1 of Any Fish",
+        "Default": "Default"
+    },
+    "Chowder Duration": {
+        "Description": "巧达浓汤增益效果持续一整天",
+        "Section": "钓鱼食物与原料",
+        "AllowValues": "true, false",
+        "Default": "false"
+    },
+    "Chowder Level Boost": {
+        "Description": "调节巧达浓汤钓鱼等级加成（默认+1，范围+2至+50）",
+        "Section": "钓鱼食物与原料",
+        "AllowValues": "Default (+1), Fishing Level +2, Fishing Level +3, Fishing Level +4, Fishing Level +5, Fishing Level +6, Fishing Level +7, Fishing Level +8, Fishing Level +9, Fishing Level +10, Fishing Level +15, Fishing Level +20, Fishing Level +25, Fishing Level +30, Fishing Level +35, Fishing Level +40, Fishing Level +45, Fishing Level +50",
+        "Default": "Default (+1)"
+    },
+    "Chowder Ingredients": {
+        "Description": "降低巧达浓汤食谱原料需求",
+        "Section": "钓鱼食物与原料",
+        "AllowValues": "Default, Lessened Ingredients, 1 of Any Fish",
+        "Default": "Default"
+    },
+    "Shrimp Cocktail Duration": {
+        "Description": "鸡尾酒虾增益效果持续一整天",
+        "Section": "钓鱼食物与原料",
+        "AllowValues": "true, false",
+        "Default": "false"
+    },
+    "Shrimp Cocktail Level Boost": {
+        "Description": "调节鸡尾酒虾钓鱼等级加成（默认+1，范围+2至+50）",
+        "Section": "钓鱼食物与原料",
+        "AllowValues": "Default (+1), Fishing Level +2, Fishing Level +3, Fishing Level +4, Fishing Level +5, Fishing Level +6, Fishing Level +7, Fishing Level +8, Fishing Level +9, Fishing Level +10, Fishing Level +15, Fishing Level +20, Fishing Level +25, Fishing Level +30, Fishing Level +35, Fishing Level +40, Fishing Level +45, Fishing Level +50",
+        "Default": "Default (+1)"
+    },
+    "Shrimp Cocktail Ingredients": {
+        "Description": "降低鸡尾酒虾食谱原料需求",
+        "Section": "钓鱼食物与原料",
+        "AllowValues": "Default, Lessened Ingredients, 1 of Any Fish",
+        "Default": "Default"
+    },
+    "Fish Taco Duration": {
+        "Description": "鱼肉卷饼增益效果持续一整天",
+        "Section": "钓鱼食物与原料",
+        "AllowValues": "true, false",
+        "Default": "false"
+    },
+    "Fish Taco Level Boost": {
+        "Description": "调节鱼肉卷饼钓鱼等级加成（默认+2，范围+3至+50）",
+        "Section": "钓鱼食物与原料",
+        "AllowValues": "Default (+2), Fishing Level +3, Fishing Level +4, Fishing Level +5, Fishing Level +6, Fishing Level +7, Fishing Level +8, Fishing Level +9, Fishing Level +10, Fishing Level +15, Fishing Level +20, Fishing Level +25, Fishing Level +30, Fishing Level +35, Fishing Level +40, Fishing Level +45, Fishing Level +50",
+        "Default": "Default (+2)"
+    },
+    "Fish Taco Ingredients": {
+        "Description": "降低鱼肉卷饼食谱原料需求",
+        "Section": "钓鱼食物与原料",
+        "AllowValues": "Default, Lessened Ingredients, 1 of Any Fish",
+        "Default": "Default"
+    },
+    "Escargot Duration": {
+        "Description": "法式蜗牛增益效果持续一整天",
+        "Section": "钓鱼食物与原料",
+        "AllowValues": "true, false",
+        "Default": "false"
+    },
+    "Escargot Level Boost": {
+        "Description": "调节法式蜗牛钓鱼等级加成（默认+2，范围+3至+50）",
+        "Section": "钓鱼食物与原料",
+        "AllowValues": "Default (+2), Fishing Level +3, Fishing Level +4, Fishing Level +5, Fishing Level +6, Fishing Level +7, Fishing Level +8, Fishing Level +9, Fishing Level +10, Fishing Level +15, Fishing Level +20, Fishing Level +25, Fishing Level +30, Fishing Level +35, Fishing Level +40, Fishing Level +45, Fishing Level +50",
+        "Default": "Default (+2)"
+    },
+    "Escargot Ingredients": {
+        "Description": "降低法式蜗牛食谱原料需求",
+        "Section": "钓鱼食物与原料",
+        "AllowValues": "Default, Lessened Ingredients, 1 of Any Fish",
+        "Default": "Default"
+    },
+    "Dish O' The Sea Duration": {
+        "Description": "海之菜肴增益效果持续一整天",
+        "Section": "钓鱼食物与原料",
+        "AllowValues": "true, false",
+        "Default": "false"
+    },
+    "Dish O' The Sea Level Boost": {
+        "Description": "调节海之菜肴钓鱼等级加成（默认+3，范围+4至+50）",
+        "Section": "钓鱼食物与原料",
+        "AllowValues": "Default (+3), Fishing Level +4, Fishing Level +5, Fishing Level +6, Fishing Level +7, Fishing Level +8, Fishing Level +9, Fishing Level +10, Fishing Level +15, Fishing Level +20, Fishing Level +25, Fishing Level +30, Fishing Level +35, Fishing Level +40, Fishing Level +45, Fishing Level +50",
+        "Default": "Default (+3)"
+    },
+    "Dish O' The Sea Fishing Level 1": {
+        "Description": "海之菜肴配方现可在钓鱼等级1解锁（原需等级3）",
+        "Section": "钓鱼食物与原料",
+        "AllowValues": "true, false",
+        "Default": "false"
+    },
+    "Dish O' The Sea Ingredients": {
+        "Description": "降低海之菜肴食谱原料需求",
+        "Section": "钓鱼食物与原料",
+        "AllowValues": "Default, Lessened Ingredients, 1 of Any Fish",
+        "Default": "Default"
+    },
+    "Fish Stew Duration": {
+        "Description": "炖鱼增益效果持续一整天",
+        "Section": "钓鱼食物与原料",
+        "AllowValues": "true, false",
+        "Default": "false"
+    },
+    "Fish Stew Level Boost": {
+        "Description": "调节炖鱼钓鱼等级加成（默认+3，范围+4至+50）",
+        "Section": "钓鱼食物与原料",
+        "AllowValues": "Default (+3), Fishing Level +4, Fishing Level +5, Fishing Level +6, Fishing Level +7, Fishing Level +8, Fishing Level +9, Fishing Level +10, Fishing Level +15, Fishing Level +20, Fishing Level +25, Fishing Level +30, Fishing Level +35, Fishing Level +40, Fishing Level +45, Fishing Level +50",
+        "Default": "Default (+3)"
+    },
+    "Fish Stew Ingredients": {
+        "Description": "降低炖鱼食谱原料需求",
+        "Section": "钓鱼食物与原料",
+        "AllowValues": "Default, Lessened Ingredients, 1 of Any Fish",
+        "Default": "Default"
+    },
+    "Lobster Bisque Duration": {
+        "Description": "龙虾浓汤增益效果持续一整天",
+        "Section": "钓鱼食物与原料",
+        "AllowValues": "true, false",
+        "Default": "false"
+    },
+    "Lobster Bisque Level Boost": {
+        "Description": "调节龙虾浓汤钓鱼等级加成（默认+3，范围+4至+50）",
+        "Section": "钓鱼食物与原料",
+        "AllowValues": "Default (+3), Fishing Level +4, Fishing Level +5, Fishing Level +6, Fishing Level +7, Fishing Level +8, Fishing Level +9, Fishing Level +10, Fishing Level +15, Fishing Level +20, Fishing Level +25, Fishing Level +30, Fishing Level +35, Fishing Level +40, Fishing Level +45, Fishing Level +50",
+        "Default": "Default (+3)"
+    },
+    "Lobster Bisque Ingredients": {
+        "Description": "降低龙虾浓汤食谱原料需求",
+        "Section": "钓鱼食物与原料",
+        "AllowValues": "Default, Lessened Ingredients, 1 of Any Fish",
+        "Default": "Default"
+    },
+    "Seafoam Pudding Duration": {
+        "Description": "海泡布丁增益效果持续一整天",
+        "Section": "钓鱼食物与原料",
+        "AllowValues": "true, false",
+        "Default": "false"
+    },
+    "Seafoam Pudding Level Boost": {
+        "Description": "调节海泡布丁钓鱼等级加成（默认+4，范围+5至+50）",
+        "Section": "钓鱼食物与原料",
+        "AllowValues": "Default (+4), Fishing Level +5, Fishing Level +6, Fishing Level +7, Fishing Level +8, Fishing Level +9, Fishing Level +10, Fishing Level +15, Fishing Level +20, Fishing Level +25, Fishing Level +30, Fishing Level +35, Fishing Level +40, Fishing Level +45, Fishing Level +50",
+        "Default": "Default (+4)"
+    },
+    "Seafoam Pudding Fishing Level 1": {
+        "Description": "海泡布丁配方现可在钓鱼等级1解锁（原需等级9）",
+        "Section": "钓鱼食物与原料",
+        "AllowValues": "true, false",
+        "Default": "false"
+    },
+    "Seafoam Pudding Ingredients": {
+        "Description": "降低海泡布丁食谱原料需求（可设置1-25条任意鱼类）",
+        "Section": "钓鱼食物与原料",
+        "AllowValues": "Default, Lessened Ingredients, 1 of Any Fish",
+        "Default": "Default"
+    },
+
+		    "Worm Bin Materials": {
+        "Description": "降低虫饵盒制作材料需求",
+        "Section": "虫饵盒调整",
+        "AllowValues": "Default, Lessened Materials, 1 Iron Bar",
+        "Default": "Default"
+    },
+    "Worm Bin Level Availability": {
+        "Description": "设置解锁虫饵盒配方的钓鱼等级",
+        "Section": "虫饵盒调整",
+        "AllowValues": "Default (Level 4), Fishing Level 3, Fishing Level 2, Fishing Level 1",
+        "Default": "Default (Level 4)"
+    },
+    "Worm Bin Bait Min Amount": {
+        "Description": "设置虫饵盒每日最低饵料产量（范围2-100）",
+        "Section": "虫饵盒调整",
+        "AllowValues": "Default (4), 5, 6, 7, 8, 9, 10, 15, 20, 25, 30, 35, 40, 45, 50, 100",
+        "Default": "Default (4)"
+},
+		            "Worm Bin Bait Max Amount": {
+            "Description": "虫饵盒基础鱼饵最大产量调控：\n▸ 默认5 → 可扩展至100\n▸ 建议配合『最小产量』设置平衡产出",
+            "Section": "虫饵盒机械系统",
+            "AllowValues": "Default (5), 6, 7, 8, 9, 10, 15, 20, 25, 30, 35, 40, 45, 50, 100",
+            "Default": "Default (5)"
+        },
+		    "Worm Bin Wild Bait (REQ)": {
+			"Description": "★ 万能鱼饵生产系统 ★\n▸ 解锁虫饵盒生产万能鱼饵功能\n※ 此为下方所有万能鱼饵设置的前置条件！",
+			"Section": "虫饵盒机械系统",
+			"AllowValues": "true, false",
+            "Default": "false"
+		},
+		    "Worm Bin Wild Bait Chance": {
+            "Description": "万能鱼饵生成概率调控：\n▸ 默认10% → 可提升至100%\n※ 需启用『万能鱼饵生产系统』生效",
+            "Section": "虫饵盒机械系统",
+            "AllowValues": "Default (10%), 15% Chance, 20% Chance, 25% Chance, 30% Chance, 35% Chance, 40% Chance, 45% Chance, 50% Chance, 55% Chance, 60% Chance, 65% Chance, 70% Chance, 75% Chance, 80% Chance, 85% Chance, 90% Chance, 95% Chance, 100% Chance",
+            "Default": "Default (10%)"
+        },
+        "Worm Bin Wild Bait Min Amount": {
+            "Description": "万能鱼饵最低日产量设置：\n▸ 默认2 → 可提升至100\n※ 需启用『万能鱼饵生产系统』生效",
+            "Section": "虫饵盒机械系统",
+            "AllowValues": "Default (2), 3, 4, 5, 6, 7, 8, 9, 10, 15, 20, 25, 30, 35, 40, 45, 50, 100",
+            "Default": "Default (2)"
+        },
+        "Worm Bin Wild Bait Max Amount": {
+            "Description": "万能鱼饵最大日产量调控：\n▸ 默认5 → 可扩展至100\n※ 需启用『万能鱼饵生产系统』生效",
+            "Section": "虫饵盒机械系统",
+            "AllowValues": "Default (5), 6, 7, 8, 9, 10, 15, 20, 25, 30, 35, 40, 45, 50, 100",
+            "Default": "Default (5)"
+        },
+        "Deluxe Worm Bin Materials": {
+            "Description": "高级虫饵盒材料需求简化：\n▸ 默认配方 → 简化材料 → 仅需10份苔藓",
+            "Section": "高级虫饵盒系统",
+            "AllowValues": "Default, Lessened Materials, 10 Moss",
+            "Default": "Default"
+        },
+        "Deluxe Worm Bin Lvl Availability": {
+            "Description": "高级虫饵盒图纸解锁等级：\n▸ 默认钓鱼8级 → 可降低至2级",
+            "Section": "高级虫饵盒系统",
+            "AllowValues": "Default (Level 8), Fishing Level 6, Fishing Level 4, Fishing Level 2",
+            "Default": "Default (Level 8)"
+        },
+        "Deluxe Worm Bin Bait Min": {
+            "Description": "高级虫饵盒基础鱼饵最低产量：\n▸ 默认4 → 可提升至100",
+            "Section": "高级虫饵盒系统",
+            "AllowValues": "Default (4), 5, 6, 7, 8, 9, 10, 15, 20, 25, 30, 35, 40, 45, 50, 100",
+            "Default": "Default (4)"
+        },
+        "Deluxe Worm Bin Bait Max": {
+            "Description": "高级虫饵盒基础鱼饵最大产量：\n▸ 默认5 → 可扩展至100",
+            "Section": "高级虫饵盒系统",
+            "AllowValues": "Default (5), 6, 7, 8, 9, 10, 15, 20, 25, 30, 35, 40, 45, 50, 100",
+            "Default": "Default (5)"
+        },
+        "Deluxe Worm Bin Wild Bait (REQ)": {
+            "Description": "★ 高级版万能鱼饵系统 ★\n▸ 解锁高级虫饵盒生产万能鱼饵功能\n※ 此为下方所有高级版设置的前置条件！",
+            "Section": "高级虫饵盒系统",
+            "AllowValues": "true, false",
+            "Default": "false"
+        },
+        "Deluxe Worm Bin Wild B. Chance": {
+            "Description": "高级版万能鱼饵生成概率：\n▸ 默认10% → 可提升至100%\n※ 需启用『高级版万能鱼饵系统』生效",
+            "Section": "高级虫饵盒系统",
+            "AllowValues": "Default (10%), 15% Chance, 20% Chance, 25% Chance, 30% Chance, 35% Chance, 40% Chance, 45% Chance, 50% Chance, 55% Chance, 60% Chance, 65% Chance, 70% Chance, 75% Chance, 80% Chance, 85% Chance, 90% Chance, 95% Chance, 100% Chance",
+            "Default": "Default (10%)"
+        },
+        "Deluxe Worm Bin Wild Bait Min": {
+            "Description": "高级版万能鱼饵最低产量：\n▸ 默认2 → 可提升至100\n※ 需启用『高级版万能鱼饵系统』生效",
+            "Section": "高级虫饵盒系统",
+            "AllowValues": "Default (2), 3, 4, 5, 6, 7, 8, 9, 10, 15, 20, 25, 30, 35, 40, 45, 50, 100",
+            "Default": "Default (2)"
+        },
+        "Deluxe Worm Bin Wild Bait Max": {
+            "Description": "高级版万能鱼饵最大产量：\n▸ 默认5 → 可扩展至100\n※ 需启用『高级版万能鱼饵系统』生效",
+            "Section": "高级虫饵盒系统",
+            "AllowValues": "Default (5), 6, 7, 8, 9, 10, 15, 20, 25, 30, 35, 40, 45, 50, 100",
+            "Default": "Default (5)"
+        },
+        "Recycling Machine Faster": {
+            "Description": "回收机生产加速：\n▸ 默认60分钟 → 最快10分钟",
+            "Section": "回收机系统",
+            "AllowValues": "Default (60min), 50min, 40min, 30min, 20min, 10min",
+            "Default": "Default (60min)"
+        },
+        "Recycling Machine Materials": {
+            "Description": "回收机制作材料简化：\n▸ 默认配方 → 简化材料 → 仅需10木材",
+            "Section": "回收机系统",
+            "AllowValues": "Default, Lessened Materials, 10 Wood",
+            "Default": "Default"
+        },
+        "Recycling Machine Level Avail.": {
+            "Description": "回收机图纸解锁等级：\n▸ 默认钓鱼4级 → 可降低至1级",
+            "Section": "回收机系统",
+            "AllowValues": "Default (Level 4), Fishing Level 3, Fishing Level 2, Fishing Level 1",
+            "Default": "Default (Level 4)"
+        },
+        "Recycling Machine Produce Min": {
+            "Description": "回收资源保底产量：\n▸ 默认浮动值 → 可设定固定最小值（1-100）",
+            "Section": "回收机系统",
+            "AllowValues": "Default, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 15, 20, 25, 30, 35, 40, 45, 50, 100",
+            "Default": "Default"
+        },
+        "Recycling Machine Produce Max": {
+            "Description": "回收资源上限调控：\n▸ 默认浮动值 → 可设定固定最大值（1-100）",
+            "Section": "回收机系统",
+            "AllowValues": "Default, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 15, 20, 25, 30, 35, 40, 45, 50, 100",
+            "Default": "Default"
+        },
+        "Recycling Machine Required Mats.": {
+            "Description": "单次回收需求数量：\n▸ 默认1件 → 可提升至100件",
+            "Section": "回收机系统",
+            "AllowValues": "Default (1), 2, 3, 4, 5, 6, 7, 8, 9, 10, 15, 20, 25, 30, 35, 40, 45, 50, 100",
+            "Default": "Default (1)"
+        },
+        "Recycling Machine Tackle": {
+            "Description": "回收惊喜系统：垃圾处理有概率产出钓鱼钓具",
+            "Section": "回收机系统",
+            "AllowValues": "true, false",
+            "Default": "false"
+        },
+        "Recycling Prismatic Shards": {
+            "Description": "终极回收奖励：垃圾处理有极低概率产出五彩碎片",
+            "Section": "回收机系统",
+            "AllowValues": "true, false",
+            "Default": "false"
+        },
+        "Fish Smoker Faster": {
+            "Description": "熏鱼机加速系统：\n▸ 默认50分钟 → 最快10分钟",
+            "Section": "熏鱼机系统",
+            "AllowValues": "Default (50min), 40min, 30min, 20min, 10min",
+            "Default": "Default (50min)"
+        },
+        "Fish Smoker Materials": {
+            "Description": "熏鱼机制作简化：\n▸ 默认配方 → 简化材料 → 仅需10硬木",
+            "Section": "熏鱼机系统",
+            "AllowValues": "Default, Lessened Materials, 10 Hardwood",
+            "Default": "Default"
+        },
+        "Fish Smoker No Coal": {
+            "Description": "无煤环保模式：熏制过程不再需要煤炭",
+            "Section": "熏鱼机系统",
+            "AllowValues": "true, false",
+            "Default": "false"
+        },
+        "Fish Smoker Quality": {
+            "Description": "熏鱼品质提升：\n▸ 默认无星级 → 黄金品质 → 铱星品质",
+            "Section": "熏鱼机系统",
+            "AllowValues": "Default (No Quality), Gold Quality, Iridium Quality",
+            "Default": "Default (No Quality)"
+        },
+        "Fish Smoker Produce Min": {
+            "Description": "熏鱼保底产量：\n▸ 默认1份 → 可提升至100份",
+            "Section": "熏鱼机系统",
+            "AllowValues": "Default (1), 2, 3, 4, 5, 6, 7, 8, 9, 10, 15, 20, 25, 30, 35, 40, 45, 50, 100",
+            "Default": "Default (1)"
+        },
+		            "Fish Smoker Produce Max": {
+            "Description": "熏鱼机最大日产量调控：\n▸ 默认1份 → 可提升至100份\n※ 建议配合『最低产量』设置平衡产出",
+            "Section": "熏鱼机系统",
+            "AllowValues": "Default (1), 2, 3, 4, 5, 6, 7, 8, 9, 10, 15, 20, 25, 30, 35, 40, 45, 50, 100",
+            "Default": "Default (1)"
+        },
+        "Fish Smoker Required Mats.": {
+            "Description": "单次熏制需求数量：\n▸ 默认1条鱼 → 可提升至100条",
+            "Section": "熏鱼机系统",
+            "AllowValues": "Default (1), 2, 3, 4, 5, 6, 7, 8, 9, 10, 15, 20, 25, 30, 35, 40, 45, 50, 100",
+            "Default": "Default (1)"
+        },
+		    "Bait Maker Materials": {
+            "Description": "鱼饵机制作简化：\n▸ 默认配方 → 简化材料 → 仅需1铁锭",
+            "Section": "鱼饵机系统",
+            "AllowValues": "Default, Lessened Materials, 1 Iron Bar",
+            "Default": "Default"
+        },
+        "Bait Maker Produce Min": {
+            "Description": "鱼饵最低日产量：\n▸ 默认5份 → 可提升至100份",
+            "Section": "鱼饵机系统",
+            "AllowValues": "Default (5), 6, 7, 8, 9, 10, 15, 20, 25, 30, 35, 40, 45, 50, 100",
+            "Default": "Default (5)"
+        },
+        "Bait Maker Produce Max": {
+            "Description": "鱼饵最大日产量：\n▸ 默认10份 → 可提升至100份",
+            "Section": "鱼饵机系统",
+            "AllowValues": "Default (10), 11, 12, 13, 14, 15, 20, 25, 30, 35, 40, 45, 50, 100",
+            "Default": "Default (10)"
+        },
+        "Bait Maker Required Mats.": {
+            "Description": "单次制作需求数量：\n▸ 默认1条鱼 → 可提升至100条",
+            "Section": "鱼饵机系统",
+            "AllowValues": "Default (1), 2, 3, 4, 5, 6, 7, 8, 9, 10, 15, 20, 25, 30, 35, 40, 45, 50, 100",
+            "Default": "Default (1)"
+        },
+        "Fish Shop Open All Days": {
+            "Description": "渔具店全勤模式：威利的店铺除节日外全年无休",
+            "Section": "渔具店扩展与定价",
+            "AllowValues": "true, false",
+            "Default": "false"
+        },
+        "Crab Pot Price": {
+            "Description": "蟹笼价格调控：\n▸ 默认1500g → 可调整至1g或3000g",
+            "Section": "渔具店扩展与定价",
+            "AllowValues": "Default (1500g), 1250g, 1000g, 750g, 500g, 250g, 1g, 1750g, 2000g, 2250g, 1g, 2750g, 3000g",
+            "Default": "Default (1500g)"
+        },
+        "All Fishing Rods Immediately": {
+            "Description": "钓竿提前解锁：所有钓竿立即上架",
+            "Section": "渔具店扩展与定价",
+            "AllowValues": "true, false",
+            "Default": "false"
+        },
+        "Adv. Iridium Fish Rod Avail.": {
+            "Description": "高级铱制钓竿销售策略：\n▸ 默认条件 → 立即购买 → 钓鱼10级解锁",
+            "Section": "渔具店扩展与定价",
+            "AllowValues": "Default, Immediately, Fishing Level 10",
+            "Default": "Default"
+        },
+        "All Fishing Rod Prices": {
+            "Description": "钓竿价格浮动：\n▸ 可降价25%-99%或涨价25%-100%",
+            "Section": "渔具店扩展与定价",
+            "AllowValues": "Default, 25% Cheaper, 50% Cheaper, 75% Cheaper, 99% Cheaper, 25% More Expensive, 50% More Expensive, 75% More Expensive, 100% More Expensive",
+            "Default": "Default"
+        },
+        "Fish Shop Curiosity/Quality": {
+            "Description": "稀有钓具上架：\n▸ 解锁珍稀诱钩/优质浮标（需钓鱼9级）",
+            "Section": "渔具店扩展与定价",
+            "AllowValues": "true, false",
+            "Default": "false"
+        },
+        "All Tackle Immediately": {
+            "Description": "钓具无等级限制：所有钓具立即上架",
+            "Section": "渔具店扩展与定价",
+            "AllowValues": "true, false",
+            "Default": "false"
+        },
+        "Fish Shop Tackle Prices": {
+            "Description": "钓具价格调控：\n▸ 可降价25%-99%或涨价25%-100%",
+            "Section": "渔具店扩展与定价",
+            "AllowValues": "Default, 25% Cheaper, 50% Cheaper, 75% Cheaper, 99% Cheaper, 25% More Expensive, 50% More Expensive, 75% More Expensive, 100% More Expensive",
+            "Default": "Default"
+        },
+        "Fish Shop Seafoam Pudding": {
+            "Description": "海沫布丁销售策略：\n▸ 默认条件 → 立即购买 → 钓鱼9级解锁",
+            "Section": "渔具店扩展与定价",
+            "AllowValues": "Default, Immediately, Fishing Level 9",
+            "Default": "Default"
+        },
+        "Fish Shop Seafoam P Price": {
+            "Description": "海沫布丁定价：\n▸ 默认5000g → 最低1g\n※ 需先启用『海沫布丁上架』",
+            "Section": "渔具店扩展与定价",
+            "AllowValues": "5000g (Default), 4000g, 3000g, 2000g, 1000g, 750g, 500g, 250g, 1g",
+            "Default": "5000g (Default)"
+        },
+        "Fish Shop Worm Bin": {
+            "Description": "虫饵盒销售策略：\n▸ 默认条件 → 立即购买 → 钓鱼1-4级解锁",
+            "Section": "渔具店扩展与定价",
+            "AllowValues": "Default, Immediately, Fishing Level 4, Fishing Level 3, Fishing Level 2, Fishing Level 1",
+            "Default": "Default"
+        },
+        "Fish Shop Worm Bin Price": {
+            "Description": "虫饵盒定价：\n▸ 默认5000g → 最低1g\n※ 需先启用『虫饵盒上架』",
+            "Section": "渔具店扩展与定价",
+            "AllowValues": "Default (5000g), 4000g, 3000g, 2000g, 1500g, 1000g, 750g, 500g, 250g, 1g",
+            "Default": "Default (5000g)"
+        },
+        "Fish Shop Deluxe Worm Bin": {
+            "Description": "高级虫饵盒销售策略：\n▸ 默认条件 → 立即购买 → 钓鱼1-8级解锁",
+            "Section": "渔具店扩展与定价",
+            "AllowValues": "Default, Immediately, Fishing Level 8, Fishing Level 6, Fishing Level 4, Fishing Level 2, Fishing Level 1",
+            "Default": "Default"
+        },
+        "Fish Shop Deluxe Worm Bin Price": {
+            "Description": "高级虫饵盒定价：\n▸ 默认10000g → 最低1g\n※ 需先启用『高级虫饵盒上架』",
+            "Section": "渔具店扩展与定价",
+            "AllowValues": "Default (10000g), 7500g, 5000g, 4000g, 3000g, 2000g, 1000g, 750g, 500g, 250g, 1g",
+            "Default": "Default (10000g)"
+        },
+        "Fish Shop Bait Maker": {
+            "Description": "鱼饵机上架开关：解锁商店销售鱼饵机",
+            "Section": "渔具店扩展与定价",
+            "AllowValues": "true, false",
+            "Default": "false"
+        },
+        "Fish Shop Bait Maker Price": {
+            "Description": "鱼饵机定价：\n▸ 默认7500g → 最低1g\n※ 需先启用『鱼饵机上架』",
+            "Section": "渔具店扩展与定价",
+            "AllowValues": "Default (7500g), 5000g, 4000g, 3000g, 2000g, 1000g, 750g, 500g, 250g, 1g",
+            "Default": "Default (7500g)"
+        },
+        "Fish Shop Recycle Machine": {
+            "Description": "回收机销售策略：\n▸ 默认条件 → 立即购买 → 钓鱼1-4级解锁",
+            "Section": "渔具店扩展与定价",
+            "AllowValues": "Default, Immediately, Fishing Level 4, Fishing Level 3, Fishing Level 2, Fishing Level 1",
+            "Default": "Default"
+        },
+        "Fish Shop Recycle Machine Price": {
+            "Description": "回收机定价：\n▸ 默认3000g → 最低1g\n※ 需先启用『回收机上架』",
+            "Section": "渔具店扩展与定价",
+            "AllowValues": "Default (3000g), 2500g, 2000g, 1500g, 1000g, 750g, 500g, 250g, 1g",
+            "Default": "Default (3000g)"
+        },
+        "Fish Shop Fish Smoker": {
+            "Description": "熏鱼机上架开关：解锁商店销售熏鱼机",
+            "Section": "渔具店扩展与定价",
+            "AllowValues": "true, false",
+            "Default": "false"
+        },
+        "Fish Shop Fish Smoker Price": {
+            "Description": "熏鱼机定价：\n▸ 默认20000g → 最低1g\n※ 需先启用『熏鱼机上架』",
+            "Section": "渔具店扩展与定价",
+            "AllowValues": "Default (20000g), 15000g, 10000g, 7500g, 5000g, 2500g, 2000g, 1500g, 1000g, 750g, 500g, 250g, 1g",
+            "Default": "Default (20000g)"
+        },
+    },
+	"Changes": [
+		//DISABLE YEARLY DEVELOPER GIFTS
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Developer Gifts/Disable Yearly Developer Gifts.json"
+		},
+		//FISHING MINIGAME
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Fishing Minigame/Fishing Difficulty Easy.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Fishing Minigame/Fishing Difficulty Super Easy.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Fishing Minigame/Fishing Difficulty Easy Sunday.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Fishing Minigame/Fishing Difficulty Hard.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Fishing Minigame/Fishing Difficulty Dynamic Weather.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Fishing Minigame/Fishing Difficulty Randomized Difficulty.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Fishing Minigame/All Times Of Day.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Fishing Minigame/All Types Of Weather.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Fishing Minigame/All Seasons.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Fishing Minigame/Same Spawn Rates.json"
+		},
+		//FISH AVAILABILITY
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Fish Availability/Cave-Mine Fish Availability.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Fish Availability/Night Market Fish Availability.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Fish Availability/Fishable Prize Tickets.json"
+		},
+		//CLEAN WATERS
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Clean Waters/Clean Waters-No Trash.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Clean Waters/Clean Waters-No Weeds.json"
+		},
+		//FISHING RODS
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Fishing Rods/Iridium Rod Attach Slots.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Fishing Rods/Advanced Iridium Rod Attach Slots.json"
+		},
+		//CRAB POT FISHING
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Crab Pot Fishing/Crab Pots Same Spawn Rates.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Crab Pot Fishing/Crab Pots No Trash.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Crab Pot Fishing/Crab Pots Jellies.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Crab Pot Fishing/Crab Pots Bug Meat.json"
+		},
+		//JELLY FISHING
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Jelly Fishing/Jelly Spawn Rates.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Jelly Fishing/Cave Jelly Desert.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Jelly Fishing/Jellies Are Crab Pot Fish.json"
+		},
+		//VALUE OF FISHING
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Value of Fishing/Fish Sell Value Increase.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Value of Fishing/Fish Sell Value Decrease.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Value of Fishing/Legendary Fish Sell Value Increase.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Value of Fishing/Legendary Fish Sell Value Decrease.json"
+		},
+		//FARMLAND FISHING
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Farmland Fishing/Seasonal Fish On Farm.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Farmland Fishing/Specialty Fish On Farm.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Farmland Fishing/Legendary Fish On Farm.json"
+		},
+		//LEGENDARY Fishing
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Legendary Fishing/Recatch Legendary Fish.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Legendary Fishing/Legendary Quests.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Legendary Fishing/Entire Area Legendary Fish.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Legendary Fishing/Legendary Fish Spawn Rates.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Legendary Fishing/Legendary Fish No Level.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Legendary Fishing/Legendary Fish No Crown.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Legendary Fishing/Qi's Legendary Fish Crown.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Legendary Fishing/All Weather-Seasons Legendary Fish.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Legendary Fishing/Lucky Legendary Fish.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Legendary Fishing/Curious Legendary Fish.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Legendary Fishing/Legendary Fish Gifts.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Legendary Fishing/Legendary Fish Spawn Times.json"
+		},
+		//PRISMATIC SHARD FISHING
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Prismatic Shard Fishing/Fishable Prismatic Shards.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Prismatic Shard Fishing/Prismatic Shard Spawn Rate.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Prismatic Shard Fishing/Prismatic Shards No Level.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Prismatic Shard Fishing/Prismatic Shards No Crown.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Prismatic Shard Fishing/Lucky Prismatic Shards.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Prismatic Shard Fishing/Prismatic Shards Weather.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Prismatic Shard Fishing/Prismatic Shards Spawn Times.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Prismatic Shard Fishing/Prismatic Shard Sell Value.json"
+		},
+		//FISH POND BUILDINGS
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Fish Pond Buildings/Fish Pond Rare Loot Chance 2X.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Fish Pond Buildings/Fish Pond Rare Loot Chance 3X.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Fish Pond Buildings/Fish Pond Rare Loot Chance 4X.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Fish Pond Buildings/Fish Pond Rare Loot Chance 5X.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Fish Pond Buildings/Fish Pond Rare Loot Chance All 50%.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Fish Pond Buildings/Fish Pond Rare Loot Chance Less Rare More Roe.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Fish Pond Buildings/Fish Pond Prismatic Shards Default.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Fish Pond Buildings/Fish Pond Rare Loot Chance Prismatic Shards 2X.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Fish Pond Buildings/Fish Pond Rare Loot Chance Prismatic Shards 3X.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Fish Pond Buildings/Fish Pond Rare Loot Chance Prismatic Shards 4X.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Fish Pond Buildings/Fish Pond Rare Loot Chance Prismatic Shards 5X.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Fish Pond Buildings/Fish Pond Rare Loot Chance Prismatic Shards All 50%.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Fish Pond Buildings/Fish Pond Rare Loot Chance Prismatic Shards Less Rare More Roe.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Fish Pond Buildings/FP Fish-Quest Spawn Time.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Fish Pond Buildings/Fish Pond Legendary Fish Default.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Fish Pond Buildings/Fish Pond Rare Loot Chance Legendary Fish 2X.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Fish Pond Buildings/Fish Pond Rare Loot Chance Legendary Fish 3X.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Fish Pond Buildings/Fish Pond Rare Loot Chance Legendary Fish 4X.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Fish Pond Buildings/Fish Pond Rare Loot Chance Legendary Fish 5X.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Fish Pond Buildings/Fish Pond Rare Loot Chance Legendary Fish All 50%.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Fish Pond Buildings/Fish Pond Rare Loot Chance Legendary Fish Less Rare More Roe.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Fish Pond Buildings/LG Fish-Quest Spawn Time.json"
+		},
+		//FISHING TACKLE AND LURES
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Fishing Tackle and Lures/Tackle And Lure Materials.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Fishing Tackle and Lures/Tackle Fishing Level 1.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Fishing Tackle and Lures/Craftable Curiosity Lure.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Fishing Tackle and Lures/Wild Bait Crafting Materials.json"
+		},
+		//FOOD FOR FISHING AND INGREDIENTS
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Food for Fishing and Ingredients/Trout Soup.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Food for Fishing and Ingredients/Chowder.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Food for Fishing and Ingredients/Shrimp Cocktail.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Food for Fishing and Ingredients/Fish Taco.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Food for Fishing and Ingredients/Escargot.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Food for Fishing and Ingredients/Dish O' The Sea.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Food for Fishing and Ingredients/Fish Stew.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Food for Fishing and Ingredients/Lobster Bisque.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Food for Fishing and Ingredients/Seafoam Pudding.json"
+		},
+		//WORM BIN MACHINERY
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Worm Bin Machinery/Worm Bin Materials.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Worm Bin Machinery/Worm Bin Level Availability.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Worm Bin Machinery/Worm Bin Bait Min Amount.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Worm Bin Machinery/Worm Bin Bait Max Amount.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Worm Bin Machinery/Worm Bin Wild Bait (REQ).json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Worm Bin Machinery/Worm Bin Wild Bait Chance.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Worm Bin Machinery/Worm Bin Wild Bait Min Amount.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Worm Bin Machinery/Worm Bin Wild Bait Max Amount.json"
+		},
+		//DELUXE WORM BIN MACHINERY
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Deluxe Worm Bin Machinery/Deluxe Worm Bin Materials.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Deluxe Worm Bin Machinery/Deluxe Worm Bin Level Availability.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Deluxe Worm Bin Machinery/Deluxe Worm Bin Bait Min.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Deluxe Worm Bin Machinery/Deluxe Worm Bin Bait Max.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Deluxe Worm Bin Machinery/Deluxe Worm Bin Wild Bait (REQ).json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Deluxe Worm Bin Machinery/Deluxe Worm Bin Wild Bait Chance.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Deluxe Worm Bin Machinery/Deluxe Worm Bin Wild Bait Min.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Deluxe Worm Bin Machinery/Deluxe Worm Bin Wild Bait Max.json"
+		},
+		//RECYCLING MACHINE
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Recycling Machine/Recycling Machine Faster.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Recycling Machine/Recycling Machine Materials.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Recycling Machine/Recycling Machine Level Availability.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Recycling Machine/Recycling Machine Produce Min.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Recycling Machine/Recycling Machine Produce Max.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Recycling Machine/Recycling Machine Required Mats.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Recycling Machine/Recycling Machine Tackle.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Recycling Machine/Recycling Prismatic Shards.json"
+		},
+		//FISH SMOKER MACHINERY
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Fish Smoker Machinery/Fish Smoker Faster.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Fish Smoker Machinery/Fish Smoker Materials.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Fish Smoker Machinery/Fish Smoker No Coal.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Fish Smoker Machinery/Fish Smoker Quality.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Fish Smoker Machinery/Fish Smoker Produce Min.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Fish Smoker Machinery/Fish Smoker Produce Max.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Fish Smoker Machinery/Fish Smoker Required Mats.json"
+		},
+		//BAIT MAKER MACHINERY
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Bait Maker Machinery/Bait Maker Materials.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Bait Maker Machinery/Bait Maker Produce Min.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Bait Maker Machinery/Bait Maker Produce Max.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Bait Maker Machinery/Bait Maker Required Mats.json"
+		},
+		//FISH SHOP ADDITIONS AND PRICES
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Fish Shop Additions and Prices/Fish Shop Open All Days.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Fish Shop Additions and Prices/All Fishing Rods Immediately.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Fish Shop Additions and Prices/Advanced Iridium Fish Rod Availability.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Fish Shop Additions and Prices/All Fishing Rod Prices.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Fish Shop Additions and Prices/All Tackle Immediately.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Fish Shop Additions and Prices/Fish Shop Curiosity-Quality.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Fish Shop Additions and Prices/Fish Shop Tackle Prices.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Fish Shop Additions and Prices/Fish Shop Seafoam Pudding.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Fish Shop Additions and Prices/Fish Shop Seafoam Pudding Price.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Fish Shop Additions and Prices/Crab Pot Price.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Fish Shop Additions and Prices/Fish Shop Worm Bin.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Fish Shop Additions and Prices/Fish Shop Worm Bin Price.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Fish Shop Additions and Prices/Fish Shop Deluxe Worm Bin.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Fish Shop Additions and Prices/Fish Shop Deluxe Worm Bin Price.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Fish Shop Additions and Prices/Fish Shop Bait Maker.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Fish Shop Additions and Prices/Fish Shop Bait Maker Price.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Fish Shop Additions and Prices/Fish Shop Recycle Machine.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Fish Shop Additions and Prices/Fish Shop Recycle Machine Price.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Fish Shop Additions and Prices/Fish Shop Fish Smoker.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Vanilla/Fish Shop Additions and Prices/Fish Shop Fish Smoker Price.json"
+		},
+		//SVE - FISHING MINIGAME
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/SVE/Fishing Minigame/Fishing Difficulty Easy.json",
+			"When": {"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/SVE/Fishing Minigame/Fishing Difficulty Easy Sunday.json",
+			"When": {"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/SVE/Fishing Minigame/Fishing Difficulty Hard.json",
+			"When": {"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/SVE/Fishing Minigame/Fishing Difficulty Dynamic Weather.json",
+			"When": {"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/SVE/Fishing Minigame/Fishing Difficulty Randomized Difficulty.json",
+			"When": {"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/SVE/Fishing Minigame/All Times Of Day.json",
+			"When": {"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/SVE/Fishing Minigame/All Types Of Weather.json",
+			"When": {"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/SVE/Fishing Minigame/All Seasons.json",
+			"When": {"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/SVE/Fishing Minigame/Same Spawn Rates.json",
+			"When": {"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true},
+		},
+		//SVE - CLEAN WATERS
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/SVE/Clean Waters/Clean Waters-No Weeds.json",
+			"When": {"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true},
+		},
+		//SVE - CRAB POT FISHING
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/SVE/Crab Pot Fishing/Crab Pots No Trash.json",
+			"When": {"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true},
+		},
+		//SVE - JELLY FISHING
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/SVE/Jelly Fishing/Jelly Spawn Rates.json",
+			"When": {"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/SVE/Jelly Fishing/Jellies Are Crab Pot Fish.json",
+			"When": {"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true},
+		},
+		//SVE - VALUE OF FISHING
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/SVE/Value of Fishing/Fish Sell Value Increase.json",
+			"When": {"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/SVE/Value of Fishing/Fish Sell Value Decrease.json",
+			"When": {"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/SVE/Value of Fishing/Legendary Fish Sell Value Increase.json",
+			"When": {"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/SVE/Value of Fishing/Legendary Fish Sell Value Decrease.json",
+			"When": {"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true},
+		},
+		//SVE - FARMLAND FISHING
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/SVE/Farmland Fishing/Seasonal Fish On Farm.json",
+			"When": {"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/SVE/Farmland Fishing/Specialty Fish On Farm.json",
+			"When": {"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/SVE/Farmland Fishing/Legendary Fish On Farm.json",
+			"When": {"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true},
+		},
+		//SVE - LEGENDARY FISHING
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/SVE/Legendary Fishing/Recatch Legendary Fish.json",
+			"When": {"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/SVE/Legendary Fishing/Legendary Fish Spawn Rates.json",
+			"When": {"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/SVE/Legendary Fishing/Legendary Fish No Crown.json",
+			"When": {"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/SVE/Legendary Fishing/All Seasons Legendary Fish.json",
+			"When": {"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/SVE/Legendary Fishing/Lucky Legendary Fish.json",
+			"When": {"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/SVE/Legendary Fishing/Curious Legendary Fish.json",
+			"When": {"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/SVE/Legendary Fishing/Legendary Fish Gifts.json",
+			"When": {"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/SVE/Legendary Fishing/Legendary Fish Spawn Times.json",
+			"When": {"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true},
+		},
+		//SVE - FISH POND BUILDINGS
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/SVE/Fish Pond Buildings/Fish Pond Rare Loot Chance 2X.json",
+			"When": {"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/SVE/Fish Pond Buildings/Fish Pond Rare Loot Chance 3X.json",
+			"When": {"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/SVE/Fish Pond Buildings/Fish Pond Rare Loot Chance 4X.json",
+			"When": {"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/SVE/Fish Pond Buildings/Fish Pond Rare Loot Chance 5X.json",
+			"When": {"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/SVE/Fish Pond Buildings/Fish Pond Rare Loot Chance All 50%.json",
+			"When": {"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/SVE/Fish Pond Buildings/Fish Pond Rare Loot Chance Less Rare More Roe.json",
+			"When": {"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/SVE/Fish Pond Buildings/FP Fish-Quest Spawn Time.json",
+			"When": {"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/SVE/Fish Pond Buildings/Fish Pond Legendary Fish Default.json",
+			"When": {"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/SVE/Fish Pond Buildings/Fish Pond Rare Loot Chance Legendary Fish 2X.json",
+			"When": {"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/SVE/Fish Pond Buildings/Fish Pond Rare Loot Chance Legendary Fish 3X.json",
+			"When": {"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/SVE/Fish Pond Buildings/Fish Pond Rare Loot Chance Legendary Fish 4X.json",
+			"When": {"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/SVE/Fish Pond Buildings/Fish Pond Rare Loot Chance Legendary Fish 5X.json",
+			"When": {"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/SVE/Fish Pond Buildings/Fish Pond Rare Loot Chance Legendary Fish All 50%.json",
+			"When": {"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/SVE/Fish Pond Buildings/Fish Pond Rare Loot Chance Legendary Fish Less Rare More Roe.json",
+			"When": {"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/SVE/Fish Pond Buildings/LG Fish-Quest Spawn Time.json",
+			"When": {"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/SVE/Fish Pond Buildings/Fish Pond Prismatic Shards Default.json",
+			"When": {"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/SVE/Fish Pond Buildings/Fish Pond Rare Loot Chance Prismatic Shards 2X.json",
+			"When": {"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/SVE/Fish Pond Buildings/Fish Pond Rare Loot Chance Prismatic Shards 3X.json",
+			"When": {"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/SVE/Fish Pond Buildings/Fish Pond Rare Loot Chance Prismatic Shards 4X.json",
+			"When": {"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/SVE/Fish Pond Buildings/Fish Pond Rare Loot Chance Prismatic Shards 5X.json",
+			"When": {"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/SVE/Fish Pond Buildings/Fish Pond Rare Loot Chance Prismatic Shards All 50%.json",
+			"When": {"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/SVE/Fish Pond Buildings/Fish Pond Rare Loot Chance Prismatic Shards Less Rare More Roe.json",
+			"When": {"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true},
+		},
+		//RSV - FISHING MINIGAME
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/RSV/Fishing Minigame/Fishing Difficulty Easy.json",
+			"When": {"HasMod |contains=Rafseazz.RSVCP": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/RSV/Fishing Minigame/Fishing Difficulty Easy Sunday.json",
+			"When": {"HasMod |contains=Rafseazz.RSVCP": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/RSV/Fishing Minigame/Fishing Difficulty Hard.json",
+			"When": {"HasMod |contains=Rafseazz.RSVCP": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/RSV/Fishing Minigame/Fishing Difficulty Dynamic Weather.json",
+			"When": {"HasMod |contains=Rafseazz.RSVCP": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/RSV/Fishing Minigame/Fishing Difficulty Randomized Difficulty.json",
+			"When": {"HasMod |contains=Rafseazz.RSVCP": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/RSV/Fishing Minigame/All Times Of Day.json",
+			"When": {"HasMod |contains=Rafseazz.RSVCP": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/RSV/Fishing Minigame/All Seasons.json",
+			"When": {"HasMod |contains=Rafseazz.RSVCP": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/RSV/Fishing Minigame/Same Spawn Rates.json",
+			"When": {"HasMod |contains=Rafseazz.RSVCP": true},
+		},
+		//RSV - VALUE OF FISHING
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/RSV/Value of Fishing/Fish Sell Value Increase.json",
+			"When": {"HasMod |contains=Rafseazz.RSVCP": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/RSV/Value of Fishing/Fish Sell Value Decrease.json",
+			"When": {"HasMod |contains=Rafseazz.RSVCP": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/RSV/Value of Fishing/Legendary Fish Sell Value Increase.json",
+			"When": {"HasMod |contains=Rafseazz.RSVCP": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/RSV/Value of Fishing/Legendary Fish Sell Value Decrease.json",
+			"When": {"HasMod |contains=Rafseazz.RSVCP": true},
+		},
+		//RSV - FARMLAND FISHING
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/RSV/Farmland Fishing/Seasonal Fish On Farm.json",
+			"When": {"HasMod |contains=Rafseazz.RSVCP": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/RSV/Farmland Fishing/Legendary Fish On Farm.json",
+			"When": {"HasMod |contains=Rafseazz.RSVCP": true},
+		},
+		//RSV - LEGENDARY FISHING
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/RSV/Legendary Fishing/Recatch Legendary Fish.json",
+			"When": {"HasMod |contains=Rafseazz.RSVCP": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/RSV/Legendary Fishing/Entire Area Legendary Fish.json",
+			"When": {"HasMod |contains=Rafseazz.RSVCP": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/RSV/Legendary Fishing/Legendary Fish Spawn Rates.json",
+			"When": {"HasMod |contains=Rafseazz.RSVCP": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/RSV/Legendary Fishing/Legendary Fish No Level.json",
+			"When": {"HasMod |contains=Rafseazz.RSVCP": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/RSV/Legendary Fishing/Legendary Fish No Crown.json",
+			"When": {"HasMod |contains=Rafseazz.RSVCP": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/RSV/Legendary Fishing/All Weather-Seasons Legendary Fish.json",
+			"When": {"HasMod |contains=Rafseazz.RSVCP": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/RSV/Legendary Fishing/Lucky Legendary Fish.json",
+			"When": {"HasMod |contains=Rafseazz.RSVCP": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/RSV/Legendary Fishing/Curious Legendary Fish.json",
+			"When": {"HasMod |contains=Rafseazz.RSVCP": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/RSV/Legendary Fishing/Legendary Fish Gifts.json",
+			"When": {"HasMod |contains=Rafseazz.RSVCP": true},
+		},
+		//RSV - FISH POND BUILDINGS
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/RSV/Fish Pond Buildings/Fish Pond Rare Loot Chance 2X.json",
+			"When": {"HasMod |contains=Rafseazz.RSVCP": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/RSV/Fish Pond Buildings/Fish Pond Rare Loot Chance 3X.json",
+			"When": {"HasMod |contains=Rafseazz.RSVCP": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/RSV/Fish Pond Buildings/Fish Pond Rare Loot Chance 4X.json",
+			"When": {"HasMod |contains=Rafseazz.RSVCP": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/RSV/Fish Pond Buildings/Fish Pond Rare Loot Chance 5X.json",
+			"When": {"HasMod |contains=Rafseazz.RSVCP": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/RSV/Fish Pond Buildings/Fish Pond Rare Loot Chance All 50%.json",
+			"When": {"HasMod |contains=Rafseazz.RSVCP": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/RSV/Fish Pond Buildings/Fish Pond Rare Loot Chance Less Rare More Roe.json",
+			"When": {"HasMod |contains=Rafseazz.RSVCP": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/RSV/Fish Pond Buildings/FP Fish-Quest Spawn Time.json",
+			"When": {"HasMod |contains=Rafseazz.RSVCP": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/RSV/Fish Pond Buildings/Fish Pond Prismatic Shards Default.json",
+			"When": {"HasMod |contains=Rafseazz.RSVCP": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/RSV/Fish Pond Buildings/Fish Pond Rare Loot Chance Prismatic Shards 2X.json",
+			"When": {"HasMod |contains=Rafseazz.RSVCP": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/RSV/Fish Pond Buildings/Fish Pond Rare Loot Chance Prismatic Shards 3X.json",
+			"When": {"HasMod |contains=Rafseazz.RSVCP": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/RSV/Fish Pond Buildings/Fish Pond Rare Loot Chance Prismatic Shards 4X.json",
+			"When": {"HasMod |contains=Rafseazz.RSVCP": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/RSV/Fish Pond Buildings/Fish Pond Rare Loot Chance Prismatic Shards 5X.json",
+			"When": {"HasMod |contains=Rafseazz.RSVCP": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/RSV/Fish Pond Buildings/Fish Pond Rare Loot Chance Prismatic Shards All 50%.json",
+			"When": {"HasMod |contains=Rafseazz.RSVCP": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/RSV/Fish Pond Buildings/Fish Pond Rare Loot Chance Prismatic Shards Less Rare More Roe.json",
+			"When": {"HasMod |contains=Rafseazz.RSVCP": true},
+		},
+		//ESC - FISHING MINIGAME
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/ESC/Fishing Minigame/Fishing Difficulty Easy.json",
+			"When": {"HasMod |contains=LemurKat.EastScarpe.CP": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/ESC/Fishing Minigame/Fishing Difficulty Easy Sunday.json",
+			"When": {"HasMod |contains=LemurKat.EastScarpe.CP": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/ESC/Fishing Minigame/Fishing Difficulty Hard.json",
+			"When": {"HasMod |contains=LemurKat.EastScarpe.CP": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/ESC/Fishing Minigame/Fishing Difficulty Dynamic Weather.json",
+			"When": {"HasMod |contains=LemurKat.EastScarpe.CP": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/ESC/Fishing Minigame/Fishing Difficulty Randomized Difficulty.json",
+			"When": {"HasMod |contains=LemurKat.EastScarpe.CP": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/ESC/Fishing Minigame/All Times Of Day.json",
+			"When": {"HasMod |contains=LemurKat.EastScarpe.CP": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/ESC/Fishing Minigame/All Types Of Weather.json",
+			"When": {"HasMod |contains=LemurKat.EastScarpe.CP": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/ESC/Fishing Minigame/All Seasons.json",
+			"When": {"HasMod |contains=LemurKat.EastScarpe.CP": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/ESC/Fishing Minigame/Same Spawn Rates.json",
+			"When": {"HasMod |contains=LemurKat.EastScarpe.CP": true},
+		},
+		//ESC - CLEAN WATERS
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/ESC/Clean Waters/Clean Waters-No Weeds.json",
+			"When": {"HasMod |contains=LemurKat.EastScarpe.CP": true},
+		},
+		//ESC - CRAB POT FISHING
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/ESC/Crab Pot Fishing/Crab Pots No Trash.json",
+			"When": {"HasMod |contains=LemurKat.EastScarpe.CP": true},
+		},
+		//ESC - VALUE OF FISHING
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/ESC/Value of Fishing/Fish Sell Value Increase.json",
+			"When": {"HasMod |contains=LemurKat.EastScarpe.CP": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/ESC/Value of Fishing/Fish Sell Value Decrease.json",
+			"When": {"HasMod |contains=LemurKat.EastScarpe.CP": true},
+		},
+		//ESC - FARMLAND FISHING
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/ESC/Farmland Fishing/Seasonal Fish On Farm.json",
+			"When": {"HasMod |contains=LemurKat.EastScarpe.CP": true},
+		},
+		//ESC - FISH POND BUILDINGS
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/ESC/Fish Pond Buildings/Fish Pond Rare Loot Chance 2X.json",
+			"When": {"HasMod |contains=LemurKat.EastScarpe.CP": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/ESC/Fish Pond Buildings/Fish Pond Rare Loot Chance 3X.json",
+			"When": {"HasMod |contains=LemurKat.EastScarpe.CP": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/ESC/Fish Pond Buildings/Fish Pond Rare Loot Chance 4X.json",
+			"When": {"HasMod |contains=LemurKat.EastScarpe.CP": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/ESC/Fish Pond Buildings/Fish Pond Rare Loot Chance 5X.json",
+			"When": {"HasMod |contains=LemurKat.EastScarpe.CP": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/ESC/Fish Pond Buildings/Fish Pond Rare Loot Chance All 50%.json",
+			"When": {"HasMod |contains=LemurKat.EastScarpe.CP": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/ESC/Fish Pond Buildings/Fish Pond Rare Loot Chance Less Rare More Roe.json",
+			"When": {"HasMod |contains=LemurKat.EastScarpe.CP": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/ESC/Fish Pond Buildings/FP Fish-Quest Spawn Time.json",
+			"When": {"HasMod |contains=LemurKat.EastScarpe.CP": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/ESC/Fish Pond Buildings/Fish Pond Prismatic Shards Default.json",
+			"When": {"HasMod |contains=LemurKat.EastScarpe.CP": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/ESC/Fish Pond Buildings/Fish Pond Rare Loot Chance Prismatic Shards 2X.json",
+			"When": {"HasMod |contains=LemurKat.EastScarpe.CP": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/ESC/Fish Pond Buildings/Fish Pond Rare Loot Chance Prismatic Shards 3X.json",
+			"When": {"HasMod |contains=LemurKat.EastScarpe.CP": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/ESC/Fish Pond Buildings/Fish Pond Rare Loot Chance Prismatic Shards 4X.json",
+			"When": {"HasMod |contains=LemurKat.EastScarpe.CP": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/ESC/Fish Pond Buildings/Fish Pond Rare Loot Chance Prismatic Shards 5X.json",
+			"When": {"HasMod |contains=LemurKat.EastScarpe.CP": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/ESC/Fish Pond Buildings/Fish Pond Rare Loot Chance Prismatic Shards All 50%.json",
+			"When": {"HasMod |contains=LemurKat.EastScarpe.CP": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/ESC/Fish Pond Buildings/Fish Pond Rare Loot Chance Prismatic Shards Less Rare More Roe.json",
+			"When": {"HasMod |contains=LemurKat.EastScarpe.CP": true},
+		},
+		//MNF - FISHING MINIGAME
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/MNF/Fishing Minigame/Fishing Difficulty Easy.json",
+			"When": {"HasMod |contains=MoreFish": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/MNF/Fishing Minigame/Fishing Difficulty Easy Sunday.json",
+			"When": {"HasMod |contains=MoreFish": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/MNF/Fishing Minigame/Fishing Difficulty Hard.json",
+			"When": {"HasMod |contains=MoreFish": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/MNF/Fishing Minigame/Fishing Difficulty Dynamic Weather.json",
+			"When": {"HasMod |contains=MoreFish": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/MNF/Fishing Minigame/Fishing Difficulty Randomized Difficulty.json",
+			"When": {"HasMod |contains=MoreFish": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/MNF/Fishing Minigame/All Times Of Day.json",
+			"When": {"HasMod |contains=MoreFish": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/MNF/Fishing Minigame/All Types Of Weather.json",
+			"When": {"HasMod |contains=MoreFish": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/MNF/Fishing Minigame/All Seasons.json",
+			"When": {"HasMod |contains=MoreFish": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/MNF/Fishing Minigame/Same Spawn Rates.json",
+			"When": {"HasMod |contains=MoreFish": true},
+		},
+		//MNF - CRAB POT FISHING
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/MNF/Crab Pot Fishing/Crab Pots Same Spawn Rates.json",
+			"When": {"HasMod |contains=MoreFish": true},
+		},
+		//MNF - VALUE OF FISHING
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/MNF/Value of Fishing/Fish Sell Value Increase.json",
+			"When": {"HasMod |contains=MoreFish": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/MNF/Value of Fishing/Fish Sell Value Decrease.json",
+			"When": {"HasMod |contains=MoreFish": true},
+		},
+		//MNF - FARMLAND FISHING
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/MNF/Farmland Fishing/Seasonal Fish On Farm.json",
+			"When": {"HasMod |contains=MoreFish": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/MNF/Farmland Fishing/Specialty Fish On Farm.json",
+			"When": {"HasMod |contains=MoreFish": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/MNF/Farmland Fishing/Legendary Fish On Farm.json",
+			"When": {"HasMod |contains=MoreFish": true},
+		},
+		//MNF - LEGENDARY FISHING
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/MNF/Legendary Fishing/Recatch Legendary Fish.json",
+			"When": {"HasMod |contains=MoreFish": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/MNF/Legendary Fishing/Legendary Fish Spawn Rates.json",
+			"When": {"HasMod |contains=MoreFish": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/MNF/Legendary Fishing/Legendary Fish No Level.json",
+			"When": {"HasMod |contains=MoreFish": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/MNF/Legendary Fishing/Legendary Fish No Crown.json",
+			"When": {"HasMod |contains=MoreFish": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/MNF/Legendary Fishing/All Weather Legendary Fish.json",
+			"When": {"HasMod |contains=MoreFish": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/MNF/Legendary Fishing/Remove Shinidamachu Day Req.json",
+			"When": {"HasMod |contains=MoreFish": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/MNF/Legendary Fishing/Lucky Legendary Fish.json",
+			"When": {"HasMod |contains=MoreFish": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/MNF/Legendary Fishing/Curious Legendary Fish.json",
+			"When": {"HasMod |contains=MoreFish": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/MNF/Legendary Fishing/Legendary Fish Gifts.json",
+			"When": {"HasMod |contains=MoreFish": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/MNF/Legendary Fishing/Legendary Fish Spawn Times.json",
+			"When": {"HasMod |contains=MoreFish": true},
+		},
+		//MNF - FISH POND BUILDINGS
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/MNF/Fish Pond Buildings/Fish Pond Rare Loot Chance 2X.json",
+			"When": {"HasMod |contains=MoreFish": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/MNF/Fish Pond Buildings/Fish Pond Rare Loot Chance 3X.json",
+			"When": {"HasMod |contains=MoreFish": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/MNF/Fish Pond Buildings/Fish Pond Rare Loot Chance 4X.json",
+			"When": {"HasMod |contains=MoreFish": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/MNF/Fish Pond Buildings/Fish Pond Rare Loot Chance 5X.json",
+			"When": {"HasMod |contains=MoreFish": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/MNF/Fish Pond Buildings/Fish Pond Rare Loot Chance All 50%.json",
+			"When": {"HasMod |contains=MoreFish": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/MNF/Fish Pond Buildings/Fish Pond Rare Loot Chance Less Rare More Roe.json",
+			"When": {"HasMod |contains=MoreFish": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/MNF/Fish Pond Buildings/FP Fish-Quest Spawn Time.json",
+			"When": {"HasMod |contains=MoreFish": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/MNF/Fish Pond Buildings/Fish Pond Prismatic Shards Default.json",
+			"When": {"HasMod |contains=MoreFish": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/MNF/Fish Pond Buildings/Fish Pond Rare Loot Chance Prismatic Shards 2X.json",
+			"When": {"HasMod |contains=MoreFish": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/MNF/Fish Pond Buildings/Fish Pond Rare Loot Chance Prismatic Shards 3X.json",
+			"When": {"HasMod |contains=MoreFish": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/MNF/Fish Pond Buildings/Fish Pond Rare Loot Chance Prismatic Shards 4X.json",
+			"When": {"HasMod |contains=MoreFish": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/MNF/Fish Pond Buildings/Fish Pond Rare Loot Chance Prismatic Shards 5X.json",
+			"When": {"HasMod |contains=MoreFish": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/MNF/Fish Pond Buildings/Fish Pond Rare Loot Chance Prismatic Shards All 50%.json",
+			"When": {"HasMod |contains=MoreFish": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/MNF/Fish Pond Buildings/Fish Pond Rare Loot Chance Prismatic Shards Less Rare More Roe.json",
+			"When": {"HasMod |contains=MoreFish": true},
+		},
+		//ALC - FISHING MINIGAME
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/ALC/Fishing Minigame/Fishing Difficulty Easy.json",
+			"When": {"HasMod |contains=Morghoula.AlchemistryCP": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/ALC/Fishing Minigame/Fishing Difficulty Easy Sunday.json",
+			"When": {"HasMod |contains=Morghoula.AlchemistryCP": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/ALC/Fishing Minigame/Fishing Difficulty Hard.json",
+			"When": {"HasMod |contains=Morghoula.AlchemistryCP": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/ALC/Fishing Minigame/Fishing Difficulty Dynamic Weather.json",
+			"When": {"HasMod |contains=Morghoula.AlchemistryCP": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/ALC/Fishing Minigame/Fishing Difficulty Randomized Difficulty.json",
+			"When": {"HasMod |contains=Morghoula.AlchemistryCP": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/ALC/Fishing Minigame/All Times Of Day.json",
+			"When": {"HasMod |contains=Morghoula.AlchemistryCP": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/ALC/Fishing Minigame/All Types Of Weather.json",
+			"When": {"HasMod |contains=Morghoula.AlchemistryCP": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/ALC/Fishing Minigame/All Seasons.json",
+			"When": {"HasMod |contains=Morghoula.AlchemistryCP": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/ALC/Fishing Minigame/Same Spawn Rates.json",
+			"When": {"HasMod |contains=Morghoula.AlchemistryCP": true},
+		},
+		//ALC - VALUE OF FISHING
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/ALC/Value of Fishing/Fish Sell Value Increase.json",
+			"When": {"HasMod |contains=Morghoula.AlchemistryCP": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/ALC/Value of Fishing/Fish Sell Value Decrease.json",
+			"When": {"HasMod |contains=Morghoula.AlchemistryCP": true},
+		},
+		//ALC - FARMLAND FISHING
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/ALC/Farmland Fishing/Seasonal Fish On Farm.json",
+			"When": {"HasMod |contains=Morghoula.AlchemistryCP": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/ALC/Farmland Fishing/Specialty Fish On Farm.json",
+			"When": {"HasMod |contains=Morghoula.AlchemistryCP": true},
+		},
+		//VMV - FISHING MINIGAME
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/VMV/Fishing Minigame/Fishing Difficulty Easy.json",
+			"When": {"HasMod |contains=Lumisteria.MtVapius": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/VMV/Fishing Minigame/Fishing Difficulty Easy Sunday.json",
+			"When": {"HasMod |contains=Lumisteria.MtVapius": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/VMV/Fishing Minigame/Fishing Difficulty Hard.json",
+			"When": {"HasMod |contains=Lumisteria.MtVapius": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/VMV/Fishing Minigame/Fishing Difficulty Dynamic Weather.json",
+			"When": {"HasMod |contains=Lumisteria.MtVapius": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/VMV/Fishing Minigame/Fishing Difficulty Randomized Difficulty.json",
+			"When": {"HasMod |contains=Lumisteria.MtVapius": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/VMV/Fishing Minigame/Same Spawn Rates.json",
+			"When": {"HasMod |contains=Lumisteria.MtVapius": true},
+		},
+		//SBV - FISHING MINIGAME
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/SBV/Fishing Minigame/Fishing Difficulty Easy.json",
+			"When": {"HasMod |contains=skellady.SBVCP": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/SBV/Fishing Minigame/Fishing Difficulty Easy Sunday.json",
+			"When": {"HasMod |contains=skellady.SBVCP": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/SBV/Fishing Minigame/Fishing Difficulty Hard.json",
+			"When": {"HasMod |contains=skellady.SBVCP": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/SBV/Fishing Minigame/Fishing Difficulty Dynamic Weather.json",
+			"When": {"HasMod |contains=skellady.SBVCP": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/SBV/Fishing Minigame/Fishing Difficulty Randomized Difficulty.json",
+			"When": {"HasMod |contains=skellady.SBVCP": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/SBV/Fishing Minigame/Same Spawn Rates.json",
+			"When": {"HasMod |contains=skellady.SBVCP": true},
+		},
+		//DTL - FISHING MINIGAME
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/DTL/Fishing Minigame/Fishing Difficulty Easy.json",
+			"When": {"HasMod |contains=Aimon111.WitchSwampOverhaulCP": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/DTL/Fishing Minigame/Fishing Difficulty Easy Sunday.json",
+			"When": {"HasMod |contains=Aimon111.WitchSwampOverhaulCP": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/DTL/Fishing Minigame/Fishing Difficulty Hard.json",
+			"When": {"HasMod |contains=Aimon111.WitchSwampOverhaulCP": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/DTL/Fishing Minigame/Fishing Difficulty Randomized Difficulty.json",
+			"When": {"HasMod |contains=Aimon111.WitchSwampOverhaulCP": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/DTL/Fishing Minigame/Same Spawn Rates.json",
+			"When": {"HasMod |contains=Aimon111.WitchSwampOverhaulCP": true},
+		},
+		//FOS - FISHING MINIGAME
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/FOS/Fishing Minigame/Fishing Difficulty Easy.json",
+			"When": {"HasMod |contains=aztecviper.fishofstardew": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/FOS/Fishing Minigame/Fishing Difficulty Easy Sunday.json",
+			"When": {"HasMod |contains=aztecviper.fishofstardew": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/FOS/Fishing Minigame/Fishing Difficulty Hard.json",
+			"When": {"HasMod |contains=aztecviper.fishofstardew": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/FOS/Fishing Minigame/Fishing Difficulty Dynamic Weather.json",
+			"When": {"HasMod |contains=aztecviper.fishofstardew": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/FOS/Fishing Minigame/Fishing Difficulty Randomized Difficulty.json",
+			"When": {"HasMod |contains=aztecviper.fishofstardew": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/FOS/Fishing Minigame/Same Spawn Rates.json",
+			"When": {"HasMod |contains=aztecviper.fishofstardew": true},
+		},
+		//PBC - FISHING MINIGAME
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/PBC/Fishing Minigame/Fishing Difficulty Easy.json",
+			"When": {"HasMod |contains=Fellowclown.PC": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/PBC/Fishing Minigame/Fishing Difficulty Easy Sunday.json",
+			"When": {"HasMod |contains=Fellowclown.PC": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/PBC/Fishing Minigame/Fishing Difficulty Hard.json",
+			"When": {"HasMod |contains=Fellowclown.PC": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/PBC/Fishing Minigame/Fishing Difficulty Dynamic Weather.json",
+			"When": {"HasMod |contains=Fellowclown.PC": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/PBC/Fishing Minigame/Fishing Difficulty Randomized Difficulty.json",
+			"When": {"HasMod |contains=Fellowclown.PC": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/PBC/Fishing Minigame/Same Spawn Rates.json",
+			"When": {"HasMod |contains=Fellowclown.PC": true},
+		},
+		//EAD - FISHING MINIGAME
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/EAD/Fishing Minigame/Fishing Difficulty Easy.json",
+			"When": {"HasMod |contains=TenebrousNova.EliDylan.CP": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/EAD/Fishing Minigame/Fishing Difficulty Easy Sunday.json",
+			"When": {"HasMod |contains=TenebrousNova.EliDylan.CP": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/EAD/Fishing Minigame/Fishing Difficulty Hard.json",
+			"When": {"HasMod |contains=TenebrousNova.EliDylan.CP": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/EAD/Fishing Minigame/Fishing Difficulty Dynamic Weather.json",
+			"When": {"HasMod |contains=TenebrousNova.EliDylan.CP": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/EAD/Fishing Minigame/Fishing Difficulty Randomized Difficulty.json",
+			"When": {"HasMod |contains=TenebrousNova.EliDylan.CP": true},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Expansions/EAD/Fishing Minigame/Same Spawn Rates.json",
+			"When": {"HasMod |contains=TenebrousNova.EliDylan.CP": true},
+		},
+	]
+}

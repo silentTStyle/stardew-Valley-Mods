@@ -1,0 +1,158 @@
+{
+  "Changes": [
+    // Change NPC Schedules - Portraits ------------------------------------------------------------
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Jodi",
+      "FromFile": "Characters/JodieKent/assets/Portraits/Jodi_Lewd.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 128 },
+      "ToArea": { "X": 0, "Y": 640, "Width": 128, "Height": 128 },
+      "When": { "Change NPC Schedules": "true", "Hypnosis": "false", "JodieKent": "On, Jodie Only" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Jodi",
+      "FromFile": "Characters/JodieKent/assets/Portraits/Jodi_Lewd_Hypnosis.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 128 },
+      "ToArea": { "X": 0, "Y": 640, "Width": 128, "Height": 128 },
+      "When": { "Change NPC Schedules": "true", "Hypnosis": "true", "JodieKent": "On, Jodie Only" }
+    },
+	{
+      "Action": "EditImage",
+      "Target": "Portraits/Jodi_Winter",
+      "FromFile": "Characters/JodieKent/assets/Portraits/Jodi_Lewd.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 128 },
+      "ToArea": { "X": 0, "Y": 640, "Width": 128, "Height": 128 },
+      "When": { "Change NPC Schedules": "true", "Hypnosis": "false", "JodieKent": "On, Jodie Only" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Jodi_Winter",
+      "FromFile": "Characters/JodieKent/assets/Portraits/Jodi_Lewd_Hypnosis.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 128 },
+      "ToArea": { "X": 0, "Y": 640, "Width": 128, "Height": 128 },
+      "When": { "Change NPC Schedules": "true", "Hypnosis": "true", "JodieKent": "On, Jodie Only" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Kent",
+      "FromFile": "Characters/JodieKent/assets/Portraits/Kent_Lewd.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 128 },
+      "ToArea": { "X": 0, "Y": 640, "Width": 128, "Height": 128 },
+      "When": { "Change NPC Schedules": "true", "Hypnosis": "false", "JodieKent": "On, Kent Only" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Kent",
+      "FromFile": "Characters/JodieKent/assets/Portraits/Kent_Lewd_Hypnosis.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 128 },
+      "ToArea": { "X": 0, "Y": 640, "Width": 128, "Height": 128 },
+      "When": { "Change NPC Schedules": "true", "Hypnosis": "true", "JodieKent": "On, Kent Only" }
+    },
+	{
+      "Action": "EditImage",
+      "Target": "Portraits/Kent_Winter",
+      "FromFile": "Characters/JodieKent/assets/Portraits/Kent_Lewd.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 128 },
+      "ToArea": { "X": 0, "Y": 640, "Width": 128, "Height": 128 },
+      "When": { "Change NPC Schedules": "true", "Hypnosis": "false", "JodieKent": "On, Kent Only" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Kent_Winter",
+      "FromFile": "Characters/JodieKent/assets/Portraits/Kent_Lewd_Hypnosis.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 128 },
+      "ToArea": { "X": 0, "Y": 640, "Width": 128, "Height": 128 },
+      "When": { "Change NPC Schedules": "true", "Hypnosis": "true", "JodieKent": "On, Kent Only" }
+    },
+    // Change NPC Schedules - schedules ------------------------------------------------------------
+	// Jodie
+    {
+      "Action": "EditData",
+      "Target": "Characters/schedules/Jodi",
+      "Entries": {
+        "rain": "800 SamHouse 6 5 0 jodi_dishes/940 SamHouse 5 5 0/1000 SamHouse 7 5 0/1020 SamHouse 4 5 0/1040 SamHouse 6 5 0 jodi_dishes/1130 SamHouse 4 13 2 jodi_vibrator/1600 SamHouse 5 5 0/1900 SamHouse 6 5 0 jodi_dishes/1930 SamHouse 8 13 1 jodi_onanie/2100 SamHouse 10 22 3/2200 SamHouse 22 5 1 jodi_sleep",
+        "rain2": "800 SamHouse 6 5 0 jodi_dishes/940 SamHouse 5 5 0/1000 SamHouse 7 5 0/1020 SamHouse 4 5 0/1040 SamHouse 6 5 0 jodi_dishes/1130 SamHouse 4 13 2 jodi_vibrator/1600 Custom_DarkClub 16 27 3/1800 Custom_DarkClub 16 27 2 jodi_vibrator",
+        "Tue": "800 SamHouse 6 5 0 jodi_dishes/940 SamHouse 5 5 0/1000 SeedShop 22 17 1/1300 SeedShop 21 17 2 jodi_exercise/1600 SeedShop 24 14 2 \"Strings\\schedules\\Jodi:Tue.000\"/1800 SamHouse 4 13 2 jodi_vibrator/2100 SamHouse 10 22 3/2200 SamHouse 22 5 1 jodi_uplate",
+        "Wed": "800 SamHouse 6 5 0 jodi_dishes/940 SamHouse 5 5 0/1000 SamHouse 7 5 0/1020 SamHouse 4 5 0/1040 SamHouse 6 5 0 jodi_dishes/1100 JojaMart 14 21 1/1330 JojaMart 9 14 3/1400 JojaMart 5 7 1/1440 JojaMart 20 5 0/1530 JojaMart 27 13 1/1600 JojaMart 11 25 3/1700 SamHouse 7 5 0/1930 SamHouse 5 7 3/2100 SamHouse 10 22 3/2200 SamHouse 22 5 1 jodi_uplate",
+        "Fri": "GOTO Wed",
+        "Sat": "800 SamHouse 6 5 0 jodi_dishes/940 SamHouse 5 5 0/1000 SamHouse 7 5 0/1020 SamHouse 4 5 0/1040 SamHouse 6 5 0 jodi_dishes/1100 CommunityCenter 24 8 2 jodi_sit_down/1700 SamHouse 4 13 2 jodi_vibrator/2100 SamHouse 10 22 3/2200 SamHouse 22 5 1 jodi_sleep",
+        "spring": "800 SamHouse 6 5 0 jodi_dishes/940 SamHouse 5 5 0/1000 SamHouse 7 5 0/1020 SamHouse 4 5 0/1040 SamHouse 6 5 0 jodi_dishes/1130 SamHouse 4 12 2 jodi_sit_down/1330 Town 22 72 1 jodi_onanie/1600 SamHouse 5 5 0/1900 SamHouse 6 5 0 jodi_dishes/1930 SamHouse 8 13 1 jodi_onanie/2100 SamHouse 10 22 3 \"Strings\\schedules\\Jodi:spring.000\"/2200 SamHouse 22 5 1 jodi_sleep"
+      },
+      "When": { "Change NPC Schedules": "true", "JodieKent": "On, Jodie Only" }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/schedules/Jodi",
+      "Entries": {
+        "Sun": "800 SamHouse 6 5 0 jodi_dishes/900 SamHouse 5 5 0/1000 SeedShop 38 20 0/1400 SeedShop 2 20 3/1600 Custom_DarkClub 16 27 3/1800 Custom_DarkClub 16 27 3 jodi_fuck"
+      },
+      "When": { "Change NPC Schedules": "true", "HasSeenEvent": "63", "JodieKent": "On" }
+    },
+	// Kent
+    {
+      "Action": "EditData",
+      "Target": "Characters/schedules/Kent",
+      "Entries": {
+        "rain": "830 SamHouse 8 12 2/1400 Town 6 72 2 kent_onanie/1700 SamHouse 2 21 0/1900 SamHouse 8 5 3/2100 Town 6 89 2 kent_onanie/2300 SamHouse 21 5 3 kent_uplate",
+        "rain2": "830 SamHouse 8 12 2/1400 Town 6 72 2 kent_hole/1700 Custom_DarkClub 15 27 1/1900 Custom_DarkClub 15 27 2 kent_onanie",
+        "Fri": "700 Town 42 102 2 kent_hole/1030 SamHouse 8 12 2/1400 Town 6 72 2 kent_onanie/1700 Saloon 3 23 3/2350 SamHouse 21 5 3 kent_sleep",
+        "Sat": "700 Town 42 102 2 kent_hole/1030 SamHouse 8 12 2/1400 Town 6 72 2 kent_onanie/1700 Saloon 3 23 3/2200 SamHouse 21 5 3 kent_uplate",
+        "spring": "700 Town 42 102 2 kent_onanie/1030 SamHouse 8 12 2/1400 Town 6 72 2  kent_hole/1700 SamHouse 2 21 0/1900 SamHouse 8 5 3/2100 Town 6 89 2 kent_onanie/2400 SamHouse 21 5 3 kent_sleep"
+      },
+      "When": { "Change NPC Schedules": "true", "JodieKent": "On, Kent Only" }
+    },
+	{
+      "Action": "EditData",
+      "Target": "Characters/schedules/Kent",
+      "Entries": {
+        "Sun": "MAIL saloonSportsRoom/GOTO Sun_normal/800 SamHouse 8 5 3/830 SeedShop 36 20 0/1110 Saloon 35 8 0/1500 Custom_DarkClub 15 27 1/1800 Custom_DarkClub 15 27 1 kent_hole",
+        "Sun_normal": "800 SamHouse 8 5 3/1010 SeedShop 36 20 0/1400 SeedShop 5 19 0/1600 Custom_DarkClub 15 27 1/1800 Custom_DarkClub 15 27 1 kent_hole",
+      },
+      "When": { "Change NPC Schedules": "true", "JodieKent": "Kent Only" }
+    },
+	{
+      "Action": "EditData",
+      "Target": "Characters/schedules/Kent",
+      "Entries": {
+        "Sun": "MAIL saloonSportsRoom/GOTO Sun_normal/800 SamHouse 8 5 3/830 SeedShop 36 20 0/1110 Saloon 35 8 0/1500 Custom_DarkClub 15 27 1/1800 Custom_DarkClub 15 27 1 kent_fuck",
+        "Sun_normal": "800 SamHouse 8 5 3/1010 SeedShop 36 20 0/1400 SeedShop 5 19 0/1600 Custom_DarkClub 15 27 1/1800 Custom_DarkClub 15 27 1 kent_fuck",
+      },
+      "When": { "Change NPC Schedules": "true", "JodieKent": "On" }
+    },
+    // Change NPC Schedules - animationDescriptions ------------------------------------------------
+    {
+      "Action": "EditData",
+      "Target": "Data/animationDescriptions",
+      "Entries": {
+        "jodi_uplate": "100/100/100/Strings\\animationDescriptions:jodi_uplate",
+        "jodi_onanie": "101/101/101/Strings\\animationDescriptions:jodi_onanie",
+        "jodi_vibrator": "102/102/102/Strings\\animationDescriptions:jodi_vibrator",
+        "jodi_fuck": "104/104/104/Strings\\animationDescriptions:jodi_fuck",
+        
+        "kent_uplate": "100/100/100/Strings\\animationDescriptions:kent_uplate",
+        "kent_onanie": "101/101/101/Strings\\animationDescriptions:kent_onanie",
+        "kent_hole": "102/102/102/Strings\\animationDescriptions:kent_hole",
+        "kent_fuck": "104/104/104/Strings\\animationDescriptions:kent_fuck",
+      },
+      "When": { "Change NPC Schedules": "true" }
+    },
+    // Change NPC Schedules - animationDescriptions Dialogue ---------------------------------------
+    {
+      "Action": "EditData",
+      "Target": "Strings/animationDescriptions",
+      "Entries": {
+        "jodi_uplate": "{{i18n:NPC.Jodi.UpLate}}",
+        "jodi_onanie": "{{i18n:NPC.Jodi.Fuck}}",
+        "jodi_vibrator": "{{i18n:NPC.Jodi.Fuck}}",
+        "jodi_fuck": "{{i18n:NPC.Jodi.Fuck}}",
+        
+        "kent_uplate": "{{i18n:NPC.Kent.UpLate}}",
+        "kent_onanie": "{{i18n:NPC.Kent.Fuck}}",
+        "kent_hole": "{{i18n:NPC.Kent.Fuck}}",
+        "kent_fuck": "{{i18n:NPC.Kent.Fuck}}",
+      },
+      "When": { "Change NPC Schedules": "true" }
+    },
+  ]
+}

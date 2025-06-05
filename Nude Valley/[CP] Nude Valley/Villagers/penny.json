@@ -1,0 +1,74 @@
+{
+  "Changes": [
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Penny",
+      "FromFile": "assets/Characters/Penny.png"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Penny_Beach",
+      "FromFile": "assets/Characters/Penny_Beach.png"
+    },
+	{
+      "Action": "EditImage",
+      "Target": "Characters/Penny_Winter",
+      "FromFile": "assets/Characters/Penny.png"
+    },
+	// Portraits -----------------------------------------------------------------------------------
+	{
+      "Action": "EditImage",
+      "Target": "Portraits/Penny",
+      "FromFile": "assets/Portraits/Penny.png",
+      "When": { 
+		"Hypnosis": "false",
+		"Penny": "On",
+	  }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Penny",
+      "FromFile": "assets/Portraits/Penny_Hypnosis.png",
+      "When": { 
+		"Hypnosis": "true",
+		"Penny": "On",
+	  }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Penny_Beach",
+      "FromFile": "assets/Portraits/Penny_Beach.png",
+      "When": { 
+		"Hypnosis": "false",
+		"Penny": "On",
+	  }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Penny_Beach",
+      "FromFile": "assets/Portraits/Penny_Beach_Hypnosis.png",
+      "When": { 
+		"Hypnosis": "true",
+		"Penny": "On",
+	  }
+    },
+	{
+      "Action": "EditImage",
+      "Target": "Portraits/Penny_Winter",
+      "FromFile": "assets/Portraits/Penny.png",
+      "When": { 
+		"Hypnosis": "false",
+		"Penny": "On",
+	  }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Penny_Winter",
+      "FromFile": "assets/Portraits/Penny_Hypnosis.png",
+      "When": { 
+		"Hypnosis": "true",
+		"Penny": "On",
+	  }
+    },
+  ]
+}

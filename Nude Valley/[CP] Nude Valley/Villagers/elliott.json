@@ -1,0 +1,95 @@
+{
+  "Changes": [
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Elliott",
+      "FromFile": "assets/Characters/Elliott.png",
+      "When": { "Futanari": "false" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Elliott",
+      "FromFile": "assets/Characters/Elliott_Futanari.png",
+      "When": { "Futanari": "true" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Elliott_Beach",
+      "FromFile": "assets/Characters/Elliott_Beach.png",
+      "When": { "Futanari": "false" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Elliott_Beach",
+      "FromFile": "assets/Characters/Elliott_Beach_Futanari.png",
+      "When": { "Futanari": "true" }
+    },
+	{
+      "Action": "EditImage",
+      "Target": "Characters/Elliott_Winter",
+      "FromFile": "assets/Characters/Elliott.png",
+      "When": { "Futanari": "false" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Elliott_Winter",
+      "FromFile": "assets/Characters/Elliott_Futanari.png",
+      "When": { "Futanari": "true" }
+    },
+	// Portraits -----------------------------------------------------------------------------------
+	{
+      "Action": "EditImage",
+      "Target": "Portraits/Elliott",
+      "FromFile": "assets/Portraits/Elliott.png",
+      "When": { 
+		"Hypnosis": "false",
+		"Elliott": "On",
+	  }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Elliott",
+      "FromFile": "assets/Portraits/Elliott_Hypnosis.png",
+      "When": { 
+		"Hypnosis": "true",
+		"Elliott": "On",
+	  }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Elliott_Beach",
+      "FromFile": "assets/Portraits/Elliott_Beach.png",
+      "When": { 
+		"Hypnosis": "false",
+		"Elliott": "On",
+	  }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Elliott_Beach",
+      "FromFile": "assets/Portraits/Elliott_Beach_Hypnosis.png",
+      "When": { 
+		"Hypnosis": "true",
+		"Elliott": "On",
+	  }
+    },
+{
+      "Action": "EditImage",
+      "Target": "Portraits/Elliott_Winter",
+      "FromFile": "assets/Portraits/Elliott.png",
+      "When": { 
+		"Hypnosis": "false",
+		"Elliott": "On",
+	  }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Elliott_Winter",
+      "FromFile": "assets/Portraits/Elliott_Hypnosis.png",
+      "When": { 
+		"Hypnosis": "true",
+		"Elliott": "On",
+	  }
+    },	
+  ]
+}

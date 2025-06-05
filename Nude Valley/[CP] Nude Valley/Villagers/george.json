@@ -1,0 +1,65 @@
+{
+  "Changes": [
+    {
+      "Action": "EditImage",
+      "Target": "Characters/George",
+      "FromFile": "assets/Characters/George.png",
+      "When": { "Futanari": "false" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/George",
+      "FromFile": "assets/Characters/George_Futanari.png",
+      "When": { "Futanari": "true" }
+    },
+	{
+      "Action": "EditImage",
+      "Target": "Characters/George_Winter",
+      "FromFile": "assets/Characters/George.png",
+      "When": { "Futanari": "false" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/George_Winter",
+      "FromFile": "assets/Characters/George_Futanari.png",
+      "When": { "Futanari": "true" }
+    },
+	// Portraits -----------------------------------------------------------------------------------
+	{
+      "Action": "EditImage",
+      "Target": "Portraits/George",
+      "FromFile": "assets/Portraits/George.png",
+      "When": { 
+		"Hypnosis": "false",
+		"George": "On",
+	  }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/George",
+      "FromFile": "assets/Portraits/George_Hypnosis.png",
+      "When": { 
+		"Hypnosis": "true",
+		"George": "On",
+	  }
+    },
+	{
+      "Action": "EditImage",
+      "Target": "Portraits/George_Winter",
+      "FromFile": "assets/Portraits/George.png",
+      "When": { 
+		"Hypnosis": "false",
+		"George": "On",
+	  }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/George_Winter",
+      "FromFile": "assets/Portraits/George_Hypnosis.png",
+      "When": { 
+		"Hypnosis": "true",
+		"George": "On",
+	  }
+    },
+  ]
+}

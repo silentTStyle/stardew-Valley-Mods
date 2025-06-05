@@ -1,0 +1,21 @@
+{
+	"Name": "[CP] Aster's Bathroom Extension",
+	"Author": "Asterisk555",
+	"Version": "2.0.1",
+	"Description": "Patches bathrooms onto compatible farmhouses.",
+	"UniqueID": "Asterisk555.CP.BiggerBathroomExtension",
+	"UpdateKeys": [ "Nexus:12404@Extension" ],
+	"ContentPackFor": {
+		"UniqueID": "Pathoschild.ContentPatcher"
+	},
+	"Dependencies": [
+		{
+			"UniqueID": "Asterisk555.CP.BathroomTilesheets",
+			"IsRequired": true
+		},
+		{
+			"UniqueID": "Asterisk555.CP.BiggerFarmhouse",
+			"IsRequired": false
+		}
+	]
+}

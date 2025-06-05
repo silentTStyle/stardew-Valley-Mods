@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="34" height="42" tilewidth="16" tileheight="16" infinite="0" nextlayerid="16" nextobjectid="9">
+ <tileset firstgid="1" name="z_Cloudy_Ocean_BG_1" tilewidth="16" tileheight="16" tilecount="2976" columns="93">
+  <image source="z_Cloudy_Ocean_BG1_Night.png" width="1500" height="520"/>
+ </tileset>
+ <layer id="1" name="Back" width="34" height="42">
+  <data encoding="base64" compression="zlib">
+   eJzt1cdOAlEYhuGDQXBtR6/BsjGxd8BrsMBG1yaWxMRyBy7tHfASrKCJXoFlo2LvZWfv+LLyJJAwC5xxcb7kSU4mzPl+MotfCCGCiULs4wCHOMIxTnCKM5zjAlpyaRbiCte4wS3uzLHfK7QIUYRilKAUZShHBSpRhWrL7zt2zg44LZH31TBvLexwwIk6Df9hgLsGMYRhjGAUYxjHBCYxJXV6OHvhizLHNJ0z8MALH2Y1zHHPXQ94xBOe8YJXvOEdH/iUOkPhs1UIkzXyvi86vxEKd/M7ExKizPvXqaezAY1oggtuHeeYo2seC1jEEpbhRwArWNVhnmS+UQpSkYZ0ZCATNmQhO8p3jHdapY42zu3oQKf0vEuHOVRUVPSLlT2QpHGnxzMuOt1SbzPnFgPm8NMZkHrXOK8bMEcmu8ZmwB6OlW5m6kEv+nSYb4OOTWxhW+rb4byLPQR1mCOHXZeLPORLe6/AwB3Yr/avioqKioqKiorKP8wP5VJOGg==
+  </data>
+ </layer>
+ <objectgroup id="2" name="Back"/>
+</map>

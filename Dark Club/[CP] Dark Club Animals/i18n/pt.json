@@ -1,0 +1,14 @@
+{
+  // Dark Club - Animals ------------------------------------------------------------------------------
+  "Slave.Milk.Name": "Escravo de Leite",
+  "Slave.Milk.Description": "Conforme crescem, o leite materno pode ser coletado diariamente. Você precisará de um balde de leite para coletá-lo. Eles podem viver em um celeiro.",
+  "Slave.Semen.Name": "Escravo de Sêmen",
+  "Slave.Semen.Description": "Conforme crescem, o sêmen pode ser coletado diariamente. Você precisará de um balde de leite para coletá-lo. Eles podem viver em um celeiro.",
+  "Slave.Hair.Name": "Escravo de Cabelo",
+  "Slave.Hair.Description": "Conforme crescem, o cabelo pode ser colhido. Se eles se dão bem com o mestre deles, o cabelo crescerá mais rápido. Você precisará de tesouras para colher o cabelo. Eles podem viver em um celeiro.",
+  "Slave.Mushroom.Name": "Escravo de Cogumelos",
+  "Slave.Mushroom.Description": "Eles são escravos treinados para procurar cogumelos mágicos! Eles podem viver em um galinheiro.",
+  "Slave.Egg.Name": "Escravo de Ovo",
+  "Slave.Egg.Description": "Quando crescem, eles botam um ovo de limo a cada dois dias. Às vezes excretam almas de escravos. Eles podem viver em um galinheiro.",
+  "Slave.Birth": "Um novo escravo foi incubado."
+}

@@ -1,0 +1,704 @@
+{
+    "Format": "2.0.0",
+    "Changes": [
+		// Incubator
+		{
+			"Action": "Load",
+			"Target": "Mods/{{ModId}}/Incubator",
+			"FromFile": "assets/incubator.png",
+		},
+		// Icubator Animations
+		{
+		  "Action": "EditImage",
+		  "LogName": "Incubator Idle Animation",
+		  "Target": "Mods/{{ModId}}/Incubator",
+		  "FromFile": "assets/Animations/incubatorIdle.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 10,
+		  "AnimationFrameCount": 6
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Incubator White Egg Animation",
+		  "Target": "Mods/{{ModId}}/Incubator",
+		  "FromFile": "assets/Animations/incubatorEggWhite.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 16, "Y": 0, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 100,
+		  "AnimationFrameCount": 2
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Incubator Brown Egg Animation",
+		  "Target": "Mods/{{ModId}}/Incubator",
+		  "FromFile": "assets/Animations/incubatorEggBrown.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 32, "Y": 0, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 20,
+		  "AnimationFrameCount": 32
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Incubator Milk Egg Animation",
+		  "Target": "Mods/{{ModId}}/Incubator",
+		  "FromFile": "assets/Animations/incubatorMilk.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 48, "Y": 0, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 8,
+		  "AnimationFrameCount": 4
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Incubator Semen Egg Animation",
+		  "Target": "Mods/{{ModId}}/Incubator",
+		  "FromFile": "assets/Animations/incubatorSemen.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 64, "Y": 0, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 20,
+		  "AnimationFrameCount": 7
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/BigCraftables",
+			"Fields": {
+				"101": {
+					"Texture": "Mods/{{ModId}}/Incubator",
+					"SpriteIndex": 0,
+					"DisableBouncingAnimationWhileWorking": true,
+				}
+			},
+		},
+		//Slave Textures
+		{
+			"Action": "Load",
+			"Target": "Mods/{{ModId}}/Slave_A",
+			"FromFile": "assets/Slave_A.png",
+		},
+		{
+			"Action": "Load",
+			"Target": "Mods/{{ModId}}/Slave_ABaby",
+			"FromFile": "assets/Slave_A_Baby.png",
+		},
+		{
+			"Action": "Load",
+			"Target": "Mods/{{ModId}}/Slave_B",
+			"FromFile": "assets/Slave_B.png",
+		},
+		{
+			"Action": "Load",
+			"Target": "Mods/{{ModId}}/Slave_BBaby",
+			"FromFile": "assets/Slave_B_Baby.png",
+		},
+		{
+			"Action": "Load",
+			"Target": "Mods/{{ModId}}/Slave_C",
+			"FromFile": "assets/Slave_C.png",
+		},
+		{
+			"Action": "Load",
+			"Target": "Mods/{{ModId}}/Slave_CBaby",
+			"FromFile": "assets/Slave_C_Baby.png",
+		},
+		{
+			"Action": "Load",
+			"Target": "Mods/{{ModId}}/Slave_D",
+			"FromFile": "assets/Slave_D.png",
+		},
+		{
+			"Action": "Load",
+			"Target": "Mods/{{ModId}}/Slave_DBaby",
+			"FromFile": "assets/Slave_D_Baby.png",
+		},
+		{
+			"Action": "Load",
+			"Target": "Mods/{{ModId}}/Slave_E",
+			"FromFile": "assets/Slave_E.png",
+		},
+		{
+			"Action": "Load",
+			"Target": "Mods/{{ModId}}/Slave_EBaby",
+			"FromFile": "assets/Slave_E_Baby.png",
+		},
+		{
+			"Action": "Load",
+			"Target": "Mods/{{ModId}}/Slave_F",
+			"FromFile": "assets/Slave_F.png",
+		},
+		{
+			"Action": "Load",
+			"Target": "Mods/{{ModId}}/Slave_FBaby",
+			"FromFile": "assets/Slave_F_Baby.png",
+		},
+		{
+			"Action": "Load",
+			"Target": "Mods/{{ModId}}/Slave_G",
+			"FromFile": "assets/Slave_G.png",
+		},
+		{
+			"Action": "Load",
+			"Target": "Mods/{{ModId}}/Slave_GBaby",
+			"FromFile": "assets/Slave_G_Baby.png",
+		},
+		{
+			"Action": "Load",
+			"Target": "Mods/{{ModId}}/Slave_H",
+			"FromFile": "assets/Slave_H.png",
+		},
+		{
+			"Action": "Load",
+			"Target": "Mods/{{ModId}}/Slave_HBaby",
+			"FromFile": "assets/Slave_H_Baby.png",
+		},
+		{
+			"Action": "Load",
+			"Target": "Mods/{{ModId}}/Slave_I",
+			"FromFile": "assets/Slave_I.png",
+		},
+		{
+			"Action": "Load",
+			"Target": "Mods/{{ModId}}/Slave_IBaby",
+			"FromFile": "assets/Slave_I_Baby.png",
+		},
+		{
+			"Action": "Load",
+			"Target": "Mods/{{ModId}}/Slave_J",
+			"FromFile": "assets/Slave_J.png",
+		},
+		{
+			"Action": "Load",
+			"Target": "Mods/{{ModId}}/Slave_JBaby",
+			"FromFile": "assets/Slave_J_Baby.png",
+		},
+		{
+			"Action": "Load",
+			"Target": "Mods/{{ModId}}/Slave_K",
+			"FromFile": "assets/Slave_K.png",
+		},
+		{
+			"Action": "Load",
+			"Target": "Mods/{{ModId}}/Slave_KBaby",
+			"FromFile": "assets/Slave_K_Baby.png",
+		},
+		{
+			"Action": "Load",
+			"Target": "Mods/{{ModId}}/Slave_L",
+			"FromFile": "assets/Slave_L.png",
+		},
+		{
+			"Action": "Load",
+			"Target": "Mods/{{ModId}}/Slave_LBaby",
+			"FromFile": "assets/Slave_L_Baby.png",
+		},
+		
+		
+		
+		// Shop Icons
+		{
+			"Action": "Load",
+			"Target": "Mods/{{ModId}}/ShopEggSlave",
+			"FromFile": "assets/AnimalShop/EggSlave.png",
+		},
+		{
+			"Action": "Load",
+			"Target": "Mods/{{ModId}}/ShopHairSlave",
+			"FromFile": "assets/AnimalShop/HairSlave.png",
+		},
+		{
+			"Action": "Load",
+			"Target": "Mods/{{ModId}}/ShopMilkSlave",
+			"FromFile": "assets/AnimalShop/MilkSlave.png",
+		},
+		{
+			"Action": "Load",
+			"Target": "Mods/{{ModId}}/ShopMushroomSlave",
+			"FromFile": "assets/AnimalShop/MushroomSlave.png",
+		},
+		{
+			"Action": "Load",
+			"Target": "Mods/{{ModId}}/ShopSemenSlave",
+			"FromFile": "assets/AnimalShop/SemenSlave.png",
+		},
+		// Animal Definitions
+		{
+			"Action": "EditData",
+			"Target": "Data/FarmAnimals",
+			"Entries": {
+				"Milk_Slave": {
+					"DisplayName": "{{i18n:Slave.Milk.Name}}",
+					"House": "Barn",
+					"Gender": "Female",
+					"PurchasePrice": -1,
+					"SellPrice": 1500,
+					"ShopDisplayName": "{{i18n:Slave.Milk.Name}}",
+					"ShopDescription": "{{i18n:Slave.Milk.Description}}",
+					"ShopTexture": "Mods/{{ModId}}/ShopMilkSlave",
+					"EggItemIds": [ "MilkEgg"],
+					"IncubationTime": 1600,
+					"IncubatorParentSheetOffset": 3,
+					"DaysToMature": 4,
+					"BirthText": "{{i18n:Slave.Birth}}",
+					"ProduceItemIds": [
+						{
+							"Id": "Default",
+							"ItemId": "BreastMilk",
+						},
+					],
+					"DeluxeProduceItemIds": [
+						{
+							"Id": "Default",
+							"ItemId": "ConcentratedMilk",
+						}
+					],
+					"HarvestType": "HarvestWithTool",
+					"HarvestTool": "Milk Pail",
+					"Sound": "dc_moan",
+					"Texture": "Mods/{{ModId}}/Slave_A",
+					"UseFlippedRightForLeft": true,
+					"SpriteWidth": 32,
+					"SpriteHeight": 32,
+					"Skins": [
+						{
+							"ID": "Slave_B",
+							"Texture": "Mods/{{ModId}}/Slave_B",
+							"BabyTexture": "Mods/{{ModId}}/Slave_BBaby",
+						},
+						{
+							"ID": "Slave_C",
+							"Texture": "Mods/{{ModId}}/Slave_C",
+							"BabyTexture": "Mods/{{ModId}}/Slave_CBaby",
+						},
+						{
+							"ID": "Slave_D",
+							"Texture": "Mods/{{ModId}}/Slave_D",
+							"BabyTexture": "Mods/{{ModId}}/Slave_DBaby",
+						},
+						{
+							"ID": "Slave_E",
+							"Texture": "Mods/{{ModId}}/Slave_E",
+							"BabyTexture": "Mods/{{ModId}}/Slave_EBaby",
+						},
+						{
+							"ID": "Slave_F",
+							"Texture": "Mods/{{ModId}}/Slave_F",
+							"BabyTexture": "Mods/{{ModId}}/Slave_FBaby",
+						},
+						{
+							"ID": "Slave_G",
+							"Texture": "Mods/{{ModId}}/Slave_G",
+							"BabyTexture": "Mods/{{ModId}}/Slave_GBaby",
+						},
+						{
+							"ID": "Slave_H",
+							"Texture": "Mods/{{ModId}}/Slave_H",
+							"BabyTexture": "Mods/{{ModId}}/Slave_HBaby",
+						},
+						{
+							"ID": "Slave_I",
+							"Texture": "Mods/{{ModId}}/Slave_I",
+							"BabyTexture": "Mods/{{ModId}}/Slave_IBaby",
+						},
+						{
+							"ID": "Slave_J",
+							"Texture": "Mods/{{ModId}}/Slave_J",
+							"BabyTexture": "Mods/{{ModId}}/Slave_JBaby",
+						},
+						{
+							"ID": "Slave_K",
+							"Texture": "Mods/{{ModId}}/Slave_K",
+							"BabyTexture": "Mods/{{ModId}}/Slave_KBaby",
+						},
+						{
+							"ID": "Slave_L",
+							"Texture": "Mods/{{ModId}}/Slave_L",
+							"BabyTexture": "Mods/{{ModId}}/Slave_LBaby",
+						},
+					],
+				},
+				"Semen_Slave": {
+					"DisplayName": "{{i18n:Slave.Semen.Name}}",
+					"House": "Barn",
+					"Gender": "Female",
+					"PurchasePrice": -1,
+					"SellPrice": 1500,
+					"ShopDisplayName": "{{i18n:Slave.Semen.Name}}",
+					"ShopDescription": "{{i18n:Slave.Semen.Description}}",
+					"ShopTexture": "Mods/{{ModId}}/ShopSemenSlave",
+					"EggItemIds": [ "SemenEgg"],
+					"IncubationTime": 1600,
+					"IncubatorParentSheetOffset": 4,
+					"DaysToMature": 4,
+					"BirthText": "{{i18n:Slave.Birth}}",
+					"ProduceItemIds": [
+						{
+							"Id": "Default",
+							"ItemId": "Semen",
+						},
+					],
+					"DeluxeProduceItemIds": [
+						{
+							"Id": "Default",
+							"ItemId": "ConcentratedSemen",
+						}
+					],
+					"HarvestType": "HarvestWithTool",
+					"HarvestTool": "Milk Pail",
+					"Sound": "dc_moan",
+					"Texture": "Mods/{{ModId}}/Slave_A",
+					"UseFlippedRightForLeft": true,
+					"SpriteWidth": 32,
+					"SpriteHeight": 32,
+					"Skins": [
+						{
+							"ID": "Slave_B",
+							"Texture": "Mods/{{ModId}}/Slave_B",
+							"BabyTexture": "Mods/{{ModId}}/Slave_BBaby",
+						},
+						{
+							"ID": "Slave_C",
+							"Texture": "Mods/{{ModId}}/Slave_C",
+							"BabyTexture": "Mods/{{ModId}}/Slave_CBaby",
+						},
+						{
+							"ID": "Slave_D",
+							"Texture": "Mods/{{ModId}}/Slave_D",
+							"BabyTexture": "Mods/{{ModId}}/Slave_DBaby",
+						},
+						{
+							"ID": "Slave_E",
+							"Texture": "Mods/{{ModId}}/Slave_E",
+							"BabyTexture": "Mods/{{ModId}}/Slave_EBaby",
+						},
+						{
+							"ID": "Slave_F",
+							"Texture": "Mods/{{ModId}}/Slave_F",
+							"BabyTexture": "Mods/{{ModId}}/Slave_FBaby",
+						},
+						{
+							"ID": "Slave_G",
+							"Texture": "Mods/{{ModId}}/Slave_G",
+							"BabyTexture": "Mods/{{ModId}}/Slave_GBaby",
+						},
+						{
+							"ID": "Slave_H",
+							"Texture": "Mods/{{ModId}}/Slave_H",
+							"BabyTexture": "Mods/{{ModId}}/Slave_HBaby",
+						},
+						{
+							"ID": "Slave_I",
+							"Texture": "Mods/{{ModId}}/Slave_I",
+							"BabyTexture": "Mods/{{ModId}}/Slave_IBaby",
+						},
+						{
+							"ID": "Slave_J",
+							"Texture": "Mods/{{ModId}}/Slave_J",
+							"BabyTexture": "Mods/{{ModId}}/Slave_JBaby",
+						},
+						{
+							"ID": "Slave_K",
+							"Texture": "Mods/{{ModId}}/Slave_K",
+							"BabyTexture": "Mods/{{ModId}}/Slave_KBaby",
+						},
+						{
+							"ID": "Slave_L",
+							"Texture": "Mods/{{ModId}}/Slave_L",
+							"BabyTexture": "Mods/{{ModId}}/Slave_LBaby",
+						},
+					],
+					},
+				"Hair_Slave": {
+					"DisplayName": "{{i18n:Slave.Hair.Name}}",
+					"House": "Barn",
+					"Gender": "Female",
+					"PurchasePrice": -1,
+					"SellPrice": 1500,
+					"ShopDisplayName": "{{i18n:Slave.Hair.Name}}",
+					"ShopDescription": "{{i18n:Slave.Hair.Description}}",
+					"ShopTexture": "Mods/{{ModId}}/ShopHairSlave",
+					"EggItemIds": [ "HairEgg"],
+					"IncubationTime": 1600,
+					"IncubatorParentSheetOffset": 3,
+					"DaysToMature": 4,
+					"BirthText": "{{i18n:Slave.Birth}}",
+					"ProduceItemIds": [
+						{
+							"Id": "Default",
+							"ItemId": "SlaveHair",
+						},
+					],
+					"DeluxeProduceItemIds": [
+						{
+							"Id": "Default",
+							"ItemId": "PubicHair",
+						}
+					],
+					"DaysToProduce": 3,
+					"FriendshipForFasterProduce": 200,
+					"HarvestType": "HarvestWithTool",
+					"HarvestTool": "Shears",
+					"Sound": "dc_moan",
+					"Texture": "Mods/{{ModId}}/Slave_A",
+					"UseFlippedRightForLeft": true,
+					"SpriteWidth": 32,
+					"SpriteHeight": 32,
+					"Skins": [
+						{
+							"ID": "Slave_B",
+							"Texture": "Mods/{{ModId}}/Slave_B",
+							"BabyTexture": "Mods/{{ModId}}/Slave_BBaby",
+						},
+						{
+							"ID": "Slave_C",
+							"Texture": "Mods/{{ModId}}/Slave_C",
+							"BabyTexture": "Mods/{{ModId}}/Slave_CBaby",
+						},
+						{
+							"ID": "Slave_D",
+							"Texture": "Mods/{{ModId}}/Slave_D",
+							"BabyTexture": "Mods/{{ModId}}/Slave_DBaby",
+						},
+						{
+							"ID": "Slave_E",
+							"Texture": "Mods/{{ModId}}/Slave_E",
+							"BabyTexture": "Mods/{{ModId}}/Slave_EBaby",
+						},
+						{
+							"ID": "Slave_F",
+							"Texture": "Mods/{{ModId}}/Slave_F",
+							"BabyTexture": "Mods/{{ModId}}/Slave_FBaby",
+						},
+						{
+							"ID": "Slave_G",
+							"Texture": "Mods/{{ModId}}/Slave_G",
+							"BabyTexture": "Mods/{{ModId}}/Slave_GBaby",
+						},
+						{
+							"ID": "Slave_H",
+							"Texture": "Mods/{{ModId}}/Slave_H",
+							"BabyTexture": "Mods/{{ModId}}/Slave_HBaby",
+						},
+						{
+							"ID": "Slave_I",
+							"Texture": "Mods/{{ModId}}/Slave_I",
+							"BabyTexture": "Mods/{{ModId}}/Slave_IBaby",
+						},
+						{
+							"ID": "Slave_J",
+							"Texture": "Mods/{{ModId}}/Slave_J",
+							"BabyTexture": "Mods/{{ModId}}/Slave_JBaby",
+						},
+						{
+							"ID": "Slave_K",
+							"Texture": "Mods/{{ModId}}/Slave_K",
+							"BabyTexture": "Mods/{{ModId}}/Slave_KBaby",
+						},
+						{
+							"ID": "Slave_L",
+							"Texture": "Mods/{{ModId}}/Slave_L",
+							"BabyTexture": "Mods/{{ModId}}/Slave_LBaby",
+						},
+					],
+				},
+				"Mushroom_Slave": {
+					"DisplayName": "{{i18n:Slave.Mushroom.Name}}",
+					"House": "Barn",
+					"Gender": "Female",
+					"PurchasePrice": -1,
+					"SellPrice": 1500,
+					"ShopDisplayName": "{{i18n:Slave.Mushroom.Name}}",
+					"ShopDescription": "{{i18n:Slave.Mushroom.Description}}",
+					"ShopTexture": "Mods/{{ModId}}/ShopMushroomSlave",
+					"EggItemIds": [ "MagicEgg"],
+					"IncubationTime": 10,
+					"IncubatorParentSheetOffset": 3,
+					"DaysToMature": 4,
+					"BirthText": "{{i18n:Slave.Birth}}",
+					"ProduceItemIds": [
+						{
+							"Id": "Default",
+							"ItemId": "MagicMushroom",
+						},
+					],
+					"DaysToProduce": 1,
+					"HarvestType": "DigUp",
+					"Sound": "dc_moan",
+					"Texture": "Mods/{{ModId}}/Slave_A",
+					"UseFlippedRightForLeft": true,
+					"SpriteWidth": 32,
+					"SpriteHeight": 32,
+					"Skins": [
+						{
+							"ID": "Slave_B",
+							"Texture": "Mods/{{ModId}}/Slave_B",
+							"BabyTexture": "Mods/{{ModId}}/Slave_BBaby",
+						},
+						{
+							"ID": "Slave_C",
+							"Texture": "Mods/{{ModId}}/Slave_C",
+							"BabyTexture": "Mods/{{ModId}}/Slave_CBaby",
+						},
+						{
+							"ID": "Slave_D",
+							"Texture": "Mods/{{ModId}}/Slave_D",
+							"BabyTexture": "Mods/{{ModId}}/Slave_DBaby",
+						},
+						{
+							"ID": "Slave_E",
+							"Texture": "Mods/{{ModId}}/Slave_E",
+							"BabyTexture": "Mods/{{ModId}}/Slave_EBaby",
+						},
+						{
+							"ID": "Slave_F",
+							"Texture": "Mods/{{ModId}}/Slave_F",
+							"BabyTexture": "Mods/{{ModId}}/Slave_FBaby",
+						},
+						{
+							"ID": "Slave_G",
+							"Texture": "Mods/{{ModId}}/Slave_G",
+							"BabyTexture": "Mods/{{ModId}}/Slave_GBaby",
+						},
+						{
+							"ID": "Slave_H",
+							"Texture": "Mods/{{ModId}}/Slave_H",
+							"BabyTexture": "Mods/{{ModId}}/Slave_HBaby",
+						},
+						{
+							"ID": "Slave_I",
+							"Texture": "Mods/{{ModId}}/Slave_I",
+							"BabyTexture": "Mods/{{ModId}}/Slave_IBaby",
+						},
+						{
+							"ID": "Slave_J",
+							"Texture": "Mods/{{ModId}}/Slave_J",
+							"BabyTexture": "Mods/{{ModId}}/Slave_JBaby",
+						},
+						{
+							"ID": "Slave_K",
+							"Texture": "Mods/{{ModId}}/Slave_K",
+							"BabyTexture": "Mods/{{ModId}}/Slave_KBaby",
+						},
+						{
+							"ID": "Slave_L",
+							"Texture": "Mods/{{ModId}}/Slave_L",
+							"BabyTexture": "Mods/{{ModId}}/Slave_LBaby",
+						},
+					],
+				},
+				"Egg_Slave": {
+					"DisplayName": "{{i18n:Slave.Egg.Name}}",
+					"House": "Barn",
+					"Gender": "Female",
+					"PurchasePrice": -1,
+					"SellPrice": 1500,
+					"ShopDisplayName": "{{i18n:Slave.Egg.Name}}",
+					"ShopDescription": "{{i18n:Slave.Egg.Description}}",
+					"ShopTexture": "Mods/{{ModId}}/ShopEggSlave",
+					"EggItemIds": [ "EggEgg"],
+					"IncubationTime": 1600,
+					"IncubatorParentSheetOffset": 3,
+					"DaysToMature": 4,
+					"BirthText": "{{i18n:Slave.Birth}}",
+					"ProduceItemIds": [
+						{
+							"Id": "Default",
+							"ItemId": "680",
+						},
+						{
+							"Id": "Default",
+							"ItemId": "413",
+						},
+						{
+							"Id": "Default",
+							"ItemId": "437",
+						},
+						{
+							"Id": "Default",
+							"ItemId": "439",
+						},
+						{
+							"Id": "Default",
+							"ItemId": "857",
+						},
+					],
+					"DeluxeProduceItemIds": [
+						{
+							"Id": "Default",
+							"ItemId": "SlaveSoul",
+						}
+					],
+					"DaysToProduce": 2,
+					"HarvestType": "DropOvernight",
+					"Sound": "dc_moan",
+					"Texture": "Mods/{{ModId}}/Slave_A",
+					"UseFlippedRightForLeft": true,
+					"SpriteWidth": 32,
+					"SpriteHeight": 32,
+					"Skins": [
+						{
+							"ID": "Slave_B",
+							"Texture": "Mods/{{ModId}}/Slave_B",
+							"BabyTexture": "Mods/{{ModId}}/Slave_BBaby",
+						},
+						{
+							"ID": "Slave_C",
+							"Texture": "Mods/{{ModId}}/Slave_C",
+							"BabyTexture": "Mods/{{ModId}}/Slave_CBaby",
+						},
+						{
+							"ID": "Slave_D",
+							"Texture": "Mods/{{ModId}}/Slave_D",
+							"BabyTexture": "Mods/{{ModId}}/Slave_DBaby",
+						},
+						{
+							"ID": "Slave_E",
+							"Texture": "Mods/{{ModId}}/Slave_E",
+							"BabyTexture": "Mods/{{ModId}}/Slave_EBaby",
+						},
+						{
+							"ID": "Slave_F",
+							"Texture": "Mods/{{ModId}}/Slave_F",
+							"BabyTexture": "Mods/{{ModId}}/Slave_FBaby",
+						},
+						{
+							"ID": "Slave_G",
+							"Texture": "Mods/{{ModId}}/Slave_G",
+							"BabyTexture": "Mods/{{ModId}}/Slave_GBaby",
+						},
+						{
+							"ID": "Slave_H",
+							"Texture": "Mods/{{ModId}}/Slave_H",
+							"BabyTexture": "Mods/{{ModId}}/Slave_HBaby",
+						},
+						{
+							"ID": "Slave_I",
+							"Texture": "Mods/{{ModId}}/Slave_I",
+							"BabyTexture": "Mods/{{ModId}}/Slave_IBaby",
+						},
+						{
+							"ID": "Slave_J",
+							"Texture": "Mods/{{ModId}}/Slave_J",
+							"BabyTexture": "Mods/{{ModId}}/Slave_JBaby",
+						},
+						{
+							"ID": "Slave_K",
+							"Texture": "Mods/{{ModId}}/Slave_K",
+							"BabyTexture": "Mods/{{ModId}}/Slave_KBaby",
+						},
+						{
+							"ID": "Slave_L",
+							"Texture": "Mods/{{ModId}}/Slave_L",
+							"BabyTexture": "Mods/{{ModId}}/Slave_LBaby",
+						},
+					],
+				},
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/CraftingRecipes",
+			"Entries": {
+				"Milking_Machine_A": "80 1 334 1 766 5/Home/Milking_Machine_A 1/true/null/",
+			}
+		},
+	]
+}

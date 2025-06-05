@@ -1,0 +1,76 @@
+{
+	"Changes": [
+		{
+			"LogName": "Prismatic Shard Price 1g",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"74": {"Price": 1},
+	    },
+		        "When": {"Prismatic Shard Sell Value": "1g"},
+		},
+		{
+			"LogName": "Prismatic Shard Price 250g",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"74": {"Price": 250},
+	    },
+		        "When": {"Prismatic Shard Sell Value": "250g"},
+		},
+		{
+			"LogName": "Prismatic Shard Price 500g",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"74": {"Price": 500},
+	    },
+		        "When": {"Prismatic Shard Sell Value": "500g"},
+		},
+		{
+			"LogName": "Prismatic Shard Price 750g",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"74": {"Price": 750},
+	    },
+		        "When": {"Prismatic Shard Sell Value": "750g"},
+		},
+		{
+			"LogName": "Prismatic Shard Price 1000g",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"74": {"Price": 1000},
+	    },
+		        "When": {"Prismatic Shard Sell Value": "1000g"},
+		},
+		{
+			"LogName": "Prismatic Shard Price 1250g",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"74": {"Price": 1250},
+	    },
+		        "When": {"Prismatic Shard Sell Value": "1250g"},
+		},
+		{
+			"LogName": "Prismatic Shard Price 1500g",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"74": {"Price": 1500},
+	    },
+		        "When": {"Prismatic Shard Sell Value": "1500g"},
+		},
+		{
+			"LogName": "Prismatic Shard Price 1750g",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"74": {"Price": 1750},
+	    },
+		        "When": {"Prismatic Shard Sell Value": "1750g"},
+		},
+	]
+}

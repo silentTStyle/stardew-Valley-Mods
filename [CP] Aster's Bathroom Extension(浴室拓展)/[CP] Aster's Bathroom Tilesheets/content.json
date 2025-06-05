@@ -1,0 +1,27 @@
+{
+	"Format": "2.0.0",
+	
+	"Changes": [
+	//Tilesheets
+		{
+			"Action": "Load",
+			"Target": "Maps/A5_SpouseBaths_2",
+			"FromFile": "Assets/Tilesheets/A5_SpouseBaths_2.png",
+		},
+		{
+			"Action": "Load",
+			"Target": "Maps/A5_SpouseBaths_8",
+			"FromFile": "Assets/Tilesheets/A5_SpouseBaths_8.png",
+		},
+		{
+			"Action": "Load",
+			"Target": "Maps/A5_SpouseBaths_14",
+			"FromFile": "Assets/Tilesheets/A5_SpouseBaths_14.png",
+		},
+		{
+			"Action": "Load",
+			"Target": "Maps/A5_SpouseBaths_Twi",
+			"FromFile": "Assets/Tilesheets/A5_SpouseBaths_Twi.png",
+		},
+	]
+}

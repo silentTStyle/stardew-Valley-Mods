@@ -1,0 +1,18 @@
+{
+  "Name": "New HairStyles for Sophia",
+  "Author": "HanGee",
+  "Version": "1.1.0",
+  "Description": "More hairStyles for Sophia.",
+  "UniqueID": "HanGee.SophiaHairstyles",
+  "UpdateKeys": [ "Nexus:27004" ],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  },
+  "Dependencies":[
+{
+	  "UniqueID": "FlashShifter.StardewValleyExpandedCP",
+	  "IsRequired": true
+
+   },
+]
+}

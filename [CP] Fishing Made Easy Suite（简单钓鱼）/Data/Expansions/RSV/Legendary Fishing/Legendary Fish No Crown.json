@@ -1,0 +1,130 @@
+{
+	"Changes": [
+		{
+			"LogName": "RSV - Lucky Legendary Fish Ridge Forest",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_Ridgeside_RidgeForest", "Fish" ],
+			"Fields": { 
+				"Rafseazz.RSVCP_Deep_Ridge_Angler": {"Chance": 0},
+					  },
+			    "When": {"Lucky Legendary Fish": true, "Query: {{DailyLuck}} <= 0.07": true},
+	    },
+		{
+			"LogName": "RSV - Lucky Legendary Fish Ridgeside Village",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_Ridgeside_RidgesideVillage", "Fish" ],
+			"Fields": { 
+				"Rafseazz.RSVCP_Sockeye_Salmon": {"Chance": 0},
+					  },
+			    "When": {"Lucky Legendary Fish": true, "Query: {{DailyLuck}} <= 0.07": true},
+	    },
+		{
+			"LogName": "RSV - Lucky Legendary Fish Ridge Falls",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_Ridgeside_RidgeFalls", "Fish" ],
+			"Fields": { 
+				"Rafseazz.RSVCP_Waterfall_Snakehead": {"Chance": 0},
+					  },
+			    "When": {"Lucky Legendary Fish": true, "Query: {{DailyLuck}} <= 0.07": true},
+	    },
+		{
+			"LogName": "RSV - Legendary Fish No Crown Farm Standard",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Farm_Standard", "Fish" ],
+			"Fields": {
+				"Rafseazz.RSVCP_Deep_Ridge_Angler": {"IsBossFish": false},
+				"Rafseazz.RSVCP_Sockeye_Salmon": {"IsBossFish": false},
+				"Rafseazz.RSVCP_Waterfall_Snakehead": {"IsBossFish": false},
+			    },
+			"When": {"Legendary Fish No Crown": true, "Legendary Fish On Farm": true},
+		},
+		{
+			"LogName": "RSV - Legendary Fish No Crown Farm Beach",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Farm_Beach", "Fish" ],
+			"Fields": {
+				"Rafseazz.RSVCP_Deep_Ridge_Angler": {"IsBossFish": false},
+				"Rafseazz.RSVCP_Sockeye_Salmon": {"IsBossFish": false},
+				"Rafseazz.RSVCP_Waterfall_Snakehead": {"IsBossFish": false},
+			    },
+			"When": {"Legendary Fish No Crown": true, "Legendary Fish On Farm": true},
+		},
+		{
+			"LogName": "RSV - Legendary Fish No Crown Farm Forest",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Farm_Forest", "Fish" ],
+			"Fields": {
+				"Rafseazz.RSVCP_Deep_Ridge_Angler": {"IsBossFish": false},
+				"Rafseazz.RSVCP_Sockeye_Salmon": {"IsBossFish": false},
+				"Rafseazz.RSVCP_Waterfall_Snakehead": {"IsBossFish": false},
+			    },
+			"When": {"Legendary Fish No Crown": true, "Legendary Fish On Farm": true},
+		},
+		{
+			"LogName": "RSV - Legendary Fish No Crown Farm FourCorners",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Farm_FourCorners", "Fish" ],
+			"Fields": {
+				"Rafseazz.RSVCP_Deep_Ridge_Angler": {"IsBossFish": false},
+				"Rafseazz.RSVCP_Sockeye_Salmon": {"IsBossFish": false},
+				"Rafseazz.RSVCP_Waterfall_Snakehead": {"IsBossFish": false},
+			    },
+			"When": {"Legendary Fish No Crown": true, "Legendary Fish On Farm": true},
+		},
+		{
+			"LogName": "RSV - Legendary Fish No Crown Farm Hilltop",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Farm_Hilltop", "Fish" ],
+			"Fields": {
+				"Rafseazz.RSVCP_Deep_Ridge_Angler": {"IsBossFish": false},
+				"Rafseazz.RSVCP_Sockeye_Salmon": {"IsBossFish": false},
+				"Rafseazz.RSVCP_Waterfall_Snakehead": {"IsBossFish": false},
+			    },
+			"When": {"Legendary Fish No Crown": true, "Legendary Fish On Farm": true},
+		},
+		{
+			"LogName": "RSV - Legendary Fish No Crown Farm Riverland",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Farm_Riverland", "Fish" ],
+			"Fields": {
+				"Rafseazz.RSVCP_Deep_Ridge_Angler": {"IsBossFish": false},
+				"Rafseazz.RSVCP_Sockeye_Salmon": {"IsBossFish": false},
+				"Rafseazz.RSVCP_Waterfall_Snakehead": {"IsBossFish": false},
+			    },
+			"When": {"Legendary Fish No Crown": true, "Legendary Fish On Farm": true},
+		},
+		{
+			"LogName": "RSV - Legendary Fish No Crown Farm Wilderness",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Farm_Wilderness", "Fish" ],
+			"Fields": {
+				"Rafseazz.RSVCP_Deep_Ridge_Angler": {"IsBossFish": false},
+				"Rafseazz.RSVCP_Sockeye_Salmon": {"IsBossFish": false},
+				"Rafseazz.RSVCP_Waterfall_Snakehead": {"IsBossFish": false},
+			    },
+			"When": {"Legendary Fish No Crown": true, "Legendary Fish On Farm": true},
+		},
+		{
+			"LogName": "RSV - Legendary Fish No Crown Farm Meadowlands",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Farm_MeadowlandsFarm", "Fish" ],
+			"Fields": {
+				"Rafseazz.RSVCP_Deep_Ridge_Angler": {"IsBossFish": false},
+				"Rafseazz.RSVCP_Sockeye_Salmon": {"IsBossFish": false},
+				"Rafseazz.RSVCP_Waterfall_Snakehead": {"IsBossFish": false},
+			    },
+			"When": {"Legendary Fish No Crown": true, "Legendary Fish On Farm": true},
+		},
+	]
+}

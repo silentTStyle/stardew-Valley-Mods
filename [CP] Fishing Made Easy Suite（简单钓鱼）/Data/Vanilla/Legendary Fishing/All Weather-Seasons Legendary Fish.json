@@ -1,0 +1,328 @@
+{
+	"Changes": [
+		{
+			"LogName": "All Weather Legendary Fish Mountain",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Mountain", "Fish" ],
+			"Fields": {
+				"(O)163": {"Condition": "!PLAYER_SPECIAL_ORDER_RULE_ACTIVE Current LEGENDARY_FAMILY"},
+			          },
+			    "When": {"All Weather Legendary Fish": true, "All Seasons Legendary Fish": false},
+	    },
+		{
+			"LogName": "All Weather All Seasons Legendary Fish Mountain",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Mountain", "Fish" ],
+			"Fields": {
+				"(O)163": {"Season": null, "Condition": "!PLAYER_SPECIAL_ORDER_RULE_ACTIVE Current LEGENDARY_FAMILY"},
+			          },
+			    "When": {"All Weather Legendary Fish": true, "All Seasons Legendary Fish": true},
+	    },
+		{
+			"LogName": "All Weather Legendary Fish Farm Standard Legend",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Farm_Standard", "Fish" ],
+			"Fields": {
+				"(O)163": {"Condition": "!PLAYER_SPECIAL_ORDER_RULE_ACTIVE Current LEGENDARY_FAMILY"},
+			          },
+			    "When": {"Legendary Fish On Farm": true, "All Weather Legendary Fish": true, "All Seasons Legendary Fish": false},
+	    },
+		{
+			"LogName": "All Weather All Seasons Legendary Fish Farm Standard Legend",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Farm_Standard", "Fish" ],
+			"Fields": {
+				"(O)163": {"Season": null, "Condition": "!PLAYER_SPECIAL_ORDER_RULE_ACTIVE Current LEGENDARY_FAMILY"},
+			          },
+			    "When": {"Legendary Fish On Farm": true, "All Weather Legendary Fish": true, "All Seasons Legendary Fish": true},
+	    },
+		{
+			"LogName": "All Weather Legendary Fish Farm Beach Legend",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Farm_Beach", "Fish" ],
+			"Fields": {
+				"(O)163": {"Condition": "!PLAYER_SPECIAL_ORDER_RULE_ACTIVE Current LEGENDARY_FAMILY"},
+			          },
+			    "When": {"Legendary Fish On Farm": true, "All Weather Legendary Fish": true, "All Seasons Legendary Fish": false},
+	    },
+		{
+			"LogName": "All Weather All Seasons Legendary Fish Farm Beach Legend",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Farm_Beach", "Fish" ],
+			"Fields": {
+				"(O)163": {"Season": null, "Condition": "!PLAYER_SPECIAL_ORDER_RULE_ACTIVE Current LEGENDARY_FAMILY"},
+			          },
+			    "When": {"Legendary Fish On Farm": true, "All Weather Legendary Fish": true, "All Seasons Legendary Fish": true},
+	    },
+		{
+			"LogName": "All Weather Legendary Fish Farm Forest Legend",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Farm_Forest", "Fish" ],
+			"Fields": {
+				"(O)163": {"Condition": "!PLAYER_SPECIAL_ORDER_RULE_ACTIVE Current LEGENDARY_FAMILY"},
+			          },
+			    "When": {"Legendary Fish On Farm": true, "All Weather Legendary Fish": true, "All Seasons Legendary Fish": false},
+	    },
+		{
+			"LogName": "All Weather All Seasons Legendary Fish Farm Forest Legend",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Farm_Forest", "Fish" ],
+			"Fields": {
+				"(O)163": {"Season": null, "Condition": "!PLAYER_SPECIAL_ORDER_RULE_ACTIVE Current LEGENDARY_FAMILY"},
+			          },
+			    "When": {"Legendary Fish On Farm": true, "All Weather Legendary Fish": true, "All Seasons Legendary Fish": true},
+	    },
+		{
+			"LogName": "All Weather Legendary Fish Farm FourCorners Legend",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Farm_FourCorners", "Fish" ],
+			"Fields": {
+				"(O)163": {"Condition": "!PLAYER_SPECIAL_ORDER_RULE_ACTIVE Current LEGENDARY_FAMILY"},
+			          },
+			    "When": {"Legendary Fish On Farm": true, "All Weather Legendary Fish": true, "All Seasons Legendary Fish": false},
+	    },
+		{
+			"LogName": "All Weather All Seasons Legendary Fish Farm FourCorners Legend",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Farm_FourCorners", "Fish" ],
+			"Fields": {
+				"(O)163": {"Season": null, "Condition": "!PLAYER_SPECIAL_ORDER_RULE_ACTIVE Current LEGENDARY_FAMILY"},
+			          },
+			    "When": {"Legendary Fish On Farm": true, "All Weather Legendary Fish": true, "All Seasons Legendary Fish": true},
+	    },
+		{
+			"LogName": "All Weather Legendary Fish Farm Hilltop Legend",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Farm_Hilltop", "Fish" ],
+			"Fields": {
+				"(O)163": {"Condition": "!PLAYER_SPECIAL_ORDER_RULE_ACTIVE Current LEGENDARY_FAMILY"},
+			          },
+			    "When": {"Legendary Fish On Farm": true, "All Weather Legendary Fish": true, "All Seasons Legendary Fish": false},
+	    },
+		{
+			"LogName": "All Weather All Seasons Legendary Fish Farm Hilltop Legend",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Farm_Hilltop", "Fish" ],
+			"Fields": {
+				"(O)163": {"Season": null, "Condition": "!PLAYER_SPECIAL_ORDER_RULE_ACTIVE Current LEGENDARY_FAMILY"},
+			          },
+			    "When": {"Legendary Fish On Farm": true, "All Weather Legendary Fish": true, "All Seasons Legendary Fish": true},
+	    },
+		{
+			"LogName": "All Weather Legendary Fish Farm Riverland Legend",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Farm_Riverland", "Fish" ],
+			"Fields": {
+				"(O)163": {"Condition": "!PLAYER_SPECIAL_ORDER_RULE_ACTIVE Current LEGENDARY_FAMILY"},
+			          },
+			    "When": {"Legendary Fish On Farm": true, "All Weather Legendary Fish": true, "All Seasons Legendary Fish": false},
+	    },
+		{
+			"LogName": "All Weather All Seasons Legendary Fish Farm Riverland Legend",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Farm_Riverland", "Fish" ],
+			"Fields": {
+				"(O)163": {"Season": null, "Condition": "!PLAYER_SPECIAL_ORDER_RULE_ACTIVE Current LEGENDARY_FAMILY"},
+			          },
+			    "When": {"Legendary Fish On Farm": true, "All Weather Legendary Fish": true, "All Seasons Legendary Fish": true},
+	    },
+		{
+			"LogName": "All Weather Legendary Fish Farm Wilderness Legend",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Farm_Wilderness", "Fish" ],
+			"Fields": {
+				"(O)163": {"Condition": "!PLAYER_SPECIAL_ORDER_RULE_ACTIVE Current LEGENDARY_FAMILY"},
+			          },
+			    "When": {"Legendary Fish On Farm": true, "All Weather Legendary Fish": true, "All Seasons Legendary Fish": false},
+	    },
+		{
+			"LogName": "All Weather All Seasons Legendary Fish Farm Wilderness Legend",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Farm_Wilderness", "Fish" ],
+			"Fields": {
+				"(O)163": {"Season": null, "Condition": "!PLAYER_SPECIAL_ORDER_RULE_ACTIVE Current LEGENDARY_FAMILY"},
+			          },
+			    "When": {"Legendary Fish On Farm": true, "All Weather Legendary Fish": true, "All Seasons Legendary Fish": true},
+	    },
+		{
+			"LogName": "All Weather Legendary Fish Farm Meadowlands Legend",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Farm_MeadowlandsFarm", "Fish" ],
+			"Fields": {
+				"(O)163": {"Condition": "!PLAYER_SPECIAL_ORDER_RULE_ACTIVE Current LEGENDARY_FAMILY"},
+			          },
+			    "When": {"Legendary Fish On Farm": true, "All Weather Legendary Fish": true, "All Seasons Legendary Fish": false},
+	    },
+		{
+			"LogName": "All Weather All Seasons Legendary Fish Farm Meadowlands Legend",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Farm_MeadowlandsFarm", "Fish" ],
+			"Fields": {
+				"(O)163": {"Season": null, "Condition": "!PLAYER_SPECIAL_ORDER_RULE_ACTIVE Current LEGENDARY_FAMILY"},
+			          },
+			    "When": {"Legendary Fish On Farm": true, "All Weather Legendary Fish": true, "All Seasons Legendary Fish": true},
+	    },
+		{
+			"LogName": "All Seasons Legendary Fish Beach",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Beach", "Fish" ],
+			"Fields": {
+				"(O)159": {"Season": null, "Condition": "!PLAYER_SPECIAL_ORDER_RULE_ACTIVE Current LEGENDARY_FAMILY"},
+				      },
+			    "When": {"All Seasons Legendary Fish": true},
+	    },
+		{
+			"LogName": "All Seasons Legendary Fish Town",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Town", "Fish" ],
+			"Fields": {
+				"(O)160": {"Season": null, "Condition": "!PLAYER_SPECIAL_ORDER_RULE_ACTIVE Current LEGENDARY_FAMILY"},
+				      },
+			    "When": {"All Seasons Legendary Fish": true},
+	    },
+		{
+			"LogName": "All Seasons Legendary Fish Mountain",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Mountain", "Fish" ],
+			"Fields": {
+				"(O)163": {"Season": null, "Condition": "!PLAYER_SPECIAL_ORDER_RULE_ACTIVE Current LEGENDARY_FAMILY"},
+				      },
+			    "When": {"All Seasons Legendary Fish": true, "All Weather Legendary Fish": false},
+	    },
+		{
+			"LogName": "All Seasons Legendary Fish Forest",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Forest", "Fish" ],
+			"Fields": {
+				"(O)775": {"Season": null, "Condition": "!PLAYER_SPECIAL_ORDER_RULE_ACTIVE Current LEGENDARY_FAMILY"},
+				      },
+			    "When": {"All Seasons Legendary Fish": true},
+	    },
+		{
+			"LogName": "All Seasons Legendary Fish Farm Standard",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Farm_Standard", "Fish" ],
+			"Fields": {
+				"(O)159": {"Season": null, "Condition": "!PLAYER_SPECIAL_ORDER_RULE_ACTIVE Current LEGENDARY_FAMILY"},
+				"(O)160": {"Season": null, "Condition": "!PLAYER_SPECIAL_ORDER_RULE_ACTIVE Current LEGENDARY_FAMILY"},
+				"(O)682": {"Season": null, "Condition": "!PLAYER_SPECIAL_ORDER_RULE_ACTIVE Current LEGENDARY_FAMILY"},
+				"(O)775": {"Season": null, "Condition": "!PLAYER_SPECIAL_ORDER_RULE_ACTIVE Current LEGENDARY_FAMILY"},
+				      },
+			    "When": {"All Seasons Legendary Fish": true, "Legendary Fish On Farm": true},
+	    },
+		{
+			"LogName": "All Seasons Legendary Fish Farm Beach",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Farm_Beach", "Fish" ],
+			"Fields": {
+				"(O)159": {"Season": null, "Condition": "!PLAYER_SPECIAL_ORDER_RULE_ACTIVE Current LEGENDARY_FAMILY"},
+				"(O)160": {"Season": null, "Condition": "!PLAYER_SPECIAL_ORDER_RULE_ACTIVE Current LEGENDARY_FAMILY"},
+				"(O)682": {"Season": null, "Condition": "!PLAYER_SPECIAL_ORDER_RULE_ACTIVE Current LEGENDARY_FAMILY"},
+				"(O)775": {"Season": null, "Condition": "!PLAYER_SPECIAL_ORDER_RULE_ACTIVE Current LEGENDARY_FAMILY"},
+				      },
+			    "When": {"All Seasons Legendary Fish": true, "Legendary Fish On Farm": true},
+	    },
+		{
+			"LogName": "All Seasons Legendary Fish Farm Forest",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Farm_Forest", "Fish" ],
+			"Fields": {
+				"(O)159": {"Season": null, "Condition": "!PLAYER_SPECIAL_ORDER_RULE_ACTIVE Current LEGENDARY_FAMILY"},
+				"(O)160": {"Season": null, "Condition": "!PLAYER_SPECIAL_ORDER_RULE_ACTIVE Current LEGENDARY_FAMILY"},
+				"(O)682": {"Season": null, "Condition": "!PLAYER_SPECIAL_ORDER_RULE_ACTIVE Current LEGENDARY_FAMILY"},
+				"(O)775": {"Season": null, "Condition": "!PLAYER_SPECIAL_ORDER_RULE_ACTIVE Current LEGENDARY_FAMILY"},
+				      },
+			    "When": {"All Seasons Legendary Fish": true, "Legendary Fish On Farm": true},
+	    },
+		{
+			"LogName": "All Seasons Legendary Fish Farm FourCorners",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Farm_FourCorners", "Fish" ],
+			"Fields": {
+				"(O)159": {"Season": null, "Condition": "!PLAYER_SPECIAL_ORDER_RULE_ACTIVE Current LEGENDARY_FAMILY"},
+				"(O)160": {"Season": null, "Condition": "!PLAYER_SPECIAL_ORDER_RULE_ACTIVE Current LEGENDARY_FAMILY"},
+				"(O)682": {"Season": null, "Condition": "!PLAYER_SPECIAL_ORDER_RULE_ACTIVE Current LEGENDARY_FAMILY"},
+				"(O)775": {"Season": null, "Condition": "!PLAYER_SPECIAL_ORDER_RULE_ACTIVE Current LEGENDARY_FAMILY"},
+				      },
+			    "When": {"All Seasons Legendary Fish": true, "Legendary Fish On Farm": true},
+	    },
+		{
+			"LogName": "All Seasons Legendary Fish Farm Hilltop",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Farm_Hilltop", "Fish" ],
+			"Fields": {
+				"(O)159": {"Season": null, "Condition": "!PLAYER_SPECIAL_ORDER_RULE_ACTIVE Current LEGENDARY_FAMILY"},
+				"(O)160": {"Season": null, "Condition": "!PLAYER_SPECIAL_ORDER_RULE_ACTIVE Current LEGENDARY_FAMILY"},
+				"(O)682": {"Season": null, "Condition": "!PLAYER_SPECIAL_ORDER_RULE_ACTIVE Current LEGENDARY_FAMILY"},
+				"(O)775": {"Season": null, "Condition": "!PLAYER_SPECIAL_ORDER_RULE_ACTIVE Current LEGENDARY_FAMILY"},
+				      },
+			    "When": {"All Seasons Legendary Fish": true, "Legendary Fish On Farm": true},
+	    },
+		{
+			"LogName": "All Seasons Legendary Fish Farm Riverland",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Farm_Riverland", "Fish" ],
+			"Fields": {
+				"(O)159": {"Season": null, "Condition": "!PLAYER_SPECIAL_ORDER_RULE_ACTIVE Current LEGENDARY_FAMILY"},
+				"(O)160": {"Season": null, "Condition": "!PLAYER_SPECIAL_ORDER_RULE_ACTIVE Current LEGENDARY_FAMILY"},
+				"(O)682": {"Season": null, "Condition": "!PLAYER_SPECIAL_ORDER_RULE_ACTIVE Current LEGENDARY_FAMILY"},
+				"(O)775": {"Season": null, "Condition": "!PLAYER_SPECIAL_ORDER_RULE_ACTIVE Current LEGENDARY_FAMILY"},
+				      },
+			    "When": {"All Seasons Legendary Fish": true, "Legendary Fish On Farm": true},
+	    },
+		{
+			"LogName": "All Seasons Legendary Fish Farm Wilderness",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Farm_Wilderness", "Fish" ],
+			"Fields": {
+				"(O)159": {"Season": null, "Condition": "!PLAYER_SPECIAL_ORDER_RULE_ACTIVE Current LEGENDARY_FAMILY"},
+				"(O)160": {"Season": null, "Condition": "!PLAYER_SPECIAL_ORDER_RULE_ACTIVE Current LEGENDARY_FAMILY"},
+				"(O)682": {"Season": null, "Condition": "!PLAYER_SPECIAL_ORDER_RULE_ACTIVE Current LEGENDARY_FAMILY"},
+				"(O)775": {"Season": null, "Condition": "!PLAYER_SPECIAL_ORDER_RULE_ACTIVE Current LEGENDARY_FAMILY"},
+				      },
+			    "When": {"All Seasons Legendary Fish": true, "Legendary Fish On Farm": true},
+	    },
+		{
+			"LogName": "All Seasons Legendary Fish Farm Meadowlands",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Farm_MeadowlandsFarm", "Fish" ],
+			"Fields": {
+				"(O)159": {"Season": null, "Condition": "!PLAYER_SPECIAL_ORDER_RULE_ACTIVE Current LEGENDARY_FAMILY"},
+				"(O)160": {"Season": null, "Condition": "!PLAYER_SPECIAL_ORDER_RULE_ACTIVE Current LEGENDARY_FAMILY"},
+				"(O)682": {"Season": null, "Condition": "!PLAYER_SPECIAL_ORDER_RULE_ACTIVE Current LEGENDARY_FAMILY"},
+				"(O)775": {"Season": null, "Condition": "!PLAYER_SPECIAL_ORDER_RULE_ACTIVE Current LEGENDARY_FAMILY"},
+				      },
+			    "When": {"All Seasons Legendary Fish": true, "Legendary Fish On Farm": true},
+	    },
+	]
+}

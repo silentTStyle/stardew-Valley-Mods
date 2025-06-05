@@ -1,0 +1,137 @@
+{
+  "Changes": [
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Harvey",
+      "FromFile": "assets/Characters/Harvey.png",
+      "When": { "Futanari": "false" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Harvey",
+      "FromFile": "assets/Characters/Harvey_Futanari.png",
+      "When": { "Futanari": "true" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Harvey",
+      "FromFile": "assets/Characters/Harvey_Glasses.png",
+      "PatchMode": "Overlay",
+      "When": { "Glasses": "true" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Harvey_Beach",
+      "FromFile": "assets/Characters/Harvey_Beach.png",
+      "When": { "Futanari": "false" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Harvey_Beach",
+      "FromFile": "assets/Characters/Harvey_Beach_Futanari.png",
+      "When": { "Futanari": "true" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Harvey_Beach",
+      "FromFile": "assets/Characters/Harvey_Beach_Glasses.png",
+      "PatchMode": "Overlay",
+      "When": { "Glasses": "true" }
+    },
+	{
+      "Action": "EditImage",
+      "Target": "Characters/Harvey_Winter",
+      "FromFile": "assets/Characters/Harvey.png",
+      "When": { "Futanari": "false" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Harvey_Winter",
+      "FromFile": "assets/Characters/Harvey_Futanari.png",
+      "When": { "Futanari": "true" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Harvey_Winter",
+      "FromFile": "assets/Characters/Harvey_Glasses.png",
+      "PatchMode": "Overlay",
+      "When": { "Glasses": "true" }
+    },
+	// Portraits -----------------------------------------------------------------------------------
+	{
+      "Action": "EditImage",
+      "Target": "Portraits/Harvey",
+      "FromFile": "assets/Portraits/Harvey.png",
+      "When": { 
+		"Hypnosis": "false",
+		"Harvey": "On",
+	  }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Harvey",
+      "FromFile": "assets/Portraits/Harvey_Hypnosis.png",
+      "When": { 
+		"Hypnosis": "true",
+		"Harvey": "On",
+	  }
+    },
+	{
+      "Action": "EditImage",
+      "Target": "Portraits/Harvey",
+      "FromFile": "assets/Portraits/Harvey_Glasses.png",
+      "PatchMode": "Overlay",
+      "When": { 
+		"Glasses": "true",
+		"Harvey": "On",	  
+	  }
+    },
+	{
+      "Action": "EditImage",
+      "Target": "Portraits/Harvey_Beach",
+      "FromFile": "assets/Portraits/Harvey_Beach.png",
+      "When": { "Hypnosis": "false" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Harvey_Beach",
+      "FromFile": "assets/Portraits/Harvey_Beach_Hypnosis.png",
+      "When": { "Hypnosis": "true" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Harvey_Beach",
+      "FromFile": "assets/Portraits/Harvey_Beach_Glasses.png",
+      "PatchMode": "Overlay",
+      "When": { "Glasses": "true" }
+    },
+	{
+      "Action": "EditImage",
+      "Target": "Portraits/Harvey_Winter",
+      "FromFile": "assets/Portraits/Harvey.png",
+      "When": { 
+		"Hypnosis": "false",
+		"Harvey": "On",
+	  }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Harvey_Winter",
+      "FromFile": "assets/Portraits/Harvey_Hypnosis.png",
+      "When": { 
+		"Hypnosis": "true",
+		"Harvey": "On",
+	  }
+    },
+	{
+      "Action": "EditImage",
+      "Target": "Portraits/Harvey_Winter",
+      "FromFile": "assets/Portraits/Harvey_Glasses.png",
+      "PatchMode": "Overlay",
+      "When": { 
+		"Glasses": "true",
+		"Harvey": "On",	  
+	  }
+    },
+  ]
+}

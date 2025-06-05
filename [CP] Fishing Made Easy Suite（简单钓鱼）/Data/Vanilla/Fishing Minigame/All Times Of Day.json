@@ -1,0 +1,47 @@
+{
+	"Changes": [
+		{
+			"LogName": "All Times Of Day",
+			"Action": "EditData",
+			"Target": "Data/Fish",
+			"Fields": {
+			    "128": {5: "600 2600"}, //Pufferfish
+				"130": {5: "600 2600"}, //Tuna
+				"131": {5: "600 2600"}, //Sardine
+				"132": {5: "600 2600"}, //Bream
+				"136": {5: "600 2600"}, //Largemouth Bass
+				"138": {5: "600 2600"}, //Rainbow Trout
+				"139": {5: "600 2600"}, //Salmon
+				"140": {5: "600 2600"}, //Walleye
+				"143": {5: "600 2600"}, //Catfish
+				"145": {5: "600 2600"}, //Sunfish
+				"146": {5: "600 2600"}, //Red Mullet
+				"148": {5: "600 2600"}, //Eel
+				"149": {5: "600 2600"}, //Octopus
+				"150": {5: "600 2600"}, //Red Snapper
+				"151": {5: "600 2600"}, //Squid
+				"154": {5: "600 2600"}, //Sea Cucumber
+				"155": {5: "600 2600"}, //Super Cucumber
+				"159": {5: "600 2600"}, //Crimsonfish
+				"163": {5: "600 2600"}, //Legend
+				"164": {5: "600 2600"}, //Sandfish
+				"165": {5: "600 2600"}, //Scorpion Carp
+				"267": {5: "600 2600"}, //Flounder
+				"269": {5: "600 2600"}, //Midnight Carp
+				"698": {5: "600 2600"}, //Sturgeon
+				"699": {5: "600 2600"}, //Tiger Trout
+				"701": {5: "600 2600"}, //Tilapia
+				"704": {5: "600 2600"}, //Dorado
+				"705": {5: "600 2600"}, //Albacore
+				"706": {5: "600 2600"}, //Shad
+				"708": {5: "600 2600"}, //Halibut
+				"775": {5: "600 2600"}, //Glacierfish
+				"898": {5: "600 2600"}, //Son of Crimsonfish
+				"900": {5: "600 2600"}, //Legend II
+				"902": {5: "600 2600"}, //Glacierfish Jr
+				"Goby": {5: "600 2600"}, //Goby
+					  },
+				"When": {"All Times Of Day": true},
+		},
+	]
+}

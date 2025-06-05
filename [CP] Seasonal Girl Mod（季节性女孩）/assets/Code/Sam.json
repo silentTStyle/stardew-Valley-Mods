@@ -1,0 +1,622 @@
+{
+	"Changes": [
+	//Seasonal Outfits
+		{
+			"LogName": "Sam - Winter",
+			"Action": "EditImage",
+			"Target": "Portraits/Sam_Winter, Characters/Sam_Winter",
+			"FromFile": "assets/{{TargetPathOnly}}/Sam/{{TargetWithoutPath}}{{IndoorVariant}}.png",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+			},
+		},
+		{
+			"LogName": "Sam - Winter Indoor/Outdoor 2",
+			"Action": "EditImage",
+			"Target": "Portraits/Sam_Winter, Characters/Sam_Winter",
+			"FromFile": "assets/{{TargetPathOnly}}/Sam/{{TargetWithoutPath}}{{IndoorVariant}}.png",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+                "Season": "Winter",
+                "WinterIndoorOutdoorOutfits": "IndoorOutdoor",
+			},
+			"Update": "OnLocationChange",
+		},
+		{
+			"LogName": "Sam - Seasonal",
+			"Action": "EditImage",
+			"Target": "Portraits/Sam, Characters/Sam",
+			"FromFile": "assets/{{Target}}/{{TargetWithoutPath}}_{{season}}{{IndoorVariant}}.png",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+			},
+		},
+		{
+			"LogName": "Sam - Winter Indoor/Outdoor",
+			"Action": "EditImage",
+			"Target": "Portraits/Sam, Characters/Sam",
+			"FromFile": "assets/{{Target}}/{{TargetWithoutPath}}_{{season}}{{IndoorVariant}}.png",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+                "Season": "Winter",
+                "WinterIndoorOutdoorOutfits": "IndoorOutdoor",
+			},
+			"Update": "OnLocationChange",
+		},
+		{
+			"LogName": "Sam - Fall Modest",
+			"Action": "EditImage",
+			"Target": "Portraits/Sam, Portraits/Sam_Winter",
+			"FromFile": "assets/{{TargetPathOnly}}/Sam/Sam_Fall_Modest.png",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+				"SamModest": "True",
+				"Season": "Fall",
+				
+			},
+		},
+	//Seasonal Overlays
+		{
+			"LogName": "Sam - Collar Overlay (Seasonal)",
+			"Action": "EditImage",
+			"Target": "Portraits/Sam, Portraits/Sam_Winter, Characters/Sam, Characters/Sam_Winter",
+			"FromFile": "assets/{{TargetPathOnly}}/Sam/Collars/{{SamCollar}}_Collar.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+				"SamCollar": "Red, Pink, Orange, Yellow, Green, Teal, Blue, Purple, White, Black, Brown, Grey",
+			},
+		},
+		{
+			"LogName": "Sam - Collar Bell (Seasonal)",
+			"Action": "EditImage",
+			"Target": "Portraits/Sam, Portraits/Sam_Winter, Characters/Sam, Characters/Sam_Winter",
+			"FromFile": "assets/{{TargetPathOnly}}/Sam/Collars/{{SamCollarBell}}_Bell.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+				"SamCollar": "Red, Pink, Orange, Yellow, Green, Teal, Blue, Purple, White, Black, Brown, Grey",
+			},
+		},
+		{
+			"LogName": "Sam - Matching Collar Overlay (Seasonal)",
+			"Action": "EditImage",
+			"Target": "Portraits/Sam, Portraits/Sam_Winter, Characters/Sam, Characters/Sam_Winter",
+			"FromFile": "assets/{{TargetPathOnly}}/Sam/Collars/{{TargetWithoutPath}}_{{season}}{{IndoorVariant}}_Matching_Collar.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+				"SamCollar": "Matching (Dynamic)",
+			},
+			"Update": "OnLocationChange",
+		},
+		{
+			"LogName": "Sam - Matching Collar Overlay (Winter)",
+			"Action": "EditImage",
+			"Target": "Portraits/Sam_Winter, Characters/Sam, Characters/Sam_Winter",
+			"FromFile": "assets/{{TargetPathOnly}}/Sam/Collars/Sam_Winter{{IndoorVariant}}_Matching_Collar.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+				"SamCollar": "Matching (Dynamic)",
+				"Season": "Winter",
+			},
+			"Update": "OnLocationChange",
+		},
+		//Pins
+		{
+			"LogName": "Sam - Pin Overlay (Seasonal Portrait)",
+			"Action": "EditImage",
+			"Target": "Portraits/Sam, Portraits/Sam_Winter",
+			"FromFile": "assets/{{TargetPathOnly}}/Sam/Pins/{{SamHairPin}}_Pin.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+				"SamHairPin": "Red, Pink, Orange, Yellow, Green, Teal, Blue, Purple, White, Black, Brown, Grey",
+			},
+			"Update": "OnLocationChange",
+		},
+		{
+			"LogName": "Sam - Pin Overlay (Seasonal Sprite)",
+			"Action": "EditImage",
+			"Target": "Characters/Sam, Characters/Sam_Winter",
+			"FromFile": "assets/{{TargetPathOnly}}/Sam/Pins/{{SamHairPin}}_Pin.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+				"SamHairPin": "Red, Pink, Orange, Yellow, Green, Teal, Blue, Purple, White, Black, Brown, Grey",
+				"Hat": "False",
+			},
+			"Update": "OnLocationChange",
+		},
+		{
+			"LogName": "Sam - Matching Pin Overlay (Seasonal Portrait)",
+			"Action": "EditImage",
+			"Target": "Portraits/Sam, Portraits/Sam_Winter",
+			"FromFile": "assets/{{TargetPathOnly}}/Sam/Pins/{{TargetWithoutPath}}_{{season}}{{IndoorVariant}}_Matching_Pin.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+				"SamHairPin": "Matching (Dynamic)",
+			},
+			"Update": "OnLocationChange",
+		},
+		{
+			"LogName": "Sam - Matching Pin Overlay (Seasonal Sprite)",
+			"Action": "EditImage",
+			"Target": "Characters/Sam, Characters/Sam_Winter",
+			"FromFile": "assets/{{TargetPathOnly}}/Sam/Pins/{{TargetWithoutPath}}_{{season}}{{IndoorVariant}}_Matching_Pin.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+				"SamHairPin": "Matching (Dynamic)",
+				"Hat": "False",
+			},
+			"Update": "OnLocationChange",
+		},
+		{
+			"LogName": "Sam - Matching Pin Overlay (Winter Portrait)",
+			"Action": "EditImage",
+			"Target": "Portraits/Sam, Portraits/Sam_Winter",
+			"FromFile": "assets/{{TargetPathOnly}}/Sam/Pins/{{TargetWithoutPath}}{{IndoorVariant}}_Matching_Pin.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+				"SamHairPin": "Matching (Dynamic)",
+				"Season": "Winter",
+			},
+			"Update": "OnLocationChange",
+		},
+		{
+			"LogName": "Sam - Matching Pin Overlay (Winter Sprite)",
+			"Action": "EditImage",
+			"Target": "Characters/Sam, Characters/Sam_Winter",
+			"FromFile": "assets/{{TargetPathOnly}}/Sam/Pins/{{TargetWithoutPath}}{{IndoorVariant}}_Matching_Pin.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+				"SamHairPin": "Matching (Dynamic)",
+				"Season": "Winter",
+				"Hat": "False",
+			},
+			"Update": "OnLocationChange",
+		},
+		//
+		{
+			"LogName": "Sam - Clothes Overlay (Seasonal)",
+			"Action": "EditImage",
+			"Target": "Portraits/Sam, Portraits/Sam_Winter",
+			"FromFile": "assets/{{TargetPathOnly}}/Sam/{{TargetWithoutPath}}_{{season}}{{IndoorVariant}}_2.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+			},
+			"Update": "OnLocationChange",
+			
+		},
+		{
+			"LogName": "Sam - Hat Overlay (Winter)",
+			"Action": "EditImage",
+			"Target": "Portraits/Sam, Portraits/Sam_Winter",
+			"FromFile": "assets/{{TargetPathOnly}}/Sam/Sam_Winter_Outdoor_Hat.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+				"Hat": "True",
+			},
+			"Update": "OnLocationChange",
+		},
+		
+	//Festival
+		{
+			"LogName": "Sam - Festival",
+			"Action": "EditImage",
+			"Target": "Portraits/Sam, Characters/Sam, Portraits/Sam_Winter, Characters/Sam_Winter",
+            "FromFile": "assets/{{TargetPathOnly}}/Festivals/{{Festival}}/{{TargetWithoutPath}}_{{Festival}}.png",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+				"FestivalOutfits": "True",
+			},
+			"Update": "OnLocationChange",
+		},
+		{
+			"LogName": "Sam - Jellies Modest",
+			"Action": "EditImage",
+			"Target": "Portraits/Sam, Portraits/Sam_Winter",
+            "FromFile": "assets/{{TargetPathOnly}}/Festivals/Jellies/Sam_Jellies_Modest.png",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+				"FestivalOutfits": "True",
+				"SamModest": "True",
+				"Festival": "Jellies",
+			},
+			"Update": "OnLocationChange",
+		},
+	//Festival Overlays
+		{
+			"LogName": "Sam - Collar Overlay (Festival)",
+			"Action": "EditImage",
+			"Target": "Portraits/Sam, Portraits/Sam_Winter, Characters/Sam, Characters/Sam_Winter",
+			"FromFile": "assets/{{TargetPathOnly}}/Sam/Collars/{{SamCollar}}_Collar.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+				"SamCollar": "Red, Pink, Orange, Yellow, Green, Teal, Blue, Purple, White, Black, Brown, Grey",
+				"FestivalOutfits": "True",
+				"IsFestival": "True",
+			},
+			"Update": "OnLocationChange",
+		},
+		{
+			"LogName": "Sam - Collar Bell (Festival)",
+			"Action": "EditImage",
+			"Target": "Portraits/Sam, Portraits/Sam_Winter, Characters/Sam, Characters/Sam_Winter",
+			"FromFile": "assets/{{TargetPathOnly}}/Sam/Collars/{{SamCollarBell}}_Bell.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+				"SamCollar": "Red, Pink, Orange, Yellow, Green, Teal, Blue, Purple, White, Black, Brown, Grey",
+				"FestivalOutfits": "True",
+				"IsFestival": "True",
+			},
+			"Update": "OnLocationChange",
+		},
+		{
+			"LogName": "Sam - Matching Collar Overlay (Festival)",
+			"Action": "EditImage",
+			"Target": "Portraits/Sam, Portraits/Sam_Winter, Characters/Sam, Characters/Sam_Winter",
+			"FromFile": "assets/{{TargetPathOnly}}/Festivals/{{Festival}}/{{TargetWithoutPath}}_{{Festival}}_Matching_Collar.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+				"SamCollar": "Matching (Dynamic)",
+				"FestivalOutfits": "True",
+				"IsFestival": "True",
+			},
+			"Update": "OnLocationChange",
+		},
+		//Pins
+		{
+			"LogName": "Sam - Pin Overlay (Festival Portraits)",
+			"Action": "EditImage",
+			"Target": "Portraits/Sam, Portraits/Sam_Winter",
+			"FromFile": "assets/{{TargetPathOnly}}/Sam/Pins/{{SamHairPin}}_Pin.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+				"SamHairPin": "Red, Pink, Orange, Yellow, Green, Teal, Blue, Purple, White, Black, Brown, Grey",
+				"FestivalOutfits": "True",
+				"IsFestival": "True",
+			},
+			"Update": "OnLocationChange",
+		},
+		{
+			"LogName": "Sam - Pin Overlay (Festival Sprites)",
+			"Action": "EditImage",
+			"Target": "Characters/Sam, Characters/Sam_Winter",
+			"FromFile": "assets/{{TargetPathOnly}}/Sam/Pins/{{SamHairPin}}_Pin.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+				"SamHairPin": "Red, Pink, Orange, Yellow, Green, Teal, Blue, Purple, White, Black, Brown, Grey",
+				"FestivalOutfits": "True",
+				"IsFestival": "True",
+				"Hat": "False",
+			},
+			"Update": "OnLocationChange",
+		},
+		{
+			"LogName": "Sam - Matching Pin Overlay (Festival Portraits)",
+			"Action": "EditImage",
+			"Target": "Portraits/Sam, Portraits/Sam_Winter",
+			"FromFile": "assets/{{TargetPathOnly}}/Festivals/{{Festival}}/{{TargetWithoutPath}}_{{Festival}}_Matching_Pin.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+				"SamHairPin": "Matching (Dynamic)",
+				"FestivalOutfits": "True",
+				"IsFestival": "True",
+			},
+			"Update": "OnLocationChange",
+		},
+		{
+			"LogName": "Sam - Matching Pin Overlay (Festival Sprites)",
+			"Action": "EditImage",
+			"Target": "Characters/Sam, Characters/Sam_Winter",
+			"FromFile": "assets/{{TargetPathOnly}}/Festivals/{{Festival}}/{{TargetWithoutPath}}_{{Festival}}_Matching_Pin.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+				"SamHairPin": "Matching (Dynamic)",
+				"FestivalOutfits": "True",
+				"IsFestival": "True",
+				"Hat": "False",
+			},
+			"Update": "OnLocationChange",
+		},
+		//
+		{
+			"LogName": "Sam - Clothes Overlay (Festival)",
+			"Action": "EditImage",
+			"Target": "Portraits/Sam, Portraits/Sam_Winter",
+			"FromFile": "assets/{{TargetPathOnly}}/Festivals/{{Festival}}/{{TargetWithoutPath}}_{{Festival}}_2.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+				"FestivalOutfits": "True",
+				"IsFestival": "True",
+			},
+			"Update": "OnLocationChange",
+		},
+		{
+			"LogName": "Sam - Hat Overlay (Fair)",
+			"Action": "EditImage",
+			"Target": "Portraits/Sam, Portraits/Sam_Winter",
+			"FromFile": "assets/Portraits/Festivals/Fair/Sam_Fair_Hat.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+				"FestivalOutfits": "True",
+                "Festival": "Fair",
+			},
+			"Update": "OnLocationChange",
+		},
+		
+	//Beach
+		{
+			"LogName": "Sam - Beach",
+			"Action": "EditImage",
+			"Target": "Portraits/Sam_Beach, Characters/Sam_Beach",
+			"FromFile": "assets/{{TargetPathOnly}}/Beach/{{TargetWithoutPath}}.png",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+			},
+		},
+	//Beach Overlays
+		{
+			"LogName": "Sam - Collar Overlay (Beach)",
+			"Action": "EditImage",
+			"Target": "Portraits/Sam_Beach, Characters/Sam_Beach",
+			"FromFile": "assets/{{TargetPathOnly}}/Sam/Collars/{{SamCollar}}_Collar.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+				"SamCollar": "Red, Pink, Orange, Yellow, Green, Teal, Blue, Purple, White, Black, Brown, Grey",
+			},
+		},
+		{
+			"LogName": "Sam - Collar Bell (Beach)",
+			"Action": "EditImage",
+			"Target": "Portraits/Sam_Beach, Characters/Sam_Beach",
+			"FromFile": "assets/{{TargetPathOnly}}/Sam/Collars/{{SamCollarBell}}_Bell.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+				"SamCollar": "Red, Pink, Orange, Yellow, Green, Teal, Blue, Purple, White, Black, Brown, Grey",
+			},
+		},
+		{
+			"LogName": "Sam - Matching Collar Overlay (Beach)",
+			"Action": "EditImage",
+			"Target": "Portraits/Sam_Beach, Characters/Sam_Beach",
+			"FromFile": "assets/{{TargetPathOnly}}/Beach/{{TargetWithoutPath}}_Matching_Collar.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+				"SamCollar": "Matching (Dynamic)",
+			},
+		},
+		{
+			"LogName": "Sam - Pin Overlay (Beach)",
+			"Action": "EditImage",
+			"Target": "Portraits/Sam_Beach, Characters/Sam_Beach",
+			"FromFile": "assets/{{TargetPathOnly}}/Sam/Pins/{{SamHairPin}}_Pin.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+				"SamHairPin": "Red, Pink, Orange, Yellow, Green, Teal, Blue, Purple, White, Black, Brown, Grey",
+			},
+		},
+		{
+			"LogName": "Sam - Matching Pin Overlay (Beach)",
+			"Action": "EditImage",
+			"Target": "Portraits/Sam_Beach, Characters/Sam_Beach",
+			"FromFile": "assets/{{TargetPathOnly}}/Beach/{{TargetWithoutPath}}_Matching_Pin.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+				"SamHairPin": "Matching (Dynamic)",
+			},
+		},
+		{
+			"LogName": "Sam - Clothes Overlay (Beach)",
+			"Action": "EditImage",
+			"Target": "Portraits/Sam_Beach",
+			"FromFile": "assets/{{TargetPathOnly}}/Beach/{{TargetWithoutPath}}_2.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+			},
+		},
+		
+	//Work
+		{
+            "LogName": "Sam - Work",
+            "Action": "EditImage",
+            "Target": "Portraits/Sam, Characters/Sam",
+            "Update": "OnLocationChange",
+			"FromFile": "assets/{{Target}}/Sam_Work.png",
+            "When":
+            {
+                "HasFile:{{FromFile}}": true,
+				"ExtraOutfits": "True",
+				"SamWork": "True",
+            },
+        },
+	//Work Overlays
+		{
+			"LogName": "Sam - Collar Overlay (Work)",
+			"Action": "EditImage",
+			"Target": "Portraits/Sam, Characters/Sam",
+			"FromFile": "assets/{{TargetPathOnly}}/Sam/Collars/{{SamCollar}}_Collar.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+				"SamCollar": "Red, Pink, Orange, Yellow, Green, Teal, Blue, Purple, White, Black, Brown, Grey",
+				"ExtraOutfits": "True",
+				"SamWork": "True",
+			},
+			"Update": "OnLocationChange",
+		},
+		{
+			"LogName": "Sam - Collar Bell (Work)",
+			"Action": "EditImage",
+			"Target": "Portraits/Sam, Characters/Sam",
+			"FromFile": "assets/{{TargetPathOnly}}/Sam/Collars/{{SamCollarBell}}_Bell.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+				"SamCollar": "Red, Pink, Orange, Yellow, Green, Teal, Blue, Purple, White, Black, Brown, Grey",
+				"ExtraOutfits": "True",
+				"SamWork": "True",
+			},
+			"Update": "OnLocationChange",
+		},
+		{
+			"LogName": "Sam - Matching Collar Overlay (Work)",
+			"Action": "EditImage",
+			"Target": "Portraits/Sam, Characters/Sam",
+			"FromFile": "assets/{{TargetPathOnly}}/Sam/Collars/{{TargetWithoutPath}}_Work_Matching_Collar.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+				"SamCollar": "Matching (Dynamic)",
+				"ExtraOutfits": "True",
+				"SamWork": "True",
+			},
+			"Update": "OnLocationChange",
+		},
+		{
+			"LogName": "Sam - Pin Overlay (Work)",
+			"Action": "EditImage",
+			"Target": "Portraits/Sam, Characters/Sam",
+			"FromFile": "assets/{{TargetPathOnly}}/Sam/Pins/{{SamHairPin}}_Pin.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+				"SamHairPin": "Red, Pink, Orange, Yellow, Green, Teal, Blue, Purple, White, Black, Brown, Grey",
+				"ExtraOutfits": "True",
+				"SamWork": "True",
+			},
+			"Update": "OnLocationChange",
+		},
+		{
+			"LogName": "Sam - Matching Pin Overlay (Work)",
+			"Action": "EditImage",
+			"Target": "Portraits/Sam, Characters/Sam",
+			"FromFile": "assets/{{TargetPathOnly}}/Sam/Pins/{{TargetWithoutPath}}_Work_Matching_Pin.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+				"SamHairPin": "Matching (Dynamic)",
+				"ExtraOutfits": "True",
+				"SamWork": "True",
+			},
+			"Update": "OnLocationChange",
+		},
+		{
+			"LogName": "Sam - Headphone Overlay",
+			"Action": "EditImage",
+			"Target": "Portraits/Sam",
+			"FromFile": "assets/{{TargetPathOnly}}/Sam/{{TargetWithoutPath}}_Work_2.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+				"ExtraOutfits": "True",
+				"SamWork": "True",
+			},
+			"Update": "OnLocationChange",
+		},
+		
+	//Bandaid Wedding Fix for Invatorzen's Dialogue Changes
+		{
+			"LogName": "Sam - Wedding Fix",
+			"Action": "EditData",
+			"Target": "Data/Characters",
+			"When": {"DayEvent": "wedding"},
+			"Fields": {
+				"Sam": {
+					"Gender": "Male",
+				},
+			},
+		},		
+		
+// MISCELLANEOUS					
+		{
+			"LogName": "Sam - Spouse Portrait",
+			"Action": "EditImage",
+			"Target": "TileSheets/junimo_furniture",
+			"FromFile": "assets/Characters/junimo_furniture_Sam.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+			},
+		},		
+        /*
+		{
+			"LogName": "Sam - Emoji",
+			"Action": "EditImage",
+			"Target": "LooseSprites/emojis",
+            "FromFile": "assets/{{NoNose}}/Random/emojis.png",
+			"FromArea": {"X": 81, "Y": 99, "Width": 9, "Height": 9},
+			"ToArea": {"X": 81, "Y": 99, "Width": 9, "Height": 9},
+			"When": 
+			{
+				"HasFile:{{FromFile}}": true,
+			},
+		},
+		*/
+	]
+}

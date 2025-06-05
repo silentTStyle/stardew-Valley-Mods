@@ -1,0 +1,154 @@
+{
+	"Changes": [
+		{
+			"LogName": "Worm Bin Bait Min Amount 5",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)154", "OutputRules", "Default", "OutputItem" ],
+			"Fields": {
+			    "(O)685": {"MinStack": 5},
+					},
+			"When": {"Worm Bin Bait Min Amount": "5"},
+		},
+		{
+			"LogName": "Worm Bin Bait Min Amount 6",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)154", "OutputRules", "Default", "OutputItem" ],
+			"Fields": {
+			    "(O)685": {"MinStack": 6},
+					},
+			"When": {"Worm Bin Bait Min Amount": "6"},
+		},
+		{
+			"LogName": "Worm Bin Bait Min Amount 7",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)154", "OutputRules", "Default", "OutputItem" ],
+			"Fields": {
+			    "(O)685": {"MinStack": 7},
+					},
+			"When": {"Worm Bin Bait Min Amount": "7"},
+		},
+		{
+			"LogName": "Worm Bin Bait Min Amount 8",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)154", "OutputRules", "Default", "OutputItem" ],
+			"Fields": {
+			    "(O)685": {"MinStack": 8},
+					},
+			"When": {"Worm Bin Bait Min Amount": "8"},
+		},
+		{
+			"LogName": "Worm Bin Bait Min Amount 9",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)154", "OutputRules", "Default", "OutputItem" ],
+			"Fields": {
+			    "(O)685": {"MinStack": 9},
+					},
+			"When": {"Worm Bin Bait Min Amount": "9"},
+		},
+		{
+			"LogName": "Worm Bin Bait Min Amount 10",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)154", "OutputRules", "Default", "OutputItem" ],
+			"Fields": {
+			    "(O)685": {"MinStack": 10},
+					},
+			"When": {"Worm Bin Bait Min Amount": "10"},
+		},
+		{
+			"LogName": "Worm Bin Bait Min Amount 15",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)154", "OutputRules", "Default", "OutputItem" ],
+			"Fields": {
+			    "(O)685": {"MinStack": 15},
+					},
+			"When": {"Worm Bin Bait Min Amount": "15"},
+		},
+		{
+			"LogName": "Worm Bin Bait Min Amount 20",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)154", "OutputRules", "Default", "OutputItem" ],
+			"Fields": {
+			    "(O)685": {"MinStack": 20},
+					},
+			"When": {"Worm Bin Bait Min Amount": "20"},
+		},
+		{
+			"LogName": "Worm Bin Bait Min Amount 25",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)154", "OutputRules", "Default", "OutputItem" ],
+			"Fields": {
+			    "(O)685": {"MinStack": 25},
+					},
+			"When": {"Worm Bin Bait Min Amount": "25"},
+		},
+		{
+			"LogName": "Worm Bin Bait Min Amount 30",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)154", "OutputRules", "Default", "OutputItem" ],
+			"Fields": {
+			    "(O)685": {"MinStack": 30},
+					},
+			"When": {"Worm Bin Bait Min Amount": "30"},
+		},
+		{
+			"LogName": "Worm Bin Bait Min Amount 35",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)154", "OutputRules", "Default", "OutputItem" ],
+			"Fields": {
+			    "(O)685": {"MinStack": 35},
+					},
+			"When": {"Worm Bin Bait Min Amount": "35"},
+		},
+		{
+			"LogName": "Worm Bin Bait Min Amount 40",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)154", "OutputRules", "Default", "OutputItem" ],
+			"Fields": {
+			    "(O)685": {"MinStack": 40},
+					},
+			"When": {"Worm Bin Bait Min Amount": "40"},
+		},
+		{
+			"LogName": "Worm Bin Bait Min Amount 45",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)154", "OutputRules", "Default", "OutputItem" ],
+			"Fields": {
+			    "(O)685": {"MinStack": 45},
+					},
+			"When": {"Worm Bin Bait Min Amount": "45"},
+		},
+		{
+			"LogName": "Worm Bin Bait Min Amount 50",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)154", "OutputRules", "Default", "OutputItem" ],
+			"Fields": {
+			    "(O)685": {"MinStack": 50},
+					},
+			"When": {"Worm Bin Bait Min Amount": "50"},
+		},
+		{
+			"LogName": "Worm Bin Bait Min Amount 100",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)154", "OutputRules", "Default", "OutputItem" ],
+			"Fields": {
+			    "(O)685": {"MinStack": 100},
+					},
+			"When": {"Worm Bin Bait Min Amount": "100"},
+		},
+	]
+}

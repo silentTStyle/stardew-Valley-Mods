@@ -1,0 +1,104 @@
+{ // Original English Translation by: Aeywoo
+	// NPC Names
+	"NPC.Name.PickledPete": "醉鬼皮特",
+	"NPC.Gifts.PickledPete.Love": "给我的？真的吗？噢，非常感谢！",
+	"NPC.Gifts.PickledPete.Like": "非常感谢。",
+	"NPC.Gifts.PickledPete.Dislike": "我不是在抱怨，但我该怎么办呢？",
+	"NPC.Gifts.PickledPete.Hate": "我想...我想我需要喝一杯。",
+	"NPC.Gifts.PickledPete.Neutral": "谢谢你，我想。",
+	"NPC.Dialogue.PickledPete.Sun": "你为什么来？",
+	"NPC.Dialogue.PickledPete.Mon": "我好渴。",
+	"NPC.Dialogue.PickledPete.Tue": "我发现了这个。它让我想起了你。[170]#$e#我相信你会找到它的用处。",
+	"NPC.Dialogue.PickledPete.Wed": "我会比这座建筑更长久。就算它倒塌，我仍然会留下来。",
+	"NPC.Dialogue.PickledPete.Thu": "星期五快乐。#$e#这不是...?#$e#哦，谁在乎呢。",
+	"NPC.Dialogue.PickledPete.Fri": "你知道你要走的路吗？#$e#如果你不知道你要去哪里，你也永远不知道你什么时候会到达那里。",
+	"NPC.Dialogue.PickledPete.Sat": "又是哪一年了？#$e#你确定吗？这听起来不对。",
+	"NPC.Dialogue.PickledPete.Thu.Summer": "大地在炎热中喘息。",
+	"NPC.Dialogue.PickledPete.Fri.Winter": "你觉得冷吗？#$e#我再也感觉不到任何东西了。",
+	"NPC.Dialogue.PickledPete.Sat.Fall": "变化正在酝酿之中。",
+	
+	// Event 1373001 (ItemDelivery: Hephaestus Ghost Berry)
+	"Quests.1373001.Title": "幽灵浆果",
+	"Quests.1373001.Details": "法师想要研究幽灵浆果。不要问为什么。",
+	"Quests.1373001.Hint": "给法师带来幽灵浆果。",
+	"Quests.1373001.Reaction": "啊，令人着迷。这种水果的神奇潜力令人难以置信！你做得很好，@。我很感激你。现在，让我安心工作吧。",
+	// Event 1373002 (ItemDelivery: Hephaestus Refined Quartz)
+	"Quests.1373002.Title": "精炼石英请求",
+	"Quests.1373002.Details": "赫菲斯托斯的工作需要 10 个精炼石英。",
+	"Quests.1373002.Hint": "带上赫菲斯托斯 10 颗精制石英。",
+	"Quests.1373002.Reaction": "谢谢你，@！这些看起来很完美！$h#$b#非常感谢你花时间帮助我。$0",
+	// Event 1373003 (ItemDelivery: Hephaestus Slime Request)
+	"Quests.1373003.Title": "史莱姆请求",
+	"Quests.1373003.Details": "赫菲斯托斯的工作需要 50 个史莱姆。",
+	"Quests.1373003.Hint": "带上赫菲斯托斯 50 个史莱姆。",
+	"Quests.1373003.Reaction": "谢谢你，@！这些看起来又漂亮又多汁。$h#$b#非常感谢你花时间帮助我。$0",
+	// Event 1373004 (ItemDelivery: Hephaestus Iridium Bar)
+	"Quests.1373004.Title": "铱锭请求",
+	"Quests.1373004.Details": "赫菲斯托斯的工作需要 5 个铱锭。",
+	"Quests.1373004.Hint": "带上赫菲斯托斯 5 颗铱锭。",
+	"Quests.1373004.Reaction": "谢谢你，@！我知道我可以信赖你！$h#$b#你是一个真正的朋友。$0",
+	
+	// NPC Events
+	"Events.13730004.1": "你在找什么东西吗？#$b#或者某人？#$b#除了我之外没有人。",
+	"Events.13730004.2": "人们叫我醉鬼皮特。#$b#我不记得为什么了。",
+	"Events.13730004.3": "你想在这儿买点东西吗？我有...#$b#...#$b#好吧，剩下的不多了。但这是我拥有的最好的了" ,
+	"Events.13730004.4": "人死了就很难谋生了。",
+	
+	// Sandy's Event
+	"Events.SandyEvent.Mon": "$d 巴士#你好你好，亲爱的！我很高兴巴士又恢复运行了！维持营业很困难。#你好你好，亲爱的！我很高兴你愿意长途跋涉来到这里！维持生意很困难。",
+	"Events.SandyEvent.Mon2": "嘿，亲爱的，农场怎么样？#$e#让我猜猜。你来这里是为了买一大堆种子......对吧，亲爱的？$h",
+	
+	"Events.SandyIntro.1": "一位...客户？",
+	"Events.SandyIntro.2": "嗨！欢迎来到'桑迪的绿洲'！#$b#嘿，你看起来就像艾米丽写信告诉我新来的农场主！#$b#然后...到星露谷的公交车线路重新投入使用！$h#$b#哦，我太高兴了！$h",
+	"Events.SandyIntro.3": "请尽快再次访问，我在这里太无聊了。",
+	
+	"Events.13730001.1": "一个...客户？",
+	"Events.13730001.2": "嗨！欢迎来到‘桑迪的绿洲’！#$b#嘿，你看起来就像艾米丽写信告诉我新来的农场主！#$b#然后...前往星露谷的巴士线路恢复服务了吗？$h#$b#不是？你的意思是……你是一路走来的？！$s",
+	"Events.13730001.3": "你一定渴了！给你喝点冰牛奶。[184]#$b#好吃吧？$h#$b#你照顾好自己吧！\"/emote Sandy 32/end dialogue Sandy \"请尽快再次访问，我在这里太无聊了。",
+	"Events.13730002.1": "噢！你今天迟到了！​​#$b#我当然不是不高兴见到你。$h#$b#如果你决定去逛逛的话要小心鬼城。$0#$b#白天，沙漠的阳光将鬼魂留在地下。但天黑后，它们就开始成群结队地出来！",
+	"Events.13730002.2": "答应我你会小心的。好吗，亲爱的？$h",
+	
+	// Shop Strings
+	"Shops.WTDRShop.Closed": "稍后再回来...",
+	"Shops.WTDRShop.Dialogue": "要来看看我的商品吗？",
+	"Shops.WTDRShop.Dialogue.Rainy": "在雨中，一切都被冲走了。",
+	
+	// Mail Strings
+	"Mail.GhostBerry.Wizard.1": "@-^我听说你成功种植了“幽灵浆果”。我非常有兴趣研究这种水果。^请尽早在您方便的时候为我提供合适的标本。^ -M. 拉斯莫迪斯，法师",
+	"Mail.GhostBerry.Wizard.2": "法师的幽灵浆果",
+	
+	// Map Strings (Text Tiles)
+	"MapStrings.Interchange.1": "您现在没有任何理由去祖祖市，也许下次吧？",
+	"MapStrings.Interchange.2": "`通往祖祖市的 5 号高速公路^`冰川前哨站^@ 卡利科沙漠",
+	"MapStrings.Interchange.3": "` 通往祖祖市的 5 号高速公路 ^> 冰川前哨站",
+	"MapStrings.Interchange.4": "道路被雪崩摧毁，需要相当长的时间才能清理干净。",
+	"MapStrings.GhostTown.1": "危险！",
+	"MapStrings.GhostTown.2": "请勿输入！",
+	"MapStrings.GhostTown.3": "这座建筑很久以前就倒塌了，进入看起来不安全。",
+	"MapStrings.GhostTown.4": "门被卡住了，房子随着时间的推移发生了移动并且变得不稳定，尽管它没有受到重大损坏。",
+	"MapStrings.GhostTown.5": "门被锁上了，一个怪异的声音低声说道“未来更新。”",
+	"MapStrings.GhostShop.1": "门被锁上了，门把手上覆盖着粘稠的蜘蛛网，呃。",
+	"MapStrings.GhostShop.2": "醉鬼皮特：你不买我的一些商品吗？",
+	"MapStrings.HorsePath.1": "马匹禁止进入隧道！^拖拉机禁止进入隧道！",
+	"MapStrings.HorsePath.2": "@马和拖拉机的路径是这样。",
+	"MapStrings.HorsePath.3": ">马和拖拉机走这条路。",
+	"MapStrings.WindingRoad.1": "`5号公路到祖祖市^@花园村^>鹈鹕镇",
+	"MapStrings.WindingRoad.2": "` 通往祖祖市的 5 号高速公路^@ 里奇赛德村",
+	"MapStrings.WindingRoad.3": "由于一系列不幸的事件和海边侵蚀，这条路已经落入海中，我希望他们有一天能抽出时间来修复它。",
+	"MapStrings.WindingRoad.4": "几条倒塌的电线、倒下的树木和紧急车辆挡住了你的道路，你做出了不继续前进的明智决定。",
+	"MapStrings.Cave.1": "由于某种原因，这扇门被画在墙上。谁会做这样的事情？",
+	"MapStrings.Cave.2": "这是一堆骨头。^ 等等，头骨去哪儿了？",
+	"MapStrings.Cave.3": "这是一个洞，不要跳进去。随机的洞不好惹。",
+	"MapStrings.Cave.4": "这似乎是一个关于一个人母亲的粗俗笑话，但其中一些笑话已经消失了。你知道还有谁-",
+	"MapStrings.Cave.5": "一辆生锈的旧矿车，上面生锈的铭文写着“里奇赛德村”，它来时的样子似乎已经倒塌了。",
+	
+	// Object Names and Descriptions
+	"Objects.EeriePlantSeeds.Name": "怪异植物种子",
+	"Objects.EeriePlantSeeds.Desc": "你确定这些会生长吗？当你种植它们时可能并不重要",
+	"Objects.GhostBerry.Name": "幽灵浆果",
+	"Objects.GhostBerry.Desc": "这种怪异的水果似乎不属于我们的世界",
+	"Objects.GiantOldCoin.Name": "巨型古老硬币",
+	"Objects.GiantOldCoin.Desc": "这枚硬币很大！真是一个幸运的发现！",
+	"Objects.OldCoin.Name": "古老硬币",
+	"Objects.OldCoin.Desc": "仅仅因为它旧并不意味着它有价值",
+}

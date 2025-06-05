@@ -1,0 +1,8 @@
+{
+	"config.Shaymin confusion change.name": "쉐이미 혼란 스위치",
+	"config.Shaymin confusion change.description": "이건 쉐이미와 샤이니 쉐이미의 외형을 바꾸는 용도예요.",
+	"config.Shaymin confusion change.values.Shiny is Shiny and Normal is Normal": "샤이니는 샤이니이고, 노말은 노말이다.",
+    "config.Shaymin confusion change.values.Shiny is Normal and Normal is Shiny": "샤이니는 노말이고, 노말은 샤이니이다.",
+	"config.Adoption Price.name": "입양가",
+	"config.Adoption Price.description": "쉐이미의 입양 가격",
+}

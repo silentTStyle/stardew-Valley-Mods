@@ -1,0 +1,88 @@
+{
+  "Changes": [
+    // Change NPC Schedules - Portraits ------------------------------------------------------------
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Clint",
+      "FromFile": "Characters/Clint/assets/Portraits/Clint_Lewd.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 128 },
+      "ToArea": { "X": 0, "Y": 640, "Width": 128, "Height": 128 },
+      "When": { 
+		"Change NPC Schedules": "true",
+		"Hypnosis": "false",
+		"Clint": "true",
+	  }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Clint",
+      "FromFile": "Characters/Clint/assets/Portraits/Clint_Lewd_Hypnosis.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 128 },
+      "ToArea": { "X": 0, "Y": 640, "Width": 128, "Height": 128 },
+      "When": { 
+		"Change NPC Schedules": "true", 
+		"Hypnosis": "true",
+		"Clint": "true", 
+	  }
+    },
+	{
+      "Action": "EditImage",
+      "Target": "Portraits/Clint_Winter",
+      "FromFile": "Characters/Clint/assets/Portraits/Clint_Lewd.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 128 },
+      "ToArea": { "X": 0, "Y": 640, "Width": 128, "Height": 128 },
+      "When": { 
+		"Change NPC Schedules": "true",
+		"Hypnosis": "false",
+		"Clint": "true",
+	  }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Clint_Winter",
+      "FromFile": "Characters/Clint/assets/Portraits/Clint_Lewd_Hypnosis.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 128 },
+      "ToArea": { "X": 0, "Y": 640, "Width": 128, "Height": 128 },
+      "When": { 
+		"Change NPC Schedules": "true", 
+		"Hypnosis": "true",
+		"Clint": "true", 
+	  }
+    },
+    // Change NPC Schedules - schedules ------------------------------------------------------------
+    {
+      "Action": "EditData",
+      "Target": "Characters/schedules/Clint",
+      "Entries": {
+        "rain": "850 Blacksmith 3 13 2 clint_onanie1/1700 Blacksmith 8 12 1 clint_hammer/1900 Saloon 19 23 3/2400 Blacksmith 10 4 1 clint_uplate",
+        "rain2": "850 Blacksmith 3 13 2/1700 Custom_DarkClub 3 30 1/2000 Custom_DarkClub 3 30 1 clint_onanie2",
+        "Fri": "850 CommunityCenter 62 14 0 square_3_1_0/1700 Saloon 19 23 3/2400 Blacksmith 10 4 1 clint_uplate",
+        "Sun": "850 Blacksmith 3 13 2 clint_onanie1/1700 Custom_DarkClub 3 30 1/2000 Custom_DarkClub 3 30 1 clint_onanie2",
+        "spring": "850 Blacksmith 3 13 2/1700 Blacksmith 8 12 1 clint_onanie2/1900 Saloon 19 23 3/2400 Blacksmith 10 4 1 clint_sleep"
+      },
+      "When": { "Change NPC Schedules": "true" }
+    },
+    // Change NPC Schedules - animationDescriptions ------------------------------------------------
+    {
+      "Action": "EditData",
+      "Target": "Data/animationDescriptions",
+      "Entries": {
+		"clint_uplate": "100/100/100/Strings\\animationDescriptions:clint_uplate",
+        "clint_onanie1": "101/101/101/Strings\\animationDescriptions:clint_onanie1",
+        "clint_onanie2": "102/102/102/Strings\\animationDescriptions:clint_onanie2",
+      },
+      "When": { "Change NPC Schedules": "true" }
+    },
+    // Change NPC Schedules - animationDescriptions Dialogue ---------------------------------------
+    {
+      "Action": "EditData",
+      "Target": "Strings/animationDescriptions",
+      "Entries": {
+        "clint_uplate": "{{i18n:NPC.Clint.UpLate}}",
+        "clint_onanie1": "{{i18n:NPC.Clint.Fuck}}",
+        "clint_onanie2": "{{i18n:NPC.Clint.Fuck}}",
+      },
+      "When": { "Change NPC Schedules": "true" }
+    },
+  ]
+}

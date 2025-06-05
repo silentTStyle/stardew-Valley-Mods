@@ -1,0 +1,2220 @@
+{
+  "ForageSpawnEnabled": true,
+  "LargeObjectSpawnEnabled": false,
+  "OreSpawnEnabled": false,
+  "MonsterSpawnEnabled": true,
+  "Forage_Spawn_Settings": {
+    "Areas": [
+      {
+        "SpringItemIndex": [
+          {
+            "Category": "Object",
+            "Name": "simezi21.Dark_Club_CP_SlaveSoul",
+            "PercentChanceToSpawn": 10
+          }
+        ],
+        "SummerItemIndex": [
+          {
+            "Category": "Object",
+            "Name": "simezi21.Dark_Club_CP_SlaveSoul",
+            "PercentChanceToSpawn": 10
+          }
+        ],
+        "FallItemIndex": [
+          {
+            "Category": "Object",
+            "Name": "simezi21.Dark_Club_CP_SlaveSoul",
+            "PercentChanceToSpawn": 10
+          }
+        ],
+        "WinterItemIndex": [
+          {
+            "Category": "Object",
+            "Name": "simezi21.Dark_Club_CP_SlaveSoul",
+            "PercentChanceToSpawn": 10
+          }
+        ],
+        "UniqueAreaID": "Custom_Restroom Forage 1",
+        "MapName": "Custom_Restroom",
+        "MinimumSpawnsPerDay": 3,
+        "MaximumSpawnsPerDay": 3,
+        "IncludeTerrainTypes": [],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [
+          "3,4;9,10",
+          "12,7;18,10"
+        ],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "SpringItemIndex": [
+          {
+            "Category": "Object",
+            "Name": "simezi21.Dark_Club_CP_SoullessBodyA",
+            "PercentChanceToSpawn": 10,
+            "SpawnWeight": 1
+          },
+          {
+            "Category": "Object",
+            "Name": "simezi21.Dark_Club_CP_SoullessBodyB",
+            "PercentChanceToSpawn": 10,
+            "SpawnWeight": 1
+          },
+          {
+            "Category": "Object",
+            "Name": "simezi21.Dark_Club_CP_SoullessBodyC",
+            "PercentChanceToSpawn": 10,
+            "SpawnWeight": 1
+          },
+          {
+            "Category": "Object",
+            "Name": "simezi21.Dark_Club_CP_SoullessBodyD",
+            "PercentChanceToSpawn": 10,
+            "SpawnWeight": 1
+          }
+        ],
+        "SummerItemIndex": [
+          {
+            "Category": "Object",
+            "Name": "simezi21.Dark_Club_CP_SoullessBodyA",
+            "PercentChanceToSpawn": 10,
+            "SpawnWeight": 1
+          },
+          {
+            "Category": "Object",
+            "Name": "simezi21.Dark_Club_CP_SoullessBodyB",
+            "PercentChanceToSpawn": 10,
+            "SpawnWeight": 1
+          },
+          {
+            "Category": "Object",
+            "Name": "simezi21.Dark_Club_CP_SoullessBodyC",
+            "PercentChanceToSpawn": 10,
+            "SpawnWeight": 1
+          },
+          {
+            "Category": "Object",
+            "Name": "simezi21.Dark_Club_CP_SoullessBodyD",
+            "PercentChanceToSpawn": 10,
+            "SpawnWeight": 1
+          }
+        ],
+        "FallItemIndex": [
+          {
+            "Category": "Object",
+            "Name": "simezi21.Dark_Club_CP_SoullessBodyA",
+            "PercentChanceToSpawn": 10,
+            "SpawnWeight": 1
+          },
+          {
+            "Category": "Object",
+            "Name": "simezi21.Dark_Club_CP_SoullessBodyB",
+            "PercentChanceToSpawn": 10,
+            "SpawnWeight": 1
+          },
+          {
+            "Category": "Object",
+            "Name": "simezi21.Dark_Club_CP_SoullessBodyC",
+            "PercentChanceToSpawn": 10,
+            "SpawnWeight": 1
+          },
+          {
+            "Category": "Object",
+            "Name": "simezi21.Dark_Club_CP_SoullessBodyD",
+            "PercentChanceToSpawn": 10,
+            "SpawnWeight": 1
+          }
+        ],
+        "WinterItemIndex": [
+          {
+            "Category": "Object",
+            "Name": "simezi21.Dark_Club_CP_SoullessBodyA",
+            "PercentChanceToSpawn": 10,
+            "SpawnWeight": 1
+          },
+          {
+            "Category": "Object",
+            "Name": "simezi21.Dark_Club_CP_SoullessBodyB",
+            "PercentChanceToSpawn": 10,
+            "SpawnWeight": 1
+          },
+          {
+            "Category": "Object",
+            "Name": "simezi21.Dark_Club_CP_SoullessBodyC",
+            "PercentChanceToSpawn": 10,
+            "SpawnWeight": 1
+          },
+          {
+            "Category": "Object",
+            "Name": "simezi21.Dark_Club_CP_SoullessBodyD",
+            "PercentChanceToSpawn": 10,
+            "SpawnWeight": 1
+          }
+        ],
+        "UniqueAreaID": "Custom_Prison Forage 1",
+        "MapName": "Custom_Prison",
+        "MinimumSpawnsPerDay": 3,
+        "MaximumSpawnsPerDay": 3,
+        "IncludeTerrainTypes": [],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [
+          "23,4;32,13"
+        ],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "SpringItemIndex": [
+          {
+            "Category": "Object",
+            "Name": 680,
+            "SpawnWeight": 1
+          },
+          {
+            "Category": "Object",
+            "Name": "simezi21.Dark_Club_CP_MagicMushroom",
+            "SpawnWeight": 1
+          },
+          {
+            "Category": "Object",
+            "Name": "simezi21.Dark_Club_CP_SoullessBodyA",
+            "SpawnWeight": 1
+          },
+          {
+            "Category": "Object",
+            "Name": "simezi21.Dark_Club_CP_SoullessBodyB",
+            "SpawnWeight": 1
+          },
+          {
+            "Category": "Object",
+            "Name": "simezi21.Dark_Club_CP_SoullessBodyC",
+            "SpawnWeight": 1
+          },
+          {
+            "Category": "Object",
+            "Name": "simezi21.Dark_Club_CP_SoullessBodyD",
+            "SpawnWeight": 1
+          }
+        ],
+        "SummerItemIndex": [
+          {
+            "Category": "Object",
+            "Name": 680,
+            "SpawnWeight": 1
+          },
+          {
+            "Category": "Object",
+            "Name": "simezi21.Dark_Club_CP_MagicMushroom",
+            "SpawnWeight": 1
+          },
+          {
+            "Category": "Object",
+            "Name": "simezi21.Dark_Club_CP_SoullessBodyA",
+            "SpawnWeight": 1
+          },
+          {
+            "Category": "Object",
+            "Name": "simezi21.Dark_Club_CP_SoullessBodyB",
+            "SpawnWeight": 1
+          },
+          {
+            "Category": "Object",
+            "Name": "simezi21.Dark_Club_CP_SoullessBodyC",
+            "SpawnWeight": 1
+          },
+          {
+            "Category": "Object",
+            "Name": "simezi21.Dark_Club_CP_SoullessBodyD",
+            "SpawnWeight": 1
+          }
+        ],
+        "FallItemIndex": [
+          {
+            "Category": "Object",
+            "Name": 680,
+            "SpawnWeight": 1
+          },
+          {
+            "Category": "Object",
+            "Name": "simezi21.Dark_Club_CP_MagicMushroom",
+            "SpawnWeight": 1
+          },
+          {
+            "Category": "Object",
+            "Name": "simezi21.Dark_Club_CP_SoullessBodyA",
+            "SpawnWeight": 1
+          },
+          {
+            "Category": "Object",
+            "Name": "simezi21.Dark_Club_CP_SoullessBodyB",
+            "SpawnWeight": 1
+          },
+          {
+            "Category": "Object",
+            "Name": "simezi21.Dark_Club_CP_SoullessBodyC",
+            "SpawnWeight": 1
+          },
+          {
+            "Category": "Object",
+            "Name": "simezi21.Dark_Club_CP_SoullessBodyD",
+            "SpawnWeight": 1
+          }
+        ],
+        "WinterItemIndex": [
+          {
+            "Category": "Object",
+            "Name": 680,
+            "SpawnWeight": 1
+          },
+          {
+            "Category": "Object",
+            "Name": "simezi21.Dark_Club_CP_MagicMushroom",
+            "SpawnWeight": 1
+          },
+          {
+            "Category": "Object",
+            "Name": "simezi21.Dark_Club_CP_SoullessBodyA",
+            "SpawnWeight": 1
+          },
+          {
+            "Category": "Object",
+            "Name": "simezi21.Dark_Club_CP_SoullessBodyB",
+            "SpawnWeight": 1
+          },
+          {
+            "Category": "Object",
+            "Name": "simezi21.Dark_Club_CP_SoullessBodyC",
+            "SpawnWeight": 1
+          },
+          {
+            "Category": "Object",
+            "Name": "simezi21.Dark_Club_CP_SoullessBodyD",
+            "SpawnWeight": 1
+          }
+        ],
+        "UniqueAreaID": "Custom_MeatCave Forage Vagina 1",
+        "MapName": "Custom_MeatCave",
+        "MinimumSpawnsPerDay": 5,
+        "MaximumSpawnsPerDay": 10,
+        "IncludeTerrainTypes": [],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [
+          "61,71;98,144"
+        ],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "SpringItemIndex": [
+          {
+            "Category": "Object",
+            "Name": "simezi21.Dark_Club_CP_SoullessBodyA",
+            "SpawnWeight": 1
+          },
+          {
+            "Category": "Object",
+            "Name": "simezi21.Dark_Club_CP_SoullessBodyB",
+            "SpawnWeight": 1
+          },
+          {
+            "Category": "Object",
+            "Name": "simezi21.Dark_Club_CP_SoullessBodyC",
+            "SpawnWeight": 1
+          },
+          {
+            "Category": "Object",
+            "Name": "simezi21.Dark_Club_CP_SoullessBodyD",
+            "SpawnWeight": 1
+          }
+        ],
+        "SummerItemIndex": [
+          {
+            "Category": "Object",
+            "Name": "simezi21.Dark_Club_CP_SoullessBodyA",
+            "SpawnWeight": 1
+          },
+          {
+            "Category": "Object",
+            "Name": "simezi21.Dark_Club_CP_SoullessBodyB",
+            "SpawnWeight": 1
+          },
+          {
+            "Category": "Object",
+            "Name": "simezi21.Dark_Club_CP_SoullessBodyC",
+            "SpawnWeight": 1
+          },
+          {
+            "Category": "Object",
+            "Name": "simezi21.Dark_Club_CP_SoullessBodyD",
+            "SpawnWeight": 1
+          }
+        ],
+        "FallItemIndex": [
+          {
+            "Category": "Object",
+            "Name": "simezi21.Dark_Club_CP_SoullessBodyA",
+            "SpawnWeight": 1
+          },
+          {
+            "Category": "Object",
+            "Name": "simezi21.Dark_Club_CP_SoullessBodyB",
+            "SpawnWeight": 1
+          },
+          {
+            "Category": "Object",
+            "Name": "simezi21.Dark_Club_CP_SoullessBodyC",
+            "SpawnWeight": 1
+          },
+          {
+            "Category": "Object",
+            "Name": "simezi21.Dark_Club_CP_SoullessBodyD",
+            "SpawnWeight": 1
+          }
+        ],
+        "WinterItemIndex": [
+          {
+            "Category": "Object",
+            "Name": "simezi21.Dark_Club_CP_SoullessBodyA",
+            "SpawnWeight": 1
+          },
+          {
+            "Category": "Object",
+            "Name": "simezi21.Dark_Club_CP_SoullessBodyB",
+            "SpawnWeight": 1
+          },
+          {
+            "Category": "Object",
+            "Name": "simezi21.Dark_Club_CP_SoullessBodyC",
+            "SpawnWeight": 1
+          },
+          {
+            "Category": "Object",
+            "Name": "simezi21.Dark_Club_CP_SoullessBodyD",
+            "SpawnWeight": 1
+          }
+        ],
+        "UniqueAreaID": "Custom_MeatCave Forage Uterus 1",
+        "MapName": "Custom_MeatCave",
+        "MinimumSpawnsPerDay": 10,
+        "MaximumSpawnsPerDay": 20,
+        "IncludeTerrainTypes": [],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [
+          "62,12;96,53"
+        ],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "SpringItemIndex": [
+          {
+            "Category": "Object",
+            "Name": 680,
+            "SpawnWeight": 50
+          },
+          {
+            "Category": "Object",
+            "Name": 413,
+            "SpawnWeight": 25
+          },
+          {
+            "Category": "Object",
+            "Name": 437,
+            "SpawnWeight": 15
+          },
+          {
+            "Category": "Object",
+            "Name": 439,
+            "SpawnWeight": 7
+          },
+          {
+            "Category": "Object",
+            "Name": 857,
+            "SpawnWeight": 3
+          }
+        ],
+        "SummerItemIndex": [
+          {
+            "Category": "Object",
+            "Name": 680,
+            "SpawnWeight": 50
+          },
+          {
+            "Category": "Object",
+            "Name": 413,
+            "SpawnWeight": 25
+          },
+          {
+            "Category": "Object",
+            "Name": 437,
+            "SpawnWeight": 15
+          },
+          {
+            "Category": "Object",
+            "Name": 439,
+            "SpawnWeight": 7
+          },
+          {
+            "Category": "Object",
+            "Name": 857,
+            "SpawnWeight": 3
+          }
+        ],
+        "FallItemIndex": [
+          {
+            "Category": "Object",
+            "Name": 680,
+            "SpawnWeight": 50
+          },
+          {
+            "Category": "Object",
+            "Name": 413,
+            "SpawnWeight": 25
+          },
+          {
+            "Category": "Object",
+            "Name": 437,
+            "SpawnWeight": 15
+          },
+          {
+            "Category": "Object",
+            "Name": 439,
+            "SpawnWeight": 7
+          },
+          {
+            "Category": "Object",
+            "Name": 857,
+            "SpawnWeight": 3
+          }
+        ],
+        "WinterItemIndex": [
+          {
+            "Category": "Object",
+            "Name": 680,
+            "SpawnWeight": 50
+          },
+          {
+            "Category": "Object",
+            "Name": 413,
+            "SpawnWeight": 25
+          },
+          {
+            "Category": "Object",
+            "Name": 437,
+            "SpawnWeight": 15
+          },
+          {
+            "Category": "Object",
+            "Name": 439,
+            "SpawnWeight": 7
+          },
+          {
+            "Category": "Object",
+            "Name": 857,
+            "SpawnWeight": 3
+          }
+        ],
+        "UniqueAreaID": "Custom_MeatCave Forage Ovary 1",
+        "MapName": "Custom_MeatCave",
+        "MinimumSpawnsPerDay": 10,
+        "MaximumSpawnsPerDay": 15,
+        "IncludeTerrainTypes": [],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [
+          "3,25;35,32",
+          "123,25;155,32"
+        ],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "SpringItemIndex": [
+          {
+            "Category": "Object",
+            "Name": 437,
+            "SpawnWeight": 1
+          }
+        ],
+        "SummerItemIndex": [
+          {
+            "Category": "Object",
+            "Name": 437,
+            "SpawnWeight": 1
+          }
+        ],
+        "FallItemIndex": [
+          {
+            "Category": "Object",
+            "Name": 437,
+            "SpawnWeight": 1
+          }
+        ],
+        "WinterItemIndex": [
+          {
+            "Category": "Object",
+            "Name": 437,
+            "SpawnWeight": 1
+          }
+        ],
+        "UniqueAreaID": "Custom_MeatCave_Menstruation Forage Vagina 1",
+        "MapName": "Custom_MeatCave_Menstruation",
+        "MinimumSpawnsPerDay": 5,
+        "MaximumSpawnsPerDay": 10,
+        "IncludeTerrainTypes": [],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [
+          "61,71;98,144"
+        ],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "SpringItemIndex": [
+          {
+            "Category": "Object",
+            "Name": 437,
+            "SpawnWeight": 1
+          }
+        ],
+        "SummerItemIndex": [
+          {
+            "Category": "Object",
+            "Name": 437,
+            "SpawnWeight": 1
+          }
+        ],
+        "FallItemIndex": [
+          {
+            "Category": "Object",
+            "Name": 437,
+            "SpawnWeight": 1
+          }
+        ],
+        "WinterItemIndex": [
+          {
+            "Category": "Object",
+            "Name": 437,
+            "SpawnWeight": 1
+          }
+        ],
+        "UniqueAreaID": "Custom_MeatCave_Menstruation Forage Ovary 1",
+        "MapName": "Custom_MeatCave_Menstruation",
+        "MinimumSpawnsPerDay": 10,
+        "MaximumSpawnsPerDay": 15,
+        "IncludeTerrainTypes": [],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [
+          "3,25;35,32",
+          "123,25;155,32"
+        ],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      }
+    ],
+    "PercentExtraSpawnsPerForagingLevel": 0,
+    "SpringItemIndex": [
+      16,
+      20,
+      22,
+      257
+    ],
+    "SummerItemIndex": [
+      396,
+      398,
+      402,
+      404
+    ],
+    "FallItemIndex": [
+      281,
+      404,
+      420,
+      422
+    ],
+    "WinterItemIndex": [],
+    "CustomTileIndex": []
+  },
+  "Large_Object_Spawn_Settings": {
+    "Areas": [
+      {
+        "ObjectTypes": [],
+        "FindExistingObjectLocations": false,
+        "PercentExtraSpawnsPerSkillLevel": 0,
+        "RelatedSkill": "Foraging",
+        "UniqueAreaID": "Farm Large Object 1",
+        "MapName": "Farm",
+        "MinimumSpawnsPerDay": 0,
+        "MaximumSpawnsPerDay": 0,
+        "IncludeTerrainTypes": [],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": null
+      }
+    ],
+    "CustomTileIndex": []
+  },
+  "Ore_Spawn_Settings": {
+    "Areas": [
+      {
+        "MiningLevelRequired": null,
+        "StartingSpawnChance": null,
+        "LevelTenSpawnChance": null,
+        "UniqueAreaID": "Farm Ore 1",
+        "MapName": "Farm",
+        "MinimumSpawnsPerDay": 0,
+        "MaximumSpawnsPerDay": 0,
+        "IncludeTerrainTypes": [],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": null
+      }
+    ],
+    "PercentExtraSpawnsPerMiningLevel": 0,
+    "MiningLevelRequired": {
+      "Stone": 0,
+      "Geode": 0,
+      "FrozenGeode": 5,
+      "MagmaGeode": 8,
+      "OmniGeode": 0,
+      "Gem": 6,
+      "Copper": 0,
+      "Iron": 4,
+      "Gold": 7,
+      "Iridium": 9,
+      "Mystic": 10,
+      "Radioactive": 0,
+      "Diamond": 6,
+      "Ruby": 6,
+      "Jade": 6,
+      "Amethyst": 6,
+      "Topaz": 6,
+      "Emerald": 6,
+      "Aquamarine": 6,
+      "Mussel": 0,
+      "Fossil": 0,
+      "Clay": 0,
+      "CinderShard": 0
+    },
+    "StartingSpawnChance": {
+      "Stone": 66,
+      "Geode": 8,
+      "FrozenGeode": 4,
+      "MagmaGeode": 2,
+      "OmniGeode": 0,
+      "Gem": 5,
+      "Copper": 21,
+      "Iron": 15,
+      "Gold": 10,
+      "Iridium": 1,
+      "Mystic": 1,
+      "Radioactive": 0,
+      "Diamond": 0,
+      "Ruby": 0,
+      "Jade": 0,
+      "Amethyst": 0,
+      "Topaz": 0,
+      "Emerald": 0,
+      "Aquamarine": 0,
+      "Mussel": 0,
+      "Fossil": 0,
+      "Clay": 0,
+      "CinderShard": 0
+    },
+    "LevelTenSpawnChance": {
+      "Stone": 48,
+      "Geode": 2,
+      "FrozenGeode": 2,
+      "MagmaGeode": 2,
+      "OmniGeode": 0,
+      "Gem": 5,
+      "Copper": 16,
+      "Iron": 13,
+      "Gold": 10,
+      "Iridium": 1,
+      "Mystic": 1,
+      "Radioactive": 0,
+      "Diamond": 0,
+      "Ruby": 0,
+      "Jade": 0,
+      "Amethyst": 0,
+      "Topaz": 0,
+      "Emerald": 0,
+      "Aquamarine": 0,
+      "Mussel": 0,
+      "Fossil": 0,
+      "Clay": 0,
+      "CinderShard": 0
+    },
+    "CustomTileIndex": []
+  },
+  "Monster_Spawn_Settings": {
+    "Areas": [
+      {
+        "MonsterTypes": [
+          {
+            "MonsterName": "Mummy",
+            "Settings": {
+              "SpawnWeight": 2,
+              "HP": 400,
+              "Damage": 25,
+              "Defense": 0,
+              "DodgeChance": 0,
+              "EXP": 20,
+              "Loot": [
+                {
+                  "Category": "Object",
+                  "Name": "Slime",
+                  "PercentChanceToSpawn": 100
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Void Essence",
+                  "PercentChanceToSpawn": 50
+                },
+                {
+                  "Category": "Object",
+                  "Name": "simezi21.Dark_Club_CP_SlaveSoul",
+                  "PercentChanceToSpawn": 8
+                },
+                {
+                  "Category": "Weapon",
+                  "Name": "simezi21.Dark_Club_JA_Slime_Rod",
+                  "PercentChanceToSpawn": 0.1
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Prismatic Shard",
+                  "PercentChanceToSpawn": 0.05
+                }
+              ],
+              "ExtraLoot": false,
+              "SightRange": 8,
+              "SeesPlayersAtSpawn": false,
+              "Sprite": "Characters/Monsters/Slime Zombie"
+            }
+          },
+          {
+            "MonsterName": "Skeleton Mage",
+            "Settings": {
+              "SpawnWeight": 1,
+              "HP": 500,
+              "Damage": 25,
+              "Defense": 0,
+              "DodgeChance": 0,
+              "EXP": 20,
+              "Loot": [
+                {
+                  "Category": "Object",
+                  "Name": "Void Essence",
+                  "PercentChanceToSpawn": 100
+                },
+                {
+                  "Category": "Object",
+                  "Name": "simezi21.Dark_Club_CP_SlaveSoul",
+                  "PercentChanceToSpawn": 5
+                },
+                {
+                  "Category": "Object",
+                  "Name": "simezi21.Dark_Club_CP_SuccubusMilk",
+                  "PercentChanceToSpawn": 3
+                },
+                {
+                  "Category": "Object",
+                  "Name": "simezi21.Dark_Club_CP_SuccubusSemen",
+                  "PercentChanceToSpawn": 3
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Prismatic Shard",
+                  "PercentChanceToSpawn": 0.05
+                }
+              ],
+              "ExtraLoot": false,
+              "SightRange": 8,
+              "SeesPlayersAtSpawn": false,
+              "Sprite": "Characters/Monsters/Succubus1"
+            }
+          },
+          {
+            "MonsterName": "Skeleton Mage",
+            "Settings": {
+              "SpawnWeight": 1,
+              "HP": 500,
+              "Damage": 25,
+              "Defense": 0,
+              "DodgeChance": 0,
+              "EXP": 20,
+              "Loot": [
+                {
+                  "Category": "Object",
+                  "Name": "Void Essence",
+                  "PercentChanceToSpawn": 100
+                },
+                {
+                  "Category": "Object",
+                  "Name": "simezi21.Dark_Club_CP_SlaveSoul",
+                  "PercentChanceToSpawn": 5
+                },
+                {
+                  "Category": "Object",
+                  "Name": "simezi21.Dark_Club_CP_SuccubusMilk",
+                  "PercentChanceToSpawn": 3
+                },
+                {
+                  "Category": "Object",
+                  "Name": "simezi21.Dark_Club_CP_SuccubusSemen",
+                  "PercentChanceToSpawn": 3
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Prismatic Shard",
+                  "PercentChanceToSpawn": 0.05
+                }
+              ],
+              "ExtraLoot": false,
+              "SightRange": 8,
+              "SeesPlayersAtSpawn": false,
+              "Sprite": "Characters/Monsters/Succubus2"
+            }
+          },
+          {
+            "MonsterName": "Skeleton Mage",
+            "Settings": {
+              "SpawnWeight": 1,
+              "HP": 500,
+              "Damage": 25,
+              "Defense": 0,
+              "DodgeChance": 0,
+              "EXP": 20,
+              "Loot": [
+                {
+                  "Category": "Object",
+                  "Name": "Void Essence",
+                  "PercentChanceToSpawn": 100
+                },
+                {
+                  "Category": "Object",
+                  "Name": "simezi21.Dark_Club_CP_SlaveSoul",
+                  "PercentChanceToSpawn": 5
+                },
+                {
+                  "Category": "Object",
+                  "Name": "simezi21.Dark_Club_CP_SuccubusMilk",
+                  "PercentChanceToSpawn": 3
+                },
+                {
+                  "Category": "Object",
+                  "Name": "simezi21.Dark_Club_CP_SuccubusSemen",
+                  "PercentChanceToSpawn": 3
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Prismatic Shard",
+                  "PercentChanceToSpawn": 0.05
+                }
+              ],
+              "ExtraLoot": false,
+              "SightRange": 8,
+              "SeesPlayersAtSpawn": false,
+              "Sprite": "Characters/Monsters/Succubus3"
+            }
+          }
+        ],
+        "UniqueAreaID": "Custom_MeatCave Monster Vagina 1",
+        "MapName": "Custom_MeatCave",
+        "MinimumSpawnsPerDay": 20,
+        "MaximumSpawnsPerDay": 30,
+        "IncludeTerrainTypes": [],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [
+          "61,71;98,144"
+        ],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": null
+      },
+      {
+        "MonsterTypes": [
+          {
+            "MonsterName": "Rock Crab",
+            "Settings": {
+              "SpawnWeight": 1,
+              "HP": 10,
+              "Damage": 40,
+              "Defense": 0,
+              "DodgeChance": 0,
+              "EXP": 8,
+              "Loot": [
+                {
+                  "Category": "Object",
+                  "Name": "simezi21.Dark_Club_CP_TentacleEgg",
+                  "PercentChanceToSpawn": 50
+                },
+                {
+                  "Category": "Object",
+                  "Name": "simezi21.Dark_Club_CP_RoperEgg",
+                  "PercentChanceToSpawn": 50
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Void Essence",
+                  "PercentChanceToSpawn": 50
+                },
+                {
+                  "Category": "Weapon",
+                  "Name": "simezi21.Dark_Club_JA_Tentacle_Blade",
+                  "PercentChanceToSpawn": 0.1
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Prismatic Shard",
+                  "PercentChanceToSpawn": 0.05
+                }
+              ],
+              "ExtraLoot": false,
+              "SightRange": 1,
+              "SeesPlayersAtSpawn": false,
+              "Sprite": "Characters/Monsters/Tentacle Trap"
+            }
+          }
+        ],
+        "UniqueAreaID": "Custom_MeatCave Monster Vagina 2",
+        "MapName": "Custom_MeatCave",
+        "MinimumSpawnsPerDay": 4,
+        "MaximumSpawnsPerDay": 8,
+        "IncludeTerrainTypes": [],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [
+          "61,71;98,144"
+        ],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": null
+      },
+      {
+        "MonsterTypes": [
+          {
+            "MonsterName": "Big Slime",
+            "Settings": {
+              "SpawnWeight": 1,
+              "HP": 400,
+              "Damage": 20,
+              "Defense": 0,
+              "DodgeChance": 0,
+              "EXP": 15,
+              "Loot": [
+                {
+                  "Category": "Object",
+                  "Name": "Slime",
+                  "PercentChanceToSpawn": 100
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Void Essence",
+                  "PercentChanceToSpawn": 50
+                },
+                {
+                  "Category": "Object",
+                  "Name": "simezi21.Dark_Club_CP_ConcentratedMilk",
+                  "PercentChanceToSpawn": 5
+                },
+                {
+                  "Category": "Weapon",
+                  "Name": "simezi21.Dark_Club_JA_Slime_Rod",
+                  "PercentChanceToSpawn": 0.1
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Prismatic Shard",
+                  "PercentChanceToSpawn": 0.05
+                }
+              ],
+              "ExtraLoot": false,
+              "SightRange": 5,
+              "SeesPlayersAtSpawn": false,
+              "Sprite": "Characters/Monsters/Oppai Slime"
+            }
+          }
+        ],
+        "UniqueAreaID": "Custom_MeatCave Monster Vagina 3",
+        "MapName": "Custom_MeatCave",
+        "MinimumSpawnsPerDay": 8,
+        "MaximumSpawnsPerDay": 12,
+        "IncludeTerrainTypes": [],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [
+          "72,72;75,77",
+          "82,72;86,74",
+          "76,76;81,81",
+          "80,83;84,98",
+          "86,91;90,94",
+          "73,97;79,100",
+          "67,89;69,96",
+          "68,100;72,103",
+          "71,104;75,112",
+          "64,114;70,119",
+          "74,114;85,117",
+          "86,112;89,115",
+          "90,107;93,113",
+          "88,119;91,125",
+          "94,124;95,128",
+          "88,129;91,130",
+          "76,128;84,131",
+          "72,133;78,141",
+          "66,134;68,137",
+          "77,142;83,144",
+          "85,141;85,143",
+          "89,141;89,142"
+        ],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": null
+      },
+      {
+        "MonsterTypes": [
+          {
+            "MonsterName": "Serpent",
+            "Settings": {
+              "SpawnWeight": 1,
+              "HP": 10,
+              "Damage": 10,
+              "Defense": 0,
+              "DodgeChance": 0,
+              "EXP": 1,
+              "Loot": [
+                {
+                  "Category": "Object",
+                  "Name": "Void Essence",
+                  "PercentChanceToSpawn": 5
+                },
+                {
+                  "Category": "Object",
+                  "Name": "simezi21.Dark_Club_CP_ConcentratedSemen",
+                  "PercentChanceToSpawn": 1
+                }
+              ],
+              "ExtraLoot": false,
+              "SightRange": 100,
+              "SeesPlayersAtSpawn": true,
+              "Sprite": "Characters/Monsters/Sperm"
+            }
+          }
+        ],
+        "UniqueAreaID": "Custom_MeatCave Monster Sperm",
+        "MapName": "Custom_MeatCave",
+        "MinimumSpawnsPerDay": 50,
+        "MaximumSpawnsPerDay": 200,
+        "IncludeTerrainTypes": [],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [
+          "3,80;12,109",
+          "146,80;155,109"
+        ],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 2550,
+          "MinimumTimeBetweenSpawns": 20,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": null
+      },
+      {
+        "MonsterTypes": [
+          {
+            "MonsterName": "Mummy",
+            "Settings": {
+              "SpawnWeight": 2,
+              "HP": 400,
+              "Damage": 25,
+              "Defense": 0,
+              "DodgeChance": 0,
+              "EXP": 20,
+              "Loot": [
+                {
+                  "Category": "Object",
+                  "Name": "Slime",
+                  "PercentChanceToSpawn": 100
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Void Essence",
+                  "PercentChanceToSpawn": 50
+                },
+                {
+                  "Category": "Object",
+                  "Name": "simezi21.Dark_Club_CP_SlaveSoul",
+                  "PercentChanceToSpawn": 8
+                },
+                {
+                  "Category": "Weapon",
+                  "Name": "simezi21.Dark_Club_JA_Slime_Rod",
+                  "PercentChanceToSpawn": 0.1
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Prismatic Shard",
+                  "PercentChanceToSpawn": 0.05
+                }
+              ],
+              "ExtraLoot": false,
+              "SightRange": 8,
+              "SeesPlayersAtSpawn": false,
+              "Sprite": "Characters/Monsters/Slime Zombie"
+            }
+          },
+          {
+            "MonsterName": "Skeleton Mage",
+            "Settings": {
+              "SpawnWeight": 1,
+              "HP": 500,
+              "Damage": 25,
+              "Defense": 0,
+              "DodgeChance": 0,
+              "EXP": 20,
+              "Loot": [
+                {
+                  "Category": "Object",
+                  "Name": "Void Essence",
+                  "PercentChanceToSpawn": 100
+                },
+                {
+                  "Category": "Object",
+                  "Name": "simezi21.Dark_Club_CP_SlaveSoul",
+                  "PercentChanceToSpawn": 5
+                },
+                {
+                  "Category": "Object",
+                  "Name": "simezi21.Dark_Club_CP_SuccubusMilk",
+                  "PercentChanceToSpawn": 3
+                },
+                {
+                  "Category": "Object",
+                  "Name": "simezi21.Dark_Club_CP_SuccubusSemen",
+                  "PercentChanceToSpawn": 3
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Prismatic Shard",
+                  "PercentChanceToSpawn": 0.05
+                }
+              ],
+              "ExtraLoot": false,
+              "SightRange": 8,
+              "SeesPlayersAtSpawn": false,
+              "Sprite": "Characters/Monsters/Succubus1"
+            }
+          },
+          {
+            "MonsterName": "Skeleton Mage",
+            "Settings": {
+              "SpawnWeight": 1,
+              "HP": 500,
+              "Damage": 25,
+              "Defense": 0,
+              "DodgeChance": 0,
+              "EXP": 20,
+              "Loot": [
+                {
+                  "Category": "Object",
+                  "Name": "Void Essence",
+                  "PercentChanceToSpawn": 100
+                },
+                {
+                  "Category": "Object",
+                  "Name": "simezi21.Dark_Club_CP_SlaveSoul",
+                  "PercentChanceToSpawn": 5
+                },
+                {
+                  "Category": "Object",
+                  "Name": "simezi21.Dark_Club_CP_SuccubusMilk",
+                  "PercentChanceToSpawn": 3
+                },
+                {
+                  "Category": "Object",
+                  "Name": "simezi21.Dark_Club_CP_SuccubusSemen",
+                  "PercentChanceToSpawn": 3
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Prismatic Shard",
+                  "PercentChanceToSpawn": 0.05
+                }
+              ],
+              "ExtraLoot": false,
+              "SightRange": 8,
+              "SeesPlayersAtSpawn": false,
+              "Sprite": "Characters/Monsters/Succubus2"
+            }
+          },
+          {
+            "MonsterName": "Skeleton Mage",
+            "Settings": {
+              "SpawnWeight": 1,
+              "HP": 500,
+              "Damage": 25,
+              "Defense": 0,
+              "DodgeChance": 0,
+              "EXP": 20,
+              "Loot": [
+                {
+                  "Category": "Object",
+                  "Name": "Void Essence",
+                  "PercentChanceToSpawn": 100
+                },
+                {
+                  "Category": "Object",
+                  "Name": "simezi21.Dark_Club_CP_SlaveSoul",
+                  "PercentChanceToSpawn": 5
+                },
+                {
+                  "Category": "Object",
+                  "Name": "simezi21.Dark_Club_CP_SuccubusMilk",
+                  "PercentChanceToSpawn": 3
+                },
+                {
+                  "Category": "Object",
+                  "Name": "simezi21.Dark_Club_CP_SuccubusSemen",
+                  "PercentChanceToSpawn": 3
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Prismatic Shard",
+                  "PercentChanceToSpawn": 0.05
+                }
+              ],
+              "ExtraLoot": false,
+              "SightRange": 8,
+              "SeesPlayersAtSpawn": false,
+              "Sprite": "Characters/Monsters/Succubus3"
+            }
+          }
+        ],
+        "UniqueAreaID": "Custom_MeatCave Monster Uterus 1",
+        "MapName": "Custom_MeatCave",
+        "MinimumSpawnsPerDay": 8,
+        "MaximumSpawnsPerDay": 12,
+        "IncludeTerrainTypes": [],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [
+          "62,12;96,53"
+        ],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": null
+      },
+      {
+        "MonsterTypes": [
+          {
+            "MonsterName": "Royal Serpent",
+            "Settings": {
+              "SpawnWeight": 1,
+              "HP": 5000,
+              "Damage": 40,
+              "Defense": 0,
+              "DodgeChance": 0,
+              "EXP": 100,
+              "Loot": [
+                {
+                  "Category": "Object",
+                  "Name": "Void Essence",
+                  "Stack": 5,
+                  "PercentChanceToSpawn": 100
+                },
+                {
+                  "Category": "Object",
+                  "Name": "simezi21.Dark_Club_CP_TentacleEgg",
+                  "Stack": 5,
+                  "PercentChanceToSpawn": 100
+                },
+                {
+                  "Category": "Object",
+                  "Name": "simezi21.Dark_Club_CP_RoperEgg",
+                  "Stack": 5,
+                  "PercentChanceToSpawn": 100
+                },
+                {
+                  "Category": "Object",
+                  "Name": "simezi21.Dark_Club_CP_SlaveSoul",
+                  "Stack": 3,
+                  "PercentChanceToSpawn": 100
+                },
+                {
+                  "Category": "Weapon",
+                  "Name": "simezi21.Dark_Club_JA_Dark_Matter",
+                  "PercentChanceToSpawn": 0.1
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Prismatic Shard",
+                  "PercentChanceToSpawn": 3
+                }
+              ],
+              "ExtraLoot": false,
+              "SightRange": 25,
+              "SeesPlayersAtSpawn": false,
+              "Segments": 18,
+              "Sprite": "Characters/Monsters/Royal Serpent"
+            }
+          }
+        ],
+        "UniqueAreaID": "Custom_MeatCave Monster Uterus 2",
+        "MapName": "Custom_MeatCave",
+        "MinimumSpawnsPerDay": 3,
+        "MaximumSpawnsPerDay": 3,
+        "IncludeTerrainTypes": [],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [
+          "70,20;88,30"
+        ],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": null
+      },
+      {
+        "MonsterTypes": [
+          {
+            "MonsterName": "Mummy",
+            "Settings": {
+              "SpawnWeight": 1,
+              "HP": 400,
+              "Damage": 25,
+              "Defense": 0,
+              "DodgeChance": 0,
+              "EXP": 20,
+              "Loot": [
+                {
+                  "Category": "Object",
+                  "Name": "Slime",
+                  "PercentChanceToSpawn": 100
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Void Essence",
+                  "PercentChanceToSpawn": 50
+                },
+                {
+                  "Category": "Object",
+                  "Name": "simezi21.Dark_Club_CP_SlaveSoul",
+                  "PercentChanceToSpawn": 8
+                },
+                {
+                  "Category": "Weapon",
+                  "Name": "simezi21.Dark_Club_JA_Slime_Rod",
+                  "PercentChanceToSpawn": 0.1
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Prismatic Shard",
+                  "PercentChanceToSpawn": 0.05
+                }
+              ],
+              "ExtraLoot": false,
+              "SightRange": 8,
+              "SeesPlayersAtSpawn": false,
+              "Sprite": "Characters/Monsters/Slime Zombie"
+            }
+          },
+          {
+            "MonsterName": "Big Slime",
+            "Settings": {
+              "SpawnWeight": 2,
+              "HP": 400,
+              "Damage": 20,
+              "Defense": 0,
+              "DodgeChance": 0,
+              "EXP": 15,
+              "Loot": [
+                {
+                  "Category": "Object",
+                  "Name": "Slime",
+                  "PercentChanceToSpawn": 100
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Void Essence",
+                  "PercentChanceToSpawn": 50
+                },
+                {
+                  "Category": "Object",
+                  "Name": "simezi21.Dark_Club_CP_ConcentratedMilk",
+                  "PercentChanceToSpawn": 5
+                },
+                {
+                  "Category": "Weapon",
+                  "Name": "simezi21.Dark_Club_JA_Slime_Rod",
+                  "PercentChanceToSpawn": 0.1
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Prismatic Shard",
+                  "PercentChanceToSpawn": 0.05
+                }
+              ],
+              "ExtraLoot": false,
+              "SightRange": 5,
+              "SeesPlayersAtSpawn": false,
+              "Sprite": "Characters/Monsters/Oppai Slime"
+            }
+          }
+        ],
+        "UniqueAreaID": "Custom_MeatCave Monster Ovary 1",
+        "MapName": "Custom_MeatCave",
+        "MinimumSpawnsPerDay": 8,
+        "MaximumSpawnsPerDay": 12,
+        "IncludeTerrainTypes": [],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [
+          "5,23;7,24",
+          "8,23;11,23",
+          "8,27;12,27",
+          "11,24;12,26",
+          "15,28;18,29",
+          "19,29;22,30",
+          "23,23;23,28",
+          "24,28;26,28",
+          "27,29;30,29",
+          "27,23;29,25",
+          "31,25;31,26",
+          "124,26;124,26",
+          "127,22;129,22",
+          "128,26;130,27",
+          "129,23;130,25",
+          "131,30;132,30",
+          "134,27;137,28",
+          "135,24;137,26",
+          "137,29;138,31",
+          "139,28;141,29",
+          "142,23;143,25",
+          "143,29;145,30",
+          "145,26;149,27",
+          "148,25;149,25",
+          "150,27;152,28",
+          "151,23;153,23",
+          "153,27;153,27",
+          "154,25;154,25"
+        ],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": null
+      },
+      {
+        "MonsterTypes": [
+          {
+            "MonsterName": "Rock Crab",
+            "Settings": {
+              "SpawnWeight": 1,
+              "HP": 10,
+              "Damage": 40,
+              "Defense": 0,
+              "DodgeChance": 0,
+              "EXP": 8,
+              "Loot": [
+                {
+                  "Category": "Object",
+                  "Name": "simezi21.Dark_Club_CP_TentacleEgg",
+                  "PercentChanceToSpawn": 50
+                },
+                {
+                  "Category": "Object",
+                  "Name": "simezi21.Dark_Club_CP_RoperEgg",
+                  "PercentChanceToSpawn": 50
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Void Essence",
+                  "PercentChanceToSpawn": 50
+                },
+                {
+                  "Category": "Weapon",
+                  "Name": "simezi21.Dark_Club_JA_Tentacle_Blade",
+                  "PercentChanceToSpawn": 0.1
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Prismatic Shard",
+                  "PercentChanceToSpawn": 0.05
+                }
+              ],
+              "ExtraLoot": false,
+              "SightRange": 1,
+              "SeesPlayersAtSpawn": false,
+              "Sprite": "Characters/Monsters/Tentacle Trap"
+            }
+          }
+        ],
+        "UniqueAreaID": "Custom_MeatCave Monster Ovary 2",
+        "MapName": "Custom_MeatCave",
+        "MinimumSpawnsPerDay": 2,
+        "MaximumSpawnsPerDay": 5,
+        "IncludeTerrainTypes": [],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [
+          "3,25;35,32",
+          "123,25;155,32"
+        ],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": null
+      },
+      {
+        "MonsterTypes": [
+          {
+            "MonsterName": "Royal Serpent",
+            "Settings": {
+              "SpawnWeight": 1,
+              "HP": 5000,
+              "Damage": 40,
+              "Defense": 0,
+              "DodgeChance": 0,
+              "EXP": 100,
+              "Loot": [
+                {
+                  "Category": "Object",
+                  "Name": "Void Essence",
+                  "Stack": 5,
+                  "PercentChanceToSpawn": 100
+                },
+                {
+                  "Category": "Object",
+                  "Name": "simezi21.Dark_Club_CP_TentacleEgg",
+                  "Stack": 5,
+                  "PercentChanceToSpawn": 100
+                },
+                {
+                  "Category": "Object",
+                  "Name": "simezi21.Dark_Club_CP_RoperEgg",
+                  "Stack": 5,
+                  "PercentChanceToSpawn": 100
+                },
+                {
+                  "Category": "Object",
+                  "Name": "simezi21.Dark_Club_CP_SlaveSoul",
+                  "Stack": 3,
+                  "PercentChanceToSpawn": 100
+                },
+                {
+                  "Category": "Weapon",
+                  "Name": "simezi21.Dark_Club_JA_Dark_Matter",
+                  "PercentChanceToSpawn": 0.1
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Prismatic Shard",
+                  "PercentChanceToSpawn": 3
+                }
+              ],
+              "ExtraLoot": false,
+              "SightRange": 25,
+              "SeesPlayersAtSpawn": false,
+              "Segments": 18,
+              "Sprite": "Characters/Monsters/Royal Serpent"
+            }
+          }
+        ],
+        "UniqueAreaID": "Custom_MeatCave_Menstruation Monster Vagina 1",
+        "MapName": "Custom_MeatCave_Menstruation",
+        "MinimumSpawnsPerDay": 15,
+        "MaximumSpawnsPerDay": 30,
+        "IncludeTerrainTypes": [],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [
+          "61,71;98,144"
+        ],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": null
+      },
+      {
+        "MonsterTypes": [
+          {
+            "MonsterName": "Royal Serpent",
+            "Settings": {
+              "SpawnWeight": 1,
+              "HP": 5000,
+              "Damage": 40,
+              "Defense": 0,
+              "DodgeChance": 0,
+              "EXP": 100,
+              "Loot": [
+                {
+                  "Category": "Object",
+                  "Name": "Void Essence",
+                  "Stack": 5,
+                  "PercentChanceToSpawn": 100
+                },
+                {
+                  "Category": "Object",
+                  "Name": "simezi21.Dark_Club_CP_TentacleEgg",
+                  "Stack": 5,
+                  "PercentChanceToSpawn": 100
+                },
+                {
+                  "Category": "Object",
+                  "Name": "simezi21.Dark_Club_CP_RoperEgg",
+                  "Stack": 5,
+                  "PercentChanceToSpawn": 100
+                },
+                {
+                  "Category": "Object",
+                  "Name": "simezi21.Dark_Club_CP_SlaveSoul",
+                  "Stack": 3,
+                  "PercentChanceToSpawn": 100
+                },
+                {
+                  "Category": "Weapon",
+                  "Name": "simezi21.Dark_Club_JA_Dark_Matter",
+                  "PercentChanceToSpawn": 0.1
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Prismatic Shard",
+                  "PercentChanceToSpawn": 3
+                }
+              ],
+              "ExtraLoot": false,
+              "SightRange": 25,
+              "SeesPlayersAtSpawn": false,
+              "Segments": 18,
+              "Sprite": "Characters/Monsters/Royal Serpent"
+            }
+          }
+        ],
+        "UniqueAreaID": "Custom_MeatCave_Menstruation Monster Uterus 1",
+        "MapName": "Custom_MeatCave_Menstruation",
+        "MinimumSpawnsPerDay": 8,
+        "MaximumSpawnsPerDay": 15,
+        "IncludeTerrainTypes": [],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [
+          "62,12;96,53"
+        ],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": null
+      },
+      {
+        "MonsterTypes": [
+          {
+            "MonsterName": "Royal Serpent",
+            "Settings": {
+              "SpawnWeight": 1,
+              "HP": 5000,
+              "Damage": 40,
+              "Defense": 0,
+              "DodgeChance": 0,
+              "EXP": 100,
+              "Loot": [
+                {
+                  "Category": "Object",
+                  "Name": "Void Essence",
+                  "Stack": 5,
+                  "PercentChanceToSpawn": 100
+                },
+                {
+                  "Category": "Object",
+                  "Name": "simezi21.Dark_Club_CP_TentacleEgg",
+                  "Stack": 5,
+                  "PercentChanceToSpawn": 100
+                },
+                {
+                  "Category": "Object",
+                  "Name": "simezi21.Dark_Club_CP_RoperEgg",
+                  "Stack": 5,
+                  "PercentChanceToSpawn": 100
+                },
+                {
+                  "Category": "Object",
+                  "Name": "simezi21.Dark_Club_CP_SlaveSoul",
+                  "Stack": 3,
+                  "PercentChanceToSpawn": 100
+                },
+                {
+                  "Category": "Weapon",
+                  "Name": "simezi21.Dark_Club_JA_Dark_Matter",
+                  "PercentChanceToSpawn": 0.1
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Prismatic Shard",
+                  "PercentChanceToSpawn": 3
+                }
+              ],
+              "ExtraLoot": false,
+              "SightRange": 25,
+              "SeesPlayersAtSpawn": false,
+              "Segments": 18,
+              "Sprite": "Characters/Monsters/Royal Serpent"
+            }
+          }
+        ],
+        "UniqueAreaID": "Custom_MeatCave_Menstruation Monster Ovary 1",
+        "MapName": "Custom_MeatCave_Menstruation",
+        "MinimumSpawnsPerDay": 5,
+        "MaximumSpawnsPerDay": 10,
+        "IncludeTerrainTypes": [],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [
+          "5,23;7,24",
+          "8,23;11,23",
+          "8,27;12,27",
+          "11,24;12,26",
+          "15,28;18,29",
+          "19,29;22,30",
+          "23,23;23,28",
+          "24,28;26,28",
+          "27,29;30,29",
+          "27,23;29,25",
+          "31,25;31,26",
+          "124,26;124,26",
+          "127,22;129,22",
+          "128,26;130,27",
+          "129,23;130,25",
+          "131,30;132,30",
+          "134,27;137,28",
+          "135,24;137,26",
+          "137,29;138,31",
+          "139,28;141,29",
+          "142,23;143,25",
+          "143,29;145,30",
+          "145,26;149,27",
+          "148,25;149,25",
+          "150,27;152,28",
+          "151,23;153,23",
+          "153,27;153,27",
+          "154,25;154,25"
+        ],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": null
+      }
+    ],
+    "CustomTileIndex": []
+  },
+  "QuarryTileIndex": [
+    556,
+    558,
+    583,
+    606,
+    607,
+    608,
+    630,
+    635,
+    636,
+    680,
+    681,
+    685
+  ],
+  "File_Conditions": {
+    "FarmTypes": [],
+    "FarmerNames": [],
+    "SaveFileNames": [],
+    "OtherMods": {}
+  }
+}

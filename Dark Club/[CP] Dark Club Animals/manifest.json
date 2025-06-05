@@ -1,0 +1,12 @@
+{
+  "Name": "Dark_Club_CP_Animals",
+  "Author": "simezi21",
+  "Version": "2.13.1",
+  "Description": "MOD 07",
+  "UniqueID": "simezi21.Dark_Club_CP_Animals",
+  "MinimumApiVersion": "3.13.0",
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher",
+    "MinimumVersion": "2.0.0"
+  },
+}

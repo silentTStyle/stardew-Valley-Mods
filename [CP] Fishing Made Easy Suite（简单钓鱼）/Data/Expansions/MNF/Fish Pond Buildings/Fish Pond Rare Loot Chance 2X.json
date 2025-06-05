@@ -1,0 +1,974 @@
+{
+	"Changes": [
+		{
+			"LogName": "MNF - Fish Pond Rare Loot Chance 2X",
+			"Action": "EditData",
+			"Target": "Data/FishPondData",
+			"Fields": {
+				"fish_alien": {
+					"ProducedItems": [
+						{
+						"RequiredPopulation": 9,
+						"Chance": 0.04,
+						"ItemID": "(O)349",
+						"MinQuantity": 1,
+						"MaxQuantity": 1
+						},
+						{
+						"RequiredPopulation": 5,
+						"Chance": 0.04,
+						"ItemID": "(O)351",
+						"MinQuantity": 1,
+						"MaxQuantity": 1
+						},
+						{
+						"RequiredPopulation": 0,
+						"Chance": 0.5,
+						"ItemID": "(O)812",
+						"MinQuantity": 1,
+						"MaxQuantity": 2
+						}
+						],
+						},
+				"fish_mudskipper": {
+					"ProducedItems": [
+						{
+						"RequiredPopulation": 8,	
+						"Chance": 0.02,
+						"ItemID": "(O)275",
+						"MinQuantity": 1,
+						"MaxQuantity": 1
+						},
+						{
+						"RequiredPopulation": 5,
+						"Chance": 0.2,
+						"ItemID": "(O)774",
+						"MinQuantity": 1,
+						"MaxQuantity": 10
+						},
+						{
+						"RequiredPopulation": 3,
+						"Chance": 0.2,
+						"ItemID": "(O)330",
+						"MinQuantity": 1,
+						"MaxQuantity": 3
+						},
+						{
+						"RequiredPopulation": 1,
+						"Chance": 0.2,
+						"ItemID": "(O)574",
+						"MinQuantity": 1,
+						"MaxQuantity": 1
+						},
+						{
+						"RequiredPopulation": 0,
+						"Chance": 0.5,
+						"ItemID": "(O)812",
+						"MinQuantity": 1,
+						"MaxQuantity": 2
+						}
+						],
+						},
+				"fish_koi": {
+					"ProducedItems": [
+						{
+						"RequiredPopulation": 10,
+						"Chance": 0.04,
+						"ItemID": "(O)628", //Cherry Sappling
+						"MinQuantity": 1,
+						"MaxQuantity": 1
+						},
+						{
+						"RequiredPopulation": 7,
+						"Chance": 0.1,
+						"ItemID": "(O)70", //jade
+						"MinQuantity": 1,
+						"MaxQuantity": 1
+						},
+						{
+						"RequiredPopulation": 5,
+						"Chance": 0.1,
+						"ItemID": "(O)566", //Celestine
+						"MinQuantity": 1,
+						"MaxQuantity": 1
+						},
+						{
+						"RequiredPopulation": 4,
+						"Chance": 0.2,
+						"ItemID": "(O)273", //rice shoot
+						"MinQuantity": 5,
+						"MaxQuantity": 10
+						},
+						{
+						"RequiredPopulation": 0,
+						"Chance": 0.5,
+						"ItemID": "(O)812", //roe
+						"MinQuantity": 1,
+						"MaxQuantity": 1
+						},
+						],
+						},
+				"fish_swordfish": {
+					"ProducedItems": [
+						{
+						"RequiredPopulation": 10,
+						"Chance": 0.1,
+						"ItemID": "(O)337", //Iridium Bar
+						"MinQuantity": 1,
+						"MaxQuantity": 3
+						},
+						{
+						"RequiredPopulation": 8,
+						"Chance": 0.20,
+						"ItemID": "(O)684", //Bug Meat
+						"MinQuantity": 20,
+						"MaxQuantity": 20
+						},
+						{
+						"RequiredPopulation": 6,
+						"Chance": 0.04,
+						"ItemID": "(O)109", //Ancient Sword
+						"MinQuantity": 1,
+						"MaxQuantity": 1
+						},
+						{
+						"RequiredPopulation": 4,
+						"Chance": 0.5,
+						"ItemID": "(O)812", //Roe
+						"MinQuantity": 1,
+						"MaxQuantity": 2
+						},
+						{
+						"RequiredPopulation": 0,
+						"Chance": 0.5,
+						"ItemID": "(O)812", //Roe
+						"MinQuantity": 1,
+						"MaxQuantity": 1
+						}
+						],
+						},
+				"fish_cave": {
+					"ProducedItems": [
+						{
+						"RequiredPopulation": 10,
+						"Chance": 0.132,
+						"ItemID": "(O)693", //Treasure Hunter
+						"MinQuantity": 1,
+						"MaxQuantity": 1
+						},
+						{
+						"RequiredPopulation": 9,
+						"Chance": 0.02,
+						"ItemID": "(O)749", //Omni Geode
+						"MinQuantity": 1,
+						"MaxQuantity": 5
+						},
+						{
+						"RequiredPopulation": 5,
+						"Chance": 0.2,
+						"ItemID": "(O)535", //Geode
+						"MinQuantity": 1,
+						"MaxQuantity": 5
+						},
+						{
+						"RequiredPopulation": 0,
+						"Chance": 0.5,
+						"ItemID": "(O)812", //roe
+						"MinQuantity": 1,
+						"MaxQuantity": 1
+						}
+						],
+						},
+				"fish_electric_catfish": {
+					"ProducedItems": [
+						{
+						"RequiredPopulation": 9,
+						"Chance": 0.02,
+						"ItemID": "(O)787",
+						"MinQuantity": 3,
+						"MaxQuantity": 5
+						},
+						{
+						"RequiredPopulation": 8,
+						"Chance": 0.02,
+						"ItemID": "(O)787",
+						"MinQuantity": 1,
+						"MaxQuantity": 2
+						},
+						{
+						"RequiredPopulation": 5,
+						"Chance": 0.25,
+						"ItemID": "(O)812",
+						"MinQuantity": 2,
+						"MaxQuantity": 3
+						},
+						{
+						"RequiredPopulation": 0,
+						"Chance": 0.5,
+						"ItemID": "(O)812",
+						"MinQuantity": 1,
+						"MaxQuantity": 1
+						}
+						],
+						},
+				"fish_vampire_fish": {
+					"ProducedItems": [
+						{
+						"RequiredPopulation": 9,
+						"Chance": 0.04,
+						"ItemID": "(O)373", //Golden Pumpkin
+						"MinQuantity": 1,
+						"MaxQuantity": 2
+						},
+						{
+						"RequiredPopulation": 5,
+						"Chance": 0.02,
+						"ItemID": "(O)879", //Monster Musk
+						"MinQuantity": 1,
+						"MaxQuantity": 1
+						},
+						{
+						"RequiredPopulation": 1,
+						"Chance": 0.04,
+						"ItemID": "(O)767", //Bat Wings
+						"MinQuantity": 30,
+						"MaxQuantity": 30
+						},
+						{
+						"RequiredPopulation": 0,
+						"Chance": 0.5,
+						"ItemID": "(O)812", //Roe
+						"MinQuantity": 1,
+						"MaxQuantity": 3
+						}
+						],
+						},
+				"fish_magic": {
+					"ProducedItems": [
+						{
+						"RequiredPopulation": 10,
+						"Chance": 0.02,
+						"ItemID": "(O)279", //Magic Rock Candy
+						"MinQuantity": 1,
+						"MaxQuantity": 1
+						},
+						{
+						"RequiredPopulation": 8,
+						"Chance": 0.1,
+						"ItemID": "(O)872", //Fairy Dust
+						"MinQuantity": 1,
+						"MaxQuantity": 1
+						},
+						{
+						"RequiredPopulation": 8,
+						"Chance": 0.2,
+						"ItemID": "(O)773", //Life Elixir
+						"MinQuantity": 1,
+						"MaxQuantity": 1
+						},
+						{
+						"RequiredPopulation": 1,
+						"Chance": 0.04,
+						"ItemID": "(O)577", //Fairy Stone
+						"MinQuantity": 1,
+						"MaxQuantity": 1
+						},
+						{
+						"RequiredPopulation": 0,
+						"Chance": 0.5,
+						"ItemID": "(O)812", //Roe
+						"MinQuantity": 1,
+						"MaxQuantity": 2
+						}
+						],
+						},
+				"fish_vampire_squid": {
+					"ProducedItems": [
+						{
+						"RequiredPopulation": 8,
+						"Chance": 0.04,
+						"ItemID": "(O)797", //Pearl
+						"MinQuantity": 1,
+						"MaxQuantity": 2
+						},
+						{
+						"RequiredPopulation": 6,
+						"Chance": 0.5,
+						"ItemID": "(O)814", //Squid Ink
+						"MinQuantity": 6,
+						"MaxQuantity": 10
+						},
+						{
+						"RequiredPopulation": 4,
+						"Chance": 0.9,
+						"ItemID": "(O)814", //Squid Ink
+						"MinQuantity": 3,
+						"MaxQuantity": 6
+						},
+						{
+						"RequiredPopulation": 0,
+						"Chance": 0.9,
+						"ItemID": "(O)814", //Squid Ink
+						"MinQuantity": 2,
+						"MaxQuantity": 2
+						}
+						],
+						},
+				"fish_goldfish": {
+					"ProducedItems": [
+						{
+						"RequiredPopulation": 10,
+						"Chance": 0.02,
+						"ItemID": "(O)124", //Golden Mask
+						"MinQuantity": 1,
+						"MaxQuantity": 1
+						},
+					    {
+						"RequiredPopulation": 9,
+						"Chance": 0.04,
+						"ItemID": "(O)104",//Elvish Jewlry
+						"MinQuantity": 1,
+						"MaxQuantity": 1
+						},
+						{
+						"RequiredPopulation": 8,
+						"Chance": 0.04,
+						"ItemID": "(O)125", //Golden Relic
+						"MinQuantity": 1,
+						"MaxQuantity": 1
+					    },
+					    {
+						"RequiredPopulation": 6,
+						"Chance": 0.25,
+						"ItemID": "(O)812",
+						"MinQuantity": 4,
+						"MaxQuantity": 10
+					    },
+					    {
+						"RequiredPopulation": 4,
+						"Chance": 0.25,
+						"ItemID": "(O)812",
+						"MinQuantity": 2,
+						"MaxQuantity": 4
+					    },
+					    {
+						"RequiredPopulation": 0,
+						"Chance": 0.25,
+						"ItemID": "(O)812",
+						"MinQuantity": 1,
+						"MaxQuantity": 2
+						}
+						],
+						},
+				"fish_great_firefly_squid": {
+					"ProducedItems": [
+						{
+						"RequiredPopulation": 9,
+						"Chance": 0.04,
+						"ItemID": "(O)74", //Prismatic Shard
+						"MinQuantity": 1,
+						"MaxQuantity": 2
+						},
+						{
+						"RequiredPopulation": 6,
+						"Chance": 0.04,
+						"ItemID": "(O)64", //Ruby
+						"MinQuantity": 1,
+						"MaxQuantity": 1
+						},
+						{
+						"RequiredPopulation": 4,
+						"Chance": 0.06,
+						"ItemID": "(O)563", //Jasper
+						"MinQuantity": 1,
+						"MaxQuantity": 1
+						},
+						{
+						"RequiredPopulation": 0,
+						"Chance": 0.2,
+						"ItemID": "(O)766", //Slime
+						"MinQuantity": 40,
+						"MaxQuantity": 40
+						},
+						{
+						"RequiredPopulation": 0,
+						"Chance": 0.9,
+						"ItemID": "(O)814",
+						"MinQuantity": 1,
+						"MaxQuantity": 5
+						}
+						],
+						},
+				"fish_octopi": {
+					"ProducedItems": [
+						{
+						"RequiredPopulation": 9,
+						"Chance": 0.132,
+						"ItemID": "(O)749",
+						"MinQuantity": 3,
+						"MaxQuantity": 3
+						},
+						{
+						"RequiredPopulation": 9,
+						"Chance": 0.02,
+						"ItemID": "(O)749",
+						"MinQuantity": 10,
+						"MaxQuantity": 10
+						},
+						{
+						"RequiredPopulation": 9,
+						"Chance": 0.2,
+						"ItemID": "(O)749",
+						"MinQuantity": 1,
+						"MaxQuantity": 1
+						},
+						{
+						"RequiredPopulation": 0,
+						"Chance": 1.0,
+						"ItemID": "(O)812",
+						"MinQuantity": 1,
+						"MaxQuantity": 1
+						}
+						],
+						},
+				"fish_starfish": {
+					"ProducedItems": [
+						{
+						"RequiredPopulation": 10,
+						"Chance": 0.02,
+						"ItemID": "(O)486", //Starfruit Seeds
+						"MinQuantity": 3,
+						"MaxQuantity": 10
+						},
+						{
+						"RequiredPopulation": 0,
+						"Chance": 0.5,
+						"ItemID": "(O)812",
+						"MinQuantity": 1,
+						"MaxQuantity": 1
+						}
+						],
+						},
+				"item_snake": {
+					"ProducedItems": [
+						{
+						"RequiredPopulation": 5,
+						"Chance": 0.3,
+						"ItemID": "(O)828", //Mummified Frog
+						"MinQuantity": 1,
+						"MaxQuantity": 1
+						},
+						{
+						"RequiredPopulation": 5,
+						"Chance": 0.3,
+						"ItemID": "(O)827", //Mummified Bat
+						"MinQuantity": 1,
+						"MaxQuantity": 1
+						},
+						{
+						"RequiredPopulation": 5,
+						"Chance": 0.3,
+						"ItemID": "(O)826", //Snake Vertebra
+						"MinQuantity": 1,
+						"MaxQuantity": 1
+						},
+						{
+						"RequiredPopulation": 5,
+						"Chance": 0.3,
+						"ItemID": "(O)825", //Snake Skull
+						"MinQuantity": 1,
+						"MaxQuantity": 1
+						},
+						],
+						},
+				"fish_manta_ray": {
+					"ProducedItems": [
+						{
+						"RequiredPopulation": 10,
+						"Chance": 0.04,
+						"ItemID": "(O)439", //Purple Slime Egg
+						"MinQuantity": 1,
+						"MaxQuantity": 1
+						},
+						{
+						"RequiredPopulation": 6,
+						"Chance": 0.20,
+						"ItemID": "(O)MNF.MoreNewFish_manta_ray_pup", //Manta Ray Pup
+						"MinQuantity": 4,
+						"MaxQuantity": 4
+						},
+						{
+						"RequiredPopulation": 4,
+						"Chance": 0.20,
+						"ItemID": "(O)MNF.MoreNewFish_manta_ray_pup", //Manta Ray Pup
+						"MinQuantity": 2,
+						"MaxQuantity": 2
+						},
+						{
+						"RequiredPopulation": 1,
+						"Chance": 0.20,
+						"ItemID": "(O)MNF.MoreNewFish_manta_ray_pup", //Manta Ray Pup
+						"MinQuantity": 1,
+						"MaxQuantity": 1
+						},
+						],
+						},
+				"fish_coelacanth": {
+					"ProducedItems": [
+						{
+						"RequiredPopulation": 10,
+						"Chance": 0.06,
+						"ItemID": "(O)275", //Artifact Trove
+						"MinQuantity": 1,
+						"MaxQuantity": 1
+						},
+						{
+						"RequiredPopulation": 8,
+						"Chance": 0.02,
+						"ItemID": "(O)107", //Dinosaur Egg
+						"MinQuantity": 1,
+						"MaxQuantity": 1
+						},
+						{
+						"RequiredPopulation": 6,
+						"Chance": 0.02,
+						"ItemID": "(O)587", //Amphibian Fossil
+						"MinQuantity": 1,
+						"MaxQuantity": 1
+						},
+						{
+						"RequiredPopulation": 5,
+						"Chance": 0.02,
+						"ItemID": "(O)586", //Nautilus Fossil
+						"MinQuantity": 1,
+						"MaxQuantity": 1
+						},
+						{
+						"RequiredPopulation": 2,
+						"Chance": 0.20,
+						"ItemID": "(O)78", //Cave Carrot
+						"MinQuantity": 5,
+						"MaxQuantity": 5
+						},
+						{
+						"RequiredPopulation": 1,
+						"Chance": 0.50,
+						"ItemID": "(O)812", //Roe
+						"MinQuantity": 1,
+						"MaxQuantity": 2
+						},
+						],
+						},
+				"fish_arowana": {
+					"ProducedItems": [
+						{
+						"RequiredPopulation": 10,
+						"Chance": 0.02,
+						"ItemID": "(O)74", //Prismatic Shard
+						"MinQuantity": 1,
+						"MaxQuantity": 1
+						},
+						{
+						"RequiredPopulation": 4,
+						"Chance": 0.51,
+						"ItemID": "(O)812", //Roe
+						"MinQuantity": 2,
+						"MaxQuantity": 2
+						},
+						{
+						"RequiredPopulation": 2,
+						"Chance": 0.5,
+						"ItemID": "(O)812", //Roe
+						"MinQuantity": 1,
+						"MaxQuantity": 2
+						},
+						{
+						"RequiredPopulation": 1,
+						"Chance": 0.50,
+						"ItemID": "(O)812", //Roe
+						"MinQuantity": 1,
+						"MaxQuantity": 1
+						},
+						],
+						},
+				"fish_triggerfish": {
+					"ProducedItems": [
+						{
+						"RequiredPopulation": 10,
+						"Chance": 0.1,
+						"ItemID": "(O)886", //Warp Totem: Island
+						"MinQuantity": 5,
+						"MaxQuantity": 5
+						},
+						{
+						"RequiredPopulation": 8,
+						"Chance": 0.04,
+						"ItemID": "(O)835", //Mango Sappling
+						"MinQuantity": 1,
+						"MaxQuantity": 1
+						},
+						{
+						"RequiredPopulation": 4,
+						"Chance": 0.3,
+						"ItemID": "(O)834", //Mango
+						"MinQuantity": 1,
+						"MaxQuantity": 1
+						},
+						{
+						"RequiredPopulation": 1,
+						"Chance": 0.50,
+						"ItemID": "(O)812", //Roe
+						"MinQuantity": 1,
+						"MaxQuantity": 1
+						},
+						],
+						},
+				"fish_blackghostfish": {
+					"ProducedItems": [
+						{
+						"RequiredPopulation": 10,
+						"Chance": 0.1,
+						"ItemID": "(O)917", //Qi Seasoning
+						"MinQuantity": 1,
+						"MaxQuantity": 1
+						},
+						{
+						"RequiredPopulation": 8,
+						"Chance": 0.20,
+						"ItemID": "(O)681", //Rain Totem
+						"MinQuantity": 1,
+						"MaxQuantity": 2
+						},
+						{
+						"RequiredPopulation": 4,
+						"Chance": 0.4,
+						"ItemID": "(O)829", //Ginger
+						"MinQuantity": 1,
+						"MaxQuantity": 3
+						},
+						{
+						"RequiredPopulation": 1,
+						"Chance": 0.50,
+						"ItemID": "(O)812", //Roe
+						"MinQuantity": 1,
+						"MaxQuantity": 1
+						},
+						],
+						},
+				"fish_bonnethead": {
+					"ProducedItems": [
+						{
+						"RequiredPopulation": 10,
+						"Chance": 0.02,
+						"ItemID": "(O)857", //Tiger Slime Egg
+						"MinQuantity": 1,
+						"MaxQuantity": 1
+						},
+						{
+						"RequiredPopulation": 8,
+						"Chance": 0.20,
+						"ItemID": "(O)848", //Cinder Shard
+						"MinQuantity": 5,
+						"MaxQuantity": 10
+						},
+						{
+						"RequiredPopulation": 6,
+						"Chance": 0.20,
+						"ItemID": "(O)MNF.MoreNewFish_bonnethead_pup", //Bonnethead Pup
+						"MinQuantity": 4,
+						"MaxQuantity": 4
+						},
+						{
+						"RequiredPopulation": 4,
+						"Chance": 0.20,
+						"ItemID": "(O)MNF.MoreNewFish_bonnethead_pup", //Bonnethead Pup
+						"MinQuantity": 2,
+						"MaxQuantity": 2
+						},
+						{
+						"RequiredPopulation": 1,
+						"Chance": 0.20,
+						"ItemID": "(O)MNF.MoreNewFish_bonnethead_pup", //Bonnethead Pup
+						"MinQuantity": 1,
+						"MaxQuantity": 1
+						},
+						],
+						},
+				"fish_goblinshark": {
+					"ProducedItems": [
+						{
+						"RequiredPopulation": 10,
+						"Chance": 0.1,
+						"ItemID": "(O)413", //Blue Slime Egg
+						"MinQuantity": 1,
+						"MaxQuantity": 2
+						},
+						{
+						"RequiredPopulation": 8,
+						"Chance": 0.1,
+						"ItemID": "(O)856", //Curiosity Lure
+						"MinQuantity": 1,
+						"MaxQuantity": 1
+						},
+						{
+						"RequiredPopulation": 6,
+						"Chance": 0.20,
+						"ItemID": "(O)MNF.MoreNewFish_goblin_shark_pup", //Goblin Shark Pup
+						"MinQuantity": 4,
+						"MaxQuantity": 4
+						},
+						{
+						"RequiredPopulation": 4,
+						"Chance": 0.20,
+						"ItemID": "(O)MNF.MoreNewFish_goblin_shark_pup", //Goblin Shark Pup
+						"MinQuantity": 2,
+						"MaxQuantity": 2
+						},
+						{
+						"RequiredPopulation": 1,
+						"Chance": 0.20,
+						"ItemID": "(O)MNF.MoreNewFish_goblin_shark_pup", //Goblin Shark Pup
+						"MinQuantity": 1,
+						"MaxQuantity": 1
+						},
+						],
+						},
+				"fish_dogfish": {
+					"ProducedItems": [
+						{
+						"RequiredPopulation": 10,
+						"Chance": 0.02,
+						"ItemID": "(O)166", //Treasure Chest
+						"MinQuantity": 1,
+						"MaxQuantity": 1
+						},
+						{
+						"RequiredPopulation": 8,
+						"Chance": 0.1,
+						"ItemID": "(O)881", //Bone Fragment
+						"MinQuantity": 10,
+						"MaxQuantity": 20
+						},
+						{
+						"RequiredPopulation": 6,
+						"Chance": 0.20,
+						"ItemID": "(O)MNF.MoreNewFish_spiny_dogfish_pup", //Spiny Dogfish Pup
+						"MinQuantity": 4,
+						"MaxQuantity": 4
+						},
+						{
+						"RequiredPopulation": 4,
+						"Chance": 0.20,
+						"ItemID": "(O)MNF.MoreNewFish_spiny_dogfish_pup", //Spiny Dogfish Pup
+						"MinQuantity": 2,
+						"MaxQuantity": 2
+						},
+						{
+						"RequiredPopulation": 1,
+						"Chance": 0.20,
+						"ItemID": "(O)MNF.MoreNewFish_spiny_dogfish_pup", //Spiny Dogfish Pup
+						"MinQuantity": 1,
+						"MaxQuantity": 1
+						},
+						],
+						},
+				"fish_cyclopshark": {
+					"ProducedItems": [
+						{
+						"RequiredPopulation": 10,
+						"Chance": 0.20,
+						"ItemID": "(O)275", //Artifact Trove
+						"MinQuantity": 5,
+						"MaxQuantity": 5
+						},
+						{
+						"RequiredPopulation": 8,
+						"Chance": 0.5,
+						"ItemID": "(O)749", //Omni Geode
+						"MinQuantity": 10,
+						"MaxQuantity": 10
+						},
+						{
+						"RequiredPopulation": 4,
+						"Chance": 0.5,
+						"ItemID": "(O)535", //Geode
+						"MinQuantity": 10,
+						"MaxQuantity": 10
+						},
+						],
+						},
+				"fish_dumbooctopus": {
+					"ProducedItems": [
+						{
+						"RequiredPopulation": 9,
+						"Chance": 0.132,
+						"ItemID": "(O)749",
+						"MinQuantity": 3,
+						"MaxQuantity": 3
+						},
+						{
+						"RequiredPopulation": 9,
+						"Chance": 0.02,
+						"ItemID": "(O)749",
+						"MinQuantity": 10,
+						"MaxQuantity": 10
+						},
+						{
+						"RequiredPopulation": 9,
+						"Chance": 0.2,
+						"ItemID": "(O)749",
+						"MinQuantity": 1,
+						"MaxQuantity": 1
+						},
+						{
+						"RequiredPopulation": 6,
+						"Chance": 0.1,
+						"ItemID": "(O)336",
+						"MinQuantity": 1,
+						"MaxQuantity": 1
+						},
+						{
+						"RequiredPopulation": 4,
+						"Chance": 0.2,
+						"ItemID": "(O)555",
+						"MinQuantity": 1,
+						"MaxQuantity": 1
+						},
+						{
+						"RequiredPopulation": 0,
+						"Chance": 1.0,
+						"ItemID": "(O)812",
+						"MinQuantity": 1,
+						"MaxQuantity": 1
+						}
+						],
+						},
+				"fish_brainslug": {
+					"ProducedItems": [
+						{
+						"RequiredPopulation": 10,
+						"Chance": 0.02,
+						"ItemID": "(O)347", //Rare Seed
+						"MinQuantity": 1,
+						"MaxQuantity": 1
+						},
+						{
+						"RequiredPopulation": 10,
+						"Chance": 0.02,
+						"ItemID": "(O)MNF.MoreNewFish_i_voted_sticker",
+						"MinQuantity": 3,
+						"MaxQuantity": 18
+						},
+						{
+						"RequiredPopulation": 8,
+						"Chance": 0.2,
+						"ItemID": "(O)369", //Quality Fertilizer
+						"MinQuantity": 1,
+						"MaxQuantity": 4
+						},
+						{
+						"RequiredPopulation": 8,
+						"Chance": 0.2,
+						"ItemID": "(O)466", //Deluxe Speed-Gro
+						"MinQuantity": 1,
+						"MaxQuantity": 4
+						},
+						{
+						"RequiredPopulation": 0,
+						"Chance": 0.5,
+						"ItemID": "(O)812", 
+						"MinQuantity": 1,
+						"MaxQuantity": 1
+						}
+						],
+						},
+				"fish_blinky": {
+					"ProducedItems": [
+						{
+						"RequiredPopulation": 10,
+						"Chance": 0.1,
+						"ItemID": "(O)909", //Reactive Ore
+						"MinQuantity": 1,
+						"MaxQuantity": 3
+						},
+						{
+						"RequiredPopulation": 4,
+						"Chance": 0.2,
+						"ItemID": "(O)MNF.MoreNewFish_duff",
+						"MinQuantity": 1,
+						"MaxQuantity": 2
+						},
+						{
+						"RequiredPopulation": 4,
+						"Chance": 0.2,
+						"ItemID": "(O)766", //Slime
+						"MinQuantity": 3,
+						"MaxQuantity": 8
+						},
+						{
+						"RequiredPopulation": 0,
+						"Chance": 0.2,
+						"ItemID": "(O)766", //Slime
+						"MinQuantity": 1,
+						"MaxQuantity": 5
+						},
+						{
+						"RequiredPopulation": 0,
+						"Chance": 0.5,
+						"ItemID": "(O)812",
+						"MinQuantity": 1,
+						"MaxQuantity": 20
+						}
+						],
+						},
+				"fish_dwarfstingray": {
+					"ProducedItems": [
+						{
+						"RequiredPopulation": 10,
+					    "Chance": 0.04,
+					    "ItemID": "(O)122", //Dwarf Gadget
+					    "MinQuantity": 1,
+						"MaxQuantity": 1
+						},
+						{
+						"RequiredPopulation": 8,
+						"Chance": 0.04,
+						"ItemID": "(O)121", //Dwarvish Helmet
+						"MinQuantity": 1,
+						"MaxQuantity": 1
+						},
+						{
+						"RequiredPopulation": 8,
+						"Chance": 0.04,
+						"ItemID": "(O)112", //Rusty Cog
+						"MinQuantity": 1,
+						"MaxQuantity": 1
+						},
+						{
+						"RequiredPopulation": 6,
+						"Chance": 0.20,
+						"ItemID": "(O)MNF.MoreNewFish_dwarf_stingray_pup", //Dwarf Stingray Pup
+						"MinQuantity": 4,
+						"MaxQuantity": 4
+						},
+						{
+						"RequiredPopulation": 4,
+						"Chance": 0.20,
+						"ItemID": "(O)MNF.MoreNewFish_dwarf_stingray_pup", //Dwarf Stingray Pup
+						"MinQuantity": 2,
+						"MaxQuantity": 2
+						},
+						{
+						"RequiredPopulation": 1,
+						"Chance": 0.20,
+						"ItemID": "(O)MNF.MoreNewFish_dwarf_stingray_pup", //Dwarf Stingray Pup
+						"MinQuantity": 1,
+						"MaxQuantity": 1
+						},
+						],
+						},
+						},	
+			"When": {"Fish Pond Rare Loot": "Rare Loot Chance 2X"},
+		},
+	]
+}

@@ -1,0 +1,1052 @@
+{
+	"Changes": [
+		{
+			"LogName": "SVE - Jelly Spawn Rates Adventurer Summit Slightly Common (True 10%)",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_AdventurerSummit", "Fish" ],
+			"Fields": {
+			    "FlashShifter.StardewValleyExpandedCP_RiverJelly": {"Chance": 0.1}, //River Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Slightly Common (True 10%)"},
+		},
+		{
+			"LogName": "SVE - Jelly Spawn Rates Blue Moon Vineyard Slightly Common (True 10%)",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_BlueMoonVineyard", "Fish" ],
+			"Fields": {
+			    "FlashShifter.StardewValleyExpandedCP_RiverJelly": {"Chance": 0.1}, //River Jelly
+				"FlashShifter.StardewValleyExpandedCP_SeaJelly": {"Chance": 0.1}, //Sea Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Slightly Common (True 10%)"},
+		},
+		{
+			"LogName": "SVE - Jelly Spawn Rates Fable Reef Slightly Common (True 10%)",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_FableReef", "Fish" ],
+			"Fields": {
+				"FlashShifter.StardewValleyExpandedCP_SeaJelly": {"Chance": 0.1}, //Sea Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Slightly Common (True 10%)"},
+		},
+		{
+			"LogName": "SVE - Jelly Spawn Rates Forest West Slightly Common (True 10%)",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_ForestWest", "Fish" ],
+			"Fields": {
+			    "FlashShifter.StardewValleyExpandedCP_RiverJelly": {"Chance": 0.1}, //River Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Slightly Common (True 10%)"},
+		},
+		{
+			"LogName": "SVE - Jelly Spawn Rates GrampletonSuburbs Slightly Common (True 10%)",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_GrampletonSuburbs", "Fish" ],
+			"Fields": {
+			    "FlashShifter.StardewValleyExpandedCP_RiverJelly": {"Chance": 0.1}, //River Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Slightly Common (True 10%)"},
+		},
+		{
+			"LogName": "SVE - Jelly Spawn Rates Grampleton Suburbs Train Station Slightly Common (True 10%)",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_GrampletonSuburbsTrainStation", "Fish" ],
+			"Fields": {
+			    "FlashShifter.StardewValleyExpandedCP_RiverJelly": {"Chance": 0.1}, //River Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Slightly Common (True 10%)"},
+		},
+		{
+			"LogName": "SVE - Jelly Spawn Rates Highlands Slightly Common (True 10%)",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_Highlands", "Fish" ],
+			"Fields": {
+			    "FlashShifter.StardewValleyExpandedCP_RiverJelly": {"Chance": 0.1}, //River Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Slightly Common (True 10%)"},
+		},
+		{
+			"LogName": "SVE - Jelly Spawn Rates Junimo Woods Slightly Common (True 10%)",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_JunimoWoods", "Fish" ],
+			"Fields": {
+			    "FlashShifter.StardewValleyExpandedCP_RiverJelly": {"Chance": 0.1}, //River Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Slightly Common (True 10%)"},
+		},
+		{
+			"LogName": "SVE - Jelly Spawn Rates Morris Property Slightly Common (True 10%)",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_MorrisProperty", "Fish" ],
+			"Fields": {
+			    "FlashShifter.StardewValleyExpandedCP_RiverJelly": {"Chance": 0.1}, //River Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Slightly Common (True 10%)"},
+		},
+		{
+			"LogName": "SVE - Jelly Spawn Rates Shearwater Bridge Slightly Common (True 10%)",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_ShearwaterBridge", "Fish" ],
+			"Fields": {
+			    "FlashShifter.StardewValleyExpandedCP_RiverJelly": {"Chance": 0.1}, //River Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Slightly Common (True 10%)"},
+		},
+		{
+			"LogName": "SVE - Jelly Spawn Rates Sprite Spring 2 Slightly Common (True 10%)",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_SpriteSpring2", "Fish" ],
+			"Fields": {
+			    "FlashShifter.StardewValleyExpandedCP_RiverJelly": {"Chance": 0.1}, //River Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Slightly Common (True 10%)"},
+		},
+		{
+			"LogName": "SVE - Jelly Spawn Rates Highlands Cavern Slightly Common (True 10%)",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_HighlandsCavern", "Fish" ],
+			"Fields": {
+			    "FlashShifter.StardewValleyExpandedCP_CaveJelly": {"Chance": 0.1}, //Cave Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Slightly Common (True 10%)"},
+		},
+		{
+			"LogName": "SVE - Jelly Spawn Rates Diamond Cavern Slightly Common (True 10%)",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_DiamondCavern", "Fish" ],
+			"Fields": {
+			    "FlashShifter.StardewValleyExpandedCP_CaveJelly": {"Chance": 0.1}, //Cave Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Slightly Common (True 10%)"},
+		},
+		{
+			"LogName": "SVE - Jelly Spawn Rates Adventurer Summit Common (20%)",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_AdventurerSummit", "Fish" ],
+			"Fields": {
+			    "FlashShifter.StardewValleyExpandedCP_RiverJelly": {"Chance": 0.2}, //River Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Common (20%)"},
+		},
+		{
+			"LogName": "SVE - Jelly Spawn Rates Blue Moon Vineyard Common (20%)",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_BlueMoonVineyard", "Fish" ],
+			"Fields": {
+			    "FlashShifter.StardewValleyExpandedCP_RiverJelly": {"Chance": 0.2}, //River Jelly
+				"FlashShifter.StardewValleyExpandedCP_SeaJelly": {"Chance": 0.2}, //Sea Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Common (20%)"},
+		},
+		{
+			"LogName": "SVE - Jelly Spawn Rates Fable Reef Common (20%)",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_FableReef", "Fish" ],
+			"Fields": {
+				"FlashShifter.StardewValleyExpandedCP_SeaJelly": {"Chance": 0.2}, //Sea Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Common (20%)"},
+		},
+		{
+			"LogName": "SVE - Jelly Spawn Rates Forest West Common (20%)",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_ForestWest", "Fish" ],
+			"Fields": {
+			    "FlashShifter.StardewValleyExpandedCP_RiverJelly": {"Chance": 0.2}, //River Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Common (20%)"},
+		},
+		{
+			"LogName": "SVE - Jelly Spawn Rates GrampletonSuburbs Common (20%)",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_GrampletonSuburbs", "Fish" ],
+			"Fields": {
+			    "FlashShifter.StardewValleyExpandedCP_RiverJelly": {"Chance": 0.2}, //River Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Common (20%)"},
+		},
+		{
+			"LogName": "SVE - Jelly Spawn Rates Grampleton Suburbs Train Station Common (20%)",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_GrampletonSuburbsTrainStation", "Fish" ],
+			"Fields": {
+			    "FlashShifter.StardewValleyExpandedCP_RiverJelly": {"Chance": 0.2}, //River Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Common (20%)"},
+		},
+		{
+			"LogName": "SVE - Jelly Spawn Rates Highlands Common (20%)",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_Highlands", "Fish" ],
+			"Fields": {
+			    "FlashShifter.StardewValleyExpandedCP_RiverJelly": {"Chance": 0.2}, //River Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Common (20%)"},
+		},
+		{
+			"LogName": "SVE - Jelly Spawn Rates Junimo Woods Common (20%)",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_JunimoWoods", "Fish" ],
+			"Fields": {
+			    "FlashShifter.StardewValleyExpandedCP_RiverJelly": {"Chance": 0.2}, //River Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Common (20%)"},
+		},
+		{
+			"LogName": "SVE - Jelly Spawn Rates Morris Property Common (20%)",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_MorrisProperty", "Fish" ],
+			"Fields": {
+			    "FlashShifter.StardewValleyExpandedCP_RiverJelly": {"Chance": 0.2}, //River Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Common (20%)"},
+		},
+		{
+			"LogName": "SVE - Jelly Spawn Rates Shearwater Bridge Common (20%)",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_ShearwaterBridge", "Fish" ],
+			"Fields": {
+			    "FlashShifter.StardewValleyExpandedCP_RiverJelly": {"Chance": 0.2}, //River Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Common (20%)"},
+		},
+		{
+			"LogName": "SVE - Jelly Spawn Rates Sprite Spring 2 Common (20%)",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_SpriteSpring2", "Fish" ],
+			"Fields": {
+			    "FlashShifter.StardewValleyExpandedCP_RiverJelly": {"Chance": 0.2}, //River Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Common (20%)"},
+		},
+		{
+			"LogName": "SVE - Jelly Spawn Rates Highlands Cavern Common (20%)",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_HighlandsCavern", "Fish" ],
+			"Fields": {
+			    "FlashShifter.StardewValleyExpandedCP_CaveJelly": {"Chance": 0.2}, //Cave Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Common (20%)"},
+		},
+		{
+			"LogName": "SVE - Jelly Spawn Rates Diamond Cavern Common (20%)",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_DiamondCavern", "Fish" ],
+			"Fields": {
+			    "FlashShifter.StardewValleyExpandedCP_CaveJelly": {"Chance": 0.2}, //Cave Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Common (20%)"},
+		},
+		{
+			"LogName": "SVE - Jelly Spawn Rates Adventurer Summit More Common (30%)",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_AdventurerSummit", "Fish" ],
+			"Fields": {
+			    "FlashShifter.StardewValleyExpandedCP_RiverJelly": {"Chance": 0.3}, //River Jelly
+					},
+				"When": {"Jelly Spawn Rates": "More Common (30%)"},
+		},
+		{
+			"LogName": "SVE - Jelly Spawn Rates Blue Moon Vineyard More Common (30%)",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_BlueMoonVineyard", "Fish" ],
+			"Fields": {
+			    "FlashShifter.StardewValleyExpandedCP_RiverJelly": {"Chance": 0.3}, //River Jelly
+				"FlashShifter.StardewValleyExpandedCP_SeaJelly": {"Chance": 0.3}, //Sea Jelly
+					},
+				"When": {"Jelly Spawn Rates": "More Common (30%)"},
+		},
+		{
+			"LogName": "SVE - Jelly Spawn Rates Fable Reef More Common (30%)",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_FableReef", "Fish" ],
+			"Fields": {
+				"FlashShifter.StardewValleyExpandedCP_SeaJelly": {"Chance": 0.3}, //Sea Jelly
+					},
+				"When": {"Jelly Spawn Rates": "More Common (30%)"},
+		},
+		{
+			"LogName": "SVE - Jelly Spawn Rates Forest West More Common (30%)",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_ForestWest", "Fish" ],
+			"Fields": {
+			    "FlashShifter.StardewValleyExpandedCP_RiverJelly": {"Chance": 0.3}, //River Jelly
+					},
+				"When": {"Jelly Spawn Rates": "More Common (30%)"},
+		},
+		{
+			"LogName": "SVE - Jelly Spawn Rates GrampletonSuburbs More Common (30%)",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_GrampletonSuburbs", "Fish" ],
+			"Fields": {
+			    "FlashShifter.StardewValleyExpandedCP_RiverJelly": {"Chance": 0.3}, //River Jelly
+					},
+				"When": {"Jelly Spawn Rates": "More Common (30%)"},
+		},
+		{
+			"LogName": "SVE - Jelly Spawn Rates Grampleton Suburbs Train Station More Common (30%)",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_GrampletonSuburbsTrainStation", "Fish" ],
+			"Fields": {
+			    "FlashShifter.StardewValleyExpandedCP_RiverJelly": {"Chance": 0.3}, //River Jelly
+					},
+				"When": {"Jelly Spawn Rates": "More Common (30%)"},
+		},
+		{
+			"LogName": "SVE - Jelly Spawn Rates Highlands More Common (30%)",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_Highlands", "Fish" ],
+			"Fields": {
+			    "FlashShifter.StardewValleyExpandedCP_RiverJelly": {"Chance": 0.3}, //River Jelly
+					},
+				"When": {"Jelly Spawn Rates": "More Common (30%)"},
+		},
+		{
+			"LogName": "SVE - Jelly Spawn Rates Junimo Woods More Common (30%)",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_JunimoWoods", "Fish" ],
+			"Fields": {
+			    "FlashShifter.StardewValleyExpandedCP_RiverJelly": {"Chance": 0.3}, //River Jelly
+					},
+				"When": {"Jelly Spawn Rates": "More Common (30%)"},
+		},
+		{
+			"LogName": "SVE - Jelly Spawn Rates Morris Property More Common (30%)",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_MorrisProperty", "Fish" ],
+			"Fields": {
+			    "FlashShifter.StardewValleyExpandedCP_RiverJelly": {"Chance": 0.3}, //River Jelly
+					},
+				"When": {"Jelly Spawn Rates": "More Common (30%)"},
+		},
+		{
+			"LogName": "SVE - Jelly Spawn Rates Shearwater Bridge More Common (30%)",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_ShearwaterBridge", "Fish" ],
+			"Fields": {
+			    "FlashShifter.StardewValleyExpandedCP_RiverJelly": {"Chance": 0.3}, //River Jelly
+					},
+				"When": {"Jelly Spawn Rates": "More Common (30%)"},
+		},
+		{
+			"LogName": "SVE - Jelly Spawn Rates Sprite Spring 2 More Common (30%)",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_SpriteSpring2", "Fish" ],
+			"Fields": {
+			    "FlashShifter.StardewValleyExpandedCP_RiverJelly": {"Chance": 0.3}, //River Jelly
+					},
+				"When": {"Jelly Spawn Rates": "More Common (30%)"},
+		},
+		{
+			"LogName": "SVE - Jelly Spawn Rates Highlands Cavern More Common (30%)",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_HighlandsCavern", "Fish" ],
+			"Fields": {
+			    "FlashShifter.StardewValleyExpandedCP_CaveJelly": {"Chance": 0.3}, //Cave Jelly
+					},
+				"When": {"Jelly Spawn Rates": "More Common (30%)"},
+		},
+		{
+			"LogName": "SVE - Jelly Spawn Rates Diamond Cavern More Common (30%)",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_DiamondCavern", "Fish" ],
+			"Fields": {
+			    "FlashShifter.StardewValleyExpandedCP_CaveJelly": {"Chance": 0.3}, //Cave Jelly
+					},
+				"When": {"Jelly Spawn Rates": "More Common (30%)"},
+		},
+		{
+			"LogName": "SVE - Jelly Spawn Rates Adventurer Summit Very Common (50%)",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_AdventurerSummit", "Fish" ],
+			"Fields": {
+			    "FlashShifter.StardewValleyExpandedCP_RiverJelly": {"Chance": 0.5}, //River Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Very Common (50%)"},
+		},
+		{
+			"LogName": "SVE - Jelly Spawn Rates Blue Moon Vineyard Very Common (50%)",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_BlueMoonVineyard", "Fish" ],
+			"Fields": {
+			    "FlashShifter.StardewValleyExpandedCP_RiverJelly": {"Chance": 0.5}, //River Jelly
+				"FlashShifter.StardewValleyExpandedCP_SeaJelly": {"Chance": 0.5}, //Sea Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Very Common (50%)"},
+		},
+		{
+			"LogName": "SVE - Jelly Spawn Rates Fable Reef Very Common (50%)",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_FableReef", "Fish" ],
+			"Fields": {
+				"FlashShifter.StardewValleyExpandedCP_SeaJelly": {"Chance": 0.5}, //Sea Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Very Common (50%)"},
+		},
+		{
+			"LogName": "SVE - Jelly Spawn Rates Forest West Very Common (50%)",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_ForestWest", "Fish" ],
+			"Fields": {
+			    "FlashShifter.StardewValleyExpandedCP_RiverJelly": {"Chance": 0.5}, //River Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Very Common (50%)"},
+		},
+		{
+			"LogName": "SVE - Jelly Spawn Rates GrampletonSuburbs Very Common (50%)",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_GrampletonSuburbs", "Fish" ],
+			"Fields": {
+			    "FlashShifter.StardewValleyExpandedCP_RiverJelly": {"Chance": 0.5}, //River Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Very Common (50%)"},
+		},
+		{
+			"LogName": "SVE - Jelly Spawn Rates Grampleton Suburbs Train Station Very Common (50%)",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_GrampletonSuburbsTrainStation", "Fish" ],
+			"Fields": {
+			    "FlashShifter.StardewValleyExpandedCP_RiverJelly": {"Chance": 0.5}, //River Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Very Common (50%)"},
+		},
+		{
+			"LogName": "SVE - Jelly Spawn Rates Highlands Very Common (50%)",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_Highlands", "Fish" ],
+			"Fields": {
+			    "FlashShifter.StardewValleyExpandedCP_RiverJelly": {"Chance": 0.5}, //River Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Very Common (50%)"},
+		},
+		{
+			"LogName": "SVE - Jelly Spawn Rates Junimo Woods Very Common (50%)",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_JunimoWoods", "Fish" ],
+			"Fields": {
+			    "FlashShifter.StardewValleyExpandedCP_RiverJelly": {"Chance": 0.5}, //River Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Very Common (50%)"},
+		},
+		{
+			"LogName": "SVE - Jelly Spawn Rates Morris Property Very Common (50%)",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_MorrisProperty", "Fish" ],
+			"Fields": {
+			    "FlashShifter.StardewValleyExpandedCP_RiverJelly": {"Chance": 0.5}, //River Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Very Common (50%)"},
+		},
+		{
+			"LogName": "SVE - Jelly Spawn Rates Shearwater Bridge Very Common (50%)",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_ShearwaterBridge", "Fish" ],
+			"Fields": {
+			    "FlashShifter.StardewValleyExpandedCP_RiverJelly": {"Chance": 0.5}, //River Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Very Common (50%)"},
+		},
+		{
+			"LogName": "SVE - Jelly Spawn Rates Sprite Spring 2 Very Common (50%)",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_SpriteSpring2", "Fish" ],
+			"Fields": {
+			    "FlashShifter.StardewValleyExpandedCP_RiverJelly": {"Chance": 0.5}, //River Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Very Common (50%)"},
+		},
+		{
+			"LogName": "SVE - Jelly Spawn Rates Highlands Cavern Very Common (50%)",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_HighlandsCavern", "Fish" ],
+			"Fields": {
+			    "FlashShifter.StardewValleyExpandedCP_CaveJelly": {"Chance": 0.5}, //Cave Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Very Common (50%)"},
+		},
+		{
+			"LogName": "SVE - Jelly Spawn Rates Diamond Cavern Very Common (50%)",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_DiamondCavern", "Fish" ],
+			"Fields": {
+			    "FlashShifter.StardewValleyExpandedCP_CaveJelly": {"Chance": 0.5}, //Cave Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Very Common (50%)"},
+		},
+		{
+			"LogName": "SVE - Jelly Spawn Rates Adventurer Summit Rare (7%)",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_AdventurerSummit", "Fish" ],
+			"Fields": {
+			    "FlashShifter.StardewValleyExpandedCP_RiverJelly": {"Chance": 0.07}, //River Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Rare (7%)"},
+		},
+		{
+			"LogName": "SVE - Jelly Spawn Rates Blue Moon Vineyard Rare (7%)",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_BlueMoonVineyard", "Fish" ],
+			"Fields": {
+			    "FlashShifter.StardewValleyExpandedCP_RiverJelly": {"Chance": 0.07}, //River Jelly
+				"FlashShifter.StardewValleyExpandedCP_SeaJelly": {"Chance": 0.07}, //Sea Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Rare (7%)"},
+		},
+		{
+			"LogName": "SVE - Jelly Spawn Rates Fable Reef Rare (7%)",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_FableReef", "Fish" ],
+			"Fields": {
+				"FlashShifter.StardewValleyExpandedCP_SeaJelly": {"Chance": 0.07}, //Sea Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Rare (7%)"},
+		},
+		{
+			"LogName": "SVE - Jelly Spawn Rates Forest West Rare (7%)",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_ForestWest", "Fish" ],
+			"Fields": {
+			    "FlashShifter.StardewValleyExpandedCP_RiverJelly": {"Chance": 0.07}, //River Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Rare (7%)"},
+		},
+		{
+			"LogName": "SVE - Jelly Spawn Rates GrampletonSuburbs Rare (7%)",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_GrampletonSuburbs", "Fish" ],
+			"Fields": {
+			    "FlashShifter.StardewValleyExpandedCP_RiverJelly": {"Chance": 0.07}, //River Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Rare (7%)"},
+		},
+		{
+			"LogName": "SVE - Jelly Spawn Rates Grampleton Suburbs Train Station Rare (7%)",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_GrampletonSuburbsTrainStation", "Fish" ],
+			"Fields": {
+			    "FlashShifter.StardewValleyExpandedCP_RiverJelly": {"Chance": 0.07}, //River Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Rare (7%)"},
+		},
+		{
+			"LogName": "SVE - Jelly Spawn Rates Highlands Rare (7%)",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_Highlands", "Fish" ],
+			"Fields": {
+			    "FlashShifter.StardewValleyExpandedCP_RiverJelly": {"Chance": 0.07}, //River Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Rare (7%)"},
+		},
+		{
+			"LogName": "SVE - Jelly Spawn Rates Junimo Woods Rare (7%)",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_JunimoWoods", "Fish" ],
+			"Fields": {
+			    "FlashShifter.StardewValleyExpandedCP_RiverJelly": {"Chance": 0.07}, //River Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Rare (7%)"},
+		},
+		{
+			"LogName": "SVE - Jelly Spawn Rates Morris Property Rare (7%)",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_MorrisProperty", "Fish" ],
+			"Fields": {
+			    "FlashShifter.StardewValleyExpandedCP_RiverJelly": {"Chance": 0.07}, //River Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Rare (7%)"},
+		},
+		{
+			"LogName": "SVE - Jelly Spawn Rates Shearwater Bridge Rare (7%)",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_ShearwaterBridge", "Fish" ],
+			"Fields": {
+			    "FlashShifter.StardewValleyExpandedCP_RiverJelly": {"Chance": 0.07}, //River Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Rare (7%)"},
+		},
+		{
+			"LogName": "SVE - Jelly Spawn Rates Sprite Spring 2 Rare (7%)",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_SpriteSpring2", "Fish" ],
+			"Fields": {
+			    "FlashShifter.StardewValleyExpandedCP_RiverJelly": {"Chance": 0.07}, //River Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Rare (7%)"},
+		},
+		{
+			"LogName": "SVE - Jelly Spawn Rates Highlands Cavern Rare (7%)",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_HighlandsCavern", "Fish" ],
+			"Fields": {
+			    "FlashShifter.StardewValleyExpandedCP_CaveJelly": {"Chance": 0.07}, //Cave Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Rare (7%)"},
+		},
+		{
+			"LogName": "SVE - Jelly Spawn Rates Diamond Cavern Rare (7%)",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_DiamondCavern", "Fish" ],
+			"Fields": {
+			    "FlashShifter.StardewValleyExpandedCP_CaveJelly": {"Chance": 0.07}, //Cave Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Rare (7%)"},
+		},
+		{
+			"LogName": "SVE - Jelly Spawn Rates Adventurer Summit Very Rare (5%)",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_AdventurerSummit", "Fish" ],
+			"Fields": {
+			    "FlashShifter.StardewValleyExpandedCP_RiverJelly": {"Chance": 0.05}, //River Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Very Rare (5%)"},
+		},
+		{
+			"LogName": "SVE - Jelly Spawn Rates Blue Moon Vineyard Very Rare (5%)",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_BlueMoonVineyard", "Fish" ],
+			"Fields": {
+			    "FlashShifter.StardewValleyExpandedCP_RiverJelly": {"Chance": 0.05}, //River Jelly
+				"FlashShifter.StardewValleyExpandedCP_SeaJelly": {"Chance": 0.05}, //Sea Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Very Rare (5%)"},
+		},
+		{
+			"LogName": "SVE - Jelly Spawn Rates Fable Reef Very Rare (5%)",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_FableReef", "Fish" ],
+			"Fields": {
+				"FlashShifter.StardewValleyExpandedCP_SeaJelly": {"Chance": 0.05}, //Sea Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Very Rare (5%)"},
+		},
+		{
+			"LogName": "SVE - Jelly Spawn Rates Forest West Very Rare (5%)",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_ForestWest", "Fish" ],
+			"Fields": {
+			    "FlashShifter.StardewValleyExpandedCP_RiverJelly": {"Chance": 0.05}, //River Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Very Rare (5%)"},
+		},
+		{
+			"LogName": "SVE - Jelly Spawn Rates GrampletonSuburbs Very Rare (5%)",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_GrampletonSuburbs", "Fish" ],
+			"Fields": {
+			    "FlashShifter.StardewValleyExpandedCP_RiverJelly": {"Chance": 0.05}, //River Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Very Rare (5%)"},
+		},
+		{
+			"LogName": "SVE - Jelly Spawn Rates Grampleton Suburbs Train Station Very Rare (5%)",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_GrampletonSuburbsTrainStation", "Fish" ],
+			"Fields": {
+			    "FlashShifter.StardewValleyExpandedCP_RiverJelly": {"Chance": 0.05}, //River Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Very Rare (5%)"},
+		},
+		{
+			"LogName": "SVE - Jelly Spawn Rates Highlands Very Rare (5%)",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_Highlands", "Fish" ],
+			"Fields": {
+			    "FlashShifter.StardewValleyExpandedCP_RiverJelly": {"Chance": 0.05}, //River Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Very Rare (5%)"},
+		},
+		{
+			"LogName": "SVE - Jelly Spawn Rates Junimo Woods Very Rare (5%)",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_JunimoWoods", "Fish" ],
+			"Fields": {
+			    "FlashShifter.StardewValleyExpandedCP_RiverJelly": {"Chance": 0.05}, //River Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Very Rare (5%)"},
+		},
+		{
+			"LogName": "SVE - Jelly Spawn Rates Morris Property Very Rare (5%)",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_MorrisProperty", "Fish" ],
+			"Fields": {
+			    "FlashShifter.StardewValleyExpandedCP_RiverJelly": {"Chance": 0.05}, //River Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Very Rare (5%)"},
+		},
+		{
+			"LogName": "SVE - Jelly Spawn Rates Shearwater Bridge Very Rare (5%)",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_ShearwaterBridge", "Fish" ],
+			"Fields": {
+			    "FlashShifter.StardewValleyExpandedCP_RiverJelly": {"Chance": 0.05}, //River Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Very Rare (5%)"},
+		},
+		{
+			"LogName": "SVE - Jelly Spawn Rates Sprite Spring 2 Very Rare (5%)",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_SpriteSpring2", "Fish" ],
+			"Fields": {
+			    "FlashShifter.StardewValleyExpandedCP_RiverJelly": {"Chance": 0.05}, //River Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Very Rare (5%)"},
+		},
+		{
+			"LogName": "SVE - Jelly Spawn Rates Highlands Cavern Very Rare (5%)",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_HighlandsCavern", "Fish" ],
+			"Fields": {
+			    "FlashShifter.StardewValleyExpandedCP_CaveJelly": {"Chance": 0.05}, //Cave Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Very Rare (5%)"},
+		},
+		{
+			"LogName": "SVE - Jelly Spawn Rates Diamond Cavern Very Rare (5%)",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_DiamondCavern", "Fish" ],
+			"Fields": {
+			    "FlashShifter.StardewValleyExpandedCP_CaveJelly": {"Chance": 0.05}, //Cave Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Very Rare (5%)"},
+		},
+		{
+			"LogName": "SVE - Jelly Spawn Rates Adventurer Summit Near Impossible (1%)",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_AdventurerSummit", "Fish" ],
+			"Fields": {
+			    "FlashShifter.StardewValleyExpandedCP_RiverJelly": {"Chance": 0.01}, //River Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Near Impossible (1%)"},
+		},
+		{
+			"LogName": "SVE - Jelly Spawn Rates Blue Moon Vineyard Near Impossible (1%)",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_BlueMoonVineyard", "Fish" ],
+			"Fields": {
+			    "FlashShifter.StardewValleyExpandedCP_RiverJelly": {"Chance": 0.01}, //River Jelly
+				"FlashShifter.StardewValleyExpandedCP_SeaJelly": {"Chance": 0.01}, //Sea Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Near Impossible (1%)"},
+		},
+		{
+			"LogName": "SVE - Jelly Spawn Rates Fable Reef Near Impossible (1%)",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_FableReef", "Fish" ],
+			"Fields": {
+				"FlashShifter.StardewValleyExpandedCP_SeaJelly": {"Chance": 0.01}, //Sea Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Near Impossible (1%)"},
+		},
+		{
+			"LogName": "SVE - Jelly Spawn Rates Forest West Near Impossible (1%)",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_ForestWest", "Fish" ],
+			"Fields": {
+			    "FlashShifter.StardewValleyExpandedCP_RiverJelly": {"Chance": 0.01}, //River Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Near Impossible (1%)"},
+		},
+		{
+			"LogName": "SVE - Jelly Spawn Rates GrampletonSuburbs Near Impossible (1%)",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_GrampletonSuburbs", "Fish" ],
+			"Fields": {
+			    "FlashShifter.StardewValleyExpandedCP_RiverJelly": {"Chance": 0.01}, //River Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Near Impossible (1%)"},
+		},
+		{
+			"LogName": "SVE - Jelly Spawn Rates Grampleton Suburbs Train Station Near Impossible (1%)",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_GrampletonSuburbsTrainStation", "Fish" ],
+			"Fields": {
+			    "FlashShifter.StardewValleyExpandedCP_RiverJelly": {"Chance": 0.01}, //River Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Near Impossible (1%)"},
+		},
+		{
+			"LogName": "SVE - Jelly Spawn Rates Highlands Near Impossible (1%)",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_Highlands", "Fish" ],
+			"Fields": {
+			    "FlashShifter.StardewValleyExpandedCP_RiverJelly": {"Chance": 0.01}, //River Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Near Impossible (1%)"},
+		},
+		{
+			"LogName": "SVE - Jelly Spawn Rates Junimo Woods Near Impossible (1%)",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_JunimoWoods", "Fish" ],
+			"Fields": {
+			    "FlashShifter.StardewValleyExpandedCP_RiverJelly": {"Chance": 0.01}, //River Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Near Impossible (1%)"},
+		},
+		{
+			"LogName": "SVE - Jelly Spawn Rates Morris Property Near Impossible (1%)",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_MorrisProperty", "Fish" ],
+			"Fields": {
+			    "FlashShifter.StardewValleyExpandedCP_RiverJelly": {"Chance": 0.01}, //River Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Near Impossible (1%)"},
+		},
+		{
+			"LogName": "SVE - Jelly Spawn Rates Shearwater Bridge Near Impossible (1%)",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_ShearwaterBridge", "Fish" ],
+			"Fields": {
+			    "FlashShifter.StardewValleyExpandedCP_RiverJelly": {"Chance": 0.01}, //River Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Near Impossible (1%)"},
+		},
+		{
+			"LogName": "SVE - Jelly Spawn Rates Sprite Spring 2 Near Impossible (1%)",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_SpriteSpring2", "Fish" ],
+			"Fields": {
+			    "FlashShifter.StardewValleyExpandedCP_RiverJelly": {"Chance": 0.01}, //River Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Near Impossible (1%)"},
+		},
+		{
+			"LogName": "SVE - Jelly Spawn Rates Highlands Cavern Near Impossible (1%)",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_HighlandsCavern", "Fish" ],
+			"Fields": {
+			    "FlashShifter.StardewValleyExpandedCP_CaveJelly": {"Chance": 0.01}, //Cave Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Near Impossible (1%)"},
+		},
+		{
+			"LogName": "SVE - Jelly Spawn Rates Diamond Cavern Near Impossible (1%)",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_DiamondCavern", "Fish" ],
+			"Fields": {
+			    "FlashShifter.StardewValleyExpandedCP_CaveJelly": {"Chance": 0.01}, //Cave Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Near Impossible (1%)"},
+		},
+		{
+			"LogName": "SVE - Jelly Spawn Rates Adventurer Summit No Jellies",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_AdventurerSummit", "Fish" ],
+			"Fields": {
+			    "FlashShifter.StardewValleyExpandedCP_RiverJelly": {"Chance": 0}, //River Jelly
+					},
+				"When": {"Jelly Spawn Rates": "No Jellies"},
+		},
+		{
+			"LogName": "SVE - Jelly Spawn Rates Blue Moon Vineyard No Jellies",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_BlueMoonVineyard", "Fish" ],
+			"Fields": {
+			    "FlashShifter.StardewValleyExpandedCP_RiverJelly": {"Chance": 0}, //River Jelly
+				"FlashShifter.StardewValleyExpandedCP_SeaJelly": {"Chance": 0}, //Sea Jelly
+					},
+				"When": {"Jelly Spawn Rates": "No Jellies"},
+		},
+		{
+			"LogName": "SVE - Jelly Spawn Rates Fable Reef No Jellies",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_FableReef", "Fish" ],
+			"Fields": {
+				"FlashShifter.StardewValleyExpandedCP_SeaJelly": {"Chance": 0}, //Sea Jelly
+					},
+				"When": {"Jelly Spawn Rates": "No Jellies"},
+		},
+		{
+			"LogName": "SVE - Jelly Spawn Rates Forest West No Jellies",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_ForestWest", "Fish" ],
+			"Fields": {
+			    "FlashShifter.StardewValleyExpandedCP_RiverJelly": {"Chance": 0}, //River Jelly
+					},
+				"When": {"Jelly Spawn Rates": "No Jellies"},
+		},
+		{
+			"LogName": "SVE - Jelly Spawn Rates GrampletonSuburbs No Jellies",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_GrampletonSuburbs", "Fish" ],
+			"Fields": {
+			    "FlashShifter.StardewValleyExpandedCP_RiverJelly": {"Chance": 0}, //River Jelly
+					},
+				"When": {"Jelly Spawn Rates": "No Jellies"},
+		},
+		{
+			"LogName": "SVE - Jelly Spawn Rates Grampleton Suburbs Train Station No Jellies",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_GrampletonSuburbsTrainStation", "Fish" ],
+			"Fields": {
+			    "FlashShifter.StardewValleyExpandedCP_RiverJelly": {"Chance": 0}, //River Jelly
+					},
+				"When": {"Jelly Spawn Rates": "No Jellies"},
+		},
+		{
+			"LogName": "SVE - Jelly Spawn Rates Highlands No Jellies",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_Highlands", "Fish" ],
+			"Fields": {
+			    "FlashShifter.StardewValleyExpandedCP_RiverJelly": {"Chance": 0}, //River Jelly
+					},
+				"When": {"Jelly Spawn Rates": "No Jellies"},
+		},
+		{
+			"LogName": "SVE - Jelly Spawn Rates Junimo Woods No Jellies",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_JunimoWoods", "Fish" ],
+			"Fields": {
+			    "FlashShifter.StardewValleyExpandedCP_RiverJelly": {"Chance": 0}, //River Jelly
+					},
+				"When": {"Jelly Spawn Rates": "No Jellies"},
+		},
+		{
+			"LogName": "SVE - Jelly Spawn Rates Morris Property No Jellies",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_MorrisProperty", "Fish" ],
+			"Fields": {
+			    "FlashShifter.StardewValleyExpandedCP_RiverJelly": {"Chance": 0}, //River Jelly
+					},
+				"When": {"Jelly Spawn Rates": "No Jellies"},
+		},
+		{
+			"LogName": "SVE - Jelly Spawn Rates Shearwater Bridge No Jellies",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_ShearwaterBridge", "Fish" ],
+			"Fields": {
+			    "FlashShifter.StardewValleyExpandedCP_RiverJelly": {"Chance": 0}, //River Jelly
+					},
+				"When": {"Jelly Spawn Rates": "No Jellies"},
+		},
+		{
+			"LogName": "SVE - Jelly Spawn Rates Sprite Spring 2 No Jellies",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_SpriteSpring2", "Fish" ],
+			"Fields": {
+			    "FlashShifter.StardewValleyExpandedCP_RiverJelly": {"Chance": 0}, //River Jelly
+					},
+				"When": {"Jelly Spawn Rates": "No Jellies"},
+		},
+		{
+			"LogName": "SVE - Jelly Spawn Rates Highlands Cavern No Jellies",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_HighlandsCavern", "Fish" ],
+			"Fields": {
+			    "FlashShifter.StardewValleyExpandedCP_CaveJelly": {"Chance": 0}, //Cave Jelly
+					},
+				"When": {"Jelly Spawn Rates": "No Jellies"},
+		},
+		{
+			"LogName": "SVE - Jelly Spawn Rates Diamond Cavern No Jellies",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_DiamondCavern", "Fish" ],
+			"Fields": {
+			    "FlashShifter.StardewValleyExpandedCP_CaveJelly": {"Chance": 0}, //Cave Jelly
+					},
+				"When": {"Jelly Spawn Rates": "No Jellies"},
+		},
+	]
+}

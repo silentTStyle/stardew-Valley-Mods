@@ -1,0 +1,84 @@
+{
+	"Changes": [
+		{
+			"LogName": "ALC - Specialty Fish On Farm Standard",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Farm_Standard", "Fish" ],
+			"Entries": { 
+				"Morghoula.AlchemistryCP_ZombieFish": {"ItemId": "Morghoula.AlchemistryCP_ZombieFish"},
+					   },
+			    "When": {"Specialty Fish On Farm": true},
+	    },
+		{
+			"LogName": "ALC - Specialty Fish On Farm Beach",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Farm_Beach", "Fish" ],
+			"Entries": { 
+				"Morghoula.AlchemistryCP_ZombieFish": {"ItemId": "Morghoula.AlchemistryCP_ZombieFish"},
+					   },
+			    "When": {"Specialty Fish On Farm": true},
+	    },
+		{
+			"LogName": "ALC - Specialty Fish On Farm Forest",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Farm_Forest", "Fish" ],
+			"Entries": { 
+				"Morghoula.AlchemistryCP_ZombieFish": {"ItemId": "Morghoula.AlchemistryCP_ZombieFish"},
+					   },
+			    "When": {"Specialty Fish On Farm": true},
+	    },
+		{
+			"LogName": "ALC - Specialty Fish On Farm FourCorners",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Farm_FourCorners", "Fish" ],
+			"Entries": { 
+				"Morghoula.AlchemistryCP_ZombieFish": {"ItemId": "Morghoula.AlchemistryCP_ZombieFish"},
+					   },
+			    "When": {"Specialty Fish On Farm": true},
+	    },
+		{
+			"LogName": "ALC - Specialty Fish On Farm Hilltop",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Farm_Hilltop", "Fish" ],
+			"Entries": { 
+				"Morghoula.AlchemistryCP_ZombieFish": {"ItemId": "Morghoula.AlchemistryCP_ZombieFish"},
+					   },
+			    "When": {"Specialty Fish On Farm": true},
+	    },
+		{
+			"LogName": "ALC - Specialty Fish On Farm Riverland",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Farm_Riverland", "Fish" ],
+			"Entries": { 
+				"Morghoula.AlchemistryCP_ZombieFish": {"ItemId": "Morghoula.AlchemistryCP_ZombieFish"},
+					   },
+			    "When": {"Specialty Fish On Farm": true},
+	    },
+		{
+			"LogName": "ALC - Specialty Fish On Farm Wilderness",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Farm_Wilderness", "Fish" ],
+			"Entries": { 
+				"Morghoula.AlchemistryCP_ZombieFish": {"ItemId": "Morghoula.AlchemistryCP_ZombieFish"},
+					   },
+			    "When": {"Specialty Fish On Farm": true},
+	    },
+		{
+			"LogName": "ALC - Specialty Fish On Farm Meadowlands",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Farm_MeadowlandsFarm", "Fish" ],
+			"Entries": { 
+				"Morghoula.AlchemistryCP_ZombieFish": {"ItemId": "Morghoula.AlchemistryCP_ZombieFish"},
+					   },
+			    "When": {"Specialty Fish On Farm": true},
+	    },
+	]
+}

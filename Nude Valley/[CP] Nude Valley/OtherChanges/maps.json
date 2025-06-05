@@ -1,0 +1,877 @@
+{
+  "Changes": [
+    // Maps ----------------------------------------------------------------------------------------
+    {
+      "Action": "EditImage",
+      "Target": "Maps/DesertTiles",
+      "FromFile": "assets/Maps/DesertTiles.png",
+      "FromArea": { "X": 0, "Y": 208, "Width": 32, "Height": 32 },
+      "ToArea": { "X": 0, "Y": 208, "Width": 32, "Height": 32 }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/DesertTiles",
+      "FromFile": "assets/Maps/DesertTiles.png",
+      "FromArea": { "X": 48, "Y": 160, "Width": 16, "Height": 16 },
+      "ToArea": { "X": 48, "Y": 160, "Width": 16, "Height": 16 }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/DesertTiles",
+      "FromFile": "assets/Maps/DesertTiles.png",
+      "FromArea": { "X": 96, "Y": 192, "Width": 32, "Height": 32 },
+      "ToArea": { "X": 96, "Y": 192, "Width": 32, "Height": 32 },
+      "When": { "Futanari": "false" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/DesertTiles",
+      "FromFile": "assets/Maps/DesertTiles_Futanari.png",
+      "FromArea": { "X": 96, "Y": 192, "Width": 32, "Height": 32 },
+      "ToArea": { "X": 96, "Y": 192, "Width": 32, "Height": 32 },
+      "When": { "Futanari": "true" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/DesertTiles",
+      "FromFile": "assets/Maps/DesertTiles.png",
+      "FromArea": { "X": 112, "Y": 224, "Width": 16, "Height": 16 },
+      "ToArea": { "X": 112, "Y": 224, "Width": 16, "Height": 16 }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/DesertTiles",
+      "FromFile": "assets/Maps/DesertTiles.png",
+      "FromArea": { "X": 144, "Y": 256, "Width": 16, "Height": 32 },
+      "ToArea": { "X": 144, "Y": 256, "Width": 16, "Height": 32 }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/DesertTiles",
+      "FromFile": "assets/Maps/DesertTiles.png",
+      "FromArea": { "X": 160, "Y": 256, "Width": 16, "Height": 16 },
+      "ToArea": { "X": 160, "Y": 256, "Width": 16, "Height": 16 },
+      "When": { "Futanari": "false" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/DesertTiles",
+      "FromFile": "assets/Maps/DesertTiles_Futanari.png",
+      "FromArea": { "X": 160, "Y": 256, "Width": 16, "Height": 16 },
+      "ToArea": { "X": 160, "Y": 256, "Width": 16, "Height": 16 },
+      "When": { "Futanari": "true" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/DesertTiles",
+      "FromFile": "assets/Maps/DesertTiles.png",
+      "FromArea": { "X": 176, "Y": 272, "Width": 16, "Height": 16 },
+      "ToArea": { "X": 176, "Y": 272, "Width": 16, "Height": 16 }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/DesertTiles",
+      "FromFile": "assets/Maps/DesertTiles.png",
+      "FromArea": { "X": 224, "Y": 288, "Width": 32, "Height": 32 },
+      "ToArea": { "X": 224, "Y": 288, "Width": 32, "Height": 32 },
+      "When": { "Futanari": "false" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/DesertTiles",
+      "FromFile": "assets/Maps/DesertTiles_Futanari.png",
+      "FromArea": { "X": 224, "Y": 288, "Width": 32, "Height": 32 },
+      "ToArea": { "X": 224, "Y": 288, "Width": 32, "Height": 32 },
+      "When": { "Futanari": "true" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/Festivals",
+      "FromFile": "assets/Maps/Festivals.png",
+      "FromArea": { "X": 192, "Y": 240, "Width": 32, "Height": 32 },
+      "ToArea": { "X": 192, "Y": 240, "Width": 32, "Height": 32 },
+      "When": { "Futanari": "false" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/Festivals",
+      "FromFile": "assets/Maps/Festivals_Futanari.png",
+      "FromArea": { "X": 192, "Y": 240, "Width": 32, "Height": 32 },
+      "ToArea": { "X": 192, "Y": 240, "Width": 32, "Height": 32 },
+      "When": { "Futanari": "true" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/Festivals",
+      "FromFile": "assets/Maps/Festivals.png",
+      "FromArea": { "X": 224, "Y": 240, "Width": 64, "Height": 16 },
+      "ToArea": { "X": 224, "Y": 240, "Width": 64, "Height": 16 }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/Festivals",
+      "FromFile": "assets/Maps/Festivals.png",
+      "FromArea": { "X": 224, "Y": 464, "Width": 16, "Height": 32 },
+      "ToArea": { "X": 224, "Y": 464, "Width": 16, "Height": 32 }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/Festivals",
+      "FromFile": "assets/Maps/Festivals.png",
+      "FromArea": { "X": 272, "Y": 128, "Width": 16, "Height": 16 },
+      "ToArea": { "X": 272, "Y": 128, "Width": 16, "Height": 16 }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/Festivals",
+      "FromFile": "assets/Maps/Festivals.png",
+      "FromArea": { "X": 272, "Y": 464, "Width": 32, "Height": 16 },
+      "ToArea": { "X": 272, "Y": 464, "Width": 32, "Height": 16 }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/Festivals",
+      "FromFile": "assets/Maps/Festivals.png",
+      "FromArea": { "X": 288, "Y": 128, "Width": 48, "Height": 32 },
+      "ToArea": { "X": 288, "Y": 128, "Width": 48, "Height": 32 },
+      "When": { "Futanari": "false" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/Festivals",
+      "FromFile": "assets/Maps/Festivals_Futanari.png",
+      "FromArea": { "X": 288, "Y": 128, "Width": 48, "Height": 32 },
+      "ToArea": { "X": 288, "Y": 128, "Width": 48, "Height": 32 },
+      "When": { "Futanari": "true" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/Festivals",
+      "FromFile": "assets/Maps/Festivals.png",
+      "FromArea": { "X": 336, "Y": 144, "Width": 16, "Height": 16 },
+      "ToArea": { "X": 336, "Y": 144, "Width": 16, "Height": 16 },
+      "When": { "Futanari": "false" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/Festivals",
+      "FromFile": "assets/Maps/Festivals_Futanari.png",
+      "FromArea": { "X": 336, "Y": 144, "Width": 16, "Height": 16 },
+      "ToArea": { "X": 336, "Y": 144, "Width": 16, "Height": 16 },
+      "When": { "Futanari": "true" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/Festivals",
+      "FromFile": "assets/Maps/Festivals.png",
+      "FromArea": { "X": 336, "Y": 208, "Width": 96, "Height": 48 },
+      "ToArea": { "X": 336, "Y": 208, "Width": 96, "Height": 48 }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/Festivals",
+      "FromFile": "assets/Maps/Festivals.png",
+      "FromArea": { "X": 352, "Y": 128, "Width": 16, "Height": 32 },
+      "ToArea": { "X": 352, "Y": 128, "Width": 16, "Height": 32 },
+      "When": { "Futanari": "false" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/Festivals",
+      "FromFile": "assets/Maps/Festivals_Futanari.png",
+      "FromArea": { "X": 352, "Y": 128, "Width": 16, "Height": 32 },
+      "ToArea": { "X": 352, "Y": 128, "Width": 16, "Height": 32 },
+      "When": { "Futanari": "true" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/Festivals",
+      "FromFile": "assets/Maps/Festivals.png",
+      "FromArea": { "X": 368, "Y": 0, "Width": 32, "Height": 48 },
+      "ToArea": { "X": 368, "Y": 0, "Width": 32, "Height": 48 }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/Festivals",
+      "FromFile": "assets/Maps/Festivals.png",
+      "FromArea": { "X": 448, "Y": 112, "Width": 16, "Height": 64 },
+      "ToArea": { "X": 448, "Y": 112, "Width": 16, "Height": 64 }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/Festivals",
+      "FromFile": "assets/Maps/Festivals.png",
+      "FromArea": { "X": 480, "Y": 208, "Width": 32, "Height": 48 },
+      "ToArea": { "X": 480, "Y": 208, "Width": 32, "Height": 48 }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/Festivals",
+      "FromFile": "assets/Maps/Festivals.png",
+      "FromArea": { "X": 496, "Y": 0, "Width": 16, "Height": 48 },
+      "ToArea": { "X": 496, "Y": 0, "Width": 16, "Height": 48 },
+      "When": { "Futanari": "false" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/Festivals",
+      "FromFile": "assets/Maps/Festivals_Futanari.png",
+      "FromArea": { "X": 496, "Y": 0, "Width": 16, "Height": 48 },
+      "ToArea": { "X": 496, "Y": 0, "Width": 16, "Height": 48 },
+      "When": { "Futanari": "true" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/island_tilesheet_1",
+      "FromFile": "assets/Maps/island_tilesheet_1.png",
+      "FromArea": { "X": 256, "Y": 1008, "Width": 96, "Height": 16 },
+      "ToArea": { "X": 256, "Y": 1008, "Width": 96, "Height": 16 }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/island_tilesheet_1",
+      "FromFile": "assets/Maps/island_tilesheet_1.png",
+      "FromArea": { "X": 272, "Y": 992, "Width": 64, "Height": 16 },
+      "ToArea": { "X": 272, "Y": 992, "Width": 64, "Height": 16 }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/island_tilesheet_1",
+      "FromFile": "assets/Maps/island_tilesheet_1.png",
+      "FromArea": { "X": 272, "Y": 1024, "Width": 128, "Height": 16 },
+      "ToArea": { "X": 272, "Y": 1024, "Width": 128, "Height": 16 }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/MovieTheater_TileSheet",
+      "FromFile": "assets/Maps/MovieTheater_TileSheet.png",
+      "FromArea": { "X": 0, "Y": 192, "Width": 32, "Height": 32 },
+      "ToArea": { "X": 0, "Y": 192, "Width": 32, "Height": 32 },
+      "When": { "Futanari": "false" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/MovieTheater_TileSheet",
+      "FromFile": "assets/Maps/MovieTheater_TileSheet_Futanari.png",
+      "FromArea": { "X": 0, "Y": 192, "Width": 32, "Height": 32 },
+      "ToArea": { "X": 0, "Y": 192, "Width": 32, "Height": 32 },
+      "When": { "Futanari": "true" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/MovieTheater_TileSheet",
+      "FromFile": "assets/Maps/MovieTheater_TileSheet.png",
+      "FromArea": { "X": 112, "Y": 192, "Width": 112, "Height": 64 },
+      "ToArea": { "X": 112, "Y": 192, "Width": 112, "Height": 64 },
+      "When": { "Futanari": "false" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/MovieTheater_TileSheet",
+      "FromFile": "assets/Maps/MovieTheater_TileSheet_Futanari.png",
+      "FromArea": { "X": 112, "Y": 192, "Width": 112, "Height": 64 },
+      "ToArea": { "X": 112, "Y": 192, "Width": 112, "Height": 64 },
+      "When": { "Futanari": "true" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/MovieTheater_TileSheet",
+      "FromFile": "assets/Maps/MovieTheater_TileSheet.png",
+      "FromArea": { "X": 192, "Y": 176, "Width": 48, "Height": 16 },
+      "ToArea": { "X": 192, "Y": 176, "Width": 48, "Height": 16 }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/MovieTheater_TileSheet",
+      "FromFile": "assets/Maps/MovieTheater_TileSheet.png",
+      "FromArea": { "X": 224, "Y": 208, "Width": 32, "Height": 48 },
+      "ToArea": { "X": 224, "Y": 208, "Width": 32, "Height": 48 },
+      "When": { "Futanari": "false" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/MovieTheater_TileSheet",
+      "FromFile": "assets/Maps/MovieTheater_TileSheet_Futanari.png",
+      "FromArea": { "X": 224, "Y": 208, "Width": 32, "Height": 48 },
+      "ToArea": { "X": 224, "Y": 208, "Width": 32, "Height": 48 },
+      "When": { "Futanari": "true" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/MovieTheater_TileSheet",
+      "FromFile": "assets/Maps/MovieTheater_TileSheet.png",
+      "FromArea": { "X": 240, "Y": 160, "Width": 16, "Height": 32 },
+      "ToArea": { "X": 240, "Y": 160, "Width": 16, "Height": 32 }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/MovieTheaterJoja_TileSheet",
+      "FromFile": "assets/Maps/MovieTheaterJoja_TileSheet.png",
+      "FromArea": { "X": 0, "Y": 192, "Width": 32, "Height": 32 },
+      "ToArea": { "X": 0, "Y": 192, "Width": 32, "Height": 32 },
+      "When": { "Futanari": "false" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/MovieTheaterJoja_TileSheet",
+      "FromFile": "assets/Maps/MovieTheaterJoja_TileSheet_Futanari.png",
+      "FromArea": { "X": 0, "Y": 192, "Width": 32, "Height": 32 },
+      "ToArea": { "X": 0, "Y": 192, "Width": 32, "Height": 32 },
+      "When": { "Futanari": "true" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/MovieTheaterJoja_TileSheet",
+      "FromFile": "assets/Maps/MovieTheaterJoja_TileSheet.png",
+      "FromArea": { "X": 16, "Y": 224, "Width": 16, "Height": 32 },
+      "ToArea": { "X": 16, "Y": 224, "Width": 16, "Height": 32 },
+      "When": { "Futanari": "false" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/MovieTheaterJoja_TileSheet",
+      "FromFile": "assets/Maps/MovieTheaterJoja_TileSheet_Futanari.png",
+      "FromArea": { "X": 16, "Y": 224, "Width": 16, "Height": 32 },
+      "ToArea": { "X": 16, "Y": 224, "Width": 16, "Height": 32 },
+      "When": { "Futanari": "true" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/MovieTheaterJoja_TileSheet",
+      "FromFile": "assets/Maps/MovieTheaterJoja_TileSheet.png",
+      "FromArea": { "X": 112, "Y": 192, "Width": 112, "Height": 64 },
+      "ToArea": { "X": 112, "Y": 192, "Width": 112, "Height": 64 },
+      "When": { "Futanari": "false" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/MovieTheaterJoja_TileSheet",
+      "FromFile": "assets/Maps/MovieTheaterJoja_TileSheet_Futanari.png",
+      "FromArea": { "X": 112, "Y": 192, "Width": 112, "Height": 64 },
+      "ToArea": { "X": 112, "Y": 192, "Width": 112, "Height": 64 },
+      "When": { "Futanari": "true" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/MovieTheaterJoja_TileSheet",
+      "FromFile": "assets/Maps/MovieTheaterJoja_TileSheet.png",
+      "FromArea": { "X": 192, "Y": 176, "Width": 48, "Height": 16 },
+      "ToArea": { "X": 192, "Y": 176, "Width": 48, "Height": 16 }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/MovieTheaterJoja_TileSheet",
+      "FromFile": "assets/Maps/MovieTheaterJoja_TileSheet.png",
+      "FromArea": { "X": 224, "Y": 208, "Width": 32, "Height": 48 },
+      "ToArea": { "X": 224, "Y": 208, "Width": 32, "Height": 48 },
+      "When": { "Futanari": "false" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/MovieTheaterJoja_TileSheet",
+      "FromFile": "assets/Maps/MovieTheaterJoja_TileSheet_Futanari.png",
+      "FromArea": { "X": 224, "Y": 208, "Width": 32, "Height": 48 },
+      "ToArea": { "X": 224, "Y": 208, "Width": 32, "Height": 48 },
+      "When": { "Futanari": "true" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/MovieTheaterJoja_TileSheet",
+      "FromFile": "assets/Maps/MovieTheaterJoja_TileSheet.png",
+      "FromArea": { "X": 240, "Y": 160, "Width": 16, "Height": 32 },
+      "ToArea": { "X": 240, "Y": 160, "Width": 16, "Height": 32 }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/MovieTheaterJoja_TileSheet_international",
+      "FromFile": "assets/Maps/MovieTheaterJoja_TileSheet.png",
+      "FromArea": { "X": 0, "Y": 192, "Width": 32, "Height": 32 },
+      "ToArea": { "X": 0, "Y": 192, "Width": 32, "Height": 32 },
+      "When": { "Futanari": "false" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/MovieTheaterJoja_TileSheet_international",
+      "FromFile": "assets/Maps/MovieTheaterJoja_TileSheet_Futanari.png",
+      "FromArea": { "X": 0, "Y": 192, "Width": 32, "Height": 32 },
+      "ToArea": { "X": 0, "Y": 192, "Width": 32, "Height": 32 },
+      "When": { "Futanari": "true" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/MovieTheaterJoja_TileSheet_international",
+      "FromFile": "assets/Maps/MovieTheaterJoja_TileSheet.png",
+      "FromArea": { "X": 16, "Y": 224, "Width": 16, "Height": 32 },
+      "ToArea": { "X": 16, "Y": 224, "Width": 16, "Height": 32 },
+      "When": { "Futanari": "false" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/MovieTheaterJoja_TileSheet_international",
+      "FromFile": "assets/Maps/MovieTheaterJoja_TileSheet_Futanari.png",
+      "FromArea": { "X": 16, "Y": 224, "Width": 16, "Height": 32 },
+      "ToArea": { "X": 16, "Y": 224, "Width": 16, "Height": 32 },
+      "When": { "Futanari": "true" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/MovieTheaterJoja_TileSheet_international",
+      "FromFile": "assets/Maps/MovieTheaterJoja_TileSheet.png",
+      "FromArea": { "X": 112, "Y": 192, "Width": 112, "Height": 64 },
+      "ToArea": { "X": 112, "Y": 192, "Width": 112, "Height": 64 },
+      "When": { "Futanari": "false" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/MovieTheaterJoja_TileSheet_international",
+      "FromFile": "assets/Maps/MovieTheaterJoja_TileSheet_Futanari.png",
+      "FromArea": { "X": 112, "Y": 192, "Width": 112, "Height": 64 },
+      "ToArea": { "X": 112, "Y": 192, "Width": 112, "Height": 64 },
+      "When": { "Futanari": "true" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/MovieTheaterJoja_TileSheet_international",
+      "FromFile": "assets/Maps/MovieTheaterJoja_TileSheet.png",
+      "FromArea": { "X": 192, "Y": 176, "Width": 48, "Height": 16 },
+      "ToArea": { "X": 192, "Y": 176, "Width": 48, "Height": 16 }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/MovieTheaterJoja_TileSheet_international",
+      "FromFile": "assets/Maps/MovieTheaterJoja_TileSheet.png",
+      "FromArea": { "X": 224, "Y": 208, "Width": 32, "Height": 48 },
+      "ToArea": { "X": 224, "Y": 208, "Width": 32, "Height": 48 },
+      "When": { "Futanari": "false" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/MovieTheaterJoja_TileSheet_international",
+      "FromFile": "assets/Maps/MovieTheaterJoja_TileSheet_Futanari.png",
+      "FromArea": { "X": 224, "Y": 208, "Width": 32, "Height": 48 },
+      "ToArea": { "X": 224, "Y": 208, "Width": 32, "Height": 48 },
+      "When": { "Futanari": "true" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/MovieTheaterJoja_TileSheet_international",
+      "FromFile": "assets/Maps/MovieTheaterJoja_TileSheet.png",
+      "FromArea": { "X": 240, "Y": 160, "Width": 16, "Height": 32 },
+      "ToArea": { "X": 240, "Y": 160, "Width": 16, "Height": 32 }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/night_market_tilesheet_objects",
+      "FromFile": "assets/Maps/night_market_tilesheet_objects.png",
+      "FromArea": { "X": 0, "Y": 272, "Width": 32, "Height": 16 },
+      "ToArea": { "X": 0, "Y": 272, "Width": 32, "Height": 16 }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/night_market_tilesheet_objects",
+      "FromFile": "assets/Maps/night_market_tilesheet_objects.png",
+      "FromArea": { "X": 32, "Y": 272, "Width": 64, "Height": 32 },
+      "ToArea": { "X": 32, "Y": 272, "Width": 64, "Height": 32 }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/night_market_tilesheet_objects",
+      "FromFile": "assets/Maps/night_market_tilesheet_objects.png",
+      "FromArea": { "X": 176, "Y": 288, "Width": 80, "Height": 16 },
+      "ToArea": { "X": 176, "Y": 288, "Width": 80, "Height": 16 }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/night_market_tilesheet_objects",
+      "FromFile": "assets/Maps/night_market_tilesheet_objects.png",
+      "FromArea": { "X": 208, "Y": 176, "Width": 32, "Height": 32 },
+      "ToArea": { "X": 208, "Y": 176, "Width": 32, "Height": 32 }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/night_market_tilesheet_objects",
+      "FromFile": "assets/Maps/night_market_tilesheet_objects.png",
+      "FromArea": { "X": 310, "Y": 106, "Width": 18, "Height": 23 },
+      "ToArea": { "X": 310, "Y": 106, "Width": 18, "Height": 23 }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/night_market_tilesheet_objects",
+      "FromFile": "assets/Maps/night_market_tilesheet_objects.png",
+      "FromArea": { "X": 623, "Y": 61, "Width": 16, "Height": 17 },
+      "ToArea": { "X": 623, "Y": 61, "Width": 16, "Height": 17 }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/night_market_tilesheet_objects",
+      "FromFile": "assets/Maps/night_market_tilesheet_objects.png",
+      "FromArea": { "X": 720, "Y": 0, "Width": 192, "Height": 16 },
+      "ToArea": { "X": 720, "Y": 0, "Width": 192, "Height": 16 }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/night_market_tilesheet_objects",
+      "FromFile": "assets/Maps/night_market_tilesheet_objects.png",
+      "FromArea": { "X": 759, "Y": 141, "Width": 26, "Height": 14 },
+      "ToArea": { "X": 759, "Y": 141, "Width": 26, "Height": 14 }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/night_market_tilesheet_objects",
+      "FromFile": "assets/Maps/night_market_tilesheet_objects.png",
+      "FromArea": { "X": 952, "Y": 44, "Width": 54, "Height": 36 },
+      "ToArea": { "X": 952, "Y": 44, "Width": 54, "Height": 36 }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/night_market_tilesheet_objects",
+      "FromFile": "assets/Maps/night_market_tilesheet_objects.png",
+      "FromArea": { "X": 976, "Y": 256, "Width": 16, "Height": 32 },
+      "ToArea": { "X": 976, "Y": 256, "Width": 16, "Height": 32 },
+      "When": { "Futanari": "false" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/night_market_tilesheet_objects",
+      "FromFile": "assets/Maps/night_market_tilesheet_objects_Futanari.png",
+      "FromArea": { "X": 976, "Y": 256, "Width": 16, "Height": 32 },
+      "ToArea": { "X": 976, "Y": 256, "Width": 16, "Height": 32 },
+      "When": { "Futanari": "true" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/night_market_tilesheet_objects",
+      "FromFile": "assets/Maps/night_market_tilesheet_objects.png",
+      "FromArea": { "X": 992, "Y": 256, "Width": 32, "Height": 16 },
+      "ToArea": { "X": 992, "Y": 256, "Width": 32, "Height": 16 }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/night_market_tilesheet_objects",
+      "FromFile": "assets/Maps/night_market_tilesheet_objects.png",
+      "FromArea": { "X": 1056, "Y": 240, "Width": 32, "Height": 32 },
+      "ToArea": { "X": 1056, "Y": 240, "Width": 32, "Height": 32 },
+      "When": { "Futanari": "false" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/night_market_tilesheet_objects",
+      "FromFile": "assets/Maps/night_market_tilesheet_objects_Futanari.png",
+      "FromArea": { "X": 1056, "Y": 240, "Width": 32, "Height": 32 },
+      "ToArea": { "X": 1056, "Y": 240, "Width": 32, "Height": 32 },
+      "When": { "Futanari": "true" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/night_market_tilesheet_objects",
+      "FromFile": "assets/Maps/night_market_tilesheet_objects.png",
+      "FromArea": { "X": 1120, "Y": 288, "Width": 32, "Height": 16 },
+      "ToArea": { "X": 1120, "Y": 288, "Width": 32, "Height": 16 }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/pirates_tilesheet",
+      "FromFile": "assets/Maps/pirates_tilesheet.png",
+      "FromArea": { "X": 16, "Y": 112, "Width": 16, "Height": 32 },
+      "ToArea": { "X": 16, "Y": 112, "Width": 16, "Height": 32 },
+      "When": { "Futanari": "false" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/pirates_tilesheet",
+      "FromFile": "assets/Maps/pirates_tilesheet_Futanari.png",
+      "FromArea": { "X": 16, "Y": 112, "Width": 16, "Height": 32 },
+      "ToArea": { "X": 16, "Y": 112, "Width": 16, "Height": 32 },
+      "When": { "Futanari": "true" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/pirates_tilesheet",
+      "FromFile": "assets/Maps/pirates_tilesheet.png",
+      "FromArea": { "X": 32, "Y": 96, "Width": 16, "Height": 32 },
+      "ToArea": { "X": 32, "Y": 96, "Width": 16, "Height": 32 },
+      "When": { "Futanari": "false" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/pirates_tilesheet",
+      "FromFile": "assets/Maps/pirates_tilesheet_Futanari.png",
+      "FromArea": { "X": 32, "Y": 96, "Width": 16, "Height": 32 },
+      "ToArea": { "X": 32, "Y": 96, "Width": 16, "Height": 32 },
+      "When": { "Futanari": "true" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/pirates_tilesheet",
+      "FromFile": "assets/Maps/pirates_tilesheet.png",
+      "FromArea": { "X": 96, "Y": 48, "Width": 32, "Height": 32 },
+      "ToArea": { "X": 96, "Y": 48, "Width": 32, "Height": 32 },
+      "When": { "Futanari": "false" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/pirates_tilesheet",
+      "FromFile": "assets/Maps/pirates_tilesheet_Futanari.png",
+      "FromArea": { "X": 96, "Y": 48, "Width": 32, "Height": 32 },
+      "ToArea": { "X": 96, "Y": 48, "Width": 32, "Height": 32 },
+      "When": { "Futanari": "true" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/pirates_tilesheet",
+      "FromFile": "assets/Maps/pirates_tilesheet.png",
+      "FromArea": { "X": 128, "Y": 128, "Width": 64, "Height": 32 },
+      "ToArea": { "X": 128, "Y": 128, "Width": 64, "Height": 32 },
+      "When": { "Futanari": "false" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/pirates_tilesheet",
+      "FromFile": "assets/Maps/pirates_tilesheet_Futanari.png",
+      "FromArea": { "X": 128, "Y": 128, "Width": 64, "Height": 32 },
+      "ToArea": { "X": 128, "Y": 128, "Width": 64, "Height": 32 },
+      "When": { "Futanari": "true" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/pirates_tilesheet",
+      "FromFile": "assets/Maps/pirates_tilesheet.png",
+      "FromArea": { "X": 144, "Y": 96, "Width": 16, "Height": 32 },
+      "ToArea": { "X": 144, "Y": 96, "Width": 16, "Height": 32 },
+      "When": { "Futanari": "false" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/pirates_tilesheet",
+      "FromFile": "assets/Maps/pirates_tilesheet_Futanari.png",
+      "FromArea": { "X": 144, "Y": 96, "Width": 16, "Height": 32 },
+      "ToArea": { "X": 144, "Y": 96, "Width": 16, "Height": 32 },
+      "When": { "Futanari": "true" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/pirates_tilesheet",
+      "FromFile": "assets/Maps/pirates_tilesheet.png",
+      "FromArea": { "X": 160, "Y": 48, "Width": 16, "Height": 32 },
+      "ToArea": { "X": 160, "Y": 48, "Width": 16, "Height": 32 },
+      "When": { "Futanari": "false" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/pirates_tilesheet",
+      "FromFile": "assets/Maps/pirates_tilesheet_Futanari.png",
+      "FromArea": { "X": 160, "Y": 48, "Width": 16, "Height": 32 },
+      "ToArea": { "X": 160, "Y": 48, "Width": 16, "Height": 32 },
+      "When": { "Futanari": "true" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/pirates_tilesheet",
+      "FromFile": "assets/Maps/pirates_tilesheet.png",
+      "FromArea": { "X": 176, "Y": 32, "Width": 32, "Height": 32 },
+      "ToArea": { "X": 176, "Y": 32, "Width": 32, "Height": 32 }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/pirates_tilesheet",
+      "FromFile": "assets/Maps/pirates_tilesheet.png",
+      "FromArea": { "X": 176, "Y": 96, "Width": 64, "Height": 32 },
+      "ToArea": { "X": 176, "Y": 96, "Width": 64, "Height": 32 },
+      "When": { "Futanari": "false" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/pirates_tilesheet",
+      "FromFile": "assets/Maps/pirates_tilesheet_Futanari.png",
+      "FromArea": { "X": 176, "Y": 96, "Width": 64, "Height": 32 },
+      "ToArea": { "X": 176, "Y": 96, "Width": 64, "Height": 32 },
+      "When": { "Futanari": "true" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/pirates_tilesheet",
+      "FromFile": "assets/Maps/pirates_tilesheet.png",
+      "FromArea": { "X": 224, "Y": 64, "Width": 64, "Height": 16 },
+      "ToArea": { "X": 224, "Y": 64, "Width": 64, "Height": 16 }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/pirates_tilesheet",
+      "FromFile": "assets/Maps/pirates_tilesheet.png",
+      "FromArea": { "X": 240, "Y": 0, "Width": 64, "Height": 32 },
+      "ToArea": { "X": 240, "Y": 0, "Width": 64, "Height": 32 },
+      "When": { "Futanari": "false" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/pirates_tilesheet",
+      "FromFile": "assets/Maps/pirates_tilesheet_Futanari.png",
+      "FromArea": { "X": 240, "Y": 0, "Width": 64, "Height": 32 },
+      "ToArea": { "X": 240, "Y": 0, "Width": 64, "Height": 32 },
+      "When": { "Futanari": "true" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/pirates_tilesheet",
+      "FromFile": "assets/Maps/pirates_tilesheet.png",
+      "FromArea": { "X": 240, "Y": 32, "Width": 48, "Height": 32 },
+      "ToArea": { "X": 240, "Y": 32, "Width": 48, "Height": 32 },
+      "When": { "Futanari": "false" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/pirates_tilesheet",
+      "FromFile": "assets/Maps/pirates_tilesheet_Futanari.png",
+      "FromArea": { "X": 240, "Y": 32, "Width": 48, "Height": 32 },
+      "ToArea": { "X": 240, "Y": 32, "Width": 48, "Height": 32 },
+      "When": { "Futanari": "true" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/samshowtiles",
+      "FromFile": "assets/Maps/samshowtiles.png",
+      "FromArea": { "X": 0, "Y": 192, "Width": 160, "Height": 32 },
+      "ToArea": { "X": 0, "Y": 192, "Width": 160, "Height": 32 },
+      "When": { "Futanari": "false" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/samshowtiles",
+      "FromFile": "assets/Maps/samshowtiles_Futanari.png",
+      "FromArea": { "X": 0, "Y": 192, "Width": 160, "Height": 32 },
+      "ToArea": { "X": 0, "Y": 192, "Width": 160, "Height": 32 },
+      "When": { "Futanari": "true" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/samshowtiles",
+      "FromFile": "assets/Maps/samshowtiles.png",
+      "FromArea": { "X": 48, "Y": 0, "Width": 16, "Height": 96 },
+      "ToArea": { "X": 48, "Y": 0, "Width": 16, "Height": 96 },
+      "When": { "Futanari": "false" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/samshowtiles",
+      "FromFile": "assets/Maps/samshowtiles_Futanari.png",
+      "FromArea": { "X": 48, "Y": 0, "Width": 16, "Height": 96 },
+      "ToArea": { "X": 48, "Y": 0, "Width": 16, "Height": 96 },
+      "When": { "Futanari": "true" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/stadium_tiles",
+      "FromFile": "assets/Maps/stadium_tiles.png",
+      "FromArea": { "X": 0, "Y": 208, "Width": 64, "Height": 96 },
+      "ToArea": { "X": 0, "Y": 208, "Width": 64, "Height": 96 },
+      "When": { "Futanari": "false" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/stadium_tiles",
+      "FromFile": "assets/Maps/stadium_tiles_Futanari.png",
+      "FromArea": { "X": 0, "Y": 208, "Width": 64, "Height": 96 },
+      "ToArea": { "X": 0, "Y": 208, "Width": 64, "Height": 96 },
+      "When": { "Futanari": "true" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/stadium_tiles",
+      "FromFile": "assets/Maps/stadium_tiles.png",
+      "FromArea": { "X": 16, "Y": 176, "Width": 48, "Height": 32 },
+      "ToArea": { "X": 16, "Y": 176, "Width": 48, "Height": 32 },
+      "When": { "Futanari": "false" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/stadium_tiles",
+      "FromFile": "assets/Maps/stadium_tiles_Futanari.png",
+      "FromArea": { "X": 16, "Y": 176, "Width": 48, "Height": 32 },
+      "ToArea": { "X": 16, "Y": 176, "Width": 48, "Height": 32 },
+      "When": { "Futanari": "true" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/submarine_tilesheet",
+      "FromFile": "assets/Maps/submarine_tilesheet.png",
+      "FromArea": { "X": 12, "Y": 127, "Width": 20, "Height": 34 },
+      "ToArea": { "X": 12, "Y": 127, "Width": 20, "Height": 34 },
+      "When": { "Futanari": "false" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/submarine_tilesheet",
+      "FromFile": "assets/Maps/submarine_tilesheet_Futanari.png",
+      "FromArea": { "X": 12, "Y": 127, "Width": 20, "Height": 34 },
+      "ToArea": { "X": 12, "Y": 127, "Width": 20, "Height": 34 },
+      "When": { "Futanari": "true" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/submarine_tilesheet",
+      "FromFile": "assets/Maps/submarine_tilesheet.png",
+      "FromArea": { "X": 192, "Y": 288, "Width": 64, "Height": 16 },
+      "ToArea": { "X": 192, "Y": 288, "Width": 64, "Height": 16 }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/townInterior",
+      "FromFile": "assets/Maps/townInterior.png",
+      "FromArea": { "X": 176, "Y": 624, "Width": 32, "Height": 64 },
+      "ToArea": { "X": 176, "Y": 624, "Width": 32, "Height": 64 }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/townInterior",
+      "FromFile": "assets/Maps/townInterior.png",
+      "FromArea": { "X": 208, "Y": 656, "Width": 32, "Height": 32 },
+      "ToArea": { "X": 208, "Y": 656, "Width": 32, "Height": 32 }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/townInterior",
+      "FromFile": "assets/Maps/townInterior.png",
+      "FromArea": { "X": 352, "Y": 944, "Width": 32, "Height": 32 },
+      "ToArea": { "X": 352, "Y": 944, "Width": 32, "Height": 32 }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/townInterior",
+      "FromFile": "assets/Maps/townInterior.png",
+      "FromArea": { "X": 368, "Y": 1008, "Width": 16, "Height": 32 },
+      "ToArea": { "X": 368, "Y": 1008, "Width": 16, "Height": 32 },
+      "When": { "Futanari": "false" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/townInterior",
+      "FromFile": "assets/Maps/townInterior_Futanari.png",
+      "FromArea": { "X": 368, "Y": 1008, "Width": 16, "Height": 32 },
+      "ToArea": { "X": 368, "Y": 1008, "Width": 16, "Height": 32 },
+      "When": { "Futanari": "true" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/townInterior",
+      "FromFile": "assets/Maps/townInterior.png",
+      "FromArea": { "X": 384, "Y": 1008, "Width": 16, "Height": 16 },
+      "ToArea": { "X": 384, "Y": 1008, "Width": 16, "Height": 16 }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/townInterior",
+      "FromFile": "assets/Maps/townInterior.png",
+      "FromArea": { "X": 400, "Y": 1008, "Width": 16, "Height": 32 },
+      "ToArea": { "X": 400, "Y": 1008, "Width": 16, "Height": 32 },
+      "When": { "Futanari": "false" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/townInterior",
+      "FromFile": "assets/Maps/townInterior_Futanari.png",
+      "FromArea": { "X": 400, "Y": 1008, "Width": 16, "Height": 32 },
+      "ToArea": { "X": 400, "Y": 1008, "Width": 16, "Height": 32 },
+      "When": { "Futanari": "true" }
+    },
+  ]
+}

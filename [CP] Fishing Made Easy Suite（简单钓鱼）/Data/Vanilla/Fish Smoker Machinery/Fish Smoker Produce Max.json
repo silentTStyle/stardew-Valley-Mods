@@ -1,0 +1,184 @@
+{
+	"Changes": [
+		{
+			"LogName": "Fish Smoker Produce Max 2",
+		    "Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)FishSmoker", "OutputRules", "SmokedFish", "OutputItem" ],
+			"Fields": {
+				"FLAVORED_ITEM SmokedFish DROP_IN_ID DROP_IN_QUALITY": {"MaxStack": 2},
+		           },
+				"When": {"Fish Smoker Produce Max": "2"},				 
+	    },
+		{
+			"LogName": "Fish Smoker Produce Max 3",
+		    "Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)FishSmoker", "OutputRules", "SmokedFish", "OutputItem" ],
+			"Fields": {
+				"FLAVORED_ITEM SmokedFish DROP_IN_ID DROP_IN_QUALITY": {"MaxStack": 3},
+		           },
+				"When": {"Fish Smoker Produce Max": "3"},				 
+	    },
+		{
+			"LogName": "Fish Smoker Produce Max 4",
+		    "Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)FishSmoker", "OutputRules", "SmokedFish", "OutputItem" ],
+			"Fields": {
+				"FLAVORED_ITEM SmokedFish DROP_IN_ID DROP_IN_QUALITY": {"MaxStack": 4},
+		           },
+				"When": {"Fish Smoker Produce Max": "4"},				 
+	    },
+		{
+			"LogName": "Fish Smoker Produce Max 5",
+		    "Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)FishSmoker", "OutputRules", "SmokedFish", "OutputItem" ],
+			"Fields": {
+				"FLAVORED_ITEM SmokedFish DROP_IN_ID DROP_IN_QUALITY": {"MaxStack": 5},
+		           },
+				"When": {"Fish Smoker Produce Max": "5"},				 
+	    },
+		{
+			"LogName": "Fish Smoker Produce Max 6",
+		    "Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)FishSmoker", "OutputRules", "SmokedFish", "OutputItem" ],
+			"Fields": {
+				"FLAVORED_ITEM SmokedFish DROP_IN_ID DROP_IN_QUALITY": {"MaxStack": 6},
+		           },
+				"When": {"Fish Smoker Produce Max": "6"},				 
+	    },
+		{
+			"LogName": "Fish Smoker Produce Max 7",
+		    "Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)FishSmoker", "OutputRules", "SmokedFish", "OutputItem" ],
+			"Fields": {
+				"FLAVORED_ITEM SmokedFish DROP_IN_ID DROP_IN_QUALITY": {"MaxStack": 7},
+		           },
+				"When": {"Fish Smoker Produce Max": "7"},				 
+	    },
+		{
+			"LogName": "Fish Smoker Produce Max 8",
+		    "Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)FishSmoker", "OutputRules", "SmokedFish", "OutputItem" ],
+			"Fields": {
+				"FLAVORED_ITEM SmokedFish DROP_IN_ID DROP_IN_QUALITY": {"MaxStack": 8},
+		           },
+				"When": {"Fish Smoker Produce Max": "8"},				 
+	    },
+		{
+			"LogName": "Fish Smoker Produce Max 9",
+		    "Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)FishSmoker", "OutputRules", "SmokedFish", "OutputItem" ],
+			"Fields": {
+				"FLAVORED_ITEM SmokedFish DROP_IN_ID DROP_IN_QUALITY": {"MaxStack": 9},
+		           },
+				"When": {"Fish Smoker Produce Max": "9"},				 
+	    },
+		{
+			"LogName": "Fish Smoker Produce Max 10",
+		    "Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)FishSmoker", "OutputRules", "SmokedFish", "OutputItem" ],
+			"Fields": {
+				"FLAVORED_ITEM SmokedFish DROP_IN_ID DROP_IN_QUALITY": {"MaxStack": 10},
+		           },
+				"When": {"Fish Smoker Produce Max": "10"},				 
+	    },
+		{
+			"LogName": "Fish Smoker Produce Max 15",
+		    "Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)FishSmoker", "OutputRules", "SmokedFish", "OutputItem" ],
+			"Fields": {
+				"FLAVORED_ITEM SmokedFish DROP_IN_ID DROP_IN_QUALITY": {"MaxStack": 15},
+		           },
+				"When": {"Fish Smoker Produce Max": "15"},				 
+	    },
+		{
+			"LogName": "Fish Smoker Produce Max 20",
+		    "Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)FishSmoker", "OutputRules", "SmokedFish", "OutputItem" ],
+			"Fields": {
+				"FLAVORED_ITEM SmokedFish DROP_IN_ID DROP_IN_QUALITY": {"MaxStack": 20},
+		           },
+				"When": {"Fish Smoker Produce Max": "20"},				 
+	    },
+		{
+			"LogName": "Fish Smoker Produce Max 25",
+		    "Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)FishSmoker", "OutputRules", "SmokedFish", "OutputItem" ],
+			"Fields": {
+				"FLAVORED_ITEM SmokedFish DROP_IN_ID DROP_IN_QUALITY": {"MaxStack": 25},
+		           },
+				"When": {"Fish Smoker Produce Max": "25"},				 
+	    },
+		{
+			"LogName": "Fish Smoker Produce Max 30",
+		    "Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)FishSmoker", "OutputRules", "SmokedFish", "OutputItem" ],
+			"Fields": {
+				"FLAVORED_ITEM SmokedFish DROP_IN_ID DROP_IN_QUALITY": {"MaxStack": 30},
+		           },
+				"When": {"Fish Smoker Produce Max": "30"},				 
+	    },
+		{
+			"LogName": "Fish Smoker Produce Max 35",
+		    "Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)FishSmoker", "OutputRules", "SmokedFish", "OutputItem" ],
+			"Fields": {
+				"FLAVORED_ITEM SmokedFish DROP_IN_ID DROP_IN_QUALITY": {"MaxStack": 35},
+		           },
+				"When": {"Fish Smoker Produce Max": "35"},				 
+	    },
+		{
+			"LogName": "Fish Smoker Produce Max 40",
+		    "Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)FishSmoker", "OutputRules", "SmokedFish", "OutputItem" ],
+			"Fields": {
+				"FLAVORED_ITEM SmokedFish DROP_IN_ID DROP_IN_QUALITY": {"MaxStack": 40},
+		           },
+				"When": {"Fish Smoker Produce Max": "40"},				 
+	    },
+		{
+			"LogName": "Fish Smoker Produce Max 45",
+		    "Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)FishSmoker", "OutputRules", "SmokedFish", "OutputItem" ],
+			"Fields": {
+				"FLAVORED_ITEM SmokedFish DROP_IN_ID DROP_IN_QUALITY": {"MaxStack": 45},
+		           },
+				"When": {"Fish Smoker Produce Max": "45"},				 
+	    },
+		{
+			"LogName": "Fish Smoker Produce Max 50",
+		    "Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)FishSmoker", "OutputRules", "SmokedFish", "OutputItem" ],
+			"Fields": {
+				"FLAVORED_ITEM SmokedFish DROP_IN_ID DROP_IN_QUALITY": {"MaxStack": 50},
+		           },
+				"When": {"Fish Smoker Produce Max": "50"},				 
+	    },
+		{
+			"LogName": "Fish Smoker Produce Max 100",
+		    "Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)FishSmoker", "OutputRules", "SmokedFish", "OutputItem" ],
+			"Fields": {
+				"FLAVORED_ITEM SmokedFish DROP_IN_ID DROP_IN_QUALITY": {"MaxStack": 100},
+		           },
+				"When": {"Fish Smoker Produce Max": "100"},				 
+	    },
+	]
+}

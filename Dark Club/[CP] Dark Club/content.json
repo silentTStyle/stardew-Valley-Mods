@@ -1,0 +1,2945 @@
+{
+    "Format": "2.0.0",
+	"ConfigSchema": {
+		"Defeat Scene": {
+		  "AllowValues": "Applies to All, Dark Club Only, Default",
+		  "Default": "Dark Club Only",
+		  "Section": "MapChanges",
+		},
+		"Entrance": {
+		  "AllowValues": "Beach, Bus Stop",
+		  "Default": "Beach",
+		  "Section": "MapChanges",
+		},
+		"Slave Spawn": {
+		  "AllowValues": "true, false",
+		  "Default": false,
+		  "Section": "MapChanges",
+		},
+		"Glasses": {
+		  "AllowValues": "true, false",
+		  "Default": true,
+		  "Section": "NpcPortraits",
+		},
+		"Hypnosis": {
+		  "AllowValues": "true, false",
+		  "Default": false,
+		  "Section": "NpcPortraits",
+		},
+		"Change NPC Schedules": {
+		  "AllowValues": "true, false",
+		  "Default": false,
+		  "Section": "NpcSchedules",
+		},
+		"Abigail": {
+			"AllowValues": "true, SpriteOnly, false",
+			"Default": true,
+			"Section": "NpcSchedules",
+		},
+		"Alex": {
+			"AllowValues": "true, SpriteOnly, false",
+			"Default": true,
+			"Section": "NpcSchedules",
+		},
+		"CarolinePierre": {
+			"AllowValues": "On, Caroline Only, Pierre Only, Off",
+			"Default": "On",
+			"Section": "NpcSchedules",
+		},
+		"CarolinePierrePortrait": {
+			"AllowValues": "On, Caroline Only, Pierre Only, Off",
+			"Default": "On",
+			"Section": "NpcSchedules",
+		},
+		"Clint": {
+			"AllowValues": "true, SpriteOnly, false",
+			"Default": true,
+			"Section": "NpcSchedules",
+		},
+		"DemetriusRobin": {
+			"AllowValues": "On, Demetrius Only, Robin Only, Off",
+			"Default": "On",
+			"Section": "NpcSchedules",
+		},
+		"DemetriusRobinPortrait": {
+			"AllowValues": "On, Demetrius Only, Robin Only, Off",
+			"Default": "On",
+			"Section": "NpcSchedules",
+		},
+		"Elliot": {
+			"AllowValues": "true, SpriteOnly, false",
+			"Default": true,
+			"Section": "NpcSchedules",
+		},
+		"Emily": {
+			"AllowValues": "true, SpriteOnly, false",
+			"Default": true,
+			"Section": "NpcSchedules",
+		},
+		"EvelynGeorge": {
+			"AllowValues": "On, Evelyn Only, George Only, Off",
+			"Default": "On",
+			"Section": "NpcSchedules",
+		},
+		"EvelynGeorgePortrait": {
+			"AllowValues": "On, Evelyn Only, George Only, Off",
+			"Default": "On",
+			"Section": "NpcSchedules",
+		},
+		"Gus": {
+			"AllowValues": "true, SpriteOnly, false",
+			"Default": true,
+			"Section": "NpcSchedules",
+		},
+		"Haley": {
+			"AllowValues": "true, SpriteOnly, false",
+			"Default": true,
+			"Section": "NpcSchedules",
+		},
+		"Harvey": {
+			"AllowValues": "true, SpriteOnly, false",
+			"Default": true,
+			"Section": "NpcSchedules",
+		},
+		"JodieKent": {
+			"AllowValues": "On, Jodie Only, Kent Only, Off",
+			"Default": "On",
+			"Section": "NpcSchedules",
+		},
+		"JodieKentPortrait": {
+			"AllowValues": "On, Jodie Only, Kent Only, Off",
+			"Default": "On",
+			"Section": "NpcSchedules",
+		},
+		"Leah": {
+			"AllowValues": "true, SpriteOnly, false",
+			"Default": true,
+			"Section": "NpcSchedules",
+		},
+		"LewisMarnie": {
+			"AllowValues": "On, Lewis Only, Marnie Only, Off",
+			"Default": "On",
+			"Section": "NpcSchedules",
+		},
+		"LewisMarniePortrait": {
+			"AllowValues": "On, Lewis Only, Marnie Only, Off",
+			"Default": "On",
+			"Section": "NpcSchedules",
+		},
+		"Linus": {
+			"AllowValues": "true, SpriteOnly, false",
+			"Default": true,
+			"Section": "NpcSchedules",
+		},
+		"Maru": {
+			"AllowValues": "true, SpriteOnly, false",
+			"Default": true,
+			"Section": "NpcSchedules",
+		},
+		"Pam": {
+			"AllowValues": "true, SpriteOnly, false",
+			"Default": true,
+			"Section": "NpcSchedules",
+		},
+		"Penny": {
+			"AllowValues": "true, SpriteOnly, false",
+			"Default": true,
+			"Section": "NpcSchedules",
+		},
+		"Sam": {
+			"AllowValues": "true, SpriteOnly, false",
+			"Default": true,
+			"Section": "NpcSchedules",
+		},
+		"Sandy": {
+			"AllowValues": "true, SpriteOnly, false",
+			"Default": true,
+			"Section": "NpcSchedules",
+		},
+		"Sebastian": {
+			"AllowValues": "true, SpriteOnly, false",
+			"Default": true,
+			"Section": "NpcSchedules",
+		},
+		"Shane": {
+			"AllowValues": "true, SpriteOnly, false",
+			"Default": true,
+			"Section": "NpcSchedules",
+		},
+		"Willy": {
+			"AllowValues": "true, SpriteOnly, false",
+			"Default": true,
+			"Section": "NpcSchedules",
+		},
+	},
+	// Dark Club - Custom Locations -----------------------------------------------------------------------------
+	"CustomLocations": [
+		{
+		  "Name": "Custom_DarkClub",
+		  "FromMapFile": "Maps/assets/Maps/DarkClub.tbin"
+		},
+		{
+		  "Name": "Custom_LilithRoom",
+		  "FromMapFile": "Maps/assets/Maps/LilithRoom.tbin"
+		},
+		{
+		  "Name": "Custom_MeatCave",
+		  "FromMapFile": "Maps/assets/Maps/MeatCave.tbin"
+		},
+		{
+		  "Name": "Custom_MeatCave_Menstruation",
+		  "FromMapFile": "Maps/assets/Maps/MeatCave_Menstruation.tbin"
+		},
+		{
+		  "Name": "Custom_MeatCave_Entry",
+		  "FromMapFile": "Maps/assets/Maps/MeatCave_Entry.tbin"
+		},
+		{
+		  "Name": "Custom_MeatCave_Entry_Menstruation",
+		  "FromMapFile": "Maps/assets/Maps/MeatCave_Entry_Menstruation.tbin"
+		},
+		{
+		  "Name": "Custom_Prison",
+		  "FromMapFile": "Maps/assets/Maps/Prison.tbin"
+		},
+		{
+		  "Name": "Custom_Restroom",
+		  "FromMapFile": "Maps/assets/Maps/Restroom.tbin"
+		}
+	],
+	"RepeatEvents": [
+		"1126801",
+	],
+    "Changes": [
+		//DarkClub Audio
+		{
+			"LogName": "Load Audio",
+			"Action": "Include",
+			"FromFile": "Audio/audio.json",
+		},
+		//Dark Club Big Craftables
+		{
+			"LogName": "Load Big Craftables",
+			"Action": "Include",
+			"FromFile": "BigCraftables/bigCraftables.json",
+		},
+		//Dark Club Items
+		{
+			"LogName": "Load Items",
+			"Action": "Include",
+			"FromFile": "Items/itemcollection.json",
+		},
+		//Dark Club Maps
+		{
+			"LogName": "Load Maps",
+			"Action": "Include",
+			"FromFile": "Maps/maps.json",
+		},
+		//Dark Club Shops
+		{
+			"LogName": "Load Shops",
+			"Action": "Include",
+			"FromFile": "Shops/shops.json",
+		},
+		//Dark Club Fruit Trees
+		{
+			"LogName": "Load Fruit Trees",
+			"Action": "Include",
+			"FromFile": "FruitTrees/fruitTrees.json",
+		},
+		//Dark Club Characters
+		// Animations must be in the top level content.json
+		// Change Abigail - Animations -----------------------------------------------------------
+		{
+		  "Action": "EditImage",
+		  "LogName": "Abigail_UpLate",
+		  "Target": "Characters/Abigail",
+		  "FromFile": "Characters/Abigail/assets/Animations/Abigail_UpLate.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 0, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 10,
+		  "AnimationFrameCount": 6,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Abigail_Onanie1",
+		  "Target": "Characters/Abigail",
+		  "FromFile": "Characters/Abigail/assets/Animations/Abigail_Onanie1.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 16, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 10,
+		  "AnimationFrameCount": 6,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Abigail_Onanie2",
+		  "Target": "Characters/Abigail",
+		  "FromFile": "Characters/Abigail/assets/Animations/Abigail_Onanie2.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 32, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 10,
+		  "AnimationFrameCount": 6,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Abigail_Dildo",
+		  "Target": "Characters/Abigail",
+		  "FromFile": "Characters/Abigail/assets/Animations/Abigail_Dildo.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 48, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 5,
+		  "AnimationFrameCount": 10,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Abigail_Vibrator",
+		  "Target": "Characters/Abigail",
+		  "FromFile": "Characters/Abigail/assets/Animations/Abigail_Vibrator.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 0, "Y": 832, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 3,
+		  "AnimationFrameCount": 16,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		// Winter
+		{
+		  "Action": "EditImage",
+		  "LogName": "Abigail_UpLate Winter",
+		  "Target": "Characters/Abigail_Winter",
+		  "FromFile": "Characters/Abigail/assets/Animations/Abigail_UpLate.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 0, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 10,
+		  "AnimationFrameCount": 6,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Abigail_Onanie1 Winter",
+		  "Target": "Characters/Abigail_Winter",
+		  "FromFile": "Characters/Abigail/assets/Animations/Abigail_Onanie1.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 16, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 10,
+		  "AnimationFrameCount": 6,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Abigail_Onanie2 Winter",
+		  "Target": "Characters/Abigail_Winter",
+		  "FromFile": "Characters/Abigail/assets/Animations/Abigail_Onanie2.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 32, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 10,
+		  "AnimationFrameCount": 6,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Abigail_Dildo Winter",
+		  "Target": "Characters/Abigail_Winter",
+		  "FromFile": "Characters/Abigail/assets/Animations/Abigail_Dildo.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 48, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 5,
+		  "AnimationFrameCount": 10,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Abigail_Vibrator Winter",
+		  "Target": "Characters/Abigail_Winter",
+		  "FromFile": "Characters/Abigail/assets/Animations/Abigail_Vibrator.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 0, "Y": 832, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 3,
+		  "AnimationFrameCount": 16,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		// Change Alex - Animations -----------------------------------------------------------
+		{
+		  "Action": "EditImage",
+		  "LogName": "Alex_UpLate",
+		  "Target": "Characters/Alex",
+		  "FromFile": "Characters/Alex/assets/Animations/Alex_UpLate.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 0, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 10,
+		  "AnimationFrameCount": 6,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Alex_Onanie1",
+		  "Target": "Characters/Alex",
+		  "FromFile": "Characters/Alex/assets/Animations/Alex_Onanie1.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 16, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 6,
+		  "AnimationFrameCount": 8,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Alex_Onanie2",
+		  "Target": "Characters/Alex",
+		  "FromFile": "Characters/Alex/assets/Animations/Alex_Onanie2.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 32, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 7,
+		  "AnimationFrameCount": 8,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Alex_Hole",
+		  "Target": "Characters/Alex",
+		  "FromFile": "Characters/Alex/assets/Animations/Alex_Hole.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 48, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 6,
+		  "AnimationFrameCount": 10,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Alex_Dildo",
+		  "Target": "Characters/Alex",
+		  "FromFile": "Characters/Alex/assets/Animations/Alex_Dildo.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 0, "Y": 832, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 5,
+		  "AnimationFrameCount": 8,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		// Winter
+		{
+		  "Action": "EditImage",
+		  "LogName": "Alex_UpLate Winter",
+		  "Target": "Characters/Alex_Winter",
+		  "FromFile": "Characters/Alex/assets/Animations/Alex_UpLate.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 0, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 10,
+		  "AnimationFrameCount": 6,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Alex_Onanie1 Winter",
+		  "Target": "Characters/Alex_Winter",
+		  "FromFile": "Characters/Alex/assets/Animations/Alex_Onanie1.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 16, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 6,
+		  "AnimationFrameCount": 8,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Alex_Onanie2 Winter",
+		  "Target": "Characters/Alex_Winter",
+		  "FromFile": "Characters/Alex/assets/Animations/Alex_Onanie2.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 32, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 7,
+		  "AnimationFrameCount": 8,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Alex_Hole Winter",
+		  "Target": "Characters/Alex_Winter",
+		  "FromFile": "Characters/Alex/assets/Animations/Alex_Hole.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 48, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 6,
+		  "AnimationFrameCount": 10,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Alex_Dildo Winter",
+		  "Target": "Characters/Alex_Winter",
+		  "FromFile": "Characters/Alex/assets/Animations/Alex_Dildo.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 0, "Y": 832, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 5,
+		  "AnimationFrameCount": 8,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		// Change Caroline - Animations -----------------------------------------------------------
+		{
+		  "Action": "EditImage",
+		  "LogName": "Caroline_UpLate",
+		  "Target": "Characters/Caroline",
+		  "FromFile": "Characters/CarolinePierre/assets/Animations/Caroline_UpLate.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 0, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 10,
+		  "AnimationFrameCount": 6,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Caroline_Milking",
+		  "Target": "Characters/Caroline",
+		  "FromFile": "Characters/CarolinePierre/assets/Animations/Caroline_Milking.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 16, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 10,
+		  "AnimationFrameCount": 6,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Caroline_Onanie",
+		  "Target": "Characters/Caroline",
+		  "FromFile": "Characters/CarolinePierre/assets/Animations/Caroline_Onanie.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 32, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 10,
+		  "AnimationFrameCount": 6,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Caroline_Fuck",
+		  "Target": "Characters/Caroline",
+		  "FromFile": "Characters/CarolinePierre/assets/Animations/Caroline_Fuck.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 0, "Y": 832, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 8,
+		  "AnimationFrameCount": 6,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		// Winter
+		{
+		  "Action": "EditImage",
+		  "LogName": "Caroline_UpLate Winter",
+		  "Target": "Characters/Caroline_Winter",
+		  "FromFile": "Characters/CarolinePierre/assets/Animations/Caroline_UpLate.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 0, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 10,
+		  "AnimationFrameCount": 6,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Caroline_Milking Winter",
+		  "Target": "Characters/Caroline_Winter",
+		  "FromFile": "Characters/CarolinePierre/assets/Animations/Caroline_Milking.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 16, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 10,
+		  "AnimationFrameCount": 6,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Caroline_Onanie Winter",
+		  "Target": "Characters/Caroline_Winter",
+		  "FromFile": "Characters/CarolinePierre/assets/Animations/Caroline_Onanie.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 32, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 10,
+		  "AnimationFrameCount": 6,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Caroline_Fuck Winter",
+		  "Target": "Characters/Caroline_Winter",
+		  "FromFile": "Characters/CarolinePierre/assets/Animations/Caroline_Fuck.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 0, "Y": 832, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 8,
+		  "AnimationFrameCount": 6,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		// Change Pierre - Animations -----------------------------------------------------------
+		{
+		  "Action": "EditImage",
+		  "LogName": "Pierre_UpLate",
+		  "Target": "Characters/Pierre",
+		  "FromFile": "Characters/CarolinePierre/assets/Animations/Pierre_UpLate.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 0, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 10,
+		  "AnimationFrameCount": 6,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Pierre_Onanie1",
+		  "Target": "Characters/Pierre",
+		  "FromFile": "Characters/CarolinePierre/assets/Animations/Pierre_Onanie1.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 16, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 7,
+		  "AnimationFrameCount": 8,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Pierre_Onanie2",
+		  "Target": "Characters/Pierre",
+		  "FromFile": "Characters/CarolinePierre/assets/Animations/Pierre_Onanie2.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 32, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 10,
+		  "AnimationFrameCount": 6,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Pierre_Fuck",
+		  "Target": "Characters/Pierre",
+		  "FromFile": "Characters/CarolinePierre/assets/Animations/Pierre_Fuck.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 0, "Y": 832, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 8,
+		  "AnimationFrameCount": 6,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		// Winter
+		{
+		  "Action": "EditImage",
+		  "LogName": "Pierre_UpLate Winter",
+		  "Target": "Characters/Pierre_Winter",
+		  "FromFile": "Characters/CarolinePierre/assets/Animations/Pierre_UpLate.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 0, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 10,
+		  "AnimationFrameCount": 6,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Pierre_Onanie1 Winter",
+		  "Target": "Characters/Pierre_Winter",
+		  "FromFile": "Characters/CarolinePierre/assets/Animations/Pierre_Onanie1.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 16, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 7,
+		  "AnimationFrameCount": 8,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Pierre_Onanie2 Winter",
+		  "Target": "Characters/Pierre_Winter",
+		  "FromFile": "Characters/CarolinePierre/assets/Animations/Pierre_Onanie2.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 32, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 10,
+		  "AnimationFrameCount": 6,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Pierre_Fuck Winter",
+		  "Target": "Characters/Pierre_Winter",
+		  "FromFile": "Characters/CarolinePierre/assets/Animations/Pierre_Fuck.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 0, "Y": 832, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 8,
+		  "AnimationFrameCount": 6,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		// Change Clint - Animations -----------------------------------------------------------
+		{
+		  "Action": "EditImage",
+		  "LogName": "Clint_UpLate",
+		  "Target": "Characters/Clint",
+		  "FromFile": "Characters/Clint/assets/Animations/Clint_UpLate.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 0, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 10,
+		  "AnimationFrameCount": 6,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Clint_Onanie1",
+		  "Target": "Characters/Clint",
+		  "FromFile": "Characters/Clint/assets/Animations/Clint_Onanie1.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 16, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 6,
+		  "AnimationFrameCount": 8,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Clint_Onanie2",
+		  "Target": "Characters/Clint",
+		  "FromFile": "Characters/Clint/assets/Animations/Clint_Onanie2.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 32, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 10,
+		  "AnimationFrameCount": 6,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		// Winter
+		{
+		  "Action": "EditImage",
+		  "LogName": "Clint_UpLate Winter",
+		  "Target": "Characters/Clint_Winter",
+		  "FromFile": "Characters/Clint/assets/Animations/Clint_UpLate.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 0, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 10,
+		  "AnimationFrameCount": 6,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Clint_Onanie1 Winter",
+		  "Target": "Characters/Clint_Winter",
+		  "FromFile": "Characters/Clint/assets/Animations/Clint_Onanie1.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 16, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 6,
+		  "AnimationFrameCount": 8,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Clint_Onanie2 Winter",
+		  "Target": "Characters/Clint_Winter",
+		  "FromFile": "Characters/Clint/assets/Animations/Clint_Onanie2.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 32, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 10,
+		  "AnimationFrameCount": 6,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		// Change Demetrius - Animations -----------------------------------------------------------
+		{
+		  "Action": "EditImage",
+		  "LogName": "Demetrius_UpLate",
+		  "Target": "Characters/Demetrius",
+		  "FromFile": "Characters/DemetriusRobin/assets/Animations/Demetrius_UpLate.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 0, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 10,
+		  "AnimationFrameCount": 6,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Demetrius_Onanie",
+		  "Target": "Characters/Demetrius",
+		  "FromFile": "Characters/DemetriusRobin/assets/Animations/Demetrius_Onanie.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 16, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 6,
+		  "AnimationFrameCount": 8,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Demetrius_Hole",
+		  "Target": "Characters/Demetrius",
+		  "FromFile": "Characters/DemetriusRobin/assets/Animations/Demetrius_Hole.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 32, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 6,
+		  "AnimationFrameCount": 10,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Demetrius_Fuck",
+		  "Target": "Characters/Demetrius",
+		  "FromFile": "Characters/DemetriusRobin/assets/Animations/Demetrius_Fuck.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 0, "Y": 832, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 8,
+		  "AnimationFrameCount": 6,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		// Winter
+		{
+		  "Action": "EditImage",
+		  "LogName": "Demetrius_UpLate Winter",
+		  "Target": "Characters/Demetrius_Winter",
+		  "FromFile": "Characters/DemetriusRobin/assets/Animations/Demetrius_UpLate.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 0, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 10,
+		  "AnimationFrameCount": 6,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Demetrius_Onanie Winter",
+		  "Target": "Characters/Demetrius_Winter",
+		  "FromFile": "Characters/DemetriusRobin/assets/Animations/Demetrius_Onanie.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 16, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 6,
+		  "AnimationFrameCount": 8,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Demetrius_Hole Winter",
+		  "Target": "Characters/Demetrius_Winter",
+		  "FromFile": "Characters/DemetriusRobin/assets/Animations/Demetrius_Hole.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 32, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 6,
+		  "AnimationFrameCount": 10,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Demetrius_Fuck Winter",
+		  "Target": "Characters/Demetrius_Winter",
+		  "FromFile": "Characters/DemetriusRobin/assets/Animations/Demetrius_Fuck.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 0, "Y": 832, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 8,
+		  "AnimationFrameCount": 6,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		// Change Robin - Animations -----------------------------------------------------------
+		{
+		  "Action": "EditImage",
+		  "LogName": "Robin_UpLate",
+		  "Target": "Characters/Robin",
+		  "FromFile": "Characters/DemetriusRobin/assets/Animations/Robin_UpLate.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 0, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 10,
+		  "AnimationFrameCount": 6,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Robin_Onanie",
+		  "Target": "Characters/Robin",
+		  "FromFile": "Characters/DemetriusRobin/assets/Animations/Robin_Onanie.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 16, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 10,
+		  "AnimationFrameCount": 6,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Robin_Dildo",
+		  "Target": "Characters/Robin",
+		  "FromFile": "Characters/DemetriusRobin/assets/Animations/Robin_Dildo.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 32, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 6,
+		  "AnimationFrameCount": 10,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Robin_Fuck",
+		  "Target": "Characters/Robin",
+		  "FromFile": "Characters/DemetriusRobin/assets/Animations/Robin_Fuck.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 0, "Y": 832, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 8,
+		  "AnimationFrameCount": 6,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		// Winter
+		{
+		  "Action": "EditImage",
+		  "LogName": "Robin_UpLate Winter",
+		  "Target": "Characters/Robin_Winter",
+		  "FromFile": "Characters/DemetriusRobin/assets/Animations/Robin_UpLate.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 0, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 10,
+		  "AnimationFrameCount": 6,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Robin_Onanie Winter",
+		  "Target": "Characters/Robin_Winter",
+		  "FromFile": "Characters/DemetriusRobin/assets/Animations/Robin_Onanie.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 16, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 10,
+		  "AnimationFrameCount": 6,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Robin_Dildo Winter",
+		  "Target": "Characters/Robin_Winter",
+		  "FromFile": "Characters/DemetriusRobin/assets/Animations/Robin_Dildo.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 32, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 6,
+		  "AnimationFrameCount": 10,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Robin_Fuck Winter",
+		  "Target": "Characters/Robin_Winter",
+		  "FromFile": "Characters/DemetriusRobin/assets/Animations/Robin_Fuck.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 0, "Y": 832, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 8,
+		  "AnimationFrameCount": 6,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		// Change Elliot - Animations -----------------------------------------------------------
+		{
+		  "Action": "EditImage",
+		  "LogName": "Elliott_UpLate",
+		  "Target": "Characters/Elliott",
+		  "FromFile": "Characters/Elliot/assets/Animations/Elliott_UpLate.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 0, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 10,
+		  "AnimationFrameCount": 6,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Elliott_Onanie1",
+		  "Target": "Characters/Elliott",
+		  "FromFile": "Characters/Elliot/assets/Animations/Elliott_Onanie1.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 16, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 6,
+		  "AnimationFrameCount": 8,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Elliott_Onanie2",
+		  "Target": "Characters/Elliott",
+		  "FromFile": "Characters/Elliot/assets/Animations/Elliott_Onanie2.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 32, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 10,
+		  "AnimationFrameCount": 6,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Elliott_Hole",
+		  "Target": "Characters/Elliott",
+		  "FromFile": "Characters/Elliot/assets/Animations/Elliott_Hole.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 48, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 6,
+		  "AnimationFrameCount": 10,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Elliott_Dildo",
+		  "Target": "Characters/Elliott",
+		  "FromFile": "Characters/Elliot/assets/Animations/Elliott_Dildo.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 0, "Y": 832, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 7,
+		  "AnimationFrameCount": 6,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		// Winter
+		{
+		  "Action": "EditImage",
+		  "LogName": "Elliott_UpLate Winter",
+		  "Target": "Characters/Elliot_Winter",
+		  "FromFile": "Characters/Elliot/assets/Animations/Elliott_UpLate.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 0, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 10,
+		  "AnimationFrameCount": 6,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Elliott_Onanie1 Winter",
+		  "Target": "Characters/Elliot_Winter",
+		  "FromFile": "Characters/Elliot/assets/Animations/Elliott_Onanie1.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 16, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 6,
+		  "AnimationFrameCount": 8,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Elliott_Onanie2 Winter",
+		  "Target": "Characters/Elliot_Winter",
+		  "FromFile": "Characters/Elliot/assets/Animations/Elliott_Onanie2.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 32, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 10,
+		  "AnimationFrameCount": 6,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Elliott_Hole Winter",
+		  "Target": "Characters/Elliot_Winter",
+		  "FromFile": "Characters/Elliot/assets/Animations/Elliott_Hole.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 48, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 6,
+		  "AnimationFrameCount": 10,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Elliott_Dildo Winter",
+		  "Target": "Characters/Elliot_Winter",
+		  "FromFile": "Characters/Elliot/assets/Animations/Elliott_Dildo.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 0, "Y": 832, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 7,
+		  "AnimationFrameCount": 6,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		// Change Emily - Animations -----------------------------------------------------------
+		{
+		  "Action": "EditImage",
+		  "LogName": "Emily_UpLate",
+		  "Target": "Characters/Emily",
+		  "FromFile": "Characters/Emily/assets/Animations/Emily_UpLate.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 0, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 10,
+		  "AnimationFrameCount": 6,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Emily_DanceDC",
+		  "Target": "Characters/Emily",
+		  "FromFile": "Characters/Emily/assets/Animations/Emily_DanceDC.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 16, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 10,
+		  "AnimationFrameCount": 6,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Emily_Milking",
+		  "Target": "Characters/Emily",
+		  "FromFile": "Characters/Emily/assets/Animations/Emily_Milking.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 32, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 10,
+		  "AnimationFrameCount": 6,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Emily_Onanie",
+		  "Target": "Characters/Emily",
+		  "FromFile": "Characters/Emily/assets/Animations/Emily_Onanie.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 48, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 10,
+		  "AnimationFrameCount": 6,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Emily_Dildo",
+		  "Target": "Characters/Emily",
+		  "FromFile": "Characters/Emily/assets/Animations/Emily_Dildo.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 0, "Y": 832, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 5,
+		  "AnimationFrameCount": 8,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		// Winter
+		{
+		  "Action": "EditImage",
+		  "LogName": "Emily_UpLate Winter",
+		  "Target": "Characters/Emily_Winter",
+		  "FromFile": "Characters/Emily/assets/Animations/Emily_UpLate.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 0, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 10,
+		  "AnimationFrameCount": 6,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Emily_DanceDC Winter",
+		  "Target": "Characters/Emily_Winter",
+		  "FromFile": "Characters/Emily/assets/Animations/Emily_DanceDC.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 16, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 10,
+		  "AnimationFrameCount": 6,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Emily_Milking Winter",
+		  "Target": "Characters/Emily_Winter",
+		  "FromFile": "Characters/Emily/assets/Animations/Emily_Milking.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 32, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 10,
+		  "AnimationFrameCount": 6,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Emily_Onanie Winter",
+		  "Target": "Characters/Emily_Winter",
+		  "FromFile": "Characters/Emily/assets/Animations/Emily_Onanie.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 48, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 10,
+		  "AnimationFrameCount": 6,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Emily_Dildo Winter",
+		  "Target": "Characters/Emily_Winter",
+		  "FromFile": "Characters/Emily/assets/Animations/Emily_Dildo.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 0, "Y": 832, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 5,
+		  "AnimationFrameCount": 8,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		// Change Evelyn - Animations -----------------------------------------------------------
+		{
+		  "Action": "EditImage",
+		  "LogName": "Evelyn_Milking",
+		  "Target": "Characters/Evelyn",
+		  "FromFile": "Characters/EvelynGeorge/assets/Animations/Evelyn_Milking.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 0, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 10,
+		  "AnimationFrameCount": 6,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Evelyn_Urination",
+		  "Target": "Characters/Evelyn",
+		  "FromFile": "Characters/EvelynGeorge/assets/Animations/Evelyn_Urination.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 16, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 6,
+		  "AnimationFrameCount": 5,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Evelyn_Onanie",
+		  "Target": "Characters/Evelyn",
+		  "FromFile": "Characters/EvelynGeorge/assets/Animations/Evelyn_Onanie.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 32, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 10,
+		  "AnimationFrameCount": 6,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Evelyn_Fuck",
+		  "Target": "Characters/Evelyn",
+		  "FromFile": "Characters/EvelynGeorge/assets/Animations/Evelyn_Fuck.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 0, "Y": 832, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 8,
+		  "AnimationFrameCount": 6,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		// Winter
+		{
+		  "Action": "EditImage",
+		  "LogName": "Evelyn_Milking Winter",
+		  "Target": "Characters/Evelyn_Winter",
+		  "FromFile": "Characters/EvelynGeorge/assets/Animations/Evelyn_Milking.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 0, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 10,
+		  "AnimationFrameCount": 6,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Evelyn_Urination Winter",
+		  "Target": "Characters/Evelyn_Winter",
+		  "FromFile": "Characters/EvelynGeorge/assets/Animations/Evelyn_Urination.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 16, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 6,
+		  "AnimationFrameCount": 5,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Evelyn_Onanie Winter",
+		  "Target": "Characters/Evelyn_Winter",
+		  "FromFile": "Characters/EvelynGeorge/assets/Animations/Evelyn_Onanie.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 32, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 10,
+		  "AnimationFrameCount": 6,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Evelyn_Fuck Winter",
+		  "Target": "Characters/Evelyn_Winter",
+		  "FromFile": "Characters/EvelynGeorge/assets/Animations/Evelyn_Fuck.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 0, "Y": 832, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 8,
+		  "AnimationFrameCount": 6,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		// Change George - Animations -----------------------------------------------------------
+		{
+		  "Action": "EditImage",
+		  "Target": "Characters/George",
+		  "FromFile": "Characters/EvelynGeorge/assets/Animations/George_Chair.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 0, "Y": 800, "Width": 16, "Height": 32 },
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "George_Onanie1",
+		  "Target": "Characters/George",
+		  "FromFile": "Characters/EvelynGeorge/assets/Animations/George_Onanie1.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 16, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 6,
+		  "AnimationFrameCount": 8,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "George_Onanie2",
+		  "Target": "Characters/George",
+		  "FromFile": "Characters/EvelynGeorge/assets/Animations/George_Onanie2.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 32, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 10,
+		  "AnimationFrameCount": 6,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "George_Fuck",
+		  "Target": "Characters/George",
+		  "FromFile": "Characters/EvelynGeorge/assets/Animations/George_Fuck.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 0, "Y": 832, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 8,
+		  "AnimationFrameCount": 6,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		// Winter
+		{
+		  "Action": "EditImage",
+		  "Target": "Characters/George_Winter",
+		  "FromFile": "Characters/EvelynGeorge/assets/Animations/George_Chair.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 0, "Y": 800, "Width": 16, "Height": 32 },
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "George_Onanie1 Winter",
+		  "Target": "Characters/George_Winter",
+		  "FromFile": "Characters/EvelynGeorge/assets/Animations/George_Onanie1.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 16, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 6,
+		  "AnimationFrameCount": 8,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "George_Onanie2 Winter",
+		  "Target": "Characters/George_Winter",
+		  "FromFile": "Characters/EvelynGeorge/assets/Animations/George_Onanie2.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 32, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 10,
+		  "AnimationFrameCount": 6,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "George_Fuck Winter",
+		  "Target": "Characters/George_Winter",
+		  "FromFile": "Characters/EvelynGeorge/assets/Animations/George_Fuck.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 0, "Y": 832, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 8,
+		  "AnimationFrameCount": 6,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		// Change Gus - Animations -----------------------------------------------------------
+		{
+		  "Action": "EditImage",
+		  "LogName": "Gus_UpLate",
+		  "Target": "Characters/Gus",
+		  "FromFile": "Characters/Gus/assets/Animations/Gus_UpLate.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 0, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 10,
+		  "AnimationFrameCount": 6,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Gus_Onanie",
+		  "Target": "Characters/Gus",
+		  "FromFile": "Characters/Gus/assets/Animations/Gus_Onanie.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 16, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 6,
+		  "AnimationFrameCount": 8,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		// Winter
+		{
+		  "Action": "EditImage",
+		  "LogName": "Gus_UpLate Winter",
+		  "Target": "Characters/Gus_Winter",
+		  "FromFile": "Characters/Gus/assets/Animations/Gus_UpLate.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 0, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 10,
+		  "AnimationFrameCount": 6,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Gus_Onanie Winter",
+		  "Target": "Characters/Gus_Winter",
+		  "FromFile": "Characters/Gus/assets/Animations/Gus_Onanie.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 16, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 6,
+		  "AnimationFrameCount": 8,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		// Change Haley - Animations -----------------------------------------------------------
+		{
+		  "Action": "EditImage",
+		  "LogName": "Haley_UpLate",
+		  "Target": "Characters/Haley",
+		  "FromFile": "Characters/Haley/assets/Animations/Haley_UpLate.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 0, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 10,
+		  "AnimationFrameCount": 6,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Haley_Onanie1",
+		  "Target": "Characters/Haley",
+		  "FromFile": "Characters/Haley/assets/Animations/Haley_Onanie1.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 16, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 10,
+		  "AnimationFrameCount": 6,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Haley_Onanie2",
+		  "Target": "Characters/Haley",
+		  "FromFile": "Characters/Haley/assets/Animations/Haley_Onanie2.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 32, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 10,
+		  "AnimationFrameCount": 6,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Haley_Dildo",
+		  "Target": "Characters/Haley",
+		  "FromFile": "Characters/Haley/assets/Animations/Haley_Dildo.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 48, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 5,
+		  "AnimationFrameCount": 8,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Haley_Vibrator",
+		  "Target": "Characters/Haley",
+		  "FromFile": "Characters/Haley/assets/Animations/Haley_Vibrator.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 0, "Y": 832, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 3,
+		  "AnimationFrameCount": 8,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		// Winter
+		{
+		  "Action": "EditImage",
+		  "LogName": "Haley_UpLate Winter",
+		  "Target": "Characters/Haley_Winter",
+		  "FromFile": "Characters/Haley/assets/Animations/Haley_UpLate.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 0, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 10,
+		  "AnimationFrameCount": 6,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Haley_Onanie1 Winter",
+		  "Target": "Characters/Haley_Winter",
+		  "FromFile": "Characters/Haley/assets/Animations/Haley_Onanie1.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 16, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 10,
+		  "AnimationFrameCount": 6,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Haley_Onanie2 Winter",
+		  "Target": "Characters/Haley_Winter",
+		  "FromFile": "Characters/Haley/assets/Animations/Haley_Onanie2.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 32, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 10,
+		  "AnimationFrameCount": 6,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Haley_Dildo Winter",
+		  "Target": "Characters/Haley_Winter",
+		  "FromFile": "Characters/Haley/assets/Animations/Haley_Dildo.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 48, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 5,
+		  "AnimationFrameCount": 8,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Haley_Vibrator Winter",
+		  "Target": "Characters/Haley_Winter",
+		  "FromFile": "Characters/Haley/assets/Animations/Haley_Vibrator.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 0, "Y": 832, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 3,
+		  "AnimationFrameCount": 8,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		// Change Harvey - Animations -----------------------------------------------------------
+		{
+		  "Action": "EditImage",
+		  "LogName": "Harvey_UpLate",
+		  "Target": "Characters/Harvey",
+		  "FromFile": "Characters/Harvey/assets/Animations/Harvey_UpLate.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 0, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 10,
+		  "AnimationFrameCount": 6,
+		  "When": { "Change NPC Schedules": "true", "Glasses": "false" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Harvey_UpLate_Glasses",
+		  "Target": "Characters/Harvey",
+		  "FromFile": "Characters/Harvey/assets/Animations/Harvey_UpLate_Glasses.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 0, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 10,
+		  "AnimationFrameCount": 6,
+		  "When": { "Change NPC Schedules": "true", "Glasses": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Harvey_Onanie1",
+		  "Target": "Characters/Harvey",
+		  "FromFile": "Characters/Harvey/assets/Animations/Harvey_Onanie1.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 16, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 7,
+		  "AnimationFrameCount": 8,
+		  "When": { "Change NPC Schedules": "true", "Glasses": "false" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Harvey_Onanie1_Glasses",
+		  "Target": "Characters/Harvey",
+		  "FromFile": "Characters/Harvey/assets/Animations/Harvey_Onanie1_Glasses.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 16, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 7,
+		  "AnimationFrameCount": 8,
+		  "When": { "Change NPC Schedules": "true", "Glasses": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Harvey_Onanie2",
+		  "Target": "Characters/Harvey",
+		  "FromFile": "Characters/Harvey/assets/Animations/Harvey_Onanie2.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 32, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 10,
+		  "AnimationFrameCount": 6,
+		  "When": { "Change NPC Schedules": "true", "Glasses": "false" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Harvey_Onanie2_Glasses",
+		  "Target": "Characters/Harvey",
+		  "FromFile": "Characters/Harvey/assets/Animations/Harvey_Onanie2_Glasses.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 32, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 10,
+		  "AnimationFrameCount": 6,
+		  "When": { "Change NPC Schedules": "true", "Glasses": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Harvey_Dildo",
+		  "Target": "Characters/Harvey",
+		  "FromFile": "Characters/Harvey/assets/Animations/Harvey_Dildo.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 48, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 6,
+		  "AnimationFrameCount": 8,
+		  "When": { "Change NPC Schedules": "true", "Glasses": "false" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Harvey_Dildo_Glasses",
+		  "Target": "Characters/Harvey",
+		  "FromFile": "Characters/Harvey/assets/Animations/Harvey_Dildo_Glasses.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 48, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 6,
+		  "AnimationFrameCount": 8,
+		  "When": { "Change NPC Schedules": "true", "Glasses": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "Target": "Characters/Harvey",
+		  "FromFile": "Characters/Harvey/assets/Animations/Harvey_Injection.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 64, "Height": 32 },
+		  "ToArea": { "X": 0, "Y": 832, "Width": 64, "Height": 32 },
+		  "When": { "Change NPC Schedules": "true", "Glasses": "false" }
+		},
+		{
+		  "Action": "EditImage",
+		  "Target": "Characters/Harvey",
+		  "FromFile": "Characters/Harvey/assets/Animations/Harvey_Injection_Glasses.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 64, "Height": 32 },
+		  "ToArea": { "X": 0, "Y": 832, "Width": 64, "Height": 32 },
+		  "When": { "Change NPC Schedules": "true", "Glasses": "true" }
+		},
+		// Winter
+		{
+		  "Action": "EditImage",
+		  "LogName": "Harvey_UpLate Winter",
+		  "Target": "Characters/Harvey_Winter",
+		  "FromFile": "Characters/Harvey/assets/Animations/Harvey_UpLate.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 0, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 10,
+		  "AnimationFrameCount": 6,
+		  "When": { "Change NPC Schedules": "true", "Glasses": "false" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Harvey_UpLate_Glasses Winter",
+		  "Target": "Characters/Harvey_Winter",
+		  "FromFile": "Characters/Harvey/assets/Animations/Harvey_UpLate_Glasses.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 0, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 10,
+		  "AnimationFrameCount": 6,
+		  "When": { "Change NPC Schedules": "true", "Glasses": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Harvey_Onanie1 Winter",
+		  "Target": "Characters/Harvey_Winter",
+		  "FromFile": "Characters/Harvey/assets/Animations/Harvey_Onanie1.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 16, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 7,
+		  "AnimationFrameCount": 8,
+		  "When": { "Change NPC Schedules": "true", "Glasses": "false" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Harvey_Onanie1_Glasses Winter",
+		  "Target": "Characters/Harvey_Winter",
+		  "FromFile": "Characters/Harvey/assets/Animations/Harvey_Onanie1_Glasses.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 16, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 7,
+		  "AnimationFrameCount": 8,
+		  "When": { "Change NPC Schedules": "true", "Glasses": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Harvey_Onanie2 Winter",
+		  "Target": "Characters/Harvey_Winter",
+		  "FromFile": "Characters/Harvey/assets/Animations/Harvey_Onanie2.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 32, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 10,
+		  "AnimationFrameCount": 6,
+		  "When": { "Change NPC Schedules": "true", "Glasses": "false" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Harvey_Onanie2_Glasses Winter",
+		  "Target": "Characters/Harvey_Winter",
+		  "FromFile": "Characters/Harvey/assets/Animations/Harvey_Onanie2_Glasses.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 32, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 10,
+		  "AnimationFrameCount": 6,
+		  "When": { "Change NPC Schedules": "true", "Glasses": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Harvey_Dildo Winter",
+		  "Target": "Characters/Harvey_Winter",
+		  "FromFile": "Characters/Harvey/assets/Animations/Harvey_Dildo.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 48, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 6,
+		  "AnimationFrameCount": 8,
+		  "When": { "Change NPC Schedules": "true", "Glasses": "false" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Harvey_Dildo_Glasses Winter",
+		  "Target": "Characters/Harvey_Winter",
+		  "FromFile": "Characters/Harvey/assets/Animations/Harvey_Dildo_Glasses.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 48, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 6,
+		  "AnimationFrameCount": 8,
+		  "When": { "Change NPC Schedules": "true", "Glasses": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "Target": "Characters/Harvey_Winter",
+		  "FromFile": "Characters/Harvey/assets/Animations/Harvey_Injection.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 64, "Height": 32 },
+		  "ToArea": { "X": 0, "Y": 832, "Width": 64, "Height": 32 },
+		  "When": { "Change NPC Schedules": "true", "Glasses": "false" }
+		},
+		{
+		  "Action": "EditImage",
+		  "Target": "Characters/Harvey_Winter",
+		  "FromFile": "Characters/Harvey/assets/Animations/Harvey_Injection_Glasses.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 64, "Height": 32 },
+		  "ToArea": { "X": 0, "Y": 832, "Width": 64, "Height": 32 },
+		  "When": { "Change NPC Schedules": "true", "Glasses": "true" }
+		},
+		// Change Jodie - Animations -----------------------------------------------------------
+		{
+		  "Action": "EditImage",
+		  "LogName": "Jodi_UpLate",
+		  "Target": "Characters/Jodi",
+		  "FromFile": "Characters/JodieKent/assets/Animations/Jodi_UpLate.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 0, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 10,
+		  "AnimationFrameCount": 6,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Jodi_Onanie",
+		  "Target": "Characters/Jodi",
+		  "FromFile": "Characters/JodieKent/assets/Animations/Jodi_Onanie.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 16, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 10,
+		  "AnimationFrameCount": 6,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Jodi_Vibrator",
+		  "Target": "Characters/Jodi",
+		  "FromFile": "Characters/JodieKent/assets/Animations/Jodi_Vibrator.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 32, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 3,
+		  "AnimationFrameCount": 8,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Jodi_Fuck",
+		  "Target": "Characters/Jodi",
+		  "FromFile": "Characters/JodieKent/assets/Animations/Jodi_Fuck.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 0, "Y": 832, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 8,
+		  "AnimationFrameCount": 6,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		// Winter
+		{
+		  "Action": "EditImage",
+		  "LogName": "Jodi_UpLate Winter",
+		  "Target": "Characters/Jodi_Winter",
+		  "FromFile": "Characters/JodieKent/assets/Animations/Jodi_UpLate.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 0, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 10,
+		  "AnimationFrameCount": 6,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Jodi_Onanie Winter",
+		  "Target": "Characters/Jodi_Winter",
+		  "FromFile": "Characters/JodieKent/assets/Animations/Jodi_Onanie.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 16, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 10,
+		  "AnimationFrameCount": 6,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Jodi_Vibrator Winter",
+		  "Target": "Characters/Jodi_Winter",
+		  "FromFile": "Characters/JodieKent/assets/Animations/Jodi_Vibrator.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 32, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 3,
+		  "AnimationFrameCount": 8,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Jodi_Fuck Winter",
+		  "Target": "Characters/Jodi_Winter",
+		  "FromFile": "Characters/JodieKent/assets/Animations/Jodi_Fuck.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 0, "Y": 832, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 8,
+		  "AnimationFrameCount": 6,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		// Change Kent - Animations -----------------------------------------------------------
+		{
+		  "Action": "EditImage",
+		  "LogName": "Kent_UpLate",
+		  "Target": "Characters/Kent",
+		  "FromFile": "Characters/JodieKent/assets/Animations/Kent_UpLate.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 0, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 10,
+		  "AnimationFrameCount": 6,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Kent_Onanie",
+		  "Target": "Characters/Kent",
+		  "FromFile": "Characters/JodieKent/assets/Animations/Kent_Onanie.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 16, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 6,
+		  "AnimationFrameCount": 8,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Kent_Hole",
+		  "Target": "Characters/Kent",
+		  "FromFile": "Characters/JodieKent/assets/Animations/Kent_Hole.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 32, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 6,
+		  "AnimationFrameCount": 10,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Kent_Fuck",
+		  "Target": "Characters/Kent",
+		  "FromFile": "Characters/JodieKent/assets/Animations/Kent_Fuck.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 0, "Y": 832, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 8,
+		  "AnimationFrameCount": 6,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		// Winter
+		{
+		  "Action": "EditImage",
+		  "LogName": "Kent_UpLate Winter",
+		  "Target": "Characters/Kent_Winter",
+		  "FromFile": "Characters/JodieKent/assets/Animations/Kent_UpLate.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 0, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 10,
+		  "AnimationFrameCount": 6,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Kent_Onanie Winter",
+		  "Target": "Characters/Kent_Winter",
+		  "FromFile": "Characters/JodieKent/assets/Animations/Kent_Onanie.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 16, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 6,
+		  "AnimationFrameCount": 8,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Kent_Hole Winter",
+		  "Target": "Characters/Kent_Winter",
+		  "FromFile": "Characters/JodieKent/assets/Animations/Kent_Hole.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 32, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 6,
+		  "AnimationFrameCount": 10,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Kent_Fuck Winter",
+		  "Target": "Characters/Kent_Winter",
+		  "FromFile": "Characters/JodieKent/assets/Animations/Kent_Fuck.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 0, "Y": 832, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 8,
+		  "AnimationFrameCount": 6,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		// Change Leah - Animations -----------------------------------------------------------
+		{
+		  "Action": "EditImage",
+		  "LogName": "Leah_UpLate",
+		  "Target": "Characters/Leah",
+		  "FromFile": "Characters/Leah/assets/Animations/Leah_UpLate.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 0, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 10,
+		  "AnimationFrameCount": 6,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Leah_Urination",
+		  "Target": "Characters/Leah",
+		  "FromFile": "Characters/Leah/assets/Animations/Leah_Urination.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 16, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 6,
+		  "AnimationFrameCount": 5,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Leah_Onanie",
+		  "Target": "Characters/Leah",
+		  "FromFile": "Characters/Leah/assets/Animations/Leah_Onanie.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 32, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 10,
+		  "AnimationFrameCount": 6,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Leah_Dildo1",
+		  "Target": "Characters/Leah",
+		  "FromFile": "Characters/Leah/assets/Animations/Leah_Dildo1.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 48, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 6,
+		  "AnimationFrameCount": 6,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Leah_Dildo2",
+		  "Target": "Characters/Leah",
+		  "FromFile": "Characters/Leah/assets/Animations/Leah_Dildo2.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 0, "Y": 832, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 5,
+		  "AnimationFrameCount": 10,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		// Winter
+		{
+		  "Action": "EditImage",
+		  "LogName": "Leah_UpLate Winter",
+		  "Target": "Characters/Leah_Winter",
+		  "FromFile": "Characters/Leah/assets/Animations/Leah_UpLate.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 0, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 10,
+		  "AnimationFrameCount": 6,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Leah_Urination Winter",
+		  "Target": "Characters/Leah_Winter",
+		  "FromFile": "Characters/Leah/assets/Animations/Leah_Urination.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 16, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 6,
+		  "AnimationFrameCount": 5,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Leah_Onanie Winter",
+		  "Target": "Characters/Leah_Winter",
+		  "FromFile": "Characters/Leah/assets/Animations/Leah_Onanie.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 32, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 10,
+		  "AnimationFrameCount": 6,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Leah_Dildo1 Winter",
+		  "Target": "Characters/Leah_Winter",
+		  "FromFile": "Characters/Leah/assets/Animations/Leah_Dildo1.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 48, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 6,
+		  "AnimationFrameCount": 6,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Leah_Dildo2 Winter",
+		  "Target": "Characters/Leah_Winter",
+		  "FromFile": "Characters/Leah/assets/Animations/Leah_Dildo2.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 0, "Y": 832, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 5,
+		  "AnimationFrameCount": 10,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		// Change Lewis - Animations -----------------------------------------------------------
+		{
+		  "Action": "EditImage",
+		  "LogName": "Lewis_UpLate",
+		  "Target": "Characters/Lewis",
+		  "FromFile": "Characters/LewisMarnie/assets/Animations/Lewis_UpLate.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 0, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 10,
+		  "AnimationFrameCount": 6,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Lewis_Urination",
+		  "Target": "Characters/Lewis",
+		  "FromFile": "Characters/LewisMarnie/assets/Animations/Lewis_Urination.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 16, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 6,
+		  "AnimationFrameCount": 5,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Lewis_Onanie",
+		  "Target": "Characters/Lewis",
+		  "FromFile": "Characters/LewisMarnie/assets/Animations/Lewis_Onanie.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 32, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 7,
+		  "AnimationFrameCount": 8,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Lewis_Fuck",
+		  "Target": "Characters/Lewis",
+		  "FromFile": "Characters/LewisMarnie/assets/Animations/Lewis_Fuck.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 0, "Y": 832, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 8,
+		  "AnimationFrameCount": 6,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		// Winter
+		{
+		  "Action": "EditImage",
+		  "LogName": "Lewis_UpLate Winter",
+		  "Target": "Characters/Lewis_Winter",
+		  "FromFile": "Characters/LewisMarnie/assets/Animations/Lewis_UpLate.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 0, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 10,
+		  "AnimationFrameCount": 6,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Lewis_Urination Winter",
+		  "Target": "Characters/Lewis_Winter",
+		  "FromFile": "Characters/LewisMarnie/assets/Animations/Lewis_Urination.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 16, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 6,
+		  "AnimationFrameCount": 5,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Lewis_Onanie Winter",
+		  "Target": "Characters/Lewis_Winter",
+		  "FromFile": "Characters/LewisMarnie/assets/Animations/Lewis_Onanie.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 32, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 7,
+		  "AnimationFrameCount": 8,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Lewis_Fuck Winter",
+		  "Target": "Characters/Lewis_Winter",
+		  "FromFile": "Characters/LewisMarnie/assets/Animations/Lewis_Fuck.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 0, "Y": 832, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 8,
+		  "AnimationFrameCount": 6,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		// Change Marnie - Animations -----------------------------------------------------------
+		{
+		  "Action": "EditImage",
+		  "LogName": "Marnie_UpLate",
+		  "Target": "Characters/Marnie",
+		  "FromFile": "Characters/LewisMarnie/assets/Animations/Marnie_UpLate.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 0, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 10,
+		  "AnimationFrameCount": 6,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Marnie_Dildo1",
+		  "Target": "Characters/Marnie",
+		  "FromFile": "Characters/LewisMarnie/assets/Animations/Marnie_Dildo1.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 16, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 6,
+		  "AnimationFrameCount": 6,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Marnie_Dildo2",
+		  "Target": "Characters/Marnie",
+		  "FromFile": "Characters/LewisMarnie/assets/Animations/Marnie_Dildo2.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 32, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 5,
+		  "AnimationFrameCount": 10,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Marnie_Fuck",
+		  "Target": "Characters/Marnie",
+		  "FromFile": "Characters/LewisMarnie/assets/Animations/Marnie_Fuck.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 0, "Y": 832, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 8,
+		  "AnimationFrameCount": 6,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		// Winter
+		{
+		  "Action": "EditImage",
+		  "LogName": "Marnie_UpLate Winter",
+		  "Target": "Characters/Marnie_Winter",
+		  "FromFile": "Characters/LewisMarnie/assets/Animations/Marnie_UpLate.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 0, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 10,
+		  "AnimationFrameCount": 6,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Marnie_Dildo1 Winter",
+		  "Target": "Characters/Marnie_Winter",
+		  "FromFile": "Characters/LewisMarnie/assets/Animations/Marnie_Dildo1.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 16, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 6,
+		  "AnimationFrameCount": 6,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Marnie_Dildo2 Winter",
+		  "Target": "Characters/Marnie_Winter",
+		  "FromFile": "Characters/LewisMarnie/assets/Animations/Marnie_Dildo2.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 32, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 5,
+		  "AnimationFrameCount": 10,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Marnie_Fuck Winter",
+		  "Target": "Characters/Marnie_Winter",
+		  "FromFile": "Characters/LewisMarnie/assets/Animations/Marnie_Fuck.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 0, "Y": 832, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 8,
+		  "AnimationFrameCount": 6,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		// Change Linus - Animations -----------------------------------------------------------
+		{
+		  "Action": "EditImage",
+		  "LogName": "Linus_Onanie1",
+		  "Target": "Characters/Linus",
+		  "FromFile": "Characters/Linus/assets/Animations/Linus_Onanie1.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 0, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 6,
+		  "AnimationFrameCount": 8,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Linus_Onanie2",
+		  "Target": "Characters/Linus",
+		  "FromFile": "Characters/Linus/assets/Animations/Linus_Onanie2.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 16, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 10,
+		  "AnimationFrameCount": 6,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Linus_Dildo",
+		  "Target": "Characters/Linus",
+		  "FromFile": "Characters/Linus/assets/Animations/Linus_Dildo.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 32, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 5,
+		  "AnimationFrameCount": 10,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		// Winter
+		{
+		  "Action": "EditImage",
+		  "LogName": "Linus_Onanie1 Winter",
+		  "Target": "Characters/Linus_Winter",
+		  "FromFile": "Characters/Linus/assets/Animations/Linus_Onanie1.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 0, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 6,
+		  "AnimationFrameCount": 8,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Linus_Onanie2 Winter",
+		  "Target": "Characters/Linus_Winter",
+		  "FromFile": "Characters/Linus/assets/Animations/Linus_Onanie2.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 16, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 10,
+		  "AnimationFrameCount": 6,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Linus_Dildo Winter",
+		  "Target": "Characters/Linus_Winter",
+		  "FromFile": "Characters/Linus/assets/Animations/Linus_Dildo.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 32, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 5,
+		  "AnimationFrameCount": 10,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		// Change Maru - Animations -----------------------------------------------------------
+		{
+		  "Action": "EditImage",
+		  "LogName": "Maru_UpLate",
+		  "Target": "Characters/Maru",
+		  "FromFile": "Characters/Maru/assets/Animations/Maru_UpLate.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 0, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 10,
+		  "AnimationFrameCount": 6,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Maru_Saw",
+		  "Target": "Characters/Maru",
+		  "FromFile": "Characters/Maru/assets/Animations/Maru_Saw.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 16, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 6,
+		  "AnimationFrameCount": 6,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Maru_Drill",
+		  "Target": "Characters/Maru",
+		  "FromFile": "Characters/Maru/assets/Animations/Maru_Drill.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 32, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 5,
+		  "AnimationFrameCount": 12,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Maru_Vibrator1",
+		  "Target": "Characters/Maru",
+		  "FromFile": "Characters/Maru/assets/Animations/Maru_Vibrator1.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 48, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 3,
+		  "AnimationFrameCount": 16,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Maru_Vibrator2",
+		  "Target": "Characters/Maru",
+		  "FromFile": "Characters/Maru/assets/Animations/Maru_Vibrator2.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 0, "Y": 832, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 3,
+		  "AnimationFrameCount": 12,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Maru_Hospital_Onanie",
+		  "Target": "Characters/Maru_Hospital",
+		  "FromFile": "Characters/Maru/assets/Animations/Maru_Hospital_Onanie.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 16, "Y": 832, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 10,
+		  "AnimationFrameCount": 6,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		// Winter
+		{
+		  "Action": "EditImage",
+		  "LogName": "Maru_UpLate Winter",
+		  "Target": "Characters/Maru_Winter",
+		  "FromFile": "Characters/Maru/assets/Animations/Maru_UpLate.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 0, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 10,
+		  "AnimationFrameCount": 6,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Maru_Saw Winter",
+		  "Target": "Characters/Maru_Winter",
+		  "FromFile": "Characters/Maru/assets/Animations/Maru_Saw.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 16, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 6,
+		  "AnimationFrameCount": 6,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Maru_Drill Winter",
+		  "Target": "Characters/Maru_Winter",
+		  "FromFile": "Characters/Maru/assets/Animations/Maru_Drill.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 32, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 5,
+		  "AnimationFrameCount": 12,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Maru_Vibrator1 Winter",
+		  "Target": "Characters/Maru_Winter",
+		  "FromFile": "Characters/Maru/assets/Animations/Maru_Vibrator1.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 48, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 3,
+		  "AnimationFrameCount": 16,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Maru_Vibrator2 Winter",
+		  "Target": "Characters/Maru_Winter",
+		  "FromFile": "Characters/Maru/assets/Animations/Maru_Vibrator2.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 0, "Y": 832, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 3,
+		  "AnimationFrameCount": 12,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		// Change Pam - Animations -----------------------------------------------------------
+		{
+		  "Action": "EditImage",
+		  "LogName": "Pam_Onanie",
+		  "Target": "Characters/Pam",
+		  "FromFile": "Characters/Pam/assets/Animations/Pam_Onanie.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 16, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 10,
+		  "AnimationFrameCount": 6,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Pam_Dildo",
+		  "Target": "Characters/Pam",
+		  "FromFile": "Characters/Pam/assets/Animations/Pam_Dildo.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 32, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 5,
+		  "AnimationFrameCount": 8,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		// Winter
+		{
+		  "Action": "EditImage",
+		  "LogName": "Pam_Onanie Winter",
+		  "Target": "Characters/Pam_Winter",
+		  "FromFile": "Characters/Pam/assets/Animations/Pam_Onanie.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 16, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 10,
+		  "AnimationFrameCount": 6,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Pam_Dildo Winter",
+		  "Target": "Characters/Pam_Winter",
+		  "FromFile": "Characters/Pam/assets/Animations/Pam_Dildo.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 32, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 5,
+		  "AnimationFrameCount": 8,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		// Change Penny - Animations -----------------------------------------------------------
+		{
+		  "Action": "EditImage",
+		  "LogName": "Penny_UpLate",
+		  "Target": "Characters/Penny",
+		  "FromFile": "Characters/Penny/assets/Animations/Penny_UpLate.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 0, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 10,
+		  "AnimationFrameCount": 6,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Penny_Milking",
+		  "Target": "Characters/Penny",
+		  "FromFile": "Characters/Penny/assets/Animations/Penny_Milking.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 16, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 10,
+		  "AnimationFrameCount": 6,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Penny_Onanie1",
+		  "Target": "Characters/Penny",
+		  "FromFile": "Characters/Penny/assets/Animations/Penny_Onanie1.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 32, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 10,
+		  "AnimationFrameCount": 6,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Penny_Onanie2",
+		  "Target": "Characters/Penny",
+		  "FromFile": "Characters/Penny/assets/Animations/Penny_Onanie2.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 48, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 10,
+		  "AnimationFrameCount": 6,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Penny_Dildo",
+		  "Target": "Characters/Penny",
+		  "FromFile": "Characters/Penny/assets/Animations/Penny_Dildo.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 0, "Y": 832, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 5,
+		  "AnimationFrameCount": 6,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		// Winter
+		{
+		  "Action": "EditImage",
+		  "LogName": "Penny_UpLate Winter",
+		  "Target": "Characters/Penny_Winter",
+		  "FromFile": "Characters/Penny/assets/Animations/Penny_UpLate.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 0, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 10,
+		  "AnimationFrameCount": 6,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Penny_Milking Winter",
+		  "Target": "Characters/Penny_Winter",
+		  "FromFile": "Characters/Penny/assets/Animations/Penny_Milking.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 16, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 10,
+		  "AnimationFrameCount": 6,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Penny_Onanie1 Winter",
+		  "Target": "Characters/Penny_Winter",
+		  "FromFile": "Characters/Penny/assets/Animations/Penny_Onanie1.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 32, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 10,
+		  "AnimationFrameCount": 6,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Penny_Onanie2 Winter",
+		  "Target": "Characters/Penny_Winter",
+		  "FromFile": "Characters/Penny/assets/Animations/Penny_Onanie2.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 48, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 10,
+		  "AnimationFrameCount": 6,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Penny_Dildo Winter",
+		  "Target": "Characters/Penny_Winter",
+		  "FromFile": "Characters/Penny/assets/Animations/Penny_Dildo.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 0, "Y": 832, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 5,
+		  "AnimationFrameCount": 6,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		// Change Sam - Animations -----------------------------------------------------------
+		{
+		  "Action": "EditImage",
+		  "LogName": "Sam_UpLate",
+		  "Target": "Characters/Sam",
+		  "FromFile": "Characters/Sam/assets/Animations/Sam_UpLate.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 0, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 10,
+		  "AnimationFrameCount": 6,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Sam_Urination",
+		  "Target": "Characters/Sam",
+		  "FromFile": "Characters/Sam/assets/Animations/Sam_Urination.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 16, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 6,
+		  "AnimationFrameCount": 5,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Sam_Onanie1",
+		  "Target": "Characters/Sam",
+		  "FromFile": "Characters/Sam/assets/Animations/Sam_Onanie1.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 32, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 6,
+		  "AnimationFrameCount": 8,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Sam_Onanie2",
+		  "Target": "Characters/Sam",
+		  "FromFile": "Characters/Sam/assets/Animations/Sam_Onanie2.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 48, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 10,
+		  "AnimationFrameCount": 6,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Sam_Hole",
+		  "Target": "Characters/Sam",
+		  "FromFile": "Characters/Sam/assets/Animations/Sam_Hole.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 0, "Y": 832, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 6,
+		  "AnimationFrameCount": 10,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		// Winter
+		{
+		  "Action": "EditImage",
+		  "LogName": "Sam_UpLate Winter",
+		  "Target": "Characters/Sam_Winter",
+		  "FromFile": "Characters/Sam/assets/Animations/Sam_UpLate.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 0, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 10,
+		  "AnimationFrameCount": 6,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Sam_Urination Winter",
+		  "Target": "Characters/Sam_Winter",
+		  "FromFile": "Characters/Sam/assets/Animations/Sam_Urination.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 16, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 6,
+		  "AnimationFrameCount": 5,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Sam_Onanie1 Winter",
+		  "Target": "Characters/Sam_Winter",
+		  "FromFile": "Characters/Sam/assets/Animations/Sam_Onanie1.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 32, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 6,
+		  "AnimationFrameCount": 8,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Sam_Onanie2 Winter",
+		  "Target": "Characters/Sam_Winter",
+		  "FromFile": "Characters/Sam/assets/Animations/Sam_Onanie2.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 48, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 10,
+		  "AnimationFrameCount": 6,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Sam_Hole Winter",
+		  "Target": "Characters/Sam_Winter",
+		  "FromFile": "Characters/Sam/assets/Animations/Sam_Hole.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 0, "Y": 832, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 6,
+		  "AnimationFrameCount": 10,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		// Change Sandy - Animations -----------------------------------------------------------
+		{
+		  "Action": "EditImage",
+		  "LogName": "Sandy_Onanie",
+		  "Target": "Characters/Sandy",
+		  "FromFile": "Characters/Sandy/assets/Animations/Sandy_Onanie.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 16, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 10,
+		  "AnimationFrameCount": 6,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		// Change Sebastian - Animations -----------------------------------------------------------
+		{
+		  "Action": "EditImage",
+		  "LogName": "Sebastian_UpLate",
+		  "Target": "Characters/Sebastian",
+		  "FromFile": "Characters/Sebastian/assets/Animations/Sebastian_UpLate.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 0, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 10,
+		  "AnimationFrameCount": 6,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Sebastian_Onanie1",
+		  "Target": "Characters/Sebastian",
+		  "FromFile": "Characters/Sebastian/assets/Animations/Sebastian_Onanie1.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 16, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 6,
+		  "AnimationFrameCount": 8,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Sebastian_Onanie2",
+		  "Target": "Characters/Sebastian",
+		  "FromFile": "Characters/Sebastian/assets/Animations/Sebastian_Onanie2.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 32, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 10,
+		  "AnimationFrameCount": 6,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Sebastian_Hole",
+		  "Target": "Characters/Sebastian",
+		  "FromFile": "Characters/Sebastian/assets/Animations/Sebastian_Hole.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 48, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 6,
+		  "AnimationFrameCount": 10,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Sebastian_Dildo",
+		  "Target": "Characters/Sebastian",
+		  "FromFile": "Characters/Sebastian/assets/Animations/Sebastian_Dildo.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 0, "Y": 832, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 6,
+		  "AnimationFrameCount": 6,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		// Winter
+		{
+		  "Action": "EditImage",
+		  "LogName": "Sebastian_UpLate Winter",
+		  "Target": "Characters/Sebastian_Winter",
+		  "FromFile": "Characters/Sebastian/assets/Animations/Sebastian_UpLate.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 0, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 10,
+		  "AnimationFrameCount": 6,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Sebastian_Onanie1 Winter",
+		  "Target": "Characters/Sebastian_Winter",
+		  "FromFile": "Characters/Sebastian/assets/Animations/Sebastian_Onanie1.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 16, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 6,
+		  "AnimationFrameCount": 8,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Sebastian_Onanie2 Winter",
+		  "Target": "Characters/Sebastian_Winter",
+		  "FromFile": "Characters/Sebastian/assets/Animations/Sebastian_Onanie2.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 32, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 10,
+		  "AnimationFrameCount": 6,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Sebastian_Hole Winter",
+		  "Target": "Characters/Sebastian_Winter",
+		  "FromFile": "Characters/Sebastian/assets/Animations/Sebastian_Hole.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 48, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 6,
+		  "AnimationFrameCount": 10,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Sebastian_Dildo Winter",
+		  "Target": "Characters/Sebastian_Winter",
+		  "FromFile": "Characters/Sebastian/assets/Animations/Sebastian_Dildo.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 0, "Y": 832, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 6,
+		  "AnimationFrameCount": 6,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		// Change Shane - Animations -----------------------------------------------------------
+        {
+		  "Action": "EditImage",
+		  "LogName": "Shane_UpLate",
+		  "Target": "Characters/Shane",
+		  "FromFile": "Characters/Shane/assets/Animations/Shane_UpLate.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 0, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 10,
+		  "AnimationFrameCount": 6,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Shane_Onanie1",
+		  "Target": "Characters/Shane_Winter",
+		  "FromFile": "Characters/Shane/assets/Animations/Shane_Onanie1.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 16, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 7,
+		  "AnimationFrameCount": 8,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Shane_Onanie2",
+		  "Target": "Characters/Shane",
+		  "FromFile": "Characters/Shane/assets/Animations/Shane_Onanie2.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 32, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 10,
+		  "AnimationFrameCount": 6,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Shane_JojaMart_Hole",
+		  "Target": "Characters/Shane_JojaMart",
+		  "FromFile": "Characters/Shane/assets/Animations/Shane_JojaMart_Hole.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 48, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 6,
+		  "AnimationFrameCount": 10,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Shane_JojaMart_Dildo",
+		  "Target": "Characters/Shane_JojaMart",
+		  "FromFile": "Characters/Shane/assets/Animations/Shane_JojaMart_Dildo.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 0, "Y": 832, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 5,
+		  "AnimationFrameCount": 10,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		// Winter
+		{
+		  "Action": "EditImage",
+		  "LogName": "Shane_UpLate Winter",
+		  "Target": "Characters/Shane_Winter",
+		  "FromFile": "Characters/Shane/assets/Animations/Shane_UpLate.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 0, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 10,
+		  "AnimationFrameCount": 6,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Shane_Onanie1 Winter",
+		  "Target": "Characters/Shane_Winter",
+		  "FromFile": "Characters/Shane/assets/Animations/Shane_Onanie1.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 16, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 7,
+		  "AnimationFrameCount": 8,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Shane_Onanie2 Winter",
+		  "Target": "Characters/Shane_Winter",
+		  "FromFile": "Characters/Shane/assets/Animations/Shane_Onanie2.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 32, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 10,
+		  "AnimationFrameCount": 6,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Shane_JojaMart_Hole Winter",
+		  "Target": "Characters/Shane_JojaMart",
+		  "FromFile": "Characters/Shane/assets/Animations/Shane_JojaMart_Hole.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 48, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 6,
+		  "AnimationFrameCount": 10,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Shane_JojaMart_Dildo Winter",
+		  "Target": "Characters/Shane_JojaMart",
+		  "FromFile": "Characters/Shane/assets/Animations/Shane_JojaMart_Dildo.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 0, "Y": 832, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 5,
+		  "AnimationFrameCount": 10,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		// Change Willy Animations -----------------------------------------------------------
+		{
+		  "Action": "EditImage",
+		  "LogName": "Willy_Onanie1",
+		  "Target": "Characters/Willy",
+		  "FromFile": "Characters/Willy/assets/Animations/Willy_Onanie1.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 16, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 6,
+		  "AnimationFrameCount": 8,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Willy_Onanie2",
+		  "Target": "Characters/Willy",
+		  "FromFile": "Characters/Willy/assets/Animations/Willy_Onanie2.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 32, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 10,
+		  "AnimationFrameCount": 6,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		// Winter
+		{
+		  "Action": "EditImage",
+		  "LogName": "Willy_Onanie1 Winter",
+		  "Target": "Characters/Willy_Winter",
+		  "FromFile": "Characters/Willy/assets/Animations/Willy_Onanie1.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 16, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 6,
+		  "AnimationFrameCount": 8,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Willy_Onanie2 Winter",
+		  "Target": "Characters/Willy_Winter",
+		  "FromFile": "Characters/Willy/assets/Animations/Willy_Onanie2.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 32, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 10,
+		  "AnimationFrameCount": 6,
+		  "When": { "Change NPC Schedules": "true" }
+		},
+		// Change Lilith - Animations -----------------------------------------------------------
+		{
+		  "Action": "EditImage",
+		  "LogName": "Lilith_Onanie",
+		  "Target": "Characters/Lilith",
+		  "FromFile": "Characters/Lilith/assets/Animations/Lilith_Onanie.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 16, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 10,
+		  "AnimationFrameCount": 6
+		},
+		// Change Sella - Animations -----------------------------------------------------------
+		{
+		  "Action": "EditImage",
+		  "LogName": "Sella_Onanie",
+		  "Target": "Characters/Sella",
+		  "FromFile": "Characters/Sella/assets/Animations/Sella_Onanie.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 16, "Y": 800, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 12,
+		  "AnimationFrameCount": 6
+		},
+		// Load character specific data
+		{
+			"LogName": "Load Characters",
+			"Action": "Include",
+			"FromFile": "Characters/characters.json",
+		},
+		// Change Dark Club Animations
+		{
+		  "Action": "EditImage",
+		  "LogName": "Toilet1 Animation",
+		  "Target": "Portraits/ToiletDC1",
+		  "FromFile": "Characters/DarkClubNPC/assets/Animations/Toilet1.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 64, "Height": 64 },
+		  "ToArea": { "X": 0, "Y": 0, "Width": 64, "Height": 64 },
+		  "AnimationFrameTime": 10,
+		  "AnimationFrameCount": 12
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Toilet2 Animation",
+		  "Target": "Portraits/ToiletDC2",
+		  "FromFile": "Characters/DarkClubNPC/assets/Animations/Toilet2.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 64, "Height": 64 },
+		  "ToArea": { "X": 0, "Y": 0, "Width": 64, "Height": 64 },
+		  "AnimationFrameTime": 10,
+		  "AnimationFrameCount": 12
+		},
+		{
+		  "Action": "EditImage",
+		  "LogName": "Toilet3 Animation",
+		  "Target": "Portraits/ToiletDC3",
+		  "FromFile": "Characters/DarkClubNPC/assets/Animations/Toilet1.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 64, "Height": 64 },
+		  "ToArea": { "X": 0, "Y": 0, "Width": 64, "Height": 64 },
+		  "AnimationFrameTime": 10,
+		  "AnimationFrameCount": 12
+		},
+	]
+}

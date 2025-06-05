@@ -1,0 +1,1080 @@
+{
+    "Format": "1.23.0",
+    "ConfigSchema": {
+		"IanChanges": {
+			"Description": "Toggle greetings for Ian.",
+			"AllowValues": "true, false",
+			"Default": "true"
+		},
+		"JericChanges": {
+			"Description": "Toggle greetings for Jeric.",
+			"AllowValues": "true, false",
+			"Default": "true"
+		},
+		"KennethChanges": {
+			"Description": "Toggle greetings for Kenneth.",
+			"AllowValues": "true, false",
+			"Default": "true"
+		},
+		"PhilipChanges": {
+			"Description": "Toggle greetings for Philip.",
+			"AllowValues": "true, false",
+			"Default": "true"
+		},
+        "SeanChanges": {
+			"Description": "Toggle greetings for Sean.",
+			"AllowValues": "true, false",
+			"Default": "true"
+		},
+		"ShiroChanges": {
+			"Description": "Toggle greetings for Shiro.",
+			"AllowValues": "true, false",
+			"Default": "true"
+		},
+        "AlissaChanges": {
+			"Description": "Toggle greetings for Alissa.",
+			"AllowValues": "true, false",
+			"Default": "true"
+		},
+        "CorineChanges": {
+			"Description": "Toggle greetings for Corine.",
+			"AllowValues": "true, false",
+			"Default": "true"
+		},
+        "DaiaChanges": {
+			"Description": "Toggle greetings for Daia.",
+			"AllowValues": "true, false",
+			"Default": "true"
+		},
+        "FlorChanges": {
+			"Description": "Toggle greetings for Flor.",
+			"AllowValues": "true, false",
+			"Default": "true"
+		},
+        "YsabelleChanges": {
+			"Description": "Toggle greetings for Ysabelle.",
+			"AllowValues": "true, false",
+			"Default": "true"
+		},
+        "MaddieChanges": {
+			"Description": "Toggle greetings for Maddie.",
+			"AllowValues": "true, false",
+			"Default": "true"
+		},
+        "JioChanges": {
+			"Description": "Toggle greetings for Jio.",
+			"AllowValues": "true, false",
+			"Default": "true"
+		},
+        "KiwiChanges": {
+			"Description": "Toggle greetings for Kiwi.",
+			"AllowValues": "true, false",
+			"Default": "true"
+		}
+	},
+    "Changes": 
+	[
+        {
+            "Action": "EditData",
+            "Target": "JoXW.MobilePhone/npcs",
+            "Entries": {
+                "Alissa": {
+                    "reminisces": 	[
+                        {
+                            "name": "农夫与歌者 (两心)",
+			"location": "Custom_Ridgeside_RidgesideVillage",
+			"eventId":"75160114",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "尴尬的会见 (四心)",
+			"location": "Town",
+			"eventId":"75160115",
+      			"night": false,
+     			"mail": null
+		},	
+		{
+			"name": "写一首歌 (六心)",
+			"location": "Custom_Ridgeside_AlissaHouse",
+			"eventId":"75160118",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "演唱会 (八心)",
+			"location": "Custom_Ridgeside_RidgesideVillage",
+			"eventId":"75160120",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "艾莉莎和农夫在小屋 (十心)",
+			"location": "Custom_Ridgeside_AlissaShed",
+			"eventId":"75160121",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "计划 (十四心 Part 1)",
+			"location": "FarmHouse",
+			"eventId":"75160221",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "野餐 (十四心 Part 2)",
+			"location": "FarmHouse",
+			"eventId":"75160222",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "小屋里的额外事件",
+                            "location": "Custom_Ridgeside_AlissaShed",
+                            "eventId":"75160116",
+                                  "night": false,
+                                 "mail": null
+                        }
+                
+                    ],
+                    "minPointsToCall": 250,
+                    "canCall": true
+                },
+                "Corine": {
+                    "reminisces": 		[
+                        {
+                            "name": "意外 (两心)",
+			"location": "Custom_Ridgeside_EzekielHouse",
+			"eventId":"75160122",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "忍者! (四心)",
+			"location": "Custom_Ridgeside_Ridge",
+			"eventId":"75160123",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "生气 (六心)",
+			"location": "Custom_Ridgeside_Ridge",
+			"eventId":"75160124",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "特训! (八心)",
+			"location": "Custom_Ridgeside_RidgesideVillage",
+			"eventId":"75160125",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "拜访 Part 1 (十心)",
+			"location": "Farm",
+			"eventId":"75160126",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "拜访 Part 2 (十心)",
+			"location": "Custom_Ridgeside_Ridge",
+			"eventId":"75160127",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "任务之后回家 (十四心 Part 1)",
+			"location": "FarmHouse",
+			"eventId":"75160223",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "怪物讨伐约会 (十四心 Part 2)",
+                            "location": "FarmHouse",
+                            "eventId":"75160224",
+                                  "night": false,
+                                 "mail": null
+                        }	
+                    ],
+                    "minPointsToCall": 250,
+                    "canCall": true
+                },
+                "Daia": {
+                    "reminisces": 	[
+                        {
+                            "name": "黛雅来了",
+                            "location": "Custom_Ridgeside_RSVNinjaHouse",
+                            "eventId":"75160254",
+                                  "night": false,
+                                 "mail": null
+                        },
+                        {
+                            "name": "黛雅在村里 (两心)",
+                            "location": "Custom_Ridgeside_RidgesideVillage",
+                            "eventId":"75160201",
+                                  "night": false,
+                                 "mail": null
+                        },
+                        {
+                            "name": "黛雅和她的调查 (四心)",
+                            "location": "Custom_Ridgeside_RSVSpiritRealm",
+                            "eventId":"75160202",
+                                  "night": false,
+                                 "mail": null
+                        },
+                        {
+                            "name": "黛雅在旅馆 Part 1 (六心)",
+                            "location": "Custom_Ridgeside_LogCabinHotelLobby",
+                            "eventId":"75160203",
+                                  "night": false,
+                                 "mail": null
+                        },
+                        {
+                            "name": "黛雅在旅馆 Part 2 (六心)",
+                            "location": "Custom_Ridgeside_LogCabinHotel3rdFloor",
+                            "eventId":"75160204",
+                                  "night": false,
+                                 "mail": null
+                        },
+                        {
+                            "name": "黛雅在屋顶 (八心)",
+                            "location": "Custom_Ridgeside_Ridge",
+                            "eventId":"75160205",
+                                  "night": false,
+                                 "mail": null
+                        },
+                        {
+                            "name": "黛雅坠入爱河 (十心)",
+                            "location": "Custom_Ridgeside_RidgeForest",
+                            "eventId":"75160208",
+                                  "night": false,
+                                 "mail": null
+                        },
+                        {
+                            "name": "黛雅14心事件Part 1 (14心)",
+                            "location": "FarmHouse",
+                            "eventId":"75160243",
+                                  "night": false,
+                                 "mail": null
+                        },
+                        {
+                            "name": "黛雅14心Event Part 2 (14心)",
+                            "location": "FarmHouse",
+                            "eventId":"75160244",
+                                  "night": false,
+                                 "mail": null
+                        }
+                    ],
+                    "minPointsToCall": 250,
+                    "canCall": true
+                },
+                "Flor": {
+                    "reminisces": [
+                        {
+                            "name": "你忘了? (两心)",
+			"location": "Custom_Ridgeside_LogCabinHotel2ndFloor",
+			"eventId":"75160128",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "去旅行还是不去旅行 (四心)",
+			"location": "Custom_Ridgeside_RSVCliff",
+			"eventId":"75160129",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "计划调研 (六心)",
+			"location": "ArchaeologyHouse",
+			"eventId":"75160130",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "研究更多... (八心)",
+			"location": "Custom_Ridgeside_LogCabinHotel2ndFloor",
+			"eventId":"75160132",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "被锁在外面 (十心)",
+			"location": "Custom_Ridgeside_LogCabinHotel2ndFloor",
+			"eventId":"75160133",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "不安全 (十四心 Part 1)",
+			"location": "FarmHouse",
+			"eventId":"75160225",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "约会 (十四心 Part 2)",
+                            "location": "Custom_Ridgeside_LogCabinHotelLobby",
+                            "eventId":"75160226",
+                                  "night": false,
+                                 "mail": null
+                        }	
+                
+                    ],
+                    "minPointsToCall": 250,
+                    "canCall": true
+                },
+                "Ian": {
+                    "reminisces": [
+                        {
+                            "name": "送货帮助 (两心)",
+			"location": "BusStop",
+			"eventId":"75160146",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "放松 (四心)",
+			"location": "Custom_Ridgeside_RSVCliff",
+			"eventId":"75160147",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "焦急等待 (六心)",
+			"location": "Custom_Ridgeside_LennyHouse",
+			"eventId":"75160148",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "检查信件 (八心)",
+			"location": "Custom_Ridgeside_RidgesideVillage",
+			"eventId":"75160149",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "回家晚了 (十心)",
+			"location": "Custom_Ridgeside_RSVCliff",
+			"eventId":"75160150",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "疲惫 (十四心 Part 1)",
+			"location": "FarmHouse",
+			"eventId":"75160227",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "课程 (十四心 Part 2)",
+                            "location": "ArchaeologyHouse",
+                            "eventId":"75160228",
+                                  "night": false,
+                                 "mail": null
+                        }
+                
+                    ],
+                    "minPointsToCall": 250,
+                    "canCall": true
+                },
+                "Jeric": {
+                    "reminisces": [
+                        {
+                            "name": "惊喜拜访 (两心)",
+			"location": "Farm",
+			"eventId":"75160151",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "幸运硬币 (四心)",
+			"location": "Custom_Ridgeside_JericHouse",
+			"eventId":"75160152",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "杰里克和他的农场 (六心)",
+			"location": "Custom_Ridgeside_RidgesideVillage",
+			"eventId":"75160153",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "承认失败 (八心)",
+			"location": "Custom_Ridgeside_RidgesideVillage",
+			"eventId":"75160154",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "杰里克的约会 Part 1 (十心)",
+			"location": "Farm",
+			"eventId":"75160155",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "杰里克的约会 Part 2 (十心)",
+			"location": "Custom_Ridgeside_RidgesideVillage",
+			"eventId":"75160156",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "邀约 (十四心 Part 1)",
+			"location": "FarmHouse",
+			"eventId":"75160229",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "比赛 (十四心 Part 2)",
+                            "location": "FarmHouse",
+                            "eventId":"75160230",
+                                  "night": false,
+                                 "mail": null
+                        }
+                    ],
+                    "minPointsToCall": 250,
+                    "canCall": true
+                },
+                "Jio": {
+                    "reminisces": [
+                        {
+                            "name": "山脊上吉奥的介绍",
+                            "location": "Custom_Ridgeside_Ridge",
+                            "eventId":"75160377",
+                                  "night": false,
+                                 "mail": null
+                        },	
+                        {
+                            "name": "欢迎来到森林",
+			"location": "Custom_Ridgeside_RidgeForest",
+			"eventId":"75160187",
+      			"night": false,
+     			"mail": null
+		},	
+		{
+			"name": "不要打扰 (两心)",
+			"location": "Custom_Ridgeside_RSVNinjaHouse",
+			"eventId":"75160078",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "灵魂们 (四心)",
+			"location": "Custom_Ridgeside_Ridge",
+			"eventId":"75160079",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "青睐 (六心)",
+			"location": "Custom_Ridgeside_RSVNinjaHouse",
+			"eventId":"75160080",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "吉奥和灵魂们 (八心)",
+			"location": "Custom_Ridgeside_Ridge",
+			"eventId":"75160081",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "吉奥在灵界 (九心)",
+                            "location": "Custom_Ridgeside_RSVSpiritRealm",
+                            "eventId":"75160200",
+                                  "night": false,
+                                 "mail": null
+                        },
+                        {
+                            "name": "吉奥被分配的任务 (14心Part 1)",
+                            "location": "FarmHouse",
+                            "eventId":"75160241",
+                                  "night": false,
+                                 "mail": null
+                        },
+                        {
+                            "name": "吉奥被分配的任务 (14心Part 2)",
+                            "location": "FarmHouse",
+                            "eventId":"75160242",
+                                  "night": false,
+                                 "mail": null
+                        }
+                
+                    ],
+                    "minPointsToCall": 250,
+                    "canCall": true
+                },
+                "Kenneth": {
+                    "reminisces": [
+                        {
+                            "name": "小镇维护 (两心)",
+			"location": "Custom_Ridgeside_RidgesideVillage",
+			"eventId":"75160157",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "一个失败的发明 (四心)",
+			"location": "Custom_Ridgeside_KennethHouse",
+			"eventId":"75160158",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "太近了! (六心)",
+			"location": "Custom_Ridgeside_KennethHouse",
+			"eventId":"75160159",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "继续 (八心)",
+			"location": "Custom_Ridgeside_Ridge",
+			"eventId":"75160160",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "惊喜 (十心)",
+			"location": "Farm",
+			"eventId":"75160161",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "请求 (十四心 Part 1)",
+			"location": "FarmHouse",
+			"eventId":"75160231",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "第二次惊喜 (十四心 Part 2)",
+                            "location": "Custom_Ridgeside_Ridge",
+                            "eventId":"75160232",
+                                  "night": false,
+                                 "mail": null
+                        }
+                    ],
+                    "minPointsToCall": 250,
+                    "canCall": true
+                },
+                "Kiarra": {
+                    "reminisces": [
+                        {
+                            "name": "基亚拉选择困难 (两心)",
+                            "location": "Custom_Ridgeside_3Bros2ndFloor",
+                            "eventId":"75160325",
+                                  "night": false,
+                                 "mail": null
+                        },
+                        {
+                            "name": "基亚拉做清洁 (四心)",
+                            "location": "Custom_Ridgeside_RSVCableCar",
+                            "eventId":"75160326",
+                                  "night": false,
+                                 "mail": null
+                        },
+                        {
+                            "name": "基亚拉工作中 (六心)",
+                            "location": "Custom_Ridgeside_LennyHouse",
+                            "eventId":"75160327",
+                                  "night": false,
+                                 "mail": null
+                        },
+                        {
+                            "name": "基亚拉志愿帮助 (八心)",
+                            "location": "Custom_Ridgeside_LennyHouse",
+                            "eventId":"75160328",
+                                  "night": false,
+                                 "mail": null
+                        },
+                        {
+                            "name": "基亚拉和农夫的失败约会 (十心)",
+                            "location": "Custom_Ridgeside_3Bros",
+                            "eventId":"75160365",
+                                  "night": false,
+                                 "mail": null
+                        }
+                    ],
+                    "minPointsToCall": 250,
+                    "canCall": true
+                },
+                "Kiwi": {
+                    "reminisces": [
+                        {
+                            "name": "会面",
+                            "location": "Custom_Ridgeside_RSVCliff",
+                            "eventId":"75160188",
+                                  "night": false,
+                                 "mail": null
+                        },
+                        {
+                            "name": "躲藏 (两心)",
+			"location": "Custom_Ridgeside_RSVNinjaHouse",
+			"eventId":"75160177",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "祝尼魔们 (四心)",
+			"location": "BusStop",
+			"eventId":"75160178",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "在社区中心 (六心)",
+			"location": "Town",
+			"eventId":"75160179",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "过去 (八心)",
+                            "location": "WizardHouse",
+                            "eventId":"75160180",
+                                  "night": false,
+                                 "mail": null
+                        }
+                
+                    ],
+                    "minPointsToCall": 250,
+                    "canCall": true
+                },
+                "Maddie": {
+                    "reminisces": [
+                        {
+                            "name": "忙碌 (两心)",
+			"location": "Custom_Ridgeside_AguarLab",
+			"eventId":"75160134",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "田野样本 (四心)",
+			"location": "Custom_Ridgeside_MaddieHouse",
+			"eventId":"75160135",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "放松 (六心)",
+			"location": "Custom_Ridgeside_RidgesideVillage",
+			"eventId":"75160136",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "忏悔 (九心)",
+			"location": "Custom_Ridgeside_RidgesideVillage",
+			"eventId":"75160138",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "约会 (十心 Part 2)",
+			"location": "Custom_Ridgeside_MaddieHouse",
+			"eventId":"75160140",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "包裹 (十四心 Part 1)",
+			"location": "FarmHouse",
+			"eventId":"75160233",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "公主 (十四心 Part 2)",
+                            "location": "Custom_Ridgeside_MaddieHouse",
+                            "eventId":"75160234",
+                                  "night": false,
+                                 "mail": null
+                        }
+                
+                    ],
+                    "minPointsToCall": 250,
+                    "canCall": true
+                },
+                "Philip": {
+                    "reminisces": [
+                        {
+                            "name": "小镇护理 (两心)",
+			"location": "Town",
+			"eventId":"75160157",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "酒馆 (四心)",
+			"location": "Saloon",
+			"eventId":"75160163",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "道歉 (额外四心)",
+			"location": "Farm",
+			"eventId":"75160164",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "漫画收集者 (六心)",
+			"location": "Custom_Ridgeside_LogCabinHotelLobby",
+			"eventId":"75160165",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "困倦的一天 (八心)",
+			"location": "Custom_Ridgeside_RidgesideVillage",
+			"eventId":"75160166",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "花朵 (十心)",
+			"location": "BusStop",
+			"eventId":"75160167",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "票 (十四心 Part 1)",
+			"location": "FarmHouse",
+			"eventId":"75160235",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "电影 (十四心 Part 2)",
+                            "location": "BusStop",
+                            "eventId":"75160236",
+                                  "night": false,
+                                 "mail": null
+                        }
+                    ],
+                    "minPointsToCall": 250,
+                    "canCall": true
+                },
+                "Sean": {
+                    "reminisces": [
+                        {
+                            "name": "肖恩和孩子们 (两心)",
+                            "location": "Custom_Ridgeside_RSVCableCar",
+                            "eventId":"75160353",
+                                  "night": false,
+                                 "mail": null
+                        },
+                        {
+                            "name": "肖恩偷懒 (四心)",
+                            "location": "Custom_Ridgeside_IanHouse",
+                            "eventId":"75160354",
+                                  "night": false,
+                                 "mail": null
+                        },
+                        {
+                            "name": "肖恩和他的家庭 (六心)",
+                            "location": "Custom_Ridgeside_RSVCliff",
+                            "eventId":"75160355",
+                                  "night": false,
+                                 "mail": null
+                        },
+                        {
+                            "name": "肖恩和他的问题 (八心)",
+                            "location": "Custom_Ridgeside_RSVCliff",
+                            "eventId":"75160356",
+                                  "night": false,
+                                 "mail": null
+                        },
+                        {
+                            "name": "肖恩和农夫的恶作剧约会 (十心)",
+                            "location": "BusStop",
+                            "eventId":"75160368",
+                                  "night": false,
+                                 "mail": null
+                        }
+                    ],
+                    "minPointsToCall": 250,
+                    "canCall": true
+                },
+                "Shiro": {
+                    "reminisces": [
+                        {
+                            "name": "烹饪时间 (两心)",
+			"location": "Custom_Ridgeside_ShiroHouse",
+			"eventId":"75160168",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "海滩上的回忆 (四心)",
+			"location": "Beach",
+			"eventId":"75160169",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "挫折 (六心)",
+			"location": "Custom_Ridgeside_ShiroHouse",
+			"eventId":"75160170",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "海滩郊游 (八心)",
+			"location": "Custom_Ridgeside_ShiroHouse",
+			"eventId":"75160171",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "惊喜约会 (十心)",
+			"location": "Farm",
+			"eventId":"75160172",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "清除 (十四心 Part 1)",
+			"location": "FarmHouse",
+			"eventId":"75160237",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "野营 (十四心 Part 2)",
+                            "location": "Beach",
+                            "eventId":"75160238",
+                                  "night": false,
+                                 "mail": null
+                        }
+                    ],
+                    "minPointsToCall": 250,
+                    "canCall": true
+                },
+                "Ysabelle": {
+                    "reminisces": [
+                        {
+                            "name": "建议 (两心)",
+			"location": "Custom_Ridgeside_LogCabinHotelLobby",
+			"eventId":"75160141",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "舞蹈中 (四心)",
+			"location": "Custom_Ridgeside_LogCabinHotel3rdFloor",
+			"eventId":"75160142",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "事件 (六心)",
+			"location": "Custom_Ridgeside_Ridge",
+			"eventId":"75160143",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "舞 (八心)",
+			"location": "Custom_Ridgeside_LogCabinHotelLobby",
+			"eventId":"75160144",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "舞蹈之约 (十心)",
+			"location": "Custom_Ridgeside_LogCabinHotel3rdFloor",
+			"eventId":"75160145",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "练习 (十四心 Part 1)",
+			"location": "FarmHouse",
+			"eventId":"75160239",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "尝试 (十四心 Part 2)",
+                            "location": "Custom_Ridgeside_LogCabinHotelLobby",
+                            "eventId":"75160240",
+                                  "night": false,
+                                 "mail": null
+                        }
+                
+                    ],
+                    "minPointsToCall": 250,
+                    "canCall": true
+                }
+            }
+        },
+		{
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Ian",
+        "Entries":
+        {
+            "MobilePhoneGreeting": "{{i18n:Ian.MobilePhoneGreeting}}",
+            "MobilePhoneReminisce": "{{i18n:Ian.MobilePhoneReminisce}}", 
+            "MobilePhoneGoodBye": "{{i18n:Ian.MobilePhoneGoodBye}}"
+        }
+        },
+		{
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Jeric",
+        "Entries":
+        {
+            "MobilePhoneGreeting": "{{i18n:Jeric.MobilePhoneGreeting}}",
+            "MobilePhoneReminisce": "{{i18n:Jeric.MobilePhoneReminisce}}", 
+            "MobilePhoneGoodBye": "{{i18n:Jeric.MobilePhoneGoodBye}}"
+        }
+        },
+		{
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Kenneth",
+        "Entries":
+        {
+            "MobilePhoneGreeting": "{{i18n:Kenneth.MobilePhoneGreeting}}",
+            "MobilePhoneReminisce": "{{i18n:Kenneth.MobilePhoneReminisce}}", 
+            "MobilePhoneGoodBye": "{{i18n:Kenneth.MobilePhoneGoodBye}}"
+        }
+        },
+		{
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Philip",
+        "Entries":
+        {
+            "MobilePhoneGreeting": "{{i18n:Philip.MobilePhoneGreeting}}",
+            "MobilePhoneReminisce": "{{i18n:Philip.MobilePhoneReminisce}}", 
+            "MobilePhoneGoodBye": "{{i18n:Philip.MobilePhoneGoodBye}}"
+        }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Sean",
+            "Entries":
+            {
+                "MobilePhoneGreeting": "{{i18n:Sean.MobilePhoneGreeting}}",
+                "MobilePhoneReminisce": "{{i18n:Sean.MobilePhoneReminisce}}", 
+                "MobilePhoneGoodBye": "{{i18n:Sean.MobilePhoneGoodBye}}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Shiro",
+            "Entries":
+            {
+                "MobilePhoneGreeting": "{{i18n:Shiro.MobilePhoneGreeting}}",
+                "MobilePhoneReminisce": "{{i18n:Shiro.MobilePhoneReminisce}}", 
+                "MobilePhoneGoodBye": "{{i18n:Shiro.MobilePhoneGoodBye}}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Alyssa",
+            "Entries":
+            {
+                "MobilePhoneGreeting": "{{i18n:Alyssa.MobilePhoneGreeting}}",
+                "MobilePhoneReminisce": "{{i18n:Alyssa.MobilePhoneReminisce}}", 
+                "MobilePhoneGoodBye": "{{i18n:Alyssa.MobilePhoneGoodBye}}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Corine",
+            "Entries":
+            {
+                "MobilePhoneGreeting": "{{i18n:Corine.MobilePhoneGreeting}}",
+                "MobilePhoneReminisce": "{{i18n:Corine.MobilePhoneReminisce}}", 
+                "MobilePhoneGoodBye": "{{i18n:Corine.MobilePhoneGoodBye}}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Daia",
+            "Entries":
+            {
+                "MobilePhoneGreeting": "{{i18n:Daia.MobilePhoneGreeting}}",
+                "MobilePhoneReminisce": "{{i18n:Daia.MobilePhoneReminisce}}", 
+                "MobilePhoneGoodBye": "{{i18n:Daia.MobilePhoneGoodBye}}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Flor",
+            "Entries":
+            {
+                "MobilePhoneGreeting": "{{i18n:Flor.MobilePhoneGreeting}}",
+                "MobilePhoneReminisce": "{[Flor.MobilePhoneReminisce]}", 
+                "MobilePhoneGoodBye": "{{i18n:Flor.MobilePhoneGoodBye}}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Kiarra",
+            "Entries":
+            {
+                "MobilePhoneGreeting": "{{i18n:Kiarra.MobilePhoneGreeting}}",
+                "MobilePhoneReminisce": "{{i18n:Kiarra.MobilePhoneReminisce}}", 
+                "MobilePhoneGoodBye": "{{i18n:Kiarra.MobilePhoneGoodBye}}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Maddie",
+            "Entries":
+            {
+                "MobilePhoneGreeting": "{{i18n:Maddie.MobilePhoneGreeting}}",
+                "MobilePhoneReminisce": "{{i18n:Maddie.MobilePhoneReminisce}}", 
+                "MobilePhoneGoodBye": "{{i18n:Maddie.MobilePhoneGoodBye}}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Ysabelle",
+            "Entries":
+            {
+                "MobilePhoneGreeting": "{{i18n:Ysabelle.MobilePhoneGreeting}}",
+                "MobilePhoneReminisce": "{{i18n:Ysabelle.MobilePhoneReminisce}}", 
+                "MobilePhoneGoodBye": "{{i18n:Ysabelle.MobilePhoneGoodBye}}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Jio",
+            "Entries":
+            {
+                "MobilePhoneGreeting": "{{i18n:Jio.MobilePhoneGreeting}}",
+                "MobilePhoneReminisce": "{{i18n:Jio.MobilePhoneReminisce}}", 
+                "MobilePhoneGoodBye": "{{i18n:Jio.MobilePhoneGoodBye}}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Kiwi",
+            "Entries":
+            {
+                "MobilePhoneGreeting": "{{i18n:Kiwi.MobilePhoneGreeting}}",
+                "MobilePhoneReminisce": "{{i18n:Kiwi.MobilePhoneReminisce}}", 
+                "MobilePhoneGoodBye": "{{i18n:Kiwi.MobilePhoneGoodBye}}"
+            }
+        }
+    ]
+}

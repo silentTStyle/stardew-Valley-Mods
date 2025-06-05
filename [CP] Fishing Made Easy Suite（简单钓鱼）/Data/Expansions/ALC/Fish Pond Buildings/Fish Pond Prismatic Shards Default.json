@@ -1,0 +1,236 @@
+{
+	"Changes": [
+		{
+			"LogName": "ALC - Fish Pond Prismatic Shards Default",
+			"Action": "EditData",
+			"Target": "Data/FishPondData",
+			"Fields": {
+				"Morghoula.AlchemistryCP_Lamprey": {
+					"ProducedItems": [
+						{
+							"RequiredPopulation": 10,
+							"Chance": 0.01,
+							"ItemID": "(O)74",
+							"MinQuantity": 1,
+							"MaxQuantity": 1
+						},
+						{
+                            "RequiredPopulation": 10,
+                            "Chance": 0.1,
+                            "ItemID": "(O)437",
+                            "MinQuantity": 1,
+                            "MaxQuantity": 1
+                        },
+                        {
+                            "RequiredPopulation": 6,
+                            "Chance": 0.05,
+                            "ItemID": "(O)Morghoula.AlchemistryCP_AquaticEctoplasm",
+                            "MinQuantity": 1,
+                            "MaxQuantity": 1
+                        },
+                        {
+                            "RequiredPopulation": 3,
+                            "Chance": 0.10,
+                            "ItemID": "(O)SeaJelly",
+                            "MinQuantity": 1,
+                            "MaxQuantity": 2
+                        },
+                        {
+                            "RequiredPopulation": 0,
+                            "Chance": 1.0,
+                            "ItemID": "(O)812",
+                            "MinQuantity": 1,
+                            "MaxQuantity": 1
+                        }
+				    ],
+			        },
+				"Morghoula.AlchemistryCP_VampireAnemone": {
+					"ProducedItems": [
+						{
+							"RequiredPopulation": 10,
+							"Chance": 0.01,
+							"ItemID": "(O)74",
+							"MinQuantity": 1,
+							"MaxQuantity": 1
+						},
+						{
+                            "RequiredPopulation": 10,
+                            "Chance": 0.01,
+                            "ItemID": "(O)Morghoula.AlchemistryCP_ArcaneEye",
+                            "MinQuantity": 1,
+                            "MaxQuantity": 1
+                        },
+                        {
+                            "RequiredPopulation": 6,
+                            "Chance": 0.05,
+                            "ItemID": "(O)499",
+                            "MinQuantity": 1,
+                            "MaxQuantity": 1
+                        },
+                        {
+                            "RequiredPopulation": 3,
+                            "Chance": 0.20,
+                            "ItemID": "(O)394",
+                            "MinQuantity": 1,
+                            "MaxQuantity": 2
+                        },
+                        {
+                            "RequiredPopulation": 0,
+                            "Chance": 1.0,
+                            "ItemID": "(O)152",
+                            "MinQuantity": 1,
+                            "MaxQuantity": 3
+                        }
+				    ],
+			        },
+				"Morghoula.AlchemistryCP_Newt": {
+					"ProducedItems": [
+						{
+							"RequiredPopulation": 10,
+							"Chance": 0.01,
+							"ItemID": "(O)74",
+							"MinQuantity": 1,
+							"MaxQuantity": 1
+						},
+						{
+                            "RequiredPopulation": 10,
+                            "Chance": 0.05,
+                            "ItemID": "(O)60",
+                            "MinQuantity": 1,
+                            "MaxQuantity": 1
+                        },
+                        {
+                            "RequiredPopulation": 6,
+                            "Chance": 0.10,
+                            "ItemID": "(O)Moss",
+                            "MinQuantity": 1,
+                            "MaxQuantity": 1
+                        },
+                        {
+                            "RequiredPopulation": 3,
+                            "Chance": 0.20,
+                            "ItemID": "(O)RiverJelly",
+                            "MinQuantity": 1,
+                            "MaxQuantity": 2
+                        },
+                        {
+                            "RequiredPopulation": 0,
+                            "Chance": 1.0,
+                            "ItemID": "(O)Morghoula.AlchemistryCP_NewtsTail",
+                            "MinQuantity": 1,
+                            "MaxQuantity": 2
+                        }
+				    ],
+			        },
+                "Morghoula.AlchemistryCP_MoonlightJellyfish": {
+					"ProducedItems": [
+						{
+							"RequiredPopulation": 10,
+							"Chance": 0.01,
+							"ItemID": "(O)74",
+							"MinQuantity": 1,
+							"MaxQuantity": 1
+						},
+						{
+                            "RequiredPopulation": 10,
+                            "Chance": 0.25,
+                            "ItemId": "(O)SeaJelly",
+                            "MinQuantity": 2,
+                            "MaxQuantity": 2
+                        },
+                        {
+                            "RequiredPopulation": 10,
+                            "Chance": 1.0,
+                            "ItemId": "(O)Morghoula.AlchemistryCP_MoonlightJelly",
+                            "MinQuantity": 1,
+                            "MaxQuantity": 1
+                        },
+                        {
+                            "RequiredPopulation": 9,
+                            "Chance": 0.8,
+                            "ItemId": "(O)Morghoula.AlchemistryCP_MoonlightJelly",
+                            "MinQuantity": 1,
+                            "MaxQuantity": 1
+                        },
+                        {
+                            "RequiredPopulation": 6,
+                            "Chance": 0.6,
+                            "ItemId": "(O)Morghoula.AlchemistryCP_MoonlightJelly",
+                            "MinQuantity": 1,
+                            "MaxQuantity": 1
+                        },
+                        {
+                            "RequiredPopulation": 3,
+                            "Chance": 0.4,
+                            "ItemId": "(O)Morghoula.AlchemistryCP_MoonlightJelly",
+                            "MinQuantity": 1,
+                            "MaxQuantity": 1
+                        },
+                        {
+                            "RequiredPopulation": 0,
+                            "Chance": 0.2,
+                            "ItemId": "(O)Morghoula.AlchemistryCP_MoonlightJelly",
+                            "MinQuantity": 1,
+                            "MaxQuantity": 1
+                        }
+				    ],
+			        },
+				"Morghoula.AlchemistryCP_ZombieFish": {
+					"ProducedItems": [
+						{
+							"RequiredPopulation": 10,
+							"Chance": 0.01,
+							"ItemID": "(O)74",
+							"MinQuantity": 1,
+							"MaxQuantity": 1
+						},
+						{
+                            "RequiredPopulation": 10,
+                            "Chance": 0.25,
+                            "ItemId": "(O)586",
+                            "MinQuantity": 1,
+                            "MaxQuantity": 1
+                        },
+                        {
+                            "RequiredPopulation": 10,
+                            "Chance": 1.0,
+                            "ItemId": "(O)881",
+                            "MinQuantity": 5,
+                            "MaxQuantity": 5
+                        },
+                        {
+                            "RequiredPopulation": 9,
+                            "Chance": 0.8,
+                            "ItemId": "(O)881",
+                            "MinQuantity": 4,
+                            "MaxQuantity": 4
+                        },
+                        {
+                            "RequiredPopulation": 6,
+                            "Chance": 0.6,
+                            "ItemId": "(O)881",
+                            "MinQuantity": 3,
+                            "MaxQuantity": 3
+                        },
+                        {
+                            "RequiredPopulation": 3,
+                            "Chance": 0.4,
+                            "ItemId": "(O)881",
+                            "MinQuantity": 2,
+                            "MaxQuantity": 2
+                        },
+                        {
+                            "RequiredPopulation": 0,
+                            "Chance": 0.2,
+                            "ItemId": "(O)881",
+                            "MinQuantity": 1,
+                            "MaxQuantity": 1
+                        }
+				    ],
+			        },
+					},
+			"When": {"Fish Pond Prismatic Shards": "true",
+			         "Fish Pond Rare Loot": "Default"},
+		},
+	]
+}

@@ -1,0 +1,94 @@
+{
+  "Changes": [
+    // Change NPC Schedules - Portraits ------------------------------------------------------------
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Alex",
+      "FromFile": "Characters/Alex/assets/Portraits/Alex_Lewd.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 128 },
+      "ToArea": { "X": 0, "Y": 640, "Width": 128, "Height": 128 },
+      "When": { 
+		"Change NPC Schedules": "true",
+		"Hypnosis": "false",
+		"Alex": "true",
+	  }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Alex",
+      "FromFile": "Characters/Alex/assets/Portraits/Alex_Lewd_Hypnosis.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 128 },
+      "ToArea": { "X": 0, "Y": 640, "Width": 128, "Height": 128 },
+      "When": { 
+		"Change NPC Schedules": "true",
+		"Hypnosis": "true",
+		"Alex": "true",
+	  }
+	},
+	{
+      "Action": "EditImage",
+      "Target": "Portraits/Alex_Winter",
+      "FromFile": "Characters/Alex/assets/Portraits/Alex_Lewd.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 128 },
+      "ToArea": { "X": 0, "Y": 640, "Width": 128, "Height": 128 },
+      "When": { 
+		"Change NPC Schedules": "true",
+		"Hypnosis": "false",
+		"Alex": "true",
+	  }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Alex_Winter",
+      "FromFile": "Characters/Alex/assets/Portraits/Alex_Lewd_Hypnosis.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 128 },
+      "ToArea": { "X": 0, "Y": 640, "Width": 128, "Height": 128 },
+      "When": { 
+		"Change NPC Schedules": "true",
+		"Hypnosis": "true",
+		"Alex": "true",
+	  }
+	},
+    // Change NPC Schedules - schedules ------------------------------------------------------------
+    {
+      "Action": "EditData",
+      "Target": "Characters/schedules/Alex",
+      "Entries": {
+        "rain": "800 JoshHouse 8 19 2 alex_football/1300 JoshHouse 14 5 2 alex_lift_weights/1600 Town 50 68 1/1830 JoshHouse 13 5 2 alex_dildo/2100 JoshHouse 21 4 1 alex_uplate",
+        "rain2": "800 JoshHouse 8 19 2 alex_football/1300 JoshHouse 14 5 2 alex_lift_weights/1600 Town 50 68 1/1830 Custom_DarkClub 33 26 2 alex_lift_weights/2030 Custom_DarkClub 33 26 2 alex_onanie2",
+        "Wed": "800 Town 64 64 2 alex_onanie1/1200 HaleyHouse 2 5 3 alex_uplate/1630 Town 50 68 1/1800 Custom_DarkClub 33 26 2 alex_lift_weights/1930 Custom_DarkClub 33 26 2 alex_onanie2",
+        "Sun": "MAIL saloonSportsRoom/GOTO Sun_normal/800 Town 64 64 2 alex_football/1100 Saloon 32 7 0 \"Strings\\schedules\\Alex:Sun.000\"/1500 Town 50 68 1/1830 JoshHouse 13 5 2 alex_dildo/2100 JoshHouse 21 4 1 alex_uplate",
+        "spring": "800 Town 64 64 2 alex_football/1300 JoshHouse 14 5 2 alex_lift_weights/1600 Town 50 68 1/1830 JoshHouse 13 5 2 alex_dildo/2300 JoshHouse 21 4 1 alex_sleep",
+        "summer": "730 Beach 30 13 2 square_7_7/1200 Town 88 91 2 alex_onanie1/1700 JoshHouse 14 5 2 alex_lift_weights/1900 JoshHouse 17 5 2 alex_hole/2400 JoshHouse 21 4 1 alex_sleep",
+        "winter": "900 BathHouse_MensLocker 3 5 2 alex_lift_weights/1300 BathHouse_MensLocker 12 6 2 alex_onanie2/1700 Town 50 68 1/1930 JoshHouse 8 19 2/2100 JoshHouse 17 5 2 alex_hole/2400 JoshHouse 21 4 1 alex_sleep"
+      },
+      "When": { "Change NPC Schedules": "true" }
+    },
+    // Change NPC Schedules - animationDescriptions ------------------------------------------------
+    {
+      "Action": "EditData",
+      "Target": "Data/animationDescriptions",
+      "Entries": {
+        "alex_uplate": "100/100/100/Strings\\animationDescriptions:alex_uplate",
+        "alex_onanie1": "101/101/101/Strings\\animationDescriptions:alex_onanie1",
+        "alex_onanie2": "102/102/102/Strings\\animationDescriptions:alex_onanie2",
+        "alex_hole": "103/103/103/Strings\\animationDescriptions:alex_hole",
+        "alex_dildo": "104/104/104/Strings\\animationDescriptions:alex_dildo",
+      },
+      "When": { "Change NPC Schedules": "true" }
+    },
+    // Change NPC Schedules - animationDescriptions Dialogue ---------------------------------------
+    {
+      "Action": "EditData",
+      "Target": "Strings/animationDescriptions",
+      "Entries": {
+        "alex_uplate": "{{i18n:NPC.Alex.UpLate}}",
+        "alex_onanie1": "{{i18n:NPC.Alex.Fuck}}",
+        "alex_onanie2": "{{i18n:NPC.Alex.Fuck}}",
+        "alex_hole": "{{i18n:NPC.Alex.Fuck}}",
+        "alex_dildo": "{{i18n:NPC.Alex.Fuck}}",
+      },
+      "When": { "Change NPC Schedules": "true" }
+    },
+  ]
+}

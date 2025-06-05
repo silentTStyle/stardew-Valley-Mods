@@ -1,0 +1,92 @@
+{
+  "Changes": [
+    // Change NPC Schedules - Portraits ------------------------------------------------------------
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Emily",
+      "FromFile": "Characters/Emily/assets/Portraits/Emily_Lewd.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 128 },
+      "ToArea": { "X": 0, "Y": 640, "Width": 128, "Height": 128 },
+      "When": { 
+		"Change NPC Schedules": "true", 
+		"Hypnosis": "false",
+		"Emily": "true",
+	  }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Emily",
+      "FromFile": "Characters/Emily/assets/Portraits/Emily_Lewd_Hypnosis.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 128 },
+      "ToArea": { "X": 0, "Y": 640, "Width": 128, "Height": 128 },
+      "When": { 
+		"Change NPC Schedules": "true", 
+		"Hypnosis": "true",
+		"Emily": "true",
+	  }
+    },
+	{
+      "Action": "EditImage",
+      "Target": "Portraits/Emily_Winter",
+      "FromFile": "Characters/Emily/assets/Portraits/Emily_Lewd.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 128 },
+      "ToArea": { "X": 0, "Y": 640, "Width": 128, "Height": 128 },
+      "When": { 
+		"Change NPC Schedules": "true", 
+		"Hypnosis": "false",
+		"Emily": "true",
+	  }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Emily_Winter",
+      "FromFile": "Characters/Emily/assets/Portraits/Emily_Lewd_Hypnosis.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 128 },
+      "ToArea": { "X": 0, "Y": 640, "Width": 128, "Height": 128 },
+      "When": { 
+		"Change NPC Schedules": "true", 
+		"Hypnosis": "true",
+		"Emily": "true",
+	  }
+    },
+    // Change NPC Schedules - schedules ------------------------------------------------------------
+    {
+      "Action": "EditData",
+      "Target": "Characters/schedules/Emily",
+      "Entries": {
+        "rain": "900 HaleyHouse 16 5 2 emily_dildo/1200 HaleyHouse 3 16 0/1530 Saloon 15 17 0 square_5_1_0/1930 Saloon 17 18 2 emily_milking/2430 HaleyHouse 21 4 1 emily_uplate",
+        "rain2": "900 HaleyHouse 16 5 2 emily_onanie/1200 HaleyHouse 3 16 0/1600 Custom_DarkClub 10 27 2 emily_dancedc/2200 Custom_DarkClub 10 27 2 emily_dildo",
+        "Tue": "900 HaleyHouse 16 5 2/1000 SeedShop 27 16 2/1300 SeedShop 26 19 2 emily_exercise/1600 Custom_DarkClub 10 27 2 emily_dancedc/2200 Custom_DarkClub 10 27 2 emily_dildo",
+        "Fri": "900 HaleyHouse 16 5 2/1000 CommunityCenter 10 25 2 \"Strings\\schedules\\Emily:Fri.000\"/1530 Saloon 15 17 0 square_5_1_0/1930 Saloon 17 18 2 emily_milking/2430 HaleyHouse 21 4 1 emily_uplate",
+        "spring": "900 HaleyHouse 16 5 2 emily_onanie/1200 HaleyHouse 3 16 0/1530 Saloon 15 17 0 square_5_1_0/1930 Saloon 17 18 2 emily_milking/2430 HaleyHouse 21 4 1 emily_sleep"
+      },
+      "When": { "Change NPC Schedules": "true" }
+    },
+    // Change NPC Schedules - animationDescriptions ------------------------------------------------
+    {
+      "Action": "EditData",
+      "Target": "Data/animationDescriptions",
+      "Entries": {
+        "emily_uplate": "100/100/100/Strings\\animationDescriptions:emily_uplate",
+        "emily_dancedc": "101/101/101/Strings\\animationDescriptions:emily_dancedc",
+        "emily_milking": "102/102/102/Strings\\animationDescriptions:emily_milking",
+        "emily_onanie": "103/103/103/Strings\\animationDescriptions:emily_onanie",
+        "emily_dildo": "104/104/104/Strings\\animationDescriptions:emily_dildo",
+      },
+      "When": { "Change NPC Schedules": "true" }
+    },
+    // Change NPC Schedules - animationDescriptions Dialogue ---------------------------------------
+    {
+      "Action": "EditData",
+      "Target": "Strings/animationDescriptions",
+      "Entries": {
+        "emily_uplate": "{{i18n:NPC.Emily.UpLate}}",
+        "emily_dancedc": "{{i18n:NPC.Emily.DanceDC}}",
+        "emily_milking": "{{i18n:NPC.Emily.Fuck}}",
+        "emily_onanie": "{{i18n:NPC.Emily.Fuck}}",
+        "emily_dildo": "{{i18n:NPC.Emily.Fuck}}",
+      },
+      "When": { "Change NPC Schedules": "true" }
+    },
+  ]
+}

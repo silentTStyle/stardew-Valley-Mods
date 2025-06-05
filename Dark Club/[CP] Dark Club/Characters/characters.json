@@ -1,0 +1,184 @@
+{
+    "Changes": [ 
+		// Abigail
+		{
+			"LogName": "Load Abigail Changes",
+			"Action": "Include",
+			"FromFile": "Characters/Abigail/abigail.json",
+			"When": { "Abigail": "true", "Abigail": "SpriteOnly" },
+		},
+		// Alex
+		{
+			"LogName": "Load Alex Changes",
+			"Action": "Include",
+			"FromFile": "Characters/Alex/alex.json",
+			"When": { "Alex": "true", "Alex": "SpriteOnly" },
+		},
+		// Caroline and Pierre
+		{
+			"LogName": "Load Caroline/Pierre Changes",
+			"Action": "Include",
+			"FromFile": "Characters/CarolinePierre/carolinePierre.json",
+			"When": { "CarolinePierre": "On, Caroline Only, Pierre Only" },
+		},
+		// Clint
+		{
+			"LogName": "Load Clint Changes",
+			"Action": "Include",
+			"FromFile": "Characters/Clint/clint.json",
+			"When": { "Clint": "true", "Clint": "SpriteOnly" },
+		},
+		// Demetrius and Robin
+		{
+			"LogName": "Load Demetrius/Robin Changes",
+			"Action": "Include",
+			"FromFile": "Characters/DemetriusRobin/demetriusRobin.json",
+			"When": { "DemetriusRobin": "On, Demetrius Only, Robin Only" },
+		},
+		// Elliot
+		{
+			"LogName": "Load Elliot Changes",
+			"Action": "Include",
+			"FromFile": "Characters/Elliot/elliot.json",
+			"When": { "Elliot": "true", "Elliot": "SpriteOnly" },
+		},
+		// Emily
+		{
+			"LogName": "Load Emily Changes",
+			"Action": "Include",
+			"FromFile": "Characters/Emily/emily.json",
+			"When": { "Emily": "true", "Emily": "SpriteOnly" },
+		},
+		// Evelyn and George
+		{
+			"LogName": "Load Evelyn/George Changes",
+			"Action": "Include",
+			"FromFile": "Characters/EvelynGeorge/evelynGeorge.json",
+			"When": { "EvelynGeorge": "On, Evelyn Only, George Only" },
+		},
+		// Gus
+		{
+			"LogName": "Load Gus Changes",
+			"Action": "Include",
+			"FromFile": "Characters/Gus/gus.json",
+			"When": { "Gus": "true", "Gus": "SpriteOnly" },
+		},
+		
+		// Haley
+		{
+			"LogName": "Load Haley Changes",
+			"Action": "Include",
+			"FromFile": "Characters/Haley/haley.json",
+			"When": { "Haley": "true", "Haley": "SpriteOnly" },
+		},
+		// Harvey
+		{
+			"LogName": "Load Harvey Changes",
+			"Action": "Include",
+			"FromFile": "Characters/Harvey/harvey.json",
+			"When": { "Harvey": "true", "Harvey": "SpriteOnly" },
+		},
+		// Jodie and Kent
+		{
+			"LogName": "Load Jodie/Kent Changes",
+			"Action": "Include",
+			"FromFile": "Characters/JodieKent/jodieKent.json",
+			"When": { "JodieKent": "On, Jodie Only, Kent Only" },
+		},
+		// Leah
+		{
+			"LogName": "Load Leah Changes",
+			"Action": "Include",
+			"FromFile": "Characters/Leah/leah.json",
+			"When": { "Leah": "true", "Leah": "SpriteOnly" },
+		},
+		// Lewis and Marnie
+		{
+			"LogName": "Load Lewis/Marnie Changes",
+			"Action": "Include",
+			"FromFile": "Characters/LewisMarnie/lewisMarnie.json",
+			"When": { "LewisMarnie": "On, Lewis Only, Marnie Only" },
+		},
+		// Lilith
+		{
+			"LogName": "Load Lilith",
+			"Action": "Include",
+			"FromFile": "Characters/Lilith/lilith.json",
+		},
+		// Linus
+		{
+			"LogName": "Load Linus Changes",
+			"Action": "Include",
+			"FromFile": "Characters/Linus/linus.json",
+			"When": { "Linus": "true", "Linus": "SpriteOnly" },
+		},
+		// Maru
+		{
+			"LogName": "Load Maru Changes",
+			"Action": "Include",
+			"FromFile": "Characters/Maru/maru.json",
+			"When": { "Maru": "true", "Maru": "SpriteOnly" },
+		},
+		// Mermaid and Toiletts, Dark Club NPCs
+		{
+			"LogName": "Load NPC Changes",
+			"Action": "Include",
+			"FromFile": "Characters/DarkClubNPC/npc.json",
+		},
+		// Pam
+		{
+			"LogName": "Load Pam Changes",
+			"Action": "Include",
+			"FromFile": "Characters/Pam/pam.json",
+			"When": { "Pam": "true", "Pam": "SpriteOnly" },
+		},
+		// Penny
+		{
+			"LogName": "Load Penny Changes",
+			"Action": "Include",
+			"FromFile": "Characters/Penny/penny.json",
+			"When": { "Penny": "true", "Penny": "SpriteOnly" },
+		},
+		// Sam
+		{
+			"LogName": "Load Sam Changes",
+			"Action": "Include",
+			"FromFile": "Characters/Sam/sam.json",
+			"When": { "Sam": "true", "Sam": "SpriteOnly" },
+		},
+		// Sandy
+		{
+			"LogName": "Load Sandy Changes",
+			"Action": "Include",
+			"FromFile": "Characters/Sandy/sandy.json",
+			"When": { "Sandy": "true", "Sandy": "SpriteOnly" },
+		},
+		// Sebastian
+		{
+			"LogName": "Load Sebastian Changes",
+			"Action": "Include",
+			"FromFile": "Characters/Sebastian/sebastian.json",
+			"When": { "Sebastian": "true", "Sebastian": "SpriteOnly" },
+		},
+		// Sella
+		{
+			"LogName": "Load Sella",
+			"Action": "Include",
+			"FromFile": "Characters/Sella/sella.json",
+		},
+		// Shane
+		{
+			"LogName": "Load Shane Changes",
+			"Action": "Include",
+			"FromFile": "Characters/Shane/shane.json",
+			"When": { "Shane": "true", "Shane": "SpriteOnly" },
+		},
+		// Willy
+		{
+			"LogName": "Load Willy Changes",
+			"Action": "Include",
+			"FromFile": "Characters/Willy/willy.json",
+			"When": { "Willy": "true", "Willy": "SpriteOnly" },
+		},
+    ]
+}

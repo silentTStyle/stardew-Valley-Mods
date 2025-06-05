@@ -1,0 +1,74 @@
+{
+  "Changes": [
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Caroline",
+      "FromFile": "assets/Characters/Caroline.png",
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Caroline_Beach",
+      "FromFile": "assets/Characters/Caroline_Beach.png",
+    },
+	{
+      "Action": "EditImage",
+      "Target": "Characters/Caroline_Winter",
+      "FromFile": "assets/Characters/Caroline.png",
+    },
+	// Portraits -----------------------------------------------------------------------------------
+	{
+      "Action": "EditImage",
+      "Target": "Portraits/Caroline",
+      "FromFile": "assets/Portraits/Caroline.png",
+      "When": { 
+		"Hypnosis": "false",
+		"Caroline": "On",
+	  }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Caroline",
+      "FromFile": "assets/Portraits/Caroline_Hypnosis.png",
+      "When": { 
+		"Hypnosis": "true",
+		"Caroline": "On",
+	  }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Caroline_Beach",
+      "FromFile": "assets/Portraits/Caroline_Beach.png",
+      "When": { 
+		"Hypnosis": "false",
+		"Caroline": "On",
+	  }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Caroline_Beach",
+      "FromFile": "assets/Portraits/Caroline_Beach_Hypnosis.png",
+      "When": { 
+		"Hypnosis": "true",
+		"Caroline": "On",
+	  }
+    },
+	{
+      "Action": "EditImage",
+      "Target": "Portraits/Caroline_Winter",
+      "FromFile": "assets/Portraits/Caroline.png",
+      "When": { 
+		"Hypnosis": "false",
+		"Caroline": "On",
+	  }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Caroline_Winter",
+      "FromFile": "assets/Portraits/Caroline_Hypnosis.png",
+      "When": { 
+		"Hypnosis": "true",
+		"Caroline": "On",
+	  }
+    },	
+  ]
+}

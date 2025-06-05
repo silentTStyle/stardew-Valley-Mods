@@ -1,0 +1,1072 @@
+{
+  "Format": "2.4.0",
+  "RepeatEvents": [
+    10550, //ABIGAIL FARMHOUSE MALE
+    10551, //EMILY FARMHOUSE MALE
+    10552, //HALEY FARMHOUSE MALE
+    10553, //LEAH FARMHOUSE MALE
+    10554, //MARU FARMHOUSE MALE
+    10555, //PENNY FARMHOUSE MALE
+    10556, //ABIGAIL FARMHOUSE FEMALE
+    10557, //EMILY FARMHOUSE FEMALE
+    10558, //HALEY FARMHOUSE FEMALE
+    10559, //LEAH FARMHOUSE FEMALE
+    10560, //MARU FARMHOUSE FEMALE
+    10561, //PENNY FARMHOUSE FEMALE
+    10537, //SALOON SESSION MALE
+    10538, //NUDE BEACH MALE
+    10541, //SALOON SESSION FEMALE
+    10542 //NUDE BEACH FEMALE
+  ],
+  "DynamicTokens": [
+    {
+      "Name": "RecolourToken",
+      "Value": "Vanilla"
+    },
+    {
+      "Name": "RecolourToken",
+      "Value": "Earthy",
+      "When": {
+        "HasMod": "DaisyNiko.EarthyInteriors"
+      }
+    },
+    {
+      "Name": "RecolourToken",
+      "Value": "Toned",
+      "When": {
+        "HasMod": "narianka.toneddowntowninteriors"
+      }
+    },
+    {
+      "Name": "RecolourToken",
+      "Value": "Elegant",
+      "When": {
+        "HasMod": "colling.towninterior"
+      }
+    },
+    {
+      "Name": "RecolourToken",
+      "Value": "VibrantPastoral",
+      "When": {
+        "HasMod": "grapeponta.VibrantPastoralRecolor"
+      }
+    },
+    {
+      "Name": "RecolourToken",
+      "Value": "Rustic",
+      "When": {
+        "HasMod": "Hesper.RusticCountrysideTownInterior"
+      }
+    },
+    /*=======================================================================================================================
+    PLEASURING & STRINGS
+    =======================================================================================================================*/
+    {
+      "Name": "abigail_r",
+      "Value": "abigail_pleasure{{Random:1,2,3,4,5,6,7,8|key=abigail}} \"Strings\\schedules\\Abigail:pleasure{{Random:1,2,3,4,5,6,7,8|key=abigail}}\""
+    },
+    {
+      "Name": "caroline_r",
+      "Value": "caroline_pleasure{{Random:1,2,3,4,5,6,7,8|key=caroline}} \"Strings\\schedules\\Caroline:pleasure{{Random:1,2,3,4,5,6,7,8|key=caroline}}\""
+    },
+    {
+      "Name": "emily_r",
+      "Value": "emily_pleasure{{Random:1,2,3,4,5,6,7,8|key=emily}} \"Strings\\schedules\\Emily:pleasure{{Random:1,2,3,4,5,6,7,8|key=emily}}\""
+    },
+    {
+      "Name": "haley_r",
+      "Value": "haley_pleasure{{Random:1,2,3,4,5,6,7,8|key=haley}} \"Strings\\schedules\\Haley:pleasure{{Random:1,2,3,4,5,6,7,8|key=haley}}\""
+    },
+    {
+      "Name": "jodi_r",
+      "Value": "jodi_pleasure{{Random:1,2,3,4,5,6,7,8|key=jodi}} \"Strings\\schedules\\Jodi:pleasure{{Random:1,2,3,4,5,6,7,8|key=jodi}}\""
+    },
+    {
+      "Name": "leah_r",
+      "Value": "leah_pleasure{{Random:1,2,3,4,5,6,7,8|key=leah}} \"Strings\\schedules\\Leah:pleasure{{Random:1,2,3,4,5,6,7,8|key=leah}}\""
+    },
+    {
+      "Name": "marnie_r",
+      "Value": "marnie_pleasure{{Random:1,2,3,4,5,6,7,8|key=marnie}} \"Strings\\schedules\\Marnie:pleasure{{Random:1,2,3,4,5,6,7,8|key=marnie}}\""
+    },
+    {
+      "Name": "maru_r",
+      "Value": "maru_pleasure{{Random:1,2,3,4,5,6,7,8|key=maru}} \"Strings\\schedules\\Maru:pleasure{{Random:1,2,3,4,5,6,7,8|key=maru}}\""
+    },
+    {
+      "Name": "penny_r",
+      "Value": "penny_pleasure{{Random:1,2,3,4,5,6,7,8|key=penny}} \"Strings\\schedules\\Penny:pleasure{{Random:1,2,3,4,5,6,7,8|key=penny}}\""
+    },
+    {
+      "Name": "robin_r",
+      "Value": "robin_pleasure{{Random:1,2,3,4,5,6,7,8|key=robin}} \"Strings\\schedules\\Robin:pleasure{{Random:1,2,3,4,5,6,7,8|key=robin}}\""
+    }
+  ],
+  /*=======================================================================================================================
+    CONFIG
+    =======================================================================================================================*/
+  "ConfigSchema": {
+    //RECOLOR
+    "ManualRecolourSelection": {
+      "AllowValues": "Off, Vanilla, Earthy, Rustic, Elegant, VibrantPastoral, Toned",
+      "Default": "Off",
+      "Description": "Manually choose which recolour you want the bathroom to appear. Selecting OFF will automatically choose the recolour."
+    },
+    //Pleasure
+    "Pleasure": {
+      "AllowValues": "Abigail, Emily, Haley, Leah, Maru, Penny, Caroline, Jodi, Marnie, Robin",
+      "AllowMultiple": true,
+      "AllowBlank": true,
+      "Default": "Abigail, Emily, Haley, Leah, Maru, Penny, Caroline, Jodi, Marnie, Robin",
+      "Section": "Pleasure Schedules",
+      "Description": "Activating this will allow NPC's to perform lewd acts."
+    },
+    //Sex Schedule
+    "Sex Schedule": {
+      "AllowValues": "Abigail+Sebastian, Emily+Shane, Haley+Alex, Leah+Elliott, Maru+Harvey, Penny+Sam, Caroline+Pierre, Jodi+Kent, Marnie+Lewis, Robin+Demetrius, Haley+Abigail, Leah+Abigail, Caroline+Jodi, Robin+Leah, Emily+Penny, Maru+Penny",
+      "AllowMultiple": true,
+      "AllowBlank": true,
+      "Default": "Abigail+Sebastian, Emily+Shane, Haley+Alex, Leah+Elliott, Maru+Harvey, Penny+Sam, Caroline+Pierre, Jodi+Kent, Marnie+Lewis, Robin+Demetrius, Haley+Abigail, Leah+Abigail, Caroline+Jodi, Robin+Leah, Emily+Penny, Maru+Penny",
+      "Section": "Sex Schedules",
+      "Description": "Select which NPC's can have sex with eachother."
+    }
+  },
+  "Changes": [
+    /*=======================================================================================================================
+    INCLUDE
+    =======================================================================================================================*/
+    {
+      "LogName": "Abigail Include",
+      "Action": "Include",
+      "FromFile": "assets/Jsons/Abigail.json"
+    },
+    {
+      "LogName": "Emily Include",
+      "Action": "Include",
+      "FromFile": "assets/Jsons/Emily.json"
+    },
+    {
+      "LogName": "Haley Include",
+      "Action": "Include",
+      "FromFile": "assets/Jsons/Haley.json"
+    },
+    {
+      "LogName": "Leah Include",
+      "Action": "Include",
+      "FromFile": "assets/Jsons/Leah.json"
+    },
+    {
+      "LogName": "Maru Include",
+      "Action": "Include",
+      "FromFile": "assets/Jsons/Maru.json"
+    },
+    {
+      "LogName": "Penny Include",
+      "Action": "Include",
+      "FromFile": "assets/Jsons/Penny.json"
+    },
+    {
+      "LogName": "Caroline Include",
+      "Action": "Include",
+      "FromFile": "assets/Jsons/Caroline.json"
+    },
+    {
+      "LogName": "Jodi Include",
+      "Action": "Include",
+      "FromFile": "assets/Jsons/Jodi.json"
+    },
+    {
+      "LogName": "Marnie Include",
+      "Action": "Include",
+      "FromFile": "assets/Jsons/Marnie.json"
+    },
+    {
+      "LogName": "Robin Include",
+      "Action": "Include",
+      "FromFile": "assets/Jsons/Robin.json"
+    },
+    { //Events
+      "LogName": "Events Include",
+      "Action": "Include",
+      "FromFile": "assets/Jsons/Events/Events.json"
+    },
+    { 
+      "LogName": "Events2 Include",
+      "Action": "Include",
+      "FromFile": "assets/Jsons/Events/MarriageEvents.json"
+    },
+    /*=======================================================================================================================
+    CUSTOM BATHROOM LOCATION
+    =======================================================================================================================*/
+    { //DOOR EDIT
+      "Action": "EditMap",
+      "Target": "Maps/Saloon",
+      "FromFile": "assets/Maps/SaloonDoor.tbin",
+      "Update": "OnLocationChange",
+      "ToArea": {"X": 40, "Y": 15, "Width": 1, "Height": 2}
+    },
+    { //DOOR EDIT EXPANDED PATCH
+      "Action": "EditMap",
+      "Target": "Maps/Saloon",
+      "FromFile": "assets/Maps/SaloonDoorSVE.tbin",
+      "Update": "OnLocationChange",
+      "ToArea": {"X": 40, "Y": 14, "Width": 4, "Height": 4},
+      "When": {
+        "HasFile:{{FromFile}}": true,
+        "HasMod": "FlashShifter.StardewValleyExpandedCP"
+      }
+    },
+    { //LOAD TILESHEET
+      "Action": "Load",
+      "Target": "Maps/z.bathroomVG",
+      "FromFile": "assets/Maps/{{RecolourToken}}/z.bathroomVG.png"
+    },
+    { //CHAIRTILES
+      "Action": "EditData",
+      "Target": "Data/ChairTiles",
+      "Entries": {
+        //TOILETS
+        "z.bathroomVG/7/1": "1/1/left/chair/-1/-1/false",
+        "z.bathroomVG/8/1": "1/1/down/chair/-1/-1/false",
+        "z.bathroomVG/9/1": "1/1/right/chair/-1/-1/false",
+        "z.bathroomVG/7/3": "1/1/left/chair/-1/-1/false",
+        "z.bathroomVG/8/3": "1/1/down/chair/-1/-1/false",
+        "z.bathroomVG/9/3": "1/1/right/chair/-1/-1/false",
+        "z.bathroomVG/5/6": "1/1/up/chair/-1/-1/false",
+        //BENCHES
+        "z.bathroomVG/0/7": "1/1/opposite/bench/-1/-1/false",
+        "z.bathroomVG/1/7": "1/1/opposite/bench/-1/-1/false",
+        "z.bathroomVG/2/7": "1/1/opposite/bench/-1/-1/false",
+        "z.bathroomVG/2/8": "1/1/opposite/bench/-1/-1/false",
+        "z.bathroomVG/0/9": "1/1/opposite/bench/-1/-1/false",
+        "z.bathroomVG/1/9": "1/1/opposite/bench/-1/-1/false",
+        "z.bathroomVG/0/10": "1/1/opposite/bench/-1/-1/false",
+        "z.bathroomVG/1/10": "1/1/opposite/bench/-1/-1/false"
+      }
+    },
+    { //MAPSTRINGS
+      "Action": "EditData",
+      "Target": "Strings/StringsFromMaps",
+      "Entries": {
+        "Custom_Bathroom.1": "{{i18n:Custom_Bathroom.1}}",
+        "Custom_Bathroom.2": "{{i18n:Custom_Bathroom.2}}",
+        "Custom_Bathroom.3": "{{i18n:Custom_Bathroom.3}}",
+        "Custom_Bathroom.4": "{{i18n:Custom_Bathroom.4}}",
+        "Custom_Bathroom.5": "{{i18n:Custom_Bathroom.5}}",
+        "Custom_Bathroom.6": "{{i18n:Custom_Bathroom.6}}",
+        "Custom_Bathroom.7": "{{i18n:Custom_Bathroom.7}}",
+        "Custom_Bathroom.8": "{{i18n:Custom_Bathroom.8}}",
+        "Custom_Bathroom.9": "{{i18n:Custom_Bathroom.9}}"
+      }
+    },
+    { //LUSTDEW DOOR PATCH
+      "Action": "EditMap",
+      "Target": "Maps/Custom_BathroomVG",
+      "FromFile": "assets/Maps/Saunadoor.tbin",
+      "Update": "OnLocationChange",
+      "ToArea": {"X": 11, "Y": 3, "Width": 1, "Height": 1},
+      "When": {
+        "HasMod": "Trashracc.Lustdew"
+      }
+    },
+    /*=======================================================================================================================
+    SPRITES & OTHER EDITS
+    =======================================================================================================================*/
+    { //Farmer Sprite [108] - [110] - [114 115 116] - [120 121 122]
+      "Action": "EditImage",
+      "Target": "Characters/Farmer/farmer_base, Characters/Farmer/farmer_base_bald, Characters/Farmer/farmer_girl_base, Characters/Farmer/farmer_girl_base_bald",
+      "FromFile": "assets/Characters/Farmer/{{TargetWithoutPath}}.png",
+      "Update": "OnLocationChange",
+      "Priority": "Late",
+      "ToArea": {"X": 0, "Y": 576, "Width": 48, "Height": 96},
+      "When": {
+        "LocationName": "Custom_BedEvent, Custom_StallEvent, Custom_BeachEvent"
+      }
+    },
+    { //Void Arms Layer
+      "Action": "EditImage",
+      "Target": "Characters/Farmer/farmer_base, Characters/Farmer/farmer_base_bald, Characters/Farmer/farmer_girl_base, Characters/Farmer/farmer_girl_base_bald",
+      "FromFile": "assets/Characters/Farmer/VoidArms.png",
+      "Update": "OnLocationChange",
+      "Priority": "Late",
+      "ToArea": {"X": 96, "Y": 640, "Width": 48, "Height": 32},
+      "When": {
+        "LocationName": "Custom_BedEvent, Custom_StallEvent, Custom_BeachEvent"
+      }
+    },
+    { //Pants & Shirts
+      "Action": "EditImage",
+      "Target": "Characters/Farmer/pants, Characters/Farmer/shirts",
+      "FromFile": "assets/Characters/Farmer/{{TargetWithoutPath}}.png",
+      "Update": "OnLocationChange",
+      "Priority": "Late",
+      "When": {
+        "LocationName": "Custom_BedEvent, Custom_StallEvent, Custom_BeachEvent"
+      }
+    },
+    /*=======================================================================================================================
+    CUSTOM LOCATIONS
+    =======================================================================================================================*/
+    {//Bathroom
+      "Action": "Load",
+      "Target": "Maps/Custom_BathroomVG, Maps/Custom_MaleToilet, Maps/Custom_FemaleToilet",
+      "FromFile": "assets/Maps/{{TargetWithoutPath}}.tbin"
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Locations",
+      "Entries": {
+        "Custom_BathroomVG": {
+          "CreateOnLoad": { "MapPath": "Maps/Custom_BathroomVG" }
+        },
+        "Custom_MaleToilet": {
+          "CreateOnLoad": { "MapPath": "Maps/Custom_MaleToilet" }
+        },
+        "Custom_FemaleToilet": {
+          "CreateOnLoad": { "MapPath": "Maps/Custom_FemaleToilet" }
+        }
+      }
+    },
+     /*=======================================================================================================================
+    EVENT LOCATIONS
+    =======================================================================================================================*/
+    { 
+      "Action": "Load",
+      "Target": "Maps/Custom_BedEvent, Maps/Custom_StallEvent, Maps/Custom_BeachEvent",
+      "FromFile": "assets/Jsons/Events/{{TargetWithoutPath}}.tbin"
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Locations",
+      "Entries": {
+        "Custom_BedEvent": {
+          "CreateOnLoad": { "MapPath": "Maps/Custom_BedEvent" }
+          },
+        "Custom_StallEvent": {
+          "CreateOnLoad": { "MapPath": "Maps/Custom_StallEvent" }
+          },
+        "Custom_BeachEvent": {
+          "CreateOnLoad": { "MapPath": "Maps/Custom_BeachEvent" }
+          }
+      }
+    },
+    /*=======================================================================================================================
+    CONTENT PATCHER ANIMATIONS
+    =======================================================================================================================*/
+    {//Abigail Pleasure
+      "LogName": "AbigailPleasure",
+      "Action": "EditImage",
+      "Target": "Portraits/Abigail",
+      "FromFile": "assets/Animations/Pleasure/Abigail.png",
+      "FromArea": {"X": 0, "Y": 0, "Width": 64, "Height": 320},
+      "ToArea": {"X": 0, "Y": 1152, "Width": 64, "Height": 320
+      },
+      "AnimationFrameTime": 7,
+      "AnimationFrameCount": 5
+    },
+    {//Abigail MaleSex
+      "LogName": "AbigailMaleSex",
+      "Action": "EditImage",
+      "Target": "Portraits/Abigail",
+      "FromFile": "assets/Animations/MaleSex/Abigail.png",
+      "FromArea": {"X": 0, "Y": 0, "Width": 64, "Height": 320},
+      "ToArea": {"X": 64, "Y": 1152, "Width": 64, "Height": 320
+      },
+      "AnimationFrameTime": 7,
+      "AnimationFrameCount": 5
+    },
+    {//Abigail FemaleSex
+      "LogName": "AbigailFemaleSex",
+      "Action": "EditImage",
+      "Target": "Portraits/Abigail",
+      "FromFile": "assets/Animations/FemaleSex/Abigail.png",
+      "FromArea": {"X": 0, "Y": 0, "Width": 64, "Height": 256},
+      "ToArea": {"X": 64, "Y": 1472, "Width": 64, "Height": 256
+      },
+      "AnimationFrameTime": 7,
+      "AnimationFrameCount": 5
+    },
+    {//Abigail Unique
+      "LogName": "AbigailUnique",
+      "Action": "EditImage",
+      "Target": "Portraits/Abigail",
+      "FromFile": "assets/Animations/Unique/Abigail.png",
+      "FromArea": {"X": 0, "Y": 64, "Width": 64, "Height": 64},
+      "ToArea": {"X": 0, "Y": 1536, "Width": 64, "Height": 64
+      },
+      "AnimationFrameTime": 7,
+      "AnimationFrameCount": 5
+    },
+    {//Abigail Pleasure
+      "LogName": "AbigailPleasureWinter",
+      "Action": "EditImage",
+      "Target": "Portraits/Abigail_Winter",
+      "FromFile": "assets/Animations/Pleasure/Abigail.png",
+      "FromArea": {"X": 0, "Y": 0, "Width": 64, "Height": 320},
+      "ToArea": {"X": 0, "Y": 1152, "Width": 64, "Height": 320
+      },
+      "AnimationFrameTime": 7,
+      "AnimationFrameCount": 5
+    },
+    {//Abigail MaleSex
+      "LogName": "AbigailMaleSexWinter",
+      "Action": "EditImage",
+      "Target": "Portraits/Abigail_Winter",
+      "FromFile": "assets/Animations/MaleSex/Abigail.png",
+      "FromArea": {"X": 0, "Y": 0, "Width": 64, "Height": 320},
+      "ToArea": {"X": 64, "Y": 1152, "Width": 64, "Height": 320
+      },
+      "AnimationFrameTime": 7,
+      "AnimationFrameCount": 5
+    },
+    {//Abigail FemaleSex
+      "LogName": "AbigailFemaleSexWinter",
+      "Action": "EditImage",
+      "Target": "Portraits/Abigail_Winter",
+      "FromFile": "assets/Animations/FemaleSex/Abigail.png",
+      "FromArea": {"X": 0, "Y": 0, "Width": 64, "Height": 256},
+      "ToArea": {"X": 64, "Y": 1472, "Width": 64, "Height": 256
+      },
+      "AnimationFrameTime": 7,
+      "AnimationFrameCount": 5
+    },
+    {//Abigail Unique
+      "LogName": "AbigailUniqueWinter",
+      "Action": "EditImage",
+      "Target": "Portraits/Abigail_Winter",
+      "FromFile": "assets/Animations/Unique/Abigail.png",
+      "FromArea": {"X": 0, "Y": 64, "Width": 64, "Height": 64},
+      "ToArea": {"X": 0, "Y": 1536, "Width": 64, "Height": 64
+      },
+      "AnimationFrameTime": 7,
+      "AnimationFrameCount": 5
+    },
+    {//Caroline Pleasure
+      "LogName": "CarolinePleasure",
+      "Action": "EditImage",
+      "Target": "Portraits/Caroline",
+      "FromFile": "assets/Animations/Pleasure/Caroline.png",
+      "FromArea": {"X": 0, "Y": 0, "Width": 64, "Height": 320},
+      "ToArea": {"X": 0, "Y": 1152, "Width": 64, "Height": 320
+      },
+      "AnimationFrameTime": 7,
+      "AnimationFrameCount": 5
+    },
+    {//Caroline MaleSex
+      "LogName": "CarolineMaleSex",
+      "Action": "EditImage",
+      "Target": "Portraits/Caroline",
+      "FromFile": "assets/Animations/MaleSex/Caroline.png",
+      "FromArea": {"X": 0, "Y": 0, "Width": 64, "Height": 320},
+      "ToArea": {"X": 64, "Y": 1152, "Width": 64, "Height": 320
+      },
+      "AnimationFrameTime": 7,
+      "AnimationFrameCount": 5
+    },
+    {//Caroline FemaleSex
+      "LogName": "CarolineFemaleSex",
+      "Action": "EditImage",
+      "Target": "Portraits/Caroline",
+      "FromFile": "assets/Animations/FemaleSex/Caroline.png",
+      "FromArea": {"X": 0, "Y": 0, "Width": 64, "Height": 256},
+      "ToArea": {"X": 64, "Y": 1472, "Width": 64, "Height": 256
+      },
+      "AnimationFrameTime": 7,
+      "AnimationFrameCount": 5
+    },
+    {//Caroline Pleasure
+      "LogName": "CarolinePleasureWinter",
+      "Action": "EditImage",
+      "Target": "Portraits/Caroline_Winter",
+      "FromFile": "assets/Animations/Pleasure/Caroline.png",
+      "FromArea": {"X": 0, "Y": 0, "Width": 64, "Height": 320},
+      "ToArea": {"X": 0, "Y": 1152, "Width": 64, "Height": 320
+      },
+      "AnimationFrameTime": 7,
+      "AnimationFrameCount": 5
+    },
+    {//Caroline MaleSex
+      "LogName": "CarolineMaleSexWinter",
+      "Action": "EditImage",
+      "Target": "Portraits/Caroline_Winter",
+      "FromFile": "assets/Animations/MaleSex/Caroline.png",
+      "FromArea": {"X": 0, "Y": 0, "Width": 64, "Height": 320},
+      "ToArea": {"X": 64, "Y": 1152, "Width": 64, "Height": 320
+      },
+      "AnimationFrameTime": 7,
+      "AnimationFrameCount": 5
+    },
+    {//Caroline FemaleSex
+      "LogName": "CarolineFemaleSexWinter",
+      "Action": "EditImage",
+      "Target": "Portraits/Caroline_Winter",
+      "FromFile": "assets/Animations/FemaleSex/Caroline.png",
+      "FromArea": {"X": 0, "Y": 0, "Width": 64, "Height": 256},
+      "ToArea": {"X": 64, "Y": 1472, "Width": 64, "Height": 256
+      },
+      "AnimationFrameTime": 7,
+      "AnimationFrameCount": 5
+    },
+    {//Emily Pleasure
+      "LogName": "EmilyPleasure",
+      "Action": "EditImage",
+      "Target": "Portraits/Emily",
+      "FromFile": "assets/Animations/Pleasure/Emily.png",
+      "FromArea": {"X": 0, "Y": 0, "Width": 64, "Height": 320},
+      "ToArea": {"X": 0, "Y": 1152, "Width": 64, "Height": 320
+      },
+      "AnimationFrameTime": 7,
+      "AnimationFrameCount": 5
+    },
+    {//Emily MaleSex
+      "LogName": "EmilyMaleSex",
+      "Action": "EditImage",
+      "Target": "Portraits/Emily",
+      "FromFile": "assets/Animations/MaleSex/Emily.png",
+      "FromArea": {"X": 0, "Y": 0, "Width": 64, "Height": 320},
+      "ToArea": {"X": 64, "Y": 1152, "Width": 64, "Height": 320
+      },
+      "AnimationFrameTime": 7,
+      "AnimationFrameCount": 5
+    },
+    {//Emily FemaleSex
+      "LogName": "EmilyFemaleSex",
+      "Action": "EditImage",
+      "Target": "Portraits/Emily",
+      "FromFile": "assets/Animations/FemaleSex/Emily.png",
+      "FromArea": {"X": 0, "Y": 0, "Width": 64, "Height": 256},
+      "ToArea": {"X": 64, "Y": 1472, "Width": 64, "Height": 256
+      },
+      "AnimationFrameTime": 7,
+      "AnimationFrameCount": 5
+    },
+    {//Emily Pleasure
+      "LogName": "EmilyPleasureWinter",
+      "Action": "EditImage",
+      "Target": "Portraits/Emily_Winter",
+      "FromFile": "assets/Animations/Pleasure/Emily.png",
+      "FromArea": {"X": 0, "Y": 0, "Width": 64, "Height": 320},
+      "ToArea": {"X": 0, "Y": 1152, "Width": 64, "Height": 320
+      },
+      "AnimationFrameTime": 7,
+      "AnimationFrameCount": 5
+    },
+    {//Emily MaleSex
+      "LogName": "EmilyMaleSexWinter",
+      "Action": "EditImage",
+      "Target": "Portraits/Emily_Winter",
+      "FromFile": "assets/Animations/MaleSex/Emily.png",
+      "FromArea": {"X": 0, "Y": 0, "Width": 64, "Height": 320},
+      "ToArea": {"X": 64, "Y": 1152, "Width": 64, "Height": 320
+      },
+      "AnimationFrameTime": 7,
+      "AnimationFrameCount": 5
+    },
+    {//Emily FemaleSex
+      "LogName": "EmilyFemaleSexWinter",
+      "Action": "EditImage",
+      "Target": "Portraits/Emily_Winter",
+      "FromFile": "assets/Animations/FemaleSex/Emily.png",
+      "FromArea": {"X": 0, "Y": 0, "Width": 64, "Height": 256},
+      "ToArea": {"X": 64, "Y": 1472, "Width": 64, "Height": 256
+      },
+      "AnimationFrameTime": 7,
+      "AnimationFrameCount": 5
+    },
+    {//Haley Pleasure
+      "LogName": "HaleyPleasure",
+      "Action": "EditImage",
+      "Target": "Portraits/Haley",
+      "FromFile": "assets/Animations/Pleasure/Haley.png",
+      "FromArea": {"X": 0, "Y": 0, "Width": 64, "Height": 320},
+      "ToArea": {"X": 0, "Y": 1152, "Width": 64, "Height": 320
+      },
+      "AnimationFrameTime": 7,
+      "AnimationFrameCount": 5
+    },
+    {//Haley MaleSex
+      "LogName": "HaleyMaleSex",
+      "Action": "EditImage",
+      "Target": "Portraits/Haley",
+      "FromFile": "assets/Animations/MaleSex/Haley.png",
+      "FromArea": {"X": 0, "Y": 0, "Width": 64, "Height": 320},
+      "ToArea": {"X": 64, "Y": 1152, "Width": 64, "Height": 320
+      },
+      "AnimationFrameTime": 7,
+      "AnimationFrameCount": 5
+    },
+    {//Haley FemaleSex
+      "LogName": "HaleyFemaleSex",
+      "Action": "EditImage",
+      "Target": "Portraits/Haley",
+      "FromFile": "assets/Animations/FemaleSex/Haley.png",
+      "FromArea": {"X": 0, "Y": 0, "Width": 64, "Height": 256},
+      "ToArea": {"X": 64, "Y": 1472, "Width": 64, "Height": 256
+      },
+      "AnimationFrameTime": 7,
+      "AnimationFrameCount": 5
+    },
+    {//Haley Pleasure
+      "LogName": "HaleyPleasureWinter",
+      "Action": "EditImage",
+      "Target": "Portraits/Haley_Winter",
+      "FromFile": "assets/Animations/Pleasure/Haley.png",
+      "FromArea": {"X": 0, "Y": 0, "Width": 64, "Height": 320},
+      "ToArea": {"X": 0, "Y": 1152, "Width": 64, "Height": 320
+      },
+      "AnimationFrameTime": 7,
+      "AnimationFrameCount": 5
+    },
+    {//Haley MaleSex
+      "LogName": "HaleyMaleSexWinter",
+      "Action": "EditImage",
+      "Target": "Portraits/Haley_Winter",
+      "FromFile": "assets/Animations/MaleSex/Haley.png",
+      "FromArea": {"X": 0, "Y": 0, "Width": 64, "Height": 320},
+      "ToArea": {"X": 64, "Y": 1152, "Width": 64, "Height": 320
+      },
+      "AnimationFrameTime": 7,
+      "AnimationFrameCount": 5
+    },
+    {//Haley FemaleSex
+      "LogName": "HaleyFemaleSexWinter",
+      "Action": "EditImage",
+      "Target": "Portraits/Haley_Winter",
+      "FromFile": "assets/Animations/FemaleSex/Haley.png",
+      "FromArea": {"X": 0, "Y": 0, "Width": 64, "Height": 256},
+      "ToArea": {"X": 64, "Y": 1472, "Width": 64, "Height": 256
+      },
+      "AnimationFrameTime": 7,
+      "AnimationFrameCount": 5
+    },
+    {//Jodi Pleasure
+      "LogName": "JodiPleasure",
+      "Action": "EditImage",
+      "Target": "Portraits/Jodi",
+      "FromFile": "assets/Animations/Pleasure/Jodi.png",
+      "FromArea": {"X": 0, "Y": 0, "Width": 64, "Height": 320},
+      "ToArea": {"X": 0, "Y": 1152, "Width": 64, "Height": 320
+      },
+      "AnimationFrameTime": 7,
+      "AnimationFrameCount": 5
+    },
+    {//Jodi MaleSex
+      "LogName": "JodiMaleSex",
+      "Action": "EditImage",
+      "Target": "Portraits/Jodi",
+      "FromFile": "assets/Animations/MaleSex/Jodi.png",
+      "FromArea": {"X": 0, "Y": 0, "Width": 64, "Height": 320},
+      "ToArea": {"X": 64, "Y": 1152, "Width": 64, "Height": 320
+      },
+      "AnimationFrameTime": 7,
+      "AnimationFrameCount": 5
+    },
+    {//Jodi FemaleSex
+      "LogName": "JodiFemaleSex",
+      "Action": "EditImage",
+      "Target": "Portraits/Jodi",
+      "FromFile": "assets/Animations/FemaleSex/Jodi.png",
+      "FromArea": {"X": 0, "Y": 0, "Width": 64, "Height": 256},
+      "ToArea": {"X": 64, "Y": 1472, "Width": 64, "Height": 256
+      },
+      "AnimationFrameTime": 7,
+      "AnimationFrameCount": 5
+    },
+    {//Jodi Pleasure
+      "LogName": "JodiPleasureWinter",
+      "Action": "EditImage",
+      "Target": "Portraits/Jodi_Winter",
+      "FromFile": "assets/Animations/Pleasure/Jodi.png",
+      "FromArea": {"X": 0, "Y": 0, "Width": 64, "Height": 320},
+      "ToArea": {"X": 0, "Y": 1152, "Width": 64, "Height": 320
+      },
+      "AnimationFrameTime": 7,
+      "AnimationFrameCount": 5
+    },
+    {//Jodi MaleSex
+      "LogName": "JodiMaleSexWinter",
+      "Action": "EditImage",
+      "Target": "Portraits/Jodi_Winter",
+      "FromFile": "assets/Animations/MaleSex/Jodi.png",
+      "FromArea": {"X": 0, "Y": 0, "Width": 64, "Height": 320},
+      "ToArea": {"X": 64, "Y": 1152, "Width": 64, "Height": 320
+      },
+      "AnimationFrameTime": 7,
+      "AnimationFrameCount": 5
+    },
+    {//Jodi FemaleSex
+      "LogName": "JodiFemaleSexWinter",
+      "Action": "EditImage",
+      "Target": "Portraits/Jodi_Winter",
+      "FromFile": "assets/Animations/FemaleSex/Jodi.png",
+      "FromArea": {"X": 0, "Y": 0, "Width": 64, "Height": 256},
+      "ToArea": {"X": 64, "Y": 1472, "Width": 64, "Height": 256
+      },
+      "AnimationFrameTime": 7,
+      "AnimationFrameCount": 5
+    },
+    {//Leah Pleasure
+      "LogName": "LeahPleasure",
+      "Action": "EditImage",
+      "Target": "Portraits/Leah",
+      "FromFile": "assets/Animations/Pleasure/Leah.png",
+      "FromArea": {"X": 0, "Y": 0, "Width": 64, "Height": 320},
+      "ToArea": {"X": 0, "Y": 1152, "Width": 64, "Height": 320
+      },
+      "AnimationFrameTime": 7,
+      "AnimationFrameCount": 5
+    },
+    {//Leah MaleSex
+      "LogName": "LeahMaleSex",
+      "Action": "EditImage",
+      "Target": "Portraits/Leah",
+      "FromFile": "assets/Animations/MaleSex/Leah.png",
+      "FromArea": {"X": 0, "Y": 0, "Width": 64, "Height": 320},
+      "ToArea": {"X": 64, "Y": 1152, "Width": 64, "Height": 320
+      },
+      "AnimationFrameTime": 7,
+      "AnimationFrameCount": 5
+    },
+    {//Leah FemaleSex
+      "LogName": "LeahFemaleSex",
+      "Action": "EditImage",
+      "Target": "Portraits/Leah",
+      "FromFile": "assets/Animations/FemaleSex/Leah.png",
+      "FromArea": {"X": 0, "Y": 0, "Width": 64, "Height": 256},
+      "ToArea": {"X": 64, "Y": 1472, "Width": 64, "Height": 256
+      },
+      "AnimationFrameTime": 7,
+      "AnimationFrameCount": 5
+    },
+    {//Leah Pleasure
+      "LogName": "LeahPleasureWinter",
+      "Action": "EditImage",
+      "Target": "Portraits/Leah_Winter",
+      "FromFile": "assets/Animations/Pleasure/Leah.png",
+      "FromArea": {"X": 0, "Y": 0, "Width": 64, "Height": 320},
+      "ToArea": {"X": 0, "Y": 1152, "Width": 64, "Height": 320
+      },
+      "AnimationFrameTime": 7,
+      "AnimationFrameCount": 5
+    },
+    {//Leah MaleSex
+      "LogName": "LeahMaleSexWinter",
+      "Action": "EditImage",
+      "Target": "Portraits/Leah_Winter",
+      "FromFile": "assets/Animations/MaleSex/Leah.png",
+      "FromArea": {"X": 0, "Y": 0, "Width": 64, "Height": 320},
+      "ToArea": {"X": 64, "Y": 1152, "Width": 64, "Height": 320
+      },
+      "AnimationFrameTime": 7,
+      "AnimationFrameCount": 5
+    },
+    {//Leah FemaleSex
+      "LogName": "LeahFemaleSexWinter",
+      "Action": "EditImage",
+      "Target": "Portraits/Leah_Winter",
+      "FromFile": "assets/Animations/FemaleSex/Leah.png",
+      "FromArea": {"X": 0, "Y": 0, "Width": 64, "Height": 256},
+      "ToArea": {"X": 64, "Y": 1472, "Width": 64, "Height": 256
+      },
+      "AnimationFrameTime": 7,
+      "AnimationFrameCount": 5
+    },
+    {//Maru Pleasure
+      "LogName": "MaruPleasure",
+      "Action": "EditImage",
+      "Target": "Portraits/Maru",
+      "FromFile": "assets/Animations/Pleasure/Maru.png",
+      "FromArea": {"X": 0, "Y": 0, "Width": 64, "Height": 320},
+      "ToArea": {"X": 0, "Y": 1152, "Width": 64, "Height": 320
+      },
+      "AnimationFrameTime": 7,
+      "AnimationFrameCount": 5
+    },
+    {//Maru MaleSex
+      "LogName": "MaruMaleSex",
+      "Action": "EditImage",
+      "Target": "Portraits/Maru",
+      "FromFile": "assets/Animations/MaleSex/Maru.png",
+      "FromArea": {"X": 0, "Y": 0, "Width": 64, "Height": 320},
+      "ToArea": {"X": 64, "Y": 1152, "Width": 64, "Height": 320
+      },
+      "AnimationFrameTime": 7,
+      "AnimationFrameCount": 5
+    },
+    {//Maru FemaleSex
+      "LogName": "MaruFemaleSex",
+      "Action": "EditImage",
+      "Target": "Portraits/Maru",
+      "FromFile": "assets/Animations/FemaleSex/Maru.png",
+      "FromArea": {"X": 0, "Y": 0, "Width": 64, "Height": 256},
+      "ToArea": {"X": 64, "Y": 1472, "Width": 64, "Height": 256
+      },
+      "AnimationFrameTime": 7,
+      "AnimationFrameCount": 5
+    },
+    {//Maru Pleasure
+      "LogName": "MaruPleasureWinter",
+      "Action": "EditImage",
+      "Target": "Portraits/Maru_Winter",
+      "FromFile": "assets/Animations/Pleasure/Maru.png",
+      "FromArea": {"X": 0, "Y": 0, "Width": 64, "Height": 320},
+      "ToArea": {"X": 0, "Y": 1152, "Width": 64, "Height": 320
+      },
+      "AnimationFrameTime": 7,
+      "AnimationFrameCount": 5
+    },
+    {//Maru MaleSex
+      "LogName": "MaruMaleSexWinter",
+      "Action": "EditImage",
+      "Target": "Portraits/Maru_Winter",
+      "FromFile": "assets/Animations/MaleSex/Maru.png",
+      "FromArea": {"X": 0, "Y": 0, "Width": 64, "Height": 320},
+      "ToArea": {"X": 64, "Y": 1152, "Width": 64, "Height": 320
+      },
+      "AnimationFrameTime": 7,
+      "AnimationFrameCount": 5
+    },
+    {//Maru FemaleSex
+      "LogName": "MaruFemaleSexWinter",
+      "Action": "EditImage",
+      "Target": "Portraits/Maru_Winter",
+      "FromFile": "assets/Animations/FemaleSex/Maru.png",
+      "FromArea": {"X": 0, "Y": 0, "Width": 64, "Height": 256},
+      "ToArea": {"X": 64, "Y": 1472, "Width": 64, "Height": 256
+      },
+      "AnimationFrameTime": 7,
+      "AnimationFrameCount": 5
+    },
+    {//Maru Pleasure
+      "LogName": "MaruPleasureHospital",
+      "Action": "EditImage",
+      "Target": "Portraits/Maru_Hospital",
+      "FromFile": "assets/Animations/Pleasure/Maru.png",
+      "FromArea": {"X": 0, "Y": 0, "Width": 64, "Height": 320},
+      "ToArea": {"X": 0, "Y": 1152, "Width": 64, "Height": 320
+      },
+      "AnimationFrameTime": 7,
+      "AnimationFrameCount": 5
+    },
+    {//Maru MaleSex
+      "LogName": "MaruMaleSexHospital",
+      "Action": "EditImage",
+      "Target": "Portraits/Maru_Hospital",
+      "FromFile": "assets/Animations/MaleSex/Maru.png",
+      "FromArea": {"X": 0, "Y": 0, "Width": 64, "Height": 320},
+      "ToArea": {"X": 64, "Y": 1152, "Width": 64, "Height": 320
+      },
+      "AnimationFrameTime": 7,
+      "AnimationFrameCount": 5
+    },
+    {//Maru FemaleSex
+      "LogName": "MaruFemaleSexHospital",
+      "Action": "EditImage",
+      "Target": "Portraits/Maru_Hospital",
+      "FromFile": "assets/Animations/FemaleSex/Maru.png",
+      "FromArea": {"X": 0, "Y": 0, "Width": 64, "Height": 256},
+      "ToArea": {"X": 64, "Y": 1472, "Width": 64, "Height": 256
+      },
+      "AnimationFrameTime": 7,
+      "AnimationFrameCount": 5
+    },
+    {//Marnie Pleasure
+      "LogName": "MarniePleasure",
+      "Action": "EditImage",
+      "Target": "Portraits/Marnie",
+      "FromFile": "assets/Animations/Pleasure/Marnie.png",
+      "FromArea": {"X": 0, "Y": 0, "Width": 64, "Height": 320},
+      "ToArea": {"X": 0, "Y": 1152, "Width": 64, "Height": 320
+      },
+      "AnimationFrameTime": 7,
+      "AnimationFrameCount": 5
+    },
+    {//Marnie MaleSex
+      "LogName": "MarnieMaleSex",
+      "Action": "EditImage",
+      "Target": "Portraits/Marnie",
+      "FromFile": "assets/Animations/MaleSex/Marnie.png",
+      "FromArea": {"X": 0, "Y": 0, "Width": 64, "Height": 320},
+      "ToArea": {"X": 64, "Y": 1152, "Width": 64, "Height": 320
+      },
+      "AnimationFrameTime": 7,
+      "AnimationFrameCount": 5
+    },
+    {//Marnie FemaleSex
+      "LogName": "MarnieFemaleSex",
+      "Action": "EditImage",
+      "Target": "Portraits/Marnie",
+      "FromFile": "assets/Animations/FemaleSex/Marnie.png",
+      "FromArea": {"X": 0, "Y": 0, "Width": 64, "Height": 256},
+      "ToArea": {"X": 64, "Y": 1472, "Width": 64, "Height": 256
+      },
+      "AnimationFrameTime": 7,
+      "AnimationFrameCount": 5
+    },
+    {//Marnie Pleasure
+      "LogName": "MarniePleasureWinter",
+      "Action": "EditImage",
+      "Target": "Portraits/Marnie_Winter",
+      "FromFile": "assets/Animations/Pleasure/Marnie.png",
+      "FromArea": {"X": 0, "Y": 0, "Width": 64, "Height": 320},
+      "ToArea": {"X": 0, "Y": 1152, "Width": 64, "Height": 320
+      },
+      "AnimationFrameTime": 7,
+      "AnimationFrameCount": 5
+    },
+    {//Marnie MaleSex
+      "LogName": "MarnieMaleSexWinter",
+      "Action": "EditImage",
+      "Target": "Portraits/Marnie_Winter",
+      "FromFile": "assets/Animations/MaleSex/Marnie.png",
+      "FromArea": {"X": 0, "Y": 0, "Width": 64, "Height": 320},
+      "ToArea": {"X": 64, "Y": 1152, "Width": 64, "Height": 320
+      },
+      "AnimationFrameTime": 7,
+      "AnimationFrameCount": 5
+    },
+    {//Marnie FemaleSex
+      "LogName": "MarnieFemaleSexWinter",
+      "Action": "EditImage",
+      "Target": "Portraits/Marnie_Winter",
+      "FromFile": "assets/Animations/FemaleSex/Marnie.png",
+      "FromArea": {"X": 0, "Y": 0, "Width": 64, "Height": 256},
+      "ToArea": {"X": 64, "Y": 1472, "Width": 64, "Height": 256
+      },
+      "AnimationFrameTime": 7,
+      "AnimationFrameCount": 5
+    },
+    {//Penny Pleasure
+      "LogName": "PennyPleasure",
+      "Action": "EditImage",
+      "Target": "Portraits/Penny",
+      "FromFile": "assets/Animations/Pleasure/Penny.png",
+      "FromArea": {"X": 0, "Y": 0, "Width": 64, "Height": 320},
+      "ToArea": {"X": 0, "Y": 1152, "Width": 64, "Height": 320
+      },
+      "AnimationFrameTime": 7,
+      "AnimationFrameCount": 5
+    },
+    {//Penny MaleSex
+      "LogName": "PennyMaleSex",
+      "Action": "EditImage",
+      "Target": "Portraits/Penny",
+      "FromFile": "assets/Animations/MaleSex/Penny.png",
+      "FromArea": {"X": 0, "Y": 0, "Width": 64, "Height": 320},
+      "ToArea": {"X": 64, "Y": 1152, "Width": 64, "Height": 320
+      },
+      "AnimationFrameTime": 7,
+      "AnimationFrameCount": 5
+    },
+    {//Penny FemaleSex
+      "LogName": "PennyFemaleSex",
+      "Action": "EditImage",
+      "Target": "Portraits/Penny",
+      "FromFile": "assets/Animations/FemaleSex/Penny.png",
+      "FromArea": {"X": 0, "Y": 0, "Width": 64, "Height": 256},
+      "ToArea": {"X": 64, "Y": 1472, "Width": 64, "Height": 256
+      },
+      "AnimationFrameTime": 7,
+      "AnimationFrameCount": 5
+    },
+    {//Penny Pleasure
+      "LogName": "PennyPleasureWinter",
+      "Action": "EditImage",
+      "Target": "Portraits/Penny_Winter",
+      "FromFile": "assets/Animations/Pleasure/Penny.png",
+      "FromArea": {"X": 0, "Y": 0, "Width": 64, "Height": 320},
+      "ToArea": {"X": 0, "Y": 1152, "Width": 64, "Height": 320
+      },
+      "AnimationFrameTime": 7,
+      "AnimationFrameCount": 5
+    },
+    {//Penny MaleSex
+      "LogName": "PennyMaleSexWinter",
+      "Action": "EditImage",
+      "Target": "Portraits/Penny_Winter",
+      "FromFile": "assets/Animations/MaleSex/Penny.png",
+      "FromArea": {"X": 0, "Y": 0, "Width": 64, "Height": 320},
+      "ToArea": {"X": 64, "Y": 1152, "Width": 64, "Height": 320
+      },
+      "AnimationFrameTime": 7,
+      "AnimationFrameCount": 5
+    },
+    {//Penny FemaleSex
+      "LogName": "PennyFemaleSexWinter",
+      "Action": "EditImage",
+      "Target": "Portraits/Penny_Winter",
+      "FromFile": "assets/Animations/FemaleSex/Penny.png",
+      "FromArea": {"X": 0, "Y": 0, "Width": 64, "Height": 256},
+      "ToArea": {"X": 64, "Y": 1472, "Width": 64, "Height": 256
+      },
+      "AnimationFrameTime": 7,
+      "AnimationFrameCount": 5
+    },
+    {//Robin Pleasure
+      "LogName": "RobinPleasure",
+      "Action": "EditImage",
+      "Target": "Portraits/Robin",
+      "FromFile": "assets/Animations/Pleasure/Robin.png",
+      "FromArea": {"X": 0, "Y": 0, "Width": 64, "Height": 320},
+      "ToArea": {"X": 0, "Y": 1152, "Width": 64, "Height": 320
+      },
+      "AnimationFrameTime": 7,
+      "AnimationFrameCount": 5
+    },
+    {//Robin MaleSex
+      "LogName": "RobinMaleSex",
+      "Action": "EditImage",
+      "Target": "Portraits/Robin",
+      "FromFile": "assets/Animations/MaleSex/Robin.png",
+      "FromArea": {"X": 0, "Y": 0, "Width": 64, "Height": 320},
+      "ToArea": {"X": 64, "Y": 1152, "Width": 64, "Height": 320
+      },
+      "AnimationFrameTime": 7,
+      "AnimationFrameCount": 5
+    },
+    {//Robin FemaleSex
+      "LogName": "RobinFemaleSex",
+      "Action": "EditImage",
+      "Target": "Portraits/Robin",
+      "FromFile": "assets/Animations/FemaleSex/Robin.png",
+      "FromArea": {"X": 0, "Y": 0, "Width": 64, "Height": 256},
+      "ToArea": {"X": 64, "Y": 1472, "Width": 64, "Height": 256
+      },
+      "AnimationFrameTime": 7,
+      "AnimationFrameCount": 5
+    },
+    {//Robin Pleasure
+      "LogName": "RobinPleasureWinter",
+      "Action": "EditImage",
+      "Target": "Portraits/Robin_Winter",
+      "FromFile": "assets/Animations/Pleasure/Robin.png",
+      "FromArea": {"X": 0, "Y": 0, "Width": 64, "Height": 320},
+      "ToArea": {"X": 0, "Y": 1152, "Width": 64, "Height": 320
+      },
+      "AnimationFrameTime": 7,
+      "AnimationFrameCount": 5
+    },
+    {//Robin MaleSex
+      "LogName": "RobinMaleSexWinter",
+      "Action": "EditImage",
+      "Target": "Portraits/Robin_Winter",
+      "FromFile": "assets/Animations/MaleSex/Robin.png",
+      "FromArea": {"X": 0, "Y": 0, "Width": 64, "Height": 320},
+      "ToArea": {"X": 64, "Y": 1152, "Width": 64, "Height": 320
+      },
+      "AnimationFrameTime": 7,
+      "AnimationFrameCount": 5
+    },
+    {//Robin FemaleSex
+      "LogName": "RobinFemaleSexWinter",
+      "Action": "EditImage",
+      "Target": "Portraits/Robin_Winter",
+      "FromFile": "assets/Animations/FemaleSex/Robin.png",
+      "FromArea": {"X": 0, "Y": 0, "Width": 64, "Height": 256},
+      "ToArea": {"X": 64, "Y": 1472, "Width": 64, "Height": 256
+      },
+      "AnimationFrameTime": 7,
+      "AnimationFrameCount": 5
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+    "Changes": [
+        {
+            "LogName": "Abigail",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Abigail",
+            "Entries": {
+                "event_postmarriage1": "是啊，我也希望如此。也许镇长知道这个农场之前有什么……",
+                "event_postmarriage2": "真可惜，要是能看见幽灵就太棒了。",
+                "event_postmarriage3": "认真的吗！？$7#$b#……好吧，现在我真有点害怕了...$2"
+            }
+        },
+        {
+            "LogName": "Abigail Marriage",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/MarriageDialogueAbigail",
+            "Entries": {
+                "Rainy_Night_1": "#$c .5#这是个能看到鬼的好夜晚……#嘿！你看起来工作很努力，我能帮你放松一下吗？#$e#如果你想要，我……我可以在床上给你口交……$4^你一直在勤奋工作吗？你有点累坏了的样子挺帅的。$h",
+                "Indoor_Night_1": "你准备好早点睡觉了吗？我为我们打开了电毯...$l#$b#也许我应该把它关闭...我想今晚做爱，我们总是会出汗...$4",
+                "Indoor_Night_5": "嘿！说说你今天过得怎么样，有没有什么令人激动的事发生？$h",
+                "summer_8": "很抱歉弄出这个味道……我想我们应该停止在这么热的天做爱。#$b#.....#$b#开玩笑的！哈哈哈，你真该看看自己的脸。$1"
+            }
+        }
+    ]
+}

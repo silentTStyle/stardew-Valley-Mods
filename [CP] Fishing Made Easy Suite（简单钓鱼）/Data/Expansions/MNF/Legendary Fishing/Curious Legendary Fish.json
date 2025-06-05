@@ -1,0 +1,1353 @@
+{
+	"Changes": [
+		{
+			"LogName": "MNF - Curious Legendary Fish Caldera Increase by 10%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Caldera", "Fish" ],
+			"Fields": { 
+				"MNF.MoreNewFish_mushu": {"CuriosityLureBuff": 0.10},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 10%"},
+	    },
+		{
+			"LogName": "MNF - Curious Legendary Fish Default Increase by 10%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Default", "Fish" ],
+			"Fields": { 
+				"MNF.MoreNewFish_shinidamachu": {"CuriosityLureBuff": 0.10},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 10%"},
+	    },
+		{
+			"LogName": "MNF - Curious Legendary Fish Bug Land Increase by 10%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "BugLand", "Fish" ],
+			"Fields": { 
+				"MNF.MoreNewFish_vampire_fish": {"CuriosityLureBuff": 0.10},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 10%"},
+	    },
+		{
+			"LogName": "MNF - Curious Legendary Fish Forest Increase by 10%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Forest", "Fish" ],
+			"Fields": { 
+				"MNF.MoreNewFish_iridiumfish": {"CuriosityLureBuff": 0.10},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 10%"},
+	    },
+		{
+			"LogName": "MNF - Curious Legendary Fish Submarine Increase by 10%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Submarine", "Fish" ],
+			"Fields": { 
+				"MNF.MoreNewFish_vampire_squid": {"CuriosityLureBuff": 0.10},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 10%"},
+	    },
+		{
+			"LogName": "MNF - Curious Legendary Fish Woods Increase by 10%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Woods", "Fish" ],
+			"Fields": { 
+				"MNF.MoreNewFish_tui": {"CuriosityLureBuff": 0.10},
+				"MNF.MoreNewFish_la": {"CuriosityLureBuff": 0.10},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 10%"},
+	    },
+		{
+			"LogName": "MNF - Curious Legendary Fish Island South East Increase by 10%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "IslandSouthEast", "Fish" ],
+			"Fields": { 
+				"MNF.MoreNewFish_great_firefly_squid": {"CuriosityLureBuff": 0.10},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 10%"},
+	    },
+		{
+			"LogName": "MNF - Curious Legendary Fish Caldera Increase by 15%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Caldera", "Fish" ],
+			"Fields": { 
+				"MNF.MoreNewFish_mushu": {"CuriosityLureBuff": 0.15},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 15%"},
+	    },
+		{
+			"LogName": "MNF - Curious Legendary Fish Default Increase by 15%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Default", "Fish" ],
+			"Fields": { 
+				"MNF.MoreNewFish_shinidamachu": {"CuriosityLureBuff": 0.15},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 15%"},
+	    },
+		{
+			"LogName": "MNF - Curious Legendary Fish Bug Land Increase by 15%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "BugLand", "Fish" ],
+			"Fields": { 
+				"MNF.MoreNewFish_vampire_fish": {"CuriosityLureBuff": 0.15},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 15%"},
+	    },
+		{
+			"LogName": "MNF - Curious Legendary Fish Forest Increase by 15%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Forest", "Fish" ],
+			"Fields": { 
+				"MNF.MoreNewFish_iridiumfish": {"CuriosityLureBuff": 0.15},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 15%"},
+	    },
+		{
+			"LogName": "MNF - Curious Legendary Fish Submarine Increase by 15%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Submarine", "Fish" ],
+			"Fields": { 
+				"MNF.MoreNewFish_vampire_squid": {"CuriosityLureBuff": 0.15},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 15%"},
+	    },
+		{
+			"LogName": "MNF - Curious Legendary Fish Woods Increase by 15%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Woods", "Fish" ],
+			"Fields": { 
+				"MNF.MoreNewFish_tui": {"CuriosityLureBuff": 0.15},
+				"MNF.MoreNewFish_la": {"CuriosityLureBuff": 0.15},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 15%"},
+	    },
+		{
+			"LogName": "MNF - Curious Legendary Fish Island South East Increase by 15%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "IslandSouthEast", "Fish" ],
+			"Fields": { 
+				"MNF.MoreNewFish_great_firefly_squid": {"CuriosityLureBuff": 0.15},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 15%"},
+	    },
+		{
+			"LogName": "MNF - Curious Legendary Fish Caldera Increase by 20%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Caldera", "Fish" ],
+			"Fields": { 
+				"MNF.MoreNewFish_mushu": {"CuriosityLureBuff": 0.20},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 20%"},
+	    },
+		{
+			"LogName": "MNF - Curious Legendary Fish Default Increase by 20%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Default", "Fish" ],
+			"Fields": { 
+				"MNF.MoreNewFish_shinidamachu": {"CuriosityLureBuff": 0.20},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 20%"},
+	    },
+		{
+			"LogName": "MNF - Curious Legendary Fish Bug Land Increase by 20%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "BugLand", "Fish" ],
+			"Fields": { 
+				"MNF.MoreNewFish_vampire_fish": {"CuriosityLureBuff": 0.20},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 20%"},
+	    },
+		{
+			"LogName": "MNF - Curious Legendary Fish Forest Increase by 20%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Forest", "Fish" ],
+			"Fields": { 
+				"MNF.MoreNewFish_iridiumfish": {"CuriosityLureBuff": 0.20},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 20%"},
+	    },
+		{
+			"LogName": "MNF - Curious Legendary Fish Submarine Increase by 20%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Submarine", "Fish" ],
+			"Fields": { 
+				"MNF.MoreNewFish_vampire_squid": {"CuriosityLureBuff": 0.20},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 20%"},
+	    },
+		{
+			"LogName": "MNF - Curious Legendary Fish Woods Increase by 20%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Woods", "Fish" ],
+			"Fields": { 
+				"MNF.MoreNewFish_tui": {"CuriosityLureBuff": 0.20},
+				"MNF.MoreNewFish_la": {"CuriosityLureBuff": 0.20},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 20%"},
+	    },
+		{
+			"LogName": "MNF - Curious Legendary Fish Island South East Increase by 20%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "IslandSouthEast", "Fish" ],
+			"Fields": { 
+				"MNF.MoreNewFish_great_firefly_squid": {"CuriosityLureBuff": 0.20},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 20%"},
+	    },
+		{
+			"LogName": "MNF - Curious Legendary Fish Caldera Increase by 25%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Caldera", "Fish" ],
+			"Fields": { 
+				"MNF.MoreNewFish_mushu": {"CuriosityLureBuff": 0.25},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 25%"},
+	    },
+		{
+			"LogName": "MNF - Curious Legendary Fish Default Increase by 25%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Default", "Fish" ],
+			"Fields": { 
+				"MNF.MoreNewFish_shinidamachu": {"CuriosityLureBuff": 0.25},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 25%"},
+	    },
+		{
+			"LogName": "MNF - Curious Legendary Fish Bug Land Increase by 25%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "BugLand", "Fish" ],
+			"Fields": { 
+				"MNF.MoreNewFish_vampire_fish": {"CuriosityLureBuff": 0.25},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 25%"},
+	    },
+		{
+			"LogName": "MNF - Curious Legendary Fish Forest Increase by 25%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Forest", "Fish" ],
+			"Fields": { 
+				"MNF.MoreNewFish_iridiumfish": {"CuriosityLureBuff": 0.25},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 25%"},
+	    },
+		{
+			"LogName": "MNF - Curious Legendary Fish Submarine Increase by 25%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Submarine", "Fish" ],
+			"Fields": { 
+				"MNF.MoreNewFish_vampire_squid": {"CuriosityLureBuff": 0.25},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 25%"},
+	    },
+		{
+			"LogName": "MNF - Curious Legendary Fish Woods Increase by 25%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Woods", "Fish" ],
+			"Fields": { 
+				"MNF.MoreNewFish_tui": {"CuriosityLureBuff": 0.25},
+				"MNF.MoreNewFish_la": {"CuriosityLureBuff": 0.25},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 25%"},
+	    },
+		{
+			"LogName": "MNF - Curious Legendary Fish Island South East Increase by 25%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "IslandSouthEast", "Fish" ],
+			"Fields": { 
+				"MNF.MoreNewFish_great_firefly_squid": {"CuriosityLureBuff": 0.25},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 25%"},
+	    },
+		{
+			"LogName": "MNF - Curious Legendary Fish Caldera Increase by 30%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Caldera", "Fish" ],
+			"Fields": { 
+				"MNF.MoreNewFish_mushu": {"CuriosityLureBuff": 0.30},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 30%"},
+	    },
+		{
+			"LogName": "MNF - Curious Legendary Fish Default Increase by 30%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Default", "Fish" ],
+			"Fields": { 
+				"MNF.MoreNewFish_shinidamachu": {"CuriosityLureBuff": 0.30},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 30%"},
+	    },
+		{
+			"LogName": "MNF - Curious Legendary Fish Bug Land Increase by 30%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "BugLand", "Fish" ],
+			"Fields": { 
+				"MNF.MoreNewFish_vampire_fish": {"CuriosityLureBuff": 0.30},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 30%"},
+	    },
+		{
+			"LogName": "MNF - Curious Legendary Fish Forest Increase by 30%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Forest", "Fish" ],
+			"Fields": { 
+				"MNF.MoreNewFish_iridiumfish": {"CuriosityLureBuff": 0.30},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 30%"},
+	    },
+		{
+			"LogName": "MNF - Curious Legendary Fish Submarine Increase by 30%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Submarine", "Fish" ],
+			"Fields": { 
+				"MNF.MoreNewFish_vampire_squid": {"CuriosityLureBuff": 0.30},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 30%"},
+	    },
+		{
+			"LogName": "MNF - Curious Legendary Fish Woods Increase by 30%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Woods", "Fish" ],
+			"Fields": { 
+				"MNF.MoreNewFish_tui": {"CuriosityLureBuff": 0.30},
+				"MNF.MoreNewFish_la": {"CuriosityLureBuff": 0.30},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 30%"},
+	    },
+		{
+			"LogName": "MNF - Curious Legendary Fish Island South East Increase by 30%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "IslandSouthEast", "Fish" ],
+			"Fields": { 
+				"MNF.MoreNewFish_great_firefly_squid": {"CuriosityLureBuff": 0.30},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 30%"},
+	    },
+		{
+			"LogName": "MNF - Curious Legendary Fish Caldera Increase by 35%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Caldera", "Fish" ],
+			"Fields": { 
+				"MNF.MoreNewFish_mushu": {"CuriosityLureBuff": 0.35},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 35%"},
+	    },
+		{
+			"LogName": "MNF - Curious Legendary Fish Default Increase by 35%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Default", "Fish" ],
+			"Fields": { 
+				"MNF.MoreNewFish_shinidamachu": {"CuriosityLureBuff": 0.35},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 35%"},
+	    },
+		{
+			"LogName": "MNF - Curious Legendary Fish Bug Land Increase by 35%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "BugLand", "Fish" ],
+			"Fields": { 
+				"MNF.MoreNewFish_vampire_fish": {"CuriosityLureBuff": 0.35},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 35%"},
+	    },
+		{
+			"LogName": "MNF - Curious Legendary Fish Forest Increase by 35%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Forest", "Fish" ],
+			"Fields": { 
+				"MNF.MoreNewFish_iridiumfish": {"CuriosityLureBuff": 0.35},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 35%"},
+	    },
+		{
+			"LogName": "MNF - Curious Legendary Fish Submarine Increase by 35%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Submarine", "Fish" ],
+			"Fields": { 
+				"MNF.MoreNewFish_vampire_squid": {"CuriosityLureBuff": 0.35},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 35%"},
+	    },
+		{
+			"LogName": "MNF - Curious Legendary Fish Woods Increase by 35%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Woods", "Fish" ],
+			"Fields": { 
+				"MNF.MoreNewFish_tui": {"CuriosityLureBuff": 0.35},
+				"MNF.MoreNewFish_la": {"CuriosityLureBuff": 0.35},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 35%"},
+	    },
+		{
+			"LogName": "MNF - Curious Legendary Fish Island South East Increase by 35%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "IslandSouthEast", "Fish" ],
+			"Fields": { 
+				"MNF.MoreNewFish_great_firefly_squid": {"CuriosityLureBuff": 0.35},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 35%"},
+	    },
+		{
+			"LogName": "MNF - Curious Legendary Fish Caldera Increase by 40%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Caldera", "Fish" ],
+			"Fields": { 
+				"MNF.MoreNewFish_mushu": {"CuriosityLureBuff": 0.40},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 40%"},
+	    },
+		{
+			"LogName": "MNF - Curious Legendary Fish Default Increase by 40%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Default", "Fish" ],
+			"Fields": { 
+				"MNF.MoreNewFish_shinidamachu": {"CuriosityLureBuff": 0.40},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 40%"},
+	    },
+		{
+			"LogName": "MNF - Curious Legendary Fish Bug Land Increase by 40%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "BugLand", "Fish" ],
+			"Fields": { 
+				"MNF.MoreNewFish_vampire_fish": {"CuriosityLureBuff": 0.40},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 40%"},
+	    },
+		{
+			"LogName": "MNF - Curious Legendary Fish Forest Increase by 40%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Forest", "Fish" ],
+			"Fields": { 
+				"MNF.MoreNewFish_iridiumfish": {"CuriosityLureBuff": 0.40},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 40%"},
+	    },
+		{
+			"LogName": "MNF - Curious Legendary Fish Submarine Increase by 40%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Submarine", "Fish" ],
+			"Fields": { 
+				"MNF.MoreNewFish_vampire_squid": {"CuriosityLureBuff": 0.40},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 40%"},
+	    },
+		{
+			"LogName": "MNF - Curious Legendary Fish Woods Increase by 40%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Woods", "Fish" ],
+			"Fields": { 
+				"MNF.MoreNewFish_tui": {"CuriosityLureBuff": 0.40},
+				"MNF.MoreNewFish_la": {"CuriosityLureBuff": 0.40},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 40%"},
+	    },
+		{
+			"LogName": "MNF - Curious Legendary Fish Island South East Increase by 40%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "IslandSouthEast", "Fish" ],
+			"Fields": { 
+				"MNF.MoreNewFish_great_firefly_squid": {"CuriosityLureBuff": 0.40},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 40%"},
+	    },
+		{
+			"LogName": "MNF - Curious Legendary Fish Caldera Increase by 45%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Caldera", "Fish" ],
+			"Fields": { 
+				"MNF.MoreNewFish_mushu": {"CuriosityLureBuff": 0.45},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 45%"},
+	    },
+		{
+			"LogName": "MNF - Curious Legendary Fish Default Increase by 45%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Default", "Fish" ],
+			"Fields": { 
+				"MNF.MoreNewFish_shinidamachu": {"CuriosityLureBuff": 0.45},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 45%"},
+	    },
+		{
+			"LogName": "MNF - Curious Legendary Fish Bug Land Increase by 45%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "BugLand", "Fish" ],
+			"Fields": { 
+				"MNF.MoreNewFish_vampire_fish": {"CuriosityLureBuff": 0.45},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 45%"},
+	    },
+		{
+			"LogName": "MNF - Curious Legendary Fish Forest Increase by 45%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Forest", "Fish" ],
+			"Fields": { 
+				"MNF.MoreNewFish_iridiumfish": {"CuriosityLureBuff": 0.45},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 45%"},
+	    },
+		{
+			"LogName": "MNF - Curious Legendary Fish Submarine Increase by 45%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Submarine", "Fish" ],
+			"Fields": { 
+				"MNF.MoreNewFish_vampire_squid": {"CuriosityLureBuff": 0.45},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 45%"},
+	    },
+		{
+			"LogName": "MNF - Curious Legendary Fish Woods Increase by 45%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Woods", "Fish" ],
+			"Fields": { 
+				"MNF.MoreNewFish_tui": {"CuriosityLureBuff": 0.45},
+				"MNF.MoreNewFish_la": {"CuriosityLureBuff": 0.45},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 45%"},
+	    },
+		{
+			"LogName": "MNF - Curious Legendary Fish Island South East Increase by 45%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "IslandSouthEast", "Fish" ],
+			"Fields": { 
+				"MNF.MoreNewFish_great_firefly_squid": {"CuriosityLureBuff": 0.45},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 45%"},
+	    },
+		{
+			"LogName": "MNF - Curious Legendary Fish Caldera Increase by 50%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Caldera", "Fish" ],
+			"Fields": { 
+				"MNF.MoreNewFish_mushu": {"CuriosityLureBuff": 0.50},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 50%"},
+	    },
+		{
+			"LogName": "MNF - Curious Legendary Fish Default Increase by 50%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Default", "Fish" ],
+			"Fields": { 
+				"MNF.MoreNewFish_shinidamachu": {"CuriosityLureBuff": 0.50},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 50%"},
+	    },
+		{
+			"LogName": "MNF - Curious Legendary Fish Bug Land Increase by 50%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "BugLand", "Fish" ],
+			"Fields": { 
+				"MNF.MoreNewFish_vampire_fish": {"CuriosityLureBuff": 0.50},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 50%"},
+	    },
+		{
+			"LogName": "MNF - Curious Legendary Fish Forest Increase by 50%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Forest", "Fish" ],
+			"Fields": { 
+				"MNF.MoreNewFish_iridiumfish": {"CuriosityLureBuff": 0.50},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 50%"},
+	    },
+		{
+			"LogName": "MNF - Curious Legendary Fish Submarine Increase by 50%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Submarine", "Fish" ],
+			"Fields": { 
+				"MNF.MoreNewFish_vampire_squid": {"CuriosityLureBuff": 0.50},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 50%"},
+	    },
+		{
+			"LogName": "MNF - Curious Legendary Fish Woods Increase by 50%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Woods", "Fish" ],
+			"Fields": { 
+				"MNF.MoreNewFish_tui": {"CuriosityLureBuff": 0.50},
+				"MNF.MoreNewFish_la": {"CuriosityLureBuff": 0.50},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 50%"},
+	    },
+		{
+			"LogName": "MNF - Curious Legendary Fish Island South East Increase by 50%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "IslandSouthEast", "Fish" ],
+			"Fields": { 
+				"MNF.MoreNewFish_great_firefly_squid": {"CuriosityLureBuff": 0.50},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 50%"},
+	    },
+		{
+			"LogName": "MNF - Curious Legendary Fish Caldera Increase by 55%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Caldera", "Fish" ],
+			"Fields": { 
+				"MNF.MoreNewFish_mushu": {"CuriosityLureBuff": 0.55},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 55%"},
+	    },
+		{
+			"LogName": "MNF - Curious Legendary Fish Default Increase by 55%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Default", "Fish" ],
+			"Fields": { 
+				"MNF.MoreNewFish_shinidamachu": {"CuriosityLureBuff": 0.55},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 55%"},
+	    },
+		{
+			"LogName": "MNF - Curious Legendary Fish Bug Land Increase by 55%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "BugLand", "Fish" ],
+			"Fields": { 
+				"MNF.MoreNewFish_vampire_fish": {"CuriosityLureBuff": 0.55},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 55%"},
+	    },
+		{
+			"LogName": "MNF - Curious Legendary Fish Forest Increase by 55%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Forest", "Fish" ],
+			"Fields": { 
+				"MNF.MoreNewFish_iridiumfish": {"CuriosityLureBuff": 0.55},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 55%"},
+	    },
+		{
+			"LogName": "MNF - Curious Legendary Fish Submarine Increase by 55%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Submarine", "Fish" ],
+			"Fields": { 
+				"MNF.MoreNewFish_vampire_squid": {"CuriosityLureBuff": 0.55},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 55%"},
+	    },
+		{
+			"LogName": "MNF - Curious Legendary Fish Woods Increase by 55%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Woods", "Fish" ],
+			"Fields": { 
+				"MNF.MoreNewFish_tui": {"CuriosityLureBuff": 0.55},
+				"MNF.MoreNewFish_la": {"CuriosityLureBuff": 0.55},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 55%"},
+	    },
+		{
+			"LogName": "MNF - Curious Legendary Fish Island South East Increase by 55%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "IslandSouthEast", "Fish" ],
+			"Fields": { 
+				"MNF.MoreNewFish_great_firefly_squid": {"CuriosityLureBuff": 0.55},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 55%"},
+	    },
+		{
+			"LogName": "MNF - Curious Legendary Fish Caldera Increase by 60%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Caldera", "Fish" ],
+			"Fields": { 
+				"MNF.MoreNewFish_mushu": {"CuriosityLureBuff": 0.60},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 60%"},
+	    },
+		{
+			"LogName": "MNF - Curious Legendary Fish Default Increase by 60%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Default", "Fish" ],
+			"Fields": { 
+				"MNF.MoreNewFish_shinidamachu": {"CuriosityLureBuff": 0.60},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 60%"},
+	    },
+		{
+			"LogName": "MNF - Curious Legendary Fish Bug Land Increase by 60%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "BugLand", "Fish" ],
+			"Fields": { 
+				"MNF.MoreNewFish_vampire_fish": {"CuriosityLureBuff": 0.60},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 60%"},
+	    },
+		{
+			"LogName": "MNF - Curious Legendary Fish Forest Increase by 60%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Forest", "Fish" ],
+			"Fields": { 
+				"MNF.MoreNewFish_iridiumfish": {"CuriosityLureBuff": 0.60},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 60%"},
+	    },
+		{
+			"LogName": "MNF - Curious Legendary Fish Submarine Increase by 60%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Submarine", "Fish" ],
+			"Fields": { 
+				"MNF.MoreNewFish_vampire_squid": {"CuriosityLureBuff": 0.60},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 60%"},
+	    },
+		{
+			"LogName": "MNF - Curious Legendary Fish Woods Increase by 60%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Woods", "Fish" ],
+			"Fields": { 
+				"MNF.MoreNewFish_tui": {"CuriosityLureBuff": 0.60},
+				"MNF.MoreNewFish_la": {"CuriosityLureBuff": 0.60},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 60%"},
+	    },
+		{
+			"LogName": "MNF - Curious Legendary Fish Island South East Increase by 60%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "IslandSouthEast", "Fish" ],
+			"Fields": { 
+				"MNF.MoreNewFish_great_firefly_squid": {"CuriosityLureBuff": 0.60},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 60%"},
+	    },
+		{
+			"LogName": "MNF - Curious Legendary Fish Caldera Increase by 65%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Caldera", "Fish" ],
+			"Fields": { 
+				"MNF.MoreNewFish_mushu": {"CuriosityLureBuff": 0.65},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 65%"},
+	    },
+		{
+			"LogName": "MNF - Curious Legendary Fish Default Increase by 65%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Default", "Fish" ],
+			"Fields": { 
+				"MNF.MoreNewFish_shinidamachu": {"CuriosityLureBuff": 0.65},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 65%"},
+	    },
+		{
+			"LogName": "MNF - Curious Legendary Fish Bug Land Increase by 65%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "BugLand", "Fish" ],
+			"Fields": { 
+				"MNF.MoreNewFish_vampire_fish": {"CuriosityLureBuff": 0.65},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 65%"},
+	    },
+		{
+			"LogName": "MNF - Curious Legendary Fish Forest Increase by 65%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Forest", "Fish" ],
+			"Fields": { 
+				"MNF.MoreNewFish_iridiumfish": {"CuriosityLureBuff": 0.65},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 65%"},
+	    },
+		{
+			"LogName": "MNF - Curious Legendary Fish Submarine Increase by 65%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Submarine", "Fish" ],
+			"Fields": { 
+				"MNF.MoreNewFish_vampire_squid": {"CuriosityLureBuff": 0.65},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 65%"},
+	    },
+		{
+			"LogName": "MNF - Curious Legendary Fish Woods Increase by 65%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Woods", "Fish" ],
+			"Fields": { 
+				"MNF.MoreNewFish_tui": {"CuriosityLureBuff": 0.65},
+				"MNF.MoreNewFish_la": {"CuriosityLureBuff": 0.65},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 65%"},
+	    },
+		{
+			"LogName": "MNF - Curious Legendary Fish Island South East Increase by 65%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "IslandSouthEast", "Fish" ],
+			"Fields": { 
+				"MNF.MoreNewFish_great_firefly_squid": {"CuriosityLureBuff": 0.65},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 65%"},
+	    },
+		{
+			"LogName": "MNF - Curious Legendary Fish Caldera Increase by 70%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Caldera", "Fish" ],
+			"Fields": { 
+				"MNF.MoreNewFish_mushu": {"CuriosityLureBuff": 0.70},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 70%"},
+	    },
+		{
+			"LogName": "MNF - Curious Legendary Fish Default Increase by 70%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Default", "Fish" ],
+			"Fields": { 
+				"MNF.MoreNewFish_shinidamachu": {"CuriosityLureBuff": 0.70},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 70%"},
+	    },
+		{
+			"LogName": "MNF - Curious Legendary Fish Bug Land Increase by 70%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "BugLand", "Fish" ],
+			"Fields": { 
+				"MNF.MoreNewFish_vampire_fish": {"CuriosityLureBuff": 0.70},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 70%"},
+	    },
+		{
+			"LogName": "MNF - Curious Legendary Fish Forest Increase by 70%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Forest", "Fish" ],
+			"Fields": { 
+				"MNF.MoreNewFish_iridiumfish": {"CuriosityLureBuff": 0.70},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 70%"},
+	    },
+		{
+			"LogName": "MNF - Curious Legendary Fish Submarine Increase by 70%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Submarine", "Fish" ],
+			"Fields": { 
+				"MNF.MoreNewFish_vampire_squid": {"CuriosityLureBuff": 0.70},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 70%"},
+	    },
+		{
+			"LogName": "MNF - Curious Legendary Fish Woods Increase by 70%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Woods", "Fish" ],
+			"Fields": { 
+				"MNF.MoreNewFish_tui": {"CuriosityLureBuff": 0.70},
+				"MNF.MoreNewFish_la": {"CuriosityLureBuff": 0.70},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 70%"},
+	    },
+		{
+			"LogName": "MNF - Curious Legendary Fish Island South East Increase by 70%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "IslandSouthEast", "Fish" ],
+			"Fields": { 
+				"MNF.MoreNewFish_great_firefly_squid": {"CuriosityLureBuff": 0.70},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 70%"},
+	    },
+		{
+			"LogName": "MNF - Curious Legendary Fish Caldera Increase by 75%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Caldera", "Fish" ],
+			"Fields": { 
+				"MNF.MoreNewFish_mushu": {"CuriosityLureBuff": 0.75},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 75%"},
+	    },
+		{
+			"LogName": "MNF - Curious Legendary Fish Default Increase by 75%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Default", "Fish" ],
+			"Fields": { 
+				"MNF.MoreNewFish_shinidamachu": {"CuriosityLureBuff": 0.75},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 75%"},
+	    },
+		{
+			"LogName": "MNF - Curious Legendary Fish Bug Land Increase by 75%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "BugLand", "Fish" ],
+			"Fields": { 
+				"MNF.MoreNewFish_vampire_fish": {"CuriosityLureBuff": 0.75},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 75%"},
+	    },
+		{
+			"LogName": "MNF - Curious Legendary Fish Forest Increase by 75%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Forest", "Fish" ],
+			"Fields": { 
+				"MNF.MoreNewFish_iridiumfish": {"CuriosityLureBuff": 0.75},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 75%"},
+	    },
+		{
+			"LogName": "MNF - Curious Legendary Fish Submarine Increase by 75%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Submarine", "Fish" ],
+			"Fields": { 
+				"MNF.MoreNewFish_vampire_squid": {"CuriosityLureBuff": 0.75},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 75%"},
+	    },
+		{
+			"LogName": "MNF - Curious Legendary Fish Woods Increase by 75%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Woods", "Fish" ],
+			"Fields": { 
+				"MNF.MoreNewFish_tui": {"CuriosityLureBuff": 0.75},
+				"MNF.MoreNewFish_la": {"CuriosityLureBuff": 0.75},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 75%"},
+	    },
+		{
+			"LogName": "MNF - Curious Legendary Fish Island South East Increase by 75%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "IslandSouthEast", "Fish" ],
+			"Fields": { 
+				"MNF.MoreNewFish_great_firefly_squid": {"CuriosityLureBuff": 0.75},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 75%"},
+	    },
+		{
+			"LogName": "MNF - Curious Legendary Fish Caldera Increase by 80%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Caldera", "Fish" ],
+			"Fields": { 
+				"MNF.MoreNewFish_mushu": {"CuriosityLureBuff": 0.80},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 80%"},
+	    },
+		{
+			"LogName": "MNF - Curious Legendary Fish Default Increase by 80%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Default", "Fish" ],
+			"Fields": { 
+				"MNF.MoreNewFish_shinidamachu": {"CuriosityLureBuff": 0.80},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 80%"},
+	    },
+		{
+			"LogName": "MNF - Curious Legendary Fish Bug Land Increase by 80%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "BugLand", "Fish" ],
+			"Fields": { 
+				"MNF.MoreNewFish_vampire_fish": {"CuriosityLureBuff": 0.80},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 80%"},
+	    },
+		{
+			"LogName": "MNF - Curious Legendary Fish Forest Increase by 80%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Forest", "Fish" ],
+			"Fields": { 
+				"MNF.MoreNewFish_iridiumfish": {"CuriosityLureBuff": 0.80},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 80%"},
+	    },
+		{
+			"LogName": "MNF - Curious Legendary Fish Submarine Increase by 80%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Submarine", "Fish" ],
+			"Fields": { 
+				"MNF.MoreNewFish_vampire_squid": {"CuriosityLureBuff": 0.80},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 80%"},
+	    },
+		{
+			"LogName": "MNF - Curious Legendary Fish Woods Increase by 80%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Woods", "Fish" ],
+			"Fields": { 
+				"MNF.MoreNewFish_tui": {"CuriosityLureBuff": 0.80},
+				"MNF.MoreNewFish_la": {"CuriosityLureBuff": 0.80},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 80%"},
+	    },
+		{
+			"LogName": "MNF - Curious Legendary Fish Island South East Increase by 80%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "IslandSouthEast", "Fish" ],
+			"Fields": { 
+				"MNF.MoreNewFish_great_firefly_squid": {"CuriosityLureBuff": 0.80},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 80%"},
+	    },
+		{
+			"LogName": "MNF - Curious Legendary Fish Caldera Increase by 85%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Caldera", "Fish" ],
+			"Fields": { 
+				"MNF.MoreNewFish_mushu": {"CuriosityLureBuff": 0.85},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 85%"},
+	    },
+		{
+			"LogName": "MNF - Curious Legendary Fish Default Increase by 85%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Default", "Fish" ],
+			"Fields": { 
+				"MNF.MoreNewFish_shinidamachu": {"CuriosityLureBuff": 0.85},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 85%"},
+	    },
+		{
+			"LogName": "MNF - Curious Legendary Fish Bug Land Increase by 85%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "BugLand", "Fish" ],
+			"Fields": { 
+				"MNF.MoreNewFish_vampire_fish": {"CuriosityLureBuff": 0.85},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 85%"},
+	    },
+		{
+			"LogName": "MNF - Curious Legendary Fish Forest Increase by 85%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Forest", "Fish" ],
+			"Fields": { 
+				"MNF.MoreNewFish_iridiumfish": {"CuriosityLureBuff": 0.85},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 85%"},
+	    },
+		{
+			"LogName": "MNF - Curious Legendary Fish Submarine Increase by 85%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Submarine", "Fish" ],
+			"Fields": { 
+				"MNF.MoreNewFish_vampire_squid": {"CuriosityLureBuff": 0.85},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 85%"},
+	    },
+		{
+			"LogName": "MNF - Curious Legendary Fish Woods Increase by 85%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Woods", "Fish" ],
+			"Fields": { 
+				"MNF.MoreNewFish_tui": {"CuriosityLureBuff": 0.85},
+				"MNF.MoreNewFish_la": {"CuriosityLureBuff": 0.85},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 85%"},
+	    },
+		{
+			"LogName": "MNF - Curious Legendary Fish Island South East Increase by 85%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "IslandSouthEast", "Fish" ],
+			"Fields": { 
+				"MNF.MoreNewFish_great_firefly_squid": {"CuriosityLureBuff": 0.85},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 85%"},
+	    },
+		{
+			"LogName": "MNF - Curious Legendary Fish Caldera Increase by 90%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Caldera", "Fish" ],
+			"Fields": { 
+				"MNF.MoreNewFish_mushu": {"CuriosityLureBuff": 0.90},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 90%"},
+	    },
+		{
+			"LogName": "MNF - Curious Legendary Fish Default Increase by 90%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Default", "Fish" ],
+			"Fields": { 
+				"MNF.MoreNewFish_shinidamachu": {"CuriosityLureBuff": 0.90},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 90%"},
+	    },
+		{
+			"LogName": "MNF - Curious Legendary Fish Bug Land Increase by 90%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "BugLand", "Fish" ],
+			"Fields": { 
+				"MNF.MoreNewFish_vampire_fish": {"CuriosityLureBuff": 0.90},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 90%"},
+	    },
+		{
+			"LogName": "MNF - Curious Legendary Fish Forest Increase by 90%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Forest", "Fish" ],
+			"Fields": { 
+				"MNF.MoreNewFish_iridiumfish": {"CuriosityLureBuff": 0.90},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 90%"},
+	    },
+		{
+			"LogName": "MNF - Curious Legendary Fish Submarine Increase by 90%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Submarine", "Fish" ],
+			"Fields": { 
+				"MNF.MoreNewFish_vampire_squid": {"CuriosityLureBuff": 0.90},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 90%"},
+	    },
+		{
+			"LogName": "MNF - Curious Legendary Fish Woods Increase by 90%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Woods", "Fish" ],
+			"Fields": { 
+				"MNF.MoreNewFish_tui": {"CuriosityLureBuff": 0.90},
+				"MNF.MoreNewFish_la": {"CuriosityLureBuff": 0.90},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 90%"},
+	    },
+		{
+			"LogName": "MNF - Curious Legendary Fish Island South East Increase by 90%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "IslandSouthEast", "Fish" ],
+			"Fields": { 
+				"MNF.MoreNewFish_great_firefly_squid": {"CuriosityLureBuff": 0.90},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 90%"},
+	    },
+		{
+			"LogName": "MNF - Curious Legendary Fish Caldera Increase by 95%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Caldera", "Fish" ],
+			"Fields": { 
+				"MNF.MoreNewFish_mushu": {"CuriosityLureBuff": 0.95},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 95%"},
+	    },
+		{
+			"LogName": "MNF - Curious Legendary Fish Default Increase by 95%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Default", "Fish" ],
+			"Fields": { 
+				"MNF.MoreNewFish_shinidamachu": {"CuriosityLureBuff": 0.95},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 95%"},
+	    },
+		{
+			"LogName": "MNF - Curious Legendary Fish Bug Land Increase by 95%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "BugLand", "Fish" ],
+			"Fields": { 
+				"MNF.MoreNewFish_vampire_fish": {"CuriosityLureBuff": 0.95},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 95%"},
+	    },
+		{
+			"LogName": "MNF - Curious Legendary Fish Forest Increase by 95%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Forest", "Fish" ],
+			"Fields": { 
+				"MNF.MoreNewFish_iridiumfish": {"CuriosityLureBuff": 0.95},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 95%"},
+	    },
+		{
+			"LogName": "MNF - Curious Legendary Fish Submarine Increase by 95%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Submarine", "Fish" ],
+			"Fields": { 
+				"MNF.MoreNewFish_vampire_squid": {"CuriosityLureBuff": 0.95},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 95%"},
+	    },
+		{
+			"LogName": "MNF - Curious Legendary Fish Woods Increase by 95%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Woods", "Fish" ],
+			"Fields": { 
+				"MNF.MoreNewFish_tui": {"CuriosityLureBuff": 0.95},
+				"MNF.MoreNewFish_la": {"CuriosityLureBuff": 0.95},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 95%"},
+	    },
+		{
+			"LogName": "MNF - Curious Legendary Fish Island South East Increase by 95%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "IslandSouthEast", "Fish" ],
+			"Fields": { 
+				"MNF.MoreNewFish_great_firefly_squid": {"CuriosityLureBuff": 0.95},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 95%"},
+	    },
+		{
+			"LogName": "MNF - Curious Legendary Fish Caldera Increase by 100%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Caldera", "Fish" ],
+			"Fields": { 
+				"MNF.MoreNewFish_mushu": {"CuriosityLureBuff": 1.0},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 100%"},
+	    },
+		{
+			"LogName": "MNF - Curious Legendary Fish Default Increase by 100%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Default", "Fish" ],
+			"Fields": { 
+				"MNF.MoreNewFish_shinidamachu": {"CuriosityLureBuff": 1.0},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 100%"},
+	    },
+		{
+			"LogName": "MNF - Curious Legendary Fish Bug Land Increase by 100%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "BugLand", "Fish" ],
+			"Fields": { 
+				"MNF.MoreNewFish_vampire_fish": {"CuriosityLureBuff": 1.0},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 100%"},
+	    },
+		{
+			"LogName": "MNF - Curious Legendary Fish Forest Increase by 100%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Forest", "Fish" ],
+			"Fields": { 
+				"MNF.MoreNewFish_iridiumfish": {"CuriosityLureBuff": 1.0},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 100%"},
+	    },
+		{
+			"LogName": "MNF - Curious Legendary Fish Submarine Increase by 100%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Submarine", "Fish" ],
+			"Fields": { 
+				"MNF.MoreNewFish_vampire_squid": {"CuriosityLureBuff": 1.0},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 100%"},
+	    },
+		{
+			"LogName": "MNF - Curious Legendary Fish Woods Increase by 100%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Woods", "Fish" ],
+			"Fields": { 
+				"MNF.MoreNewFish_tui": {"CuriosityLureBuff": 1.0},
+				"MNF.MoreNewFish_la": {"CuriosityLureBuff": 1.0},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 100%"},
+	    },
+		{
+			"LogName": "MNF - Curious Legendary Fish Island South East Increase by 100%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "IslandSouthEast", "Fish" ],
+			"Fields": { 
+				"MNF.MoreNewFish_great_firefly_squid": {"CuriosityLureBuff": 1.0},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 100%"},
+	    },
+	]
+}

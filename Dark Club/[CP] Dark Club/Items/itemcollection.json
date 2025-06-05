@@ -1,0 +1,28 @@
+{
+	"Changes": [
+		//Dark Club Items
+		{
+			"LogName": "Load Items",
+			"Action": "Include",
+			"FromFile": "Items/items.json",
+		},
+		// Dark Club Boots
+		{
+			"LogName": "Load Boots",
+			"Action": "Include",
+			"FromFile": "Items/boots.json",
+		},
+		// Dark Club Weapons
+		{
+			"LogName": "Load Weapons",
+			"Action": "Include",
+			"FromFile": "Items/weapons.json",
+		},
+		// Dark Club Rings
+		{
+			"LogName": "Load Rings",
+			"Action": "Include",
+			"FromFile": "Items/rings.json",
+		},
+	]
+}

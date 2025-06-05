@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="6" height="9" tilewidth="16" tileheight="16" infinite="0" nextlayerid="12" nextobjectid="93">
+ <tileset firstgid="1" name="p" tilewidth="16" tileheight="16" tilecount="64" columns="4">
+  <image source="paths.png" width="64" height="256"/>
+ </tileset>
+ <tileset firstgid="65" name="z_A5_SpouseBaths_Twi" tilewidth="16" tileheight="16" tilecount="126" columns="18">
+  <image source="A5_SpouseBaths_Twi.png" width="288" height="112"/>
+ </tileset>
+ <layer id="1" name="Back" width="6" height="9">
+  <data encoding="csv">
+82,78,79,80,81,82,
+100,96,97,98,99,100,
+118,117,118,117,118,117,
+90,91,90,91,90,91,
+72,108,109,110,111,73,
+90,126,127,132,133,91,
+72,126,132,112,113,73,
+90,114,115,116,131,91,
+72,73,72,73,72,73
+</data>
+ </layer>
+ <layer id="2" name="Buildings" width="6" height="9">
+  <data encoding="csv">
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+118,117,118,117,118,117,
+0,0,0,0,0,0,
+0,108,0,0,111,0,
+0,126,0,0,133,0,
+0,126,0,0,113,0,
+0,114,115,116,131,0,
+0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="4" name="Front" width="6" height="9">
+  <data encoding="csv">
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+125,0,0,128,129,130,
+143,144,145,146,147,148,
+161,162,163,164,165,166,
+179,180,181,182,183,184,
+0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="5" name="Back">
+  <object id="40" name="TileData" x="0" y="48" width="16" height="16">
+   <properties>
+    <property name="TouchAction" value="ChangeOutOfSwimsuit"/>
+   </properties>
+  </object>
+  <object id="41" name="TileData" x="16" y="48" width="16" height="16">
+   <properties>
+    <property name="TouchAction" value="ChangeIntoSwimsuit"/>
+   </properties>
+  </object>
+  <object id="42" name="TileData" x="32" y="64" width="16" height="16">
+   <properties>
+    <property name="NPCBarrier" value="t"/>
+    <property name="TouchAction" value="PoolEntrance"/>
+   </properties>
+  </object>
+  <object id="52" name="TileData" x="80" y="48" width="16" height="16">
+   <properties>
+    <property name="TouchAction" value="ChangeOutOfSwimsuit"/>
+   </properties>
+  </object>
+  <object id="53" name="TileData" x="64" y="48" width="16" height="16">
+   <properties>
+    <property name="TouchAction" value="ChangeIntoSwimsuit"/>
+   </properties>
+  </object>
+  <object id="55" name="TileData" x="48" y="64" width="16" height="16">
+   <properties>
+    <property name="NPCBarrier" value="t"/>
+    <property name="TouchAction" value="PoolEntrance"/>
+   </properties>
+  </object>
+  <object id="66" name="TileData" x="32" y="48" width="16" height="16">
+   <properties>
+    <property name="TouchAction" value="PoolExit"/>
+   </properties>
+  </object>
+  <object id="67" name="TileData" x="48" y="48" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="t"/>
+    <property name="TouchAction" value="PoolExit"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="6" name="Buildings"/>
+ <objectgroup id="8" name="Front"/>
+</map>

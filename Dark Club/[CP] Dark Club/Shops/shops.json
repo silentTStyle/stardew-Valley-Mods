@@ -1,0 +1,28 @@
+{
+    "Changes": [
+		// Add Liliths Shop
+		{
+			"LogName": "Load LilithShop",
+			"Action": "Include",
+			"FromFile": "Shops/lilithShop.json",
+		},
+		// Add Love Doll Maker
+		{
+			"LogName": "Load LoveDollMaker",
+			"Action": "Include",
+			"FromFile": "Shops/loveDollMaker.json",
+		},
+		// Add Meat Furniture Maker
+		{
+			"LogName": "Load MeatFurnitureMaker",
+			"Action": "Include",
+			"FromFile": "Shops/furnitureMaker.json",
+		},
+		// Add Sellas Shop
+		{
+			"LogName": "Load SellaShop",
+			"Action": "Include",
+			"FromFile": "Shops/sellaShop.json",
+		},
+    ]
+}

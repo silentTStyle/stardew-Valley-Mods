@@ -1,0 +1,84 @@
+{
+	"Changes": [
+		{
+			"LogName": "Fishing Shop Seafoam P Price Level 9 4000g",
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "FishShop", "Items" ],
+			"Fields": {
+			    "(O)265": {"Price": 4000},
+					   },
+			"When": {"Fish Shop Seafoam P Price": "4000g", "Fish Shop Seafoam Pudding": "Immediately, Fishing Level 9"},
+		},
+        {
+			"LogName": "Fishing Shop Seafoam P Price Level 9 3000g",
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "FishShop", "Items" ],
+			"Fields": {
+			    "(O)265": {"Price": 3000},
+					   },
+			"When": {"Fish Shop Seafoam P Price": "3000g", "Fish Shop Seafoam Pudding": "Immediately, Fishing Level 9"},
+		},
+		{
+			"LogName": "Fishing Shop Seafoam P Price Level 9 2000g",
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "FishShop", "Items" ],
+			"Fields": {
+			    "(O)265": {"Price": 2000},
+					   },
+			"When": {"Fish Shop Seafoam P Price": "2000g", "Fish Shop Seafoam Pudding": "Immediately, Fishing Level 9"},
+		},
+		{
+			"LogName": "Fishing Shop Seafoam P Price Level 9 1000g",
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "FishShop", "Items" ],
+			"Fields": {
+			    "(O)265": {"Price": 1000},
+					   },
+			"When": {"Fish Shop Seafoam P Price": "1000g", "Fish Shop Seafoam Pudding": "Immediately, Fishing Level 9"},
+		},
+		{
+			"LogName": "Fishing Shop Seafoam P Price Level 9 750g",
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "FishShop", "Items" ],
+			"Fields": {
+			    "(O)265": {"Price": 750},
+					   },
+			"When": {"Fish Shop Seafoam P Price": "750g", "Fish Shop Seafoam Pudding": "Immediately, Fishing Level 9"},
+		},
+		{
+			"LogName": "Fishing Shop Seafoam P Price Level 9 500g",
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "FishShop", "Items" ],
+			"Fields": {
+			    "(O)265": {"Price": 500},
+					   },
+			"When": {"Fish Shop Seafoam P Price": "500g", "Fish Shop Seafoam Pudding": "Immediately, Fishing Level 9"},
+		},
+		{
+			"LogName": "Fishing Shop Seafoam P Price Level 9 250g",
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "FishShop", "Items" ],
+			"Fields": {
+			    "(O)265": {"Price": 250},
+					   },
+			"When": {"Fish Shop Seafoam P Price": "250g", "Fish Shop Seafoam Pudding": "Immediately, Fishing Level 9"},
+		},
+		{
+			"LogName": "Fishing Shop Seafoam P Price Level 9 1g",
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "FishShop", "Items" ],
+			"Fields": {
+			    "(O)265": {"Price": 1},
+					   },
+			"When": {"Fish Shop Seafoam P Price": "1g", "Fish Shop Seafoam Pudding": "Immediately, Fishing Level 9"},
+		},
+	]
+}

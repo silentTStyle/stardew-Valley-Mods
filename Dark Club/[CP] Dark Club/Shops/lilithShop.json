@@ -1,0 +1,244 @@
+{
+	"Changes": [
+		{
+			"Action": "Load",
+			"Target": "Mods/{{ModId}}/Portraits/LilithShop",
+			"FromFile": "Shops/assets/LilithShop.png",
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"Entries": {
+				"LilithShop": {
+					"Owners": [
+						{
+							"Condition": "TIME 0600 0830",
+							"Dialogues": null,
+							"ClosedMessage": "{{i18n:Shop.Lilith.ClosedMessage}}",
+							"Id": "TooEarly",
+							"Name": "AnyOrNone",
+							"Type": "AnyOrNone"
+						},
+						{
+							"Portrait": "Mods/{{ModId}}/Portraits/LilithShop",
+							"Dialogues": [
+								{
+									"Id": "LilithShop.openMessage",
+									"Dialogue": "{{i18n:Shop.Lilith.WelcomeMessage}}",
+								}
+							],
+							"Id": "Lilith",
+							"Name": "Lilith",
+							"Type": "NamedNpc"
+						},
+					],
+
+					"Items": [
+						{
+							"Id": "Beer",
+							"ItemId": "(O)346",
+							"Price": 500,
+						},
+						{
+							"Id": "Mead",
+							"ItemId": "(O)459",
+							"Price": 800,
+						},
+						{
+							"Id": "Pale Ale",
+							"ItemId": "(O)303",
+							"Price": 1000,
+						},
+						{
+							"Id": "Wine",
+							"ItemId": "(O)348",
+							"Price": 1500,
+						},
+						{
+							"Id": "Oil",
+							"ItemId": "(O)247",
+							"Price": 200,
+						},
+						{
+							"Id": "Love Potion",
+							"ItemId": "(O)LovePotion",
+							"Price": 3000,
+						},
+						{
+							"Id": "Magic Mushroom",
+							"ItemId": "(O)MagicMushroom",
+							"Price": 3000,
+						},
+						{
+							"Id": "Cannabis Oil",
+							"ItemId": "(O)CannabisOil",
+							"Price": 3000,
+						},
+						{
+							"Id": "Heroin",
+							"ItemId": "(O)Heroin",
+							"Price": 3000,
+						},
+						{
+							"Id": "Cannabis Seeds",
+							"ItemId": "(O)CannabisSeeds",
+							"Price": 200,
+						},
+						{
+							"Id": "Opium Seeds",
+							"ItemId": "(O)OpiumSeeds",
+							"Price": 200,
+						},
+						{
+							"Id": "Tits Apple Sapling",
+							"ItemId": "(O)TitsAppleSapling",
+							"Price": 5000,
+						},
+						{
+							"Id": "Dick Banana Sapling",
+							"ItemId": "(O)DickBananaSapling",
+							"Price": 5000,
+						},
+						{
+							"Id": "Butt Peach Sapling",
+							"ItemId": "(O)ButtPeachSapling",
+							"Price": 5000,
+						},
+						{
+							"Id": "Nuts Cherry Sapling",
+							"ItemId": "(O)NutsCherrySapling",
+							"Price": 5000,
+						},
+						{
+							"Id": "Anal Beads",
+							"ItemId": "(W)simezi21.Dark_Club_JA_Anal_Beads",
+							"Price": 3000,
+						},
+						{
+							"Id": "Dildo",
+							"ItemId": "(W)simezi21.Dark_Club_JA_Dildo",
+							"Price": 3000,
+						},
+						{
+							"Id": "Massager",
+							"ItemId": "(W)simezi21.Dark_Club_JA_Massager",
+							"Price": 3000,
+						},
+						{
+							"Id": "Pink Rotor",
+							"ItemId": "(B)simezi21.Dark_Club_JA_Pink_Rotor",
+							"Price": 3000,
+						},
+						{
+							"Id": "Butt Plug",
+							"ItemId": "(B)simezi21.Dark_Club_JA_Butt_Plug",
+							"Price": 3000,
+						},
+						{
+							"Id": "Vibrator",
+							"ItemId": "(B)simezi21.Dark_Club_JA_Vibrator",
+							"Price": 3000,
+						},
+						{
+							"Id": "Genital Piercing",
+							"ItemId": "(O)Dark_Club_CC_simezi21.Rings.GenitalPiercing",
+							"Price": 1000,
+						},
+						{
+							"Id": "Tentacle Ring",
+							"ItemId": "(O)Dark_Club_CC_simezi21.Rings.TentacleRing",
+							"Price": 1000,
+						},
+						{
+							"Id": "Slave Master Ring",
+							"ItemId": "(O)Dark_Club_CC_simezi21.Rings.SlaveMasterRing",
+							"Price": 1000,
+						},
+						{
+							"Id": "Milking Machine A Recipe",
+							"ItemId": "Milking_Machine_A",
+							"Price": 500,
+							"IsRecipe": true,
+						},
+						{
+							"Id": "Milking Machine B Recipe",
+							"ItemId": "(BC)Milking_Machine_B",
+							"Price": 500,
+							"IsRecipe": true,
+						},
+						{
+							"Id": "Semen Milking Machine A Recipe",
+							"ItemId": "Semen_Milking_Machine_A",
+							"Price": 500,
+							"IsRecipe": true,
+						},
+						{
+							"Id": "Semen Milking Machine B Recipe",
+							"ItemId": "Semen_Milking_Machine_B",
+							"Price": 500,
+							"IsRecipe": true,
+						},
+						{
+							"Id": "Feed Maker Recipe",
+							"ItemId": "Feed_Maker",
+							"Price": 1500,
+							"IsRecipe": true,
+						},
+						{
+							"Id": "Fertilizer Maker Recipe",
+							"ItemId": "Fertilizer_Maker",
+							"Price": 1500,
+							"IsRecipe": true,
+						},
+						{
+							"Id": "Tree Fertilizer Maker Recipe",
+							"ItemId": "Tree_Fertilizer_Maker",
+							"Price": 1500,
+							"IsRecipe": true,
+						},
+						{
+							"Id": "Speed-Gro Maker Recipe",
+							"ItemId": "Speed_Gro_Maker",
+							"Price": 1500,
+							"IsRecipe": true,
+						},
+						{
+							"Id": "Milk Concentrator Recipe",
+							"ItemId": "Milk_Concentrator",
+							"Price": 3000,
+							"IsRecipe": true,
+						},
+						{
+							"Id": "Semen Concentrator Recipe",
+							"ItemId": "Semen_Concentrator",
+							"Price": 3000,
+							"IsRecipe": true,
+						},
+						{
+							"Id": "Gem Maker Recipe",
+							"ItemId": "Gem_Maker",
+							"Price": 5000,
+							"IsRecipe": true,
+						},
+						{
+							"Id": "Slime Regenerator Recipe",
+							"ItemId": "Slime_Regenerator",
+							"Price": 5000,
+							"IsRecipe": true,
+						},
+						{
+							"Id": "Love Potion Recipe",
+							"ItemId": "LovePotion",
+							"Price": 5000,
+							"IsRecipe": true,
+							"AvailableStock": 1,
+							"AvailableStockLimit": "Player"
+						},						
+					],
+					
+					"SalableItemTags": ["ero_milk", "ero_fruit", "hallucinogen", "large_ero_milk", "soul",],
+				}
+			}
+		},
+	]
+}

@@ -1,0 +1,85 @@
+{
+  "Changes": [
+    // Change NPC Schedules - Portraits ------------------------------------------------------------
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Pam",
+      "FromFile": "Characters/Pam/assets/Portraits/Pam_Lewd.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 128 },
+      "ToArea": { "X": 0, "Y": 640, "Width": 128, "Height": 128 },
+      "When": { 
+		"Change NPC Schedules": "true", 
+		"Hypnosis": "false",
+		"Pam": "true",
+	  }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Pam",
+      "FromFile": "Characters/Pam/assets/Portraits/Pam_Lewd_Hypnosis.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 128 },
+      "ToArea": { "X": 0, "Y": 640, "Width": 128, "Height": 128 },
+      "When": {
+		"Change NPC Schedules": "true",
+		"Hypnosis": "true",
+		"Pam": "true",
+	  }
+    },
+	{
+      "Action": "EditImage",
+      "Target": "Portraits/Pam_Winter",
+      "FromFile": "Characters/Pam/assets/Portraits/Pam_Lewd.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 128 },
+      "ToArea": { "X": 0, "Y": 640, "Width": 128, "Height": 128 },
+      "When": { 
+		"Change NPC Schedules": "true", 
+		"Hypnosis": "false",
+		"Pam": "true",
+	  }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Pam_Winter",
+      "FromFile": "Characters/Pam/assets/Portraits/Pam_Lewd_Hypnosis.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 128 },
+      "ToArea": { "X": 0, "Y": 640, "Width": 128, "Height": 128 },
+      "When": {
+		"Change NPC Schedules": "true",
+		"Hypnosis": "true",
+		"Pam": "true",
+	  }
+    },
+    // Change NPC Schedules - schedules ------------------------------------------------------------
+    {
+      "Action": "EditData",
+      "Target": "Characters/schedules/Pam",
+      "Entries": {
+        "rain": "800 Trailer 15 4 2 pam_onanie/1200 JojaMart 6 19 1/1600 Saloon 7 18 1/2400 Trailer 15 4 2 pam_sleep",
+        "rain2": "800 Trailer 15 4 2 pam_onanie/1200 JojaMart 6 19 1/1600 Custom_DarkClub 6 24 0/2000 Custom_DarkClub 6 24 2 pam_dildo",
+        "bus": "800 Trailer 15 4 2 pam_onanie/830 BusStop 21 10 2 pam_onanie/1700 Saloon 7 18 1/2400 Trailer 15 4 2 pam_sleep",
+        "spring": "800 Trailer 15 4 2 pam_onanie/1200 JojaMart 6 19 1/1600 Saloon 7 18 1/2400 Trailer 15 4 2 pam_sleep"
+      },
+      "When": { "Change NPC Schedules": "true" }
+    },
+    // Change NPC Schedules - animationDescriptions ------------------------------------------------
+    {
+      "Action": "EditData",
+      "Target": "Data/animationDescriptions",
+      "Entries": {
+        "pam_onanie": "101/101/101/Strings\\animationDescriptions:pam_onanie",
+        "pam_dildo": "102/102/102/Strings\\animationDescriptions:pam_dildo",
+      },
+      "When": { "Change NPC Schedules": "true" }
+    },
+    // Change NPC Schedules - animationDescriptions Dialogue ---------------------------------------
+    {
+      "Action": "EditData",
+      "Target": "Strings/animationDescriptions",
+      "Entries": {
+        "pam_onanie": "{{i18n:NPC.Pam.Fuck}}",
+        "pam_dildo": "{{i18n:NPC.Pam.Fuck}}",
+      },
+      "When": { "Change NPC Schedules": "true" }
+    },
+  ]
+}

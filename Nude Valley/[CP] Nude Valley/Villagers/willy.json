@@ -1,0 +1,65 @@
+{
+  "Changes": [
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Willy",
+      "FromFile": "assets/Characters/Willy.png",
+      "When": { "Futanari": "false" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Willy",
+      "FromFile": "assets/Characters/Willy_Futanari.png",
+      "When": { "Futanari": "true" }
+    },
+	{
+      "Action": "EditImage",
+      "Target": "Characters/Willy_Winter",
+      "FromFile": "assets/Characters/Willy.png",
+      "When": { "Futanari": "false" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Willy_Winter",
+      "FromFile": "assets/Characters/Willy_Futanari.png",
+      "When": { "Futanari": "true" }
+    },
+	// Portraits -----------------------------------------------------------------------------------
+	{
+      "Action": "EditImage",
+      "Target": "Portraits/Willy",
+      "FromFile": "assets/Portraits/Willy.png",
+      "When": { 
+		"Hypnosis": "false",
+		"Willy": "On",
+	  }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Willy",
+      "FromFile": "assets/Portraits/Willy_Hypnosis.png",
+      "When": { 
+		"Hypnosis": "true",
+		"Willy": "On",
+	  }
+    },
+	{
+      "Action": "EditImage",
+      "Target": "Portraits/Willy_Winter",
+      "FromFile": "assets/Portraits/Willy.png",
+      "When": { 
+		"Hypnosis": "false",
+		"Willy": "On",
+	  }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Willy_Winter",
+      "FromFile": "assets/Portraits/Willy_Hypnosis.png",
+      "When": { 
+		"Hypnosis": "true",
+		"Willy": "On",
+	  }
+    },
+  ]
+}

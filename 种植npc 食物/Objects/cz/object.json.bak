@@ -1,0 +1,66 @@
+{
+    "Name": "Disinfected shorts ",
+    "Description": ".After high temperature disinfection of shorts, please rest assured that the use of ",
+    "Category": "Cooking",
+    "Edibility": -1,
+  	"EdibleIsFood": true,
+	"EdibleBuffs": {
+	"Farming": 0,
+	"Fishing": 0,
+	"Mining": 0,
+	"Luck": 4,
+	"Foraging": 0,
+	"MaxStamina": 0,
+	"MagnetRadius": 0,
+	"Speed": -1,
+	"Defense": 0,
+	"Attack": 0,
+	"Duration": 100,
+	},
+    "Price": 240,
+    "IsColored": false,
+    "Recipe":
+    {
+        "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": 789,
+            "Count": 1,
+        },
+        ],
+        "IsDefault": true,
+    },
+    "GiftTastes":
+    {
+        "Like": ["Sebastian", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Haley", "Jas", "Jodi", "Kent", "Harvey", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Vincent", "Wizard", "Krobus", "Leah", "Willy"],
+        "Dislike": ["Lewis",],
+    },
+    "NameLocalization":
+    {
+        // "es": "",
+        // "ko": "",
+       // "de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        // "ja": "",
+        // "pt": "",
+        // "ru": "",
+        // "tr": "",
+        "zh": "高温消毒的短裤",
+    },
+    "DescriptionLocalization":
+    {
+        // "es": "",
+        // "ko": "",
+       // "de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        // "ja": "",
+        // "pt": "",
+        // "ru": "",
+        // "tr": "",
+        "zh": "经过高温消毒的短裤，请放心食用",
+    },
+}

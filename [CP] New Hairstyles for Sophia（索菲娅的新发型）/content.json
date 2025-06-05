@@ -1,0 +1,138 @@
+{
+    "Format": "2.2.0",
+	
+    "ConfigSchema": {
+		
+		"Longer Hair": {
+		"Description": "Longer hair, down to the shoulders",
+		"AllowValues": "true, false",
+		 "Default": "true",
+		},
+		"Hairpin": {
+		"Description": "She stuck a small star in her hair",
+		"AllowValues": "true, false",
+		 "Default": "true",
+		},
+		"Little Star": {
+		"Description": "To keep her hair in place, she used a hair clip",
+		"AllowValues": "true, false",
+		 "Default": "true",
+		},
+		"Seasonal Portraits": {
+		"Description": "Made for Seasonal Cute Characters SVE Users",
+		"AllowValues": "true, false",
+		 "Default": "false",
+		},
+	},
+	
+    "Changes": [
+	{	
+		"Action": "EditImage",
+		"Target": "Portraits/Sophia_Spring, Portraits/Sophia_Summer, Portraits/Sophia_Fall, Portraits/Sophia_Winter_Outdoor, Portraits/Sophia_Winter_Indoor, Portraits/Sophia_FlowerDance, Portraits/Sophia_Beach",
+        "FromFile": "assets/LongHair.png",
+        "PatchMode": "Overlay",
+	    "When": { "Seasonal Portraits": true },
+	    "When": { "Longer Hair": true },
+	},
+	{	
+		"Action": "EditImage",
+		"Target": "Portraits/Sophia_Spring, Portraits/Sophia_Summer, Portraits/Sophia_Fall, Portraits/Sophia_Winter_Outdoor, Portraits/Sophia_Winter_Indoor, Portraits/Sophia_FlowerDance, Portraits/Sophia_Beach",
+        "FromFile": "assets/Hairpin.png",
+        "PatchMode": "Overlay",
+	    "When": { "Seasonal Portraits": true },
+	    "When": { "Hairpin": true },
+	},
+	{	
+		"Action": "EditImage",
+		"Target": "Portraits/Sophia_Spring, Portraits/Sophia_Summer, Portraits/Sophia_Fall, Portraits/Sophia_Winter_Outdoor, Portraits/Sophia_Winter_Indoor, Portraits/Sophia_FlowerDance, Portraits/Sophia_Beach",
+        "FromFile": "assets/Star.png",
+        "PatchMode": "Overlay",
+	    "When": { "Seasonal Portraits": true },
+	    "When": { "Little Star": true },
+	},
+	{
+	    "Action": "EditImage",
+        "Target": "Portraits/Sophia",
+	    "When": { "Longer Hair": true },
+	    "PatchMode":"Overlay",
+        "FromFile": "assets/LongHair.png",
+	},
+	{
+	    "Action": "EditImage",
+        "Target": "Portraits/Sophia_Winter",
+	    "When": { "Longer Hair": true },
+	    "PatchMode":"Overlay",
+        "FromFile": "assets/LongHair.png",
+	},
+	{
+	    "Action": "EditImage",
+        "Target": "Portraits/Sophia_Makeup",
+	    "When": { "Longer Hair": true },
+	    "PatchMode":"Overlay",
+        "FromFile": "assets/LongHair.png",
+	},
+	{
+	    "Action": "EditImage",
+        "Target": "Portraits/Sophia_Winter_Makeup",
+	    "When": { "Longer Hair": true },
+	    "PatchMode":"Overlay",
+        "FromFile": "assets/LongHair.png",
+	},
+	{
+	    "Action": "EditImage",
+        "Target": "Portraits/Sophia",
+	    "When": { "Hairpin": true },
+	    "PatchMode":"Overlay",
+        "FromFile": "assets/Hairpin.png",
+	},
+	{
+	    "Action": "EditImage",
+        "Target": "Portraits/Sophia_Winter",
+	    "When": { "Hairpin": true },
+	    "PatchMode":"Overlay",
+        "FromFile": "assets/Hairpin.png",
+	},
+	{
+	    "Action": "EditImage",
+        "Target": "Portraits/Sophia_Makeup",
+	    "When": { "Hairpin": true },
+	    "PatchMode":"Overlay",
+        "FromFile": "assets/Hairpin.png",
+	},
+	{
+	    "Action": "EditImage",
+        "Target": "Portraits/Sophia_Winter_Makeup",
+	    "When": { "Hairpin": true },
+	    "PatchMode":"Overlay",
+        "FromFile": "assets/Hairpin.png",
+	},
+	{
+	    "Action": "EditImage",
+        "Target": "Portraits/Sophia",
+	    "When": { "Little Star": true },
+	    "PatchMode":"Overlay",
+        "FromFile": "assets/Star.png",
+	},
+	{
+	    "Action": "EditImage",
+        "Target": "Portraits/Sophia_Winter",
+	    "When": { "Little Star": true },
+	    "PatchMode":"Overlay",
+        "FromFile": "assets/Star.png",
+	},
+	{
+	    "Action": "EditImage",
+        "Target": "Portraits/Sophia_Makeup",
+	    "When": { "Little Star": true },
+	    "PatchMode":"Overlay",
+        "FromFile": "assets/Star.png",
+	},
+	{
+	    "Action": "EditImage",
+        "Target": "Portraits/Sophia_Winter_Makeup",
+	    "When": { "Little Star": true },
+	    "PatchMode":"Overlay",
+        "FromFile": "assets/Star.png",
+	},
+    ]
+}

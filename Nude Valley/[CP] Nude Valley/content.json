@@ -1,0 +1,406 @@
+{
+  "Format": "2.0.0",
+  "ConfigSchema": {
+    "Glasses": {
+      "AllowValues": "true, false",
+      "Default": true,
+	  "Section": "General",
+    },
+    "Hypnosis": {
+      "AllowValues": "true, false",
+      "Default": false,
+	  "Section": "General",
+    },
+    "Futanari": {
+      "AllowValues": "true, false",
+      "Default": false,
+	  "Section": "General",
+    },
+	"Abigail": {
+		"AllowValues": "On, SpriteOnly, Off",
+		"Default": "On",
+		"Section": "Villagers",
+	},
+	"Alex": {
+		"AllowValues": "On, SpriteOnly, Off",
+		"Default": "On",
+		"Section": "Villagers",
+	},
+	"Caroline": {
+		"AllowValues": "On, SpriteOnly, Off",
+		"Default": "On",
+		"Section": "Villagers",
+	},
+	"Clint": {
+		"AllowValues": "On, SpriteOnly, Off",
+		"Default": "On",
+		"Section": "Villagers",
+	},
+	"Demetrius": {
+		"AllowValues": "On, SpriteOnly, Off",
+		"Default": "On",
+		"Section": "Villagers",
+	},
+	"Elliott": {
+		"AllowValues": "On, SpriteOnly, Off",
+		"Default": "On",
+		"Section": "Villagers",
+	},
+	"Emily": {
+		"AllowValues": "On, SpriteOnly, Off",
+		"Default": "On",
+		"Section": "Villagers",
+	},
+	"Evelyn": {
+		"AllowValues": "On, SpriteOnly, Off",
+		"Default": "On",
+		"Section": "Villagers",
+	},
+	"George": {
+		"AllowValues": "On, SpriteOnly, Off",
+		"Default": "On",
+		"Section": "Villagers",
+	},
+	"Gus": {
+		"AllowValues": "On, SpriteOnly, Off",
+		"Default": "On",
+		"Section": "Villagers",
+	},
+	"Haley": {
+		"AllowValues": "On, SpriteOnly, Off",
+		"Default": "On",
+		"Section": "Villagers",
+	},
+	"Harvey": {
+		"AllowValues": "On, SpriteOnly, Off",
+		"Default": "On",
+		"Section": "Villagers",
+	},
+	"Jodi": {
+		"AllowValues": "On, SpriteOnly, Off",
+		"Default": "On",
+		"Section": "Villagers",
+	},
+	"Kent": {
+		"AllowValues": "On, SpriteOnly, Off",
+		"Default": "On",
+		"Section": "Villagers",
+	},
+	"Krobus": {
+		"AllowValues": "On, SpriteOnly, Off",
+		"Default": "On",
+		"Section": "Villagers",
+	},
+	"Leah": {
+		"AllowValues": "On, SpriteOnly, Off",
+		"Default": "On",
+		"Section": "Villagers",
+	},
+	"Lewis": {
+		"AllowValues": "On, SpriteOnly, Off",
+		"Default": "On",
+		"Section": "Villagers",
+	},
+	"Linus": {
+		"AllowValues": "On, SpriteOnly, Off",
+		"Default": "On",
+		"Section": "Villagers",
+	},
+	"Marnie": {
+		"AllowValues": "On, SpriteOnly, Off",
+		"Default": "On",
+		"Section": "Villagers",
+	},
+	"Maru": {
+		"AllowValues": "On, SpriteOnly, Off",
+		"Default": "On",
+		"Section": "Villagers",
+	},
+	"Pam": {
+		"AllowValues": "On, SpriteOnly, Off",
+		"Default": "On",
+		"Section": "Villagers",
+	},
+	"Penny": {
+		"AllowValues": "On, SpriteOnly, Off",
+		"Default": "On",
+		"Section": "Villagers",
+	},
+	"Pierre": {
+		"AllowValues": "On, SpriteOnly, Off",
+		"Default": "On",
+		"Section": "Villagers",
+	},
+	"Robin": {
+		"AllowValues": "On, SpriteOnly, Off",
+		"Default": "On",
+		"Section": "Villagers",
+	},
+	"Sam": {
+		"AllowValues": "On, SpriteOnly, Off",
+		"Default": "On",
+		"Section": "Villagers",
+	},
+	"Sandy": {
+		"AllowValues": "On, SpriteOnly, Off",
+		"Default": "On",
+		"Section": "Villagers",
+	},
+	"Sebastian": {
+		"AllowValues": "On, SpriteOnly, Off",
+		"Default": "On",
+		"Section": "Villagers",
+	},
+	"Shane": {
+		"AllowValues": "On, SpriteOnly, Off",
+		"Default": "On",
+		"Section": "Villagers",
+	},
+	"Willy": {
+		"AllowValues": "On, SpriteOnly, Off",
+		"Default": "On",
+		"Section": "Villagers",
+	},
+	"Wizard": {
+		"AllowValues": "On, SpriteOnly, Off",
+		"Default": "On",
+		"Section": "Villagers",
+	},
+  },
+  "Changes": [
+	//Villagers ------------------------------------------------------------------------------------
+	// Abigail
+	{
+		"LogName": "Load Abigail Changes",
+		"Action": "Include",
+		"FromFile": "Villagers/abigail.json",
+		"When": { "Abigail": "On, SpriteOnly" },
+	},
+	// Alex
+	{
+		"LogName": "Load Alex Changes",
+		"Action": "Include",
+		"FromFile": "Villagers/alex.json",
+		"When": { "Alex": "On, SpriteOnly" },
+	},
+	// Caroline
+	{
+		"LogName": "Load Caroline Changes",
+		"Action": "Include",
+		"FromFile": "Villagers/caroline.json",
+		"When": { "Caroline": "On, SpriteOnly" },
+	},	
+	// Clint
+	{
+		"LogName": "Load Clint Changes",
+		"Action": "Include",
+		"FromFile": "Villagers/clint.json",
+		"When": { "Clint": "On, SpriteOnly" },
+	},
+	// Demetrius
+	{
+		"LogName": "Load Demetrius Changes",
+		"Action": "Include",
+		"FromFile": "Villagers/demetrius.json",
+		"When": { "Demetrius": "On, SpriteOnly" },
+	},
+	// Elliott
+	{
+		"LogName": "Load Elliott Changes",
+		"Action": "Include",
+		"FromFile": "Villagers/elliott.json",
+		"When": { "Elliott": "On, SpriteOnly" },
+	},
+	// Emily
+	{
+		"LogName": "Load Emily Changes",
+		"Action": "Include",
+		"FromFile": "Villagers/emily.json",
+		"When": { "Emily": "On, SpriteOnly" },
+	},
+	// Evelyn
+	{
+		"LogName": "Load Evelyn Changes",
+		"Action": "Include",
+		"FromFile": "Villagers/evelyn.json",
+		"When": { "Evelyn": "On, SpriteOnly" },
+	},
+	// George
+	{
+		"LogName": "Load George Changes",
+		"Action": "Include",
+		"FromFile": "Villagers/george.json",
+		"When": { "George": "On, SpriteOnly" },
+	},
+	// Gus
+	{
+		"LogName": "Load Gus Changes",
+		"Action": "Include",
+		"FromFile": "Villagers/gus.json",
+		"When": { "Gus": "On, SpriteOnly" },
+	},
+	// Haley
+	{
+		"LogName": "Load Haley Changes",
+		"Action": "Include",
+		"FromFile": "Villagers/haley.json",
+		"When": { "Haley": "On, SpriteOnly" },
+	},
+	// Harvey
+	{
+		"LogName": "Load Harvey Changes",
+		"Action": "Include",
+		"FromFile": "Villagers/harvey.json",
+		"When": { "Harvey": "On, SpriteOnly" },
+	},
+	// Jodi
+	{
+		"LogName": "Load Jodi Changes",
+		"Action": "Include",
+		"FromFile": "Villagers/jodi.json",
+		"When": { "Jodi": "On, SpriteOnly" },
+	},
+	// Kent
+	{
+		"LogName": "Load Kent Changes",
+		"Action": "Include",
+		"FromFile": "Villagers/kent.json",
+		"When": { "Kent": "On, SpriteOnly" },
+	},
+	// Krobus
+	{
+		"LogName": "Load Krobus Changes",
+		"Action": "Include",
+		"FromFile": "Villagers/krobus.json",
+		"When": { "Krobus": "On, SpriteOnly" },
+	},
+	// Leah
+	{
+		"LogName": "Load Leah Changes",
+		"Action": "Include",
+		"FromFile": "Villagers/leah.json",
+		"When": { "Leah": "On, SpriteOnly" },
+	},
+	// Lewis
+	{
+		"LogName": "Load Lewis Changes",
+		"Action": "Include",
+		"FromFile": "Villagers/lewis.json",
+		"When": { "Lewis": "On, SpriteOnly" },
+	},
+	// Linus
+	{
+		"LogName": "Load Linus Changes",
+		"Action": "Include",
+		"FromFile": "Villagers/linus.json",
+		"When": { "Linus": "On, SpriteOnly" },
+	},
+	// Marnie
+	{
+		"LogName": "Load Marnie Changes",
+		"Action": "Include",
+		"FromFile": "Villagers/marnie.json",
+		"When": { "Marnie": "On, SpriteOnly" },
+	},
+	// Maru
+	{
+		"LogName": "Load Maru Changes",
+		"Action": "Include",
+		"FromFile": "Villagers/maru.json",
+		"When": { "Maru": "On, SpriteOnly" },
+	},
+	// Pam
+	{
+		"LogName": "Load Pam Changes",
+		"Action": "Include",
+		"FromFile": "Villagers/pam.json",
+		"When": { "Pam": "On, SpriteOnly" },
+	},
+	// Penny
+	{
+		"LogName": "Load Penny Changes",
+		"Action": "Include",
+		"FromFile": "Villagers/penny.json",
+		"When": { "Penny": "On, SpriteOnly" },
+	},
+	// Pierre
+	{
+		"LogName": "Load Pierre Changes",
+		"Action": "Include",
+		"FromFile": "Villagers/pierre.json",
+		"When": { "Pierre": "On, SpriteOnly" },
+	},
+	// Robin
+	{
+		"LogName": "Load Robin Changes",
+		"Action": "Include",
+		"FromFile": "Villagers/robin.json",
+		"When": { "Robin": "On, SpriteOnly" },
+	},
+	// Sam
+	{
+		"LogName": "Load Sam Changes",
+		"Action": "Include",
+		"FromFile": "Villagers/sam.json",
+		"When": { "Sam": "On, SpriteOnly" },
+	},
+	// Sandy
+	{
+		"LogName": "Load Sandy Changes",
+		"Action": "Include",
+		"FromFile": "Villagers/sandy.json",
+		"When": { "Sandy": "On, SpriteOnly" },
+	},
+	// Sebastian
+	{
+		"LogName": "Load Sebastian Changes",
+		"Action": "Include",
+		"FromFile": "Villagers/sebastian.json",
+		"When": { "Sebastian": "On, SpriteOnly" },
+	},
+	// Shane
+	{
+		"LogName": "Load Shane Changes",
+		"Action": "Include",
+		"FromFile": "Villagers/shane.json",
+		"When": { "Shane": "On, SpriteOnly" },
+	},
+	// Willy
+	{
+		"LogName": "Load Willy Changes",
+		"Action": "Include",
+		"FromFile": "Villagers/willy.json",
+		"When": { "Willy": "On, SpriteOnly" },
+	},
+	// Wizard
+	{
+		"LogName": "Load Wizard Changes",
+		"Action": "Include",
+		"FromFile": "Villagers/wizard.json",
+		"When": { "Wizard": "On, SpriteOnly" },
+	},
+	// unsocial NPCs and map changes ---------------------------------------------------------------
+	{
+		"LogName": "Load Unsocial NPC Changes",
+		"Action": "Include",
+		"FromFile": "OtherChanges/unsocialNpcs.json",
+	},
+	{
+		"LogName": "Load Loose sprites",
+		"Action": "Include",
+		"FromFile": "OtherChanges/looseSpritesAndTileSheets.json",
+	},
+	{
+      "Action": "EditImage",
+      "Target": "Characters/ClothesTherapyCharacters",
+      "FromFile": "assets/Characters/ClothesTherapyCharacters.png",
+      "When": { "Futanari": "false" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/ClothesTherapyCharacters",
+      "FromFile": "assets/Characters/ClothesTherapyCharacters_Futanari.png",
+      "When": { "Futanari": "true" }
+    },
+  ]
+}

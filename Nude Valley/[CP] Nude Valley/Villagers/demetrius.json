@@ -1,0 +1,77 @@
+{
+  "Changes": [
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Demetrius",
+      "FromFile": "assets/Characters/Demetrius.png",
+      "When": { "Futanari": "false" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Demetrius",
+      "FromFile": "assets/Characters/Demetrius_Futanari.png",
+      "When": { "Futanari": "true" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Demetrius_Beach",
+      "FromFile": "assets/Characters/Demetrius_Beach.png",
+      "When": { "Futanari": "false" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Demetrius_Beach",
+      "FromFile": "assets/Characters/Demetrius_Beach_Futanari.png",
+      "When": { "Futanari": "true" }
+    },
+	{
+      "Action": "EditImage",
+      "Target": "Characters/Demetrius_Winter",
+      "FromFile": "assets/Characters/Demetrius.png",
+      "When": { "Futanari": "false" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Demetrius_Winter",
+      "FromFile": "assets/Characters/Demetrius_Futanari.png",
+      "When": { "Futanari": "true" }
+    },
+	// Portraits -----------------------------------------------------------------------------------
+	{
+      "Action": "EditImage",
+      "Target": "Portraits/Demetrius",
+      "FromFile": "assets/Portraits/Demetrius.png",
+      "When": { 
+		"Hypnosis": "false",
+		"Demetrius": "On",
+	  }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Demetrius",
+      "FromFile": "assets/Portraits/Demetrius_Hypnosis.png",
+      "When": { 
+		"Hypnosis": "true",
+		"Demetrius": "On",
+	  }
+    },
+	{
+      "Action": "EditImage",
+      "Target": "Portraits/Demetrius_Winter",
+      "FromFile": "assets/Portraits/Demetrius.png",
+      "When": { 
+		"Hypnosis": "false",
+		"Demetrius": "On",
+	  }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Demetrius_Winter",
+      "FromFile": "assets/Portraits/Demetrius_Hypnosis.png",
+      "When": { 
+		"Hypnosis": "true",
+		"Demetrius": "On",
+	  }
+    },
+  ]
+}

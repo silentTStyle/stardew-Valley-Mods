@@ -1,0 +1,12 @@
+{
+  "Config.EnableConsoleCommands.Name": "启用控制台命令",
+  "Config.EnableConsoleCommands.Desc": "启用 FTM 的控制台命令。\n这要等到星露谷物语重新启动后才会生效。",
+  "Config.EnableContentPacks.Name": "启用内容包",
+  "Config.EnableContentPacks.Desc": "启用所有 FTM 内容包。\n如果禁用此功能，则仅使用 FarmTypeManager/data 中的文件。",
+  "Config.EnableTraceLogMessages.Name": "启用跟踪日志消息",
+  "Config.EnableTraceLogMessages.Desc": "在 SMAPI 日志文件中启用 FTM 的 [TRACE] 消息。\n如果禁用此选项，日志文件会更小，但提供的有关 FTM 的信息会较少。",
+  "Config.EnableEPUDebugMessages.Name": "启用 EPU 调试消息",
+  "Config.EnableEPUDebugMessages.Desc": "启用扩展先决条件实用程序 (EPU) 调试消息。\n这在创建具有先决条件的 mod 时非常有用。",
+  "Config.MonsterLimitPerLocation.Name": "每个地点的怪物限制",
+  "Config.MonsterLimitPerLocation.Desc": "FTM 允许在一张地图上同时出现的最大怪物数量。\n使用较低的数量可以提高游戏的帧速率。 50 是一个常见的建议。\n键入 NULL 以允许无限的怪物。"
+}

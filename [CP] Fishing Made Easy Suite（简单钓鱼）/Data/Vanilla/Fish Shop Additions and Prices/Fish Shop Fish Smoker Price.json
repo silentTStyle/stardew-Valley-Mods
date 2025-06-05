@@ -1,0 +1,124 @@
+{
+	"Changes": [
+		{
+			"LogName": "Fish Shop Fish Smoker Price 15000g",
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "FishShop", "Items" ],
+			"Fields": {
+			    "(BC)FishSmoker": {"Price": 15000},
+					   },
+			"When": {"Fish Shop Fish Smoker": true, "Fish Shop Fish Smoker Price": "15000g"},
+		},
+		{
+			"LogName": "Fish Shop Fish Smoker Price 10000g",
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "FishShop", "Items" ],
+			"Fields": {
+			    "(BC)FishSmoker": {"Price": 10000},
+					   },
+			"When": {"Fish Shop Fish Smoker": true, "Fish Shop Fish Smoker Price": "10000g"},
+		},
+		{
+			"LogName": "Fish Shop Fish Smoker Price 7500g",
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "FishShop", "Items" ],
+			"Fields": {
+			    "(BC)FishSmoker": {"Price": 7500},
+					   },
+			"When": {"Fish Shop Fish Smoker": true, "Fish Shop Fish Smoker Price": "7500g"},
+		},
+		{
+			"LogName": "Fish Shop Fish Smoker Price 5000g",
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "FishShop", "Items" ],
+			"Fields": {
+			    "(BC)FishSmoker": {"Price": 5000},
+					   },
+			"When": {"Fish Shop Fish Smoker": true, "Fish Shop Fish Smoker Price": "5000g"},
+		},
+		{
+			"LogName": "Fish Shop Fish Smoker Price 2500g",
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "FishShop", "Items" ],
+			"Fields": {
+			    "(BC)FishSmoker": {"Price": 2500},
+					   },
+			"When": {"Fish Shop Fish Smoker": true, "Fish Shop Fish Smoker Price": "2500g"},
+		},
+		{
+			"LogName": "Fish Shop Fish Smoker Price 2000g",
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "FishShop", "Items" ],
+			"Fields": {
+			    "(BC)FishSmoker": {"Price": 2000},
+					   },
+			"When": {"Fish Shop Fish Smoker": true, "Fish Shop Fish Smoker Price": "2000g"},
+		},
+		{
+			"LogName": "Fish Shop Fish Smoker Price 1500g",
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "FishShop", "Items" ],
+			"Fields": {
+			    "(BC)FishSmoker": {"Price": 1500},
+					   },
+			"When": {"Fish Shop Fish Smoker": true, "Fish Shop Fish Smoker Price": "1500g"},
+		},
+		{
+			"LogName": "Fish Shop Fish Smoker Price 1000g",
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "FishShop", "Items" ],
+			"Fields": {
+			    "(BC)FishSmoker": {"Price": 1000},
+					   },
+			"When": {"Fish Shop Fish Smoker": true, "Fish Shop Fish Smoker Price": "1000g"},
+		},
+		{
+			"LogName": "Fish Shop Fish Smoker Price 750g",
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "FishShop", "Items" ],
+			"Fields": {
+			    "(BC)FishSmoker": {"Price": 750},
+					   },
+			"When": {"Fish Shop Fish Smoker": true, "Fish Shop Fish Smoker Price": "750g"},
+		},
+		{
+			"LogName": "Fish Shop Fish Smoker Price 500g",
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "FishShop", "Items" ],
+			"Fields": {
+			    "(BC)FishSmoker": {"Price": 500},
+					   },
+			"When": {"Fish Shop Fish Smoker": true, "Fish Shop Fish Smoker Price": "500g"},
+		},
+		{
+			"LogName": "Fish Shop Fish Smoker Price 250g",
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "FishShop", "Items" ],
+			"Fields": {
+			    "(BC)FishSmoker": {"Price": 250},
+					   },
+			"When": {"Fish Shop Fish Smoker": true, "Fish Shop Fish Smoker Price": "250g"},
+		},
+		{
+			"LogName": "Fish Shop Fish Smoker Price 1g",
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "FishShop", "Items" ],
+			"Fields": {
+			    "(BC)FishSmoker": {"Price": 1},
+					   },
+			"When": {"Fish Shop Fish Smoker": true, "Fish Shop Fish Smoker Price": "1g"},
+		},
+	]
+}

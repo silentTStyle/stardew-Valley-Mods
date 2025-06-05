@@ -1,0 +1,118 @@
+{
+	"Changes": [
+		{
+			"LogName": "SVE - Fish Pond Rare Loot Chance Legendary Fish 3X",
+			"Action": "EditData",
+			"Target": "Data/FishPondData",
+			"Fields": {
+				"FlashShifter.StardewValleyExpandedCP_Wolf_Snapper": {
+					"ProducedItems": [
+					{
+					"RequiredPopulation": 10,
+					"Chance": 0.15,
+					"ItemId": "FlashShifter.StardewValleyExpandedCP_Hero_Elixir",
+					"MinQuantity": 1,
+					"MaxQuantity": 1
+					},
+					{
+					"RequiredPopulation": 9,
+					"Chance": 0.15,
+					"ItemId": "(O)74",
+					"MinQuantity": 1,
+					"MaxQuantity": 1
+					},
+					{
+					"RequiredPopulation": 7,
+					"Chance": 0.06,
+					"ItemId": "(O)74",
+					"MinQuantity": 1,
+					"MaxQuantity": 1
+					},
+					{
+					"RequiredPopulation": 6,
+					"Chance": 0.3,
+					"ItemId": "FlashShifter.StardewValleyExpandedCP_Fungus_Seed",
+					"MinQuantity": 1,
+					"MaxQuantity": 5
+					},
+					{
+					"RequiredPopulation": 5,
+					"Chance": 0.45,
+					"ItemId": "FlashShifter.StardewValleyExpandedCP_Void_Salmon_Sushi",
+					"MinQuantity": 1,
+					"MaxQuantity": 2
+					},
+					{
+					"RequiredPopulation": 4,
+					"Chance": 0.54,
+					"ItemId": "(O)749",
+					"MinQuantity": 1,
+					"MaxQuantity": 3
+					},
+					{
+					"RequiredPopulation": 1,
+					"Chance": 1.0,
+					"ItemId": "(O)812",
+					"MinQuantity": 1,
+					"MaxQuantity": 2
+					},
+					],
+					},
+				"FlashShifter.StardewValleyExpandedCP_Turretfish": {
+					"ProducedItems": [
+					{
+					"RequiredPopulation": 10,
+					"Chance": 0.03,
+					"ItemId": "FlashShifter.StardewValleyExpandedCP_Barbarian_Elixir",
+					"MinQuantity": 1,
+					"MaxQuantity": 1
+					},
+					{
+					"RequiredPopulation": 9,
+					"Chance": 0.15,
+					"ItemId": "(O)74",
+					"MinQuantity": 1,
+					"MaxQuantity": 1
+					},
+					{
+					"RequiredPopulation": 7,
+					"Chance": 0.06,
+					"ItemId": "(O)74",
+					"MinQuantity": 1,
+					"MaxQuantity": 1
+					},
+					{
+					"RequiredPopulation": 6,
+					"Chance": 0.15,
+					"ItemId": "FlashShifter.StardewValleyExpandedCP_Gold_Carrot_Seed",
+					"MinQuantity": 1,
+					"MaxQuantity": 3
+					},
+					{
+					"RequiredPopulation": 5,
+					"Chance": 0.15,
+					"ItemId": "FlashShifter.StardewValleyExpandedCP_Hero_Elixir",
+					"MinQuantity": 1,
+					"MaxQuantity": 2
+					},
+					{
+					"RequiredPopulation": 4,
+					"Chance": 0.3,
+					"ItemId": "FlashShifter.StardewValleyExpandedCP_Void_Soul",
+					"MinQuantity": 1,
+					"MaxQuantity": 3
+					},
+					{
+					"RequiredPopulation": 1,
+					"Chance": 0.5,
+					"ItemId": "FlashShifter.StardewValleyExpandedCP_Void_Pebble",
+					"MinQuantity": 1,
+					"MaxQuantity": 1
+					},
+					],
+					},
+					},
+			"When": {"Fish Pond Legendary Fish (REQ)": true, "Legendary Fish Pond Loot": "Rare Loot Chance 3X"},
+		},
+	]
+}

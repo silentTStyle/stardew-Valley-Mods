@@ -1,0 +1,231 @@
+{
+  "Changes": [
+    { //Sprites
+      "LogName": "Sprites",
+      "Action": "EditImage",
+      "Target": "Characters/Leah, Characters/Leah_Winter",
+      "FromFile": "assets/Characters/Leah/Leah_Sprites.png",
+      "Update": "OnLocationChange",
+      "ToArea": {"X": 0, "Y": 1600, "Width": 64, "Height": 896}
+    },
+    { //Undress
+      "LogName": "Undress",
+      "Action": "EditImage",
+      "Target": "Characters/Leah, Characters/Leah_Winter",
+      "FromFile": "assets/Characters/Leah/{{TargetWithoutPath}}_Undress.png",
+      "Update": "OnLocationChange",
+      "ToArea": {"X": 0, "Y": 1568, "Width": 64, "Height": 32}
+    },
+    { //Extras
+      "Action": "Load",
+      "Target": "Characters/LeahExtra",
+      "FromFile": "assets/Characters/Leah/LeahExtra.png"
+    },
+    { //Portraits
+      "LogName": "Portraits",
+      "Action": "EditImage",
+      "Target": "Portraits/Leah, Portraits/Leah_Winter",
+      "FromFile": "assets/Portraits/Leah.png",
+      "Update": "OnLocationChange",
+      "ToArea": {"X": 0, "Y": 960, "Width": 128, "Height": 192}
+    },
+    /*=======================================================================================================================
+    SCHEDULES
+    =======================================================================================================================*/
+    { //Leah Pleasure
+      "Action": "EditData",
+      "entries": {
+        //SEASON
+        "spring": "900 LeahHouse 3 7 3 leah_sculpt/1200 Forest 68 50 2/1500 Forest 33 25 2 leah_draw/1830 Forest 21 29 1/1930 LeahHouse 8 5 0/2200 LeahHouse 8 6 2 {{leah_r}}/2400 LeahHouse 2 4 3 leah_sleep",
+        "summer": "MAIL beachBridgeFixed/GOTO summer_noBridge/900 LeahHouse 3 7 3 leah_sculpt/1200 Beach 72 18 2 leah_draw/1900 LeahHouse 8 5 0/2200 LeahHouse 8 6 2 {{leah_r}}/2400 LeahHouse 2 4 3 leah_sleep",
+        "summer_noBridge": "900 LeahHouse 3 7 3 leah_sculpt/1200 Beach 38 24 2 leah_draw/1900 LeahHouse 8 5 0/2200 LeahHouse 8 6 2 {{leah_r}}/2400 LeahHouse 2 4 3 leah_sleep",
+        "fall": "900 LeahHouse 3 7 3 leah_sculpt/1200 Town 86 66 3 square_1_5_3/1900 LeahHouse 8 5 0/2200 LeahHouse 8 6 2 {{leah_r}}/2400 LeahHouse 2 4 3 leah_sleep",
+        "winter": "900 LeahHouse 8 6 2 {{leah_r}}/1200 LeahHouse 8 6 2 {{leah_r}}/1600 Saloon 2 20 1/1930 Custom_BathroomVG 12 5 2 {{leah_r}}/2340 LeahHouse 2 4 3 leah_sleep",
+        //RAIN
+        "rain": "900 LeahHouse 3 7 3 leah_sculpt/1200 LeahHouse 8 6 2 {{leah_r}}/1600 Saloon 2 20 1/1930 Custom_BathroomVG 12 5 2 {{leah_r}}/2340 LeahHouse 2 4 3 leah_sleep",
+        //OTHER DAYS
+        "Mon": "900 LeahHouse 8 6 2 {{leah_r}}/1100 SeedShop 11 23 0 square_3_1_0/1700 LeahHouse 8 5 0/2200 LeahHouse 8 6 2 {{leah_r}}/2400 LeahHouse 2 4 3 leah_sleep",
+        "Fri": "900 LeahHouse 3 7 3 leah_sculpt/1200 LeahHouse 8 6 2 {{leah_r}}/1400 LeahHouse 9 5 0/1600 Saloon 2 20 1/1900 Custom_FemaleToilet 5 7 2 {{leah_r}}/2340 LeahHouse 2 4 3 leah_sleep",
+        //MARRIAGE
+        "marriage_Mon": "830 Forest 63 50 2 \"Strings\\schedules\\Leah:marriage_Mon.000\"/1500 Forest 106 34 2/1600 Custom_FemaleToilet 5 4 2 {{leah_r}}/2130 BusStop -1 23 3",
+        "marriage_Fri": "830 Forest 63 50 2/1400 Forest 106 34 2/1600 Custom_FemaleToilet 5 4 2 {{leah_r}}/2130 BusStop -1 23 3"
+      },
+      "Target": "Characters/Schedules/Leah",
+      "When": {
+        "Pleasure": "Leah",
+        "HasMod |contains=Pseudodiego.LAtardewValley": false //COMPATIBILITY PATCH
+      }
+    },
+    { //SEX ELLIOTT
+      "Action": "EditData",
+      "Target": "Characters/Schedules/Leah",
+      "entries": {
+        //WINTER FRIDAY
+        "winter_5": "900 LeahHouse 3 7 3 leah_sculpt/1200 LeahHouse 6 5 0/1400 LeahHouse 9 5 0/1530 Custom_MaleToilet 5 4 3/1840 Custom_MaleToilet 5 4 3 leah_sex3/1940 Custom_MaleToilet 5 4 3 leah_sex2/2040 Custom_MaleToilet 5 4 3 leah_sex1/2340 LeahHouse 2 4 3 leah_sleep",
+        "winter_19": "GOTO winter_5",
+        "winter_12": "900 LeahHouse 3 7 3 leah_sculpt/1200 LeahHouse 6 5 0/1400 LeahHouse 9 5 0/1530 Custom_MaleToilet 5 4 3/1840 Custom_MaleToilet 5 4 3 leah_sex3/1940 Custom_MaleToilet 5 4 3 leah_sex2/2040 Custom_MaleToilet 5 4 3 leah_sex1/2340 LeahHouse 2 4 3 leah_sleep",
+        "winter_26": "GOTO winter_12"
+      },
+      "When": {
+        "Sex Schedule": "Leah+Elliott",
+        "Relationship:Elliott": "Unmet, Friendly, Dating, Engaged, Divorced"
+      }
+    },
+    { //SEX ABIGAIL 
+      "Action": "EditData",
+      "Target": "Characters/Schedules/Leah",
+      "entries": {
+        //SUMMER FRIDAY - LEAH BOTTOM
+        "summer_5": "900 LeahHouse 3 7 3 leah_sculpt/1200 LeahHouse 6 5 0/1400 LeahHouse 9 5 0/1600 Custom_BathroomVG 15 7 0/1840 Custom_BathroomVG 15 7 0 leah_bottom/2200 Saloon 2 20 1/2340 LeahHouse 2 4 3 leah_sleep",
+        "summer_12": "GOTO summer_5",
+        "summer_19": "GOTO summer_5",
+        "summer_26": "GOTO summer_5"
+      },
+      "When": {
+        "Sex Schedule": "Leah+Abigail",
+        "Relationship:Abigail": "Unmet, Friendly, Dating, Engaged, Divorced"
+      }
+    },
+    { //SEX ROBIN 
+      "Action": "EditData",
+      "Target": "Characters/Schedules/Leah",
+      "entries": {
+        //FALL WEDNESDAY - LEAH TOP
+        "fall_Wed": "900 LeahHouse 3 7 3 leah_sculpt/1200 LeahHouse 6 5 0/1400 LeahHouse 9 5 0/1600 Custom_FemaleToilet 2 6 2/1940 Custom_FemaleToilet 2 6 2 leah_top/2300 LeahHouse 2 4 3 leah_sleep"
+      },
+      "When": {
+        "Sex Schedule": "Robin+Leah",
+        "Relationship:Robin": "Unmet, Friendly, Dating, Engaged, Divorced"
+      }
+    },
+    /*=======================================================================================================================
+    DIALOGUE
+    =======================================================================================================================*/
+    { //Pleasure Dialogue Angry
+      "Action": "EditData",
+      "Target": "Strings/schedules/Leah",
+      "Update": "OnLocationChange",
+      "Entries": {
+        "pleasure1": "{{i18n:Leah.Pleasure.Angry}}",
+        "pleasure2": "{{i18n:Leah.Pleasure.Angry}}",
+        "pleasure3": "{{i18n:Leah.Pleasure.Angry}}",
+        "pleasure4": "{{i18n:Leah.Pleasure.Angry}}",
+        "pleasure5": "{{i18n:Leah.Pleasure.Angry}}",
+        "pleasure6": "{{i18n:Leah.Pleasure.Angry}}",
+        "pleasure7": "{{i18n:Leah.Pleasure.Angry}}",
+        "pleasure8": "{{i18n:Leah.Pleasure.Angry}}"
+      },
+      "When": {
+        "Hearts:Leah": "{{Range: 0, 3}}"
+      }
+    },
+    { //Pleasure Dialogue Happy
+      "Action": "EditData",
+      "Target": "Strings/schedules/Leah",
+      "Update": "OnLocationChange",
+      "Entries": {
+        "pleasure1": "{{i18n:Leah.Pleasure.01}}",
+        "pleasure2": "{{i18n:Leah.Pleasure.02}}",
+        "pleasure3": "{{i18n:Leah.Pleasure.03}}",
+        "pleasure4": "{{i18n:Leah.Pleasure.04}}",
+        "pleasure5": "{{i18n:Leah.Pleasure.05}}",
+        "pleasure6": "{{i18n:Leah.Pleasure.06}}",
+        "pleasure7": "{{i18n:Leah.Pleasure.07}}",
+        "pleasure8": "{{i18n:Leah.Pleasure.08}}"
+      },
+      "When": {
+        "Hearts:Leah": "{{Range: 4, 14}}"
+      }
+    },
+    { //Sex Dialogue
+      "Action": "EditData",
+      "Target": "Strings/animationDescriptions",
+      "entries": {
+        "leah_sex1": "{{i18n:Leah.Sex.01}}",
+        "leah_sex2": "{{i18n:Leah.Sex.02}}",
+        "leah_sex3": "{{i18n:Leah.Sex.03}}",
+        "leah_sex4": "{{i18n:Leah.Sex.04}}",
+        "leah_sex5": "{{i18n:Leah.Sex.05}}",
+        "leah_sex6": "{{i18n:Leah.Sex.06}}",
+        "leah_top": "{{i18n:Leah.Top}}",
+        "leah_bottom": "{{i18n:Leah.Bottom}}"
+      }
+    },
+    /*=======================================================================================================================
+    ANIMATIONS
+    =======================================================================================================================*/
+    { //Pleasure
+      "Action": "EditData",
+      "Target": "Data/animationDescriptions",
+      "Update": "OnLocationChange",
+      "entries": {
+        "leah_pleasure1": "196 197 198 199/200 201 202 203 204/199 198 197 196",
+        "leah_pleasure2": "196 197 198 199/205 206 207 208 209/199 198 197 196",
+        "leah_pleasure3": "196 197 198 199/210 211 212 213 214/199 198 197 196",
+        "leah_pleasure4": "196 197 198 199/215 216 217 218 219/199 198 197 196",
+        "leah_pleasure5": "196 197 198 199/220 221 222 223 224/199 198 197 196",
+        "leah_pleasure6": "196 197 198 199/225 226 227 228 229/199 198 197 196",
+        "leah_pleasure7": "196 197 198 199/230 231 232 233 234/199 198 197 196",
+        "leah_pleasure8": "196 197 198 199/235 236 237 238/199 198 197 196"
+      }
+    },
+    { //Sex
+      "Action": "EditData",
+      "Target": "Data/animationDescriptions",
+      "Update": "OnLocationChange",
+      "entries": {
+        "leah_sex1": "196 197 198 199/240 241 242 243 244/199 198 197 196/Strings\\animationDescriptions:leah_sex1",
+        "leah_sex2": "196 197 198 199/245 246 247 248 249/199 198 197 196/Strings\\animationDescriptions:leah_sex2",
+        "leah_sex3": "196 197 198 199/250 251 252 253 254/199 198 197 196/Strings\\animationDescriptions:leah_sex3",
+        "leah_sex4": "196 197 198 199/255 256 257 258 259/199 198 197 196/Strings\\animationDescriptions:leah_sex4",
+        "leah_sex5": "196 197 198 199/260 261 262 263 264/199 198 197 196/Strings\\animationDescriptions:leah_sex5",
+        "leah_sex6": "196 197 198 199/265 266 267 268 269/199 198 197 196/Strings\\animationDescriptions:leah_sex6",
+        "leah_top": "196 197 198 199/270 271 272 273 274/199 198 197 196/Strings\\animationDescriptions:leah_top",
+        "leah_bottom": "196 197 198 199/275 276 277 278 279/199 198 197 196/Strings\\animationDescriptions:leah_bottom"
+      }
+    },
+    /*=======================================================================================================================
+    MALE COUNTERPART - ELLIOTT
+    =======================================================================================================================*/
+    { //Sprites
+      "LogName": "Sprites",
+      "Action": "EditImage",
+      "Target": "Characters/Elliott, Characters/Elliott_Winter",
+      "FromFile": "assets/Characters/Leah/Elliott.png",
+      "Update": "OnLocationChange",
+      "ToArea": {"X": 0, "Y": 1920, "Width": 64, "Height": 64}
+    },
+    { //Dialogue
+      "Action": "EditData",
+      "Target": "Strings/animationDescriptions",
+      "entries": {
+        "elliott_leah": "{{i18n:Elliott.Leah}}"
+      }
+    },
+    { //Animations
+      "Action": "EditData",
+      "Target": "Data/animationDescriptions",
+      "Update": "OnLocationChange",
+      "entries": {
+        "elliott_leah1": "0 0 0 0/246/0 0 0 0/Strings\\animationDescriptions:elliott_leah",
+        "elliott_leah2": "0 0 0 0/240 241 242 243 244/0 0 0 0/Strings\\animationDescriptions:elliott_leah",
+        "elliott_leah3": "0 0 0 0/245/0 0 0 0/Strings\\animationDescriptions:elliott_leah"
+      }
+    },
+    { //Schedules
+      "Action": "EditData",
+      "Target": "Characters/Schedules/Elliott",
+      "entries": {
+        //WINTER FRIDAY
+        "winter_5": "800 ElliottHouse 1 5 0/1100 Beach 24 32 3 square_1_5_3/1600 Custom_MaleToilet 4 4 1 elliott_drink/1840 Custom_MaleToilet 4 4 1 elliott_leah3/1940 Custom_MaleToilet 4 4 1 elliott_leah2/2040 Custom_MaleToilet 4 4 1 elliott_leah1/2340 ElliottHouse 8 9 1 elliott_sleep",
+        "winter_19": "GOTO winter_5",
+        "winter_12": "800 ElliottHouse 1 5 0/1100 Beach 24 32 3 square_1_5_3/1600 Custom_MaleToilet 4 4 1 elliott_drink/1840 Custom_MaleToilet 4 4 1 elliott_leah3/1940 Custom_MaleToilet 4 4 1 elliott_leah2/2040 Custom_MaleToilet 4 4 1 elliott_leah1/2340 ElliottHouse 13 4 1 elliott_sleep",
+        "winter_26": "GOTO winter_12"
+      },
+      "When": {
+        "Sex Schedule": "Leah+Elliott",
+        "Relationship:Leah": "Unmet, Friendly, Dating, Engaged, Divorced"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1174 @@
+{
+  "Format": "2.0.0",
+  "Changes": [
+		{
+		  "Action": "Load",
+		  "Target": "Mods/{{ModId}}/Craftables",
+		  "FromFile": "assets/TileSheets/scarecrows.png"
+		},
+		// Line 1
+		// LoveDoll_01
+		{
+		  "Action": "EditImage",
+		  "LogName": "Scarecrow01 Animation",
+		  "Target": "Mods/{{ModId}}/Craftables",						// has to be indentical to the loaded scarecrows.png Target
+		  "FromFile": "assets/Animations/Scarecrow01.png",				// the relative file path to the AnimationImage
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },	// Start Coordinates in the AnimationImage => Scarecrow01.png
+		  "ToArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },		// The image position in the TargetFile(scarecrows.png) that will be overwritten. This makes the original image effectively a shortcut into a larger animation
+		  "AnimationFrameTime": 6,
+		  "AnimationFrameCount": 10
+		},
+		{
+		  "Action": "EditData",
+		  "Target": "Data/BigCraftables",
+		  "Entries": {
+				"LoveDoll_01": {
+					"LogName": "Deluxe Scarecrow 1",
+					"Name": "Deluxe Scarecrow",
+					"DisplayName": "{{i18n:Item.LoveDoll.Name}}01",
+					"Description": "{{i18n:Item.LoveDoll.Description}}",
+					"Price": 3000,
+					"Fragility": 0,
+					"Type": "Crafting",
+					"Category": -9,
+					"Texture": "Mods/{{ModId}}/Craftables",
+					"SpriteIndex": 0
+				},
+			}
+		},
+		// LoveDoll_02
+		{
+		  "Action": "EditImage",
+		  "LogName": "Scarecrow02 Animation",
+		  "Target": "Mods/{{ModId}}/Craftables",
+		  "FromFile": "assets/Animations/Scarecrow02.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 16, "Y": 0, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 5,
+		  "AnimationFrameCount": 6
+		},
+		{
+		  "Action": "EditData",
+		  "Target": "Data/BigCraftables",
+		  "Entries": {
+				"LoveDoll_02": {
+					"LogName": "Deluxe Scarecrow 2",
+					"Name": "Deluxe Scarecrow",
+					"DisplayName": "{{i18n:Item.LoveDoll.Name}}02",
+					"Description": "{{i18n:Item.LoveDoll.Description}}",
+					"Price": 3000,
+					"Fragility": 0,
+					"Type": "Crafting",
+					"Category": -9,
+					"Texture": "Mods/{{ModId}}/Craftables",
+					"SpriteIndex": 1
+				},
+			}
+		},
+		// LoveDoll_03
+		{
+		  "Action": "EditImage",
+		  "LogName": "Scarecrow03 Animation",
+		  "Target": "Mods/{{ModId}}/Craftables",
+		  "FromFile": "assets/Animations/Scarecrow03.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 32, "Y": 0, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 5,
+		  "AnimationFrameCount": 8
+		},
+		{
+		  "Action": "EditData",
+		  "Target": "Data/BigCraftables",
+		  "Entries": {
+				"LoveDoll_03": {
+					"LogName": "Deluxe Scarecrow 3",
+					"Name": "Deluxe Scarecrow",
+					"DisplayName": "{{i18n:Item.LoveDoll.Name}}03",
+					"Description": "{{i18n:Item.LoveDoll.Description}}",
+					"Price": 3000,
+					"Fragility": 0,
+					"Type": "Crafting",
+					"Category": -9,
+					"Texture": "Mods/{{ModId}}/Craftables",
+					"SpriteIndex": 2
+				},
+			}
+		},
+		// LoveDoll_04
+		{
+		  "Action": "EditImage",
+		  "LogName": "Scarecrow04 Animation",
+		  "Target": "Mods/{{ModId}}/Craftables",
+		  "FromFile": "assets/Animations/Scarecrow04.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 48, "Y": 0, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 4,
+		  "AnimationFrameCount": 8
+		},
+		{
+		  "Action": "EditData",
+		  "Target": "Data/BigCraftables",
+		  "Entries": {
+				"LoveDoll_04": {
+					"LogName": "Deluxe Scarecrow 4",
+					"Name": "Deluxe Scarecrow",
+					"DisplayName": "{{i18n:Item.LoveDoll.Name}}04",
+					"Description": "{{i18n:Item.LoveDoll.Description}}",
+					"Price": 3000,
+					"Fragility": 0,
+					"Type": "Crafting",
+					"Category": -9,
+					"Texture": "Mods/{{ModId}}/Craftables",
+					"SpriteIndex": 3
+				},
+			}
+		},
+		// LoveDoll_05
+		{
+		  "Action": "EditImage",
+		  "LogName": "Scarecrow05 Animation",
+		  "Target": "Mods/{{ModId}}/Craftables",
+		  "FromFile": "assets/Animations/Scarecrow05.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 64, "Y": 0, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 5,
+		  "AnimationFrameCount": 10
+		},
+		{
+		  "Action": "EditData",
+		  "Target": "Data/BigCraftables",
+		  "Entries": {
+				"LoveDoll_05": {
+					"LogName": "Deluxe Scarecrow 5",
+					"Name": "Deluxe Scarecrow",
+					"DisplayName": "{{i18n:Item.LoveDoll.Name}}05",
+					"Description": "{{i18n:Item.LoveDoll.Description}}",
+					"Price": 3000,
+					"Fragility": 0,
+					"Type": "Crafting",
+					"Category": -9,
+					"Texture": "Mods/{{ModId}}/Craftables",
+					"SpriteIndex": 4
+				},
+			}
+		},
+		// LoveDoll_06
+		{
+		  "Action": "EditImage",
+		  "LogName": "Scarecrow06 Animation",
+		  "Target": "Mods/{{ModId}}/Craftables",
+		  "FromFile": "assets/Animations/Scarecrow06.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 80, "Y": 0, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 7,
+		  "AnimationFrameCount": 6
+		},
+		{
+		  "Action": "EditData",
+		  "Target": "Data/BigCraftables",
+		  "Entries": {
+				"LoveDoll_06": {
+					"LogName": "Deluxe Scarecrow 6",
+					"Name": "Deluxe Scarecrow",
+					"DisplayName": "{{i18n:Item.LoveDoll.Name}}06",
+					"Description": "{{i18n:Item.LoveDoll.Description}}",
+					"Price": 3000,
+					"Fragility": 0,
+					"Type": "Crafting",
+					"Category": -9,
+					"Texture": "Mods/{{ModId}}/Craftables",
+					"SpriteIndex": 5
+				},
+			}
+		},
+		// LoveDoll_07
+		{
+		  "Action": "EditImage",
+		  "LogName": "Scarecrow07 Animation",
+		  "Target": "Mods/{{ModId}}/Craftables",
+		  "FromFile": "assets/Animations/Scarecrow07.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 96, "Y": 0, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 6,
+		  "AnimationFrameCount": 8
+		},
+		{
+		  "Action": "EditData",
+		  "Target": "Data/BigCraftables",
+		  "Entries": {
+				"LoveDoll_07": {
+					"LogName": "Deluxe Scarecrow 7",
+					"Name": "Deluxe Scarecrow",
+					"DisplayName": "{{i18n:Item.LoveDoll.Name}}07",
+					"Description": "{{i18n:Item.LoveDoll.Description}}",
+					"Price": 3000,
+					"Fragility": 0,
+					"Type": "Crafting",
+					"Category": -9,
+					"Texture": "Mods/{{ModId}}/Craftables",
+					"SpriteIndex": 6
+				},
+			}
+		},
+		// LoveDoll_08
+		{
+		  "Action": "EditImage",
+		  "LogName": "Scarecrow08 Animation",
+		  "Target": "Mods/{{ModId}}/Craftables",
+		  "FromFile": "assets/Animations/Scarecrow08.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 112, "Y": 0, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 6,
+		  "AnimationFrameCount": 6
+		},
+		{
+		  "Action": "EditData",
+		  "Target": "Data/BigCraftables",
+		  "Entries": {
+				"LoveDoll_08": {
+					"LogName": "Deluxe Scarecrow 8",
+					"Name": "Deluxe Scarecrow",
+					"DisplayName": "{{i18n:Item.LoveDoll.Name}}08",
+					"Description": "{{i18n:Item.LoveDoll.Description}}",
+					"Price": 3000,
+					"Fragility": 0,
+					"Type": "Crafting",
+					"Category": -9,
+					"Texture": "Mods/{{ModId}}/Craftables",
+					"SpriteIndex": 7
+				},
+			}
+		},
+		// LoveDoll_09
+		{
+		  "Action": "EditImage",
+		  "LogName": "Scarecrow09 Animation",
+		  "Target": "Mods/{{ModId}}/Craftables",
+		  "FromFile": "assets/Animations/Scarecrow09.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 128, "Y": 0, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 5,
+		  "AnimationFrameCount": 10
+		},
+		{
+		  "Action": "EditData",
+		  "Target": "Data/BigCraftables",
+		  "Entries": {
+				"LoveDoll_09": {
+					"LogName": "Deluxe Scarecrow 9",
+					"Name": "Deluxe Scarecrow",
+					"DisplayName": "{{i18n:Item.LoveDoll.Name}}09",
+					"Description": "{{i18n:Item.LoveDoll.Description}}",
+					"Price": 3000,
+					"Fragility": 0,
+					"Type": "Crafting",
+					"Category": -9,
+					"Texture": "Mods/{{ModId}}/Craftables",
+					"SpriteIndex": 8
+				},
+			}
+		},
+		// LoveDoll_10
+		{
+		  "Action": "EditImage",
+		  "LogName": "Scarecrow10 Animation",
+		  "Target": "Mods/{{ModId}}/Craftables",
+		  "FromFile": "assets/Animations/Scarecrow10.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 144, "Y": 0, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 7,
+		  "AnimationFrameCount": 8
+		},
+		{
+		  "Action": "EditData",
+		  "Target": "Data/BigCraftables",
+		  "Entries": {
+				"LoveDoll_10": {
+					"LogName": "Deluxe Scarecrow 10",
+					"Name": "Deluxe Scarecrow",
+					"DisplayName": "{{i18n:Item.LoveDoll.Name}}10",
+					"Description": "{{i18n:Item.LoveDoll.Description}}",
+					"Price": 3000,
+					"Fragility": 0,
+					"Type": "Crafting",
+					"Category": -9,
+					"Texture": "Mods/{{ModId}}/Craftables",
+					"SpriteIndex": 9
+				},
+			}
+		},
+		// Line 2
+		// LoveDoll_11
+		{
+		  "Action": "EditImage",
+		  "LogName": "Scarecrow11 Animation",
+		  "Target": "Mods/{{ModId}}/Craftables",
+		  "FromFile": "assets/Animations/Scarecrow11.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 0, "Y": 32, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 10,
+		  "AnimationFrameCount": 6
+		},
+		{
+		  "Action": "EditData",
+		  "Target": "Data/BigCraftables",
+		  "Entries": {
+				"LoveDoll_11": {
+					"LogName": "Deluxe Scarecrow 11",
+					"Name": "Deluxe Scarecrow",
+					"DisplayName": "{{i18n:Item.LoveDoll.Name}}11",
+					"Description": "{{i18n:Item.LoveDoll.Description}}",
+					"Price": 3000,
+					"Fragility": 0,
+					"Type": "Crafting",
+					"Category": -9,
+					"Texture": "Mods/{{ModId}}/Craftables",
+					"SpriteIndex": 10
+				},
+			}
+		},
+		// LoveDoll_12
+		{
+		  "Action": "EditImage",
+		  "LogName": "Scarecrow12 Animation",
+		  "Target": "Mods/{{ModId}}/Craftables",
+		  "FromFile": "assets/Animations/Scarecrow12.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 16, "Y": 32, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 6,
+		  "AnimationFrameCount": 8
+		},
+		{
+		  "Action": "EditData",
+		  "Target": "Data/BigCraftables",
+		  "Entries": {
+				"LoveDoll_12": {
+					"LogName": "Deluxe Scarecrow 12",
+					"Name": "Deluxe Scarecrow",
+					"DisplayName": "{{i18n:Item.LoveDoll.Name}}12",
+					"Description": "{{i18n:Item.LoveDoll.Description}}",
+					"Price": 3000,
+					"Fragility": 0,
+					"Type": "Crafting",
+					"Category": -9,
+					"Texture": "Mods/{{ModId}}/Craftables",
+					"SpriteIndex": 11
+				},
+			}
+		},
+		// LoveDoll_13
+		{
+		  "Action": "EditImage",
+		  "LogName": "Scarecrow13 Animation",
+		  "Target": "Mods/{{ModId}}/Craftables",
+		  "FromFile": "assets/Animations/Scarecrow13.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 32, "Y": 32, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 10,
+		  "AnimationFrameCount": 6
+		},
+		{
+		  "Action": "EditData",
+		  "Target": "Data/BigCraftables",
+		  "Entries": {
+				"LoveDoll_13": {
+					"LogName": "Deluxe Scarecrow 13",
+					"Name": "Deluxe Scarecrow",
+					"DisplayName": "{{i18n:Item.LoveDoll.Name}}13",
+					"Description": "{{i18n:Item.LoveDoll.Description}}",
+					"Price": 3000,
+					"Fragility": 0,
+					"Type": "Crafting",
+					"Category": -9,
+					"Texture": "Mods/{{ModId}}/Craftables",
+					"SpriteIndex": 12
+				},
+			}
+		},
+		// LoveDoll_14
+		{
+		  "Action": "EditImage",
+		  "LogName": "Scarecrow14 Animation",
+		  "Target": "Mods/{{ModId}}/Craftables",
+		  "FromFile": "assets/Animations/Scarecrow14.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 48, "Y": 32, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 6,
+		  "AnimationFrameCount": 10
+		},
+		{
+		  "Action": "EditData",
+		  "Target": "Data/BigCraftables",
+		  "Entries": {
+				"LoveDoll_14": {
+					"LogName": "Deluxe Scarecrow 14",
+					"Name": "Deluxe Scarecrow",
+					"DisplayName": "{{i18n:Item.LoveDoll.Name}}14",
+					"Description": "{{i18n:Item.LoveDoll.Description}}",
+					"Price": 3000,
+					"Fragility": 0,
+					"Type": "Crafting",
+					"Category": -9,
+					"Texture": "Mods/{{ModId}}/Craftables",
+					"SpriteIndex": 13
+				},
+			}
+		},
+		// LoveDoll_15
+		{
+		  "Action": "EditImage",
+		  "LogName": "Scarecrow15 Animation",
+		  "Target": "Mods/{{ModId}}/Craftables",
+		  "FromFile": "assets/Animations/Scarecrow15.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 64, "Y": 32, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 10,
+		  "AnimationFrameCount": 6
+		},
+		{
+		  "Action": "EditData",
+		  "Target": "Data/BigCraftables",
+		  "Entries": {
+				"LoveDoll_15": {
+					"LogName": "Deluxe Scarecrow 15",
+					"Name": "Deluxe Scarecrow",
+					"DisplayName": "{{i18n:Item.LoveDoll.Name}}15",
+					"Description": "{{i18n:Item.LoveDoll.Description}}",
+					"Price": 3000,
+					"Fragility": 0,
+					"Type": "Crafting",
+					"Category": -9,
+					"Texture": "Mods/{{ModId}}/Craftables",
+					"SpriteIndex": 14
+				},
+			}
+		},
+		// LoveDoll_16
+		{
+		  "Action": "EditImage",
+		  "LogName": "Scarecrow16 Animation",
+		  "Target": "Mods/{{ModId}}/Craftables",
+		  "FromFile": "assets/Animations/Scarecrow16.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 80, "Y": 32, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 6,
+		  "AnimationFrameCount": 8
+		},
+		{
+		  "Action": "EditData",
+		  "Target": "Data/BigCraftables",
+		  "Entries": {
+				"LoveDoll_16": {
+					"LogName": "Deluxe Scarecrow 16",
+					"Name": "Deluxe Scarecrow",
+					"DisplayName": "{{i18n:Item.LoveDoll.Name}}16",
+					"Description": "{{i18n:Item.LoveDoll.Description}}",
+					"Price": 3000,
+					"Fragility": 0,
+					"Type": "Crafting",
+					"Category": -9,
+					"Texture": "Mods/{{ModId}}/Craftables",
+					"SpriteIndex": 15
+				},
+			}
+		},
+		// LoveDoll_17
+		{
+		  "Action": "EditImage",
+		  "LogName": "Scarecrow17 Animation",
+		  "Target": "Mods/{{ModId}}/Craftables",
+		  "FromFile": "assets/Animations/Scarecrow17.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 96, "Y": 32, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 10,
+		  "AnimationFrameCount": 6
+		},
+		{
+		  "Action": "EditData",
+		  "Target": "Data/BigCraftables",
+		  "Entries": {
+				"LoveDoll_17": {
+					"LogName": "Deluxe Scarecrow 17",
+					"Name": "Deluxe Scarecrow",
+					"DisplayName": "{{i18n:Item.LoveDoll.Name}}17",
+					"Description": "{{i18n:Item.LoveDoll.Description}}",
+					"Price": 3000,
+					"Fragility": 0,
+					"Type": "Crafting",
+					"Category": -9,
+					"Texture": "Mods/{{ModId}}/Craftables",
+					"SpriteIndex": 16
+				},
+			}
+		},
+		// LoveDoll_18
+		{
+		  "Action": "EditImage",
+		  "LogName": "Scarecrow18 Animation",
+		  "Target": "Mods/{{ModId}}/Craftables",
+		  "FromFile": "assets/Animations/Scarecrow18.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 112, "Y": 32, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 10,
+		  "AnimationFrameCount": 6
+		},
+		{
+		  "Action": "EditData",
+		  "Target": "Data/BigCraftables",
+		  "Entries": {
+				"LoveDoll_18": {
+					"LogName": "Deluxe Scarecrow 18",
+					"Name": "Deluxe Scarecrow",
+					"DisplayName": "{{i18n:Item.LoveDoll.Name}}18",
+					"Description": "{{i18n:Item.LoveDoll.Description}}",
+					"Price": 3000,
+					"Fragility": 0,
+					"Type": "Crafting",
+					"Category": -9,
+					"Texture": "Mods/{{ModId}}/Craftables",
+					"SpriteIndex": 17
+				},
+			}
+		},
+		// LoveDoll_19
+		{
+		  "Action": "EditImage",
+		  "LogName": "Scarecrow19 Animation",
+		  "Target": "Mods/{{ModId}}/Craftables",
+		  "FromFile": "assets/Animations/Scarecrow19.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 128, "Y": 32, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 6,
+		  "AnimationFrameCount": 8
+		},
+		{
+		  "Action": "EditData",
+		  "Target": "Data/BigCraftables",
+		  "Entries": {
+				"LoveDoll_19": {
+					"LogName": "Deluxe Scarecrow 19",
+					"Name": "Deluxe Scarecrow",
+					"DisplayName": "{{i18n:Item.LoveDoll.Name}}19",
+					"Description": "{{i18n:Item.LoveDoll.Description}}",
+					"Price": 3000,
+					"Fragility": 0,
+					"Type": "Crafting",
+					"Category": -9,
+					"Texture": "Mods/{{ModId}}/Craftables",
+					"SpriteIndex": 18
+				},
+			}
+		},
+		// LoveDoll_20
+		{
+		  "Action": "EditImage",
+		  "LogName": "Scarecrow20 Animation",
+		  "Target": "Mods/{{ModId}}/Craftables",
+		  "FromFile": "assets/Animations/Scarecrow20.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 144, "Y": 32, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 6,
+		  "AnimationFrameCount": 8
+		},
+		{
+		  "Action": "EditData",
+		  "Target": "Data/BigCraftables",
+		  "Entries": {
+				"LoveDoll_20": {
+					"LogName": "Deluxe Scarecrow 20",
+					"Name": "Deluxe Scarecrow",
+					"DisplayName": "{{i18n:Item.LoveDoll.Name}}20",
+					"Description": "{{i18n:Item.LoveDoll.Description}}",
+					"Price": 3000,
+					"Fragility": 0,
+					"Type": "Crafting",
+					"Category": -9,
+					"Texture": "Mods/{{ModId}}/Craftables",
+					"SpriteIndex": 19
+				},
+			}
+		},
+		// Line 3
+		// LoveDoll_21
+		{
+		  "Action": "EditImage",
+		  "LogName": "Scarecrow21 Animation",
+		  "Target": "Mods/{{ModId}}/Craftables",
+		  "FromFile": "assets/Animations/Scarecrow21.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 0, "Y": 64, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 7,
+		  "AnimationFrameCount": 10
+		},
+		{
+		  "Action": "EditData",
+		  "Target": "Data/BigCraftables",
+		  "Entries": {
+				"LoveDoll_21": {
+					"LogName": "Deluxe Scarecrow 21",
+					"Name": "Deluxe Scarecrow",
+					"DisplayName": "{{i18n:Item.LoveDoll.Name}}21",
+					"Description": "{{i18n:Item.LoveDoll.Description}}",
+					"Price": 3000,
+					"Fragility": 0,
+					"Type": "Crafting",
+					"Category": -9,
+					"Texture": "Mods/{{ModId}}/Craftables",
+					"SpriteIndex": 20
+				},
+			}
+		},
+		// LoveDoll_22
+		{
+		  "Action": "EditImage",
+		  "LogName": "Scarecrow22 Animation",
+		  "Target": "Mods/{{ModId}}/Craftables",
+		  "FromFile": "assets/Animations/Scarecrow22.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 16, "Y": 64, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 10,
+		  "AnimationFrameCount": 6
+		},
+		{
+		  "Action": "EditData",
+		  "Target": "Data/BigCraftables",
+		  "Entries": {
+				"LoveDoll_22": {
+					"LogName": "Deluxe Scarecrow 22",
+					"Name": "Deluxe Scarecrow",
+					"DisplayName": "{{i18n:Item.LoveDoll.Name}}22",
+					"Description": "{{i18n:Item.LoveDoll.Description}}",
+					"Price": 3000,
+					"Fragility": 0,
+					"Type": "Crafting",
+					"Category": -9,
+					"Texture": "Mods/{{ModId}}/Craftables",
+					"SpriteIndex": 21
+				},
+			}
+		},
+		// LoveDoll_23
+		{
+		  "Action": "EditImage",
+		  "LogName": "Scarecrow23 Animation",
+		  "Target": "Mods/{{ModId}}/Craftables",
+		  "FromFile": "assets/Animations/Scarecrow23.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 32, "Y": 64, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 3,
+		  "AnimationFrameCount": 8
+		},
+		{
+		  "Action": "EditData",
+		  "Target": "Data/BigCraftables",
+		  "Entries": {
+				"LoveDoll_23": {
+					"LogName": "Deluxe Scarecrow 23",
+					"Name": "Deluxe Scarecrow",
+					"DisplayName": "{{i18n:Item.LoveDoll.Name}}23",
+					"Description": "{{i18n:Item.LoveDoll.Description}}",
+					"Price": 3000,
+					"Fragility": 0,
+					"Type": "Crafting",
+					"Category": -9,
+					"Texture": "Mods/{{ModId}}/Craftables",
+					"SpriteIndex": 22
+				},
+			}
+		},
+		// LoveDoll_24
+		{
+		  "Action": "EditImage",
+		  "LogName": "Scarecrow24 Animation",
+		  "Target": "Mods/{{ModId}}/Craftables",
+		  "FromFile": "assets/Animations/Scarecrow24.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 48, "Y": 64, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 6,
+		  "AnimationFrameCount": 10
+		},
+		{
+		  "Action": "EditData",
+		  "Target": "Data/BigCraftables",
+		  "Entries": {
+				"LoveDoll_24": {
+					"LogName": "Deluxe Scarecrow 24",
+					"Name": "Deluxe Scarecrow",
+					"DisplayName": "{{i18n:Item.LoveDoll.Name}}24",
+					"Description": "{{i18n:Item.LoveDoll.Description}}",
+					"Price": 3000,
+					"Fragility": 0,
+					"Type": "Crafting",
+					"Category": -9,
+					"Texture": "Mods/{{ModId}}/Craftables",
+					"SpriteIndex": 23
+				},
+			}
+		},
+		// LoveDoll_25
+		{
+		  "Action": "EditImage",
+		  "LogName": "Scarecrow25 Animation",
+		  "Target": "Mods/{{ModId}}/Craftables",
+		  "FromFile": "assets/Animations/Scarecrow25.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 64, "Y": 64, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 6,
+		  "AnimationFrameCount": 5
+		},
+		{
+		  "Action": "EditData",
+		  "Target": "Data/BigCraftables",
+		  "Entries": {
+				"LoveDoll_25": {
+					"LogName": "Deluxe Scarecrow 25",
+					"Name": "Deluxe Scarecrow",
+					"DisplayName": "{{i18n:Item.LoveDoll.Name}}25",
+					"Description": "{{i18n:Item.LoveDoll.Description}}",
+					"Price": 3000,
+					"Fragility": 0,
+					"Type": "Crafting",
+					"Category": -9,
+					"Texture": "Mods/{{ModId}}/Craftables",
+					"SpriteIndex": 24
+				},
+			}
+		},
+		// LoveDoll_26
+		{
+		  "Action": "EditImage",
+		  "LogName": "Scarecrow26 Animation",
+		  "Target": "Mods/{{ModId}}/Craftables",
+		  "FromFile": "assets/Animations/Scarecrow26.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 80, "Y": 64, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 7,
+		  "AnimationFrameCount": 8
+		},
+		{
+		  "Action": "EditData",
+		  "Target": "Data/BigCraftables",
+		  "Entries": {
+				"LoveDoll_26": {
+					"LogName": "Deluxe Scarecrow 26",
+					"Name": "Deluxe Scarecrow",
+					"DisplayName": "{{i18n:Item.LoveDoll.Name}}26",
+					"Description": "{{i18n:Item.LoveDoll.Description}}",
+					"Price": 3000,
+					"Fragility": 0,
+					"Type": "Crafting",
+					"Category": -9,
+					"Texture": "Mods/{{ModId}}/Craftables",
+					"SpriteIndex": 25
+				},
+			}
+		},
+		// LoveDoll_27
+		{
+		  "Action": "EditImage",
+		  "LogName": "Scarecrow27 Animation",
+		  "Target": "Mods/{{ModId}}/Craftables",
+		  "FromFile": "assets/Animations/Scarecrow27.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 96, "Y": 64, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 10,
+		  "AnimationFrameCount": 6
+		},
+		{
+		  "Action": "EditData",
+		  "Target": "Data/BigCraftables",
+		  "Entries": {
+				"LoveDoll_27": {
+					"LogName": "Deluxe Scarecrow 27",
+					"Name": "Deluxe Scarecrow",
+					"DisplayName": "{{i18n:Item.LoveDoll.Name}}27",
+					"Description": "{{i18n:Item.LoveDoll.Description}}",
+					"Price": 3000,
+					"Fragility": 0,
+					"Type": "Crafting",
+					"Category": -9,
+					"Texture": "Mods/{{ModId}}/Craftables",
+					"SpriteIndex": 26
+				},
+			}
+		},
+		// LoveDoll_28
+		{
+		  "Action": "EditImage",
+		  "LogName": "Scarecrow28 Animation",
+		  "Target": "Mods/{{ModId}}/Craftables",
+		  "FromFile": "assets/Animations/Scarecrow28.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 112, "Y": 64, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 10,
+		  "AnimationFrameCount": 6
+		},
+		{
+		  "Action": "EditData",
+		  "Target": "Data/BigCraftables",
+		  "Entries": {
+				"LoveDoll_28": {
+					"LogName": "Deluxe Scarecrow 28",
+					"Name": "Deluxe Scarecrow",
+					"DisplayName": "{{i18n:Item.LoveDoll.Name}}28",
+					"Description": "{{i18n:Item.LoveDoll.Description}}",
+					"Price": 3000,
+					"Fragility": 0,
+					"Type": "Crafting",
+					"Category": -9,
+					"Texture": "Mods/{{ModId}}/Craftables",
+					"SpriteIndex": 27
+				},
+			}
+		},
+		// LoveDoll_29
+		{
+		  "Action": "EditImage",
+		  "LogName": "Scarecrow29 Animation",
+		  "Target": "Mods/{{ModId}}/Craftables",
+		  "FromFile": "assets/Animations/Scarecrow29.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 128, "Y": 64, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 6,
+		  "AnimationFrameCount": 6
+		},
+		{
+		  "Action": "EditData",
+		  "Target": "Data/BigCraftables",
+		  "Entries": {
+				"LoveDoll_29": {
+					"LogName": "Deluxe Scarecrow 29",
+					"Name": "Deluxe Scarecrow",
+					"DisplayName": "{{i18n:Item.LoveDoll.Name}}29",
+					"Description": "{{i18n:Item.LoveDoll.Description}}",
+					"Price": 3000,
+					"Fragility": 0,
+					"Type": "Crafting",
+					"Category": -9,
+					"Texture": "Mods/{{ModId}}/Craftables",
+					"SpriteIndex": 28
+				},
+			}
+		},
+		// LoveDoll_30
+		{
+		  "Action": "EditImage",
+		  "LogName": "Scarecrow30 Animation",
+		  "Target": "Mods/{{ModId}}/Craftables",
+		  "FromFile": "assets/Animations/Scarecrow30.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 144, "Y": 64, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 10,
+		  "AnimationFrameCount": 6
+		},
+		{
+		  "Action": "EditData",
+		  "Target": "Data/BigCraftables",
+		  "Entries": {
+				"LoveDoll_30": {
+					"LogName": "Deluxe Scarecrow 30",
+					"Name": "Deluxe Scarecrow",
+					"DisplayName": "{{i18n:Item.LoveDoll.Name}}30",
+					"Description": "{{i18n:Item.LoveDoll.Description}}",
+					"Price": 3000,
+					"Fragility": 0,
+					"Type": "Crafting",
+					"Category": -9,
+					"Texture": "Mods/{{ModId}}/Craftables",
+					"SpriteIndex": 29
+				},
+			}
+		},
+		// Line 4
+		// LoveDoll_31
+		{
+		  "Action": "EditImage",
+		  "LogName": "Scarecrow31 Animation",
+		  "Target": "Mods/{{ModId}}/Craftables",
+		  "FromFile": "assets/Animations/Scarecrow31.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 0, "Y": 96, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 10,
+		  "AnimationFrameCount": 6
+		},
+		{
+		  "Action": "EditData",
+		  "Target": "Data/BigCraftables",
+		  "Entries": {
+				"LoveDoll_31": {
+					"LogName": "Deluxe Scarecrow 31",
+					"Name": "Deluxe Scarecrow",
+					"DisplayName": "{{i18n:Item.LoveDoll.Name}}31",
+					"Description": "{{i18n:Item.LoveDoll.Description}}",
+					"Price": 3000,
+					"Fragility": 0,
+					"Type": "Crafting",
+					"Category": -9,
+					"Texture": "Mods/{{ModId}}/Craftables",
+					"SpriteIndex": 30
+				},
+			}
+		},
+		// LoveDoll_32
+		{
+		  "Action": "EditImage",
+		  "LogName": "Scarecrow32 Animation",
+		  "Target": "Mods/{{ModId}}/Craftables",
+		  "FromFile": "assets/Animations/Scarecrow32.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 16, "Y": 96, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 7,
+		  "AnimationFrameCount": 8
+		},
+		{
+		  "Action": "EditData",
+		  "Target": "Data/BigCraftables",
+		  "Entries": {
+				"LoveDoll_32": {
+					"LogName": "Deluxe Scarecrow 32",
+					"Name": "Deluxe Scarecrow",
+					"DisplayName": "{{i18n:Item.LoveDoll.Name}}32",
+					"Description": "{{i18n:Item.LoveDoll.Description}}",
+					"Price": 3000,
+					"Fragility": 0,
+					"Type": "Crafting",
+					"Category": -9,
+					"Texture": "Mods/{{ModId}}/Craftables",
+					"SpriteIndex": 31
+				},
+			}
+		},
+		// LoveDoll_33
+		{
+		  "Action": "EditImage",
+		  "LogName": "Scarecrow33 Animation",
+		  "Target": "Mods/{{ModId}}/Craftables",
+		  "FromFile": "assets/Animations/Scarecrow33.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 32, "Y": 96, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 3,
+		  "AnimationFrameCount": 16
+		},
+		{
+		  "Action": "EditData",
+		  "Target": "Data/BigCraftables",
+		  "Entries": {
+				"LoveDoll_33": {
+					"LogName": "Deluxe Scarecrow 33",
+					"Name": "Deluxe Scarecrow",
+					"DisplayName": "{{i18n:Item.LoveDoll.Name}}33",
+					"Description": "{{i18n:Item.LoveDoll.Description}}",
+					"Price": 3000,
+					"Fragility": 0,
+					"Type": "Crafting",
+					"Category": -9,
+					"Texture": "Mods/{{ModId}}/Craftables",
+					"SpriteIndex": 32
+				},
+			}
+		},
+		// LoveDoll_34
+		{
+		  "Action": "EditImage",
+		  "LogName": "Scarecrow34 Animation",
+		  "Target": "Mods/{{ModId}}/Craftables",
+		  "FromFile": "assets/Animations/Scarecrow34.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 48, "Y": 96, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 6,
+		  "AnimationFrameCount": 5
+		},
+		{
+		  "Action": "EditData",
+		  "Target": "Data/BigCraftables",
+		  "Entries": {
+				"LoveDoll_34": {
+					"LogName": "Deluxe Scarecrow 34",
+					"Name": "Deluxe Scarecrow",
+					"DisplayName": "{{i18n:Item.LoveDoll.Name}}34",
+					"Description": "{{i18n:Item.LoveDoll.Description}}",
+					"Price": 3000,
+					"Fragility": 0,
+					"Type": "Crafting",
+					"Category": -9,
+					"Texture": "Mods/{{ModId}}/Craftables",
+					"SpriteIndex": 33
+				},
+			}
+		},
+		// LoveDoll_35
+		{
+		  "Action": "EditImage",
+		  "LogName": "Scarecrow35 Animation",
+		  "Target": "Mods/{{ModId}}/Craftables",
+		  "FromFile": "assets/Animations/Scarecrow35.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 64, "Y": 96, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 9,
+		  "AnimationFrameCount": 10
+		},
+		{
+		  "Action": "EditData",
+		  "Target": "Data/BigCraftables",
+		  "Entries": {
+				"LoveDoll_35": {
+					"LogName": "Deluxe Scarecrow 35",
+					"Name": "Deluxe Scarecrow",
+					"DisplayName": "{{i18n:Item.LoveDoll.Name}}35",
+					"Description": "{{i18n:Item.LoveDoll.Description}}",
+					"Price": 3000,
+					"Fragility": 0,
+					"Type": "Crafting",
+					"Category": -9,
+					"Texture": "Mods/{{ModId}}/Craftables",
+					"SpriteIndex": 34
+				},
+			}
+		},
+		// LoveDoll_36
+		{
+		  "Action": "EditImage",
+		  "LogName": "Scarecrow36 Animation",
+		  "Target": "Mods/{{ModId}}/Craftables",
+		  "FromFile": "assets/Animations/Scarecrow36.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 80, "Y": 96, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 10,
+		  "AnimationFrameCount": 6
+		},
+		{
+		  "Action": "EditData",
+		  "Target": "Data/BigCraftables",
+		  "Entries": {
+				"LoveDoll_36": {
+					"LogName": "Deluxe Scarecrow 36",
+					"Name": "Deluxe Scarecrow",
+					"DisplayName": "{{i18n:Item.LoveDoll.Name}}36",
+					"Description": "{{i18n:Item.LoveDoll.Description}}",
+					"Price": 3000,
+					"Fragility": 0,
+					"Type": "Crafting",
+					"Category": -9,
+					"Texture": "Mods/{{ModId}}/Craftables",
+					"SpriteIndex": 35
+				},
+			}
+		},
+		// LoveDoll_37
+		{
+		  "Action": "EditImage",
+		  "LogName": "Scarecrow37 Animation",
+		  "Target": "Mods/{{ModId}}/Craftables",
+		  "FromFile": "assets/Animations/Scarecrow37.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 96, "Y": 96, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 7,
+		  "AnimationFrameCount": 8
+		},
+		{
+		  "Action": "EditData",
+		  "Target": "Data/BigCraftables",
+		  "Entries": {
+				"LoveDoll_37": {
+					"LogName": "Deluxe Scarecrow 37",
+					"Name": "Deluxe Scarecrow",
+					"DisplayName": "{{i18n:Item.LoveDoll.Name}}37",
+					"Description": "{{i18n:Item.LoveDoll.Description}}",
+					"Price": 3000,
+					"Fragility": 0,
+					"Type": "Crafting",
+					"Category": -9,
+					"Texture": "Mods/{{ModId}}/Craftables",
+					"SpriteIndex": 36
+				},
+			}
+		},
+		// LoveDoll_38
+		{
+		  "Action": "EditImage",
+		  "LogName": "Scarecrow38 Animation",
+		  "Target": "Mods/{{ModId}}/Craftables",
+		  "FromFile": "assets/Animations/Scarecrow38.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 112, "Y": 96, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 10,
+		  "AnimationFrameCount": 6
+		},
+		{
+		  "Action": "EditData",
+		  "Target": "Data/BigCraftables",
+		  "Entries": {
+				"LoveDoll_38": {
+					"LogName": "Deluxe Scarecrow 38",
+					"Name": "Deluxe Scarecrow",
+					"DisplayName": "{{i18n:Item.LoveDoll.Name}}38",
+					"Description": "{{i18n:Item.LoveDoll.Description}}",
+					"Price": 3000,
+					"Fragility": 0,
+					"Type": "Crafting",
+					"Category": -9,
+					"Texture": "Mods/{{ModId}}/Craftables",
+					"SpriteIndex": 37
+				},
+			}
+		},
+		// LoveDoll_39
+		{
+		  "Action": "EditImage",
+		  "LogName": "Scarecrow39 Animation",
+		  "Target": "Mods/{{ModId}}/Craftables",
+		  "FromFile": "assets/Animations/Scarecrow39.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 128, "Y": 96, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 10,
+		  "AnimationFrameCount": 6
+		},
+		{
+		  "Action": "EditData",
+		  "Target": "Data/BigCraftables",
+		  "Entries": {
+				"LoveDoll_39": {
+					"LogName": "Deluxe Scarecrow 39",
+					"Name": "Deluxe Scarecrow",
+					"DisplayName": "{{i18n:Item.LoveDoll.Name}}39",
+					"Description": "{{i18n:Item.LoveDoll.Description}}",
+					"Price": 3000,
+					"Fragility": 0,
+					"Type": "Crafting",
+					"Category": -9,
+					"Texture": "Mods/{{ModId}}/Craftables",
+					"SpriteIndex": 38
+				},
+			}
+		},
+		// LoveDoll_40
+		{
+		  "Action": "EditImage",
+		  "LogName": "Scarecrow40 Animation",
+		  "Target": "Mods/{{ModId}}/Craftables",
+		  "FromFile": "assets/Animations/Scarecrow40.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		  "ToArea": { "X": 144, "Y": 96, "Width": 16, "Height": 32 },
+		  "AnimationFrameTime": 12,
+		  "AnimationFrameCount": 6
+		},
+		{
+		  "Action": "EditData",
+		  "Target": "Data/BigCraftables",
+		  "Entries": {
+				"LoveDoll_40": {
+					"LogName": "Deluxe Scarecrow 40",
+					"Name": "Deluxe Scarecrow",
+					"DisplayName": "{{i18n:Item.LoveDoll.Name}}40",
+					"Description": "{{i18n:Item.LoveDoll.Description}}",
+					"Price": 3000,
+					"Fragility": 0,
+					"Type": "Crafting",
+					"Category": -9,
+					"Texture": "Mods/{{ModId}}/Craftables",
+					"SpriteIndex": 39
+				},
+			}
+		},
+	]
+}

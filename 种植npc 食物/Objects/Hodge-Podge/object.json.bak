@@ -1,0 +1,87 @@
+{
+    "Name": "Girl hotpot",
+    "Description": ".Hot pot made of a Girls' head.  ",
+    "Category": "Cooking",
+    "Edibility": 120,
+  	"EdibleIsFood": true,
+	"EdibleBuffs": {
+	"Farming": 7,
+	"Fishing": 7,
+	"Mining": 6,
+	"Luck": 6,
+	"Foraging": 5,
+	"MaxStamina": 35,
+	"MagnetRadius": 3,
+	"Speed": 6,
+	"Defense": 6,
+	"Attack": 6,
+	"Duration": 300,
+	},
+    "Price": 240,
+    "IsColored": false,
+    "Recipe":
+    {
+        "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": "Abigail",
+            "Count": 2,
+        },
+        {
+            "Object": "Emily",
+            "Count": 2,
+        },
+
+        {
+            "Object": "Penny",
+            "Count": 2,
+        },
+        {
+            "Object": "Maru",
+            "Count": 2,
+        },
+        {
+            "Object": "Hailey",
+            "Count": 2,
+        },
+        {
+            "Object": "Leah",
+            "Count": 2,
+        },
+        ],
+        "IsDefault": true,
+    },
+    "GiftTastes":
+    {
+        "Like": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Haley", "Jas", "Jodi", "Kent", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Vincent", "Wizard"],
+        "Dislike": ["Harvey", "Krobus", "Leah", "Willy"],
+    },
+    "NameLocalization":
+    {
+        // "es": "",
+        // "ko": "",
+       // "de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        // "ja": "",
+        // "pt": "",
+        // "ru": "",
+        // "tr": "",
+        "zh": "女孩火锅",
+    },
+    "DescriptionLocalization":
+    {
+        // "es": "",
+        // "ko": "",
+       // "de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        // "ja": "",
+        // "pt": "",
+        // "ru": "",
+        // "tr": "",
+        "zh": "用所有单身女孩的头颅做的",
+    },
+}

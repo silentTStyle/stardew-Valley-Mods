@@ -1,0 +1,21 @@
+{
+	"Changes": [
+		{
+			"LogName": "Crab Pots Same Spawn Rates",
+			"Action": "EditData",
+			"Target": "Data/Fish",
+			"Fields": {
+			    "715": {2: "0.25"},
+				"717": {2: "0.25"},
+				"723": {2: "0.25"},
+				"372": {2: "0.25"},
+				"720": {2: "0.25"},
+				"718": {2: "0.25"},
+				"719": {2: "0.25"},
+				"721": {2: "0.25"},
+				"716": {2: "0.25"},
+					},
+				"When": {"Crab Pots Same Spawn Rates": true},
+		},
+	]
+}

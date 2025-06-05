@@ -1,0 +1,15 @@
+{
+  "Changes": [
+    {
+      "LogName": "Abigail Marriage Dialogue",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueAbigail",
+      "When": {
+        "PlayerGender": "Female"
+      },
+      "Entries": {
+        "Rainy_Night_1": "#$c .5#It's a good night to see a ghost...#Hey! You look like you've been hard at work. Can I help you relax somehow?#$e#If you want I... I can go down on you when we are in bed...$4^Have you been working hard? You look cute when you're a little exhausted.$h"
+      }
+    }
+  ]
+}

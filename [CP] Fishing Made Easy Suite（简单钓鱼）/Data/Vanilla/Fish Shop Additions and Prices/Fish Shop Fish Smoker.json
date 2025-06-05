@@ -1,0 +1,22 @@
+{
+	"Changes": [
+		{
+			"LogName": "Fish Shop Fish Smoker",
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "FishShop", "Items" ],
+			"Entries": {
+			    "(BC)FishSmoker": {"TradeItemAmount": 1,
+                           "Price": 20000,
+                           "AvailableStockLimit": "Global",
+                           "Condition": null,
+                           "Id": "(BC)FishSmoker",
+                           "ItemId": "(BC)FishSmoker",},
+					   },
+			"When": {"Fish Shop Fish Smoker": true},
+			"MoveEntries": [
+                { "Id": "(BC)FishSmoker", "BeforeId": "(O)686" },
+            ]
+		},
+	]
+}

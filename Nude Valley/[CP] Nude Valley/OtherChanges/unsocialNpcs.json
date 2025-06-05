@@ -1,0 +1,347 @@
+{
+  "Changes": [
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Birdie",
+      "FromFile": "assets/Characters/Birdie.png"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Bouncer",
+      "FromFile": "assets/Characters/Bouncer.png",
+      "When": { "Futanari": "false" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Bouncer",
+      "FromFile": "assets/Characters/Bouncer_Futanari.png",
+      "When": { "Futanari": "true" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Bouncer",
+      "FromFile": "assets/Characters/Bouncer_Glasses.png",
+      "PatchMode": "Overlay",
+      "When": { "Glasses": "true" }
+    },
+	{
+      "Action": "EditImage",
+      "Target": "Characters/Gourmand",
+      "FromFile": "assets/Characters/Gourmand.png"
+    },
+	{
+      "Action": "EditImage",
+      "Target": "Characters/Governor",
+      "FromFile": "assets/Characters/Governor.png",
+      "When": { "Futanari": "false" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Governor",
+      "FromFile": "assets/Characters/Governor_Futanari.png",
+      "When": { "Futanari": "true" }
+    },
+	    {
+      "Action": "EditImage",
+      "Target": "Characters/Gunther",
+      "FromFile": "assets/Characters/Gunther.png",
+      "When": { "Futanari": "false" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Gunther",
+      "FromFile": "assets/Characters/Gunther_Futanari.png",
+      "When": { "Futanari": "true" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Gunther",
+      "FromFile": "assets/Characters/Gunther_Glasses.png",
+      "PatchMode": "Overlay",
+      "When": { "Glasses": "true" }
+    },
+	{
+      "Action": "EditImage",
+      "Target": "Characters/Henchman",
+      "FromFile": "assets/Characters/Henchman.png",
+      "When": { "Futanari": "false" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Henchman",
+      "FromFile": "assets/Characters/Henchman_Futanari.png",
+      "When": { "Futanari": "true" }
+    },
+	{
+      "Action": "EditImage",
+      "Target": "Characters/Marcello",
+      "FromFile": "assets/Characters/Marcello.png",
+      "When": { "Futanari": "false" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Marcello",
+      "FromFile": "assets/Characters/Marcello_Futanari.png",
+      "When": { "Futanari": "true" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Mariner",
+      "FromFile": "assets/Characters/Mariner.png",
+      "When": { "Futanari": "false" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Mariner",
+      "FromFile": "assets/Characters/Mariner_Futanari.png",
+      "When": { "Futanari": "true" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Marlon",
+      "FromFile": "assets/Characters/Marlon.png",
+      "When": { "Futanari": "false" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Marlon",
+      "FromFile": "assets/Characters/Marlon_Futanari.png",
+      "When": { "Futanari": "true" }
+    },
+	{
+      "Action": "EditImage",
+      "Target": "Characters/Morris",
+      "FromFile": "assets/Characters/Morris.png",
+      "When": { "Futanari": "false" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Morris",
+      "FromFile": "assets/Characters/Morris_Futanari.png",
+      "When": { "Futanari": "true" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Morris",
+      "FromFile": "assets/Characters/Morris_Glasses.png",
+      "PatchMode": "Overlay",
+      "When": { "Glasses": "true" }
+    },
+	{
+      "Action": "EditImage",
+      "Target": "Characters/MrQi",
+      "FromFile": "assets/Characters/MrQi.png",
+      "When": { "Futanari": "false" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/MrQi",
+      "FromFile": "assets/Characters/MrQi_Futanari.png",
+      "When": { "Futanari": "true" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/MrQi",
+      "FromFile": "assets/Characters/MrQi_Glasses.png",
+      "PatchMode": "Overlay",
+      "When": { "Glasses": "true" }
+    },
+	{
+      "Action": "EditImage",
+      "Target": "Characters/robot",
+      "FromFile": "assets/Characters/robot.png"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/SafariGuy",
+      "FromFile": "assets/Characters/SafariGuy.png",
+      "When": { "Futanari": "false" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/SafariGuy",
+      "FromFile": "assets/Characters/SafariGuy_Futanari.png",
+      "When": { "Futanari": "true" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/SafariGuy",
+      "FromFile": "assets/Characters/SafariGuy_Glasses.png",
+      "PatchMode": "Overlay",
+      "When": { "Glasses": "true" }
+    },
+	{
+      "Action": "EditImage",
+      "Target": "Characters/TrashBear",
+      "FromFile": "assets/Characters/TrashBear.png"
+    },
+	// Portraits
+	{
+      "Action": "EditImage",
+      "Target": "Portraits/Birdie",
+      "FromFile": "assets/Portraits/Birdie.png",
+      "When": { "Hypnosis": "false" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Birdie",
+      "FromFile": "assets/Portraits/Birdie_Hypnosis.png",
+      "When": { "Hypnosis": "true" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Bouncer",
+      "FromFile": "assets/Portraits/Bouncer.png",
+      "When": { "Hypnosis": "false" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Bouncer",
+      "FromFile": "assets/Portraits/Bouncer_Hypnosis.png",
+      "When": { "Hypnosis": "true" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Bouncer",
+      "FromFile": "assets/Portraits/Bouncer_Glasses.png",
+      "PatchMode": "Overlay",
+      "When": { "Glasses": "true" }
+    },
+	{
+      "Action": "EditImage",
+      "Target": "Portraits/Gil",
+      "FromFile": "assets/Portraits/Gil.png",
+      "When": { "Hypnosis": "false" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Gil",
+      "FromFile": "assets/Portraits/Gil_Hypnosis.png",
+      "When": { "Hypnosis": "true" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Governor",
+      "FromFile": "assets/Portraits/Governor.png",
+      "When": { "Hypnosis": "false" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Governor",
+      "FromFile": "assets/Portraits/Governor_Hypnosis.png",
+      "When": { "Hypnosis": "true" }
+    },
+	{
+      "Action": "EditImage",
+      "Target": "Portraits/Grandpa",
+      "FromFile": "assets/Portraits/Grandpa.png",
+      "When": { "Hypnosis": "false" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Grandpa",
+      "FromFile": "assets/Portraits/Grandpa_Hypnosis.png",
+      "When": { "Hypnosis": "true" }
+    },
+	{
+      "Action": "EditImage",
+      "Target": "Portraits/Gunther",
+      "FromFile": "assets/Portraits/Gunther.png",
+      "When": { "Hypnosis": "false" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Gunther",
+      "FromFile": "assets/Portraits/Gunther_Hypnosis.png",
+      "When": { "Hypnosis": "true" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Gunther",
+      "FromFile": "assets/Portraits/Gunther_Glasses.png",
+      "PatchMode": "Overlay",
+      "When": { "Glasses": "true" }
+    },
+	{
+      "Action": "EditImage",
+      "Target": "Portraits/Henchman",
+      "FromFile": "assets/Portraits/Henchman.png",
+      "When": { "Hypnosis": "false" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Henchman",
+      "FromFile": "assets/Portraits/Henchman_Hypnosis.png",
+      "When": { "Hypnosis": "true" }
+    },
+	{
+      "Action": "EditImage",
+      "Target": "Portraits/Marlon",
+      "FromFile": "assets/Portraits/Marlon.png",
+      "When": { "Hypnosis": "false" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Marlon",
+      "FromFile": "assets/Portraits/Marlon_Hypnosis.png",
+      "When": { "Hypnosis": "true" }
+    },
+	{
+      "Action": "EditImage",
+      "Target": "Portraits/Morris",
+      "FromFile": "assets/Portraits/Morris.png",
+      "When": { "Hypnosis": "false" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Morris",
+      "FromFile": "assets/Portraits/Morris_Hypnosis.png",
+      "When": { "Hypnosis": "true" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Morris",
+      "FromFile": "assets/Portraits/Morris_Glasses.png",
+      "PatchMode": "Overlay",
+      "When": { "Glasses": "true" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/MrQi",
+      "FromFile": "assets/Portraits/MrQi.png",
+      "When": { "Hypnosis": "false" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/MrQi",
+      "FromFile": "assets/Portraits/MrQi_Hypnosis.png",
+      "When": { "Hypnosis": "true" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/MrQi",
+      "FromFile": "assets/Portraits/MrQi_Glasses.png",
+      "PatchMode": "Overlay",
+      "When": { "Glasses": "true" }
+    },
+	{
+      "Action": "EditImage",
+      "Target": "Portraits/SafariGuy",
+      "FromFile": "assets/Portraits/SafariGuy.png",
+      "When": { "Hypnosis": "false" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/SafariGuy",
+      "FromFile": "assets/Portraits/SafariGuy_Hypnosis.png",
+      "When": { "Hypnosis": "true" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/SafariGuy",
+      "FromFile": "assets/Portraits/SafariGuy_Glasses.png",
+      "PatchMode": "Overlay",
+      "When": { "Glasses": "true" }
+    },
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "Changes": [
+    // Change NPC Schedules - Portraits ------------------------------------------------------------
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Sebastian",
+      "FromFile": "Characters/Sebastian/assets/Portraits/Sebastian_Lewd.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 128 },
+      "ToArea": { "X": 0, "Y": 640, "Width": 128, "Height": 128 },
+      "When": {
+		  "Change NPC Schedules": "true",
+		  "Hypnosis": "false",
+		  "Sebastian": "true",		  
+	  }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Sebastian",
+      "FromFile": "Characters/Sebastian/assets/Portraits/Sebastian_Lewd_Hypnosis.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 128 },
+      "ToArea": { "X": 0, "Y": 640, "Width": 128, "Height": 128 },
+      "When": { 
+		"Change NPC Schedules": "true", 
+		"Hypnosis": "true",
+		"Sebastian": "true",
+	  }
+    },
+	{
+      "Action": "EditImage",
+      "Target": "Portraits/Sebastian_Winter",
+      "FromFile": "Characters/Sebastian/assets/Portraits/Sebastian_Lewd.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 128 },
+      "ToArea": { "X": 0, "Y": 640, "Width": 128, "Height": 128 },
+      "When": {
+		  "Change NPC Schedules": "true",
+		  "Hypnosis": "false",
+		  "Sebastian": "true",		  
+	  }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Sebastian_Winter",
+      "FromFile": "Characters/Sebastian/assets/Portraits/Sebastian_Lewd_Hypnosis.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 128 },
+      "ToArea": { "X": 0, "Y": 640, "Width": 128, "Height": 128 },
+      "When": { 
+		"Change NPC Schedules": "true", 
+		"Hypnosis": "true",
+		"Sebastian": "true",
+	  }
+    },
+    // Change NPC Schedules - schedules ------------------------------------------------------------
+	{
+      "Action": "EditData",
+      "Target": "Characters/schedules/Sebastian",
+      "Entries": {
+        "rain": "1030 SebastianRoom 9 4 3 sebastian_onanie2/1500 Saloon 43 20 3/2110 SebastianRoom 11 9 1 sebastian_uplate",
+        "rain2": "1030 Beach 12 39 2 \"Strings\\schedules\\Sebastian:rain.000\"/1800 Custom_DarkClub 16 22 1 sebastian_smoking/2100 Custom_DarkClub 15 22 3 sebastian_onanie2",
+        "Thu": "1030 SebastianRoom 8 9 2 sebastian_onanie1/1400 Railroad 32 47 1 sebastian_smoking/1800 Custom_DarkClub 16 22 1 sebastian_smoking/2100 Custom_DarkClub 15 22 3 sebastian_onanie2",
+        "Fri": "1030 SebastianRoom 8 7 0 sebastian_dildo/1500 Saloon 42 21 3 \"Strings\\schedules\\Sebastian:Fri.000\"/2110 SebastianRoom 11 9 1 sebastian_uplate",
+        "Sat": "900 Town 17 94 2 sebastian_onanie1/1230 SamHouse 19 18 0 sebastian_keyboard_up/1500 SamHouse 21 13 1 sebastian_uplate/1800 Town 10 94 1 sebastian_smoking/1930 SebastianRoom 8 9 2 sebastian_hole/2400 SebastianRoom 11 9 1 sebastian_sleep",
+        "spring": "1030 SebastianRoom 9 4 3 sebastian_computer/1500 ScienceHouse 27 9 0/1530 SebastianRoom 9 4 3 sebastian_onanie2/1830 Mountain 58 35 1 sebastian_smoking/2130 SebastianRoom 11 9 1 sebastian_sleep",
+        "fall": "1030 SebastianRoom 9 4 3 sebastian_computer/1200 Mountain 57 33 1/1400 Mountain 64 14 2/1500 Mountain 42 13 1 sebastian_smoking/1600 ScienceHouse 27 9 0/1730 SebastianRoom 9 4 3 sebastian_onanie2/2400 SebastianRoom 11 9 1 sebastian_sleep",
+        "default": "GOTO spring"
+      },
+      "When": { "Change NPC Schedules": "true" }
+    },
+    // Change NPC Schedules - animationDescriptions ------------------------------------------------
+    {
+      "Action": "EditData",
+      "Target": "Data/animationDescriptions",
+      "Entries": {
+        "sebastian_uplate": "100/100/100/Strings\\animationDescriptions:sebastian_uplate",
+        "sebastian_onanie1": "101/101/101/Strings\\animationDescriptions:sebastian_onanie1",
+        "sebastian_onanie2": "102/102/102/Strings\\animationDescriptions:sebastian_onanie2",
+        "sebastian_hole": "103/103/103/Strings\\animationDescriptions:sebastian_hole",
+        "sebastian_dildo": "104/104/104/Strings\\animationDescriptions:sebastian_dildo",
+      },
+      "When": { "Change NPC Schedules": "true" }
+    },
+    // Change NPC Schedules - animationDescriptions Dialogue ---------------------------------------
+    {
+      "Action": "EditData",
+      "Target": "Strings/animationDescriptions",
+      "Entries": {
+        "sebastian_uplate": "{{i18n:NPC.Sebastian.UpLate}}",
+        "sebastian_onanie1": "{{i18n:NPC.Sebastian.Fuck}}",
+        "sebastian_onanie2": "{{i18n:NPC.Sebastian.Fuck}}",
+        "sebastian_hole": "{{i18n:NPC.Sebastian.Fuck}}",
+        "sebastian_dildo": "{{i18n:NPC.Sebastian.Fuck}}",
+      },
+      "When": { "Change NPC Schedules": "true" }
+    },
+  ]
+}

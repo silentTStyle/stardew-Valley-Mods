@@ -1,0 +1,14 @@
+{
+  // Dark Club - Animals ------------------------------------------------------------------------------
+  "Slave.Milk.Name": "奶奴",
+  "Slave.Milk.Description": "随着它们的成长，可以每天收集母乳。您将需要一个牛奶桶来收集它。它们可以住在谷仓里。",
+  "Slave.Semen.Name": "精液奴隶",
+  "Slave.Semen.Description": "随着它们的成长，每天都可以收集精液。您将需要一个牛奶桶来收集它。它们可以住在谷仓里。",
+  "Slave.Hair.Name": "毛奴",
+  "Slave.Hair.Description": "随着它们的生长，可以收获毛发。如果他们和主人相处融洽，毛发会长得更快。您将需要剪刀来收割头发。它们可以住在谷仓里。",
+  "Slave.Mushroom.Name": "蘑菇奴隶",
+  "Slave.Mushroom.Description": "它们是受过训练寻找神奇蘑菇的奴隶！它们可以住在鸡舍里。",
+  "Slave.Egg.Name": "蛋奴",
+  "Slave.Egg.Description": "长大后，它们每两天产一次粘液卵。它们有时会排泄奴隶之魂。它们可以住在鸡舍里。",
+  "Slave.Birth": "一个新的奴隶被孵化出来了。"
+}

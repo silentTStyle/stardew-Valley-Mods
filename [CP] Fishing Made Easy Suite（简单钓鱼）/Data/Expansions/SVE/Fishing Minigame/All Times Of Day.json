@@ -1,0 +1,24 @@
+{
+	"Changes": [
+		{
+			"LogName": "SVE - All Times Of Day",
+			"Action": "EditData",
+			"Target": "Data/Fish",
+			"Fields": {
+				"FlashShifter.StardewValleyExpandedCP_Minnow": {5: "600 2600"}, //Minnow
+				"FlashShifter.StardewValleyExpandedCP_Frog": {5: "600 2600"}, //Frog
+				"FlashShifter.StardewValleyExpandedCP_Seahorse": {5: "600 2600"}, //Seahorse
+				"FlashShifter.StardewValleyExpandedCP_Lunaloo": {5: "600 2600"}, //Lunaloo
+				"FlashShifter.StardewValleyExpandedCP_Baby_Lunaloo": {5: "600 2600"}, //Baby Lunaloo
+				"FlashShifter.StardewValleyExpandedCP_Shiny_Lunaloo": {5: "600 2600"}, //Shiny Lunaloo
+				"FlashShifter.StardewValleyExpandedCP_Clownfish": {5: "600 2600"}, //Clownfish
+				"FlashShifter.StardewValleyExpandedCP_Starfish": {5: "600 2600"}, //Starfish
+				"FlashShifter.StardewValleyExpandedCP_Barred_Knifejaw": {5: "600 2600"}, //Barred Knifejaw
+				"FlashShifter.StardewValleyExpandedCP_Blue_Tang": {5: "600 2600"}, //Blue Tang
+				"FlashShifter.StardewValleyExpandedCP_Goldfish": {5: "600 2600"}, //Goldfish
+				"FlashShifter.StardewValleyExpandedCP_Gar": {5: "600 2600"}, //Gar
+					},
+				"When": {"All Times Of Day": true},
+		},
+	]
+}

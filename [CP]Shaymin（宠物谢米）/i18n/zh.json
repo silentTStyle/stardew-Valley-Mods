@@ -1,0 +1,8 @@
+{
+	"config.Shaymin confusion change.name": "謝米/谢米混淆了變化",
+	"config.Shaymin confusion change.description": "用于改变谢米和闪光谢米的外观。",
+	"config.Shaymin confusion change.values.Shiny is Shiny and Normal is Normal": "闪光是闪光，普通是普通。",
+    "config.Shaymin confusion change.values.Shiny is Normal and Normal is Shiny": "闪光变成普通，普通变成闪光。",
+	"config.Adoption Price.name": "领养价格",
+	"config.Adoption Price.description": "收养谢米的价格。",
+}

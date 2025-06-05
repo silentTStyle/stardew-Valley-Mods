@@ -1,0 +1,184 @@
+{
+  "Changes": [
+    { //Sprites
+      "LogName": "Sprites",
+      "Action": "EditImage",
+      "Target": "Characters/Marnie, Characters/Marnie_Winter",
+      "FromFile": "assets/Characters/Marnie/Marnie_Sprites.png",
+      "Update": "OnLocationChange",
+      "ToArea": {"X": 0, "Y": 1600, "Width": 64, "Height": 896}
+    },
+    { //Undress
+      "LogName": "Undress",
+      "Action": "EditImage",
+      "Target": "Characters/Marnie, Characters/Marnie_Winter",
+      "FromFile": "assets/Characters/Marnie/{{TargetWithoutPath}}_Undress.png",
+      "Update": "OnLocationChange",
+      "ToArea": {"X": 0, "Y": 1568, "Width": 64, "Height": 32}
+    },
+    { //Extras
+      "Action": "Load",
+      "Target": "Characters/MarnieExtra",
+      "FromFile": "assets/Characters/Marnie/MarnieExtra.png"
+    },
+    { //Portraits
+      "LogName": "Portraits",
+      "Action": "EditImage",
+      "Target": "Portraits/Marnie, Portraits/Marnie_Winter",
+      "FromFile": "assets/Portraits/Marnie.png",
+      "Update": "OnLocationChange",
+      "ToArea": {"X": 0, "Y": 960, "Width": 128, "Height": 192}
+    },
+    /*=======================================================================================================================
+    SCHEDULES
+    =======================================================================================================================*/
+    { //Marnie Pleasure
+      "Action": "EditData",
+      "Target": "Characters/Schedules/Marnie",
+      "entries": {
+        "spring": "830 AnimalShop 17 5 0/850 AnimalShop 12 14 2/1600 AnimalShop 24 15 0/1800 AnimalShop 15 6 2 {{marnie_r}}/2100 AnimalShop 12 5 3 marnie_sleep",
+        "Sat": "830 AnimalShop 17 5 0/850 AnimalShop 12 14 2/1600 AnimalShop 17 8 1/1700 Saloon 9 22 1 marnie_drink/2100 Custom_FemaleToilet 4 10 2 {{marnie_r}}/2300 AnimalShop 12 5 3 marnie_sleep",
+        "Tue": "900 AnimalShop 17 5 0/1000 SeedShop 23 16 2/1300 SeedShop 28 17 2 marnie_exercise/1600 Custom_BathroomVG 12 5 2 {{marnie_r}}/1930 AnimalShop 24 15 0/2200 AnimalShop 12 5 3 marnie_sleep"
+        },
+      "When": {
+        "Pleasure": "Marnie"
+      }
+    },
+    { //SEX LEWIS
+      "Action": "EditData",
+      "Target": "Characters/Schedules/Marnie",
+      "entries": {
+        "winter_Fri": "830 AnimalShop 17 5 0/850 AnimalShop 12 14 2/1600 AnimalShop 17 8 1/1700 Saloon 8 22 1 marnie_drink/1920 Custom_BathroomVG 11 16 3/2000 Custom_BathroomVG 11 16 3 marnie_sex3/2100 Custom_BathroomVG 11 16 3 marnie_sex2/2200 Custom_BathroomVG 11 16 3 marnie_sex1/2300 AnimalShop 12 5 3 marnie_sleep"
+        },
+      "When": {
+        "Sex Schedule": "Marnie+Lewis",
+        "Relationship:Lewis": "Unmet, Friendly, Dating, Engaged, Divorced"
+      }
+    },
+    /*=======================================================================================================================
+    DIALOGUE
+    =======================================================================================================================*/
+    { //Pleasure Dialogue Angry
+      "Action": "EditData",
+      "Target": "Strings/schedules/Marnie",
+      "Update": "OnLocationChange",
+      "Entries": {
+        "pleasure1": "{{i18n:Marnie.Pleasure.Angry}}",
+        "pleasure2": "{{i18n:Marnie.Pleasure.Angry}}",
+        "pleasure3": "{{i18n:Marnie.Pleasure.Angry}}",
+        "pleasure4": "{{i18n:Marnie.Pleasure.Angry}}",
+        "pleasure5": "{{i18n:Marnie.Pleasure.Angry}}",
+        "pleasure6": "{{i18n:Marnie.Pleasure.Angry}}",
+        "pleasure7": "{{i18n:Marnie.Pleasure.Angry}}",
+        "pleasure8": "{{i18n:Marnie.Pleasure.Angry}}"
+      },
+      "When": {
+        "Hearts:Marnie": "{{Range: 0, 3}}"
+      }
+    },
+    { //Pleasure Dialogue Happy
+      "Action": "EditData",
+      "Target": "Strings/schedules/Marnie",
+      "Update": "OnLocationChange",
+      "Entries": {
+        "pleasure1": "{{i18n:Marnie.Pleasure.01}}",
+        "pleasure2": "{{i18n:Marnie.Pleasure.02}}",
+        "pleasure3": "{{i18n:Marnie.Pleasure.03}}",
+        "pleasure4": "{{i18n:Marnie.Pleasure.04}}",
+        "pleasure5": "{{i18n:Marnie.Pleasure.05}}",
+        "pleasure6": "{{i18n:Marnie.Pleasure.06}}",
+        "pleasure7": "{{i18n:Marnie.Pleasure.07}}",
+        "pleasure8": "{{i18n:Marnie.Pleasure.08}}"
+      },
+      "When": {
+        "Hearts:Marnie": "{{Range: 4, 14}}"
+      }
+    },
+    { //Sex Dialogue
+      "Action": "EditData",
+      "Target": "Strings/animationDescriptions",
+      "entries": {
+        "marnie_sex1": "{{i18n:Marnie.Sex.01}}",
+        "marnie_sex2": "{{i18n:Marnie.Sex.02}}",
+        "marnie_sex3": "{{i18n:Marnie.Sex.03}}",
+        "marnie_sex4": "{{i18n:Marnie.Sex.04}}",
+        "marnie_sex5": "{{i18n:Marnie.Sex.05}}",
+        "marnie_sex6": "{{i18n:Marnie.Sex.06}}",
+        "marnie_top": "{{i18n:Marnie.Top}}",
+        "marnie_bottom": "{{i18n:Marnie.Bottom}}"
+      }
+    },
+    /*=======================================================================================================================
+    ANIMATIONS
+    =======================================================================================================================*/
+    { //Pleasure
+      "Action": "EditData",
+      "Target": "Data/animationDescriptions",
+      "Update": "OnLocationChange",
+      "entries": {
+        "marnie_pleasure1": "196 197 198 199/200 201 202 203 204/199 198 197 196",
+        "marnie_pleasure2": "196 197 198 199/205 206 207 208 209/199 198 197 196",
+        "marnie_pleasure3": "196 197 198 199/210 211 212 213 214/199 198 197 196",
+        "marnie_pleasure4": "196 197 198 199/215 216 217 218 219/199 198 197 196",
+        "marnie_pleasure5": "196 197 198 199/220 221 222 223 224/199 198 197 196",
+        "marnie_pleasure6": "196 197 198 199/225 226 227 228 229/199 198 197 196",
+        "marnie_pleasure7": "196 197 198 199/230 231 232 233 234/199 198 197 196",
+        "marnie_pleasure8": "196 197 198 199/235 236 237 238/199 198 197 196"
+      }
+    },
+    { //Sex
+      "Action": "EditData",
+      "Target": "Data/animationDescriptions",
+      "Update": "OnLocationChange",
+      "entries": {
+        "marnie_sex1": "196 197 198 199/240 241 242 243 244/199 198 197 196/Strings\\animationDescriptions:marnie_sex1",
+        "marnie_sex2": "196 197 198 199/245 246 247 248 249/199 198 197 196/Strings\\animationDescriptions:marnie_sex2",
+        "marnie_sex3": "196 197 198 199/250 251 252 253 254/199 198 197 196/Strings\\animationDescriptions:marnie_sex3",
+        "marnie_sex4": "196 197 198 199/255 256 257 258 259/199 198 197 196/Strings\\animationDescriptions:marnie_sex4",
+        "marnie_sex5": "196 197 198 199/260 261 262 263 264/199 198 197 196/Strings\\animationDescriptions:marnie_sex5",
+        "marnie_sex6": "196 197 198 199/265 266 267 268 269/199 198 197 196/Strings\\animationDescriptions:marnie_sex6",
+        "marnie_top": "196 197 198 199/270 271 272 273 274/199 198 197 196/Strings\\animationDescriptions:marnie_top",
+        "marnie_bottom": "196 197 198 199/275 276 277 278 279/199 198 197 196/Strings\\animationDescriptions:marnie_bottom"
+      }
+    },
+    /*=======================================================================================================================
+    MALE COUNTERPART - LEWIS
+    =======================================================================================================================*/
+    { //Sprites
+      "LogName": "Sprites",
+      "Action": "EditImage",
+      "Target": "Characters/Lewis, Characters/Lewis_Winter",
+      "FromFile": "assets/Characters/Marnie/Lewis.png",
+      "Update": "OnLocationChange",
+      "ToArea": {"X": 0, "Y": 1920, "Width": 64, "Height": 64}
+    },
+    { //Dialogue
+      "Action": "EditData",
+      "Target": "Strings/animationDescriptions",
+      "entries": {
+        "lewis_marnie": "{{i18n:Lewis.Marnie}}"
+      }
+    },
+    { //Animations
+      "Action": "EditData",
+      "Target": "Data/animationDescriptions",
+      "Update": "OnLocationChange",
+      "entries": {
+        "lewis_marnie1": "0 0 0 0/246/0 0 0 0/Strings\\animationDescriptions:lewis_marnie",
+        "lewis_marnie2": "0 0 0 0/240 241 242 243 244/0 0 0 0/Strings\\animationDescriptions:lewis_marnie",
+        "lewis_marnie3": "0 0 0 0/245/0 0 0 0/Strings\\animationDescriptions:lewis_marnie"
+      }
+    },
+    { //Schedules
+      "Action": "EditData",
+      "Target": "Characters/Schedules/Lewis",
+      "entries": {
+        "winter_Fri": "800 ManorHouse 8 5 0/1000 Town 62 88 0/1040 Town 65 86 3 lewis_garden/1140 Town 30 56 2/1400 Town 29 27 3/1700 Saloon 9 22 3 lewis_drink/1920 Custom_BathroomVG 10 16 1/2000 Custom_BathroomVG 10 16 1 lewis_marnie3/2100 Custom_BathroomVG 10 16 1 lewis_marnie2/2200 Custom_BathroomVG 10 16 1 lewis_marnie1/2300 ManorHouse 22 4 1 lewis_sleep"
+        },
+      "When": {
+        "Sex Schedule": "Marnie+Lewis",
+        "Relationship:Marnie": "Unmet, Friendly, Dating, Engaged, Divorced"
+      }
+    }
+  ]
+}

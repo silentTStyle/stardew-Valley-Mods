@@ -1,0 +1,19 @@
+{
+  "Name": "Dark_Club_CP",
+  "Author": "simezi21",
+  "Version": "2.15.2",
+  "Description": "MOD 07",
+  "UniqueID": "simezi21.Dark_Club_CP",
+  "MinimumApiVersion": "3.13.0",
+  "UpdateKeys": [ "Nexus:22796" ],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher",
+    "MinimumVersion": "2.0.0"
+  },
+  "Dependencies": [
+    {
+      "UniqueID": "misscoriel.eventrepeater",
+      "IsRequired": true
+    }
+  ]
+}

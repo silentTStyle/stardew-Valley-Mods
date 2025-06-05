@@ -1,0 +1,8 @@
+{
+	"config.Shaymin confusion change.name": "Shaymin zavar változása",
+	"config.Shaymin confusion change.description": "Meg kell változtatni Shaymin és Shiny Shaymin megjelenését.",
+	"config.Shaymin confusion change.values.Shiny is Shiny and Normal is Normal": "A fényes fényes, a normál pedig normális",
+    "config.Shaymin confusion change.values.Shiny is Normal and Normal is Shiny": "A fényes normális és a normál fényes.",
+	"config.Adoption Price.name": "Örökbefogadási ár",
+	"config.Adoption Price.description": "Shaymin örökbefogadásának ára.",
+}

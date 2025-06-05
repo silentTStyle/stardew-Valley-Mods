@@ -1,0 +1,13 @@
+{
+    "Changes": [
+        {
+            "LogName": "Wizard",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Wizard",
+            "Entries": {
+                "wizard_event1": "哈，我会记住的。$1",
+                "wizard_event2": "是的，山谷似乎确实有不少绿色的因素。我认为，它与自然同在如此紧密地生活。"
+            }
+        }
+    ]
+}

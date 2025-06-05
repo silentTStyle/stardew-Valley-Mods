@@ -1,0 +1,76 @@
+{
+	"Changes": [
+		{
+			"LogName": "Advanced Iridium Rod Attach. Slots 3",
+			"Action": "EditData",
+			"Target": "Data/Tools",
+			"Fields": {
+			    "AdvancedIridiumRod": {"AttachmentSlots": 4},
+					},
+				"When": {"Adv. Iridium Rod Attach. Slots": "3 Slots"},
+		},
+		{
+			"LogName": "Advanced Iridium Rod Attach. Slots 4",
+			"Action": "EditData",
+			"Target": "Data/Tools",
+			"Fields": {
+			    "AdvancedIridiumRod": {"AttachmentSlots": 5},
+					},
+				"When": {"Adv. Iridium Rod Attach. Slots": "4 Slots"},
+		},
+		{
+			"LogName": "Advanced Iridium Rod Attach. Slots 5",
+			"Action": "EditData",
+			"Target": "Data/Tools",
+			"Fields": {
+			    "AdvancedIridiumRod": {"AttachmentSlots": 6},
+					},
+				"When": {"Adv. Iridium Rod Attach. Slots": "5 Slots"},
+		},
+		{
+			"LogName": "Advanced Iridium Rod Attach. Slots 6",
+			"Action": "EditData",
+			"Target": "Data/Tools",
+			"Fields": {
+			    "AdvancedIridiumRod": {"AttachmentSlots": 7},
+					},
+				"When": {"Adv. Iridium Rod Attach. Slots": "6 Slots"},
+		},
+		{
+			"LogName": "Advanced Iridium Rod Attach. Slots 7",
+			"Action": "EditData",
+			"Target": "Data/Tools",
+			"Fields": {
+			    "AdvancedIridiumRod": {"AttachmentSlots": 8},
+					},
+				"When": {"Adv. Iridium Rod Attach. Slots": "7 Slots"},
+		},
+		{
+			"LogName": "Advanced Iridium Rod Attach. Slots 8",
+			"Action": "EditData",
+			"Target": "Data/Tools",
+			"Fields": {
+			    "AdvancedIridiumRod": {"AttachmentSlots": 9},
+					},
+				"When": {"Adv. Iridium Rod Attach. Slots": "8 Slots"},
+		},
+		{
+			"LogName": "Advanced Iridium Rod Attach. Slots 9",
+			"Action": "EditData",
+			"Target": "Data/Tools",
+			"Fields": {
+			    "AdvancedIridiumRod": {"AttachmentSlots": 10},
+					},
+				"When": {"Adv. Iridium Rod Attach. Slots": "9 Slots"},
+		},
+		{
+			"LogName": "Advanced Iridium Rod Attach. Slots 10",
+			"Action": "EditData",
+			"Target": "Data/Tools",
+			"Fields": {
+			    "AdvancedIridiumRod": {"AttachmentSlots": 11},
+					},
+				"When": {"Adv. Iridium Rod Attach. Slots": "10 Slots"},
+		},
+	]
+}

@@ -1,0 +1,51 @@
+{
+  "Changes": [
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Evelyn",
+      "FromFile": "assets/Characters/Evelyn.png"
+    },
+	{
+      "Action": "EditImage",
+      "Target": "Characters/Evelyn_Winter",
+      "FromFile": "assets/Characters/Evelyn.png"
+    },
+	// Portraits -----------------------------------------------------------------------------------
+	{
+      "Action": "EditImage",
+      "Target": "Portraits/Evelyn",
+      "FromFile": "assets/Portraits/Evelyn.png",
+      "When": { 
+		"Hypnosis": "false",
+		"Evelyn": "On",
+	  }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Evelyn",
+      "FromFile": "assets/Portraits/Evelyn_Hypnosis.png",
+      "When": { 
+		"Hypnosis": "true",
+		"Evelyn": "On",
+	  }
+    },
+	{
+      "Action": "EditImage",
+      "Target": "Portraits/Evelyn_Winter",
+      "FromFile": "assets/Portraits/Evelyn.png",
+      "When": { 
+		"Hypnosis": "false",
+		"Evelyn": "On",
+	  }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Evelyn_Winter",
+      "FromFile": "assets/Portraits/Evelyn_Hypnosis.png",
+      "When": { 
+		"Hypnosis": "true",
+		"Evelyn": "On",
+	  }
+    },
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  // Dark Club - Animals ------------------------------------------------------------------------------
+  "Slave.Milk.Name": "Milk Slave",
+  "Slave.Milk.Description": "As they grows, breast milk can be collected daily. You will need a milk pail to collect it. They can live in a barn.",
+  "Slave.Semen.Name": "Semen Slave",
+  "Slave.Semen.Description": "As they grow, semen can be collected daily. You will need a milk pail to collect it. They can live in a barn.",
+  "Slave.Hair.Name": "Hair Slave",
+  "Slave.Hair.Description": "As they grow, hair can be harvested. If they get along well with their master, the hair will grow faster. You will need shears to harvest hair. They can live in a barn.",
+  "Slave.Mushroom.Name": "Mushroom Slave",
+  "Slave.Mushroom.Description": "They are slaves trained to look for magic mushrooms! They can live in a coop.",
+  "Slave.Egg.Name": "Egg Slave",
+  "Slave.Egg.Description": "When grown, they lay a slime egg once every two days. They sometimes excrete slave souls. They can live in a coop.",
+  "Slave.Birth": "A new slave was incubated."
+}

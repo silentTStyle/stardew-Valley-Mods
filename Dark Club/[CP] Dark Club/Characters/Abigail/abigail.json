@@ -1,0 +1,97 @@
+{
+  "Changes": [
+    // Change Abigail Schedules - Portraits ------------------------------------------------------------
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Abigail",
+      "FromFile": "Characters/Abigail/assets/Portraits/Abigail_Lewd.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 128 },
+      "ToArea": { "X": 0, "Y": 640, "Width": 128, "Height": 128 },
+      "When": {
+		  "Change NPC Schedules": "true", 
+		  "Hypnosis": "false",
+		  "Abigail": "true",
+	  }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Abigail",
+      "FromFile": "Characters/Abigail/assets/Portraits/Abigail_Lewd_Hypnosis.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 128 },
+      "ToArea": { "X": 0, "Y": 640, "Width": 128, "Height": 128 },
+      "When": { 
+		"Change NPC Schedules": "true", 
+		"Hypnosis": "true",
+		"Abigail": "true",
+	  }
+    },
+	{
+      "Action": "EditImage",
+      "Target": "Portraits/Abigail_Winter",
+      "FromFile": "Characters/Abigail/assets/Portraits/Abigail_Lewd.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 128 },
+      "ToArea": { "X": 0, "Y": 640, "Width": 128, "Height": 128 },
+      "When": {
+		  "Change NPC Schedules": "true", 
+		  "Hypnosis": "false",
+		  "Abigail": "true",
+	  }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Abigail_Winter",
+      "FromFile": "Characters/Abigail/assets/Portraits/Abigail_Lewd_Hypnosis.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 128 },
+      "ToArea": { "X": 0, "Y": 640, "Width": 128, "Height": 128 },
+      "When": { 
+		"Change NPC Schedules": "true", 
+		"Hypnosis": "true",
+		"Abigail": "true",
+	  }
+    },
+     // Change Abigail Schedules - schedules ------------------------------------------------------------
+    {
+      "Action": "EditData",
+      "Target": "Characters/schedules/Abigail",
+      "Entries": {
+        "rain": "GOTO Fri",
+        "rain2": "900 SeedShop 9 5 0/1100 SeedShop 13 20 0/1300 SeedShop 39 5 0/1500 SeedShop 7 9 2/1800 Custom_DarkClub 3 26 2 abigail_sit_down/2000 Custom_DarkClub 3 26 2 abigail_onanie2",
+        "Wed": "900 ArchaeologyHouse 11 9 0/1300 Town 105 95 2 abigail_onanie1/1800 Town 47 87 0/2200 SeedShop 1 9 3 abigail_uplate",
+        "Fri": "900 SeedShop 34 5 0/1100 SeedShop 9 17 0 abigail_dildo/1500 Saloon 42 17 2 abigail_sit_down/1900 Saloon 42 17 2 abigail_onanie2/2300 SeedShop 1 9 3 abigail_uplate",
+        "Sun": "900 SeedShop 4 5 0/1030 SeedShop 20 5 1 \"Strings\\schedules\\Abigail:Sun.000\"/1300 Forest 14 40 2 abigail_onanie1/1800 Custom_DarkClub 3 26 2 abigail_sit_down/2100 Custom_DarkClub 3 26 2 abigail_onanie2",
+        "spring": "900 SeedShop 39 5 0/1030 SeedShop 2 20 3/1300 Town 73 54 2/1630 SeedShop 3 6 0 abigail_videogames/1930 SeedShop 3 6 2 abigail_vibrator/2330 SeedShop 1 9 3 abigail_sleep",
+        "summer": "900 SeedShop 39 5 0/1030 Railroad 30 45 2 abigail_onanie1/1400 Mountain 49 31 1/1740 SeedShop 3 6 0 abigail_videogames/2030 SeedShop 3 6 2 abigail_vibrator/2330 SeedShop 1 9 3 abigail_sleep",
+        "fall": "900 SeedShop 39 5 0/1030 SeedShop 2 20 3/1300 BusStop 22 5 2/1700 SeedShop 3 6 0 abigail_videogames/1930 SeedShop 3 6 2 abigail_vibrator/2330 SeedShop 1 9 3 abigail_sleep",
+        "fall_Mon": "900 SeedShop 10 5 0/1100 Beach 13 39 2/1600 Beach 13 39 2 abigail_onanie1/2100 SeedShop 1 9 3 abigail_sleep",
+        "winter": "900 SeedShop 39 5 0/1030 ScienceHouse 5 19 1/1430 SeedShop 3 6 0 abigail_videogames/1800 SeedShop 3 6 2 abigail_vibrator/2030 SeedShop 5 6 1 abigail_dildo/2330 SeedShop 1 9 3 abigail_sleep"
+      },
+      "When": { "Change NPC Schedules": "true" }
+    },
+    // Change Abigail Schedules - animationDescriptions ------------------------------------------------
+    {
+      "Action": "EditData",
+      "Target": "Data/animationDescriptions",
+      "Entries": {
+        "abigail_uplate": "100/100/100/Strings\\animationDescriptions:abigail_uplate",
+        "abigail_onanie1": "101/101/101/Strings\\animationDescriptions:abigail_onanie1",
+        "abigail_onanie2": "102/102/102/Strings\\animationDescriptions:abigail_onanie2",
+        "abigail_dildo": "103/103/103/Strings\\animationDescriptions:abigail_dildo",
+        "abigail_vibrator": "104/104/104/Strings\\animationDescriptions:abigail_vibrator",
+      },
+      "When": { "Change NPC Schedules": "true" }
+    },
+    // Change NPC Schedules - animationDescriptions Dialogue ---------------------------------------
+    {
+      "Action": "EditData",
+      "Target": "Strings/animationDescriptions",
+      "Entries": {
+        "abigail_uplate": "{{i18n:NPC.Abigail.UpLate}}",
+        "abigail_onanie1": "{{i18n:NPC.Abigail.Fuck}}",
+        "abigail_onanie2": "{{i18n:NPC.Abigail.Fuck}}",
+        "abigail_dildo": "{{i18n:NPC.Abigail.Fuck}}",
+        "abigail_vibrator": "{{i18n:NPC.Abigail.Fuck}}",
+      },
+      "When": { "Change NPC Schedules": "true" }
+    },
+  ]
+}

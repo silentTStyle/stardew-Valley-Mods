@@ -1,0 +1,215 @@
+{
+  "Changes": [
+    { //Sprites
+      "LogName": "Sprites",
+      "Action": "EditImage",
+      "Target": "Characters/Maru, Characters/Maru_Winter, Characters/Maru_Hospital",
+      "FromFile": "assets/Characters/Maru/Maru_Sprites.png",
+      "Update": "OnLocationChange",
+      "ToArea": {"X": 0, "Y": 1600, "Width": 64, "Height": 896}
+    },
+    { //Undress
+      "LogName": "Undress",
+      "Action": "EditImage",
+      "Target": "Characters/Maru, Characters/Maru_Winter",
+      "FromFile": "assets/Characters/Maru/{{TargetWithoutPath}}_Undress.png",
+      "Update": "OnLocationChange",
+      "ToArea": {"X": 0, "Y": 1568, "Width": 64, "Height": 32}
+    },
+    { //Extras
+      "Action": "Load",
+      "Target": "Characters/MaruExtra",
+      "FromFile": "assets/Characters/Maru/MaruExtra.png"
+    },
+    { //Portraits
+      "LogName": "Portraits",
+      "Action": "EditImage",
+      "Target": "Portraits/Maru, Portraits/Maru_Winter, Portraits/Maru_Hospital",
+      "FromFile": "assets/Portraits/Maru.png",
+      "Update": "OnLocationChange",
+      "ToArea": {"X": 0, "Y": 960, "Width": 128, "Height": 192}
+    },
+    /*=======================================================================================================================
+    SCHEDULES
+    =======================================================================================================================*/
+    { //Maru Pleasure
+      "Action": "EditData",
+      "Target": "Characters/Schedules/Maru",
+      "entries": {
+        //SEASON
+        "spring": "800 ScienceHouse 5 6 1 maru_tinker/1000 ScienceHouse 19 18 0/1400 Town 63 15 2 maru_sit_down/1800 ScienceHouse 5 6 2 {{maru_r}}/2200 ScienceHouse 2 4 3 maru_sleep",
+        "summer": "800 ScienceHouse 5 6 2 {{maru_r}}/1000 ScienceHouse 19 18 0/1400 Mountain 55 31 0/1900 Mountain 8 23 3 \"Strings\\schedules\\Maru:summer.000\"/2400 ScienceHouse 2 4 3 maru_sleep",
+        "winter": "800 ScienceHouse 5 6 2 {{maru_r}}/900 ScienceHouse 19 18 0/1100 CommunityCenter 15 27 0/1600 ScienceHouse 5 6 1 maru_tinker/2200 ScienceHouse 2 4 3 maru_sleep",
+        //RAIN
+        "rain": "800 ScienceHouse 6 4 0/1000 ScienceHouse 5 6 2 {{maru_r}}/1230 ScienceHouse 2 21 1/1430 ScienceHouse 19 18 0/1630 ScienceHouse 5 6 1 maru_tinker/1800 ScienceHouse 5 6 2 {{maru_r}}/2300 ScienceHouse 2 4 3 maru_sleep",
+        //OTHER DAYS
+        "Mon": "800 ScienceHouse 5 6 1 maru_tinker/1000 ScienceHouse 19 18 0/1330 Town 43 77 2 maru_sit_down/1830 ScienceHouse 5 6 2 {{maru_r}}/2300 ScienceHouse 2 4 3 maru_sleep",
+        "Tue": "730 Hospital 6 15 2/1400 Hospital 9 15 3/1600 Hospital 8 17 1/1640 ScienceHouse 26 13 1/2200 ScienceHouse 5 6 2 {{maru_r}}/2400 ScienceHouse 2 4 3 maru_sleep",
+        "summer_Mon": "800 ScienceHouse 5 6 2 {{maru_r}}/1000 ScienceHouse 19 18 0/1310 Town 64 16 3/1830 ScienceHouse 5 6 1 maru_tinker/2300 ScienceHouse 2 4 3 maru_sleep",
+        //MARRIAGE
+        "marriage_Mon": "800 ScienceHouse 6 20 0 \"Strings\\schedules\\Maru:marriage_Mon.000\"/1200 ScienceHouse 16 18 0 \"Strings\\schedules\\Maru:marriage_Mon.001\"/1400 Town 63 15 2 maru_sit_down \"Strings\\schedules\\Maru:marriage_Mon.002\"/1600 Custom_BathroomVG 5 4 2 {{maru_r}}/2200 BusStop -1 23 3",
+        "marriageJob": "730 Hospital 6 15 2 \"Strings\\schedules\\Maru:marriageJob.000\"/1400 Hospital 9 15 3 \"Strings\\schedules\\Maru:marriageJob.001\"/1600 Hospital 8 17 1 \"Strings\\schedules\\Maru:marriageJob.002\"/1640 Custom_BathroomVG 5 4 2 {{maru_r}}/2200 BusStop -1 23 3"
+      },
+      "When": {
+        "Pleasure": "Maru"
+      }
+    },
+    { //SEX PENNY
+      "Action": "EditData",
+      "entries": {
+        //FALL THURSDAY - MARU BOTTOM
+        "fall_4": "730 Hospital 6 15 2/1400 Hospital 9 15 3/1600 Hospital 8 17 1/1630 Custom_BathroomVG 15 7 0/1800 Custom_BathroomVG 15 7 0 maru_bottom/2300 ScienceHouse 9 6 1/2400 ScienceHouse 2 4 3 maru_sleep",
+        "fall_11": "GOTO fall_4",
+        "fall_18": "GOTO fall_4",
+        "fall_25": "GOTO fall_4"
+      },
+      "Target": "Characters/Schedules/Maru",
+      "When": {
+        "Sex Schedule": "Maru+Penny",
+        "Relationship:Penny": "Unmet, Friendly, Dating, Engaged, Divorced"
+      }
+    },
+    { //SEX HARVEY
+      "Action": "EditData",
+      "Target": "Characters/Schedules/Maru",
+      "entries": {
+        "summer_2": "730 Hospital 6 15 2/1400 Hospital 9 15 3/1430 Hospital 19 5 3/1500 Hospital 19 5 3 maru_sex3/1530 Hospital 19 5 3 maru_sex2/1600 Hospital 19 5 3 maru_sex1/1640 ScienceHouse 26 13 1/2200 ScienceHouse 9 6 1/2400 ScienceHouse 2 4 3 maru_sleep",
+        "summer_9": "GOTO summer_2",
+        "summer_16": "GOTO summer_2",
+        "summer_23": "GOTO summer_2"
+      },
+      "When": {
+        "Sex Schedule": "Maru+Penny",
+        "Relationship:Harvey": "Unmet, Friendly, Dating, Engaged, Divorced"
+      }
+    },
+    /*=======================================================================================================================
+    DIALOGUE
+    =======================================================================================================================*/
+    { //Pleasure Dialogue Angry
+      "Action": "EditData",
+      "Target": "Strings/schedules/Maru",
+      "Update": "OnLocationChange",
+      "Entries": {
+        "pleasure1": "{{i18n:Maru.Pleasure.Angry}}",
+        "pleasure2": "{{i18n:Maru.Pleasure.Angry}}",
+        "pleasure3": "{{i18n:Maru.Pleasure.Angry}}",
+        "pleasure4": "{{i18n:Maru.Pleasure.Angry}}",
+        "pleasure5": "{{i18n:Maru.Pleasure.Angry}}",
+        "pleasure6": "{{i18n:Maru.Pleasure.Angry}}",
+        "pleasure7": "{{i18n:Maru.Pleasure.Angry}}",
+        "pleasure8": "{{i18n:Maru.Pleasure.Angry}}"
+      },
+      "When": {
+        "Hearts:Maru": "{{Range: 0, 3}}"
+      }
+    },
+    { //Pleasure Dialogue Happy
+      "Action": "EditData",
+      "Target": "Strings/schedules/Maru",
+      "Update": "OnLocationChange",
+      "Entries": {
+        "pleasure1": "{{i18n:Maru.Pleasure.01}}",
+        "pleasure2": "{{i18n:Maru.Pleasure.02}}",
+        "pleasure3": "{{i18n:Maru.Pleasure.03}}",
+        "pleasure4": "{{i18n:Maru.Pleasure.04}}",
+        "pleasure5": "{{i18n:Maru.Pleasure.05}}",
+        "pleasure6": "{{i18n:Maru.Pleasure.06}}",
+        "pleasure7": "{{i18n:Maru.Pleasure.07}}",
+        "pleasure8": "{{i18n:Maru.Pleasure.08}}"
+      },
+      "When": {
+        "Hearts:Maru": "{{Range: 4, 14}}"
+      }
+    },
+    { //Sex Dialogue
+      "Action": "EditData",
+      "Target": "Strings/animationDescriptions",
+      "entries": {
+        "maru_sex1": "{{i18n:Maru.Sex.01}}",
+        "maru_sex2": "{{i18n:Maru.Sex.02}}",
+        "maru_sex3": "{{i18n:Maru.Sex.03}}",
+        "maru_sex4": "{{i18n:Maru.Sex.04}}",
+        "maru_sex5": "{{i18n:Maru.Sex.05}}",
+        "maru_sex6": "{{i18n:Maru.Sex.06}}",
+        "maru_top": "{{i18n:Maru.Top}}",
+        "maru_bottom": "{{i18n:Maru.Bottom}}"
+      }
+    },
+    /*=======================================================================================================================
+    ANIMATIONS
+    =======================================================================================================================*/
+    { //Pleasure
+      "Action": "EditData",
+      "Target": "Data/animationDescriptions",
+      "Update": "OnLocationChange",
+      "entries": {
+        "maru_pleasure1": "196 197 198 199/200 201 202 203 204/199 198 197 196",
+        "maru_pleasure2": "196 197 198 199/205 206 207 208 209/199 198 197 196",
+        "maru_pleasure3": "196 197 198 199/210 211 212 213 214/199 198 197 196",
+        "maru_pleasure4": "196 197 198 199/215 216 217 218 219/199 198 197 196",
+        "maru_pleasure5": "196 197 198 199/220 221 222 223 224/199 198 197 196",
+        "maru_pleasure6": "196 197 198 199/225 226 227 228 229/199 198 197 196",
+        "maru_pleasure7": "196 197 198 199/230 231 232 233 234/199 198 197 196",
+        "maru_pleasure8": "196 197 198 199/235 236 237 238/199 198 197 196"
+      }
+    },
+    { //Sex
+      "Action": "EditData",
+      "Target": "Data/animationDescriptions",
+      "Update": "OnLocationChange",
+      "entries": {
+        "maru_sex1": "196 197 198 199/240 241 242 243 244/199 198 197 196/Strings\\animationDescriptions:maru_sex1",
+        "maru_sex2": "196 197 198 199/245 246 247 248 249/199 198 197 196/Strings\\animationDescriptions:maru_sex2",
+        "maru_sex3": "196 197 198 199/250 251 252 253 254/199 198 197 196/Strings\\animationDescriptions:maru_sex3",
+        "maru_sex4": "196 197 198 199/255 256 257 258 259/199 198 197 196/Strings\\animationDescriptions:maru_sex4",
+        "maru_sex5": "196 197 198 199/260 261 262 263 264/199 198 197 196/Strings\\animationDescriptions:maru_sex5",
+        "maru_sex6": "196 197 198 199/265 266 267 268 269/199 198 197 196/Strings\\animationDescriptions:maru_sex6",
+        "maru_top": "196 197 198 199/270 271 272 273 274/199 198 197 196/Strings\\animationDescriptions:maru_top",
+        "maru_bottom": "196 197 198 199/275 276 277 278 279/199 198 197 196/Strings\\animationDescriptions:maru_bottom"
+      }
+    },
+    /*=======================================================================================================================
+    MALE COUNTERPART - HARVEY
+    =======================================================================================================================*/
+    { //Sprites
+      "LogName": "Sprites",
+      "Action": "EditImage",
+      "Target": "Characters/Harvey, Characters/Harvey_Winter",
+      "FromFile": "assets/Characters/Maru/Harvey.png",
+      "Update": "OnLocationChange",
+      "ToArea": {"X": 0, "Y": 1920, "Width": 64, "Height": 64}
+    },
+    { //Dialogue
+      "Action": "EditData",
+      "Target": "Strings/animationDescriptions",
+      "entries": {
+        "harvey_maru": "{{i18n:Harvey.Maru}}"
+      }
+    },
+    { //Animations
+      "Action": "EditData",
+      "Target": "Data/animationDescriptions",
+      "Update": "OnLocationChange",
+      "entries": {
+        "harvey_maru1": "0 0 0 0/246/0 0 0 0/Strings\\animationDescriptions:harvey_maru",
+        "harvey_maru2": "0 0 0 0/240 241 242 243 244/0 0 0 0/Strings\\animationDescriptions:harvey_maru",
+        "harvey_maru3": "0 0 0 0/245/0 0 0 0/Strings\\animationDescriptions:harvey_maru"
+      }
+    },
+    { //Schedules
+      "Action": "EditData",
+      "Target": "Characters/Schedules/Harvey",
+      "entries": {
+        "summer_2": "730 Hospital 1 5 0/1250 Hospital 10 14 2/1330 Hospital 5 5 2/1410 Hospital 18 5 1/1500 Hospital 18 5 1 harvey_maru3/1530 Hospital 18 5 1 harvey_maru2/1600 Hospital 18 5 1 harvey_maru1/1640 Hospital 3 15 0/1800 HarveyRoom 9 5 0/2300 HarveyRoom 13 4 1 harvey_sleep",
+        "summer_9": "GOTO summer_2",
+        "summer_16": "GOTO summer_2",
+        "summer_23": "GOTO summer_2"
+      },
+      "When": {
+        "Sex Schedule": "Maru+Harvey",
+        "Relationship:Maru": "Unmet, Friendly, Dating, Engaged, Divorced"
+      }
+    }
+  ]
+}

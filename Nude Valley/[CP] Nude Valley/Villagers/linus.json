@@ -1,0 +1,65 @@
+{
+  "Changes": [
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Linus",
+      "FromFile": "assets/Characters/Linus.png",
+      "When": { "Futanari": "false" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Linus",
+      "FromFile": "assets/Characters/Linus_Futanari.png",
+      "When": { "Futanari": "true" }
+    },
+	{
+      "Action": "EditImage",
+      "Target": "Characters/Linus_Winter",
+      "FromFile": "assets/Characters/Linus.png",
+      "When": { "Futanari": "false" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Linus_Winter",
+      "FromFile": "assets/Characters/Linus_Futanari.png",
+      "When": { "Futanari": "true" }
+    },
+	// Portraits -----------------------------------------------------------------------------------
+	{
+      "Action": "EditImage",
+      "Target": "Portraits/Linus",
+      "FromFile": "assets/Portraits/Linus.png",
+      "When": { 
+		"Hypnosis": "false",
+		"Linus": "On",
+	  }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Linus",
+      "FromFile": "assets/Portraits/Linus_Hypnosis.png",
+      "When": { 
+		"Hypnosis": "true",
+		"Linus": "On",
+	  }
+    },
+	{
+      "Action": "EditImage",
+      "Target": "Portraits/Linus_Winter",
+      "FromFile": "assets/Portraits/Linus.png",
+      "When": { 
+		"Hypnosis": "false",
+		"Linus": "On",
+	  }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Linus_Winter",
+      "FromFile": "assets/Portraits/Linus_Hypnosis.png",
+      "When": { 
+		"Hypnosis": "true",
+		"Linus": "On",
+	  }
+    },
+  ]
+}

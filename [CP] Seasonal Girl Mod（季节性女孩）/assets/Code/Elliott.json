@@ -1,0 +1,182 @@
+{
+	"Changes": [
+	//Portraits
+		{
+			"LogName": "Elliott - Winter",
+			"Action": "EditImage",
+			"Target": "Portraits/Elliott_Winter",
+			"FromFile": "assets/{{TargetPathOnly}}/Elliott/{{TargetWithoutPath}}{{IndoorVariant}}{{Alt}}.png",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+			},
+		},
+		{
+			"LogName": "Elliott - Winter Indoor/Outdoor 2",
+			"Action": "EditImage",
+			"Target": "Portraits/Elliott_Winter",
+			"FromFile": "assets/{{TargetPathOnly}}/Elliott/{{TargetWithoutPath}}{{IndoorVariant}}{{Alt}}.png",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+                "Season": "Winter",
+                "WinterIndoorOutdoorOutfits": "IndoorOutdoor",
+			},
+			"Update": "OnLocationChange",
+		},
+		{
+			"LogName": "Elliott - Seasonal",
+			"Action": "EditImage",
+			"Target": "Portraits/Elliott",
+			"FromFile": "assets/{{Target}}/{{TargetWithoutPath}}_{{season}}{{IndoorVariant}}{{Alt}}.png",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+			},
+		},
+		{
+			"LogName": "Elliott - Winter Indoor/Outdoor",
+			"Action": "EditImage",
+			"Target": "Portraits/Elliott",
+			"FromFile": "assets/{{Target}}/{{TargetWithoutPath}}_{{season}}{{IndoorVariant}}{{Alt}}.png",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+                "Season": "Winter",
+                "WinterIndoorOutdoorOutfits": "IndoorOutdoor",
+			},
+			"Update": "OnLocationChange",
+		},
+		{
+			"LogName": "Elliott - Festival",
+			"Action": "EditImage",
+			"Target": "Portraits/Elliott, Portraits/Elliott_Winter",
+            "FromFile": "assets/{{TargetPathOnly}}/Festivals/{{Festival}}/{{TargetWithoutPath}}_{{Festival}}{{Alt}}.png",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+				"FestivalOutfits": "True",
+			},
+			"Update": "OnLocationChange",
+		},
+		{
+			"LogName": "Elliott - Beach",
+			"Action": "EditImage",
+			"Target": "Portraits/Elliott_Beach",
+			"FromFile": "assets/{{TargetPathOnly}}/Beach/{{TargetWithoutPath}}{{Alt}}.png",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+			},
+		},
+	//Sprites
+	{
+			"LogName": "Elliott - Winter",
+			"Action": "EditImage",
+			"Target": "Characters/Elliott_Winter",
+			"FromFile": "assets/{{TargetPathOnly}}/Elliott/{{TargetWithoutPath}}{{IndoorVariant}}.png",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+			},
+		},
+		{
+			"LogName": "Elliott - Winter Indoor/Outdoor 2",
+			"Action": "EditImage",
+			"Target": "Characters/Elliott_Winter",
+			"FromFile": "assets/{{TargetPathOnly}}/Elliott/{{TargetWithoutPath}}{{IndoorVariant}}.png",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+                "Season": "Winter",
+                "WinterIndoorOutdoorOutfits": "IndoorOutdoor",
+			},
+			"Update": "OnLocationChange",
+		},
+		{
+			"LogName": "Elliott - Seasonal",
+			"Action": "EditImage",
+			"Target": "Characters/Elliott",
+			"FromFile": "assets/{{Target}}/{{TargetWithoutPath}}_{{season}}{{IndoorVariant}}.png",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+			},
+		},
+		{
+			"LogName": "Elliott - Winter Indoor/Outdoor",
+			"Action": "EditImage",
+			"Target": "Characters/Elliott",
+			"FromFile": "assets/{{Target}}/{{TargetWithoutPath}}_{{season}}{{IndoorVariant}}.png",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+                "Season": "Winter",
+                "WinterIndoorOutdoorOutfits": "IndoorOutdoor",
+			},
+			"Update": "OnLocationChange",
+		},
+		{
+			"LogName": "Elliott - Festival",
+			"Action": "EditImage",
+			"Target": "Characters/Elliott, Characters/Elliott_Winter",
+            "FromFile": "assets/{{TargetPathOnly}}/Festivals/{{Festival}}/{{TargetWithoutPath}}_{{Festival}}.png",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+				"FestivalOutfits": "True",
+			},
+			"Update": "OnLocationChange",
+		},
+		{
+			"LogName": "Elliott - Beach",
+			"Action": "EditImage",
+			"Target": "Characters/Elliott_Beach",
+			"FromFile": "assets/{{TargetPathOnly}}/Beach/{{TargetWithoutPath}}.png",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+			},
+		},
+			
+		//Bandaid Wedding Fix for Invatorzen's Dialogue Changes
+		{
+			"LogName": "Elliott Wedding Fix",
+			"Action": "EditData",
+			"Target": "Data/Characters",
+			"When": {"DayEvent": "wedding"},
+			"Fields": {
+				"Elliott": {
+					"Gender": "Male",
+				},
+			},
+		},
+		
+// MISCELLANEOUS		
+		{
+			"LogName": "Elliott - Spouse Portrait",
+			"Action": "EditImage",
+			"Target": "TileSheets/junimo_furniture",
+			"FromFile": "assets/Characters/junimo_furniture_Elliott.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+			},
+		},		
+		/*
+		{
+			"LogName": "Elliott - Emoji",
+			"Action": "EditImage",
+			"Target": "LooseSprites/emojis",
+            "FromFile": "assets/Random/emojis.png",
+			"FromArea": {"X": 54, "Y": 99, "Width": 9, "Height": 9},
+			"ToArea": {"X": 54, "Y": 99, "Width": 9, "Height": 9},
+			"When": 
+			{
+				"HasFile:{{FromFile}}": true,
+			},
+		},
+		*/
+	]
+}

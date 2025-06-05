@@ -1,0 +1,74 @@
+{
+  "Changes": [
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Jodi",
+      "FromFile": "assets/Characters/Jodi.png",
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Jodi_Beach",
+      "FromFile": "assets/Characters/Jodi_Beach.png",
+    },
+	{
+      "Action": "EditImage",
+      "Target": "Characters/Jodi_Winter",
+      "FromFile": "assets/Characters/Jodi.png",
+    },
+	// Portraits -----------------------------------------------------------------------------------
+	{
+      "Action": "EditImage",
+      "Target": "Portraits/Jodi",
+      "FromFile": "assets/Portraits/Jodi.png",
+      "When": { 
+		"Hypnosis": "false",
+		"Jodi": "On",
+	  }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Jodi",
+      "FromFile": "assets/Portraits/Jodi_Hypnosis.png",
+      "When": { 
+		"Hypnosis": "true",
+		"Jodi": "On",
+	  }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Jodi_Beach",
+      "FromFile": "assets/Portraits/Jodi_Beach.png",
+      "When": { 
+		"Hypnosis": "false",
+		"Jodi": "On",
+	  }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Jodi_Beach",
+      "FromFile": "assets/Portraits/Jodi_Beach_Hypnosis.png",
+      "When": { 
+		"Hypnosis": "true",
+		"Jodi": "On",
+	  }
+    },
+	{
+      "Action": "EditImage",
+      "Target": "Portraits/Jodi_Winter",
+      "FromFile": "assets/Portraits/Jodi.png",
+      "When": { 
+		"Hypnosis": "false",
+		"Jodi": "On",
+	  }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Jodi_Winter",
+      "FromFile": "assets/Portraits/Jodi_Hypnosis.png",
+      "When": { 
+		"Hypnosis": "true",
+		"Jodi": "On",
+	  }
+    },
+  ]
+}

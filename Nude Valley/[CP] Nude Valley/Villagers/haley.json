@@ -1,0 +1,74 @@
+{
+  "Changes": [
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Haley",
+      "FromFile": "assets/Characters/Haley.png"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Haley_Beach",
+      "FromFile": "assets/Characters/Haley_Beach.png"
+    },
+	{
+      "Action": "EditImage",
+      "Target": "Characters/Haley_Winter",
+      "FromFile": "assets/Characters/Haley.png"
+    },
+	// Portraits -----------------------------------------------------------------------------------
+	{
+      "Action": "EditImage",
+      "Target": "Portraits/Haley",
+      "FromFile": "assets/Portraits/Haley.png",
+      "When": { 
+		"Hypnosis": "false",
+		"Haley": "On",
+	  }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Haley",
+      "FromFile": "assets/Portraits/Haley_Hypnosis.png",
+      "When": { 
+		"Hypnosis": "true",
+		"Haley": "On",
+	  }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Haley_Beach",
+      "FromFile": "assets/Portraits/Haley_Beach.png",
+      "When": { 
+		"Hypnosis": "false",
+		"Haley": "On",
+	  }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Haley_Beach",
+      "FromFile": "assets/Portraits/Haley_Beach_Hypnosis.png",
+      "When": { 
+		"Hypnosis": "true",
+		"Haley": "On",
+	  }
+    },
+	{
+      "Action": "EditImage",
+      "Target": "Portraits/Haley_Winter",
+      "FromFile": "assets/Portraits/Haley.png",
+      "When": { 
+		"Hypnosis": "false",
+		"Haley": "On",
+	  }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Haley_Winter",
+      "FromFile": "assets/Portraits/Haley_Hypnosis.png",
+      "When": { 
+		"Hypnosis": "true",
+		"Haley": "On",
+	  }
+    },
+  ]
+}

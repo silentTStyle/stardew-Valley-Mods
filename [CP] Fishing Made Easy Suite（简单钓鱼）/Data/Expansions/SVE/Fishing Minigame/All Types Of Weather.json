@@ -1,0 +1,20 @@
+{
+	"Changes": [
+		{
+			"LogName": "SVE - All Types Of Weather",
+			"Action": "EditData",
+			"Target": "Data/Fish",
+			"Fields": {
+				"FlashShifter.StardewValleyExpandedCP_Minnow": {7: "both"}, //Minnow
+				"FlashShifter.StardewValleyExpandedCP_Butterfish": {7: "both"}, //Butterfish
+				"FlashShifter.StardewValleyExpandedCP_Frog": {7: "both"}, //Frog
+				"FlashShifter.StardewValleyExpandedCP_Seahorse": {7: "both"}, //Seahorse
+				"FlashShifter.StardewValleyExpandedCP_Blue_Tang": {7: "both"}, //Blue Tang
+				"FlashShifter.StardewValleyExpandedCP_Ocean_Sunfish": {7: "both"}, //Ocean Sunfish
+				"FlashShifter.StardewValleyExpandedCP_Goldfish": {7: "both"}, //Goldfish
+				"FlashShifter.StardewValleyExpandedCP_Gar": {7: "both"}, //Gar
+					},
+				"When": {"All Types Of Weather": true},
+		},
+	]
+}

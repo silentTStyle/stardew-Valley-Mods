@@ -1,0 +1,11 @@
+{
+  "Name": "Lnh's Natural Cellar",
+  "Author": "Lnh",
+  "Version": "1.1.4",
+  "Description": "A new cellar.",
+  "UniqueID": "Lnh.NaturalCellar",
+  "UpdateKeys": [ "Nexus:15979" ],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  }
+}

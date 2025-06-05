@@ -1,0 +1,11 @@
+{
+   "Name": "Character planting",
+   "Author": "Daiquan1853544949",
+   "Description": "Planting characters to make food And NPC masks and lucky shorts planting.",
+   "Version": "2.0",
+   "UniqueID": "Daiquan1853544949.Characterplanting",
+     "UpdateKeys": ["Nexus:10977"],
+    "ContentPackFor": {
+      "UniqueID": "spacechase0.JsonAssets"
+    }
+}

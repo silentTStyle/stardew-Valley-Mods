@@ -1,0 +1,332 @@
+{
+	"Changes": [
+		{
+			"LogName": "RSV - Fish Pond Rare Loot Chance 2X",
+			"Action": "EditData",
+			"Target": "Data/FishPondData",
+			"Fields": {
+				"Rafseazz.RSVCP_BladetailSturgeon": {
+					"ProducedItems": [
+						{
+							"RequiredPopulation": 10,
+							"Chance": 0.80,
+							"ItemID": 445,
+							"MinQuantity": 2,
+							"MaxQuantity": 4,
+						},
+						{
+							"RequiredPopulation": 6,
+							"Chance": 0.45,
+							"ItemID": 812,
+							"MinQuantity": 2,
+							"MaxQuantity": 4
+						},
+						{
+							"RequiredPopulation": 3,
+							"Chance": 0.40,
+							"ItemID": 441,
+							"MinQuantity": 0,
+							"MaxQuantity": 1
+						},
+						{
+							"RequiredPopulation": 0,
+							"Chance": 0.70,
+							"ItemID": 812,
+							"MinQuantity": 1,
+							"MaxQuantity": 2
+						}
+					],
+			        },
+				"Rafseazz.RSVCP_CapedTreeFrog": {
+					"ProducedItems": [
+						{
+							"RequiredPopulation": 10,
+							"Chance": 0.20,
+							"ItemID": 349,
+							"MinQuantity": 0,
+							"MaxQuantity": 1,
+						},
+						{
+							"RequiredPopulation": 6,
+							"Chance": 0.45,
+							"ItemID": 812,
+							"MinQuantity": 2,
+							"MaxQuantity": 4
+						},
+						{
+							"RequiredPopulation": 3,
+							"Chance": 0.9,
+							"ItemID": 60,
+							"MinQuantity": 0,
+							"MaxQuantity": 2
+						},
+						{
+							"RequiredPopulation": 0,
+							"Chance": 0.70,
+							"ItemID": 812,
+							"MinQuantity": 1,
+							"MaxQuantity": 2
+						}
+					],
+			        },
+				"Rafseazz.RSVCP_CardiaSeptalJellyfish": {
+					"ProducedItems": [
+						{
+							"RequiredPopulation": 10,
+							"Chance": 0.20,
+							"ItemID": 577,
+							"MinQuantity": 1,
+							"MaxQuantity": 4,
+						},
+						{
+							"RequiredPopulation": 6,
+							"Chance": 0.45,
+							"ItemID": 812,
+							"MinQuantity": 2,
+							"MaxQuantity": 4
+						},
+						{
+							"RequiredPopulation": 3,
+							"Chance": 0.20,
+							"ItemID": 456,
+							"MinQuantity": 0,
+							"MaxQuantity": 1
+						},
+						{
+							"RequiredPopulation": 0,
+							"Chance": 0.70,
+							"ItemID": 812,
+							"MinQuantity": 1,
+							"MaxQuantity": 2
+						}
+					],
+			        },				
+				"Rafseazz.RSVCP_CrimsonSpikedClam": {
+					"ProducedItems": [
+						{
+							"RequiredPopulation": 10,
+							"Chance": 0.20,
+							"ItemID": 64,
+							"MinQuantity": 2,
+							"MaxQuantity": 5,
+						},
+						{
+							"RequiredPopulation": 6,
+							"Chance": 0.90,
+							"ItemID": 797,
+							"MinQuantity": 2,
+							"MaxQuantity": 4
+						},
+						{
+							"RequiredPopulation": 3,
+							"Chance": 0.20,
+							"ItemID": 64,
+							"MinQuantity": 0,
+							"MaxQuantity": 2
+						},
+						{
+							"RequiredPopulation": 0,
+							"Chance": 1.0,
+							"ItemID": 537,
+							"MinQuantity": 1,
+							"MaxQuantity": 2
+						}
+					],
+			        },					
+				"Rafseazz.RSVCP_FairytaleLionfish": {
+					"ProducedItems": [
+						{
+							"RequiredPopulation": 10,
+							"Chance": 0.04,
+							"ItemID": 74,
+							"MinQuantity": 0,
+							"MaxQuantity": 1,
+						},
+						{
+							"RequiredPopulation": 6,
+							"Chance": 0.45,
+							"ItemID": 812,
+							"MinQuantity": 2,
+							"MaxQuantity": 4
+						},
+						{
+							"RequiredPopulation": 3,
+							"Chance": 0.9,
+							"ItemID": 445,
+							"MinQuantity": 0,
+							"MaxQuantity": 2
+						},
+						{
+							"RequiredPopulation": 0,
+							"Chance": 0.70,
+							"ItemID": 812,
+							"MinQuantity": 1,
+							"MaxQuantity": 2
+						}
+					],
+			        },					
+				"Rafseazz.RSVCP_FixerEel": {
+					"ProducedItems": [
+						{
+							"RequiredPopulation": 10,
+							"Chance": 0.80,
+							"ItemID": 787,
+							"MinQuantity": 3,
+							"MaxQuantity": 4,
+						},
+						{
+							"RequiredPopulation": 6,
+							"Chance": 0.45,
+							"ItemID": 812,
+							"MinQuantity": 2,
+							"MaxQuantity": 4
+						},
+						{
+							"RequiredPopulation": 3,
+							"Chance": 0.9,
+							"ItemID": 336,
+							"MinQuantity": 1,
+							"MaxQuantity": 2
+						},
+						{
+							"RequiredPopulation": 0,
+							"Chance": 0.70,
+							"ItemID": 812,
+							"MinQuantity": 1,
+							"MaxQuantity": 2
+						}
+					],
+			        },					
+				"Rafseazz.RSVCP_GoldenRoseFin": {
+					"ProducedItems": [
+						{
+							"RequiredPopulation": 10,
+							"Chance": 0.04,
+							"ItemID": 373,
+							"MinQuantity": 1,
+							"MaxQuantity": 1,
+						},
+						{
+							"RequiredPopulation": 6,
+							"Chance": 0.45,
+							"ItemID": 812,
+							"MinQuantity": 2,
+							"MaxQuantity": 4
+						},
+						{
+							"RequiredPopulation": 3,
+							"Chance": 0.60,
+							"ItemID": 428,
+							"MinQuantity": 1,
+							"MaxQuantity": 2
+						},
+						{
+							"RequiredPopulation": 0,
+							"Chance": 0.70,
+							"ItemID": 812,
+							"MinQuantity": 1,
+							"MaxQuantity": 2
+						}
+					],
+			        },				
+				"Rafseazz.RSVCP_HarvesterTrout": {
+					"ProducedItems": [
+						{
+							"RequiredPopulation": 10,
+							"Chance": 0.12,
+							"ItemID": 114,
+							"MinQuantity": 5,
+							"MaxQuantity": 6,
+						},
+						{
+							"RequiredPopulation": 6,
+							"Chance": 0.45,
+							"ItemID": 812,
+							"MinQuantity": 2,
+							"MaxQuantity": 4
+						},
+						{
+							"RequiredPopulation": 3,
+							"Chance": 0.9,
+							"ItemID": 770,
+							"MinQuantity": 5,
+							"MaxQuantity": 6
+						},
+						{
+							"RequiredPopulation": 0,
+							"Chance": 0.70,
+							"ItemID": 812,
+							"MinQuantity": 1,
+							"MaxQuantity": 2
+						}
+					],
+			        },					
+				"Rafseazz.RSVCP_LullabyCarp": {
+					"ProducedItems": [
+						{
+							"RequiredPopulation": 10,
+							"Chance": 0.80,
+							"ItemID": 445,
+							"MinQuantity": 2,
+							"MaxQuantity": 4,
+						},
+						{
+							"RequiredPopulation": 6,
+							"Chance": 0.45,
+							"ItemID": 812,
+							"MinQuantity": 2,
+							"MaxQuantity": 4
+						},
+						{
+							"RequiredPopulation": 3,
+							"Chance": 0.16,
+							"ItemID": 221,
+							"MinQuantity": 1,
+							"MaxQuantity": 1
+						},
+						{
+							"RequiredPopulation": 0,
+							"Chance": 0.70,
+							"ItemID": 812,
+							"MinQuantity": 1,
+							"MaxQuantity": 2
+						}
+					],
+			        },					
+				"Rafseazz.RSVCP_PebbleBackCrab": {
+					"ProducedItems": [
+						{
+							"RequiredPopulation": 10,
+							"Chance": 0.20,
+							"ItemID": 386,
+							"MinQuantity": 0,
+							"MaxQuantity": 2,
+						},
+						{
+							"RequiredPopulation": 6,
+							"Chance": 0.90,
+							"ItemID": 72,
+							"MinQuantity": 1,
+							"MaxQuantity": 2
+						},
+						{
+							"RequiredPopulation": 3,
+							"Chance": 0.9,
+							"ItemID": 749,
+							"MinQuantity": 1,
+							"MaxQuantity": 2
+						},
+						{
+							"RequiredPopulation": 0,
+							"Chance": 0.70,
+							"ItemID": 812,
+							"MinQuantity": 1,
+							"MaxQuantity": 2
+						}
+					],
+			        },
+				},					
+			"When": {"Fish Pond Rare Loot": "Rare Loot Chance 2X"},
+		},
+	]
+}

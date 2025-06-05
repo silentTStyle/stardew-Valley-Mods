@@ -1,0 +1,16 @@
+{
+  "Name": "Xtardew Female",
+  "Author": "hixega",
+  "Version": "2.2.0",
+  "Description": "Patch Xtardew Valley to support female farmers.",
+  "UniqueID": "hixega.XtardewFemale",
+  "UpdateKeys": ["Nexus:16739"],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  },
+  "Dependencies": [
+    {
+      "UniqueID": "Pseudodiego.XtardewValley"
+    }
+  ]
+}

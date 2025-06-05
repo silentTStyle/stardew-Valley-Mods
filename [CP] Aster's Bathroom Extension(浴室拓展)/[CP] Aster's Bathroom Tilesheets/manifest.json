@@ -1,0 +1,10 @@
+{
+	"Name": "[CP] Asters Bathroom Tilesheets",
+	"Author": "Asterisk555",
+	"Version": "2.0.0",
+	"Description": "Adds tilesheets used for custom farmhouse bathrooms.",
+	"UniqueID": "Asterisk555.CP.BathroomTilesheets",
+	"ContentPackFor": {
+		"UniqueID": "Pathoschild.ContentPatcher"
+	}
+}

@@ -1,0 +1,74 @@
+{
+  "Changes": [
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Emily",
+      "FromFile": "assets/Characters/Emily.png"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Emily_Beach",
+      "FromFile": "assets/Characters/Emily_Beach.png"
+    },
+	{
+      "Action": "EditImage",
+      "Target": "Characters/Emily_Winter",
+      "FromFile": "assets/Characters/Emily.png"
+    },
+	// Portraits -----------------------------------------------------------------------------------
+	{
+      "Action": "EditImage",
+      "Target": "Portraits/Emily",
+      "FromFile": "assets/Portraits/Emily.png",
+      "When": { 
+		"Hypnosis": "false",
+		"Emily": "On",
+	  }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Emily",
+      "FromFile": "assets/Portraits/Emily_Hypnosis.png",
+      "When": { 
+		"Hypnosis": "true",
+		"Emily": "On",
+	  }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Emily_Beach",
+      "FromFile": "assets/Portraits/Emily_Beach.png",
+      "When": { 
+		"Hypnosis": "false",
+		"Emily": "On",
+	  }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Emily_Beach",
+      "FromFile": "assets/Portraits/Emily_Beach_Hypnosis.png",
+      "When": { 
+		"Hypnosis": "true",
+		"Emily": "On",
+	  }
+    },
+	{
+      "Action": "EditImage",
+      "Target": "Portraits/Emily_Winter",
+      "FromFile": "assets/Portraits/Emily.png",
+      "When": { 
+		"Hypnosis": "false",
+		"Emily": "On",
+	  }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Emily_Winter",
+      "FromFile": "assets/Portraits/Emily_Hypnosis.png",
+      "When": { 
+		"Hypnosis": "true",
+		"Emily": "On",
+	  }
+    },
+  ]
+}

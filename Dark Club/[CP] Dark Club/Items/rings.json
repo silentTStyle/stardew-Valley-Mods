@@ -1,0 +1,133 @@
+{
+	"Changes": [
+		 // Content Patcher ring creation
+		{
+			"Action": "Load",
+			"Target": "Mods_{{ModId}}_Rings",
+			"FromFile": "Items/assets/Rings/rings.png"
+		},
+		{
+		  "Action": "EditData",
+		  "Target": "Data/Objects",
+		  "Entries": {
+			"Dark_Club_CC_simezi21.Rings.GenitalPiercing": {
+			  "Name": "Dark_Club_CC_simezi21.Rings.GenitalPiercing",
+			  "DisplayName": "{{i18n:Item.GenitalPiercing.Name}}",
+			  "Description": "{{i18n:Item.GenitalPiercing.Description}}",
+			  "Type": "Ring",
+			  "Category": 0,
+			  "Price": 0,
+			  "Texture": "Mods_{{ModId}}_Rings",
+			  "SpriteIndex": 0,
+			  "Buffs": null,
+			  "ExcludeFromFishingCollection": true,
+			  "ExcludeFromShippingCollection": true,
+			  "ExcludeFromRandomSale": true,
+			  "CustomFields": {
+				"PeacefulEnd.CustomCompanions/Companions/Variety": 1,
+
+				"PeacefulEnd.CustomCompanions/Companions/0/Id": "simezi21.Dark_Club_CC.GenitalPiercingA",
+				"PeacefulEnd.CustomCompanions/Companions/0/NumberToSummon": 1,
+
+				"PeacefulEnd.CustomCompanions/Companions/1/Id": "simezi21.Dark_Club_CC.GenitalPiercingB",
+				"PeacefulEnd.CustomCompanions/Companions/1/NumberToSummon": 1,
+				
+				"PeacefulEnd.CustomCompanions/Companions/1/Id": "simezi21.Dark_Club_CC.GenitalPiercingC",
+				"PeacefulEnd.CustomCompanions/Companions/1/NumberToSummon": 1,
+				
+				"PeacefulEnd.CustomCompanions/Companions/1/Id": "simezi21.Dark_Club_CC.GenitalPiercingD",
+				"PeacefulEnd.CustomCompanions/Companions/1/NumberToSummon": 1,
+				
+				"PeacefulEnd.CustomCompanions/Companions/1/Id": "simezi21.Dark_Club_CC.GenitalPiercingE",
+				"PeacefulEnd.CustomCompanions/Companions/1/NumberToSummon": 1,
+			  }
+			},
+			"Dark_Club_CC_simezi21.Rings.SlaveMasterRing": {
+			  "Name": "Dark_Club_CC_simezi21.Rings.SlaveMasterRing",
+			  "DisplayName": "{{i18n:Item.SlaveMasterRing.Name}}",
+			  "Description": "{{i18n:Item.SlaveMasterRing.Description}}",
+			  "Type": "Ring",
+			  "Category": 0,
+			  "Price": 0,
+			  "Texture": "Mods_{{ModId}}_Rings",
+			  "SpriteIndex": 1,
+			  "Buffs": null,
+			  "ExcludeFromFishingCollection": true,
+			  "ExcludeFromShippingCollection": true,
+			  "ExcludeFromRandomSale": true,
+			  "CustomFields": {
+				"PeacefulEnd.CustomCompanions/Companions/Variety": 2,
+
+				"PeacefulEnd.CustomCompanions/Companions/0/Id": "simezi21.Dark_Club_CC.SlaveA",
+				"PeacefulEnd.CustomCompanions/Companions/0/NumberToSummon": 1,
+
+				"PeacefulEnd.CustomCompanions/Companions/1/Id": "simezi21.Dark_Club_CC.SlaveB",
+				"PeacefulEnd.CustomCompanions/Companions/1/NumberToSummon": 1,
+				
+				"PeacefulEnd.CustomCompanions/Companions/1/Id": "simezi21.Dark_Club_CC.SlaveC",
+				"PeacefulEnd.CustomCompanions/Companions/1/NumberToSummon": 1,
+				
+				"PeacefulEnd.CustomCompanions/Companions/1/Id": "simezi21.Dark_Club_CC.SlaveD",
+				"PeacefulEnd.CustomCompanions/Companions/1/NumberToSummon": 1,
+				
+				"PeacefulEnd.CustomCompanions/Companions/1/Id": "simezi21.Dark_Club_CC.SlaveE",
+				"PeacefulEnd.CustomCompanions/Companions/1/NumberToSummon": 1,
+				
+				"PeacefulEnd.CustomCompanions/Companions/0/Id": "simezi21.Dark_Club_CC.SlaveF",
+				"PeacefulEnd.CustomCompanions/Companions/0/NumberToSummon": 1,
+
+				"PeacefulEnd.CustomCompanions/Companions/1/Id": "simezi21.Dark_Club_CC.SlaveG",
+				"PeacefulEnd.CustomCompanions/Companions/1/NumberToSummon": 1,
+				
+				"PeacefulEnd.CustomCompanions/Companions/1/Id": "simezi21.Dark_Club_CC.SlaveH",
+				"PeacefulEnd.CustomCompanions/Companions/1/NumberToSummon": 1,
+				
+				"PeacefulEnd.CustomCompanions/Companions/1/Id": "simezi21.Dark_Club_CC.SlaveI",
+				"PeacefulEnd.CustomCompanions/Companions/1/NumberToSummon": 1,
+				
+				"PeacefulEnd.CustomCompanions/Companions/1/Id": "simezi21.Dark_Club_CC.SlaveJ",
+				"PeacefulEnd.CustomCompanions/Companions/1/NumberToSummon": 1,
+				
+				"PeacefulEnd.CustomCompanions/Companions/1/Id": "simezi21.Dark_Club_CC.SlaveK",
+				"PeacefulEnd.CustomCompanions/Companions/1/NumberToSummon": 1,
+				
+				"PeacefulEnd.CustomCompanions/Companions/1/Id": "simezi21.Dark_Club_CC.SlaveL",
+				"PeacefulEnd.CustomCompanions/Companions/1/NumberToSummon": 1,
+			  }
+			},
+			"Dark_Club_CC_simezi21.Rings.TentacleRing": {
+			  "Name": "Dark_Club_CC_simezi21.Rings.TentacleRing",
+			  "DisplayName": "{{i18n:Item.TentacleRing.Name}}",
+			  "Description": "{{i18n:Item.TentacleRing.Description}}",
+			  "Type": "Ring",
+			  "Category": 0,
+			  "Price": 0,
+			  "Texture": "Mods_{{ModId}}_Rings",
+			  "SpriteIndex": 2,
+			  "Buffs": null,
+			  "ExcludeFromFishingCollection": true,
+			  "ExcludeFromShippingCollection": true,
+			  "ExcludeFromRandomSale": true,
+			  "CustomFields": {
+				"PeacefulEnd.CustomCompanions/Companions/Variety": 1,
+
+				"PeacefulEnd.CustomCompanions/Companions/0/Id": "simezi21.Dark_Club_CC.TentacleRingA",
+				"PeacefulEnd.CustomCompanions/Companions/0/NumberToSummon": 1,
+
+				"PeacefulEnd.CustomCompanions/Companions/1/Id": "simezi21.Dark_Club_CC.TentacleRingB",
+				"PeacefulEnd.CustomCompanions/Companions/1/NumberToSummon": 1,
+				
+				"PeacefulEnd.CustomCompanions/Companions/1/Id": "simezi21.Dark_Club_CC.TentacleRingC",
+				"PeacefulEnd.CustomCompanions/Companions/1/NumberToSummon": 1,
+				
+				"PeacefulEnd.CustomCompanions/Companions/1/Id": "simezi21.Dark_Club_CC.TentacleRingD",
+				"PeacefulEnd.CustomCompanions/Companions/1/NumberToSummon": 1,
+				
+				"PeacefulEnd.CustomCompanions/Companions/1/Id": "simezi21.Dark_Club_CC.TentacleRingE",
+				"PeacefulEnd.CustomCompanions/Companions/1/NumberToSummon": 1,
+			  }
+			},
+		  }
+		}
+	]
+}

@@ -1,0 +1,977 @@
+{
+  "Format": "2.0.0",
+  "Changes": [
+	{
+		"Action": "Load",
+		"Target": "Mods/{{ModId}}/Crops",
+		"FromFile": "assets/TileSheets/crops.png"
+	},
+	// Tentacle01 animation
+    {
+      "Action": "EditImage",
+      "LogName": "6_Tentacle01 Animation",
+      "Target": "Mods/{{ModId}}/Crops",
+      "FromFile": "assets/Animations/Tentacle01G.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+      "ToArea": { "X": 80, "Y": 0, "Width": 16, "Height": 32 },
+      "AnimationFrameTime": 8,
+      "AnimationFrameCount": 9
+    },
+    {
+      "Action": "EditImage",
+      "LogName": "7_Tentacle01 Animation",
+      "Target": "Mods/{{ModId}}/Crops",
+      "FromFile": "assets/Animations/Tentacle01H.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+      "ToArea": { "X": 96, "Y": 0, "Width": 16, "Height": 32 },
+      "AnimationFrameTime": 8,
+      "AnimationFrameCount": 9
+    },
+	{
+      "Action": "EditImage",
+      "LogName": "8_Tentacle01 Animation",
+      "Target": "Mods/{{ModId}}/Crops",
+      "FromFile": "assets/Animations/Tentacle01G.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+      "ToArea": { "X": 112, "Y": 0, "Width": 16, "Height": 32 },
+      "AnimationFrameTime": 8,
+      "AnimationFrameCount": 9
+    },
+	{ //Tentacle02 animation
+      "Action": "EditImage",
+      "LogName": "6_Tentacle02 Animation",
+      "Target": "Mods/{{ModId}}/Crops",
+      "FromFile": "assets/Animations/Tentacle02G.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+      "ToArea": { "X": 208, "Y": 0, "Width": 16, "Height": 32 },
+      "AnimationFrameTime": 9,
+      "AnimationFrameCount": 9
+    },
+    {
+      "Action": "EditImage",
+      "LogName": "7_Tentacle02 Animation",
+      "Target": "Mods/{{ModId}}/Crops",
+      "FromFile": "assets/Animations/Tentacle02H.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+      "ToArea": { "X": 224, "Y": 0, "Width": 16, "Height": 32 },
+      "AnimationFrameTime": 9,
+      "AnimationFrameCount": 9
+    },
+    {
+      "Action": "EditImage",
+      "LogName": "8_Tentacle02 Animation",
+      "Target": "Mods/{{ModId}}/Crops",
+      "FromFile": "assets/Animations/Tentacle02G.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+      "ToArea": { "X": 240, "Y": 0, "Width": 16, "Height": 32 },
+      "AnimationFrameTime": 9,
+      "AnimationFrameCount": 9
+    },
+	{ // Tentacle03 animation
+      "Action": "EditImage",
+      "LogName": "6_Tentacle03 Animation",
+      "Target": "Mods/{{ModId}}/Crops",
+      "FromFile": "assets/Animations/Tentacle03G.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+      "ToArea": { "X": 80, "Y": 32, "Width": 16, "Height": 32 },
+      "AnimationFrameTime": 7,
+      "AnimationFrameCount": 9
+    },
+    {
+      "Action": "EditImage",
+      "LogName": "7_Tentacle03 Animation",
+      "Target": "Mods/{{ModId}}/Crops",
+      "FromFile": "assets/Animations/Tentacle03H.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+      "ToArea": { "X": 96, "Y": 32, "Width": 16, "Height": 32 },
+      "AnimationFrameTime": 7,
+      "AnimationFrameCount": 9
+    },
+    {
+      "Action": "EditImage",
+      "LogName": "8_Tentacle03 Animation",
+      "Target": "Mods/{{ModId}}/Crops",
+      "FromFile": "assets/Animations/Tentacle03G.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+      "ToArea": { "X": 112, "Y": 32, "Width": 16, "Height": 32 },
+      "AnimationFrameTime": 7,
+      "AnimationFrameCount": 9
+    },
+	{ // Tentacle04 animation
+      "Action": "EditImage",
+      "LogName": "6_Tentacle04 Animation",
+      "Target": "Mods/{{ModId}}/Crops",
+      "FromFile": "assets/Animations/Tentacle04G.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+      "ToArea": { "X": 208, "Y": 32, "Width": 16, "Height": 32 },
+      "AnimationFrameTime": 10,
+      "AnimationFrameCount": 9
+    },
+    {
+      "Action": "EditImage",
+      "LogName": "7_Tentacle04 Animation",
+      "Target": "Mods/{{ModId}}/Crops",
+      "FromFile": "assets/Animations/Tentacle04H.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+      "ToArea": { "X": 224, "Y": 32, "Width": 16, "Height": 32 },
+      "AnimationFrameTime": 10,
+      "AnimationFrameCount": 9
+    },
+    {
+      "Action": "EditImage",
+      "LogName": "8_Tentacle04 Animation",
+      "Target": "Mods/{{ModId}}/Crops",
+      "FromFile": "assets/Animations/Tentacle04G.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+      "ToArea": { "X": 240, "Y": 32, "Width": 16, "Height": 32 },
+      "AnimationFrameTime": 10,
+      "AnimationFrameCount": 9
+    },
+	{ // Roper01 animation
+      "Action": "EditImage",
+      "LogName": "6_Roper01 Animation",
+      "Target": "Mods/{{ModId}}/Crops",
+      "FromFile": "assets/Animations/Roper01G.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+      "ToArea": { "X": 80, "Y": 64, "Width": 16, "Height": 32 },
+      "AnimationFrameTime": 10,
+      "AnimationFrameCount": 10
+    },
+    {
+      "Action": "EditImage",
+      "LogName": "7_Roper01 Animation",
+      "Target": "Mods/{{ModId}}/Crops",
+      "FromFile": "assets/Animations/Roper01H.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+      "ToArea": { "X": 96, "Y": 64, "Width": 16, "Height": 32 },
+      "AnimationFrameTime": 10,
+      "AnimationFrameCount": 10
+    },
+    {
+      "Action": "EditImage",
+      "LogName": "8_Roper01 Animation",
+      "Target": "Mods/{{ModId}}/Crops",
+      "FromFile": "assets/Animations/Roper01G.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+      "ToArea": { "X": 112, "Y": 64, "Width": 16, "Height": 32 },
+      "AnimationFrameTime": 10,
+      "AnimationFrameCount": 10
+    },
+	{ // Roper02 animation
+      "Action": "EditImage",
+      "LogName": "6_Roper02 Animation",
+      "Target": "Mods/{{ModId}}/Crops",
+      "FromFile": "assets/Animations/Roper02G.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+      "ToArea": { "X": 208, "Y": 64, "Width": 16, "Height": 32 },
+      "AnimationFrameTime": 9,
+      "AnimationFrameCount": 10
+    },
+    {
+      "Action": "EditImage",
+      "LogName": "7_Roper02 Animation",
+      "Target": "Mods/{{ModId}}/Crops",
+      "FromFile": "assets/Animations/Roper02H.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+      "ToArea": { "X": 224, "Y": 64, "Width": 16, "Height": 32 },
+      "AnimationFrameTime": 9,
+      "AnimationFrameCount": 10
+    },
+    {
+      "Action": "EditImage",
+      "LogName": "8_Roper02 Animation",
+      "Target": "Mods/{{ModId}}/Crops",
+      "FromFile": "assets/Animations/Roper02G.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+      "ToArea": { "X": 240, "Y": 64, "Width": 16, "Height": 32 },
+      "AnimationFrameTime": 9,
+      "AnimationFrameCount": 10
+    },
+	{ // Roper03 animation
+      "Action": "EditImage",
+      "LogName": "6_Roper03 Animation",
+      "Target": "Mods/{{ModId}}/Crops",
+      "FromFile": "assets/Animations/Roper03G.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+      "ToArea": { "X": 80, "Y": 96, "Width": 16, "Height": 32 },
+      "AnimationFrameTime": 11,
+      "AnimationFrameCount": 10
+    },
+    {
+      "Action": "EditImage",
+      "LogName": "7_Roper03 Animation",
+      "Target": "Mods/{{ModId}}/Crops",
+      "FromFile": "assets/Animations/Roper03H.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+      "ToArea": { "X": 96, "Y": 96, "Width": 16, "Height": 32 },
+      "AnimationFrameTime": 11,
+      "AnimationFrameCount": 10
+    },
+    {
+      "Action": "EditImage",
+      "LogName": "8_Roper03 Animation",
+      "Target": "Mods/{{ModId}}/Crops",
+      "FromFile": "assets/Animations/Roper03G.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+      "ToArea": { "X": 112, "Y": 96, "Width": 16, "Height": 32 },
+      "AnimationFrameTime": 11,
+      "AnimationFrameCount": 10
+    },
+	{ // Roper04 animation
+      "Action": "EditImage",
+      "LogName": "6_Roper04 Animation",
+      "Target": "Mods/{{ModId}}/Crops",
+      "FromFile": "assets/Animations/Roper04G.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+      "ToArea": { "X": 208, "Y": 96, "Width": 16, "Height": 32 },
+      "AnimationFrameTime": 12,
+      "AnimationFrameCount": 10
+    },
+    {
+      "Action": "EditImage",
+      "LogName": "7_Roper04 Animation",
+      "Target": "Mods/{{ModId}}/Crops",
+      "FromFile": "assets/Animations/Roper04H.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+      "ToArea": { "X": 224, "Y": 96, "Width": 16, "Height": 32 },
+      "AnimationFrameTime": 12,
+      "AnimationFrameCount": 10
+    },
+    {
+      "Action": "EditImage",
+      "LogName": "8_Roper04 Animation",
+      "Target": "Mods/{{ModId}}/Crops",
+      "FromFile": "assets/Animations/Roper04G.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+      "ToArea": { "X": 240, "Y": 96, "Width": 16, "Height": 32 },
+      "AnimationFrameTime": 12,
+      "AnimationFrameCount": 10
+    },
+	{ // takes Seedbed A from seedbeds.png and puts it at the bottom of the left column of crops.png
+      "Action": "EditImage",
+	  "LogName": " Seedbed A01",
+      "Target": "Mods/{{ModId}}/Crops",
+      "FromFile": "assets/TileSheets/seedbeds.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 32 },
+      "ToArea": { "X": 0, "Y": 128, "Width": 128, "Height": 32 }
+    },
+    { // Seedbed A, Variant 1 animations
+      "Action": "EditImage",
+      "LogName": "6_SeedbedA01 Animation",
+      "Target": "Mods/{{ModId}}/Crops",
+      "FromFile": "assets/Animations/SeedbedA01G.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+      "ToArea": { "X": 80, "Y": 128, "Width": 16, "Height": 32 },
+      "AnimationFrameTime": 12,
+      "AnimationFrameCount": 8
+    },
+    {
+      "Action": "EditImage",
+      "LogName": "7_SeedbedA01 Animation",
+      "Target": "Mods/{{ModId}}/Crops",
+      "FromFile": "assets/Animations/SeedbedA01H.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+      "ToArea": { "X": 96, "Y": 128, "Width": 16, "Height": 32 },
+      "AnimationFrameTime": 8,
+      "AnimationFrameCount": 20
+    },
+    {
+      "Action": "EditImage",
+      "LogName": "8_SeedbedA01 Animation",
+      "Target": "Mods/{{ModId}}/Crops",
+      "FromFile": "assets/Animations/SeedbedA01G.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+      "ToArea": { "X": 112, "Y": 128, "Width": 16, "Height": 32 },
+      "AnimationFrameTime": 12,
+      "AnimationFrameCount": 8
+    },
+	{ // takes Seedbed A from seedbeds.png and puts it at the bottom of the right column of crops.png
+      "Action": "EditImage",
+      "Target": "Mods/{{ModId}}/Crops",
+	  "LogName": " Seedbed A02",
+      "FromFile": "assets/TileSheets/seedbeds.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 32 },
+      "ToArea": { "X": 128, "Y": 128, "Width": 128, "Height": 32 }
+    },
+    { // Seedbed A, Variant 2 animations
+      "Action": "EditImage",
+      "LogName": "6_SeedbedA02 Animation",
+      "Target": "Mods/{{ModId}}/Crops",
+      "FromFile": "assets/Animations/SeedbedA02G.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+      "ToArea": { "X": 208, "Y": 128, "Width": 16, "Height": 32 },
+      "AnimationFrameTime": 13,
+      "AnimationFrameCount": 8
+    },
+    {
+      "Action": "EditImage",
+      "LogName": "7_SeedbedA02 Animation",
+      "Target": "Mods/{{ModId}}/Crops",
+      "FromFile": "assets/Animations/SeedbedA02H.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+      "ToArea": { "X": 224, "Y": 128, "Width": 16, "Height": 32 },
+      "AnimationFrameTime": 9,
+      "AnimationFrameCount": 20
+    },
+    {
+      "Action": "EditImage",
+      "LogName": "8_SeedbedA02 Animation",
+      "Target": "Mods/{{ModId}}/Crops",
+      "FromFile": "assets/Animations/SeedbedA02G.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+      "ToArea": { "X": 240, "Y": 128, "Width": 16, "Height": 32 },
+      "AnimationFrameTime": 13,
+      "AnimationFrameCount": 8
+    },
+	{ // Seedbed A, Variant 3
+      "Action": "EditImage",
+	  "LogName": " Seedbed A03",
+      "Target": "Mods/{{ModId}}/Crops",
+      "FromFile": "assets/TileSheets/seedbeds.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 32 },
+      "ToArea": { "X": 0, "Y": 160, "Width": 128, "Height": 32 }
+    },
+    {
+      "Action": "EditImage",
+      "LogName": "6_SeedbedA03 Animation",
+      "Target": "Mods/{{ModId}}/Crops",
+      "FromFile": "assets/Animations/SeedbedA03G.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+      "ToArea": { "X": 80, "Y": 160, "Width": 16, "Height": 32 },
+      "AnimationFrameTime": 14,
+      "AnimationFrameCount": 8
+    },
+    {
+      "Action": "EditImage",
+      "LogName": "7_SeedbedA03 Animation",
+      "Target": "Mods/{{ModId}}/Crops",
+      "FromFile": "assets/Animations/SeedbedA03H.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+      "ToArea": { "X": 96, "Y": 160, "Width": 16, "Height": 32 },
+      "AnimationFrameTime": 10,
+      "AnimationFrameCount": 20
+    },
+    {
+      "Action": "EditImage",
+      "LogName": "8_SeedbedA03 Animation",
+      "Target": "Mods/{{ModId}}/Crops",
+      "FromFile": "assets/Animations/SeedbedA03G.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+      "ToArea": { "X": 112, "Y": 160, "Width": 16, "Height": 32 },
+      "AnimationFrameTime": 14,
+      "AnimationFrameCount": 8
+    },  
+    { // Seedbed A, Variant 4
+      "Action": "EditImage",
+	  "LogName": " Seedbed A04",
+      "Target": "Mods/{{ModId}}/Crops",
+      "FromFile": "assets/TileSheets/seedbeds.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 32 },
+      "ToArea": { "X": 128, "Y": 160, "Width": 128, "Height": 32 }
+    },
+    {
+      "Action": "EditImage",
+      "LogName": "6_SeedbedA04 Animation",
+      "Target": "Mods/{{ModId}}/Crops",
+      "FromFile": "assets/Animations/SeedbedA04G.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+      "ToArea": { "X": 208, "Y": 160, "Width": 16, "Height": 32 },
+      "AnimationFrameTime": 11,
+      "AnimationFrameCount": 8
+    },
+    {
+      "Action": "EditImage",
+      "LogName": "7_SeedbedA04 Animation",
+      "Target": "Mods/{{ModId}}/Crops",
+      "FromFile": "assets/Animations/SeedbedA04H.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+      "ToArea": { "X": 224, "Y": 160, "Width": 16, "Height": 32 },
+      "AnimationFrameTime": 7,
+      "AnimationFrameCount": 20
+    },
+    {
+      "Action": "EditImage",
+      "LogName": "8_SeedbedA04 Animation",
+      "Target": "Mods/{{ModId}}/Crops",
+      "FromFile": "assets/Animations/SeedbedA04G.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+      "ToArea": { "X": 240, "Y": 160, "Width": 16, "Height": 32 },
+      "AnimationFrameTime": 11,
+      "AnimationFrameCount": 8
+    },
+	{ // Seedbed B, Variant 1
+      "Action": "EditImage",
+	  "LogName": " Seedbed B01",
+      "Target": "Mods/{{ModId}}/Crops",
+      "FromFile": "assets/TileSheets/seedbeds.png",
+      "FromArea": { "X": 128, "Y": 0, "Width": 128, "Height": 32 },
+      "ToArea": { "X": 0, "Y": 192, "Width": 128, "Height": 32 }
+    },
+    {
+      "Action": "EditImage",
+      "LogName": "6_SeedbedB01 Animation",
+      "Target": "Mods/{{ModId}}/Crops",
+      "FromFile": "assets/Animations/SeedbedB01G.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+      "ToArea": { "X": 80, "Y": 192, "Width": 16, "Height": 32 },
+      "AnimationFrameTime": 13,
+      "AnimationFrameCount": 8
+    },
+    {
+      "Action": "EditImage",
+      "LogName": "7_SeedbedB01 Animation",
+      "Target": "Mods/{{ModId}}/Crops",
+      "FromFile": "assets/Animations/SeedbedB01H.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+      "ToArea": { "X": 96, "Y": 192, "Width": 16, "Height": 32 },
+      "AnimationFrameTime": 9,
+      "AnimationFrameCount": 20
+    },
+    {
+      "Action": "EditImage",
+      "LogName": "8_SeedbedB01 Animation",
+      "Target": "Mods/{{ModId}}/Crops",
+      "FromFile": "assets/Animations/SeedbedB01G.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+      "ToArea": { "X": 112, "Y": 192, "Width": 16, "Height": 32 },
+      "AnimationFrameTime": 13,
+      "AnimationFrameCount": 8
+    },
+	{ // Seedbed B, Variant 2
+      "Action": "EditImage",
+	  "LogName": " Seedbed B02",
+      "Target": "Mods/{{ModId}}/Crops",
+      "FromFile": "assets/TileSheets/seedbeds.png",
+      "FromArea": { "X": 128, "Y": 0, "Width": 128, "Height": 32 },
+      "ToArea": { "X": 128, "Y": 192, "Width": 128, "Height": 32 }
+    },
+    {
+      "Action": "EditImage",
+      "LogName": "6_SeedbedB02 Animation",
+      "Target": "Mods/{{ModId}}/Crops",
+      "FromFile": "assets/Animations/SeedbedB02G.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+      "ToArea": { "X": 208, "Y": 192, "Width": 16, "Height": 32 },
+      "AnimationFrameTime": 14,
+      "AnimationFrameCount": 8
+    },
+    {
+      "Action": "EditImage",
+      "LogName": "7_SeedbedB02 Animation",
+      "Target": "Mods/{{ModId}}/Crops",
+      "FromFile": "assets/Animations/SeedbedB02H.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+      "ToArea": { "X": 224, "Y": 192, "Width": 16, "Height": 32 },
+      "AnimationFrameTime": 10,
+      "AnimationFrameCount": 20
+    },
+    {
+      "Action": "EditImage",
+      "LogName": "8_SeedbedB02 Animation",
+      "Target": "Mods/{{ModId}}/Crops",
+      "FromFile": "assets/Animations/SeedbedB02G.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+      "ToArea": { "X": 240, "Y": 192, "Width": 16, "Height": 32 },
+      "AnimationFrameTime": 14,
+      "AnimationFrameCount": 8
+    },
+    { // Seedbed B, Variant 3
+      "Action": "EditImage",
+	  "LogName": " Seedbed B03",
+      "Target": "Mods/{{ModId}}/Crops",
+      "FromFile": "assets/TileSheets/seedbeds.png",
+      "FromArea": { "X": 128, "Y": 0, "Width": 128, "Height": 32 },
+      "ToArea": { "X": 0, "Y": 224, "Width": 128, "Height": 32 }
+    },
+    {
+      "Action": "EditImage",
+      "LogName": "6_SeedbedB03 Animation",
+      "Target": "Mods/{{ModId}}/Crops",
+      "FromFile": "assets/Animations/SeedbedB03G.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+      "ToArea": { "X": 80, "Y": 224, "Width": 16, "Height": 32 },
+      "AnimationFrameTime": 11,
+      "AnimationFrameCount": 8
+    },
+    {
+      "Action": "EditImage",
+      "LogName": "7_SeedbedB03 Animation",
+      "Target": "Mods/{{ModId}}/Crops",
+      "FromFile": "assets/Animations/SeedbedB03H.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+      "ToArea": { "X": 96, "Y": 224, "Width": 16, "Height": 32 },
+      "AnimationFrameTime": 7,
+      "AnimationFrameCount": 20
+    },
+    {
+      "Action": "EditImage",
+      "LogName": "8_SeedbedB03 Animation",
+      "Target": "Mods/{{ModId}}/Crops",
+      "FromFile": "assets/Animations/SeedbedB03G.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+      "ToArea": { "X": 112, "Y": 224, "Width": 16, "Height": 32 },
+      "AnimationFrameTime": 11,
+      "AnimationFrameCount": 8
+    },
+	{ // Seedbed B, Variant 4
+      "Action": "EditImage",
+	  "LogName": " Seedbed B04",
+      "Target": "Mods/{{ModId}}/Crops",
+      "FromFile": "assets/TileSheets/seedbeds.png",
+      "FromArea": { "X": 128, "Y": 0, "Width": 128, "Height": 32 },
+      "ToArea": { "X": 128, "Y": 224, "Width": 128, "Height": 32 }
+    },
+    {
+      "Action": "EditImage",
+      "LogName": "6_SeedbedB04 Animation",
+      "Target": "Mods/{{ModId}}/Crops",
+      "FromFile": "assets/Animations/SeedbedB04G.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+      "ToArea": { "X": 208, "Y": 224, "Width": 16, "Height": 32 },
+      "AnimationFrameTime": 12,
+      "AnimationFrameCount": 8
+    },
+    {
+      "Action": "EditImage",
+      "LogName": "7_SeedbedB04 Animation",
+      "Target": "Mods/{{ModId}}/Crops",
+      "FromFile": "assets/Animations/SeedbedB04H.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+      "ToArea": { "X": 224, "Y": 224, "Width": 16, "Height": 32 },
+      "AnimationFrameTime": 8,
+      "AnimationFrameCount": 20
+    },
+    {
+      "Action": "EditImage",
+      "LogName": "8_SeedbedB04 Animation",
+      "Target": "Mods/{{ModId}}/Crops",
+      "FromFile": "assets/Animations/SeedbedB04G.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+      "ToArea": { "X": 240, "Y": 224, "Width": 16, "Height": 32 },
+      "AnimationFrameTime": 12,
+      "AnimationFrameCount": 8
+    },
+	{ // Seedbed C, Variant 1
+      "Action": "EditImage",
+	  "LogName": " Seedbed C01",
+      "Target": "Mods/{{ModId}}/Crops",
+      "FromFile": "assets/TileSheets/seedbeds.png",
+      "FromArea": { "X": 0, "Y": 32, "Width": 128, "Height": 32 },
+      "ToArea": { "X": 0, "Y": 256, "Width": 128, "Height": 32 }
+    },
+    {
+      "Action": "EditImage",
+      "LogName": "6_SeedbedC01 Animation",
+      "Target": "Mods/{{ModId}}/Crops",
+      "FromFile": "assets/Animations/SeedbedC01G.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+      "ToArea": { "X": 80, "Y": 256, "Width": 16, "Height": 32 },
+      "AnimationFrameTime": 14,
+      "AnimationFrameCount": 8
+    },
+    {
+      "Action": "EditImage",
+      "LogName": "7_SeedbedC01 Animation",
+      "Target": "Mods/{{ModId}}/Crops",
+      "FromFile": "assets/Animations/SeedbedC01H.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+      "ToArea": { "X": 96, "Y": 256, "Width": 16, "Height": 32 },
+      "AnimationFrameTime": 10,
+      "AnimationFrameCount": 20
+    },
+    {
+      "Action": "EditImage",
+      "LogName": "8_SeedbedC01 Animation",
+      "Target": "Mods/{{ModId}}/Crops",
+      "FromFile": "assets/Animations/SeedbedC01G.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+      "ToArea": { "X": 112, "Y": 256, "Width": 16, "Height": 32 },
+      "AnimationFrameTime": 14,
+      "AnimationFrameCount": 8
+    },
+	{ // Seedbed C, Variant 2
+      "Action": "EditImage",
+	  "LogName": " Seedbed C02",
+      "Target": "Mods/{{ModId}}/Crops",
+      "FromFile": "assets/TileSheets/seedbeds.png",
+      "FromArea": { "X": 0, "Y": 32, "Width": 128, "Height": 32 },
+      "ToArea": { "X": 128, "Y": 256, "Width": 128, "Height": 32 }
+    },
+    {
+      "Action": "EditImage",
+      "LogName": "6_SeedbedC02 Animation",
+      "Target": "Mods/{{ModId}}/Crops",
+      "FromFile": "assets/Animations/SeedbedC02G.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+      "ToArea": { "X": 208, "Y": 256, "Width": 16, "Height": 32 },
+      "AnimationFrameTime": 11,
+      "AnimationFrameCount": 8
+    },
+    {
+      "Action": "EditImage",
+      "LogName": "7_SeedbedC02 Animation",
+      "Target": "Mods/{{ModId}}/Crops",
+      "FromFile": "assets/Animations/SeedbedC02H.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+      "ToArea": { "X": 224, "Y": 256, "Width": 16, "Height": 32 },
+      "AnimationFrameTime": 7,
+      "AnimationFrameCount": 20
+    },
+    {
+      "Action": "EditImage",
+      "LogName": "8_SeedbedC02 Animation",
+      "Target": "Mods/{{ModId}}/Crops",
+      "FromFile": "assets/Animations/SeedbedC02G.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+      "ToArea": { "X": 240, "Y": 256, "Width": 16, "Height": 32 },
+      "AnimationFrameTime": 11,
+      "AnimationFrameCount": 8
+    },
+	{ // Seedbed C, Variant 3
+      "Action": "EditImage",
+	  "LogName": " Seedbed C03",
+      "Target": "Mods/{{ModId}}/Crops",
+      "FromFile": "assets/TileSheets/seedbeds.png",
+      "FromArea": { "X": 0, "Y": 32, "Width": 128, "Height": 32 },
+      "ToArea": { "X": 0, "Y": 288, "Width": 128, "Height": 32 }
+    },
+    {
+      "Action": "EditImage",
+      "LogName": "6_SeedbedC03 Animation",
+      "Target": "Mods/{{ModId}}/Crops",
+      "FromFile": "assets/Animations/SeedbedC03G.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+      "ToArea": { "X": 80, "Y": 288, "Width": 16, "Height": 32 },
+      "AnimationFrameTime": 12,
+      "AnimationFrameCount": 8
+    },
+    {
+      "Action": "EditImage",
+      "LogName": "7_SeedbedC03 Animation",
+      "Target": "Mods/{{ModId}}/Crops",
+      "FromFile": "assets/Animations/SeedbedC03H.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+      "ToArea": { "X": 96, "Y": 288, "Width": 16, "Height": 32 },
+      "AnimationFrameTime": 8,
+      "AnimationFrameCount": 20
+    },
+    {
+      "Action": "EditImage",
+      "LogName": "8_SeedbedC03 Animation",
+      "Target": "Mods/{{ModId}}/Crops",
+      "FromFile": "assets/Animations/SeedbedC03G.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+      "ToArea": { "X": 112, "Y": 288, "Width": 16, "Height": 32 },
+      "AnimationFrameTime": 12,
+      "AnimationFrameCount": 8
+    },
+	{ // Seedbed C, Variant 4
+      "Action": "EditImage",
+	  "LogName": "Seedbed C04",
+      "Target": "Mods/{{ModId}}/Crops",
+      "FromFile": "assets/TileSheets/seedbeds.png",
+      "FromArea": { "X": 0, "Y": 32, "Width": 128, "Height": 32 },
+      "ToArea": { "X": 128, "Y": 288, "Width": 128, "Height": 32 }
+    },
+	{
+      "Action": "EditImage",
+      "LogName": "6_SeedbedC04 Animation",
+      "Target": "Mods/{{ModId}}/Crops",
+      "FromFile": "assets/Animations/SeedbedC04G.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+      "ToArea": { "X": 208, "Y": 288, "Width": 16, "Height": 32 },
+      "AnimationFrameTime": 13,
+      "AnimationFrameCount": 8
+    },
+    {
+      "Action": "EditImage",
+      "LogName": "7_SeedbedC04 Animation",
+      "Target": "Mods/{{ModId}}/Crops",
+      "FromFile": "assets/Animations/SeedbedC04H.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+      "ToArea": { "X": 224, "Y": 288, "Width": 16, "Height": 32 },
+      "AnimationFrameTime": 9,
+      "AnimationFrameCount": 20
+    },
+    {
+      "Action": "EditImage",
+      "LogName": "8_SeedbedC04 Animation",
+      "Target": "Mods/{{ModId}}/Crops",
+      "FromFile": "assets/Animations/SeedbedC04G.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+      "ToArea": { "X": 240, "Y": 288, "Width": 16, "Height": 32 },
+      "AnimationFrameTime": 13,
+      "AnimationFrameCount": 8
+    },
+	// Seedbed D, Variant 1
+	{
+      "Action": "EditImage",
+	  "LogName": " Seedbed D01",
+      "Target": "Mods/{{ModId}}/Crops",
+      "FromFile": "assets/TileSheets/seedbeds.png",
+      "FromArea": { "X": 128, "Y": 32, "Width": 128, "Height": 32 },
+      "ToArea": { "X": 0, "Y": 320, "Width": 128, "Height": 32 }
+    },
+    {
+      "Action": "EditImage",
+      "LogName": "6_SeedbedD01 Animation",
+      "Target": "Mods/{{ModId}}/Crops",
+      "FromFile": "assets/Animations/SeedbedD01G.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+      "ToArea": { "X": 80, "Y": 320, "Width": 16, "Height": 32 },
+      "AnimationFrameTime": 11,
+      "AnimationFrameCount": 8
+    },
+    {
+      "Action": "EditImage",
+      "LogName": "7_SeedbedD01 Animation",
+      "Target": "Mods/{{ModId}}/Crops",
+      "FromFile": "assets/Animations/SeedbedD01H.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+      "ToArea": { "X": 96, "Y": 320, "Width": 16, "Height": 32 },
+      "AnimationFrameTime": 7,
+      "AnimationFrameCount": 20
+    },
+    {
+      "Action": "EditImage",
+      "LogName": "8_SeedbedD01 Animation",
+      "Target": "Mods/{{ModId}}/Crops",
+      "FromFile": "assets/Animations/SeedbedD01G.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+      "ToArea": { "X": 112, "Y": 320, "Width": 16, "Height": 32 },
+      "AnimationFrameTime": 11,
+      "AnimationFrameCount": 8
+    },
+	{ // Seedbed D, Variant 2
+      "Action": "EditImage",
+	  "LogName": " Seedbed D02",
+      "Target": "Mods/{{ModId}}/Crops",
+      "FromFile": "assets/TileSheets/seedbeds.png",
+      "FromArea": { "X": 128, "Y": 32, "Width": 128, "Height": 32 },
+      "ToArea": { "X": 128, "Y": 320, "Width": 128, "Height": 32 }
+    },
+    {
+      "Action": "EditImage",
+      "LogName": "6_SeedbedD02 Animation",
+      "Target": "Mods/{{ModId}}/Crops",
+      "FromFile": "assets/Animations/SeedbedD02G.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+      "ToArea": { "X": 208, "Y": 320, "Width": 16, "Height": 32 },
+      "AnimationFrameTime": 12,
+      "AnimationFrameCount": 8
+    },
+    {
+      "Action": "EditImage",
+      "LogName": "7_SeedbedD02 Animation",
+      "Target": "Mods/{{ModId}}/Crops",
+      "FromFile": "assets/Animations/SeedbedD02H.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+      "ToArea": { "X": 224, "Y": 320, "Width": 16, "Height": 32 },
+      "AnimationFrameTime": 8,
+      "AnimationFrameCount": 20
+    },
+    {
+      "Action": "EditImage",
+      "LogName": "8_SeedbedD02 Animation",
+      "Target": "Mods/{{ModId}}/Crops",
+      "FromFile": "assets/Animations/SeedbedD02G.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+      "ToArea": { "X": 240, "Y": 320, "Width": 16, "Height": 32 },
+      "AnimationFrameTime": 12,
+      "AnimationFrameCount": 8
+    },
+	{ // Seedbed D, Variant 3
+      "Action": "EditImage",
+	  "LogName": " Seedbed D03",
+      "Target": "Mods/{{ModId}}/Crops",
+      "FromFile": "assets/TileSheets/seedbeds.png",
+      "FromArea": { "X": 128, "Y": 32, "Width": 128, "Height": 32 },
+      "ToArea": { "X": 0, "Y": 352, "Width": 128, "Height": 32 }
+    },
+    {
+      "Action": "EditImage",
+      "LogName": "6_SeedbedD03 Animation",
+      "Target": "Mods/{{ModId}}/Crops",
+      "FromFile": "assets/Animations/SeedbedD03G.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+      "ToArea": { "X": 80, "Y": 352, "Width": 16, "Height": 32 },
+      "AnimationFrameTime": 13,
+      "AnimationFrameCount": 8
+    },
+    {
+      "Action": "EditImage",
+      "LogName": "7_SeedbedD03 Animation",
+      "Target": "Mods/{{ModId}}/Crops",
+      "FromFile": "assets/Animations/SeedbedD03H.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+      "ToArea": { "X": 96, "Y": 352, "Width": 16, "Height": 32 },
+      "AnimationFrameTime": 9,
+      "AnimationFrameCount": 20
+    },
+    {
+      "Action": "EditImage",
+      "LogName": "8_SeedbedD03 Animation",
+      "Target": "Mods/{{ModId}}/Crops",
+      "FromFile": "assets/Animations/SeedbedD03G.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+      "ToArea": { "X": 112, "Y": 352, "Width": 16, "Height": 32 },
+      "AnimationFrameTime": 13,
+      "AnimationFrameCount": 8
+    },
+	{ // Seedbed D, Variant 4
+      "Action": "EditImage",
+	  "LogName": " Seedbed D04",
+      "Target": "Mods/{{ModId}}/Crops",
+      "FromFile": "assets/TileSheets/seedbeds.png",
+      "FromArea": { "X": 128, "Y": 32, "Width": 128, "Height": 32 },
+      "ToArea": { "X": 128, "Y": 352, "Width": 128, "Height": 32 }
+    },
+    {
+      "Action": "EditImage",
+      "LogName": "6_SeedbedD04 Animation",
+      "Target": "Mods/{{ModId}}/Crops",
+      "FromFile": "assets/Animations/SeedbedD04G.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+      "ToArea": { "X": 208, "Y": 352, "Width": 16, "Height": 32 },
+      "AnimationFrameTime": 14,
+      "AnimationFrameCount": 8
+    },
+    {
+      "Action": "EditImage",
+      "LogName": "7_SeedbedD04 Animation",
+      "Target": "Mods/{{ModId}}/Crops",
+      "FromFile": "assets/Animations/SeedbedD04H.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+      "ToArea": { "X": 224, "Y": 352, "Width": 16, "Height": 32 },
+      "AnimationFrameTime": 10,
+      "AnimationFrameCount": 20
+    },
+    {
+      "Action": "EditImage",
+      "LogName": "8_SeedbedD04 Animation",
+      "Target": "Mods/{{ModId}}/Crops",
+      "FromFile": "assets/Animations/SeedbedD04G.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+      "ToArea": { "X": 240, "Y": 352, "Width": 16, "Height": 32 },
+      "AnimationFrameTime": 14,
+      "AnimationFrameCount": 8
+    },
+	{ // Cannabis
+      "Action": "EditImage",
+	  "LogName": "Cannabis",
+      "Target": "Mods/{{ModId}}/Crops",
+      "FromFile": "assets/TileSheets/cannabis.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 32 },
+      "ToArea": { "X": 0, "Y": 384, "Width": 128, "Height": 32 }
+    },
+	{ // Opium
+      "Action": "EditImage",
+	  "LogName": "Opium",
+      "Target": "Mods/{{ModId}}/Crops",
+      "FromFile": "assets/TileSheets/opium.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 32 },
+      "ToArea": { "X": 128, "Y": 384, "Width": 128, "Height": 32 }
+    },
+
+    { // custom crop definition
+      "Action": "EditData",
+      "Target": "Data/Crops",
+      "Entries": {
+		  "TentacleEgg": {	// mustn't add the (O) Prefix
+			  "Seasons": ["spring","summer","fall", "winter"],
+			  "DaysInPhase": [1, 2, 2, 2, 1],
+			  "HarvestItemId": "(O)TentacleMucus",
+			  "Texture": "Mods/{{ModId}}/Crops",
+			  "SpriteIndex": "{{Random: 0, 1, 2, 3}}",
+			  "NeedsWatering": false,
+			  "RegrowDays": 7
+		  },
+		  "RoperEgg": {
+			  "Seasons": ["spring","summer","fall", "winter"],
+			  "DaysInPhase": [1, 2, 2, 2, 1],
+			  "HarvestItemId": "{{Random: (O)SoullessBodyA, (O)SoullessBodyB, (O)SoullessBodyC, (O)SoullessBodyD |key=roperVariant}}",
+			  "NeedsWatering": "false",
+			  "Texture": "Mods/{{ModId}}/Crops",
+			  "SpriteIndex": "{{Random: 4, 5, 6, 7 |key=roperVariant}}",
+			  "NeedsWatering": false,
+			  "IsRaised": true,
+			  "RegrowDays": 5
+		  },
+		  "SoullessBodyA": {
+			  "Seasons": ["spring","summer","fall", "winter"],
+			  "DaysInPhase": [1, 2, 2, 2, 1],
+			  "HarvestItemId": "{{Random: (O)24, (O)192, (O)264, (O)280 |key=seedbedAVariant}}",
+			  "Texture": "Mods/{{ModId}}/Crops",
+			  "SpriteIndex": "{{Random: 8, 9, 10, 11 |key=seedbedAVariant}}",
+			  "NeedsWatering": false,
+			  "IsRaised": true,
+			  "RegrowDays": "{{Random: 6, 9, 9, 15 |key=seedbedAVariant}}",
+		  },
+		  "SoullessBodyB": {
+			  "Seasons": ["spring","summer","fall", "winter"],
+			  "DaysInPhase": [1, 2, 2, 2, 1],
+			  "HarvestItemId": "{{Random: (O)24, (O)192, (O)264, (O)280 |key=seedbedBVariant}}",
+			  "Texture": "Mods/{{ModId}}/Crops",
+			  "SpriteIndex": "{{Random: 12, 13, 14, 15 |key=seedbedBVariant}}",
+			  "NeedsWatering": false,
+			  "IsRaised": true,
+			  "RegrowDays": "{{Random: 6, 9, 9, 15 |key=seedbedBVariant}}",
+		  },
+		  "SoullessBodyC": {
+			  "Seasons": ["spring","summer","fall", "winter"],
+			  "DaysInPhase": [1, 2, 2, 2, 1],
+			  "HarvestItemId": "{{Random: (O)24, (O)192, (O)264, (O)280 |key=seedbedCVariant}}",
+			  "Texture": "Mods/{{ModId}}/Crops",
+			  "SpriteIndex": "{{Random: 16, 17, 18, 19 |key=seedbedCVariant}}",
+			  "NeedsWatering": false,
+			  "IsRaised": true,
+			  "RegrowDays": "{{Random: 6, 9, 9, 15 |key=seedbedCVariant}}",
+		  },
+		  "SoullessBodyD": {
+			  "Seasons": ["spring","summer","fall", "winter"],
+			  "DaysInPhase": [1, 2, 2, 2, 1],
+			  "HarvestItemId": "{{Random: (O)24, (O)192, (O)264, (O)280 |key=seedbedDVariant}}",
+			  "Texture": "Mods/{{ModId}}/Crops",
+			  "SpriteIndex": "{{Random: 20, 21, 22, 23 |key=seedbedDVariant}}",
+			  "NeedsWatering": false,
+			  "IsRaised": true,
+			  "RegrowDays": "{{Random: 6, 9, 9, 15 |key=seedbedCVariant}}",
+		  },
+		  "CannabisSeeds": {
+			  "Seasons": ["spring","summer","fall", "winter"],
+			  "DaysInPhase": [2, 2, 2, 2, 2],
+			  "HarvestItemId": "(O)Cannabis",
+			  "Texture": "Mods/{{ModId}}/Crops",
+			  "SpriteIndex": "24",
+			  "NeedsWatering": true,
+			  "HarvestMethod": "Scythe",
+			  "IsRaised": false,
+			  "PlantableLocationRules": [
+				{
+					"Id": "NoOutdoors",
+					"Result": "Deny",
+					"Condition": "LOCATION_IS_OUTDOORS Here",
+				},
+			  ]
+		  },
+		  "OpiumSeeds": {
+			  "Seasons": ["spring","summer","fall", "winter"],
+			  "DaysInPhase": [2, 2, 2, 2, 2],
+			  "HarvestItemId": "(O)Opium",
+			  "Texture": "Mods/{{ModId}}/Crops",
+			  "SpriteIndex": "24",
+			  "NeedsWatering": true,
+			  "HarvestMethod": "Scythe",
+			  "IsRaised": false,
+			  "PlantableLocationRules": [
+				{
+					"Id": "NoOutdoors",
+					"Result": "Deny",
+					"Condition": "LOCATION_IS_OUTDOORS Here",
+				},
+			  ]
+		  },
+      }
+    },
+  ]
+}

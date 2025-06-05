@@ -1,0 +1,112 @@
+{
+	"Changes": [
+		{
+			"LogName": "SVE - Legendary Fish No Crown Shearwater Bridge",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_ShearwaterBridge", "Fish" ],
+			"Fields": {
+				"FlashShifter.StardewValleyExpandedCP_Wolf_Snapper": {"IsBossFish": false},
+			    },
+			"When": {"Legendary Fish No Crown": true},
+		},
+		{
+			"LogName": "SVE - Legendary Fish No Crown Fable Reef",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_FableReef", "Fish" ],
+			"Fields": {
+				"FlashShifter.StardewValleyExpandedCP_Turretfish": {"IsBossFish": false},
+			    },
+			"When": {"Legendary Fish No Crown": true},
+		},
+		{
+			"LogName": "SVE - Legendary Fish No Crown Farm Standard",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Farm_Standard", "Fish" ],
+			"Fields": {
+				"FlashShifter.StardewValleyExpandedCP_Wolf_Snapper": {"IsBossFish": false},
+				"FlashShifter.StardewValleyExpandedCP_Turretfish": {"IsBossFish": false},
+			    },
+			"When": {"Legendary Fish No Crown": true, "Legendary Fish On Farm": true},
+		},
+		{
+			"LogName": "SVE - Legendary Fish No Crown Farm Beach",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Farm_Beach", "Fish" ],
+			"Fields": {
+				"FlashShifter.StardewValleyExpandedCP_Wolf_Snapper": {"IsBossFish": false},
+				"FlashShifter.StardewValleyExpandedCP_Turretfish": {"IsBossFish": false},
+			    },
+			"When": {"Legendary Fish No Crown": true, "Legendary Fish On Farm": true},
+		},
+		{
+			"LogName": "SVE - Legendary Fish No Crown Farm Forest",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Farm_Forest", "Fish" ],
+			"Fields": {
+				"FlashShifter.StardewValleyExpandedCP_Wolf_Snapper": {"IsBossFish": false},
+				"FlashShifter.StardewValleyExpandedCP_Turretfish": {"IsBossFish": false},
+			    },
+			"When": {"Legendary Fish No Crown": true, "Legendary Fish On Farm": true},
+		},
+		{
+			"LogName": "SVE - Legendary Fish No Crown Farm FourCorners",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Farm_FourCorners", "Fish" ],
+			"Fields": {
+				"FlashShifter.StardewValleyExpandedCP_Wolf_Snapper": {"IsBossFish": false},
+				"FlashShifter.StardewValleyExpandedCP_Turretfish": {"IsBossFish": false},
+			    },
+			"When": {"Legendary Fish No Crown": true, "Legendary Fish On Farm": true},
+		},
+		{
+			"LogName": "SVE - Legendary Fish No Crown Farm Hilltop",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Farm_Hilltop", "Fish" ],
+			"Fields": {
+				"FlashShifter.StardewValleyExpandedCP_Wolf_Snapper": {"IsBossFish": false},
+				"FlashShifter.StardewValleyExpandedCP_Turretfish": {"IsBossFish": false},
+			    },
+			"When": {"Legendary Fish No Crown": true, "Legendary Fish On Farm": true},
+		},
+		{
+			"LogName": "SVE - Legendary Fish No Crown Farm Riverland",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Farm_Riverland", "Fish" ],
+			"Fields": {
+				"FlashShifter.StardewValleyExpandedCP_Wolf_Snapper": {"IsBossFish": false},
+				"FlashShifter.StardewValleyExpandedCP_Turretfish": {"IsBossFish": false},
+			    },
+			"When": {"Legendary Fish No Crown": true, "Legendary Fish On Farm": true},
+		},
+		{
+			"LogName": "SVE - Legendary Fish No Crown Farm Wilderness",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Farm_Wilderness", "Fish" ],
+			"Fields": {
+				"FlashShifter.StardewValleyExpandedCP_Wolf_Snapper": {"IsBossFish": false},
+				"FlashShifter.StardewValleyExpandedCP_Turretfish": {"IsBossFish": false},
+			    },
+			"When": {"Legendary Fish No Crown": true, "Legendary Fish On Farm": true},
+		},
+		{
+			"LogName": "SVE - Legendary Fish No Crown Farm Meadowlands",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Farm_MeadowlandsFarm", "Fish" ],
+			"Fields": {
+				"FlashShifter.StardewValleyExpandedCP_Wolf_Snapper": {"IsBossFish": false},
+				"FlashShifter.StardewValleyExpandedCP_Turretfish": {"IsBossFish": false},
+			    },
+			"When": {"Legendary Fish No Crown": true, "Legendary Fish On Farm": true},
+		},
+	]
+}

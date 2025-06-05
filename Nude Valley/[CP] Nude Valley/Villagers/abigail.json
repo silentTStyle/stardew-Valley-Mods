@@ -1,0 +1,74 @@
+{
+  "Changes": [
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Abigail",
+      "FromFile": "assets/Characters/Abigail.png"
+    },
+	{
+      "Action": "EditImage",
+      "Target": "Characters/Abigail_Winter",
+      "FromFile": "assets/Characters/Abigail.png"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Abigail_Beach",
+      "FromFile": "assets/Characters/Abigail_Beach.png"
+    },
+	// Portraits -----------------------------------------------------------------------------------
+	{
+      "Action": "EditImage",
+      "Target": "Portraits/Abigail",
+      "FromFile": "assets/Portraits/Abigail.png",
+      "When": { 
+		"Hypnosis": "false",
+		"Abigail": "On",
+	  }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Abigail",
+      "FromFile": "assets/Portraits/Abigail_Hypnosis.png",
+      "When": { 
+		"Hypnosis": "true",
+		"Abigail": "On",
+	  }
+    },
+	{
+      "Action": "EditImage",
+      "Target": "Portraits/Abigail_Winter",
+      "FromFile": "assets/Portraits/Abigail.png",
+      "When": { 
+		"Hypnosis": "false",
+		"Abigail": "On",
+	  }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Abigail_Winter",
+      "FromFile": "assets/Portraits/Abigail_Hypnosis.png",
+      "When": { 
+		"Hypnosis": "true",
+		"Abigail": "On",
+	  }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Abigail_Beach",
+      "FromFile": "assets/Portraits/Abigail_Beach.png",
+      "When": { 
+		"Hypnosis": "false",
+		"Abigail": "On",
+	  }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Abigail_Beach",
+      "FromFile": "assets/Portraits/Abigail_Beach_Hypnosis.png",
+      "When": { 
+		"Hypnosis": "true",
+		"Abigail": "On",
+	  }
+    },
+  ]
+}

@@ -1,0 +1,504 @@
+{
+	"Changes": [
+		{
+			"LogName": "SVE - Fish Sell Value Decrease by 10%",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+			    "FlashShifter.StardewValleyExpandedCP_Minnow": {"Price": "{{Round: {{Query: (20 - (20 * 0.10)) }} }}"}, //Minnow
+				"FlashShifter.StardewValleyExpandedCP_Butterfish": {"Price": "{{Round: {{Query: (200 - (200 * 0.10)) }} }}"}, //Butterfish
+				"FlashShifter.StardewValleyExpandedCP_Void_Eel": {"Price": "{{Round: {{Query: (450 - (450 * 0.10)) }} }}"}, //Void Eel
+				"FlashShifter.StardewValleyExpandedCP_Starfish": {"Price": "{{Round: {{Query: (150 - (150 * 0.10)) }} }}"}, //Starfish
+				"FlashShifter.StardewValleyExpandedCP_Clownfish": {"Price": "{{Round: {{Query: (70 - (70 * 0.10)) }} }}"}, //Clownfish
+				"FlashShifter.StardewValleyExpandedCP_Puppyfish": {"Price": "{{Round: {{Query: (250 - (250 * 0.10)) }} }}"}, //Puppyfish
+				"FlashShifter.StardewValleyExpandedCP_King_Salmon": {"Price": "{{Round: {{Query: (320 - (320 * 0.10)) }} }}"}, //King Salmon
+				"FlashShifter.StardewValleyExpandedCP_Frog": {"Price": "{{Round: {{Query: (100 - (100 * 0.10)) }} }}"}, //Frog
+				"FlashShifter.StardewValleyExpandedCP_Kittyfish": {"Price": "{{Round: {{Query: (250 - (250 * 0.10)) }} }}"}, //Kittyfish
+				"FlashShifter.StardewValleyExpandedCP_Seahorse": {"Price": "{{Round: {{Query: (60 - (60 * 0.10)) }} }}"}, //Seahorse
+				"FlashShifter.StardewValleyExpandedCP_Sea_Sponge": {"Price": "{{Round: {{Query: (75 - (75 * 0.10)) }} }}"}, //Sea Sponge
+				"FlashShifter.StardewValleyExpandedCP_Lunaloo": {"Price": "{{Round: {{Query: (100 - (100 * 0.10)) }} }}"}, //Lunaloo
+				"FlashShifter.StardewValleyExpandedCP_Baby_Lunaloo": {"Price": "{{Round: {{Query: (35 - (35 * 0.10)) }} }}"}, //Baby Lunaloo
+				"FlashShifter.StardewValleyExpandedCP_Shiny_Lunaloo": {"Price": "{{Round: {{Query: (400 - (400 * 0.10)) }} }}"}, //Shiny Lunaloo
+				"FlashShifter.StardewValleyExpandedCP_Bonefish": {"Price": "{{Round: {{Query: (450 - (450 * 0.10)) }} }}"}, //Bonefish
+				"FlashShifter.StardewValleyExpandedCP_Undeadfish": {"Price": "{{Round: {{Query: (600 - (600 * 0.10)) }} }}"}, //Undeadfish
+				"FlashShifter.StardewValleyExpandedCP_Radioactive_Bass": {"Price": "{{Round: {{Query: (500 - (500 * 0.10)) }} }}"}, //Radioactive Bass
+				"FlashShifter.StardewValleyExpandedCP_Goldenfish": {"Price": "{{Round: {{Query: (150 - (150 * 0.10)) }} }}"}, //Goldenfish
+				"FlashShifter.StardewValleyExpandedCP_Meteor_Carp": {"Price": "{{Round: {{Query: (175 - (175 * 0.10)) }} }}"}, //Meteor Carp
+				"FlashShifter.StardewValleyExpandedCP_Torpedo_Trout": {"Price": "{{Round: {{Query: (300 - (300 * 0.10)) }} }}"}, //Torpedo Trout
+				"FlashShifter.StardewValleyExpandedCP_Gemfish": {"Price": "{{Round: {{Query: (800 - (800 * 0.10)) }} }}"}, //Gemfish
+				"FlashShifter.StardewValleyExpandedCP_Daggerfish": {"Price": "{{Round: {{Query: (200 - (200 * 0.10)) }} }}"}, //Daggerfish
+				"FlashShifter.StardewValleyExpandedCP_Grass_Carp": {"Price": "{{Round: {{Query: (150 - (150 * 0.10)) }} }}"}, //Grass Carp
+				"FlashShifter.StardewValleyExpandedCP_Bull_Trout": {"Price": "{{Round: {{Query: (185 - (185 * 0.10)) }} }}"}, //Bull Trout
+				"FlashShifter.StardewValleyExpandedCP_Water_Grub": {"Price": "{{Round: {{Query: (170 - (170 * 0.10)) }} }}"}, //Water Grub
+				"FlashShifter.StardewValleyExpandedCP_Dulse_Seaweed": {"Price": "{{Round: {{Query: (35 - (35 * 0.10)) }} }}"}, //Dulse Seaweed
+				"FlashShifter.StardewValleyExpandedCP_Snatcher_Worm": {"Price": "{{Round: {{Query: (280 - (280 * 0.10)) }} }}"}, //Snatcher Worm
+				"FlashShifter.StardewValleyExpandedCP_Razor_Trout": {"Price": "{{Round: {{Query: (400 - (400 * 0.10)) }} }}"}, //Razor Trout
+				"FlashShifter.StardewValleyExpandedCP_Tadpole": {"Price": "{{Round: {{Query: (15 - (15 * 0.10)) }} }}"}, //Tadpole
+				"FlashShifter.StardewValleyExpandedCP_Diamond_Carp": {"Price": "{{Round: {{Query: (575 - (575 * 0.10)) }} }}"}, //Diamond Carp
+				"FlashShifter.StardewValleyExpandedCP_Fiber_Goby": {"Price": "{{Round: {{Query: (250 - (250 * 0.10)) }} }}"}, //Fiber Goby
+				"FlashShifter.StardewValleyExpandedCP_Highlands_Bass": {"Price": "{{Round: {{Query: (200 - (200 * 0.10)) }} }}"}, //Highlands Bass
+				"FlashShifter.StardewValleyExpandedCP_Alligator": {"Price": "{{Round: {{Query: (400 - (400 * 0.10)) }} }}"}, //Alligator
+				"FlashShifter.StardewValleyExpandedCP_Swamp_Crab": {"Price": "{{Round: {{Query: (150 - (150 * 0.10)) }} }}"}, //Swamp Crab
+				"FlashShifter.StardewValleyExpandedCP_Barred_Knifejaw": {"Price": "{{Round: {{Query: (250 - (250 * 0.10)) }} }}"}, //Barred Knifejaw
+				"FlashShifter.StardewValleyExpandedCP_Blue_Tang": {"Price": "{{Round: {{Query: (130 - (130 * 0.10)) }} }}"}, //Blue Tang
+				"FlashShifter.StardewValleyExpandedCP_Viper_Eel": {"Price": "{{Round: {{Query: (600 - (600 * 0.10)) }} }}"}, //Viper Eel
+				"FlashShifter.StardewValleyExpandedCP_Shark": {"Price": "{{Round: {{Query: (800 - (800 * 0.10)) }} }}"}, //Shark
+				"FlashShifter.StardewValleyExpandedCP_Arrowhead_Shark": {"Price": "{{Round: {{Query: (700 - (700 * 0.10)) }} }}"}, //Arrowhead Shark
+				"FlashShifter.StardewValleyExpandedCP_Ocean_Sunfish": {"Price": "{{Round: {{Query: (650 - (650 * 0.10)) }} }}"}, //Ocean Sunfish
+				"FlashShifter.StardewValleyExpandedCP_Goldfish": {"Price": "{{Round: {{Query: (80 - (80 * 0.10)) }} }}"}, //Goldfish
+				"FlashShifter.StardewValleyExpandedCP_Gar": {"Price": "{{Round: {{Query: (175 - (175 * 0.10)) }} }}"}, //Gar
+			    },
+			"When": {"Fish Sell Value": "Decrease by 10%"},
+		},
+		{
+			"LogName": "SVE - Fish Sell Value Decrease by 20%",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+			    "FlashShifter.StardewValleyExpandedCP_Minnow": {"Price": "{{Round: {{Query: (20 - (20 * 0.20)) }} }}"}, //Minnow
+				"FlashShifter.StardewValleyExpandedCP_Butterfish": {"Price": "{{Round: {{Query: (200 - (200 * 0.20)) }} }}"}, //Butterfish
+				"FlashShifter.StardewValleyExpandedCP_Void_Eel": {"Price": "{{Round: {{Query: (450 - (450 * 0.20)) }} }}"}, //Void Eel
+				"FlashShifter.StardewValleyExpandedCP_Starfish": {"Price": "{{Round: {{Query: (150 - (150 * 0.20)) }} }}"}, //Starfish
+				"FlashShifter.StardewValleyExpandedCP_Clownfish": {"Price": "{{Round: {{Query: (70 - (70 * 0.20)) }} }}"}, //Clownfish
+				"FlashShifter.StardewValleyExpandedCP_Puppyfish": {"Price": "{{Round: {{Query: (250 - (250 * 0.20)) }} }}"}, //Puppyfish
+				"FlashShifter.StardewValleyExpandedCP_King_Salmon": {"Price": "{{Round: {{Query: (320 - (320 * 0.20)) }} }}"}, //King Salmon
+				"FlashShifter.StardewValleyExpandedCP_Frog": {"Price": "{{Round: {{Query: (100 - (100 * 0.20)) }} }}"}, //Frog
+				"FlashShifter.StardewValleyExpandedCP_Kittyfish": {"Price": "{{Round: {{Query: (250 - (250 * 0.20)) }} }}"}, //Kittyfish
+				"FlashShifter.StardewValleyExpandedCP_Seahorse": {"Price": "{{Round: {{Query: (60 - (60 * 0.20)) }} }}"}, //Seahorse
+				"FlashShifter.StardewValleyExpandedCP_Sea_Sponge": {"Price": "{{Round: {{Query: (75 - (75 * 0.20)) }} }}"}, //Sea Sponge
+				"FlashShifter.StardewValleyExpandedCP_Lunaloo": {"Price": "{{Round: {{Query: (100 - (100 * 0.20)) }} }}"}, //Lunaloo
+				"FlashShifter.StardewValleyExpandedCP_Baby_Lunaloo": {"Price": "{{Round: {{Query: (35 - (35 * 0.20)) }} }}"}, //Baby Lunaloo
+				"FlashShifter.StardewValleyExpandedCP_Shiny_Lunaloo": {"Price": "{{Round: {{Query: (400 - (400 * 0.20)) }} }}"}, //Shiny Lunaloo
+				"FlashShifter.StardewValleyExpandedCP_Bonefish": {"Price": "{{Round: {{Query: (450 - (450 * 0.20)) }} }}"}, //Bonefish
+				"FlashShifter.StardewValleyExpandedCP_Undeadfish": {"Price": "{{Round: {{Query: (600 - (600 * 0.20)) }} }}"}, //Undeadfish
+				"FlashShifter.StardewValleyExpandedCP_Radioactive_Bass": {"Price": "{{Round: {{Query: (500 - (500 * 0.20)) }} }}"}, //Radioactive Bass
+				"FlashShifter.StardewValleyExpandedCP_Goldenfish": {"Price": "{{Round: {{Query: (150 - (150 * 0.20)) }} }}"}, //Goldenfish
+				"FlashShifter.StardewValleyExpandedCP_Meteor_Carp": {"Price": "{{Round: {{Query: (175 - (175 * 0.20)) }} }}"}, //Meteor Carp
+				"FlashShifter.StardewValleyExpandedCP_Torpedo_Trout": {"Price": "{{Round: {{Query: (300 - (300 * 0.20)) }} }}"}, //Torpedo Trout
+				"FlashShifter.StardewValleyExpandedCP_Gemfish": {"Price": "{{Round: {{Query: (800 - (800 * 0.20)) }} }}"}, //Gemfish
+				"FlashShifter.StardewValleyExpandedCP_Daggerfish": {"Price": "{{Round: {{Query: (200 - (200 * 0.20)) }} }}"}, //Daggerfish
+				"FlashShifter.StardewValleyExpandedCP_Grass_Carp": {"Price": "{{Round: {{Query: (150 - (150 * 0.20)) }} }}"}, //Grass Carp
+				"FlashShifter.StardewValleyExpandedCP_Bull_Trout": {"Price": "{{Round: {{Query: (185 - (185 * 0.20)) }} }}"}, //Bull Trout
+				"FlashShifter.StardewValleyExpandedCP_Water_Grub": {"Price": "{{Round: {{Query: (170 - (170 * 0.20)) }} }}"}, //Water Grub
+				"FlashShifter.StardewValleyExpandedCP_Dulse_Seaweed": {"Price": "{{Round: {{Query: (35 - (35 * 0.20)) }} }}"}, //Dulse Seaweed
+				"FlashShifter.StardewValleyExpandedCP_Snatcher_Worm": {"Price": "{{Round: {{Query: (280 - (280 * 0.20)) }} }}"}, //Snatcher Worm
+				"FlashShifter.StardewValleyExpandedCP_Razor_Trout": {"Price": "{{Round: {{Query: (400 - (400 * 0.20)) }} }}"}, //Razor Trout
+				"FlashShifter.StardewValleyExpandedCP_Tadpole": {"Price": "{{Round: {{Query: (15 - (15 * 0.20)) }} }}"}, //Tadpole
+				"FlashShifter.StardewValleyExpandedCP_Diamond_Carp": {"Price": "{{Round: {{Query: (575 - (575 * 0.20)) }} }}"}, //Diamond Carp
+				"FlashShifter.StardewValleyExpandedCP_Fiber_Goby": {"Price": "{{Round: {{Query: (250 - (250 * 0.20)) }} }}"}, //Fiber Goby
+				"FlashShifter.StardewValleyExpandedCP_Highlands_Bass": {"Price": "{{Round: {{Query: (200 - (200 * 0.20)) }} }}"}, //Highlands Bass
+				"FlashShifter.StardewValleyExpandedCP_Alligator": {"Price": "{{Round: {{Query: (400 - (400 * 0.20)) }} }}"}, //Alligator
+				"FlashShifter.StardewValleyExpandedCP_Swamp_Crab": {"Price": "{{Round: {{Query: (150 - (150 * 0.20)) }} }}"}, //Swamp Crab
+				"FlashShifter.StardewValleyExpandedCP_Barred_Knifejaw": {"Price": "{{Round: {{Query: (250 - (250 * 0.20)) }} }}"}, //Barred Knifejaw
+				"FlashShifter.StardewValleyExpandedCP_Blue_Tang": {"Price": "{{Round: {{Query: (130 - (130 * 0.20)) }} }}"}, //Blue Tang
+				"FlashShifter.StardewValleyExpandedCP_Viper_Eel": {"Price": "{{Round: {{Query: (600 - (600 * 0.20)) }} }}"}, //Viper Eel
+				"FlashShifter.StardewValleyExpandedCP_Shark": {"Price": "{{Round: {{Query: (800 - (800 * 0.20)) }} }}"}, //Shark
+				"FlashShifter.StardewValleyExpandedCP_Arrowhead_Shark": {"Price": "{{Round: {{Query: (700 - (700 * 0.20)) }} }}"}, //Arrowhead Shark
+				"FlashShifter.StardewValleyExpandedCP_Ocean_Sunfish": {"Price": "{{Round: {{Query: (650 - (650 * 0.20)) }} }}"}, //Ocean Sunfish
+				"FlashShifter.StardewValleyExpandedCP_Goldfish": {"Price": "{{Round: {{Query: (80 - (80 * 0.20)) }} }}"}, //Goldfish
+				"FlashShifter.StardewValleyExpandedCP_Gar": {"Price": "{{Round: {{Query: (175 - (175 * 0.20)) }} }}"}, //Gar
+			    },
+			"When": {"Fish Sell Value": "Decrease by 20%"},
+		},
+		{
+			"LogName": "SVE - Fish Sell Value Decrease by 30%",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+			    "FlashShifter.StardewValleyExpandedCP_Minnow": {"Price": "{{Round: {{Query: (20 - (20 * 0.30)) }} }}"}, //Minnow
+				"FlashShifter.StardewValleyExpandedCP_Butterfish": {"Price": "{{Round: {{Query: (200 - (200 * 0.30)) }} }}"}, //Butterfish
+				"FlashShifter.StardewValleyExpandedCP_Void_Eel": {"Price": "{{Round: {{Query: (450 - (450 * 0.30)) }} }}"}, //Void Eel
+				"FlashShifter.StardewValleyExpandedCP_Starfish": {"Price": "{{Round: {{Query: (150 - (150 * 0.30)) }} }}"}, //Starfish
+				"FlashShifter.StardewValleyExpandedCP_Clownfish": {"Price": "{{Round: {{Query: (70 - (70 * 0.30)) }} }}"}, //Clownfish
+				"FlashShifter.StardewValleyExpandedCP_Puppyfish": {"Price": "{{Round: {{Query: (250 - (250 * 0.30)) }} }}"}, //Puppyfish
+				"FlashShifter.StardewValleyExpandedCP_King_Salmon": {"Price": "{{Round: {{Query: (320 - (320 * 0.30)) }} }}"}, //King Salmon
+				"FlashShifter.StardewValleyExpandedCP_Frog": {"Price": "{{Round: {{Query: (100 - (100 * 0.30)) }} }}"}, //Frog
+				"FlashShifter.StardewValleyExpandedCP_Kittyfish": {"Price": "{{Round: {{Query: (250 - (250 * 0.30)) }} }}"}, //Kittyfish
+				"FlashShifter.StardewValleyExpandedCP_Seahorse": {"Price": "{{Round: {{Query: (60 - (60 * 0.30)) }} }}"}, //Seahorse
+				"FlashShifter.StardewValleyExpandedCP_Sea_Sponge": {"Price": "{{Round: {{Query: (75 - (75 * 0.30)) }} }}"}, //Sea Sponge
+				"FlashShifter.StardewValleyExpandedCP_Lunaloo": {"Price": "{{Round: {{Query: (100 - (100 * 0.30)) }} }}"}, //Lunaloo
+				"FlashShifter.StardewValleyExpandedCP_Baby_Lunaloo": {"Price": "{{Round: {{Query: (35 - (35 * 0.30)) }} }}"}, //Baby Lunaloo
+				"FlashShifter.StardewValleyExpandedCP_Shiny_Lunaloo": {"Price": "{{Round: {{Query: (400 - (400 * 0.30)) }} }}"}, //Shiny Lunaloo
+				"FlashShifter.StardewValleyExpandedCP_Bonefish": {"Price": "{{Round: {{Query: (450 - (450 * 0.30)) }} }}"}, //Bonefish
+				"FlashShifter.StardewValleyExpandedCP_Undeadfish": {"Price": "{{Round: {{Query: (600 - (600 * 0.30)) }} }}"}, //Undeadfish
+				"FlashShifter.StardewValleyExpandedCP_Radioactive_Bass": {"Price": "{{Round: {{Query: (500 - (500 * 0.30)) }} }}"}, //Radioactive Bass
+				"FlashShifter.StardewValleyExpandedCP_Goldenfish": {"Price": "{{Round: {{Query: (150 - (150 * 0.30)) }} }}"}, //Goldenfish
+				"FlashShifter.StardewValleyExpandedCP_Meteor_Carp": {"Price": "{{Round: {{Query: (175 - (175 * 0.30)) }} }}"}, //Meteor Carp
+				"FlashShifter.StardewValleyExpandedCP_Torpedo_Trout": {"Price": "{{Round: {{Query: (300 - (300 * 0.30)) }} }}"}, //Torpedo Trout
+				"FlashShifter.StardewValleyExpandedCP_Gemfish": {"Price": "{{Round: {{Query: (800 - (800 * 0.30)) }} }}"}, //Gemfish
+				"FlashShifter.StardewValleyExpandedCP_Daggerfish": {"Price": "{{Round: {{Query: (200 - (200 * 0.30)) }} }}"}, //Daggerfish
+				"FlashShifter.StardewValleyExpandedCP_Grass_Carp": {"Price": "{{Round: {{Query: (150 - (150 * 0.30)) }} }}"}, //Grass Carp
+				"FlashShifter.StardewValleyExpandedCP_Bull_Trout": {"Price": "{{Round: {{Query: (185 - (185 * 0.30)) }} }}"}, //Bull Trout
+				"FlashShifter.StardewValleyExpandedCP_Water_Grub": {"Price": "{{Round: {{Query: (170 - (170 * 0.30)) }} }}"}, //Water Grub
+				"FlashShifter.StardewValleyExpandedCP_Dulse_Seaweed": {"Price": "{{Round: {{Query: (35 - (35 * 0.30)) }} }}"}, //Dulse Seaweed
+				"FlashShifter.StardewValleyExpandedCP_Snatcher_Worm": {"Price": "{{Round: {{Query: (280 - (280 * 0.30)) }} }}"}, //Snatcher Worm
+				"FlashShifter.StardewValleyExpandedCP_Razor_Trout": {"Price": "{{Round: {{Query: (400 - (400 * 0.30)) }} }}"}, //Razor Trout
+				"FlashShifter.StardewValleyExpandedCP_Tadpole": {"Price": "{{Round: {{Query: (15 - (15 * 0.30)) }} }}"}, //Tadpole
+				"FlashShifter.StardewValleyExpandedCP_Diamond_Carp": {"Price": "{{Round: {{Query: (575 - (575 * 0.30)) }} }}"}, //Diamond Carp
+				"FlashShifter.StardewValleyExpandedCP_Fiber_Goby": {"Price": "{{Round: {{Query: (250 - (250 * 0.30)) }} }}"}, //Fiber Goby
+				"FlashShifter.StardewValleyExpandedCP_Highlands_Bass": {"Price": "{{Round: {{Query: (200 - (200 * 0.30)) }} }}"}, //Highlands Bass
+				"FlashShifter.StardewValleyExpandedCP_Alligator": {"Price": "{{Round: {{Query: (400 - (400 * 0.30)) }} }}"}, //Alligator
+				"FlashShifter.StardewValleyExpandedCP_Swamp_Crab": {"Price": "{{Round: {{Query: (150 - (150 * 0.30)) }} }}"}, //Swamp Crab
+				"FlashShifter.StardewValleyExpandedCP_Barred_Knifejaw": {"Price": "{{Round: {{Query: (250 - (250 * 0.30)) }} }}"}, //Barred Knifejaw
+				"FlashShifter.StardewValleyExpandedCP_Blue_Tang": {"Price": "{{Round: {{Query: (130 - (130 * 0.30)) }} }}"}, //Blue Tang
+				"FlashShifter.StardewValleyExpandedCP_Viper_Eel": {"Price": "{{Round: {{Query: (600 - (600 * 0.30)) }} }}"}, //Viper Eel
+				"FlashShifter.StardewValleyExpandedCP_Shark": {"Price": "{{Round: {{Query: (800 - (800 * 0.30)) }} }}"}, //Shark
+				"FlashShifter.StardewValleyExpandedCP_Arrowhead_Shark": {"Price": "{{Round: {{Query: (700 - (700 * 0.30)) }} }}"}, //Arrowhead Shark
+				"FlashShifter.StardewValleyExpandedCP_Ocean_Sunfish": {"Price": "{{Round: {{Query: (650 - (650 * 0.30)) }} }}"}, //Ocean Sunfish
+				"FlashShifter.StardewValleyExpandedCP_Goldfish": {"Price": "{{Round: {{Query: (80 - (80 * 0.30)) }} }}"}, //Goldfish
+				"FlashShifter.StardewValleyExpandedCP_Gar": {"Price": "{{Round: {{Query: (175 - (175 * 0.30)) }} }}"}, //Gar
+			    },
+			"When": {"Fish Sell Value": "Decrease by 30%"},
+		},
+		{
+			"LogName": "SVE - Fish Sell Value Decrease by 40%",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+			    "FlashShifter.StardewValleyExpandedCP_Minnow": {"Price": "{{Round: {{Query: (20 - (20 * 0.40)) }} }}"}, //Minnow
+				"FlashShifter.StardewValleyExpandedCP_Butterfish": {"Price": "{{Round: {{Query: (200 - (200 * 0.40)) }} }}"}, //Butterfish
+				"FlashShifter.StardewValleyExpandedCP_Void_Eel": {"Price": "{{Round: {{Query: (450 - (450 * 0.40)) }} }}"}, //Void Eel
+				"FlashShifter.StardewValleyExpandedCP_Starfish": {"Price": "{{Round: {{Query: (150 - (150 * 0.40)) }} }}"}, //Starfish
+				"FlashShifter.StardewValleyExpandedCP_Clownfish": {"Price": "{{Round: {{Query: (70 - (70 * 0.40)) }} }}"}, //Clownfish
+				"FlashShifter.StardewValleyExpandedCP_Puppyfish": {"Price": "{{Round: {{Query: (250 - (250 * 0.40)) }} }}"}, //Puppyfish
+				"FlashShifter.StardewValleyExpandedCP_King_Salmon": {"Price": "{{Round: {{Query: (320 - (320 * 0.40)) }} }}"}, //King Salmon
+				"FlashShifter.StardewValleyExpandedCP_Frog": {"Price": "{{Round: {{Query: (100 - (100 * 0.40)) }} }}"}, //Frog
+				"FlashShifter.StardewValleyExpandedCP_Kittyfish": {"Price": "{{Round: {{Query: (250 - (250 * 0.40)) }} }}"}, //Kittyfish
+				"FlashShifter.StardewValleyExpandedCP_Seahorse": {"Price": "{{Round: {{Query: (60 - (60 * 0.40)) }} }}"}, //Seahorse
+				"FlashShifter.StardewValleyExpandedCP_Sea_Sponge": {"Price": "{{Round: {{Query: (75 - (75 * 0.40)) }} }}"}, //Sea Sponge
+				"FlashShifter.StardewValleyExpandedCP_Lunaloo": {"Price": "{{Round: {{Query: (100 - (100 * 0.40)) }} }}"}, //Lunaloo
+				"FlashShifter.StardewValleyExpandedCP_Baby_Lunaloo": {"Price": "{{Round: {{Query: (35 - (35 * 0.40)) }} }}"}, //Baby Lunaloo
+				"FlashShifter.StardewValleyExpandedCP_Shiny_Lunaloo": {"Price": "{{Round: {{Query: (400 - (400 * 0.40)) }} }}"}, //Shiny Lunaloo
+				"FlashShifter.StardewValleyExpandedCP_Bonefish": {"Price": "{{Round: {{Query: (450 - (450 * 0.40)) }} }}"}, //Bonefish
+				"FlashShifter.StardewValleyExpandedCP_Undeadfish": {"Price": "{{Round: {{Query: (600 - (600 * 0.40)) }} }}"}, //Undeadfish
+				"FlashShifter.StardewValleyExpandedCP_Radioactive_Bass": {"Price": "{{Round: {{Query: (500 - (500 * 0.40)) }} }}"}, //Radioactive Bass
+				"FlashShifter.StardewValleyExpandedCP_Goldenfish": {"Price": "{{Round: {{Query: (150 - (150 * 0.40)) }} }}"}, //Goldenfish
+				"FlashShifter.StardewValleyExpandedCP_Meteor_Carp": {"Price": "{{Round: {{Query: (175 - (175 * 0.40)) }} }}"}, //Meteor Carp
+				"FlashShifter.StardewValleyExpandedCP_Torpedo_Trout": {"Price": "{{Round: {{Query: (300 - (300 * 0.40)) }} }}"}, //Torpedo Trout
+				"FlashShifter.StardewValleyExpandedCP_Gemfish": {"Price": "{{Round: {{Query: (800 - (800 * 0.40)) }} }}"}, //Gemfish
+				"FlashShifter.StardewValleyExpandedCP_Daggerfish": {"Price": "{{Round: {{Query: (200 - (200 * 0.40)) }} }}"}, //Daggerfish
+				"FlashShifter.StardewValleyExpandedCP_Grass_Carp": {"Price": "{{Round: {{Query: (150 - (150 * 0.40)) }} }}"}, //Grass Carp
+				"FlashShifter.StardewValleyExpandedCP_Bull_Trout": {"Price": "{{Round: {{Query: (185 - (185 * 0.40)) }} }}"}, //Bull Trout
+				"FlashShifter.StardewValleyExpandedCP_Water_Grub": {"Price": "{{Round: {{Query: (170 - (170 * 0.40)) }} }}"}, //Water Grub
+				"FlashShifter.StardewValleyExpandedCP_Dulse_Seaweed": {"Price": "{{Round: {{Query: (35 - (35 * 0.40)) }} }}"}, //Dulse Seaweed
+				"FlashShifter.StardewValleyExpandedCP_Snatcher_Worm": {"Price": "{{Round: {{Query: (280 - (280 * 0.40)) }} }}"}, //Snatcher Worm
+				"FlashShifter.StardewValleyExpandedCP_Razor_Trout": {"Price": "{{Round: {{Query: (400 - (400 * 0.40)) }} }}"}, //Razor Trout
+				"FlashShifter.StardewValleyExpandedCP_Tadpole": {"Price": "{{Round: {{Query: (15 - (15 * 0.40)) }} }}"}, //Tadpole
+				"FlashShifter.StardewValleyExpandedCP_Diamond_Carp": {"Price": "{{Round: {{Query: (575 - (575 * 0.40)) }} }}"}, //Diamond Carp
+				"FlashShifter.StardewValleyExpandedCP_Fiber_Goby": {"Price": "{{Round: {{Query: (250 - (250 * 0.40)) }} }}"}, //Fiber Goby
+				"FlashShifter.StardewValleyExpandedCP_Highlands_Bass": {"Price": "{{Round: {{Query: (200 - (200 * 0.40)) }} }}"}, //Highlands Bass
+				"FlashShifter.StardewValleyExpandedCP_Alligator": {"Price": "{{Round: {{Query: (400 - (400 * 0.40)) }} }}"}, //Alligator
+				"FlashShifter.StardewValleyExpandedCP_Swamp_Crab": {"Price": "{{Round: {{Query: (150 - (150 * 0.40)) }} }}"}, //Swamp Crab
+				"FlashShifter.StardewValleyExpandedCP_Barred_Knifejaw": {"Price": "{{Round: {{Query: (250 - (250 * 0.40)) }} }}"}, //Barred Knifejaw
+				"FlashShifter.StardewValleyExpandedCP_Blue_Tang": {"Price": "{{Round: {{Query: (130 - (130 * 0.40)) }} }}"}, //Blue Tang
+				"FlashShifter.StardewValleyExpandedCP_Viper_Eel": {"Price": "{{Round: {{Query: (600 - (600 * 0.40)) }} }}"}, //Viper Eel
+				"FlashShifter.StardewValleyExpandedCP_Shark": {"Price": "{{Round: {{Query: (800 - (800 * 0.40)) }} }}"}, //Shark
+				"FlashShifter.StardewValleyExpandedCP_Arrowhead_Shark": {"Price": "{{Round: {{Query: (700 - (700 * 0.40)) }} }}"}, //Arrowhead Shark
+				"FlashShifter.StardewValleyExpandedCP_Ocean_Sunfish": {"Price": "{{Round: {{Query: (650 - (650 * 0.40)) }} }}"}, //Ocean Sunfish
+				"FlashShifter.StardewValleyExpandedCP_Goldfish": {"Price": "{{Round: {{Query: (80 - (80 * 0.40)) }} }}"}, //Goldfish
+				"FlashShifter.StardewValleyExpandedCP_Gar": {"Price": "{{Round: {{Query: (175 - (175 * 0.40)) }} }}"}, //Gar
+			    },
+			"When": {"Fish Sell Value": "Decrease by 40%"},
+		},
+		{
+			"LogName": "SVE - Fish Sell Value Decrease by 50%",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+			    "FlashShifter.StardewValleyExpandedCP_Minnow": {"Price": "{{Round: {{Query: (20 - (20 * 0.50)) }} }}"}, //Minnow
+				"FlashShifter.StardewValleyExpandedCP_Butterfish": {"Price": "{{Round: {{Query: (200 - (200 * 0.50)) }} }}"}, //Butterfish
+				"FlashShifter.StardewValleyExpandedCP_Void_Eel": {"Price": "{{Round: {{Query: (450 - (450 * 0.50)) }} }}"}, //Void Eel
+				"FlashShifter.StardewValleyExpandedCP_Starfish": {"Price": "{{Round: {{Query: (150 - (150 * 0.50)) }} }}"}, //Starfish
+				"FlashShifter.StardewValleyExpandedCP_Clownfish": {"Price": "{{Round: {{Query: (70 - (70 * 0.50)) }} }}"}, //Clownfish
+				"FlashShifter.StardewValleyExpandedCP_Puppyfish": {"Price": "{{Round: {{Query: (250 - (250 * 0.50)) }} }}"}, //Puppyfish
+				"FlashShifter.StardewValleyExpandedCP_King_Salmon": {"Price": "{{Round: {{Query: (320 - (320 * 0.50)) }} }}"}, //King Salmon
+				"FlashShifter.StardewValleyExpandedCP_Frog": {"Price": "{{Round: {{Query: (100 - (100 * 0.50)) }} }}"}, //Frog
+				"FlashShifter.StardewValleyExpandedCP_Kittyfish": {"Price": "{{Round: {{Query: (250 - (250 * 0.50)) }} }}"}, //Kittyfish
+				"FlashShifter.StardewValleyExpandedCP_Seahorse": {"Price": "{{Round: {{Query: (60 - (60 * 0.50)) }} }}"}, //Seahorse
+				"FlashShifter.StardewValleyExpandedCP_Sea_Sponge": {"Price": "{{Round: {{Query: (75 - (75 * 0.50)) }} }}"}, //Sea Sponge
+				"FlashShifter.StardewValleyExpandedCP_Lunaloo": {"Price": "{{Round: {{Query: (100 - (100 * 0.50)) }} }}"}, //Lunaloo
+				"FlashShifter.StardewValleyExpandedCP_Baby_Lunaloo": {"Price": "{{Round: {{Query: (35 - (35 * 0.50)) }} }}"}, //Baby Lunaloo
+				"FlashShifter.StardewValleyExpandedCP_Shiny_Lunaloo": {"Price": "{{Round: {{Query: (400 - (400 * 0.50)) }} }}"}, //Shiny Lunaloo
+				"FlashShifter.StardewValleyExpandedCP_Bonefish": {"Price": "{{Round: {{Query: (450 - (450 * 0.50)) }} }}"}, //Bonefish
+				"FlashShifter.StardewValleyExpandedCP_Undeadfish": {"Price": "{{Round: {{Query: (600 - (600 * 0.50)) }} }}"}, //Undeadfish
+				"FlashShifter.StardewValleyExpandedCP_Radioactive_Bass": {"Price": "{{Round: {{Query: (500 - (500 * 0.50)) }} }}"}, //Radioactive Bass
+				"FlashShifter.StardewValleyExpandedCP_Goldenfish": {"Price": "{{Round: {{Query: (150 - (150 * 0.50)) }} }}"}, //Goldenfish
+				"FlashShifter.StardewValleyExpandedCP_Meteor_Carp": {"Price": "{{Round: {{Query: (175 - (175 * 0.50)) }} }}"}, //Meteor Carp
+				"FlashShifter.StardewValleyExpandedCP_Torpedo_Trout": {"Price": "{{Round: {{Query: (300 - (300 * 0.50)) }} }}"}, //Torpedo Trout
+				"FlashShifter.StardewValleyExpandedCP_Gemfish": {"Price": "{{Round: {{Query: (800 - (800 * 0.50)) }} }}"}, //Gemfish
+				"FlashShifter.StardewValleyExpandedCP_Daggerfish": {"Price": "{{Round: {{Query: (200 - (200 * 0.50)) }} }}"}, //Daggerfish
+				"FlashShifter.StardewValleyExpandedCP_Grass_Carp": {"Price": "{{Round: {{Query: (150 - (150 * 0.50)) }} }}"}, //Grass Carp
+				"FlashShifter.StardewValleyExpandedCP_Bull_Trout": {"Price": "{{Round: {{Query: (185 - (185 * 0.50)) }} }}"}, //Bull Trout
+				"FlashShifter.StardewValleyExpandedCP_Water_Grub": {"Price": "{{Round: {{Query: (170 - (170 * 0.50)) }} }}"}, //Water Grub
+				"FlashShifter.StardewValleyExpandedCP_Dulse_Seaweed": {"Price": "{{Round: {{Query: (35 - (35 * 0.50)) }} }}"}, //Dulse Seaweed
+				"FlashShifter.StardewValleyExpandedCP_Snatcher_Worm": {"Price": "{{Round: {{Query: (280 - (280 * 0.50)) }} }}"}, //Snatcher Worm
+				"FlashShifter.StardewValleyExpandedCP_Razor_Trout": {"Price": "{{Round: {{Query: (400 - (400 * 0.50)) }} }}"}, //Razor Trout
+				"FlashShifter.StardewValleyExpandedCP_Tadpole": {"Price": "{{Round: {{Query: (15 - (15 * 0.50)) }} }}"}, //Tadpole
+				"FlashShifter.StardewValleyExpandedCP_Diamond_Carp": {"Price": "{{Round: {{Query: (575 - (575 * 0.50)) }} }}"}, //Diamond Carp
+				"FlashShifter.StardewValleyExpandedCP_Fiber_Goby": {"Price": "{{Round: {{Query: (250 - (250 * 0.50)) }} }}"}, //Fiber Goby
+				"FlashShifter.StardewValleyExpandedCP_Highlands_Bass": {"Price": "{{Round: {{Query: (200 - (200 * 0.50)) }} }}"}, //Highlands Bass
+				"FlashShifter.StardewValleyExpandedCP_Alligator": {"Price": "{{Round: {{Query: (400 - (400 * 0.50)) }} }}"}, //Alligator
+				"FlashShifter.StardewValleyExpandedCP_Swamp_Crab": {"Price": "{{Round: {{Query: (150 - (150 * 0.50)) }} }}"}, //Swamp Crab
+				"FlashShifter.StardewValleyExpandedCP_Barred_Knifejaw": {"Price": "{{Round: {{Query: (250 - (250 * 0.50)) }} }}"}, //Barred Knifejaw
+				"FlashShifter.StardewValleyExpandedCP_Blue_Tang": {"Price": "{{Round: {{Query: (130 - (130 * 0.50)) }} }}"}, //Blue Tang
+				"FlashShifter.StardewValleyExpandedCP_Viper_Eel": {"Price": "{{Round: {{Query: (600 - (600 * 0.50)) }} }}"}, //Viper Eel
+				"FlashShifter.StardewValleyExpandedCP_Shark": {"Price": "{{Round: {{Query: (800 - (800 * 0.50)) }} }}"}, //Shark
+				"FlashShifter.StardewValleyExpandedCP_Arrowhead_Shark": {"Price": "{{Round: {{Query: (700 - (700 * 0.50)) }} }}"}, //Arrowhead Shark
+				"FlashShifter.StardewValleyExpandedCP_Ocean_Sunfish": {"Price": "{{Round: {{Query: (650 - (650 * 0.50)) }} }}"}, //Ocean Sunfish
+				"FlashShifter.StardewValleyExpandedCP_Goldfish": {"Price": "{{Round: {{Query: (80 - (80 * 0.50)) }} }}"}, //Goldfish
+				"FlashShifter.StardewValleyExpandedCP_Gar": {"Price": "{{Round: {{Query: (175 - (175 * 0.50)) }} }}"}, //Gar
+			    },
+			"When": {"Fish Sell Value": "Decrease by 50%"},
+		},
+		{
+			"LogName": "SVE - Fish Sell Value Decrease by 60%",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+			    "FlashShifter.StardewValleyExpandedCP_Minnow": {"Price": "{{Round: {{Query: (20 - (20 * 0.60)) }} }}"}, //Minnow
+				"FlashShifter.StardewValleyExpandedCP_Butterfish": {"Price": "{{Round: {{Query: (200 - (200 * 0.60)) }} }}"}, //Butterfish
+				"FlashShifter.StardewValleyExpandedCP_Void_Eel": {"Price": "{{Round: {{Query: (450 - (450 * 0.60)) }} }}"}, //Void Eel
+				"FlashShifter.StardewValleyExpandedCP_Starfish": {"Price": "{{Round: {{Query: (150 - (150 * 0.60)) }} }}"}, //Starfish
+				"FlashShifter.StardewValleyExpandedCP_Clownfish": {"Price": "{{Round: {{Query: (70 - (70 * 0.60)) }} }}"}, //Clownfish
+				"FlashShifter.StardewValleyExpandedCP_Puppyfish": {"Price": "{{Round: {{Query: (250 - (250 * 0.60)) }} }}"}, //Puppyfish
+				"FlashShifter.StardewValleyExpandedCP_King_Salmon": {"Price": "{{Round: {{Query: (320 - (320 * 0.60)) }} }}"}, //King Salmon
+				"FlashShifter.StardewValleyExpandedCP_Frog": {"Price": "{{Round: {{Query: (100 - (100 * 0.60)) }} }}"}, //Frog
+				"FlashShifter.StardewValleyExpandedCP_Kittyfish": {"Price": "{{Round: {{Query: (250 - (250 * 0.60)) }} }}"}, //Kittyfish
+				"FlashShifter.StardewValleyExpandedCP_Seahorse": {"Price": "{{Round: {{Query: (60 - (60 * 0.60)) }} }}"}, //Seahorse
+				"FlashShifter.StardewValleyExpandedCP_Sea_Sponge": {"Price": "{{Round: {{Query: (75 - (75 * 0.60)) }} }}"}, //Sea Sponge
+				"FlashShifter.StardewValleyExpandedCP_Lunaloo": {"Price": "{{Round: {{Query: (100 - (100 * 0.60)) }} }}"}, //Lunaloo
+				"FlashShifter.StardewValleyExpandedCP_Baby_Lunaloo": {"Price": "{{Round: {{Query: (35 - (35 * 0.60)) }} }}"}, //Baby Lunaloo
+				"FlashShifter.StardewValleyExpandedCP_Shiny_Lunaloo": {"Price": "{{Round: {{Query: (400 - (400 * 0.60)) }} }}"}, //Shiny Lunaloo
+				"FlashShifter.StardewValleyExpandedCP_Bonefish": {"Price": "{{Round: {{Query: (450 - (450 * 0.60)) }} }}"}, //Bonefish
+				"FlashShifter.StardewValleyExpandedCP_Undeadfish": {"Price": "{{Round: {{Query: (600 - (600 * 0.60)) }} }}"}, //Undeadfish
+				"FlashShifter.StardewValleyExpandedCP_Radioactive_Bass": {"Price": "{{Round: {{Query: (500 - (500 * 0.60)) }} }}"}, //Radioactive Bass
+				"FlashShifter.StardewValleyExpandedCP_Goldenfish": {"Price": "{{Round: {{Query: (150 - (150 * 0.60)) }} }}"}, //Goldenfish
+				"FlashShifter.StardewValleyExpandedCP_Meteor_Carp": {"Price": "{{Round: {{Query: (175 - (175 * 0.60)) }} }}"}, //Meteor Carp
+				"FlashShifter.StardewValleyExpandedCP_Torpedo_Trout": {"Price": "{{Round: {{Query: (300 - (300 * 0.60)) }} }}"}, //Torpedo Trout
+				"FlashShifter.StardewValleyExpandedCP_Gemfish": {"Price": "{{Round: {{Query: (800 - (800 * 0.60)) }} }}"}, //Gemfish
+				"FlashShifter.StardewValleyExpandedCP_Daggerfish": {"Price": "{{Round: {{Query: (200 - (200 * 0.60)) }} }}"}, //Daggerfish
+				"FlashShifter.StardewValleyExpandedCP_Grass_Carp": {"Price": "{{Round: {{Query: (150 - (150 * 0.60)) }} }}"}, //Grass Carp
+				"FlashShifter.StardewValleyExpandedCP_Bull_Trout": {"Price": "{{Round: {{Query: (185 - (185 * 0.60)) }} }}"}, //Bull Trout
+				"FlashShifter.StardewValleyExpandedCP_Water_Grub": {"Price": "{{Round: {{Query: (170 - (170 * 0.60)) }} }}"}, //Water Grub
+				"FlashShifter.StardewValleyExpandedCP_Dulse_Seaweed": {"Price": "{{Round: {{Query: (35 - (35 * 0.60)) }} }}"}, //Dulse Seaweed
+				"FlashShifter.StardewValleyExpandedCP_Snatcher_Worm": {"Price": "{{Round: {{Query: (280 - (280 * 0.60)) }} }}"}, //Snatcher Worm
+				"FlashShifter.StardewValleyExpandedCP_Razor_Trout": {"Price": "{{Round: {{Query: (400 - (400 * 0.60)) }} }}"}, //Razor Trout
+				"FlashShifter.StardewValleyExpandedCP_Tadpole": {"Price": "{{Round: {{Query: (15 - (15 * 0.60)) }} }}"}, //Tadpole
+				"FlashShifter.StardewValleyExpandedCP_Diamond_Carp": {"Price": "{{Round: {{Query: (575 - (575 * 0.60)) }} }}"}, //Diamond Carp
+				"FlashShifter.StardewValleyExpandedCP_Fiber_Goby": {"Price": "{{Round: {{Query: (250 - (250 * 0.60)) }} }}"}, //Fiber Goby
+				"FlashShifter.StardewValleyExpandedCP_Highlands_Bass": {"Price": "{{Round: {{Query: (200 - (200 * 0.60)) }} }}"}, //Highlands Bass
+				"FlashShifter.StardewValleyExpandedCP_Alligator": {"Price": "{{Round: {{Query: (400 - (400 * 0.60)) }} }}"}, //Alligator
+				"FlashShifter.StardewValleyExpandedCP_Swamp_Crab": {"Price": "{{Round: {{Query: (150 - (150 * 0.60)) }} }}"}, //Swamp Crab
+				"FlashShifter.StardewValleyExpandedCP_Barred_Knifejaw": {"Price": "{{Round: {{Query: (250 - (250 * 0.60)) }} }}"}, //Barred Knifejaw
+				"FlashShifter.StardewValleyExpandedCP_Blue_Tang": {"Price": "{{Round: {{Query: (130 - (130 * 0.60)) }} }}"}, //Blue Tang
+				"FlashShifter.StardewValleyExpandedCP_Viper_Eel": {"Price": "{{Round: {{Query: (600 - (600 * 0.60)) }} }}"}, //Viper Eel
+				"FlashShifter.StardewValleyExpandedCP_Shark": {"Price": "{{Round: {{Query: (800 - (800 * 0.60)) }} }}"}, //Shark
+				"FlashShifter.StardewValleyExpandedCP_Arrowhead_Shark": {"Price": "{{Round: {{Query: (700 - (700 * 0.60)) }} }}"}, //Arrowhead Shark
+				"FlashShifter.StardewValleyExpandedCP_Ocean_Sunfish": {"Price": "{{Round: {{Query: (650 - (650 * 0.60)) }} }}"}, //Ocean Sunfish
+				"FlashShifter.StardewValleyExpandedCP_Goldfish": {"Price": "{{Round: {{Query: (80 - (80 * 0.60)) }} }}"}, //Goldfish
+				"FlashShifter.StardewValleyExpandedCP_Gar": {"Price": "{{Round: {{Query: (175 - (175 * 0.60)) }} }}"}, //Gar
+			    },
+			"When": {"Fish Sell Value": "Decrease by 60%"},
+		},
+		{
+			"LogName": "SVE - Fish Sell Value Decrease by 70%",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+			    "FlashShifter.StardewValleyExpandedCP_Minnow": {"Price": "{{Round: {{Query: (20 - (20 * 0.70)) }} }}"}, //Minnow
+				"FlashShifter.StardewValleyExpandedCP_Butterfish": {"Price": "{{Round: {{Query: (200 - (200 * 0.70)) }} }}"}, //Butterfish
+				"FlashShifter.StardewValleyExpandedCP_Void_Eel": {"Price": "{{Round: {{Query: (450 - (450 * 0.70)) }} }}"}, //Void Eel
+				"FlashShifter.StardewValleyExpandedCP_Starfish": {"Price": "{{Round: {{Query: (150 - (150 * 0.70)) }} }}"}, //Starfish
+				"FlashShifter.StardewValleyExpandedCP_Clownfish": {"Price": "{{Round: {{Query: (70 - (70 * 0.70)) }} }}"}, //Clownfish
+				"FlashShifter.StardewValleyExpandedCP_Puppyfish": {"Price": "{{Round: {{Query: (250 - (250 * 0.70)) }} }}"}, //Puppyfish
+				"FlashShifter.StardewValleyExpandedCP_King_Salmon": {"Price": "{{Round: {{Query: (320 - (320 * 0.70)) }} }}"}, //King Salmon
+				"FlashShifter.StardewValleyExpandedCP_Frog": {"Price": "{{Round: {{Query: (100 - (100 * 0.70)) }} }}"}, //Frog
+				"FlashShifter.StardewValleyExpandedCP_Kittyfish": {"Price": "{{Round: {{Query: (250 - (250 * 0.70)) }} }}"}, //Kittyfish
+				"FlashShifter.StardewValleyExpandedCP_Seahorse": {"Price": "{{Round: {{Query: (60 - (60 * 0.70)) }} }}"}, //Seahorse
+				"FlashShifter.StardewValleyExpandedCP_Sea_Sponge": {"Price": "{{Round: {{Query: (75 - (75 * 0.70)) }} }}"}, //Sea Sponge
+				"FlashShifter.StardewValleyExpandedCP_Lunaloo": {"Price": "{{Round: {{Query: (100 - (100 * 0.70)) }} }}"}, //Lunaloo
+				"FlashShifter.StardewValleyExpandedCP_Baby_Lunaloo": {"Price": "{{Round: {{Query: (35 - (35 * 0.70)) }} }}"}, //Baby Lunaloo
+				"FlashShifter.StardewValleyExpandedCP_Shiny_Lunaloo": {"Price": "{{Round: {{Query: (400 - (400 * 0.70)) }} }}"}, //Shiny Lunaloo
+				"FlashShifter.StardewValleyExpandedCP_Bonefish": {"Price": "{{Round: {{Query: (450 - (450 * 0.70)) }} }}"}, //Bonefish
+				"FlashShifter.StardewValleyExpandedCP_Undeadfish": {"Price": "{{Round: {{Query: (600 - (600 * 0.70)) }} }}"}, //Undeadfish
+				"FlashShifter.StardewValleyExpandedCP_Radioactive_Bass": {"Price": "{{Round: {{Query: (500 - (500 * 0.70)) }} }}"}, //Radioactive Bass
+				"FlashShifter.StardewValleyExpandedCP_Goldenfish": {"Price": "{{Round: {{Query: (150 - (150 * 0.70)) }} }}"}, //Goldenfish
+				"FlashShifter.StardewValleyExpandedCP_Meteor_Carp": {"Price": "{{Round: {{Query: (175 - (175 * 0.70)) }} }}"}, //Meteor Carp
+				"FlashShifter.StardewValleyExpandedCP_Torpedo_Trout": {"Price": "{{Round: {{Query: (300 - (300 * 0.70)) }} }}"}, //Torpedo Trout
+				"FlashShifter.StardewValleyExpandedCP_Gemfish": {"Price": "{{Round: {{Query: (800 - (800 * 0.70)) }} }}"}, //Gemfish
+				"FlashShifter.StardewValleyExpandedCP_Daggerfish": {"Price": "{{Round: {{Query: (200 - (200 * 0.70)) }} }}"}, //Daggerfish
+				"FlashShifter.StardewValleyExpandedCP_Grass_Carp": {"Price": "{{Round: {{Query: (150 - (150 * 0.70)) }} }}"}, //Grass Carp
+				"FlashShifter.StardewValleyExpandedCP_Bull_Trout": {"Price": "{{Round: {{Query: (185 - (185 * 0.70)) }} }}"}, //Bull Trout
+				"FlashShifter.StardewValleyExpandedCP_Water_Grub": {"Price": "{{Round: {{Query: (170 - (170 * 0.70)) }} }}"}, //Water Grub
+				"FlashShifter.StardewValleyExpandedCP_Dulse_Seaweed": {"Price": "{{Round: {{Query: (35 - (35 * 0.70)) }} }}"}, //Dulse Seaweed
+				"FlashShifter.StardewValleyExpandedCP_Snatcher_Worm": {"Price": "{{Round: {{Query: (280 - (280 * 0.70)) }} }}"}, //Snatcher Worm
+				"FlashShifter.StardewValleyExpandedCP_Razor_Trout": {"Price": "{{Round: {{Query: (400 - (400 * 0.70)) }} }}"}, //Razor Trout
+				"FlashShifter.StardewValleyExpandedCP_Tadpole": {"Price": "{{Round: {{Query: (15 - (15 * 0.70)) }} }}"}, //Tadpole
+				"FlashShifter.StardewValleyExpandedCP_Diamond_Carp": {"Price": "{{Round: {{Query: (575 - (575 * 0.70)) }} }}"}, //Diamond Carp
+				"FlashShifter.StardewValleyExpandedCP_Fiber_Goby": {"Price": "{{Round: {{Query: (250 - (250 * 0.70)) }} }}"}, //Fiber Goby
+				"FlashShifter.StardewValleyExpandedCP_Highlands_Bass": {"Price": "{{Round: {{Query: (200 - (200 * 0.70)) }} }}"}, //Highlands Bass
+				"FlashShifter.StardewValleyExpandedCP_Alligator": {"Price": "{{Round: {{Query: (400 - (400 * 0.70)) }} }}"}, //Alligator
+				"FlashShifter.StardewValleyExpandedCP_Swamp_Crab": {"Price": "{{Round: {{Query: (150 - (150 * 0.70)) }} }}"}, //Swamp Crab
+				"FlashShifter.StardewValleyExpandedCP_Barred_Knifejaw": {"Price": "{{Round: {{Query: (250 - (250 * 0.70)) }} }}"}, //Barred Knifejaw
+				"FlashShifter.StardewValleyExpandedCP_Blue_Tang": {"Price": "{{Round: {{Query: (130 - (130 * 0.70)) }} }}"}, //Blue Tang
+				"FlashShifter.StardewValleyExpandedCP_Viper_Eel": {"Price": "{{Round: {{Query: (600 - (600 * 0.70)) }} }}"}, //Viper Eel
+				"FlashShifter.StardewValleyExpandedCP_Shark": {"Price": "{{Round: {{Query: (800 - (800 * 0.70)) }} }}"}, //Shark
+				"FlashShifter.StardewValleyExpandedCP_Arrowhead_Shark": {"Price": "{{Round: {{Query: (700 - (700 * 0.70)) }} }}"}, //Arrowhead Shark
+				"FlashShifter.StardewValleyExpandedCP_Ocean_Sunfish": {"Price": "{{Round: {{Query: (650 - (650 * 0.70)) }} }}"}, //Ocean Sunfish
+				"FlashShifter.StardewValleyExpandedCP_Goldfish": {"Price": "{{Round: {{Query: (80 - (80 * 0.70)) }} }}"}, //Goldfish
+				"FlashShifter.StardewValleyExpandedCP_Gar": {"Price": "{{Round: {{Query: (175 - (175 * 0.70)) }} }}"}, //Gar
+			    },
+			"When": {"Fish Sell Value": "Decrease by 70%"},
+		},
+		{
+			"LogName": "SVE - Fish Sell Value Decrease by 80%",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+			    "FlashShifter.StardewValleyExpandedCP_Minnow": {"Price": "{{Round: {{Query: (20 - (20 * 0.80)) }} }}"}, //Minnow
+				"FlashShifter.StardewValleyExpandedCP_Butterfish": {"Price": "{{Round: {{Query: (200 - (200 * 0.80)) }} }}"}, //Butterfish
+				"FlashShifter.StardewValleyExpandedCP_Void_Eel": {"Price": "{{Round: {{Query: (450 - (450 * 0.80)) }} }}"}, //Void Eel
+				"FlashShifter.StardewValleyExpandedCP_Starfish": {"Price": "{{Round: {{Query: (150 - (150 * 0.80)) }} }}"}, //Starfish
+				"FlashShifter.StardewValleyExpandedCP_Clownfish": {"Price": "{{Round: {{Query: (70 - (70 * 0.80)) }} }}"}, //Clownfish
+				"FlashShifter.StardewValleyExpandedCP_Puppyfish": {"Price": "{{Round: {{Query: (250 - (250 * 0.80)) }} }}"}, //Puppyfish
+				"FlashShifter.StardewValleyExpandedCP_King_Salmon": {"Price": "{{Round: {{Query: (320 - (320 * 0.80)) }} }}"}, //King Salmon
+				"FlashShifter.StardewValleyExpandedCP_Frog": {"Price": "{{Round: {{Query: (100 - (100 * 0.80)) }} }}"}, //Frog
+				"FlashShifter.StardewValleyExpandedCP_Kittyfish": {"Price": "{{Round: {{Query: (250 - (250 * 0.80)) }} }}"}, //Kittyfish
+				"FlashShifter.StardewValleyExpandedCP_Seahorse": {"Price": "{{Round: {{Query: (60 - (60 * 0.80)) }} }}"}, //Seahorse
+				"FlashShifter.StardewValleyExpandedCP_Sea_Sponge": {"Price": "{{Round: {{Query: (75 - (75 * 0.80)) }} }}"}, //Sea Sponge
+				"FlashShifter.StardewValleyExpandedCP_Lunaloo": {"Price": "{{Round: {{Query: (100 - (100 * 0.80)) }} }}"}, //Lunaloo
+				"FlashShifter.StardewValleyExpandedCP_Baby_Lunaloo": {"Price": "{{Round: {{Query: (35 - (35 * 0.80)) }} }}"}, //Baby Lunaloo
+				"FlashShifter.StardewValleyExpandedCP_Shiny_Lunaloo": {"Price": "{{Round: {{Query: (400 - (400 * 0.80)) }} }}"}, //Shiny Lunaloo
+				"FlashShifter.StardewValleyExpandedCP_Bonefish": {"Price": "{{Round: {{Query: (450 - (450 * 0.80)) }} }}"}, //Bonefish
+				"FlashShifter.StardewValleyExpandedCP_Undeadfish": {"Price": "{{Round: {{Query: (600 - (600 * 0.80)) }} }}"}, //Undeadfish
+				"FlashShifter.StardewValleyExpandedCP_Radioactive_Bass": {"Price": "{{Round: {{Query: (500 - (500 * 0.80)) }} }}"}, //Radioactive Bass
+				"FlashShifter.StardewValleyExpandedCP_Goldenfish": {"Price": "{{Round: {{Query: (150 - (150 * 0.80)) }} }}"}, //Goldenfish
+				"FlashShifter.StardewValleyExpandedCP_Meteor_Carp": {"Price": "{{Round: {{Query: (175 - (175 * 0.80)) }} }}"}, //Meteor Carp
+				"FlashShifter.StardewValleyExpandedCP_Torpedo_Trout": {"Price": "{{Round: {{Query: (300 - (300 * 0.80)) }} }}"}, //Torpedo Trout
+				"FlashShifter.StardewValleyExpandedCP_Gemfish": {"Price": "{{Round: {{Query: (800 - (800 * 0.80)) }} }}"}, //Gemfish
+				"FlashShifter.StardewValleyExpandedCP_Daggerfish": {"Price": "{{Round: {{Query: (200 - (200 * 0.80)) }} }}"}, //Daggerfish
+				"FlashShifter.StardewValleyExpandedCP_Grass_Carp": {"Price": "{{Round: {{Query: (150 - (150 * 0.80)) }} }}"}, //Grass Carp
+				"FlashShifter.StardewValleyExpandedCP_Bull_Trout": {"Price": "{{Round: {{Query: (185 - (185 * 0.80)) }} }}"}, //Bull Trout
+				"FlashShifter.StardewValleyExpandedCP_Water_Grub": {"Price": "{{Round: {{Query: (170 - (170 * 0.80)) }} }}"}, //Water Grub
+				"FlashShifter.StardewValleyExpandedCP_Dulse_Seaweed": {"Price": "{{Round: {{Query: (35 - (35 * 0.80)) }} }}"}, //Dulse Seaweed
+				"FlashShifter.StardewValleyExpandedCP_Snatcher_Worm": {"Price": "{{Round: {{Query: (280 - (280 * 0.80)) }} }}"}, //Snatcher Worm
+				"FlashShifter.StardewValleyExpandedCP_Razor_Trout": {"Price": "{{Round: {{Query: (400 - (400 * 0.80)) }} }}"}, //Razor Trout
+				"FlashShifter.StardewValleyExpandedCP_Tadpole": {"Price": "{{Round: {{Query: (15 - (15 * 0.80)) }} }}"}, //Tadpole
+				"FlashShifter.StardewValleyExpandedCP_Diamond_Carp": {"Price": "{{Round: {{Query: (575 - (575 * 0.80)) }} }}"}, //Diamond Carp
+				"FlashShifter.StardewValleyExpandedCP_Fiber_Goby": {"Price": "{{Round: {{Query: (250 - (250 * 0.80)) }} }}"}, //Fiber Goby
+				"FlashShifter.StardewValleyExpandedCP_Highlands_Bass": {"Price": "{{Round: {{Query: (200 - (200 * 0.80)) }} }}"}, //Highlands Bass
+				"FlashShifter.StardewValleyExpandedCP_Alligator": {"Price": "{{Round: {{Query: (400 - (400 * 0.80)) }} }}"}, //Alligator
+				"FlashShifter.StardewValleyExpandedCP_Swamp_Crab": {"Price": "{{Round: {{Query: (150 - (150 * 0.80)) }} }}"}, //Swamp Crab
+				"FlashShifter.StardewValleyExpandedCP_Barred_Knifejaw": {"Price": "{{Round: {{Query: (250 - (250 * 0.80)) }} }}"}, //Barred Knifejaw
+				"FlashShifter.StardewValleyExpandedCP_Blue_Tang": {"Price": "{{Round: {{Query: (130 - (130 * 0.80)) }} }}"}, //Blue Tang
+				"FlashShifter.StardewValleyExpandedCP_Viper_Eel": {"Price": "{{Round: {{Query: (600 - (600 * 0.80)) }} }}"}, //Viper Eel
+				"FlashShifter.StardewValleyExpandedCP_Shark": {"Price": "{{Round: {{Query: (800 - (800 * 0.80)) }} }}"}, //Shark
+				"FlashShifter.StardewValleyExpandedCP_Arrowhead_Shark": {"Price": "{{Round: {{Query: (700 - (700 * 0.80)) }} }}"}, //Arrowhead Shark
+				"FlashShifter.StardewValleyExpandedCP_Ocean_Sunfish": {"Price": "{{Round: {{Query: (650 - (650 * 0.80)) }} }}"}, //Ocean Sunfish
+				"FlashShifter.StardewValleyExpandedCP_Goldfish": {"Price": "{{Round: {{Query: (80 - (80 * 0.80)) }} }}"}, //Goldfish
+				"FlashShifter.StardewValleyExpandedCP_Gar": {"Price": "{{Round: {{Query: (175 - (175 * 0.80)) }} }}"}, //Gar
+			    },
+			"When": {"Fish Sell Value": "Decrease by 80%"},
+		},
+		{
+			"LogName": "SVE - Fish Sell Value Decrease by 90%",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+			    "FlashShifter.StardewValleyExpandedCP_Minnow": {"Price": "{{Round: {{Query: (20 - (20 * 0.90)) }} }}"}, //Minnow
+				"FlashShifter.StardewValleyExpandedCP_Butterfish": {"Price": "{{Round: {{Query: (200 - (200 * 0.90)) }} }}"}, //Butterfish
+				"FlashShifter.StardewValleyExpandedCP_Void_Eel": {"Price": "{{Round: {{Query: (450 - (450 * 0.90)) }} }}"}, //Void Eel
+				"FlashShifter.StardewValleyExpandedCP_Starfish": {"Price": "{{Round: {{Query: (150 - (150 * 0.90)) }} }}"}, //Starfish
+				"FlashShifter.StardewValleyExpandedCP_Clownfish": {"Price": "{{Round: {{Query: (70 - (70 * 0.90)) }} }}"}, //Clownfish
+				"FlashShifter.StardewValleyExpandedCP_Puppyfish": {"Price": "{{Round: {{Query: (250 - (250 * 0.90)) }} }}"}, //Puppyfish
+				"FlashShifter.StardewValleyExpandedCP_King_Salmon": {"Price": "{{Round: {{Query: (320 - (320 * 0.90)) }} }}"}, //King Salmon
+				"FlashShifter.StardewValleyExpandedCP_Frog": {"Price": "{{Round: {{Query: (100 - (100 * 0.90)) }} }}"}, //Frog
+				"FlashShifter.StardewValleyExpandedCP_Kittyfish": {"Price": "{{Round: {{Query: (250 - (250 * 0.90)) }} }}"}, //Kittyfish
+				"FlashShifter.StardewValleyExpandedCP_Seahorse": {"Price": "{{Round: {{Query: (60 - (60 * 0.90)) }} }}"}, //Seahorse
+				"FlashShifter.StardewValleyExpandedCP_Sea_Sponge": {"Price": "{{Round: {{Query: (75 - (75 * 0.90)) }} }}"}, //Sea Sponge
+				"FlashShifter.StardewValleyExpandedCP_Lunaloo": {"Price": "{{Round: {{Query: (100 - (100 * 0.90)) }} }}"}, //Lunaloo
+				"FlashShifter.StardewValleyExpandedCP_Baby_Lunaloo": {"Price": "{{Round: {{Query: (35 - (35 * 0.90)) }} }}"}, //Baby Lunaloo
+				"FlashShifter.StardewValleyExpandedCP_Shiny_Lunaloo": {"Price": "{{Round: {{Query: (400 - (400 * 0.90)) }} }}"}, //Shiny Lunaloo
+				"FlashShifter.StardewValleyExpandedCP_Bonefish": {"Price": "{{Round: {{Query: (450 - (450 * 0.90)) }} }}"}, //Bonefish
+				"FlashShifter.StardewValleyExpandedCP_Undeadfish": {"Price": "{{Round: {{Query: (600 - (600 * 0.90)) }} }}"}, //Undeadfish
+				"FlashShifter.StardewValleyExpandedCP_Radioactive_Bass": {"Price": "{{Round: {{Query: (500 - (500 * 0.90)) }} }}"}, //Radioactive Bass
+				"FlashShifter.StardewValleyExpandedCP_Goldenfish": {"Price": "{{Round: {{Query: (150 - (150 * 0.90)) }} }}"}, //Goldenfish
+				"FlashShifter.StardewValleyExpandedCP_Meteor_Carp": {"Price": "{{Round: {{Query: (175 - (175 * 0.90)) }} }}"}, //Meteor Carp
+				"FlashShifter.StardewValleyExpandedCP_Torpedo_Trout": {"Price": "{{Round: {{Query: (300 - (300 * 0.90)) }} }}"}, //Torpedo Trout
+				"FlashShifter.StardewValleyExpandedCP_Gemfish": {"Price": "{{Round: {{Query: (800 - (800 * 0.90)) }} }}"}, //Gemfish
+				"FlashShifter.StardewValleyExpandedCP_Daggerfish": {"Price": "{{Round: {{Query: (200 - (200 * 0.90)) }} }}"}, //Daggerfish
+				"FlashShifter.StardewValleyExpandedCP_Grass_Carp": {"Price": "{{Round: {{Query: (150 - (150 * 0.90)) }} }}"}, //Grass Carp
+				"FlashShifter.StardewValleyExpandedCP_Bull_Trout": {"Price": "{{Round: {{Query: (185 - (185 * 0.90)) }} }}"}, //Bull Trout
+				"FlashShifter.StardewValleyExpandedCP_Water_Grub": {"Price": "{{Round: {{Query: (170 - (170 * 0.90)) }} }}"}, //Water Grub
+				"FlashShifter.StardewValleyExpandedCP_Dulse_Seaweed": {"Price": "{{Round: {{Query: (35 - (35 * 0.90)) }} }}"}, //Dulse Seaweed
+				"FlashShifter.StardewValleyExpandedCP_Snatcher_Worm": {"Price": "{{Round: {{Query: (280 - (280 * 0.90)) }} }}"}, //Snatcher Worm
+				"FlashShifter.StardewValleyExpandedCP_Razor_Trout": {"Price": "{{Round: {{Query: (400 - (400 * 0.90)) }} }}"}, //Razor Trout
+				"FlashShifter.StardewValleyExpandedCP_Tadpole": {"Price": "{{Round: {{Query: (15 - (15 * 0.90)) }} }}"}, //Tadpole
+				"FlashShifter.StardewValleyExpandedCP_Diamond_Carp": {"Price": "{{Round: {{Query: (575 - (575 * 0.90)) }} }}"}, //Diamond Carp
+				"FlashShifter.StardewValleyExpandedCP_Fiber_Goby": {"Price": "{{Round: {{Query: (250 - (250 * 0.90)) }} }}"}, //Fiber Goby
+				"FlashShifter.StardewValleyExpandedCP_Highlands_Bass": {"Price": "{{Round: {{Query: (200 - (200 * 0.90)) }} }}"}, //Highlands Bass
+				"FlashShifter.StardewValleyExpandedCP_Alligator": {"Price": "{{Round: {{Query: (400 - (400 * 0.90)) }} }}"}, //Alligator
+				"FlashShifter.StardewValleyExpandedCP_Swamp_Crab": {"Price": "{{Round: {{Query: (150 - (150 * 0.90)) }} }}"}, //Swamp Crab
+				"FlashShifter.StardewValleyExpandedCP_Barred_Knifejaw": {"Price": "{{Round: {{Query: (250 - (250 * 0.90)) }} }}"}, //Barred Knifejaw
+				"FlashShifter.StardewValleyExpandedCP_Blue_Tang": {"Price": "{{Round: {{Query: (130 - (130 * 0.90)) }} }}"}, //Blue Tang
+				"FlashShifter.StardewValleyExpandedCP_Viper_Eel": {"Price": "{{Round: {{Query: (600 - (600 * 0.90)) }} }}"}, //Viper Eel
+				"FlashShifter.StardewValleyExpandedCP_Shark": {"Price": "{{Round: {{Query: (800 - (800 * 0.90)) }} }}"}, //Shark
+				"FlashShifter.StardewValleyExpandedCP_Arrowhead_Shark": {"Price": "{{Round: {{Query: (700 - (700 * 0.90)) }} }}"}, //Arrowhead Shark
+				"FlashShifter.StardewValleyExpandedCP_Ocean_Sunfish": {"Price": "{{Round: {{Query: (650 - (650 * 0.90)) }} }}"}, //Ocean Sunfish
+				"FlashShifter.StardewValleyExpandedCP_Goldfish": {"Price": "{{Round: {{Query: (80 - (80 * 0.90)) }} }}"}, //Goldfish
+				"FlashShifter.StardewValleyExpandedCP_Gar": {"Price": "{{Round: {{Query: (175 - (175 * 0.90)) }} }}"}, //Gar
+			    },
+			"When": {"Fish Sell Value": "Decrease by 90%"},
+		},
+		{
+			"LogName": "SVE - Fish Sell Value Decrease by 99%",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+			    "FlashShifter.StardewValleyExpandedCP_Minnow": {"Price": 1}, //Minnow
+				"FlashShifter.StardewValleyExpandedCP_Butterfish": {"Price": 1}, //Butterfish
+				"FlashShifter.StardewValleyExpandedCP_Void_Eel": {"Price": 1}, //Void Eel
+				"FlashShifter.StardewValleyExpandedCP_Starfish": {"Price": 1}, //Starfish
+				"FlashShifter.StardewValleyExpandedCP_Clownfish": {"Price": 1}, //Clownfish
+				"FlashShifter.StardewValleyExpandedCP_Puppyfish": {"Price": 1}, //Puppyfish
+				"FlashShifter.StardewValleyExpandedCP_King_Salmon": {"Price": 1}, //King Salmon
+				"FlashShifter.StardewValleyExpandedCP_Frog": {"Price": 1}, //Frog
+				"FlashShifter.StardewValleyExpandedCP_Kittyfish": {"Price": 1}, //Kittyfish
+				"FlashShifter.StardewValleyExpandedCP_Seahorse": {"Price": 1}, //Seahorse
+				"FlashShifter.StardewValleyExpandedCP_Sea_Sponge": {"Price": 1}, //Sea Sponge
+				"FlashShifter.StardewValleyExpandedCP_Lunaloo": {"Price": 1}, //Lunaloo
+				"FlashShifter.StardewValleyExpandedCP_Baby_Lunaloo": {"Price": 1}, //Baby Lunaloo
+				"FlashShifter.StardewValleyExpandedCP_Shiny_Lunaloo": {"Price": 1}, //Shiny Lunaloo
+				"FlashShifter.StardewValleyExpandedCP_Bonefish": {"Price": 1}, //Bonefish
+				"FlashShifter.StardewValleyExpandedCP_Undeadfish": {"Price": 1}, //Undeadfish
+				"FlashShifter.StardewValleyExpandedCP_Radioactive_Bass": {"Price": 1}, //Radioactive Bass
+				"FlashShifter.StardewValleyExpandedCP_Goldenfish": {"Price": 1}, //Goldenfish
+				"FlashShifter.StardewValleyExpandedCP_Meteor_Carp": {"Price": 1}, //Meteor Carp
+				"FlashShifter.StardewValleyExpandedCP_Torpedo_Trout": {"Price": 1}, //Torpedo Trout
+				"FlashShifter.StardewValleyExpandedCP_Gemfish": {"Price": 1}, //Gemfish
+				"FlashShifter.StardewValleyExpandedCP_Daggerfish": {"Price": 1}, //Daggerfish
+				"FlashShifter.StardewValleyExpandedCP_Grass_Carp": {"Price": 1}, //Grass Carp
+				"FlashShifter.StardewValleyExpandedCP_Bull_Trout": {"Price": 1}, //Bull Trout
+				"FlashShifter.StardewValleyExpandedCP_Water_Grub": {"Price": 1}, //Water Grub
+				"FlashShifter.StardewValleyExpandedCP_Dulse_Seaweed": {"Price": 1}, //Dulse Seaweed
+				"FlashShifter.StardewValleyExpandedCP_Snatcher_Worm": {"Price": 1}, //Snatcher Worm
+				"FlashShifter.StardewValleyExpandedCP_Razor_Trout": {"Price": 1}, //Razor Trout
+				"FlashShifter.StardewValleyExpandedCP_Tadpole": {"Price": 1}, //Tadpole
+				"FlashShifter.StardewValleyExpandedCP_Diamond_Carp": {"Price": 1}, //Diamond Carp
+				"FlashShifter.StardewValleyExpandedCP_Fiber_Goby": {"Price": 1}, //Fiber Goby
+				"FlashShifter.StardewValleyExpandedCP_Highlands_Bass": {"Price": 1}, //Highlands Bass
+				"FlashShifter.StardewValleyExpandedCP_Alligator": {"Price": 1}, //Alligator
+				"FlashShifter.StardewValleyExpandedCP_Swamp_Crab": {"Price": 1}, //Swamp Crab
+				"FlashShifter.StardewValleyExpandedCP_Barred_Knifejaw": {"Price": 1}, //Barred Knifejaw
+				"FlashShifter.StardewValleyExpandedCP_Blue_Tang": {"Price": 1}, //Blue Tang
+				"FlashShifter.StardewValleyExpandedCP_Viper_Eel": {"Price": 1}, //Viper Eel
+				"FlashShifter.StardewValleyExpandedCP_Shark": {"Price": 1}, //Shark
+				"FlashShifter.StardewValleyExpandedCP_Arrowhead_Shark": {"Price": 1}, //Arrowhead Shark
+				"FlashShifter.StardewValleyExpandedCP_Ocean_Sunfish": {"Price": 1}, //Ocean Sunfish
+				"FlashShifter.StardewValleyExpandedCP_Goldfish": {"Price": 1}, //Goldfish
+				"FlashShifter.StardewValleyExpandedCP_Gar": {"Price": 1}, //Gar
+			    },
+			"When": {"Fish Sell Value": "Decrease by 99%"},
+		},
+	]
+}

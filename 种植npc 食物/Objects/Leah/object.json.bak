@@ -1,0 +1,44 @@
+{
+  "Name": "Leah",
+  "Description": "A fruit that looks like Leah's head. ",
+  "Category": "vegetable",
+  "Edibility": 20,
+  "EdibleIsDrink": false,
+  "EdibleBuffs": null,
+  "Price": 1000,
+  "IsColored": false,
+  "GiftTastes":
+  {
+        "Love": ["Caroline", "Evelyn", "Linus", "Sandy"],
+        "Like": ["Elliott", "Harvey", "Abigail", "Leah", "Emily", "Penny", "Demetrius", "Dwarf", "Pam", "Robin", "Marlon", "Olivia", "Victor", "Jodi", "Kent", "Lewis", "Linus", "Susan", "Marlon"],
+        "Neutral": ["Alex", "Sam", "Shane", "Maru", "Clint", "Krobus", "George", "Marnie", "Pierre", "Vincent", "Willy", "Sophia", "Gus", "Wizard", "Haley", "Jas"],
+        "Dislike": ["Sebastian", "Andy"],
+  },
+  "Recipe": null,
+  "NameLocalization": { 
+    /*"es": "",
+    "ko": "",
+    "de": "",
+    "fr": "",
+    "hu": "",
+    "it": "",
+    "ja": "",
+    "pt": "",
+    "ru": "",
+    "tr": "",*/
+    "zh": "莉亚？",
+  },
+ "DescriptionLocalization": { 
+    /*"es": "",
+    "ko": "",
+    "de": "",
+    "fr": "",
+    "hu": "",
+    "it": "",
+    "ja": "",
+    "pt": "",
+    "ru": "",
+    "tr": "",*/
+    "zh": "一种看起来像莉亚的头的果实",
+  },
+}

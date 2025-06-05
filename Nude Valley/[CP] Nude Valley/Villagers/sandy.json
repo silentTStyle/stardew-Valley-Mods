@@ -1,0 +1,28 @@
+{
+  "Changes": [
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Sandy",
+      "FromFile": "assets/Characters/Sandy.png"
+    },
+	// Portraits -----------------------------------------------------------------------------------
+	{
+      "Action": "EditImage",
+      "Target": "Portraits/Sandy",
+      "FromFile": "assets/Portraits/Sandy.png",
+      "When": { 
+		"Hypnosis": "false",
+		"Sandy": "On",
+	  }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Sandy",
+      "FromFile": "assets/Portraits/Sandy_Hypnosis.png",
+      "When": { 
+		"Hypnosis": "true",
+		"Sandy": "On",
+	  }
+    },
+  ]
+}

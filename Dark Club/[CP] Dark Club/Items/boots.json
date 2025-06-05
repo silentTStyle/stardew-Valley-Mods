@@ -1,0 +1,35 @@
+{
+	"Changes": [
+		{
+			"Action": "Load",
+			"Target": "Mods_{{ModId}}_Boots",
+			"FromFile": "Items/assets/Boots/boots.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "Mods_{{ModId}}_ButtPlugColor",
+			"FromFile": "Items/assets/Boots/colorButtplug.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "Mods_{{ModId}}_PinkRotorColor",
+			"FromFile": "Items/assets/Boots/colorButtplug.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "Mods_{{ModId}}_VibratorColor",
+			"FromFile": "Items/assets/Boots/colorVibrator.png"
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Boots",
+			"Entries": {
+				"simezi21.Dark_Club_JA_Butt_Plug": "{{i18n:Item.ButtPlug.Name}}/{{i18n:Item.ButtPlug.Description}}/500/6/0/0/{{i18n:Item.ButtPlug.Name}}/Mods_{{ModId}}_ButtPlugColor/0/Mods_{{ModId}}_Boots",
+				"simezi21.Dark_Club_JA_Pink_Rotor":				"{{i18n:Item.PinkRotor.Name}}/{{i18n:Item.PinkRotor.Description}}/500/3/3/0/{{i18n:Item.PinkRotor.Name}}/Mods_{{ModId}}_PinkRotorColor/1/Mods_{{ModId}}_Boots",
+				"simezi21.Dark_Club_JA_Vibrator": "{{i18n:Item.Vibrator.Name}}/{{i18n:Item.Vibrator.Description}}/500/0/6/0/{{i18n:Item.Vibrator.Name}}/Mods_{{ModId}}_VibratorColor/2/Mods_{{ModId}}_Boots",
+			}
+		},
+	]
+}
+
+// 0:name/1:Description/2:price/3:defense/4:immunity/5:color sprite index/6:displayName/7:color texture/8:item sprite index/9:item texture

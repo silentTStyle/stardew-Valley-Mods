@@ -1,0 +1,8 @@
+{
+	"config.Shaymin confusion change.name": "Shaymin karışıklık değişimi",
+	"config.Shaymin confusion change.description": "Shaymin ve Shiny Shaymin'in görünümünü değiştirmek için var mı.",
+	"config.Shaymin confusion change.values.Shiny is Shiny and Normal is Normal": "Parlak Parlaktır ve Normal Normaldir.",
+    "config.Shaymin confusion change.values.Shiny is Normal and Normal is Shiny": "Parlak Normaldir ve Normal Parlaktır.",
+	"config.Adoption Price.name": "Evlat Edinme Fiyatı",
+	"config.Adoption Price.description": "Shaymin'i evlat edinmenin bedeli.",
+}

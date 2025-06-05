@@ -1,0 +1,74 @@
+{
+	"Changes": [
+		{
+			"LogName": "PBC - Fishing Difficulty 10% Easy Sunday",
+			"Action": "EditData",
+			"Target": "Data/Fish",
+			"Fields": {
+				"Fellowclown.PC_BoneyHeadedGraveFish": {1: "{{Round: {{Query: (110 - (110 * 0.10)) }} }}"},
+				"Fellowclown.PC_IficusFish": {1: "{{Round: {{Query: (30 - (30 * 0.10)) }} }}"},
+				"Fellowclown.PC_DancerFish": {1: "{{Round: {{Query: (25 - (25 * 0.10)) }} }}"},
+				"Fellowclown.PC_RiverBedJelly": {1: "{{Round: {{Query: (75 - (75 * 0.10)) }} }}"},
+				"Fellowclown.PC_GulpFish": {1: "{{Round: {{Query: (65 - (55 * 0.10)) }} }}"},
+					},
+				"When": {"Fishing Difficulty": "10% Easy Sunday",
+						 "DayOfWeek": "Sunday"},
+		},
+		{
+			"LogName": "PBC - Fishing Difficulty 20% Easy Sunday",
+			"Action": "EditData",
+			"Target": "Data/Fish",
+			"Fields": {
+				"Fellowclown.PC_BoneyHeadedGraveFish": {1: "{{Round: {{Query: (110 - (110 * 0.20)) }} }}"},
+				"Fellowclown.PC_IficusFish": {1: "{{Round: {{Query: (30 - (30 * 0.20)) }} }}"},
+				"Fellowclown.PC_DancerFish": {1: "{{Round: {{Query: (25 - (25 * 0.20)) }} }}"},
+				"Fellowclown.PC_RiverBedJelly": {1: "{{Round: {{Query: (75 - (75 * 0.20)) }} }}"},
+				"Fellowclown.PC_GulpFish": {1: "{{Round: {{Query: (65 - (55 * 0.20)) }} }}"},
+					},
+				"When": {"Fishing Difficulty": "20% Easy Sunday",
+						 "DayOfWeek": "Sunday"},
+		},
+		{
+			"LogName": "PBC - Fishing Difficulty 30% Easy Sunday",
+			"Action": "EditData",
+			"Target": "Data/Fish",
+			"Fields": {
+				"Fellowclown.PC_BoneyHeadedGraveFish": {1: "{{Round: {{Query: (110 - (110 * 0.30)) }} }}"},
+				"Fellowclown.PC_IficusFish": {1: "{{Round: {{Query: (30 - (30 * 0.30)) }} }}"},
+				"Fellowclown.PC_DancerFish": {1: "{{Round: {{Query: (25 - (25 * 0.30)) }} }}"},
+				"Fellowclown.PC_RiverBedJelly": {1: "{{Round: {{Query: (75 - (75 * 0.30)) }} }}"},
+				"Fellowclown.PC_GulpFish": {1: "{{Round: {{Query: (65 - (55 * 0.30)) }} }}"},
+					},
+				"When": {"Fishing Difficulty": "30% Easy Sunday",
+						 "DayOfWeek": "Sunday"},
+		},
+		{
+			"LogName": "PBC - Fishing Difficulty 40% Easy Sunday",
+			"Action": "EditData",
+			"Target": "Data/Fish",
+			"Fields": {
+				"Fellowclown.PC_BoneyHeadedGraveFish": {1: "{{Round: {{Query: (110 - (110 * 0.40)) }} }}"},
+				"Fellowclown.PC_IficusFish": {1: "{{Round: {{Query: (30 - (30 * 0.40)) }} }}"},
+				"Fellowclown.PC_DancerFish": {1: "{{Round: {{Query: (25 - (25 * 0.40)) }} }}"},
+				"Fellowclown.PC_RiverBedJelly": {1: "{{Round: {{Query: (75 - (75 * 0.40)) }} }}"},
+				"Fellowclown.PC_GulpFish": {1: "{{Round: {{Query: (65 - (55 * 0.40)) }} }}"},
+					},
+				"When": {"Fishing Difficulty": "40% Easy Sunday",
+						 "DayOfWeek": "Sunday"},
+		},
+		{
+			"LogName": "PBC - Fishing Difficulty 50% Easy Sunday",
+			"Action": "EditData",
+			"Target": "Data/Fish",
+			"Fields": {
+				"Fellowclown.PC_BoneyHeadedGraveFish": {1: "{{Round: {{Query: (110 - (110 * 0.50)) }} }}"},
+				"Fellowclown.PC_IficusFish": {1: "{{Round: {{Query: (30 - (30 * 0.50)) }} }}"},
+				"Fellowclown.PC_DancerFish": {1: "{{Round: {{Query: (25 - (25 * 0.50)) }} }}"},
+				"Fellowclown.PC_RiverBedJelly": {1: "{{Round: {{Query: (75 - (75 * 0.50)) }} }}"},
+				"Fellowclown.PC_GulpFish": {1: "{{Round: {{Query: (65 - (55 * 0.50)) }} }}"},
+					},
+				"When": {"Fishing Difficulty": "50% Easy Sunday",
+						 "DayOfWeek": "Sunday"},
+		},
+	]
+}

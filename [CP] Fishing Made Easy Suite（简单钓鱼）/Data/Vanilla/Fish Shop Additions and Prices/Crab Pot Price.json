@@ -1,0 +1,124 @@
+{
+	"Changes": [
+		{
+			"LogName": "Crab Pot Price 1250g",
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "FishShop", "Items" ],
+			"Fields": {
+			    "(O)710": {"Price": 1250},
+					   },
+			"When": {"Crab Pot Price": "1250g"},
+		},
+		{
+			"LogName": "Crab Pot Price 1000g",
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "FishShop", "Items" ],
+			"Fields": {
+			    "(O)710": {"Price": 1000},
+					   },
+			"When": {"Crab Pot Price": "1000g"},
+		},
+		{
+			"LogName": "Crab Pot Price 750g",
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "FishShop", "Items" ],
+			"Fields": {
+			    "(O)710": {"Price": 750},
+					   },
+			"When": {"Crab Pot Price": "750g"},
+		},
+		{
+			"LogName": "Crab Pot Price 500g",
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "FishShop", "Items" ],
+			"Fields": {
+			    "(O)710": {"Price": 500},
+					   },
+			"When": {"Crab Pot Price": "500g"},
+		},
+		{
+			"LogName": "Crab Pot Price 250g",
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "FishShop", "Items" ],
+			"Fields": {
+			    "(O)710": {"Price": 250},
+					   },
+			"When": {"Crab Pot Price": "250g"},
+		},
+		{
+			"LogName": "Crab Pot Price 1g",
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "FishShop", "Items" ],
+			"Fields": {
+			    "(O)710": {"Price": 1},
+					   },
+			"When": {"Crab Pot Price": "1g"},
+		},
+		{
+			"LogName": "Crab Pot Price 1750g",
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "FishShop", "Items" ],
+			"Fields": {
+			    "(O)710": {"Price": 1750},
+					   },
+			"When": {"Crab Pot Price": "1750g"},
+		},
+		{
+			"LogName": "Crab Pot Price 2000g",
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "FishShop", "Items" ],
+			"Fields": {
+			    "(O)710": {"Price": 2000},
+					   },
+			"When": {"Crab Pot Price": "2000g"},
+		},
+		{
+			"LogName": "Crab Pot Price 2250g",
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "FishShop", "Items" ],
+			"Fields": {
+			    "(O)710": {"Price": 2250},
+					   },
+			"When": {"Crab Pot Price": "2250g"},
+		},
+		{
+			"LogName": "Crab Pot Price 1g",
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "FishShop", "Items" ],
+			"Fields": {
+			    "(O)710": {"Price": 1},
+					   },
+			"When": {"Crab Pot Price": "1g"},
+		},
+		{
+			"LogName": "Crab Pot Price 2750g",
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "FishShop", "Items" ],
+			"Fields": {
+			    "(O)710": {"Price": 2750},
+					   },
+			"When": {"Crab Pot Price": "2750g"},
+		},
+		{
+			"LogName": "Crab Pot Price 3000g",
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "FishShop", "Items" ],
+			"Fields": {
+			    "(O)710": {"Price": 3000},
+					   },
+			"When": {"Crab Pot Price": "3000g"},
+		},
+	]
+}

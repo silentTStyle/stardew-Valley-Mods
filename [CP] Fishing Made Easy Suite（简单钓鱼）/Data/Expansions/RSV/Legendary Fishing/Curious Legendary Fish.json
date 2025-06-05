@@ -1,0 +1,574 @@
+{
+	"Changes": [
+		{
+			"LogName": "RSV - Curious Legendary Fish Ridge Forest Increase by 10%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_Ridgeside_RidgeForest", "Fish" ],
+			"Fields": { 
+				"Rafseazz.RSVCP_Deep_Ridge_Angler": {"CuriosityLureBuff": 0.10},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 10%"},
+	    },
+		{
+			"LogName": "RSV - Curious Legendary Fish Ridgeside Village Increase by 10%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_Ridgeside_RidgesideVillage", "Fish" ],
+			"Fields": { 
+				"Rafseazz.RSVCP_Sockeye_Salmon": {"CuriosityLureBuff": 0.10},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 10%"},
+	    },
+		{
+			"LogName": "RSV - Curious Legendary Fish Ridgeside Village Increase by 10%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_Ridgeside_RidgeFalls", "Fish" ],
+			"Fields": { 
+				"Rafseazz.RSVCP_Waterfall_Snakehead": {"CuriosityLureBuff": 0.10},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 10%"},
+	    },
+		{
+			"LogName": "RSV - Curious Legendary Fish Ridge Forest Increase by 15%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_Ridgeside_RidgeForest", "Fish" ],
+			"Fields": { 
+				"Rafseazz.RSVCP_Deep_Ridge_Angler": {"CuriosityLureBuff": 0.15},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 15%"},
+	    },
+		{
+			"LogName": "RSV - Curious Legendary Fish Ridgeside Village Increase by 15%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_Ridgeside_RidgesideVillage", "Fish" ],
+			"Fields": { 
+				"Rafseazz.RSVCP_Sockeye_Salmon": {"CuriosityLureBuff": 0.15},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 15%"},
+	    },
+		{
+			"LogName": "RSV - Curious Legendary Fish Ridgeside Village Increase by 15%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_Ridgeside_RidgeFalls", "Fish" ],
+			"Fields": { 
+				"Rafseazz.RSVCP_Waterfall_Snakehead": {"CuriosityLureBuff": 0.15},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 15%"},
+	    },
+		{
+			"LogName": "RSV - Curious Legendary Fish Ridge Forest Increase by 20%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_Ridgeside_RidgeForest", "Fish" ],
+			"Fields": { 
+				"Rafseazz.RSVCP_Deep_Ridge_Angler": {"CuriosityLureBuff": 0.20},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 20%"},
+	    },
+		{
+			"LogName": "RSV - Curious Legendary Fish Ridgeside Village Increase by 20%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_Ridgeside_RidgesideVillage", "Fish" ],
+			"Fields": { 
+				"Rafseazz.RSVCP_Sockeye_Salmon": {"CuriosityLureBuff": 0.20},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 20%"},
+	    },
+		{
+			"LogName": "RSV - Curious Legendary Fish Ridgeside Village Increase by 20%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_Ridgeside_RidgeFalls", "Fish" ],
+			"Fields": { 
+				"Rafseazz.RSVCP_Waterfall_Snakehead": {"CuriosityLureBuff": 0.20},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 20%"},
+	    },
+		{
+			"LogName": "RSV - Curious Legendary Fish Ridge Forest Increase by 25%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_Ridgeside_RidgeForest", "Fish" ],
+			"Fields": { 
+				"Rafseazz.RSVCP_Deep_Ridge_Angler": {"CuriosityLureBuff": 0.25},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 25%"},
+	    },
+		{
+			"LogName": "RSV - Curious Legendary Fish Ridgeside Village Increase by 25%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_Ridgeside_RidgesideVillage", "Fish" ],
+			"Fields": { 
+				"Rafseazz.RSVCP_Sockeye_Salmon": {"CuriosityLureBuff": 0.25},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 25%"},
+	    },
+		{
+			"LogName": "RSV - Curious Legendary Fish Ridgeside Village Increase by 25%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_Ridgeside_RidgeFalls", "Fish" ],
+			"Fields": { 
+				"Rafseazz.RSVCP_Waterfall_Snakehead": {"CuriosityLureBuff": 0.25},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 25%"},
+	    },
+		{
+			"LogName": "RSV - Curious Legendary Fish Ridge Forest Increase by 30%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_Ridgeside_RidgeForest", "Fish" ],
+			"Fields": { 
+				"Rafseazz.RSVCP_Deep_Ridge_Angler": {"CuriosityLureBuff": 0.30},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 30%"},
+	    },
+		{
+			"LogName": "RSV - Curious Legendary Fish Ridgeside Village Increase by 30%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_Ridgeside_RidgesideVillage", "Fish" ],
+			"Fields": { 
+				"Rafseazz.RSVCP_Sockeye_Salmon": {"CuriosityLureBuff": 0.30},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 30%"},
+	    },
+		{
+			"LogName": "RSV - Curious Legendary Fish Ridgeside Village Increase by 30%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_Ridgeside_RidgeFalls", "Fish" ],
+			"Fields": { 
+				"Rafseazz.RSVCP_Waterfall_Snakehead": {"CuriosityLureBuff": 0.30},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 30%"},
+	    },
+		{
+			"LogName": "RSV - Curious Legendary Fish Ridge Forest Increase by 35%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_Ridgeside_RidgeForest", "Fish" ],
+			"Fields": { 
+				"Rafseazz.RSVCP_Deep_Ridge_Angler": {"CuriosityLureBuff": 0.35},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 35%"},
+	    },
+		{
+			"LogName": "RSV - Curious Legendary Fish Ridgeside Village Increase by 35%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_Ridgeside_RidgesideVillage", "Fish" ],
+			"Fields": { 
+				"Rafseazz.RSVCP_Sockeye_Salmon": {"CuriosityLureBuff": 0.35},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 35%"},
+	    },
+		{
+			"LogName": "RSV - Curious Legendary Fish Ridgeside Village Increase by 35%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_Ridgeside_RidgeFalls", "Fish" ],
+			"Fields": { 
+				"Rafseazz.RSVCP_Waterfall_Snakehead": {"CuriosityLureBuff": 0.35},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 35%"},
+	    },
+		{
+			"LogName": "RSV - Curious Legendary Fish Ridge Forest Increase by 40%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_Ridgeside_RidgeForest", "Fish" ],
+			"Fields": { 
+				"Rafseazz.RSVCP_Deep_Ridge_Angler": {"CuriosityLureBuff": 0.40},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 40%"},
+	    },
+		{
+			"LogName": "RSV - Curious Legendary Fish Ridgeside Village Increase by 40%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_Ridgeside_RidgesideVillage", "Fish" ],
+			"Fields": { 
+				"Rafseazz.RSVCP_Sockeye_Salmon": {"CuriosityLureBuff": 0.40},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 40%"},
+	    },
+		{
+			"LogName": "RSV - Curious Legendary Fish Ridgeside Village Increase by 40%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_Ridgeside_RidgeFalls", "Fish" ],
+			"Fields": { 
+				"Rafseazz.RSVCP_Waterfall_Snakehead": {"CuriosityLureBuff": 0.40},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 40%"},
+	    },
+		{
+			"LogName": "RSV - Curious Legendary Fish Ridge Forest Increase by 45%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_Ridgeside_RidgeForest", "Fish" ],
+			"Fields": { 
+				"Rafseazz.RSVCP_Deep_Ridge_Angler": {"CuriosityLureBuff": 0.45},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 45%"},
+	    },
+		{
+			"LogName": "RSV - Curious Legendary Fish Ridgeside Village Increase by 45%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_Ridgeside_RidgesideVillage", "Fish" ],
+			"Fields": { 
+				"Rafseazz.RSVCP_Sockeye_Salmon": {"CuriosityLureBuff": 0.45},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 45%"},
+	    },
+		{
+			"LogName": "RSV - Curious Legendary Fish Ridgeside Village Increase by 45%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_Ridgeside_RidgeFalls", "Fish" ],
+			"Fields": { 
+				"Rafseazz.RSVCP_Waterfall_Snakehead": {"CuriosityLureBuff": 0.45},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 45%"},
+	    },
+		{
+			"LogName": "RSV - Curious Legendary Fish Ridge Forest Increase by 50%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_Ridgeside_RidgeForest", "Fish" ],
+			"Fields": { 
+				"Rafseazz.RSVCP_Deep_Ridge_Angler": {"CuriosityLureBuff": 0.50},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 50%"},
+	    },
+		{
+			"LogName": "RSV - Curious Legendary Fish Ridgeside Village Increase by 50%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_Ridgeside_RidgesideVillage", "Fish" ],
+			"Fields": { 
+				"Rafseazz.RSVCP_Sockeye_Salmon": {"CuriosityLureBuff": 0.50},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 50%"},
+	    },
+		{
+			"LogName": "RSV - Curious Legendary Fish Ridgeside Village Increase by 50%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_Ridgeside_RidgeFalls", "Fish" ],
+			"Fields": { 
+				"Rafseazz.RSVCP_Waterfall_Snakehead": {"CuriosityLureBuff": 0.50},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 50%"},
+	    },
+		{
+			"LogName": "RSV - Curious Legendary Fish Ridge Forest Increase by 55%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_Ridgeside_RidgeForest", "Fish" ],
+			"Fields": { 
+				"Rafseazz.RSVCP_Deep_Ridge_Angler": {"CuriosityLureBuff": 0.55},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 55%"},
+	    },
+		{
+			"LogName": "RSV - Curious Legendary Fish Ridgeside Village Increase by 55%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_Ridgeside_RidgesideVillage", "Fish" ],
+			"Fields": { 
+				"Rafseazz.RSVCP_Sockeye_Salmon": {"CuriosityLureBuff": 0.55},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 55%"},
+	    },
+		{
+			"LogName": "RSV - Curious Legendary Fish Ridgeside Village Increase by 55%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_Ridgeside_RidgeFalls", "Fish" ],
+			"Fields": { 
+				"Rafseazz.RSVCP_Waterfall_Snakehead": {"CuriosityLureBuff": 0.55},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 55%"},
+	    },
+		{
+			"LogName": "RSV - Curious Legendary Fish Ridge Forest Increase by 60%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_Ridgeside_RidgeForest", "Fish" ],
+			"Fields": { 
+				"Rafseazz.RSVCP_Deep_Ridge_Angler": {"CuriosityLureBuff": 0.60},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 60%"},
+	    },
+		{
+			"LogName": "RSV - Curious Legendary Fish Ridgeside Village Increase by 60%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_Ridgeside_RidgesideVillage", "Fish" ],
+			"Fields": { 
+				"Rafseazz.RSVCP_Sockeye_Salmon": {"CuriosityLureBuff": 0.60},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 60%"},
+	    },
+		{
+			"LogName": "RSV - Curious Legendary Fish Ridgeside Village Increase by 60%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_Ridgeside_RidgeFalls", "Fish" ],
+			"Fields": { 
+				"Rafseazz.RSVCP_Waterfall_Snakehead": {"CuriosityLureBuff": 0.60},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 60%"},
+	    },
+		{
+			"LogName": "RSV - Curious Legendary Fish Ridge Forest Increase by 65%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_Ridgeside_RidgeForest", "Fish" ],
+			"Fields": { 
+				"Rafseazz.RSVCP_Deep_Ridge_Angler": {"CuriosityLureBuff": 0.65},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 65%"},
+	    },
+		{
+			"LogName": "RSV - Curious Legendary Fish Ridgeside Village Increase by 65%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_Ridgeside_RidgesideVillage", "Fish" ],
+			"Fields": { 
+				"Rafseazz.RSVCP_Sockeye_Salmon": {"CuriosityLureBuff": 0.65},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 65%"},
+	    },
+		{
+			"LogName": "RSV - Curious Legendary Fish Ridgeside Village Increase by 65%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_Ridgeside_RidgeFalls", "Fish" ],
+			"Fields": { 
+				"Rafseazz.RSVCP_Waterfall_Snakehead": {"CuriosityLureBuff": 0.65},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 65%"},
+	    },
+		{
+			"LogName": "RSV - Curious Legendary Fish Ridge Forest Increase by 70%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_Ridgeside_RidgeForest", "Fish" ],
+			"Fields": { 
+				"Rafseazz.RSVCP_Deep_Ridge_Angler": {"CuriosityLureBuff": 0.70},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 70%"},
+	    },
+		{
+			"LogName": "RSV - Curious Legendary Fish Ridgeside Village Increase by 70%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_Ridgeside_RidgesideVillage", "Fish" ],
+			"Fields": { 
+				"Rafseazz.RSVCP_Sockeye_Salmon": {"CuriosityLureBuff": 0.70},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 70%"},
+	    },
+		{
+			"LogName": "RSV - Curious Legendary Fish Ridgeside Village Increase by 70%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_Ridgeside_RidgeFalls", "Fish" ],
+			"Fields": { 
+				"Rafseazz.RSVCP_Waterfall_Snakehead": {"CuriosityLureBuff": 0.70},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 70%"},
+	    },
+		{
+			"LogName": "RSV - Curious Legendary Fish Ridge Forest Increase by 75%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_Ridgeside_RidgeForest", "Fish" ],
+			"Fields": { 
+				"Rafseazz.RSVCP_Deep_Ridge_Angler": {"CuriosityLureBuff": 0.75},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 75%"},
+	    },
+		{
+			"LogName": "RSV - Curious Legendary Fish Ridgeside Village Increase by 75%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_Ridgeside_RidgesideVillage", "Fish" ],
+			"Fields": { 
+				"Rafseazz.RSVCP_Sockeye_Salmon": {"CuriosityLureBuff": 0.75},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 75%"},
+	    },
+		{
+			"LogName": "RSV - Curious Legendary Fish Ridgeside Village Increase by 75%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_Ridgeside_RidgeFalls", "Fish" ],
+			"Fields": { 
+				"Rafseazz.RSVCP_Waterfall_Snakehead": {"CuriosityLureBuff": 0.75},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 75%"},
+	    },
+		{
+			"LogName": "RSV - Curious Legendary Fish Ridge Forest Increase by 80%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_Ridgeside_RidgeForest", "Fish" ],
+			"Fields": { 
+				"Rafseazz.RSVCP_Deep_Ridge_Angler": {"CuriosityLureBuff": 0.80},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 80%"},
+	    },
+		{
+			"LogName": "RSV - Curious Legendary Fish Ridgeside Village Increase by 80%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_Ridgeside_RidgesideVillage", "Fish" ],
+			"Fields": { 
+				"Rafseazz.RSVCP_Sockeye_Salmon": {"CuriosityLureBuff": 0.80},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 80%"},
+	    },
+		{
+			"LogName": "RSV - Curious Legendary Fish Ridgeside Village Increase by 80%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_Ridgeside_RidgeFalls", "Fish" ],
+			"Fields": { 
+				"Rafseazz.RSVCP_Waterfall_Snakehead": {"CuriosityLureBuff": 0.80},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 80%"},
+	    },
+		{
+			"LogName": "RSV - Curious Legendary Fish Ridge Forest Increase by 85%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_Ridgeside_RidgeForest", "Fish" ],
+			"Fields": { 
+				"Rafseazz.RSVCP_Deep_Ridge_Angler": {"CuriosityLureBuff": 0.85},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 85%"},
+	    },
+		{
+			"LogName": "RSV - Curious Legendary Fish Ridgeside Village Increase by 85%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_Ridgeside_RidgesideVillage", "Fish" ],
+			"Fields": { 
+				"Rafseazz.RSVCP_Sockeye_Salmon": {"CuriosityLureBuff": 0.85},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 85%"},
+	    },
+		{
+			"LogName": "RSV - Curious Legendary Fish Ridgeside Village Increase by 85%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_Ridgeside_RidgeFalls", "Fish" ],
+			"Fields": { 
+				"Rafseazz.RSVCP_Waterfall_Snakehead": {"CuriosityLureBuff": 0.85},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 85%"},
+	    },
+		{
+			"LogName": "RSV - Curious Legendary Fish Ridge Forest Increase by 90%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_Ridgeside_RidgeForest", "Fish" ],
+			"Fields": { 
+				"Rafseazz.RSVCP_Deep_Ridge_Angler": {"CuriosityLureBuff": 0.90},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 90%"},
+	    },
+		{
+			"LogName": "RSV - Curious Legendary Fish Ridgeside Village Increase by 90%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_Ridgeside_RidgesideVillage", "Fish" ],
+			"Fields": { 
+				"Rafseazz.RSVCP_Sockeye_Salmon": {"CuriosityLureBuff": 0.90},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 90%"},
+	    },
+		{
+			"LogName": "RSV - Curious Legendary Fish Ridgeside Village Increase by 90%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_Ridgeside_RidgeFalls", "Fish" ],
+			"Fields": { 
+				"Rafseazz.RSVCP_Waterfall_Snakehead": {"CuriosityLureBuff": 0.90},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 90%"},
+	    },
+		{
+			"LogName": "RSV - Curious Legendary Fish Ridge Forest Increase by 95%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_Ridgeside_RidgeForest", "Fish" ],
+			"Fields": { 
+				"Rafseazz.RSVCP_Deep_Ridge_Angler": {"CuriosityLureBuff": 0.95},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 95%"},
+	    },
+		{
+			"LogName": "RSV - Curious Legendary Fish Ridgeside Village Increase by 95%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_Ridgeside_RidgesideVillage", "Fish" ],
+			"Fields": { 
+				"Rafseazz.RSVCP_Sockeye_Salmon": {"CuriosityLureBuff": 0.95},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 95%"},
+	    },
+		{
+			"LogName": "RSV - Curious Legendary Fish Ridgeside Village Increase by 95%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_Ridgeside_RidgeFalls", "Fish" ],
+			"Fields": { 
+				"Rafseazz.RSVCP_Waterfall_Snakehead": {"CuriosityLureBuff": 0.95},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 95%"},
+	    },
+		{
+			"LogName": "RSV - Curious Legendary Fish Ridge Forest Increase by 100%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_Ridgeside_RidgeForest", "Fish" ],
+			"Fields": { 
+				"Rafseazz.RSVCP_Deep_Ridge_Angler": {"CuriosityLureBuff": 1.0},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 100%"},
+	    },
+		{
+			"LogName": "RSV - Curious Legendary Fish Ridgeside Village Increase by 100%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_Ridgeside_RidgesideVillage", "Fish" ],
+			"Fields": { 
+				"Rafseazz.RSVCP_Sockeye_Salmon": {"CuriosityLureBuff": 1.0},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 100%"},
+	    },
+		{
+			"LogName": "RSV - Curious Legendary Fish Ridgeside Village Increase by 100%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_Ridgeside_RidgeFalls", "Fish" ],
+			"Fields": { 
+				"Rafseazz.RSVCP_Waterfall_Snakehead": {"CuriosityLureBuff": 1.0},
+					  },
+			    "When": {"Curious Legendary Fish": "Increase by 100%"},
+	    },
+	]
+}

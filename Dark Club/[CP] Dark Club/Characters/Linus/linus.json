@@ -1,0 +1,88 @@
+{
+  "Changes": [
+    // Change NPC Schedules - Portraits ------------------------------------------------------------
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Linus",
+      "FromFile": "Characters/Linus/assets/Portraits/Linus_Lewd.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 128 },
+      "ToArea": { "X": 0, "Y": 640, "Width": 128, "Height": 128 },
+      "When": { 
+		"Change NPC Schedules": "true", 
+		"Hypnosis": "false",
+		"Linus": "true",
+	  }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Linus",
+      "FromFile": "Characters/Linus/assets/Portraits/Linus_Lewd_Hypnosis.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 128 },
+      "ToArea": { "X": 0, "Y": 640, "Width": 128, "Height": 128 },
+      "When": { 
+		"Change NPC Schedules": "true", 
+		"Hypnosis": "true",
+		"Linus": "true",
+	  }
+    },
+	{
+      "Action": "EditImage",
+      "Target": "Portraits/Linus_Winter",
+      "FromFile": "Characters/Linus/assets/Portraits/Linus_Lewd.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 128 },
+      "ToArea": { "X": 0, "Y": 640, "Width": 128, "Height": 128 },
+      "When": { 
+		"Change NPC Schedules": "true", 
+		"Hypnosis": "false",
+		"Linus": "true",
+	  }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Linus_Winter",
+      "FromFile": "Characters/Linus/assets/Portraits/Linus_Lewd_Hypnosis.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 128 },
+      "ToArea": { "X": 0, "Y": 640, "Width": 128, "Height": 128 },
+      "When": { 
+		"Change NPC Schedules": "true", 
+		"Hypnosis": "true",
+		"Linus": "true",
+	  }
+    },
+    // Change NPC Schedules - schedules ------------------------------------------------------------
+    {
+      "Action": "EditData",
+      "Target": "Characters/schedules/Linus",
+      "Entries": {
+        "rain": "630 Tent 2 2 0/930 Mountain 25 5 1 linus_onanie2/1030 Tent 3 2 2 linus_onanie1/1500 Mountain 17 8 0 linus_dildo/2400 Tent 4 4 2 linus_sleep",
+        "spring": "630 Mountain 25 5 1 linus_onanie2/730 Mountain 28 9 1/930 Mountain 44 19 0 linus_dildo/1400 Mountain 28 9 1/1900 Tent 3 2 2 linus_onanie1/2400 Tent 4 4 2 linus_sleep",
+        "summer": "630 Mountain 39 5 1 linus_onanie2/940 Mountain 44 27 1 square_3_3/1300 Mountain 48 35 0 linus_dildo/1600 Mountain 28 9 1/2000 Mountain 25 5 1 linus_onanie2/2100 Tent 3 2 2 linus_onanie1/2400 Tent 4 4 2 linus_sleep",
+        "fall": "630 Mountain 25 5 1 linus_onanie2/730 Mountain 28 9 1/900 Railroad 16 57 0 linus_dildo/1400 Mountain 44 18 1 linus_onanie2/1800 Tent 3 2 2 linus_onanie1/2400 Tent 4 4 2 linus_sleep",
+        "winter": "630 Tent 3 2 2 linus_onanie1/1100 Mountain 28 9 1/1400 BathHouse_Entry 8 6 3 \"Strings\\schedules\\Linus:winter.000\"/1800 Tent 3 2 2 linus_onanie1/2400 Tent 4 4 2 linus_sleep"
+      },
+      "When": { "Change NPC Schedules": "true" }
+    },
+    // Change NPC Schedules - animationDescriptions ------------------------------------------------
+    {
+      "Action": "EditData",
+      "Target": "Data/animationDescriptions",
+      "Entries": {
+        "linus_onanie1": "100/100/100/Strings\\animationDescriptions:linus_onanie1",
+        "linus_onanie2": "101/101/101/Strings\\animationDescriptions:linus_onanie2",
+        "linus_dildo": "102/102/102/Strings\\animationDescriptions:linus_dildo",
+      },
+      "When": { "Change NPC Schedules": "true" }
+    },
+    // Change NPC Schedules - animationDescriptions Dialogue ---------------------------------------
+    {
+      "Action": "EditData",
+      "Target": "Strings/animationDescriptions",
+      "Entries": {
+        "linus_onanie1": "{{i18n:NPC.Linus.Fuck}}",
+        "linus_onanie2": "{{i18n:NPC.Linus.Fuck}}",
+        "linus_dildo": "{{i18n:NPC.Linus.Fuck}}",
+      },
+      "When": { "Change NPC Schedules": "true" }
+    },
+  ]
+}

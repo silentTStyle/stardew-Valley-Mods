@@ -1,0 +1,74 @@
+{
+  "Changes": [
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Robin",
+      "FromFile": "assets/Characters/Robin.png"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Robin_Beach",
+      "FromFile": "assets/Characters/Robin_Beach.png"
+    },
+	{
+      "Action": "EditImage",
+      "Target": "Characters/Robin_Winter",
+      "FromFile": "assets/Characters/Robin.png"
+    },
+	// Portraits -----------------------------------------------------------------------------------
+	{
+      "Action": "EditImage",
+      "Target": "Portraits/Robin",
+      "FromFile": "assets/Portraits/Robin.png",
+      "When": { 
+		"Hypnosis": "false",
+		"Robin": "On",
+	  }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Robin",
+      "FromFile": "assets/Portraits/Robin_Hypnosis.png",
+      "When": { 
+		"Hypnosis": "true",
+		"Robin": "On",
+	  }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Robin_Beach",
+      "FromFile": "assets/Portraits/Robin_Beach.png",
+      "When": { 
+		"Hypnosis": "false",
+		"Robin": "On",
+	  }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Robin_Beach",
+      "FromFile": "assets/Portraits/Robin_Beach_Hypnosis.png",
+      "When": { 
+		"Hypnosis": "true",
+		"Robin": "On",
+	  }
+    },
+	{
+      "Action": "EditImage",
+      "Target": "Portraits/Robin_Winter",
+      "FromFile": "assets/Portraits/Robin.png",
+      "When": { 
+		"Hypnosis": "false",
+		"Robin": "On",
+	  }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Robin_Winter",
+      "FromFile": "assets/Portraits/Robin_Hypnosis.png",
+      "When": { 
+		"Hypnosis": "true",
+		"Robin": "On",
+	  }
+    },
+  ]
+}

@@ -1,0 +1,268 @@
+{
+	"Changes": [
+		{
+			"LogName": "ESC - Fish Pond Rare Loot Chance 5X",
+			"Action": "EditData",
+			"Target": "Data/FishPondData",
+			"Fields": {
+				"EastScarpe_Kokanee_Salmon": {
+					"ProducedItems": [
+                        {
+                            "RequiredPopulation": 9,
+                            "Chance": 0.1,
+                            "ItemID": "(O)394",
+                            "MinQuantity": 1,
+                            "MaxQuantity": 1
+                        },
+                        {
+                            "RequiredPopulation": 9,
+                            "Chance": 0.005,
+                            "ItemID": "(O)74",
+                            "MinQuantity": 1,
+                            "MaxQuantity": 1
+                        },
+                        {
+                            "RequiredPopulation": 0,
+                            "Chance": 1.0,
+                            "ItemID": "(O)812",
+                            "MinQuantity": 1,
+                            "MaxQuantity": 1
+                        }
+                    ],
+			        },
+				"EastScarp_Golden_Trout": {
+					"ProducedItems": [
+                        {
+                            "RequiredPopulation": 9,
+                            "Chance": 0.005,
+                            "ItemID": "(O)124",
+                            "MinQuantity": 1,
+                            "MaxQuantity": 1
+                        },
+                        {
+                            "RequiredPopulation": 9,
+                            "Chance": 0.05,
+                            "ItemID": "(O)336",
+                            "MinQuantity": 1,
+                            "MaxQuantity": 1
+                        },
+                        {
+                            "RequiredPopulation": 0,
+                            "Chance": 0.9,
+                            "ItemID": "(O)384",
+                            "MinQuantity": 1,
+                            "MaxQuantity": 5
+                        },
+                        {
+                            "RequiredPopulation": 0,
+                            "Chance": 0.8,
+                            "ItemID": "(O)812",
+                            "MinQuantity": 1,
+                            "MaxQuantity": 5
+                        }
+                    ],
+			        },
+				"fish_nudibranch": {
+					"ProducedItems": [
+                        {
+                            "RequiredPopulation": 9,
+                            "Chance": 0.005,
+                            "ItemID": "(O)72",
+                            "MinQuantity": 1,
+                            "MaxQuantity": 1
+                        },
+                        {
+                            "RequiredPopulation": 5,
+                            "Chance": 0.05,
+                            "ItemID": "(O)80",
+                            "MinQuantity": 1,
+                            "MaxQuantity": 1
+                        },
+                        {
+                            "RequiredPopulation": 3,
+                            "Chance": 0.9,
+                            "ItemID": "(O)766",
+                            "MinQuantity": 1,
+                            "MaxQuantity": 2
+                        },
+                        {
+                            "RequiredPopulation": 0,
+                            "Chance": 1.0,
+                            "ItemID": "(O)812",
+                            "MinQuantity": 1,
+                            "MaxQuantity": 5
+                        }
+                    ],
+			        },				
+				"EastScarp_Red_Herring": {
+					"ProducedItems": [
+                        {
+                            "RequiredPopulation": 8,
+                            "Chance": 0.5,
+                            "ItemID": "(O)64",
+                            "MinQuantity": 1,
+                            "MaxQuantity": 1
+                        },
+                        {
+                            "RequiredPopulation": 1,
+                            "Chance": 0.9,
+                            "ItemID": "(O)812",
+                            "MinQuantity": 1,
+                            "MaxQuantity": 1
+                        }
+                    ],
+			        },					
+				"EastScarp_Fairy_Betta": {
+					"ProducedItems": [
+                        {
+                            "RequiredPopulation": 9,
+                            "Chance": 0.1, 
+                            "ItemID": "(O)577", 
+                            "MinQuantity": 1,
+                            "MaxQuantity": 1
+                        },
+                        {
+                            "RequiredPopulation": 6,
+                            "Chance": 0.05,
+                            "ItemID": "(O)425", 
+                            "MinQuantity": 1,
+                            "MaxQuantity": 3
+                        },
+                        {
+                            "RequiredPopulation": 5,
+                            "Chance": 0.05,
+                            "ItemID": "(O)745",
+                            "MinQuantity": 1,
+                            "MaxQuantity": 5
+                        },
+                        {
+                            "RequiredPopulation": 0,
+                            "Chance": 0.7,
+                            "ItemID": "(O)812",
+                            "MinQuantity": 1,
+                            "MaxQuantity": 1
+                        }
+                    ],
+			        },					
+				"EastScarp_Obsidian_Maw": {
+					"ProducedItems": [
+                        {
+                            "RequiredPopulation": 9,
+                            "Chance": 0.025,
+                            "ItemID": "(O)108",
+                            "MinQuantity": 1,
+                            "MaxQuantity": 1
+                        },
+                        {
+                            "RequiredPopulation": 5,
+                            "Chance": 0.05,
+                            "ItemID": "(O)769",
+                            "MinQuantity": 1,
+                            "MaxQuantity": 3
+                        },
+                        {
+                            "RequiredPopulation": 5,
+                            "Chance": 0.05,
+                            "ItemID": "(O)382",
+                            "MinQuantity": 1,
+                            "MaxQuantity": 5
+                        },
+                        {
+                            "RequiredPopulation": 0,
+                            "Chance": 0.7,
+                            "ItemID": "(O)812", 
+                            "MinQuantity": 1,
+                            "MaxQuantity": 1
+                        }
+                    ],
+			        },					
+				"EastScarp_King_Carp": {
+					"ProducedItems": [
+                        {
+                            "RequiredPopulation": 10,
+                            "Chance": 0.005,
+                            "ItemID": "(O)166",
+                            "MinQuantity": 1,
+                            "MaxQuantity": 1
+                        },
+                        {
+                            "RequiredPopulation": 9,
+                            "Chance": 0.05,
+                            "ItemID": "(O)336",
+                            "MinQuantity": 1,
+                            "MaxQuantity": 1
+                        },
+                        {
+                            "RequiredPopulation": 0,
+                            "Chance": 0.9,
+                            "ItemID": "(O)384",
+                            "MinQuantity": 1,
+                            "MaxQuantity": 5
+                        },
+                        {
+                            "RequiredPopulation": 0,
+                            "Chance": 0.8,
+                            "ItemID": "(O)812",
+                            "MinQuantity": 1,
+                            "MaxQuantity": 5
+                        }
+                    ],
+			        },				
+				"EastScarp_Slime_Barbel": {
+					"ProducedItems": [
+                        {
+                            "RequiredPopulation": 10,
+                            "Chance": 0.025,
+                            "ItemID": "(O)439",
+                            "MinQuantity": 1,
+                            "MaxQuantity": 1
+                        },
+                        {
+                            "RequiredPopulation": 9,
+                            "Chance": 0.025,
+                            "ItemID": "(O)413",
+                            "MinQuantity": 1,
+                            "MaxQuantity": 1
+                        },
+                        {
+                            "RequiredPopulation": 9,
+                            "Chance": 0.025,
+                            "ItemID": "(O)437",
+                            "MinQuantity": 1,
+                            "MaxQuantity": 1
+                        },
+                        {
+                            "RequiredPopulation": 7,
+                            "Chance": 0.05,
+                            "ItemID": "(O)557",
+                            "MinQuantity": 1,
+                            "MaxQuantity": 1 
+                        },
+                        {
+                            "RequiredPopulation": 5,
+                            "Chance": 0.05,
+                            "ItemID": "(O)680",
+                            "MinQuantity": 1,
+                            "MaxQuantity": 1
+                        },
+                        {
+                            "RequiredPopulation": 3,
+                            "Chance": 0.05,
+                            "ItemID": "(O)766",
+                            "MinQuantity": 1,
+                            "MaxQuantity": 5 
+                        },
+                        {
+                            "RequiredPopulation": 0,
+                            "Chance": 0.7,
+                            "ItemID": "(O)812",
+                            "MinQuantity": 1,
+                            "MaxQuantity": 1
+                        }
+                    ],
+			        },	
+				},					
+			"When": {"Fish Pond Rare Loot": "Rare Loot Chance 5X"},
+		},
+	]
+}

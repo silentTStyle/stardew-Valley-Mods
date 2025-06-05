@@ -1,0 +1,8 @@
+{
+	"config.Shaymin confusion change.name": "Cambio de confusión de Shaymin",
+	"config.Shaymin confusion change.description": "Está ahí para cambiar la apariencia de Shaymin y Shiny Shaymin.",
+	"config.Shaymin confusion change.values.Shiny is Shiny and Normal is Normal": "Shiny es Shiny y Normal es Normal.",
+    "config.Shaymin confusion change.values.Shiny is Normal and Normal is Shiny": "Shiny es Normal y Normal es Shiny.",
+	"config.Adoption Price.name": "Precio de adopción",
+	"config.Adoption Price.description": "El precio por la adopción de Shaymin.",
+}

@@ -1,0 +1,794 @@
+{
+	"Changes": [
+		{
+			"LogName": "Fish Sell Value Decrease by 10%",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"128": {"Price": "{{Round: {{Query: (200 - (200 * 0.10)) }} }}"}, //Pufferfish
+				"129": {"Price": "{{Round: {{Query: (30 - (30 * 0.10)) }} }}"}, //Anchovy
+				"130": {"Price": "{{Round: {{Query: (100 - (100 * 0.10)) }} }}"}, //Tuna
+				"131": {"Price": "{{Round: {{Query: (40 - (40 * 0.10)) }} }}"}, //Sardine
+				"132": {"Price": "{{Round: {{Query: (45 - (45 * 0.10)) }} }}"}, //Bream
+				"136": {"Price": "{{Round: {{Query: (100 - (100 * 0.10)) }} }}"}, //Largemouth Bass
+				"137": {"Price": "{{Round: {{Query: (50 - (50 * 0.10)) }} }}"}, //Smallmouth Bass
+				"138": {"Price": "{{Round: {{Query: (65 - (65 * 0.10)) }} }}"}, //Rainbow Trout
+				"139": {"Price": "{{Round: {{Query: (75 - (75 * 0.10)) }} }}"}, //Salmon
+				"140": {"Price": "{{Round: {{Query: (105 - (105 * 0.10)) }} }}"}, //Walleye
+				"141": {"Price": "{{Round: {{Query: (55 - (55 * 0.10)) }} }}"}, //Perch
+				"142": {"Price": "{{Round: {{Query: (30 - (30 * 0.10)) }} }}"}, //Carp
+				"143": {"Price": "{{Round: {{Query: (200 - (200 * 0.10)) }} }}"}, //Catfish
+				"144": {"Price": "{{Round: {{Query: (100 - (100 * 0.10)) }} }}"}, //Pike
+				"145": {"Price": "{{Round: {{Query: (30 - (30 * 0.10)) }} }}"}, //Sunfish
+				"146": {"Price": "{{Round: {{Query: (75 - (75 * 0.10)) }} }}"}, //Red Mullet
+				"147": {"Price": "{{Round: {{Query: (30 - (30 * 0.10)) }} }}"}, //Herring
+				"148": {"Price": "{{Round: {{Query: (85 - (85 * 0.10)) }} }}"}, //Eel
+				"149": {"Price": "{{Round: {{Query: (150 - (150 * 0.10)) }} }}"}, //Octopus
+				"150": {"Price": "{{Round: {{Query: (50 - (50 * 0.10)) }} }}"}, //Red Snapper
+				"151": {"Price": "{{Round: {{Query: (80 - (80 * 0.10)) }} }}"}, //Squid
+				"154": {"Price": "{{Round: {{Query: (75 - (75 * 0.10)) }} }}"}, //Sea Cucumber
+				"155": {"Price": "{{Round: {{Query: (250 - (250 * 0.10)) }} }}"}, //Super Cucumber
+				"156": {"Price": "{{Round: {{Query: (45 - (45 * 0.10)) }} }}"}, //Ghostfish
+				"158": {"Price": "{{Round: {{Query: (300 - (300 * 0.10)) }} }}"}, //Stonefish
+				"161": {"Price": "{{Round: {{Query: (500 - (500 * 0.10)) }} }}"}, //Ice Pip
+				"162": {"Price": "{{Round: {{Query: (700 - (700 * 0.10)) }} }}"}, //Lava Eel
+				"164": {"Price": "{{Round: {{Query: (75 - (75 * 0.10)) }} }}"}, //Sandfish
+				"165": {"Price": "{{Round: {{Query: (150 - (150 * 0.10)) }} }}"}, //Scorpion Carp
+				"267": {"Price": "{{Round: {{Query: (100 - (100 * 0.10)) }} }}"}, //Flounder
+				"269": {"Price": "{{Round: {{Query: (150 - (150 * 0.10)) }} }}"}, //Midnight Carp
+				"698": {"Price": "{{Round: {{Query: (200 - (200 * 0.10)) }} }}"}, //Sturgeon
+				"699": {"Price": "{{Round: {{Query: (150 - (150 * 0.10)) }} }}"}, //Tiger Trout
+				"700": {"Price": "{{Round: {{Query: (75 - (75 * 0.10)) }} }}"}, //Bullhead
+				"701": {"Price": "{{Round: {{Query: (75 - (75 * 0.10)) }} }}"}, //Tilapia
+				"702": {"Price": "{{Round: {{Query: (50 - (50 * 0.10)) }} }}"}, //Chub
+				"704": {"Price": "{{Round: {{Query: (100 - (100 * 0.10)) }} }}"}, //Dorado
+				"705": {"Price": "{{Round: {{Query: (75 - (75 * 0.10)) }} }}"}, //Albacore
+				"706": {"Price": "{{Round: {{Query: (60 - (60 * 0.10)) }} }}"}, //Shad
+				"707": {"Price": "{{Round: {{Query: (120 - (120 * 0.10)) }} }}"}, //Lingcod
+				"708": {"Price": "{{Round: {{Query: (80 - (80 * 0.10)) }} }}"}, //Halibut
+				"734": {"Price": "{{Round: {{Query: (75 - (75 * 0.10)) }} }}"}, //Woodskip
+				"795": {"Price": "{{Round: {{Query: (150 - (150 * 0.10)) }} }}"}, //Void Salmon
+				"796": {"Price": "{{Round: {{Query: (100 - (100 * 0.10)) }} }}"}, //Slimejack
+				"798": {"Price": "{{Round: {{Query: (100 - (100 * 0.10)) }} }}"}, //Midnight Squid
+				"799": {"Price": "{{Round: {{Query: (220 - (220 * 0.10)) }} }}"}, //Spook Fish
+				"800": {"Price": "{{Round: {{Query: (500 - (500 * 0.10)) }} }}"}, //Blobfish
+				"836": {"Price": "{{Round: {{Query: (180 - (180 * 0.10)) }} }}"}, //Stingray
+				"837": {"Price": "{{Round: {{Query: (100 - (100 * 0.10)) }} }}"}, //Lionfish
+				"838": {"Price": "{{Round: {{Query: (120 - (120 * 0.10)) }} }}"}, //Blue Discus
+				"372": {"Price": "{{Round: {{Query: (50 - (50 * 0.10)) }} }}"}, //Clam
+				"715": {"Price": "{{Round: {{Query: (120 - (120 * 0.10)) }} }}"}, //Lobster
+				"716": {"Price": "{{Round: {{Query: (75 - (75 * 0.10)) }} }}"}, //Crayfish
+				"717": {"Price": "{{Round: {{Query: (100 - (100 * 0.10)) }} }}"}, //Crab
+				"718": {"Price": "{{Round: {{Query: (50 - (50 * 0.10)) }} }}"}, //Cockle
+				"719": {"Price": "{{Round: {{Query: (30 - (30 * 0.10)) }} }}"}, //Mussel
+				"720": {"Price": "{{Round: {{Query: (60 - (60 * 0.10)) }} }}"}, //Shrimp
+				"721": {"Price": "{{Round: {{Query: (65 - (65 * 0.10)) }} }}"}, //Snail
+				"722": {"Price": "{{Round: {{Query: (20 - (20 * 0.10)) }} }}"}, //Periwinkle
+				"723": {"Price": "{{Round: {{Query: (40 - (40 * 0.10)) }} }}"}, //Oyster
+				"392": {"Price": "{{Round: {{Query: (120 - (120 * 0.10)) }} }}"}, //Nautilus Shell
+				"393": {"Price": "{{Round: {{Query: (80 - (80 * 0.10)) }} }}"}, //Coral
+				"397": {"Price": "{{Round: {{Query: (160 - (160 * 0.10)) }} }}"}, //Sea Urchin
+				"394": {"Price": "{{Round: {{Query: (300 - (300 * 0.10)) }} }}"}, //Rainbow Shell
+				"152": {"Price": "{{Round: {{Query: (20 - (20 * 0.10)) }} }}"}, //Seaweed
+				"153": {"Price": "{{Round: {{Query: (15 - (15 * 0.10)) }} }}"}, //Green Algae
+				"157": {"Price": "{{Round: {{Query: (25 - (25 * 0.10)) }} }}"}, //White Algae
+				"Goby": {"Price": "{{Round: {{Query: (150 - (150 * 0.10)) }} }}"}, //Goby
+				"SeaJelly": {"Price": "{{Round: {{Query: (200 - (200 * 0.10)) }} }}"}, //Sea Jelly
+				"CaveJelly": {"Price": "{{Round: {{Query: (180 - (180 * 0.10)) }} }}"}, //Cave Jelly
+				"RiverJelly": {"Price": "{{Round: {{Query: (125 - (125 * 0.10)) }} }}"}, //River Jelly
+			    },
+			"When": {"Fish Sell Value": "Decrease by 10%"},
+		},
+		{
+			"LogName": "Fish Sell Value Decrease by 20%",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"128": {"Price": "{{Round: {{Query: (200 - (200 * 0.20)) }} }}"}, //Pufferfish
+				"129": {"Price": "{{Round: {{Query: (30 - (30 * 0.20)) }} }}"}, //Anchovy
+				"130": {"Price": "{{Round: {{Query: (100 - (100 * 0.20)) }} }}"}, //Tuna
+				"131": {"Price": "{{Round: {{Query: (40 - (40 * 0.20)) }} }}"}, //Sardine
+				"132": {"Price": "{{Round: {{Query: (45 - (45 * 0.20)) }} }}"}, //Bream
+				"136": {"Price": "{{Round: {{Query: (100 - (100 * 0.20)) }} }}"}, //Largemouth Bass
+				"137": {"Price": "{{Round: {{Query: (50 - (50 * 0.20)) }} }}"}, //Smallmouth Bass
+				"138": {"Price": "{{Round: {{Query: (65 - (65 * 0.20)) }} }}"}, //Rainbow Trout
+				"139": {"Price": "{{Round: {{Query: (75 - (75 * 0.20)) }} }}"}, //Salmon
+				"140": {"Price": "{{Round: {{Query: (105 - (105 * 0.20)) }} }}"}, //Walleye
+				"141": {"Price": "{{Round: {{Query: (55 - (55 * 0.20)) }} }}"}, //Perch
+				"142": {"Price": "{{Round: {{Query: (30 - (30 * 0.20)) }} }}"}, //Carp
+				"143": {"Price": "{{Round: {{Query: (200 - (200 * 0.20)) }} }}"}, //Catfish
+				"144": {"Price": "{{Round: {{Query: (100 - (100 * 0.20)) }} }}"}, //Pike
+				"145": {"Price": "{{Round: {{Query: (30 - (30 * 0.20)) }} }}"}, //Sunfish
+				"146": {"Price": "{{Round: {{Query: (75 - (75 * 0.20)) }} }}"}, //Red Mullet
+				"147": {"Price": "{{Round: {{Query: (30 - (30 * 0.20)) }} }}"}, //Herring
+				"148": {"Price": "{{Round: {{Query: (85 - (85 * 0.20)) }} }}"}, //Eel
+				"149": {"Price": "{{Round: {{Query: (150 - (150 * 0.20)) }} }}"}, //Octopus
+				"150": {"Price": "{{Round: {{Query: (50 - (50 * 0.20)) }} }}"}, //Red Snapper
+				"151": {"Price": "{{Round: {{Query: (80 - (80 * 0.20)) }} }}"}, //Squid
+				"154": {"Price": "{{Round: {{Query: (75 - (75 * 0.20)) }} }}"}, //Sea Cucumber
+				"155": {"Price": "{{Round: {{Query: (250 - (250 * 0.20)) }} }}"}, //Super Cucumber
+				"156": {"Price": "{{Round: {{Query: (45 - (45 * 0.20)) }} }}"}, //Ghostfish
+				"158": {"Price": "{{Round: {{Query: (300 - (300 * 0.20)) }} }}"}, //Stonefish
+				"161": {"Price": "{{Round: {{Query: (500 - (500 * 0.20)) }} }}"}, //Ice Pip
+				"162": {"Price": "{{Round: {{Query: (700 - (700 * 0.20)) }} }}"}, //Lava Eel
+				"164": {"Price": "{{Round: {{Query: (75 - (75 * 0.20)) }} }}"}, //Sandfish
+				"165": {"Price": "{{Round: {{Query: (150 - (150 * 0.20)) }} }}"}, //Scorpion Carp
+				"267": {"Price": "{{Round: {{Query: (100 - (100 * 0.20)) }} }}"}, //Flounder
+				"269": {"Price": "{{Round: {{Query: (150 - (150 * 0.20)) }} }}"}, //Midnight Carp
+				"698": {"Price": "{{Round: {{Query: (200 - (200 * 0.20)) }} }}"}, //Sturgeon
+				"699": {"Price": "{{Round: {{Query: (150 - (150 * 0.20)) }} }}"}, //Tiger Trout
+				"700": {"Price": "{{Round: {{Query: (75 - (75 * 0.20)) }} }}"}, //Bullhead
+				"701": {"Price": "{{Round: {{Query: (75 - (75 * 0.20)) }} }}"}, //Tilapia
+				"702": {"Price": "{{Round: {{Query: (50 - (50 * 0.20)) }} }}"}, //Chub
+				"704": {"Price": "{{Round: {{Query: (100 - (100 * 0.20)) }} }}"}, //Dorado
+				"705": {"Price": "{{Round: {{Query: (75 - (75 * 0.20)) }} }}"}, //Albacore
+				"706": {"Price": "{{Round: {{Query: (60 - (60 * 0.20)) }} }}"}, //Shad
+				"707": {"Price": "{{Round: {{Query: (120 - (120 * 0.20)) }} }}"}, //Lingcod
+				"708": {"Price": "{{Round: {{Query: (80 - (80 * 0.20)) }} }}"}, //Halibut
+				"734": {"Price": "{{Round: {{Query: (75 - (75 * 0.20)) }} }}"}, //Woodskip
+				"795": {"Price": "{{Round: {{Query: (150 - (150 * 0.20)) }} }}"}, //Void Salmon
+				"796": {"Price": "{{Round: {{Query: (100 - (100 * 0.20)) }} }}"}, //Slimejack
+				"798": {"Price": "{{Round: {{Query: (100 - (100 * 0.20)) }} }}"}, //Midnight Squid
+				"799": {"Price": "{{Round: {{Query: (220 - (220 * 0.20)) }} }}"}, //Spook Fish
+				"800": {"Price": "{{Round: {{Query: (500 - (500 * 0.20)) }} }}"}, //Blobfish
+				"836": {"Price": "{{Round: {{Query: (180 - (180 * 0.20)) }} }}"}, //Stingray
+				"837": {"Price": "{{Round: {{Query: (100 - (100 * 0.20)) }} }}"}, //Lionfish
+				"838": {"Price": "{{Round: {{Query: (120 - (120 * 0.20)) }} }}"}, //Blue Discus
+				"372": {"Price": "{{Round: {{Query: (50 - (50 * 0.20)) }} }}"}, //Clam
+				"715": {"Price": "{{Round: {{Query: (120 - (120 * 0.20)) }} }}"}, //Lobster
+				"716": {"Price": "{{Round: {{Query: (75 - (75 * 0.20)) }} }}"}, //Crayfish
+				"717": {"Price": "{{Round: {{Query: (100 - (100 * 0.20)) }} }}"}, //Crab
+				"718": {"Price": "{{Round: {{Query: (50 - (50 * 0.20)) }} }}"}, //Cockle
+				"719": {"Price": "{{Round: {{Query: (30 - (30 * 0.20)) }} }}"}, //Mussel
+				"720": {"Price": "{{Round: {{Query: (60 - (60 * 0.20)) }} }}"}, //Shrimp
+				"721": {"Price": "{{Round: {{Query: (65 - (65 * 0.20)) }} }}"}, //Snail
+				"722": {"Price": "{{Round: {{Query: (20 - (20 * 0.20)) }} }}"}, //Periwinkle
+				"723": {"Price": "{{Round: {{Query: (40 - (40 * 0.20)) }} }}"}, //Oyster
+				"392": {"Price": "{{Round: {{Query: (120 - (120 * 0.20)) }} }}"}, //Nautilus Shell
+				"393": {"Price": "{{Round: {{Query: (80 - (80 * 0.20)) }} }}"}, //Coral
+				"397": {"Price": "{{Round: {{Query: (160 - (160 * 0.20)) }} }}"}, //Sea Urchin
+				"394": {"Price": "{{Round: {{Query: (300 - (300 * 0.20)) }} }}"}, //Rainbow Shell
+				"152": {"Price": "{{Round: {{Query: (20 - (20 * 0.20)) }} }}"}, //Seaweed
+				"153": {"Price": "{{Round: {{Query: (15 - (15 * 0.20)) }} }}"}, //Green Algae
+				"157": {"Price": "{{Round: {{Query: (25 - (25 * 0.20)) }} }}"}, //White Algae
+				"Goby": {"Price": "{{Round: {{Query: (150 - (150 * 0.20)) }} }}"}, //Goby
+				"SeaJelly": {"Price": "{{Round: {{Query: (200 - (200 * 0.20)) }} }}"}, //Sea Jelly
+				"CaveJelly": {"Price": "{{Round: {{Query: (180 - (180 * 0.20)) }} }}"}, //Cave Jelly
+				"RiverJelly": {"Price": "{{Round: {{Query: (125 - (125 * 0.20)) }} }}"}, //River Jelly
+			    },
+			"When": {"Fish Sell Value": "Decrease by 20%"},
+		},
+		{
+			"LogName": "Fish Sell Value Decrease by 30%",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"128": {"Price": "{{Round: {{Query: (200 - (200 * 0.30)) }} }}"}, //Pufferfish
+				"129": {"Price": "{{Round: {{Query: (30 - (30 * 0.30)) }} }}"}, //Anchovy
+				"130": {"Price": "{{Round: {{Query: (100 - (100 * 0.30)) }} }}"}, //Tuna
+				"131": {"Price": "{{Round: {{Query: (40 - (40 * 0.30)) }} }}"}, //Sardine
+				"132": {"Price": "{{Round: {{Query: (45 - (45 * 0.30)) }} }}"}, //Bream
+				"136": {"Price": "{{Round: {{Query: (100 - (100 * 0.30)) }} }}"}, //Largemouth Bass
+				"137": {"Price": "{{Round: {{Query: (50 - (50 * 0.30)) }} }}"}, //Smallmouth Bass
+				"138": {"Price": "{{Round: {{Query: (65 - (65 * 0.30)) }} }}"}, //Rainbow Trout
+				"139": {"Price": "{{Round: {{Query: (75 - (75 * 0.30)) }} }}"}, //Salmon
+				"140": {"Price": "{{Round: {{Query: (105 - (105 * 0.30)) }} }}"}, //Walleye
+				"141": {"Price": "{{Round: {{Query: (55 - (55 * 0.30)) }} }}"}, //Perch
+				"142": {"Price": "{{Round: {{Query: (30 - (30 * 0.30)) }} }}"}, //Carp
+				"143": {"Price": "{{Round: {{Query: (200 - (200 * 0.30)) }} }}"}, //Catfish
+				"144": {"Price": "{{Round: {{Query: (100 - (100 * 0.30)) }} }}"}, //Pike
+				"145": {"Price": "{{Round: {{Query: (30 - (30 * 0.30)) }} }}"}, //Sunfish
+				"146": {"Price": "{{Round: {{Query: (75 - (75 * 0.30)) }} }}"}, //Red Mullet
+				"147": {"Price": "{{Round: {{Query: (30 - (30 * 0.30)) }} }}"}, //Herring
+				"148": {"Price": "{{Round: {{Query: (85 - (85 * 0.30)) }} }}"}, //Eel
+				"149": {"Price": "{{Round: {{Query: (150 - (150 * 0.30)) }} }}"}, //Octopus
+				"150": {"Price": "{{Round: {{Query: (50 - (50 * 0.30)) }} }}"}, //Red Snapper
+				"151": {"Price": "{{Round: {{Query: (80 - (80 * 0.30)) }} }}"}, //Squid
+				"154": {"Price": "{{Round: {{Query: (75 - (75 * 0.30)) }} }}"}, //Sea Cucumber
+				"155": {"Price": "{{Round: {{Query: (250 - (250 * 0.30)) }} }}"}, //Super Cucumber
+				"156": {"Price": "{{Round: {{Query: (45 - (45 * 0.30)) }} }}"}, //Ghostfish
+				"158": {"Price": "{{Round: {{Query: (300 - (300 * 0.30)) }} }}"}, //Stonefish
+				"161": {"Price": "{{Round: {{Query: (500 - (500 * 0.30)) }} }}"}, //Ice Pip
+				"162": {"Price": "{{Round: {{Query: (700 - (700 * 0.30)) }} }}"}, //Lava Eel
+				"164": {"Price": "{{Round: {{Query: (75 - (75 * 0.30)) }} }}"}, //Sandfish
+				"165": {"Price": "{{Round: {{Query: (150 - (150 * 0.30)) }} }}"}, //Scorpion Carp
+				"267": {"Price": "{{Round: {{Query: (100 - (100 * 0.30)) }} }}"}, //Flounder
+				"269": {"Price": "{{Round: {{Query: (150 - (150 * 0.30)) }} }}"}, //Midnight Carp
+				"698": {"Price": "{{Round: {{Query: (200 - (200 * 0.30)) }} }}"}, //Sturgeon
+				"699": {"Price": "{{Round: {{Query: (150 - (150 * 0.30)) }} }}"}, //Tiger Trout
+				"700": {"Price": "{{Round: {{Query: (75 - (75 * 0.30)) }} }}"}, //Bullhead
+				"701": {"Price": "{{Round: {{Query: (75 - (75 * 0.30)) }} }}"}, //Tilapia
+				"702": {"Price": "{{Round: {{Query: (50 - (50 * 0.30)) }} }}"}, //Chub
+				"704": {"Price": "{{Round: {{Query: (100 - (100 * 0.30)) }} }}"}, //Dorado
+				"705": {"Price": "{{Round: {{Query: (75 - (75 * 0.30)) }} }}"}, //Albacore
+				"706": {"Price": "{{Round: {{Query: (60 - (60 * 0.30)) }} }}"}, //Shad
+				"707": {"Price": "{{Round: {{Query: (120 - (120 * 0.30)) }} }}"}, //Lingcod
+				"708": {"Price": "{{Round: {{Query: (80 - (80 * 0.30)) }} }}"}, //Halibut
+				"734": {"Price": "{{Round: {{Query: (75 - (75 * 0.30)) }} }}"}, //Woodskip
+				"795": {"Price": "{{Round: {{Query: (150 - (150 * 0.30)) }} }}"}, //Void Salmon
+				"796": {"Price": "{{Round: {{Query: (100 - (100 * 0.30)) }} }}"}, //Slimejack
+				"798": {"Price": "{{Round: {{Query: (100 - (100 * 0.30)) }} }}"}, //Midnight Squid
+				"799": {"Price": "{{Round: {{Query: (220 - (220 * 0.30)) }} }}"}, //Spook Fish
+				"800": {"Price": "{{Round: {{Query: (500 - (500 * 0.30)) }} }}"}, //Blobfish
+				"836": {"Price": "{{Round: {{Query: (180 - (180 * 0.30)) }} }}"}, //Stingray
+				"837": {"Price": "{{Round: {{Query: (100 - (100 * 0.30)) }} }}"}, //Lionfish
+				"838": {"Price": "{{Round: {{Query: (120 - (120 * 0.30)) }} }}"}, //Blue Discus
+				"372": {"Price": "{{Round: {{Query: (50 - (50 * 0.30)) }} }}"}, //Clam
+				"715": {"Price": "{{Round: {{Query: (120 - (120 * 0.30)) }} }}"}, //Lobster
+				"716": {"Price": "{{Round: {{Query: (75 - (75 * 0.30)) }} }}"}, //Crayfish
+				"717": {"Price": "{{Round: {{Query: (100 - (100 * 0.30)) }} }}"}, //Crab
+				"718": {"Price": "{{Round: {{Query: (50 - (50 * 0.30)) }} }}"}, //Cockle
+				"719": {"Price": "{{Round: {{Query: (30 - (30 * 0.30)) }} }}"}, //Mussel
+				"720": {"Price": "{{Round: {{Query: (60 - (60 * 0.30)) }} }}"}, //Shrimp
+				"721": {"Price": "{{Round: {{Query: (65 - (65 * 0.30)) }} }}"}, //Snail
+				"722": {"Price": "{{Round: {{Query: (20 - (20 * 0.30)) }} }}"}, //Periwinkle
+				"723": {"Price": "{{Round: {{Query: (40 - (40 * 0.30)) }} }}"}, //Oyster
+				"392": {"Price": "{{Round: {{Query: (120 - (120 * 0.30)) }} }}"}, //Nautilus Shell
+				"393": {"Price": "{{Round: {{Query: (80 - (80 * 0.30)) }} }}"}, //Coral
+				"397": {"Price": "{{Round: {{Query: (160 - (160 * 0.30)) }} }}"}, //Sea Urchin
+				"394": {"Price": "{{Round: {{Query: (300 - (300 * 0.30)) }} }}"}, //Rainbow Shell
+				"152": {"Price": "{{Round: {{Query: (20 - (20 * 0.30)) }} }}"}, //Seaweed
+				"153": {"Price": "{{Round: {{Query: (15 - (15 * 0.30)) }} }}"}, //Green Algae
+				"157": {"Price": "{{Round: {{Query: (25 - (25 * 0.30)) }} }}"}, //White Algae
+				"Goby": {"Price": "{{Round: {{Query: (150 - (150 * 0.30)) }} }}"}, //Goby
+				"SeaJelly": {"Price": "{{Round: {{Query: (200 - (200 * 0.30)) }} }}"}, //Sea Jelly
+				"CaveJelly": {"Price": "{{Round: {{Query: (180 - (180 * 0.30)) }} }}"}, //Cave Jelly
+				"RiverJelly": {"Price": "{{Round: {{Query: (125 - (125 * 0.30)) }} }}"}, //River Jelly
+			    },
+			"When": {"Fish Sell Value": "Decrease by 30%"},
+		},
+		{
+			"LogName": "Fish Sell Value Decrease by 40%",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"128": {"Price": "{{Round: {{Query: (200 - (200 * 0.40)) }} }}"}, //Pufferfish
+				"129": {"Price": "{{Round: {{Query: (30 - (30 * 0.40)) }} }}"}, //Anchovy
+				"130": {"Price": "{{Round: {{Query: (100 - (100 * 0.40)) }} }}"}, //Tuna
+				"131": {"Price": "{{Round: {{Query: (40 - (40 * 0.40)) }} }}"}, //Sardine
+				"132": {"Price": "{{Round: {{Query: (45 - (45 * 0.40)) }} }}"}, //Bream
+				"136": {"Price": "{{Round: {{Query: (100 - (100 * 0.40)) }} }}"}, //Largemouth Bass
+				"137": {"Price": "{{Round: {{Query: (50 - (50 * 0.40)) }} }}"}, //Smallmouth Bass
+				"138": {"Price": "{{Round: {{Query: (65 - (65 * 0.40)) }} }}"}, //Rainbow Trout
+				"139": {"Price": "{{Round: {{Query: (75 - (75 * 0.40)) }} }}"}, //Salmon
+				"140": {"Price": "{{Round: {{Query: (105 - (105 * 0.40)) }} }}"}, //Walleye
+				"141": {"Price": "{{Round: {{Query: (55 - (55 * 0.40)) }} }}"}, //Perch
+				"142": {"Price": "{{Round: {{Query: (30 - (30 * 0.40)) }} }}"}, //Carp
+				"143": {"Price": "{{Round: {{Query: (200 - (200 * 0.40)) }} }}"}, //Catfish
+				"144": {"Price": "{{Round: {{Query: (100 - (100 * 0.40)) }} }}"}, //Pike
+				"145": {"Price": "{{Round: {{Query: (30 - (30 * 0.40)) }} }}"}, //Sunfish
+				"146": {"Price": "{{Round: {{Query: (75 - (75 * 0.40)) }} }}"}, //Red Mullet
+				"147": {"Price": "{{Round: {{Query: (30 - (30 * 0.40)) }} }}"}, //Herring
+				"148": {"Price": "{{Round: {{Query: (85 - (85 * 0.40)) }} }}"}, //Eel
+				"149": {"Price": "{{Round: {{Query: (150 - (150 * 0.40)) }} }}"}, //Octopus
+				"150": {"Price": "{{Round: {{Query: (50 - (50 * 0.40)) }} }}"}, //Red Snapper
+				"151": {"Price": "{{Round: {{Query: (80 - (80 * 0.40)) }} }}"}, //Squid
+				"154": {"Price": "{{Round: {{Query: (75 - (75 * 0.40)) }} }}"}, //Sea Cucumber
+				"155": {"Price": "{{Round: {{Query: (250 - (250 * 0.40)) }} }}"}, //Super Cucumber
+				"156": {"Price": "{{Round: {{Query: (45 - (45 * 0.40)) }} }}"}, //Ghostfish
+				"158": {"Price": "{{Round: {{Query: (300 - (300 * 0.40)) }} }}"}, //Stonefish
+				"161": {"Price": "{{Round: {{Query: (500 - (500 * 0.40)) }} }}"}, //Ice Pip
+				"162": {"Price": "{{Round: {{Query: (700 - (700 * 0.40)) }} }}"}, //Lava Eel
+				"164": {"Price": "{{Round: {{Query: (75 - (75 * 0.40)) }} }}"}, //Sandfish
+				"165": {"Price": "{{Round: {{Query: (150 - (150 * 0.40)) }} }}"}, //Scorpion Carp
+				"267": {"Price": "{{Round: {{Query: (100 - (100 * 0.40)) }} }}"}, //Flounder
+				"269": {"Price": "{{Round: {{Query: (150 - (150 * 0.40)) }} }}"}, //Midnight Carp
+				"698": {"Price": "{{Round: {{Query: (200 - (200 * 0.40)) }} }}"}, //Sturgeon
+				"699": {"Price": "{{Round: {{Query: (150 - (150 * 0.40)) }} }}"}, //Tiger Trout
+				"700": {"Price": "{{Round: {{Query: (75 - (75 * 0.40)) }} }}"}, //Bullhead
+				"701": {"Price": "{{Round: {{Query: (75 - (75 * 0.40)) }} }}"}, //Tilapia
+				"702": {"Price": "{{Round: {{Query: (50 - (50 * 0.40)) }} }}"}, //Chub
+				"704": {"Price": "{{Round: {{Query: (100 - (100 * 0.40)) }} }}"}, //Dorado
+				"705": {"Price": "{{Round: {{Query: (75 - (75 * 0.40)) }} }}"}, //Albacore
+				"706": {"Price": "{{Round: {{Query: (60 - (60 * 0.40)) }} }}"}, //Shad
+				"707": {"Price": "{{Round: {{Query: (120 - (120 * 0.40)) }} }}"}, //Lingcod
+				"708": {"Price": "{{Round: {{Query: (80 - (80 * 0.40)) }} }}"}, //Halibut
+				"734": {"Price": "{{Round: {{Query: (75 - (75 * 0.40)) }} }}"}, //Woodskip
+				"795": {"Price": "{{Round: {{Query: (150 - (150 * 0.40)) }} }}"}, //Void Salmon
+				"796": {"Price": "{{Round: {{Query: (100 - (100 * 0.40)) }} }}"}, //Slimejack
+				"798": {"Price": "{{Round: {{Query: (100 - (100 * 0.40)) }} }}"}, //Midnight Squid
+				"799": {"Price": "{{Round: {{Query: (220 - (220 * 0.40)) }} }}"}, //Spook Fish
+				"800": {"Price": "{{Round: {{Query: (500 - (500 * 0.40)) }} }}"}, //Blobfish
+				"836": {"Price": "{{Round: {{Query: (180 - (180 * 0.40)) }} }}"}, //Stingray
+				"837": {"Price": "{{Round: {{Query: (100 - (100 * 0.40)) }} }}"}, //Lionfish
+				"838": {"Price": "{{Round: {{Query: (120 - (120 * 0.40)) }} }}"}, //Blue Discus
+				"372": {"Price": "{{Round: {{Query: (50 - (50 * 0.40)) }} }}"}, //Clam
+				"715": {"Price": "{{Round: {{Query: (120 - (120 * 0.40)) }} }}"}, //Lobster
+				"716": {"Price": "{{Round: {{Query: (75 - (75 * 0.40)) }} }}"}, //Crayfish
+				"717": {"Price": "{{Round: {{Query: (100 - (100 * 0.40)) }} }}"}, //Crab
+				"718": {"Price": "{{Round: {{Query: (50 - (50 * 0.40)) }} }}"}, //Cockle
+				"719": {"Price": "{{Round: {{Query: (30 - (30 * 0.40)) }} }}"}, //Mussel
+				"720": {"Price": "{{Round: {{Query: (60 - (60 * 0.40)) }} }}"}, //Shrimp
+				"721": {"Price": "{{Round: {{Query: (65 - (65 * 0.40)) }} }}"}, //Snail
+				"722": {"Price": "{{Round: {{Query: (20 - (20 * 0.40)) }} }}"}, //Periwinkle
+				"723": {"Price": "{{Round: {{Query: (40 - (40 * 0.40)) }} }}"}, //Oyster
+				"392": {"Price": "{{Round: {{Query: (120 - (120 * 0.40)) }} }}"}, //Nautilus Shell
+				"393": {"Price": "{{Round: {{Query: (80 - (80 * 0.40)) }} }}"}, //Coral
+				"397": {"Price": "{{Round: {{Query: (160 - (160 * 0.40)) }} }}"}, //Sea Urchin
+				"394": {"Price": "{{Round: {{Query: (300 - (300 * 0.40)) }} }}"}, //Rainbow Shell
+				"152": {"Price": "{{Round: {{Query: (20 - (20 * 0.40)) }} }}"}, //Seaweed
+				"153": {"Price": "{{Round: {{Query: (15 - (15 * 0.40)) }} }}"}, //Green Algae
+				"157": {"Price": "{{Round: {{Query: (25 - (25 * 0.40)) }} }}"}, //White Algae
+				"Goby": {"Price": "{{Round: {{Query: (150 - (150 * 0.40)) }} }}"}, //Goby
+				"SeaJelly": {"Price": "{{Round: {{Query: (200 - (200 * 0.40)) }} }}"}, //Sea Jelly
+				"CaveJelly": {"Price": "{{Round: {{Query: (180 - (180 * 0.40)) }} }}"}, //Cave Jelly
+				"RiverJelly": {"Price": "{{Round: {{Query: (125 - (125 * 0.40)) }} }}"}, //River Jelly
+			    },
+			"When": {"Fish Sell Value": "Decrease by 40%"},
+		},
+		{
+			"LogName": "Fish Sell Value Decrease by 50%",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"128": {"Price": "{{Round: {{Query: (200 - (200 * 0.50)) }} }}"}, //Pufferfish
+				"129": {"Price": "{{Round: {{Query: (30 - (30 * 0.50)) }} }}"}, //Anchovy
+				"130": {"Price": "{{Round: {{Query: (100 - (100 * 0.50)) }} }}"}, //Tuna
+				"131": {"Price": "{{Round: {{Query: (40 - (40 * 0.50)) }} }}"}, //Sardine
+				"132": {"Price": "{{Round: {{Query: (45 - (45 * 0.50)) }} }}"}, //Bream
+				"136": {"Price": "{{Round: {{Query: (100 - (100 * 0.50)) }} }}"}, //Largemouth Bass
+				"137": {"Price": "{{Round: {{Query: (50 - (50 * 0.50)) }} }}"}, //Smallmouth Bass
+				"138": {"Price": "{{Round: {{Query: (65 - (65 * 0.50)) }} }}"}, //Rainbow Trout
+				"139": {"Price": "{{Round: {{Query: (75 - (75 * 0.50)) }} }}"}, //Salmon
+				"140": {"Price": "{{Round: {{Query: (105 - (105 * 0.50)) }} }}"}, //Walleye
+				"141": {"Price": "{{Round: {{Query: (55 - (55 * 0.50)) }} }}"}, //Perch
+				"142": {"Price": "{{Round: {{Query: (30 - (30 * 0.50)) }} }}"}, //Carp
+				"143": {"Price": "{{Round: {{Query: (200 - (200 * 0.50)) }} }}"}, //Catfish
+				"144": {"Price": "{{Round: {{Query: (100 - (100 * 0.50)) }} }}"}, //Pike
+				"145": {"Price": "{{Round: {{Query: (30 - (30 * 0.50)) }} }}"}, //Sunfish
+				"146": {"Price": "{{Round: {{Query: (75 - (75 * 0.50)) }} }}"}, //Red Mullet
+				"147": {"Price": "{{Round: {{Query: (30 - (30 * 0.50)) }} }}"}, //Herring
+				"148": {"Price": "{{Round: {{Query: (85 - (85 * 0.50)) }} }}"}, //Eel
+				"149": {"Price": "{{Round: {{Query: (150 - (150 * 0.50)) }} }}"}, //Octopus
+				"150": {"Price": "{{Round: {{Query: (50 - (50 * 0.50)) }} }}"}, //Red Snapper
+				"151": {"Price": "{{Round: {{Query: (80 - (80 * 0.50)) }} }}"}, //Squid
+				"154": {"Price": "{{Round: {{Query: (75 - (75 * 0.50)) }} }}"}, //Sea Cucumber
+				"155": {"Price": "{{Round: {{Query: (250 - (250 * 0.50)) }} }}"}, //Super Cucumber
+				"156": {"Price": "{{Round: {{Query: (45 - (45 * 0.50)) }} }}"}, //Ghostfish
+				"158": {"Price": "{{Round: {{Query: (300 - (300 * 0.50)) }} }}"}, //Stonefish
+				"161": {"Price": "{{Round: {{Query: (500 - (500 * 0.50)) }} }}"}, //Ice Pip
+				"162": {"Price": "{{Round: {{Query: (700 - (700 * 0.50)) }} }}"}, //Lava Eel
+				"164": {"Price": "{{Round: {{Query: (75 - (75 * 0.50)) }} }}"}, //Sandfish
+				"165": {"Price": "{{Round: {{Query: (150 - (150 * 0.50)) }} }}"}, //Scorpion Carp
+				"267": {"Price": "{{Round: {{Query: (100 - (100 * 0.50)) }} }}"}, //Flounder
+				"269": {"Price": "{{Round: {{Query: (150 - (150 * 0.50)) }} }}"}, //Midnight Carp
+				"698": {"Price": "{{Round: {{Query: (200 - (200 * 0.50)) }} }}"}, //Sturgeon
+				"699": {"Price": "{{Round: {{Query: (150 - (150 * 0.50)) }} }}"}, //Tiger Trout
+				"700": {"Price": "{{Round: {{Query: (75 - (75 * 0.50)) }} }}"}, //Bullhead
+				"701": {"Price": "{{Round: {{Query: (75 - (75 * 0.50)) }} }}"}, //Tilapia
+				"702": {"Price": "{{Round: {{Query: (50 - (50 * 0.50)) }} }}"}, //Chub
+				"704": {"Price": "{{Round: {{Query: (100 - (100 * 0.50)) }} }}"}, //Dorado
+				"705": {"Price": "{{Round: {{Query: (75 - (75 * 0.50)) }} }}"}, //Albacore
+				"706": {"Price": "{{Round: {{Query: (60 - (60 * 0.50)) }} }}"}, //Shad
+				"707": {"Price": "{{Round: {{Query: (120 - (120 * 0.50)) }} }}"}, //Lingcod
+				"708": {"Price": "{{Round: {{Query: (80 - (80 * 0.50)) }} }}"}, //Halibut
+				"734": {"Price": "{{Round: {{Query: (75 - (75 * 0.50)) }} }}"}, //Woodskip
+				"795": {"Price": "{{Round: {{Query: (150 - (150 * 0.50)) }} }}"}, //Void Salmon
+				"796": {"Price": "{{Round: {{Query: (100 - (100 * 0.50)) }} }}"}, //Slimejack
+				"798": {"Price": "{{Round: {{Query: (100 - (100 * 0.50)) }} }}"}, //Midnight Squid
+				"799": {"Price": "{{Round: {{Query: (220 - (220 * 0.50)) }} }}"}, //Spook Fish
+				"800": {"Price": "{{Round: {{Query: (500 - (500 * 0.50)) }} }}"}, //Blobfish
+				"836": {"Price": "{{Round: {{Query: (180 - (180 * 0.50)) }} }}"}, //Stingray
+				"837": {"Price": "{{Round: {{Query: (100 - (100 * 0.50)) }} }}"}, //Lionfish
+				"838": {"Price": "{{Round: {{Query: (120 - (120 * 0.50)) }} }}"}, //Blue Discus
+				"372": {"Price": "{{Round: {{Query: (50 - (50 * 0.50)) }} }}"}, //Clam
+				"715": {"Price": "{{Round: {{Query: (120 - (120 * 0.50)) }} }}"}, //Lobster
+				"716": {"Price": "{{Round: {{Query: (75 - (75 * 0.50)) }} }}"}, //Crayfish
+				"717": {"Price": "{{Round: {{Query: (100 - (100 * 0.50)) }} }}"}, //Crab
+				"718": {"Price": "{{Round: {{Query: (50 - (50 * 0.50)) }} }}"}, //Cockle
+				"719": {"Price": "{{Round: {{Query: (30 - (30 * 0.50)) }} }}"}, //Mussel
+				"720": {"Price": "{{Round: {{Query: (60 - (60 * 0.50)) }} }}"}, //Shrimp
+				"721": {"Price": "{{Round: {{Query: (65 - (65 * 0.50)) }} }}"}, //Snail
+				"722": {"Price": "{{Round: {{Query: (20 - (20 * 0.50)) }} }}"}, //Periwinkle
+				"723": {"Price": "{{Round: {{Query: (40 - (40 * 0.50)) }} }}"}, //Oyster
+				"392": {"Price": "{{Round: {{Query: (120 - (120 * 0.50)) }} }}"}, //Nautilus Shell
+				"393": {"Price": "{{Round: {{Query: (80 - (80 * 0.50)) }} }}"}, //Coral
+				"397": {"Price": "{{Round: {{Query: (160 - (160 * 0.50)) }} }}"}, //Sea Urchin
+				"394": {"Price": "{{Round: {{Query: (300 - (300 * 0.50)) }} }}"}, //Rainbow Shell
+				"152": {"Price": "{{Round: {{Query: (20 - (20 * 0.50)) }} }}"}, //Seaweed
+				"153": {"Price": "{{Round: {{Query: (15 - (15 * 0.50)) }} }}"}, //Green Algae
+				"157": {"Price": "{{Round: {{Query: (25 - (25 * 0.50)) }} }}"}, //White Algae
+				"Goby": {"Price": "{{Round: {{Query: (150 - (150 * 0.50)) }} }}"}, //Goby
+				"SeaJelly": {"Price": "{{Round: {{Query: (200 - (200 * 0.50)) }} }}"}, //Sea Jelly
+				"CaveJelly": {"Price": "{{Round: {{Query: (180 - (180 * 0.50)) }} }}"}, //Cave Jelly
+				"RiverJelly": {"Price": "{{Round: {{Query: (125 - (125 * 0.50)) }} }}"}, //River Jelly
+			    },
+			"When": {"Fish Sell Value": "Decrease by 50%"},
+		},
+		{
+			"LogName": "Fish Sell Value Decrease by 60%",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"128": {"Price": "{{Round: {{Query: (200 - (200 * 0.60)) }} }}"}, //Pufferfish
+				"129": {"Price": "{{Round: {{Query: (30 - (30 * 0.60)) }} }}"}, //Anchovy
+				"130": {"Price": "{{Round: {{Query: (100 - (100 * 0.60)) }} }}"}, //Tuna
+				"131": {"Price": "{{Round: {{Query: (40 - (40 * 0.60)) }} }}"}, //Sardine
+				"132": {"Price": "{{Round: {{Query: (45 - (45 * 0.60)) }} }}"}, //Bream
+				"136": {"Price": "{{Round: {{Query: (100 - (100 * 0.60)) }} }}"}, //Largemouth Bass
+				"137": {"Price": "{{Round: {{Query: (50 - (50 * 0.60)) }} }}"}, //Smallmouth Bass
+				"138": {"Price": "{{Round: {{Query: (65 - (65 * 0.60)) }} }}"}, //Rainbow Trout
+				"139": {"Price": "{{Round: {{Query: (75 - (75 * 0.60)) }} }}"}, //Salmon
+				"140": {"Price": "{{Round: {{Query: (105 - (105 * 0.60)) }} }}"}, //Walleye
+				"141": {"Price": "{{Round: {{Query: (55 - (55 * 0.60)) }} }}"}, //Perch
+				"142": {"Price": "{{Round: {{Query: (30 - (30 * 0.60)) }} }}"}, //Carp
+				"143": {"Price": "{{Round: {{Query: (200 - (200 * 0.60)) }} }}"}, //Catfish
+				"144": {"Price": "{{Round: {{Query: (100 - (100 * 0.60)) }} }}"}, //Pike
+				"145": {"Price": "{{Round: {{Query: (30 - (30 * 0.60)) }} }}"}, //Sunfish
+				"146": {"Price": "{{Round: {{Query: (75 - (75 * 0.60)) }} }}"}, //Red Mullet
+				"147": {"Price": "{{Round: {{Query: (30 - (30 * 0.60)) }} }}"}, //Herring
+				"148": {"Price": "{{Round: {{Query: (85 - (85 * 0.60)) }} }}"}, //Eel
+				"149": {"Price": "{{Round: {{Query: (150 - (150 * 0.60)) }} }}"}, //Octopus
+				"150": {"Price": "{{Round: {{Query: (50 - (50 * 0.60)) }} }}"}, //Red Snapper
+				"151": {"Price": "{{Round: {{Query: (80 - (80 * 0.60)) }} }}"}, //Squid
+				"154": {"Price": "{{Round: {{Query: (75 - (75 * 0.60)) }} }}"}, //Sea Cucumber
+				"155": {"Price": "{{Round: {{Query: (250 - (250 * 0.60)) }} }}"}, //Super Cucumber
+				"156": {"Price": "{{Round: {{Query: (45 - (45 * 0.60)) }} }}"}, //Ghostfish
+				"158": {"Price": "{{Round: {{Query: (300 - (300 * 0.60)) }} }}"}, //Stonefish
+				"161": {"Price": "{{Round: {{Query: (500 - (500 * 0.60)) }} }}"}, //Ice Pip
+				"162": {"Price": "{{Round: {{Query: (700 - (700 * 0.60)) }} }}"}, //Lava Eel
+				"164": {"Price": "{{Round: {{Query: (75 - (75 * 0.60)) }} }}"}, //Sandfish
+				"165": {"Price": "{{Round: {{Query: (150 - (150 * 0.60)) }} }}"}, //Scorpion Carp
+				"267": {"Price": "{{Round: {{Query: (100 - (100 * 0.60)) }} }}"}, //Flounder
+				"269": {"Price": "{{Round: {{Query: (150 - (150 * 0.60)) }} }}"}, //Midnight Carp
+				"698": {"Price": "{{Round: {{Query: (200 - (200 * 0.60)) }} }}"}, //Sturgeon
+				"699": {"Price": "{{Round: {{Query: (150 - (150 * 0.60)) }} }}"}, //Tiger Trout
+				"700": {"Price": "{{Round: {{Query: (75 - (75 * 0.60)) }} }}"}, //Bullhead
+				"701": {"Price": "{{Round: {{Query: (75 - (75 * 0.60)) }} }}"}, //Tilapia
+				"702": {"Price": "{{Round: {{Query: (50 - (50 * 0.60)) }} }}"}, //Chub
+				"704": {"Price": "{{Round: {{Query: (100 - (100 * 0.60)) }} }}"}, //Dorado
+				"705": {"Price": "{{Round: {{Query: (75 - (75 * 0.60)) }} }}"}, //Albacore
+				"706": {"Price": "{{Round: {{Query: (60 - (60 * 0.60)) }} }}"}, //Shad
+				"707": {"Price": "{{Round: {{Query: (120 - (120 * 0.60)) }} }}"}, //Lingcod
+				"708": {"Price": "{{Round: {{Query: (80 - (80 * 0.60)) }} }}"}, //Halibut
+				"734": {"Price": "{{Round: {{Query: (75 - (75 * 0.60)) }} }}"}, //Woodskip
+				"795": {"Price": "{{Round: {{Query: (150 - (150 * 0.60)) }} }}"}, //Void Salmon
+				"796": {"Price": "{{Round: {{Query: (100 - (100 * 0.60)) }} }}"}, //Slimejack
+				"798": {"Price": "{{Round: {{Query: (100 - (100 * 0.60)) }} }}"}, //Midnight Squid
+				"799": {"Price": "{{Round: {{Query: (220 - (220 * 0.60)) }} }}"}, //Spook Fish
+				"800": {"Price": "{{Round: {{Query: (500 - (500 * 0.60)) }} }}"}, //Blobfish
+				"836": {"Price": "{{Round: {{Query: (180 - (180 * 0.60)) }} }}"}, //Stingray
+				"837": {"Price": "{{Round: {{Query: (100 - (100 * 0.60)) }} }}"}, //Lionfish
+				"838": {"Price": "{{Round: {{Query: (120 - (120 * 0.60)) }} }}"}, //Blue Discus
+				"372": {"Price": "{{Round: {{Query: (50 - (50 * 0.60)) }} }}"}, //Clam
+				"715": {"Price": "{{Round: {{Query: (120 - (120 * 0.60)) }} }}"}, //Lobster
+				"716": {"Price": "{{Round: {{Query: (75 - (75 * 0.60)) }} }}"}, //Crayfish
+				"717": {"Price": "{{Round: {{Query: (100 - (100 * 0.60)) }} }}"}, //Crab
+				"718": {"Price": "{{Round: {{Query: (50 - (50 * 0.60)) }} }}"}, //Cockle
+				"719": {"Price": "{{Round: {{Query: (30 - (30 * 0.60)) }} }}"}, //Mussel
+				"720": {"Price": "{{Round: {{Query: (60 - (60 * 0.60)) }} }}"}, //Shrimp
+				"721": {"Price": "{{Round: {{Query: (65 - (65 * 0.60)) }} }}"}, //Snail
+				"722": {"Price": "{{Round: {{Query: (20 - (20 * 0.60)) }} }}"}, //Periwinkle
+				"723": {"Price": "{{Round: {{Query: (40 - (40 * 0.60)) }} }}"}, //Oyster
+				"392": {"Price": "{{Round: {{Query: (120 - (120 * 0.60)) }} }}"}, //Nautilus Shell
+				"393": {"Price": "{{Round: {{Query: (80 - (80 * 0.60)) }} }}"}, //Coral
+				"397": {"Price": "{{Round: {{Query: (160 - (160 * 0.60)) }} }}"}, //Sea Urchin
+				"394": {"Price": "{{Round: {{Query: (300 - (300 * 0.60)) }} }}"}, //Rainbow Shell
+				"152": {"Price": "{{Round: {{Query: (20 - (20 * 0.60)) }} }}"}, //Seaweed
+				"153": {"Price": "{{Round: {{Query: (15 - (15 * 0.60)) }} }}"}, //Green Algae
+				"157": {"Price": "{{Round: {{Query: (25 - (25 * 0.60)) }} }}"}, //White Algae
+				"Goby": {"Price": "{{Round: {{Query: (150 - (150 * 0.60)) }} }}"}, //Goby
+				"SeaJelly": {"Price": "{{Round: {{Query: (200 - (200 * 0.60)) }} }}"}, //Sea Jelly
+				"CaveJelly": {"Price": "{{Round: {{Query: (180 - (180 * 0.60)) }} }}"}, //Cave Jelly
+				"RiverJelly": {"Price": "{{Round: {{Query: (125 - (125 * 0.60)) }} }}"}, //River Jelly
+			    },
+			"When": {"Fish Sell Value": "Decrease by 60%"},
+		},
+		{
+			"LogName": "Fish Sell Value Decrease by 70%",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"128": {"Price": "{{Round: {{Query: (200 - (200 * 0.70)) }} }}"}, //Pufferfish
+				"129": {"Price": "{{Round: {{Query: (30 - (30 * 0.70)) }} }}"}, //Anchovy
+				"130": {"Price": "{{Round: {{Query: (100 - (100 * 0.70)) }} }}"}, //Tuna
+				"131": {"Price": "{{Round: {{Query: (40 - (40 * 0.70)) }} }}"}, //Sardine
+				"132": {"Price": "{{Round: {{Query: (45 - (45 * 0.70)) }} }}"}, //Bream
+				"136": {"Price": "{{Round: {{Query: (100 - (100 * 0.70)) }} }}"}, //Largemouth Bass
+				"137": {"Price": "{{Round: {{Query: (50 - (50 * 0.70)) }} }}"}, //Smallmouth Bass
+				"138": {"Price": "{{Round: {{Query: (65 - (65 * 0.70)) }} }}"}, //Rainbow Trout
+				"139": {"Price": "{{Round: {{Query: (75 - (75 * 0.70)) }} }}"}, //Salmon
+				"140": {"Price": "{{Round: {{Query: (105 - (105 * 0.70)) }} }}"}, //Walleye
+				"141": {"Price": "{{Round: {{Query: (55 - (55 * 0.70)) }} }}"}, //Perch
+				"142": {"Price": "{{Round: {{Query: (30 - (30 * 0.70)) }} }}"}, //Carp
+				"143": {"Price": "{{Round: {{Query: (200 - (200 * 0.70)) }} }}"}, //Catfish
+				"144": {"Price": "{{Round: {{Query: (100 - (100 * 0.70)) }} }}"}, //Pike
+				"145": {"Price": "{{Round: {{Query: (30 - (30 * 0.70)) }} }}"}, //Sunfish
+				"146": {"Price": "{{Round: {{Query: (75 - (75 * 0.70)) }} }}"}, //Red Mullet
+				"147": {"Price": "{{Round: {{Query: (30 - (30 * 0.70)) }} }}"}, //Herring
+				"148": {"Price": "{{Round: {{Query: (85 - (85 * 0.70)) }} }}"}, //Eel
+				"149": {"Price": "{{Round: {{Query: (150 - (150 * 0.70)) }} }}"}, //Octopus
+				"150": {"Price": "{{Round: {{Query: (50 - (50 * 0.70)) }} }}"}, //Red Snapper
+				"151": {"Price": "{{Round: {{Query: (80 - (80 * 0.70)) }} }}"}, //Squid
+				"154": {"Price": "{{Round: {{Query: (75 - (75 * 0.70)) }} }}"}, //Sea Cucumber
+				"155": {"Price": "{{Round: {{Query: (250 - (250 * 0.70)) }} }}"}, //Super Cucumber
+				"156": {"Price": "{{Round: {{Query: (45 - (45 * 0.70)) }} }}"}, //Ghostfish
+				"158": {"Price": "{{Round: {{Query: (300 - (300 * 0.70)) }} }}"}, //Stonefish
+				"161": {"Price": "{{Round: {{Query: (500 - (500 * 0.70)) }} }}"}, //Ice Pip
+				"162": {"Price": "{{Round: {{Query: (700 - (700 * 0.70)) }} }}"}, //Lava Eel
+				"164": {"Price": "{{Round: {{Query: (75 - (75 * 0.70)) }} }}"}, //Sandfish
+				"165": {"Price": "{{Round: {{Query: (150 - (150 * 0.70)) }} }}"}, //Scorpion Carp
+				"267": {"Price": "{{Round: {{Query: (100 - (100 * 0.70)) }} }}"}, //Flounder
+				"269": {"Price": "{{Round: {{Query: (150 - (150 * 0.70)) }} }}"}, //Midnight Carp
+				"698": {"Price": "{{Round: {{Query: (200 - (200 * 0.70)) }} }}"}, //Sturgeon
+				"699": {"Price": "{{Round: {{Query: (150 - (150 * 0.70)) }} }}"}, //Tiger Trout
+				"700": {"Price": "{{Round: {{Query: (75 - (75 * 0.70)) }} }}"}, //Bullhead
+				"701": {"Price": "{{Round: {{Query: (75 - (75 * 0.70)) }} }}"}, //Tilapia
+				"702": {"Price": "{{Round: {{Query: (50 - (50 * 0.70)) }} }}"}, //Chub
+				"704": {"Price": "{{Round: {{Query: (100 - (100 * 0.70)) }} }}"}, //Dorado
+				"705": {"Price": "{{Round: {{Query: (75 - (75 * 0.70)) }} }}"}, //Albacore
+				"706": {"Price": "{{Round: {{Query: (60 - (60 * 0.70)) }} }}"}, //Shad
+				"707": {"Price": "{{Round: {{Query: (120 - (120 * 0.70)) }} }}"}, //Lingcod
+				"708": {"Price": "{{Round: {{Query: (80 - (80 * 0.70)) }} }}"}, //Halibut
+				"734": {"Price": "{{Round: {{Query: (75 - (75 * 0.70)) }} }}"}, //Woodskip
+				"795": {"Price": "{{Round: {{Query: (150 - (150 * 0.70)) }} }}"}, //Void Salmon
+				"796": {"Price": "{{Round: {{Query: (100 - (100 * 0.70)) }} }}"}, //Slimejack
+				"798": {"Price": "{{Round: {{Query: (100 - (100 * 0.70)) }} }}"}, //Midnight Squid
+				"799": {"Price": "{{Round: {{Query: (220 - (220 * 0.70)) }} }}"}, //Spook Fish
+				"800": {"Price": "{{Round: {{Query: (500 - (500 * 0.70)) }} }}"}, //Blobfish
+				"836": {"Price": "{{Round: {{Query: (180 - (180 * 0.70)) }} }}"}, //Stingray
+				"837": {"Price": "{{Round: {{Query: (100 - (100 * 0.70)) }} }}"}, //Lionfish
+				"838": {"Price": "{{Round: {{Query: (120 - (120 * 0.70)) }} }}"}, //Blue Discus
+				"372": {"Price": "{{Round: {{Query: (50 - (50 * 0.70)) }} }}"}, //Clam
+				"715": {"Price": "{{Round: {{Query: (120 - (120 * 0.70)) }} }}"}, //Lobster
+				"716": {"Price": "{{Round: {{Query: (75 - (75 * 0.70)) }} }}"}, //Crayfish
+				"717": {"Price": "{{Round: {{Query: (100 - (100 * 0.70)) }} }}"}, //Crab
+				"718": {"Price": "{{Round: {{Query: (50 - (50 * 0.70)) }} }}"}, //Cockle
+				"719": {"Price": "{{Round: {{Query: (30 - (30 * 0.70)) }} }}"}, //Mussel
+				"720": {"Price": "{{Round: {{Query: (60 - (60 * 0.70)) }} }}"}, //Shrimp
+				"721": {"Price": "{{Round: {{Query: (65 - (65 * 0.70)) }} }}"}, //Snail
+				"722": {"Price": "{{Round: {{Query: (20 - (20 * 0.70)) }} }}"}, //Periwinkle
+				"723": {"Price": "{{Round: {{Query: (40 - (40 * 0.70)) }} }}"}, //Oyster
+				"392": {"Price": "{{Round: {{Query: (120 - (120 * 0.70)) }} }}"}, //Nautilus Shell
+				"393": {"Price": "{{Round: {{Query: (80 - (80 * 0.70)) }} }}"}, //Coral
+				"397": {"Price": "{{Round: {{Query: (160 - (160 * 0.70)) }} }}"}, //Sea Urchin
+				"394": {"Price": "{{Round: {{Query: (300 - (300 * 0.70)) }} }}"}, //Rainbow Shell
+				"152": {"Price": "{{Round: {{Query: (20 - (20 * 0.70)) }} }}"}, //Seaweed
+				"153": {"Price": "{{Round: {{Query: (15 - (15 * 0.70)) }} }}"}, //Green Algae
+				"157": {"Price": "{{Round: {{Query: (25 - (25 * 0.70)) }} }}"}, //White Algae
+				"Goby": {"Price": "{{Round: {{Query: (150 - (150 * 0.70)) }} }}"}, //Goby
+				"SeaJelly": {"Price": "{{Round: {{Query: (200 - (200 * 0.70)) }} }}"}, //Sea Jelly
+				"CaveJelly": {"Price": "{{Round: {{Query: (180 - (180 * 0.70)) }} }}"}, //Cave Jelly
+				"RiverJelly": {"Price": "{{Round: {{Query: (125 - (125 * 0.70)) }} }}"}, //River Jelly
+			    },
+			"When": {"Fish Sell Value": "Decrease by 70%"},
+		},
+		{
+			"LogName": "Fish Sell Value Decrease by 80%",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"128": {"Price": "{{Round: {{Query: (200 - (200 * 0.80)) }} }}"}, //Pufferfish
+				"129": {"Price": "{{Round: {{Query: (30 - (30 * 0.80)) }} }}"}, //Anchovy
+				"130": {"Price": "{{Round: {{Query: (100 - (100 * 0.80)) }} }}"}, //Tuna
+				"131": {"Price": "{{Round: {{Query: (40 - (40 * 0.80)) }} }}"}, //Sardine
+				"132": {"Price": "{{Round: {{Query: (45 - (45 * 0.80)) }} }}"}, //Bream
+				"136": {"Price": "{{Round: {{Query: (100 - (100 * 0.80)) }} }}"}, //Largemouth Bass
+				"137": {"Price": "{{Round: {{Query: (50 - (50 * 0.80)) }} }}"}, //Smallmouth Bass
+				"138": {"Price": "{{Round: {{Query: (65 - (65 * 0.80)) }} }}"}, //Rainbow Trout
+				"139": {"Price": "{{Round: {{Query: (75 - (75 * 0.80)) }} }}"}, //Salmon
+				"140": {"Price": "{{Round: {{Query: (105 - (105 * 0.80)) }} }}"}, //Walleye
+				"141": {"Price": "{{Round: {{Query: (55 - (55 * 0.80)) }} }}"}, //Perch
+				"142": {"Price": "{{Round: {{Query: (30 - (30 * 0.80)) }} }}"}, //Carp
+				"143": {"Price": "{{Round: {{Query: (200 - (200 * 0.80)) }} }}"}, //Catfish
+				"144": {"Price": "{{Round: {{Query: (100 - (100 * 0.80)) }} }}"}, //Pike
+				"145": {"Price": "{{Round: {{Query: (30 - (30 * 0.80)) }} }}"}, //Sunfish
+				"146": {"Price": "{{Round: {{Query: (75 - (75 * 0.80)) }} }}"}, //Red Mullet
+				"147": {"Price": "{{Round: {{Query: (30 - (30 * 0.80)) }} }}"}, //Herring
+				"148": {"Price": "{{Round: {{Query: (85 - (85 * 0.80)) }} }}"}, //Eel
+				"149": {"Price": "{{Round: {{Query: (150 - (150 * 0.80)) }} }}"}, //Octopus
+				"150": {"Price": "{{Round: {{Query: (50 - (50 * 0.80)) }} }}"}, //Red Snapper
+				"151": {"Price": "{{Round: {{Query: (80 - (80 * 0.80)) }} }}"}, //Squid
+				"154": {"Price": "{{Round: {{Query: (75 - (75 * 0.80)) }} }}"}, //Sea Cucumber
+				"155": {"Price": "{{Round: {{Query: (250 - (250 * 0.80)) }} }}"}, //Super Cucumber
+				"156": {"Price": "{{Round: {{Query: (45 - (45 * 0.80)) }} }}"}, //Ghostfish
+				"158": {"Price": "{{Round: {{Query: (300 - (300 * 0.80)) }} }}"}, //Stonefish
+				"161": {"Price": "{{Round: {{Query: (500 - (500 * 0.80)) }} }}"}, //Ice Pip
+				"162": {"Price": "{{Round: {{Query: (700 - (700 * 0.80)) }} }}"}, //Lava Eel
+				"164": {"Price": "{{Round: {{Query: (75 - (75 * 0.80)) }} }}"}, //Sandfish
+				"165": {"Price": "{{Round: {{Query: (150 - (150 * 0.80)) }} }}"}, //Scorpion Carp
+				"267": {"Price": "{{Round: {{Query: (100 - (100 * 0.80)) }} }}"}, //Flounder
+				"269": {"Price": "{{Round: {{Query: (150 - (150 * 0.80)) }} }}"}, //Midnight Carp
+				"698": {"Price": "{{Round: {{Query: (200 - (200 * 0.80)) }} }}"}, //Sturgeon
+				"699": {"Price": "{{Round: {{Query: (150 - (150 * 0.80)) }} }}"}, //Tiger Trout
+				"700": {"Price": "{{Round: {{Query: (75 - (75 * 0.80)) }} }}"}, //Bullhead
+				"701": {"Price": "{{Round: {{Query: (75 - (75 * 0.80)) }} }}"}, //Tilapia
+				"702": {"Price": "{{Round: {{Query: (50 - (50 * 0.80)) }} }}"}, //Chub
+				"704": {"Price": "{{Round: {{Query: (100 - (100 * 0.80)) }} }}"}, //Dorado
+				"705": {"Price": "{{Round: {{Query: (75 - (75 * 0.80)) }} }}"}, //Albacore
+				"706": {"Price": "{{Round: {{Query: (60 - (60 * 0.80)) }} }}"}, //Shad
+				"707": {"Price": "{{Round: {{Query: (120 - (120 * 0.80)) }} }}"}, //Lingcod
+				"708": {"Price": "{{Round: {{Query: (80 - (80 * 0.80)) }} }}"}, //Halibut
+				"734": {"Price": "{{Round: {{Query: (75 - (75 * 0.80)) }} }}"}, //Woodskip
+				"795": {"Price": "{{Round: {{Query: (150 - (150 * 0.80)) }} }}"}, //Void Salmon
+				"796": {"Price": "{{Round: {{Query: (100 - (100 * 0.80)) }} }}"}, //Slimejack
+				"798": {"Price": "{{Round: {{Query: (100 - (100 * 0.80)) }} }}"}, //Midnight Squid
+				"799": {"Price": "{{Round: {{Query: (220 - (220 * 0.80)) }} }}"}, //Spook Fish
+				"800": {"Price": "{{Round: {{Query: (500 - (500 * 0.80)) }} }}"}, //Blobfish
+				"836": {"Price": "{{Round: {{Query: (180 - (180 * 0.80)) }} }}"}, //Stingray
+				"837": {"Price": "{{Round: {{Query: (100 - (100 * 0.80)) }} }}"}, //Lionfish
+				"838": {"Price": "{{Round: {{Query: (120 - (120 * 0.80)) }} }}"}, //Blue Discus
+				"372": {"Price": "{{Round: {{Query: (50 - (50 * 0.80)) }} }}"}, //Clam
+				"715": {"Price": "{{Round: {{Query: (120 - (120 * 0.80)) }} }}"}, //Lobster
+				"716": {"Price": "{{Round: {{Query: (75 - (75 * 0.80)) }} }}"}, //Crayfish
+				"717": {"Price": "{{Round: {{Query: (100 - (100 * 0.80)) }} }}"}, //Crab
+				"718": {"Price": "{{Round: {{Query: (50 - (50 * 0.80)) }} }}"}, //Cockle
+				"719": {"Price": "{{Round: {{Query: (30 - (30 * 0.80)) }} }}"}, //Mussel
+				"720": {"Price": "{{Round: {{Query: (60 - (60 * 0.80)) }} }}"}, //Shrimp
+				"721": {"Price": "{{Round: {{Query: (65 - (65 * 0.80)) }} }}"}, //Snail
+				"722": {"Price": "{{Round: {{Query: (20 - (20 * 0.80)) }} }}"}, //Periwinkle
+				"723": {"Price": "{{Round: {{Query: (40 - (40 * 0.80)) }} }}"}, //Oyster
+				"392": {"Price": "{{Round: {{Query: (120 - (120 * 0.80)) }} }}"}, //Nautilus Shell
+				"393": {"Price": "{{Round: {{Query: (80 - (80 * 0.80)) }} }}"}, //Coral
+				"397": {"Price": "{{Round: {{Query: (160 - (160 * 0.80)) }} }}"}, //Sea Urchin
+				"394": {"Price": "{{Round: {{Query: (300 - (300 * 0.80)) }} }}"}, //Rainbow Shell
+				"152": {"Price": "{{Round: {{Query: (20 - (20 * 0.80)) }} }}"}, //Seaweed
+				"153": {"Price": "{{Round: {{Query: (15 - (15 * 0.80)) }} }}"}, //Green Algae
+				"157": {"Price": "{{Round: {{Query: (25 - (25 * 0.80)) }} }}"}, //White Algae
+				"Goby": {"Price": "{{Round: {{Query: (150 - (150 * 0.80)) }} }}"}, //Goby
+				"SeaJelly": {"Price": "{{Round: {{Query: (200 - (200 * 0.80)) }} }}"}, //Sea Jelly
+				"CaveJelly": {"Price": "{{Round: {{Query: (180 - (180 * 0.80)) }} }}"}, //Cave Jelly
+				"RiverJelly": {"Price": "{{Round: {{Query: (125 - (125 * 0.80)) }} }}"}, //River Jelly
+			    },
+			"When": {"Fish Sell Value": "Decrease by 80%"},
+		},
+		{
+			"LogName": "Fish Sell Value Decrease by 90%",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"128": {"Price": "{{Round: {{Query: (200 - (200 * 0.90)) }} }}"}, //Pufferfish
+				"129": {"Price": "{{Round: {{Query: (30 - (30 * 0.90)) }} }}"}, //Anchovy
+				"130": {"Price": "{{Round: {{Query: (100 - (100 * 0.90)) }} }}"}, //Tuna
+				"131": {"Price": "{{Round: {{Query: (40 - (40 * 0.90)) }} }}"}, //Sardine
+				"132": {"Price": "{{Round: {{Query: (45 - (45 * 0.90)) }} }}"}, //Bream
+				"136": {"Price": "{{Round: {{Query: (100 - (100 * 0.90)) }} }}"}, //Largemouth Bass
+				"137": {"Price": "{{Round: {{Query: (50 - (50 * 0.90)) }} }}"}, //Smallmouth Bass
+				"138": {"Price": "{{Round: {{Query: (65 - (65 * 0.90)) }} }}"}, //Rainbow Trout
+				"139": {"Price": "{{Round: {{Query: (75 - (75 * 0.90)) }} }}"}, //Salmon
+				"140": {"Price": "{{Round: {{Query: (105 - (105 * 0.90)) }} }}"}, //Walleye
+				"141": {"Price": "{{Round: {{Query: (55 - (55 * 0.90)) }} }}"}, //Perch
+				"142": {"Price": "{{Round: {{Query: (30 - (30 * 0.90)) }} }}"}, //Carp
+				"143": {"Price": "{{Round: {{Query: (200 - (200 * 0.90)) }} }}"}, //Catfish
+				"144": {"Price": "{{Round: {{Query: (100 - (100 * 0.90)) }} }}"}, //Pike
+				"145": {"Price": "{{Round: {{Query: (30 - (30 * 0.90)) }} }}"}, //Sunfish
+				"146": {"Price": "{{Round: {{Query: (75 - (75 * 0.90)) }} }}"}, //Red Mullet
+				"147": {"Price": "{{Round: {{Query: (30 - (30 * 0.90)) }} }}"}, //Herring
+				"148": {"Price": "{{Round: {{Query: (85 - (85 * 0.90)) }} }}"}, //Eel
+				"149": {"Price": "{{Round: {{Query: (150 - (150 * 0.90)) }} }}"}, //Octopus
+				"150": {"Price": "{{Round: {{Query: (50 - (50 * 0.90)) }} }}"}, //Red Snapper
+				"151": {"Price": "{{Round: {{Query: (80 - (80 * 0.90)) }} }}"}, //Squid
+				"154": {"Price": "{{Round: {{Query: (75 - (75 * 0.90)) }} }}"}, //Sea Cucumber
+				"155": {"Price": "{{Round: {{Query: (250 - (250 * 0.90)) }} }}"}, //Super Cucumber
+				"156": {"Price": "{{Round: {{Query: (45 - (45 * 0.90)) }} }}"}, //Ghostfish
+				"158": {"Price": "{{Round: {{Query: (300 - (300 * 0.90)) }} }}"}, //Stonefish
+				"161": {"Price": "{{Round: {{Query: (500 - (500 * 0.90)) }} }}"}, //Ice Pip
+				"162": {"Price": "{{Round: {{Query: (700 - (700 * 0.90)) }} }}"}, //Lava Eel
+				"164": {"Price": "{{Round: {{Query: (75 - (75 * 0.90)) }} }}"}, //Sandfish
+				"165": {"Price": "{{Round: {{Query: (150 - (150 * 0.90)) }} }}"}, //Scorpion Carp
+				"267": {"Price": "{{Round: {{Query: (100 - (100 * 0.90)) }} }}"}, //Flounder
+				"269": {"Price": "{{Round: {{Query: (150 - (150 * 0.90)) }} }}"}, //Midnight Carp
+				"698": {"Price": "{{Round: {{Query: (200 - (200 * 0.90)) }} }}"}, //Sturgeon
+				"699": {"Price": "{{Round: {{Query: (150 - (150 * 0.90)) }} }}"}, //Tiger Trout
+				"700": {"Price": "{{Round: {{Query: (75 - (75 * 0.90)) }} }}"}, //Bullhead
+				"701": {"Price": "{{Round: {{Query: (75 - (75 * 0.90)) }} }}"}, //Tilapia
+				"702": {"Price": "{{Round: {{Query: (50 - (50 * 0.90)) }} }}"}, //Chub
+				"704": {"Price": "{{Round: {{Query: (100 - (100 * 0.90)) }} }}"}, //Dorado
+				"705": {"Price": "{{Round: {{Query: (75 - (75 * 0.90)) }} }}"}, //Albacore
+				"706": {"Price": "{{Round: {{Query: (60 - (60 * 0.90)) }} }}"}, //Shad
+				"707": {"Price": "{{Round: {{Query: (120 - (120 * 0.90)) }} }}"}, //Lingcod
+				"708": {"Price": "{{Round: {{Query: (80 - (80 * 0.90)) }} }}"}, //Halibut
+				"734": {"Price": "{{Round: {{Query: (75 - (75 * 0.90)) }} }}"}, //Woodskip
+				"795": {"Price": "{{Round: {{Query: (150 - (150 * 0.90)) }} }}"}, //Void Salmon
+				"796": {"Price": "{{Round: {{Query: (100 - (100 * 0.90)) }} }}"}, //Slimejack
+				"798": {"Price": "{{Round: {{Query: (100 - (100 * 0.90)) }} }}"}, //Midnight Squid
+				"799": {"Price": "{{Round: {{Query: (220 - (220 * 0.90)) }} }}"}, //Spook Fish
+				"800": {"Price": "{{Round: {{Query: (500 - (500 * 0.90)) }} }}"}, //Blobfish
+				"836": {"Price": "{{Round: {{Query: (180 - (180 * 0.90)) }} }}"}, //Stingray
+				"837": {"Price": "{{Round: {{Query: (100 - (100 * 0.90)) }} }}"}, //Lionfish
+				"838": {"Price": "{{Round: {{Query: (120 - (120 * 0.90)) }} }}"}, //Blue Discus
+				"372": {"Price": "{{Round: {{Query: (50 - (50 * 0.90)) }} }}"}, //Clam
+				"715": {"Price": "{{Round: {{Query: (120 - (120 * 0.90)) }} }}"}, //Lobster
+				"716": {"Price": "{{Round: {{Query: (75 - (75 * 0.90)) }} }}"}, //Crayfish
+				"717": {"Price": "{{Round: {{Query: (100 - (100 * 0.90)) }} }}"}, //Crab
+				"718": {"Price": "{{Round: {{Query: (50 - (50 * 0.90)) }} }}"}, //Cockle
+				"719": {"Price": "{{Round: {{Query: (30 - (30 * 0.90)) }} }}"}, //Mussel
+				"720": {"Price": "{{Round: {{Query: (60 - (60 * 0.90)) }} }}"}, //Shrimp
+				"721": {"Price": "{{Round: {{Query: (65 - (65 * 0.90)) }} }}"}, //Snail
+				"722": {"Price": "{{Round: {{Query: (20 - (20 * 0.90)) }} }}"}, //Periwinkle
+				"723": {"Price": "{{Round: {{Query: (40 - (40 * 0.90)) }} }}"}, //Oyster
+				"392": {"Price": "{{Round: {{Query: (120 - (120 * 0.90)) }} }}"}, //Nautilus Shell
+				"393": {"Price": "{{Round: {{Query: (80 - (80 * 0.90)) }} }}"}, //Coral
+				"397": {"Price": "{{Round: {{Query: (160 - (160 * 0.90)) }} }}"}, //Sea Urchin
+				"394": {"Price": "{{Round: {{Query: (300 - (300 * 0.90)) }} }}"}, //Rainbow Shell
+				"152": {"Price": "{{Round: {{Query: (20 - (20 * 0.90)) }} }}"}, //Seaweed
+				"153": {"Price": "{{Round: {{Query: (15 - (15 * 0.90)) }} }}"}, //Green Algae
+				"157": {"Price": "{{Round: {{Query: (25 - (25 * 0.90)) }} }}"}, //White Algae
+				"Goby": {"Price": "{{Round: {{Query: (150 - (150 * 0.90)) }} }}"}, //Goby
+				"SeaJelly": {"Price": "{{Round: {{Query: (200 - (200 * 0.90)) }} }}"}, //Sea Jelly
+				"CaveJelly": {"Price": "{{Round: {{Query: (180 - (180 * 0.90)) }} }}"}, //Cave Jelly
+				"RiverJelly": {"Price": "{{Round: {{Query: (125 - (125 * 0.90)) }} }}"}, //River Jelly
+			    },
+			"When": {"Fish Sell Value": "Decrease by 90%"},
+		},
+		{
+			"LogName": "Fish Sell Value Decrease by 99%",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"128": {"Price": 1}, //Pufferfish
+				"129": {"Price": 1}, //Anchovy
+				"130": {"Price": 1}, //Tuna
+				"131": {"Price": 1}, //Sardine
+				"132": {"Price": 1}, //Bream
+				"136": {"Price": 1}, //Largemouth Bass
+				"137": {"Price": 1}, //Smallmouth Bass
+				"138": {"Price": 1}, //Rainbow Trout
+				"139": {"Price": 1}, //Salmon
+				"140": {"Price": 1}, //Walleye
+				"141": {"Price": 1}, //Perch
+				"142": {"Price": 1}, //Carp
+				"143": {"Price": 1}, //Catfish
+				"144": {"Price": 1}, //Pike
+				"145": {"Price": 1}, //Sunfish
+				"146": {"Price": 1}, //Red Mullet
+				"147": {"Price": 1}, //Herring
+				"148": {"Price": 1}, //Eel
+				"149": {"Price": 1}, //Octopus
+				"150": {"Price": 1}, //Red Snapper
+				"151": {"Price": 1}, //Squid
+				"154": {"Price": 1}, //Sea Cucumber
+				"155": {"Price": 1}, //Super Cucumber
+				"156": {"Price": 1}, //Ghostfish
+				"158": {"Price": 1}, //Stonefish
+				"161": {"Price": 1}, //Ice Pip
+				"162": {"Price": 1}, //Lava Eel
+				"164": {"Price": 1}, //Sandfish
+				"165": {"Price": 1}, //Scorpion Carp
+				"267": {"Price": 1}, //Flounder
+				"269": {"Price": 1}, //Midnight Carp
+				"698": {"Price": 1}, //Sturgeon
+				"699": {"Price": 1}, //Tiger Trout
+				"700": {"Price": 1}, //Bullhead
+				"701": {"Price": 1}, //Tilapia
+				"702": {"Price": 1}, //Chub
+				"704": {"Price": 1}, //Dorado
+				"705": {"Price": 1}, //Albacore
+				"706": {"Price": 1}, //Shad
+				"707": {"Price": 1}, //Lingcod
+				"708": {"Price": 1}, //Halibut
+				"734": {"Price": 1}, //Woodskip
+				"795": {"Price": 1}, //Void Salmon
+				"796": {"Price": 1}, //Slimejack
+				"798": {"Price": 1}, //Midnight Squid
+				"799": {"Price": 1}, //Spook Fish
+				"800": {"Price": 1}, //Blobfish
+				"836": {"Price": 1}, //Stingray
+				"837": {"Price": 1}, //Lionfish
+				"838": {"Price": 1}, //Blue Discus
+				"372": {"Price": 1}, //Clam
+				"715": {"Price": 1}, //Lobster
+				"716": {"Price": 1}, //Crayfish
+				"717": {"Price": 1}, //Crab
+				"718": {"Price": 1}, //Cockle
+				"719": {"Price": 1}, //Mussel
+				"720": {"Price": 1}, //Shrimp
+				"721": {"Price": 1}, //Snail
+				"722": {"Price": 1}, //Periwinkle
+				"723": {"Price": 1}, //Oyster
+				"392": {"Price": 1}, //Nautilus Shell
+				"393": {"Price": 1}, //Coral
+				"397": {"Price": 1}, //Sea Urchin
+				"394": {"Price": 1}, //Rainbow Shell
+				"152": {"Price": 1}, //Seaweed
+				"153": {"Price": 1}, //Green Algae
+				"157": {"Price": 1}, //White Algae
+				"Goby": {"Price": 1}, //Goby
+				"SeaJelly": {"Price": 1}, //Sea Jelly
+				"CaveJelly": {"Price": 1}, //Cave Jelly
+				"RiverJelly": {"Price": 1}, //River Jelly
+			    },
+			"When": {"Fish Sell Value": "Decrease by 99%"},
+		},
+	]
+}

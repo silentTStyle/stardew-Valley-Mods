@@ -1,0 +1,160 @@
+{
+	"Changes": [
+	{
+            "Action": "EditData",
+            "Target": "Data/AudioChanges",
+            "Entries": {
+				"dc_badend": {
+                    "ID": "dc_badend",
+                    "Category": "Sound",
+                    "FilePaths": [ 
+						"{{AbsoluteFilePath: Audio/assets/badend.wav}}",
+					],
+                    "StreamedVorbis": false,
+                    "Looped": false
+                },
+				"dc_fellatio01": {
+                    "ID": "dc_fellatio01",
+                    "Category": "Sound",
+                    "FilePaths": [ 
+						"{{AbsoluteFilePath: Audio/assets/fellatio01.wav}}",
+					],
+                    "StreamedVorbis": false,
+                    "Looped": false
+                },
+				"dc_fellatio02": {
+                    "ID": "dc_fellatio02",
+                    "Category": "Sound",
+                    "FilePaths": [ 
+						"{{AbsoluteFilePath: Audio/assets/fellatio02.wav}}",
+					],
+                    "StreamedVorbis": false,
+                    "Looped": false
+                },
+				"dc_fellatio03": {
+                    "ID": "dc_fellatio03",
+                    "Category": "Sound",
+                    "FilePaths": [ 
+						"{{AbsoluteFilePath: Audio/assets/fellatio03.wav}}",
+					],
+                    "StreamedVorbis": false,
+                    "Looped": false
+                },
+				"dc_fellatio04": {
+                    "ID": "dc_fellatio04",
+                    "Category": "Sound",
+                    "FilePaths": [ 
+						"{{AbsoluteFilePath: Audio/assets/fellatio04.wav}}",
+					],
+                    "StreamedVorbis": false,
+                    "Looped": false
+                },
+				"dc_fellatio05": {
+                    "ID": "dc_fellatio05",
+                    "Category": "Sound",
+                    "FilePaths": [ 
+						"{{AbsoluteFilePath: Audio/assets/fellatio05.wav}}",
+					],
+                    "StreamedVorbis": false,
+                    "Looped": false
+                },
+				"dc_fuck01": {
+                    "ID": "dc_fuck01",
+                    "Category": "Sound",
+                    "FilePaths": [ 
+						"{{AbsoluteFilePath: Audio/assets/fuck01.wav}}",
+					],
+                    "StreamedVorbis": false,
+                    "Looped": false
+                },
+				"dc_fuck02": {
+                    "ID": "dc_fuck02",
+                    "Category": "Sound",
+                    "FilePaths": [ 
+						"{{AbsoluteFilePath: Audio/assets/fuck02.wav}}",
+					],
+                    "StreamedVorbis": false,
+                    "Looped": false
+                },
+				"dc_fuck03": {
+                    "ID": "dc_fuck03",
+                    "Category": "Sound",
+                    "FilePaths": [ 
+						"{{AbsoluteFilePath: Audio/assets/fuck03.wav}}",
+					],
+                    "StreamedVorbis": false,
+                    "Looped": false
+                },
+				"dc_laughter": {
+                    "ID": "dc_laughter",
+                    "Category": "Sound",
+                    "FilePaths": [ 
+						"{{AbsoluteFilePath: Audio/assets/laughter01.wav}}",
+						"{{AbsoluteFilePath: Audio/assets/laughter02.wav}}",
+						"{{AbsoluteFilePath: Audio/assets/laughter03.wav}}",
+					],
+                    "StreamedVorbis": false,
+                    "Looped": false
+                },
+				"dc_moan": {
+                    "ID": "dc_moan",
+                    "Category": "Sound",
+                    "FilePaths": [ 
+						"{{AbsoluteFilePath: Audio/assets/moan01.wav}}",
+						"{{AbsoluteFilePath: Audio/assets/moan02.wav}}",
+						"{{AbsoluteFilePath: Audio/assets/moan03.wav}}",
+						"{{AbsoluteFilePath: Audio/assets/moan04.wav}}",
+						"{{AbsoluteFilePath: Audio/assets/moan05.wav}}",
+						"{{AbsoluteFilePath: Audio/assets/moan06.wav}}",
+						"{{AbsoluteFilePath: Audio/assets/moan07.wav}}",
+						"{{AbsoluteFilePath: Audio/assets/moan08.wav}}",
+						"{{AbsoluteFilePath: Audio/assets/moan09.wav}}",
+						"{{AbsoluteFilePath: Audio/assets/moan10.wav}}",
+						"{{AbsoluteFilePath: Audio/assets/moan11.wav}}",
+						"{{AbsoluteFilePath: Audio/assets/moan12.wav}}",
+						"{{AbsoluteFilePath: Audio/assets/moan13.wav}}",
+						"{{AbsoluteFilePath: Audio/assets/moan14.wav}}",						
+						"{{AbsoluteFilePath: Audio/assets/moan15.wav}}",
+					],
+                    "StreamedVorbis": false,
+                    "Looped": false
+                },
+				"dc_pant": {
+                    "ID": "dc_pant",
+                    "Category": "Sound",
+                    "FilePaths": [ 
+						"{{AbsoluteFilePath: Audio/assets/pant01.wav}}",
+						"{{AbsoluteFilePath: Audio/assets/pant02.wav}}",
+						"{{AbsoluteFilePath: Audio/assets/pant03.wav}}",
+						"{{AbsoluteFilePath: Audio/assets/pant04.wav}}",
+						"{{AbsoluteFilePath: Audio/assets/pant05.wav}}",
+					],
+                    "StreamedVorbis": false,
+                    "Looped": false
+                },
+				"dc_slimy": {
+                    "ID": "dc_slimy",
+                    "Category": "Sound",
+                    "FilePaths": [ 
+						"{{AbsoluteFilePath: Audio/assets/slimy01.wav}}",
+						"{{AbsoluteFilePath: Audio/assets/slimy02.wav}}",
+						"{{AbsoluteFilePath: Audio/assets/slimy03.wav}}",
+						"{{AbsoluteFilePath: Audio/assets/slimy04.wav}}",
+						"{{AbsoluteFilePath: Audio/assets/slimy05.wav}}",
+					],
+                    "StreamedVorbis": false,
+                    "Looped": false
+                },
+                "dc_tentacle": {
+                    "ID": "dc_tentacle",
+                    "Category": "Sound",
+                    "FilePaths": [ 
+						"{{AbsoluteFilePath: Audio/assets/tentacle01.wav}}",
+					],
+                    "StreamedVorbis": false,
+                    "Looped": false
+                },
+            }
+        },
+	],
+}

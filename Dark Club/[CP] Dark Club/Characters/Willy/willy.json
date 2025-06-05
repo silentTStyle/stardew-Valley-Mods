@@ -1,0 +1,89 @@
+{
+  "Changes": [
+    // Change NPC Schedules - Portraits ------------------------------------------------------------
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Willy",
+      "FromFile": "Characters/Willy/assets/Portraits/Willy_Lewd.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 128 },
+      "ToArea": { "X": 0, "Y": 640, "Width": 128, "Height": 128 },
+      "When": { 
+		"Change NPC Schedules": "true", 
+		"Hypnosis": "false",
+		"Willy": "true",
+	  }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Willy",
+      "FromFile": "Characters/Willy/assets/Portraits/Willy_Lewd_Hypnosis.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 128 },
+      "ToArea": { "X": 0, "Y": 640, "Width": 128, "Height": 128 },
+      "When": { 
+		"Change NPC Schedules": "true", 
+		"Hypnosis": "true",
+		"Willy": "true",
+	  }
+    },
+	{
+      "Action": "EditImage",
+      "Target": "Portraits/Willy_Winter",
+      "FromFile": "Characters/Willy/assets/Portraits/Willy_Lewd.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 128 },
+      "ToArea": { "X": 0, "Y": 640, "Width": 128, "Height": 128 },
+      "When": { 
+		"Change NPC Schedules": "true", 
+		"Hypnosis": "false",
+		"Willy": "true",
+	  }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Willy_Winter",
+      "FromFile": "Characters/Willy/assets/Portraits/Willy_Lewd_Hypnosis.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 128 },
+      "ToArea": { "X": 0, "Y": 640, "Width": 128, "Height": 128 },
+      "When": { 
+		"Change NPC Schedules": "true", 
+		"Hypnosis": "true",
+		"Willy": "true",
+	  }
+    },
+	// Change NPC Schedules - schedules ------------------------------------------------------------
+	{
+      "Action": "EditData",
+      "Target": "Characters/schedules/Willy",
+      "Entries": {
+        "rain": "610 Beach 38 36 2 dick_fish/850 FishShop 5 4 2 willy_onanie1/1700 Saloon 17 22 2 \"Strings\\schedules\\Willy:winter.000\"/2320 FishShop 5 4 2",
+        "rain2": "610 Beach 38 36 2 willy_onanie1/850 FishShop 5 4 2/1700 Custom_DarkClub 26 34 1 willy_smoking/2100 Custom_DarkClub 26 34 1 willy_onanie2",
+        "Tue": "610 Beach 38 36 2 dick_fish/850 FishShop 5 4 2 willy_onanie1/1700 Custom_DarkClub 26 34 1 willy_smoking/2100 Custom_DarkClub 26 34 1 willy_onanie2",
+        "Fri": "610 Beach 38 36 2 dick_fish/850 FishShop 5 4 2 willy_onanie1/1700 Saloon 17 22 2 \"Strings\\schedules\\Willy:Fri.000\"/2320 FishShop 5 4 2",
+        "Sat": "610 Forest 91 40 2 willy_onanie1/1400 Town 59 100 2 willy_onanie1/1900 Saloon 17 22 2 \"Strings\\schedules\\Willy:Sat.000\"/2300 FishShop 5 4 2",
+        "spring": "610 Beach 38 36 2 dick_fish/850 FishShop 5 4 2/1700 Beach 25 36 2 willy_onanie1/2300 FishShop 5 4 2",
+        "winter": "610 Beach 38 36 2 willy_onanie1/850 FishShop 5 4 2/1700 Saloon 17 22 2 \"Strings\\schedules\\Willy:winter.000\"/2320 FishShop 5 4 2"
+      },
+      "When": { "Change NPC Schedules": "true" }
+    },
+    // Change NPC Schedules - animationDescriptions ------------------------------------------------
+    {
+      "Action": "EditData",
+      "Target": "Data/animationDescriptions",
+      "Entries": {
+		"willy_smoking": "28/28 28 29 29 30 30 31 31/28",
+        "willy_onanie1": "101/101/101/Strings\\animationDescriptions:willy_onanie1",
+        "willy_onanie2": "102/102/102/Strings\\animationDescriptions:willy_onanie2"
+      },
+      "When": { "Change NPC Schedules": "true" }
+    },
+    // Change NPC Schedules - animationDescriptions Dialogue ---------------------------------------
+    {
+      "Action": "EditData",
+      "Target": "Strings/animationDescriptions",
+      "Entries": {
+        "willy_onanie1": "{{i18n:NPC.Willy.Fuck}}",
+        "willy_onanie2": "{{i18n:NPC.Willy.Fuck}}"
+      },
+      "When": { "Change NPC Schedules": "true" }
+    },
+  ]
+}

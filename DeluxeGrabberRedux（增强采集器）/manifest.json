@@ -1,0 +1,10 @@
+﻿{
+  "Name": "豪华采集器 1.6",
+  "Author": "Nykal145",
+  "Version": "1.9.2",
+  "Description": "扩大自动采集器的生效范围，使自动采集器能够收获作物、史莱姆球、果树、树丛、采集类物品以及远古斑点。",
+  "UniqueID": "Nykal145.DeluxeGrabberRedux16.ZH",
+  "EntryDll": "DeluxeGrabberRedux.dll",
+  "MinimumApiVersion": "3.0.0",
+  "UpdateKeys": [ "Nexus:21168" ]
+}

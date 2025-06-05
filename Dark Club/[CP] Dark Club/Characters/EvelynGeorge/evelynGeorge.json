@@ -1,0 +1,150 @@
+{
+  "Changes": [
+    // Change NPC Schedules - Portraits ------------------------------------------------------------
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Evelyn",
+      "FromFile": "Characters/EvelynGeorge/assets/Portraits/Evelyn_Lewd.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 128 },
+      "ToArea": { "X": 0, "Y": 640, "Width": 128, "Height": 128 },
+      "When": { "Change NPC Schedules": "true", "EvelynGeorge": "On, Evelyn Only" }
+    },
+	{
+      "Action": "EditImage",
+      "Target": "Portraits/Evelyn_Winter",
+      "FromFile": "Characters/EvelynGeorge/assets/Portraits/Evelyn_Lewd.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 128 },
+      "ToArea": { "X": 0, "Y": 640, "Width": 128, "Height": 128 },
+      "When": { "Change NPC Schedules": "true", "EvelynGeorge": "On, Evelyn Only" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/George",
+      "FromFile": "Characters/EvelynGeorge/assets/Portraits/George_Lewd.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 128 },
+      "ToArea": { "X": 0, "Y": 640, "Width": 128, "Height": 128 },
+      "When": { "Change NPC Schedules": "true", "Hypnosis": "false", "EvelynGeorge": "On, George Only" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/George",
+      "FromFile": "Characters/EvelynGeorge/assets/Portraits/George_Lewd_Hypnosis.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 128 },
+      "ToArea": { "X": 0, "Y": 640, "Width": 128, "Height": 128 },
+      "When": { "Change NPC Schedules": "true", "Hypnosis": "true", "EvelynGeorge": "On, George Only" }
+    },
+	{
+      "Action": "EditImage",
+      "Target": "Portraits/George_Winter",
+      "FromFile": "Characters/EvelynGeorge/assets/Portraits/George_Lewd.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 128 },
+      "ToArea": { "X": 0, "Y": 640, "Width": 128, "Height": 128 },
+      "When": { "Change NPC Schedules": "true", "Hypnosis": "false", "EvelynGeorge": "On, George Only" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/George_Winter",
+      "FromFile": "Characters/EvelynGeorge/assets/Portraits/George_Lewd_Hypnosis.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 128 },
+      "ToArea": { "X": 0, "Y": 640, "Width": 128, "Height": 128 },
+      "When": { "Change NPC Schedules": "true", "Hypnosis": "true", "EvelynGeorge": "On, George Only" }
+    },
+    // Change NPC Schedules - schedules ------------------------------------------------------------
+	// Evelyn
+    {
+      "Action": "EditData",
+      "Target": "Characters/schedules/Evelyn",
+      "Entries": {
+        "rain": "800 JoshHouse 3 17 0 square_3_1_0/1040 JoshHouse 17 22 3/1210 JoshHouse 3 19 2 evelyn_milking/1630 JoshHouse 3 17 2 evelyn_onanie/1900 JoshHouse 17 17 0/2130 JoshHouse 2 5 1",
+        "rain2": "800 JoshHouse 3 17 0 square_3_1_0/1040 JoshHouse 17 22 3/1210 JoshHouse 3 19 2 evelyn_milking/1630 Custom_DarkClub 17 25 1/1900 Custom_DarkClub 17 25 2 evelyn_onanie",
+        "Mon": "GOTO Thu",
+        "Thu": "800 JoshHouse 3 17 0 square_3_1_0/1040 JoshHouse 16 21 2 evelyn_milking/1210 CommunityCenter 18 25 3 evelyn_sit_left \"Strings\\schedules\\Evelyn:Thu.000\"/1630 JoshHouse 3 17 2 evelyn_onanie/1900 JoshHouse 17 17 0/2130 JoshHouse 2 5 1",
+        "Sat": "GOTO Thu",
+        "spring": "800 JoshHouse 3 17 0 square_3_1_0/1040 JoshHouse 17 22 3/1210 JoshHouse 3 19 2 evelyn_milking/1300 Town 36 78 3 evelyn_urination/1630 JoshHouse 4 17 0 square_3_1_0/1900 JoshHouse 17 17 0/2130 JoshHouse 2 5 1",
+        "summer": "800 JoshHouse 3 17 0 square_3_1_0/1040 JoshHouse 17 22 3/1210 JoshHouse 3 19 2 evelyn_milking/1300 Town 20 62 3 evelyn_urination/1630 JoshHouse 4 17 0 square_3_1_0/1900 JoshHouse 17 17 0/2130 JoshHouse 2 5 1",
+        "winter": "800 JoshHouse 3 17 0 square_3_1_0/1040 JoshHouse 17 22 3/1210 JoshHouse 3 19 2 evelyn_milking/1300 JoshHouse 20 20 3 evelyn_sit_left/1630 JoshHouse 4 17 0 square_3_1_0/1900 JoshHouse 17 17 0/2130 JoshHouse 2 5 1"
+      },
+      "When": { "Change NPC Schedules": "true", "EvelynGeorge": "On, Evelyn Only" }
+    },
+	{
+      "Action": "EditData",
+      "Target": "Characters/schedules/Evelyn",
+      "Entries": {
+        "Sun": "800 JoshHouse 3 17 0 square_3_1_0/1040 JoshHouse 17 22 3/1210 JoshHouse 3 19 2 evelyn_milking/1630 Custom_DarkClub 17 25 1 evelyn_wait/1900 Custom_DarkClub 17 25 1 evelyn_onanie",
+	  },
+      "When": { "Change NPC Schedules": "true", "EvelynGeorge": "Evelyn Only" }
+    },
+	{
+      "Action": "EditData",
+      "Target": "Characters/schedules/Evelyn",
+      "Entries": {
+        "Sun": "800 JoshHouse 3 17 0 square_3_1_0/1040 JoshHouse 17 22 3/1210 JoshHouse 3 19 2 evelyn_milking/1630 Custom_DarkClub 17 25 1 evelyn_wait/1900 Custom_DarkClub 17 25 1 evelyn_fuck",
+	  },
+      "When": { "Change NPC Schedules": "true", "EvelynGeorge": "On" }
+    },
+	// George
+    {
+      "Action": "EditData",
+      "Target": "Characters/schedules/George",
+      "Entries": {
+        "rain": "630 JoshHouse 16 22 0/1200 JoshHouse 5 21 3/1500 JoshHouse 16 22 2 george_onanie1/2000 JoshHouse 3 5 0 george_sleep",
+        "rain2": "630 JoshHouse 16 22 0/1200 JoshHouse 5 21 3/1500 Custom_DarkClub 18 25 3 george_sit_left/1900 Custom_DarkClub 18 25 3 george_onanie2",
+        "spring": "630 JoshHouse 16 22 0/1200 JoshHouse 5 21 3/1500 JoshHouse 16 22 2 george_onanie1/2000 JoshHouse 3 5 0 george_sleep",
+        "summer_Fri": "630 JoshHouse 16 22 0/1200 Town 52 61 2 george_onanie1/1500 JoshHouse 16 22 0/2000 JoshHouse 3 5 0 george_sleep"
+      },
+      "When": { "Change NPC Schedules": "true", "EvelynGeorge": "On, George Only" }
+    },
+	{
+      "Action": "EditData",
+      "Target": "Characters/schedules/George",
+      "Entries": {
+        "Sun": "MAIL saloonSportsRoom/GOTO Sun_normal/630 JoshHouse 16 22 0/1100 Saloon 36 7 0 \"Strings\\schedules\\George:Sun.001\"/1500 Custom_DarkClub 18 25 3 george_sit_left/1900 Custom_DarkClub 18 25 3 george_onanie1",
+        "Sun_normal": "630 JoshHouse 16 22 0/1000 SeedShop 36 22 0 \"Strings\\schedules\\George:Sun.000\"/1400 Custom_DarkClub 18 25 3 george_sit_left/1900 Custom_DarkClub 18 25 3 george_onanie1",
+      },
+      "When": { "Change NPC Schedules": "true", "EvelynGeorge": "George Only" }
+    },
+	{
+      "Action": "EditData",
+      "Target": "Characters/schedules/George",
+      "Entries": {
+        "Sun": "MAIL saloonSportsRoom/GOTO Sun_normal/630 JoshHouse 16 22 0/1100 Saloon 36 7 0 \"Strings\\schedules\\George:Sun.001\"/1500 Custom_DarkClub 18 25 3 george_sit_left/1900 Custom_DarkClub 18 25 3 george_fuck",
+        "Sun_normal": "630 JoshHouse 16 22 0/1000 SeedShop 36 22 0 \"Strings\\schedules\\George:Sun.000\"/1400 Custom_DarkClub 18 25 3 george_sit_left/1900 Custom_DarkClub 18 25 3 george_fuck",
+      },
+      "When": { "Change NPC Schedules": "true", "EvelynGeorge": "On" }
+    },
+    // Change NPC Schedules - animationDescriptions ------------------------------------------------
+    {
+      "Action": "EditData",
+      "Target": "Data/animationDescriptions",
+      "Entries": {
+        "evelyn_wait": "4/4/4",
+        "evelyn_milking": "100/100/100/Strings\\animationDescriptions:evelyn_milking",
+        "evelyn_urination": "101/101/101/Strings\\animationDescriptions:evelyn_urination",
+        "evelyn_onanie": "102/102/102/Strings\\animationDescriptions:evelyn_onanie",
+        "evelyn_fuck": "104/104/104/Strings\\animationDescriptions:evelyn_fuck",
+        
+        "george_sit_left": "100/100/100",
+        "george_onanie1": "101/101/101/Strings\\animationDescriptions:george_onanie1",
+        "george_onanie2": "102/102/102/Strings\\animationDescriptions:george_onanie2",
+        "george_fuck": "104/104/104/Strings\\animationDescriptions:george_fuck",
+      },
+      "When": { "Change NPC Schedules": "true" }
+    },
+    // Change NPC Schedules - animationDescriptions Dialogue ---------------------------------------
+    {
+      "Action": "EditData",
+      "Target": "Strings/animationDescriptions",
+      "Entries": {        
+        "evelyn_milking": "{{i18n:NPC.Evelyn.Fuck}}",
+        "evelyn_urination": "{{i18n:NPC.Evelyn.Urination}}",
+        "evelyn_onanie": "{{i18n:NPC.Evelyn.Fuck}}",
+        "evelyn_fuck": "{{i18n:NPC.Evelyn.Fuck}}",
+        
+        "george_onanie1": "{{i18n:NPC.George.Fuck}}",
+        "george_onanie2": "{{i18n:NPC.George.Fuck}}",
+        "george_fuck": "{{i18n:NPC.George.Fuck}}",
+      },
+      "When": { "Change NPC Schedules": "true" }
+    },
+  ]
+}

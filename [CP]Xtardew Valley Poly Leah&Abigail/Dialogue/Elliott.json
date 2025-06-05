@@ -1,0 +1,15 @@
+{
+    "Changes": [
+        {
+            "LogName": "Elliott",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Elliott",
+            "Entries": {
+                "Fri2": "看来奥莉维亚的藏书不错。#$e#我想知道她会不会给我看。",
+                "Sun4": "对我来说，美只存在于头脑中。文字、思想和音乐对我来说已经足够了。$h#$e#你@呢？",
+                "summer_Fri2": "山谷周围的生活是如此平静，我真的很享受。",
+                "spring_15": "希望你今年春天过得好，@。"
+            }
+        }
+    ]
+}

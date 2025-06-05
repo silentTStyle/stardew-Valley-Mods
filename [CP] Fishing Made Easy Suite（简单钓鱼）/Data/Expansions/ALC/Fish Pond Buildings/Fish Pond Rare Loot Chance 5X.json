@@ -1,0 +1,108 @@
+{
+	"Changes": [
+		{
+			"LogName": "ALC - Fish Pond Rare Loot Chance 5X",
+			"Action": "EditData",
+			"Target": "Data/FishPondData",
+			"Fields": {
+				"Morghoula.AlchemistryCP_Lamprey": {
+					"ProducedItems": [
+						{
+                            "RequiredPopulation": 10,
+                            "Chance": 0.5,
+                            "ItemID": "(O)437",
+                            "MinQuantity": 1,
+                            "MaxQuantity": 1
+                        },
+                        {
+                            "RequiredPopulation": 6,
+                            "Chance": 0.25,
+                            "ItemID": "(O)Morghoula.AlchemistryCP_AquaticEctoplasm",
+                            "MinQuantity": 1,
+                            "MaxQuantity": 1
+                        },
+                        {
+                            "RequiredPopulation": 3,
+                            "Chance": 0.25,
+                            "ItemID": "(O)SeaJelly",
+                            "MinQuantity": 1,
+                            "MaxQuantity": 2
+                        },
+                        {
+                            "RequiredPopulation": 0,
+                            "Chance": 1.0,
+                            "ItemID": "(O)812",
+                            "MinQuantity": 1,
+                            "MaxQuantity": 1
+                        }
+				    ],
+			        },
+				"Morghoula.AlchemistryCP_VampireAnemone": {
+					"ProducedItems": [
+						{
+                            "RequiredPopulation": 10,
+                            "Chance": 0.05,
+                            "ItemID": "(O)Morghoula.AlchemistryCP_ArcaneEye",
+                            "MinQuantity": 1,
+                            "MaxQuantity": 1
+                        },
+                        {
+                            "RequiredPopulation": 6,
+                            "Chance": 0.25,
+                            "ItemID": "(O)499",
+                            "MinQuantity": 1,
+                            "MaxQuantity": 1
+                        },
+                        {
+                            "RequiredPopulation": 3,
+                            "Chance": 0.9,
+                            "ItemID": "(O)394",
+                            "MinQuantity": 1,
+                            "MaxQuantity": 2
+                        },
+                        {
+                            "RequiredPopulation": 0,
+                            "Chance": 1.0,
+                            "ItemID": "(O)152",
+                            "MinQuantity": 1,
+                            "MaxQuantity": 3
+                        }
+				    ],
+			        },
+				"Morghoula.AlchemistryCP_Newt": {
+					"ProducedItems": [
+						{
+                            "RequiredPopulation": 10,
+                            "Chance": 0.25,
+                            "ItemID": "(O)60",
+                            "MinQuantity": 1,
+                            "MaxQuantity": 1
+                        },
+                        {
+                            "RequiredPopulation": 6,
+                            "Chance": 0.50,
+                            "ItemID": "(O)Moss",
+                            "MinQuantity": 1,
+                            "MaxQuantity": 1
+                        },
+                        {
+                            "RequiredPopulation": 3,
+                            "Chance": 0.9,
+                            "ItemID": "(O)RiverJelly",
+                            "MinQuantity": 1,
+                            "MaxQuantity": 2
+                        },
+                        {
+                            "RequiredPopulation": 0,
+                            "Chance": 1.0,
+                            "ItemID": "(O)Morghoula.AlchemistryCP_NewtsTail",
+                            "MinQuantity": 1,
+                            "MaxQuantity": 2
+					},
+				    ],
+			        },
+					},	
+			"When": {"Fish Pond Rare Loot": "Rare Loot Chance 5X"},
+		},
+	]
+}

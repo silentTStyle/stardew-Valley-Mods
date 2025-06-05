@@ -1,0 +1,13 @@
+{
+    "Changes": [
+        {
+            "LogName": "Caroline",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Caroline",
+            "Entries": {
+                "Fri4": "周五晚上，阿比和莉亚一起去酒吧。也许你可以加入他们？",
+                "Tue4": "乔迪和我多年来一直是亲密的朋友。#$b#我很高兴阿比也有这样的人。莉亚对她来说就像一个姐姐。"
+            }
+        }
+    ]
+}

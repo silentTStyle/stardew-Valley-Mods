@@ -1,0 +1,124 @@
+{
+  "Changes": [
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Shane",
+      "FromFile": "assets/Characters/Shane.png",
+      "When": { "Futanari": "false" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Shane",
+      "FromFile": "assets/Characters/Shane_Futanari.png",
+      "When": { "Futanari": "true" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Shane_Beach",
+      "FromFile": "assets/Characters/Shane_Beach.png",
+      "When": { "Futanari": "false" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Shane_Beach",
+      "FromFile": "assets/Characters/Shane_Beach_Futanari.png",
+      "When": { "Futanari": "true" }
+    },
+	{
+      "Action": "EditImage",
+      "Target": "Characters/Shane_Beach",
+      "FromFile": "assets/Characters/Shane_Beach_Glasses.png",
+      "PatchMode": "Overlay",
+      "When": { "Glasses": "true" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Shane_JojaMart",
+      "FromFile": "assets/Characters/Shane_JojaMart.png",
+      "When": { "Futanari": "false" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Shane_JojaMart",
+      "FromFile": "assets/Characters/Shane_JojaMart_Futanari.png",
+      "When": { "Futanari": "true" }
+    },
+	{
+      "Action": "EditImage",
+      "Target": "Characters/Shane_Winter",
+      "FromFile": "assets/Characters/Shane.png",
+      "When": { "Futanari": "false" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Shane_Winter",
+      "FromFile": "assets/Characters/Shane_Futanari.png",
+      "When": { "Futanari": "true" }
+    },
+	// Portraits -----------------------------------------------------------------------------------
+	{
+      "Action": "EditImage",
+      "Target": "Portraits/Shane",
+      "FromFile": "assets/Portraits/Shane.png",
+      "When": { 
+		"Hypnosis": "false",
+		"Shane": "On",
+	  }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Shane",
+      "FromFile": "assets/Portraits/Shane_Hypnosis.png",
+      "When": { 
+		"Hypnosis": "true",
+		"Shane": "On",
+	  }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Shane_Beach",
+      "FromFile": "assets/Portraits/Shane_Beach.png",
+      "When": { 
+		"Hypnosis": "false",
+		"Shane": "On",
+	  }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Shane_Beach",
+      "FromFile": "assets/Portraits/Shane_Beach_Hypnosis.png",
+      "When": { 
+		"Hypnosis": "true",
+		"Shane": "On",
+	  }
+    },
+	{
+      "Action": "EditImage",
+      "Target": "Portraits/Shane_Beach",
+      "FromFile": "assets/Portraits/Shane_Beach_Glasses.png",
+      "PatchMode": "Overlay",
+      "When": { 
+		"Glasses": "true",
+		"Shane": "On",
+	  }
+    },
+	{
+      "Action": "EditImage",
+      "Target": "Portraits/Shane_Winter",
+      "FromFile": "assets/Portraits/Shane.png",
+      "When": { 
+		"Hypnosis": "false",
+		"Shane": "On",
+	  }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Shane_Winter",
+      "FromFile": "assets/Portraits/Shane_Hypnosis.png",
+      "When": { 
+		"Hypnosis": "true",
+		"Shane": "On",
+	  }
+    },
+  ]
+}

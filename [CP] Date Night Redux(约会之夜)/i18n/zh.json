@@ -1,0 +1,1023 @@
+{
+	
+	//CONFIG TRANSLATIONS
+	
+	"config.section.Date Chances.name": "约会触发概率",
+	"config.section.Date Chances.description": "调整配偶主动邀请约会的触发概率。",
+	
+	"config.section.Friendship Requirements.name": "好感度机制与加成调整",
+	"config.section.Friendship Requirements.description": "自定义约会初始好感度，以及约会后获得的好感度‌",
+	
+	"config.section.Date Tweaks.name": "自定义约会事件",
+	"config.section.Date Tweaks.description": "设置多配偶婚姻下的约会优先级、对话性别适配、暧昧性结尾等规则，并支持扩展条件调节。",
+	
+	"config.section.Allowed Dates.name": "可约会角色管理",
+	"config.section.Allowed Dates.description":"设置室友（非浪漫）及原版配偶的约会权限，防止角色关系冲突。",
+	
+	"config.DateAskPercentChance.name": "每日约会触发概率",
+    "config.DateAskPercentChance.description": "设置配偶每日离开农舍时主动邀约的几率（默认10%），设为0%可禁用该事件。",
+	
+	"config.UniqueDateChance.name": "专属约会触发率",
+    "config.UniqueDateChance.description": "设置配偶发起邀约时专属事件触发的概率。0%禁用专属事件，100%强制专属事件优先（若配偶无专属事件，仍会发起通用约会‌）。",
+	
+	"config.MinHeartsRequired.name": "邀约最低好感度",
+    "config.MinHeartsRequired.description": "设置配偶主动发起约会的最低好感度心数（默认10心），低于此值不触发邀约。",
+	
+	"config.FriendshipBonus.name": "约会好感度加成",
+    "config.FriendshipBonus.description": "调整与配偶约会时可获得的好感度加成。默认无加成，可选“小幅”“中幅”“大幅”三级增益‌",
+	"config.FriendshipBonus.values.none": "无好感度",
+	"config.FriendshipBonus.values.small": "+25点 (1/10 心)",
+	"config.FriendshipBonus.values.medium": "+50点(1/5 心)",
+	"config.FriendshipBonus.values.large": "+100点 (2/5 心)",
+	
+	"config.FreeLovePatch.name": "多配偶兼容模式",
+    "config.FreeLovePatch.description": "当安装多配偶类Mod（如Polyamory Sweet或Free Love）且玩家拥有多个配偶时，启用此选项可随机选择一名配偶发起约会；未安装相关Mod时此设置无效‌。",
+	"config.FreeLovePatch.values.disabled": "仅主配偶发起约会",
+	"config.FreeLovePatch.values.enabled": "随机配偶发起约会‌",
+	
+	"config.GenderedDialogue.name": "性别化对话",
+    "config.GenderedDialogue.description": "控制约会事件中的对话是否区分性别，默认启用。但若玩家性别非男/女（如使用中性Mod）则自动使用中性对话。",
+	"config.GenderedDialogue.values.disabled": "使用中性对话",
+	"config.GenderedDialogue.values.enabled": "使用性别化对话",
+	
+	"config.SuggestiveEndings.name": "暧昧性结尾",
+    "config.SuggestiveEndings.description": "控制约会事件结束后是否播放带有暧昧暗示的结局剧情。该内容不含成人要素（NSFW），但可禁用以保持全年龄友好（PG级）‌",
+	"config.SuggestiveEndings.values.disabled": "禁用暧昧结局",
+	"config.SuggestiveEndings.values.enabled": "结局包含轻度浪漫暗示（如拥抱、含蓄对话）",
+	
+	"config.LibraryDateCutscene.name": "图书馆约会剧情",
+    "config.LibraryDateCutscene.description": "控制约会中图书馆剧情的播放。首次建议保留完整内容，后可禁用以缩短流程。",
+	"config.LibraryDateCutscene.values.disabled": "跳过图书馆约会剧情",
+	"config.LibraryDateCutscene.values.enabled": "启用图书馆约会剧情",
+	
+	"config.ModdedSpouseFoods.name": "mod配偶约会中是否出现mod专属食物",
+    "config.ModdedSpouseFoods.description": "控制SVE/RSV配偶在约会中使用原版或模组专属食物。SVE配偶全场景生效，RSV配偶仅限野餐场景。",
+	"config.ModdedSpouseFoods.values.disabled": "仅使用原版食物",
+	"config.ModdedSpouseFoods.values.enabled": "为RSV/SVE配偶启用模组专属食物",
+	
+	"config.DateReminders.name": "约会提醒",
+    "config.DateReminders.description": "控制是否在游戏中触发约会事件的前置提醒（每日仅触发一次）",
+	"config.DateReminders.values.disabled": "停用约会提醒",
+	"config.DateReminders.values.enabled": "启用约会提醒",
+	
+	"config.DynamicPool.name": "台球结局模式",
+    "config.DynamicPool.description": "控制台球小游戏使用固定或随机结局。首次游玩固定为原版，重复触发时双方均可能获胜。",
+	"config.DynamicPool.values.disabled": "保持原版台球结局",
+	"config.DynamicPool.values.enabled": "启用动态随机结局",
+	
+	"config.DatesOnFestivalDays.name": "节日期间约会",
+    "config.DatesOnFestivalDays.description": "控制节日当天是否可发起约会，支持原版/里奇赛德节日，禁用时仅允许被动节日（如1.6新增节日）触发。",
+	"config.DatesOnFestivalDays.values.disabled": "禁止节日期间约会",
+	"config.DatesOnFestivalDays.values.enabled": "允许节日期间约会",
+	
+	"config.AllowRoommateDates.name": "‌室友约会",
+    "config.AllowRoommateDates.description": "控制室友是否可发起浪漫约会，启用后仅解除触发限制，对话仍为浪漫内容。",
+	"config.AllowRoommateDates.values.disabled": "禁止室友约会",
+	"config.AllowRoommateDates.values.enabled": "允许室友约会",
+	
+	"config.DisabledDates.name": "禁用配偶约会",
+    "config.DisabledDates.description": "勾选以禁止指定原版配偶发起约会，与柏拉图关系Mod兼容，默认不禁用任何角色。",
+	"config.DisabledDates.values.Abigail": "禁用阿比盖尔约会",
+	"config.DisabledDates.values.Leah": "禁用莉亚约会",
+	"config.DisabledDates.values.Penny": "禁用潘妮约会",
+	"config.DisabledDates.values.Maru": "禁用玛鲁约会",
+	"config.DisabledDates.values.Haley": "禁用海莉约会",
+	"config.DisabledDates.values.Emily": "禁用艾米丽约会",
+	"config.DisabledDates.values.Sebastian": "禁用塞巴斯蒂安约会",
+	"config.DisabledDates.values.Elliott": "禁用艾利欧特约会",
+	"config.DisabledDates.values.Sam": "禁用塞姆约会",
+	"config.DisabledDates.values.Harvey": "禁用哈维约会",
+	"config.DisabledDates.values.Alex": "禁用亚历克斯约会",
+	"config.DisabledDates.values.Shane": "禁用谢恩约会",
+	
+	
+	//Date Translations
+	
+	//Common Date Lines
+	
+	"AcceptDate.Choice": "要与[CharacterName {{Date}}]约会m?",
+	"AcceptDate.Yes": "接受",
+	"AcceptDate.No": "拒绝",
+	
+	"RejectDate.1": "唉…$s#$b#又忙着工作？$s",
+	"RejectDate.2": "没关系，下次再约吧~你忙你的。", //Applies to all generic dates except Dance, Grocery and Unique Dates
+	"RejectDate.3": "别担心，我没有很难过。#$b#我知道你很忙…结婚时我就有心理准备了。",
+	
+	//GENERIC DATES
+	
+	//Saloon Date
+	
+		//Intro
+		"SaloonDateIntro.1": "嘿，@...",
+		"SaloonDateIntro.2": "亲爱的，稍等一下...",
+		"SaloonDateIntro.3": "@，等等我！",
+		"SaloonDateIntro.4": "宝贝，先别走...",
+		
+		"SaloonDateIntro.5": "呃...我在想你要不要...$l#$b#...今晚和我约会？$l",
+		"SaloonDateIntro.6": "我在想也许...$l#$b#...你愿意今晚和我约会？$l",
+		
+		"SaloonDateIntro.7.Gendered": "你总是那么忙，我想多花一些时间和亲爱的一起度过。$l^你总是那么忙，我想多花一些时间和亲爱的一起度过。$l",
+		"SaloonDateIntro.7.Neutral": "你总是那么忙，我想多花一些时间与你一起度过。$l",
+		
+		"SaloonDateIntro.8.Gendered": "我想花更多时间陪伴自己的丈夫。$l^我想花更多时间陪伴自己的妻子。$l",
+		"SaloonDateIntro.8.Neutral": "我想花更多时间陪伴自己的爱人。$l",
+		
+		"SaloonDateIntro.9": "我知道你很忙，但我真的很想有属于我们的时间。$l",
+		"SaloonDateIntro.10": "太棒了！我们六点后在酒馆见吧。$h#$b#等不及要见你了！$l",
+		"SaloonDateIntro.End": "我好期待啊，亲爱的。$h#$b#记得晚上六点来酒馆，千万别迟到！$h",
+	
+		//Date
+		"SaloonDate.1": "@！你终于来了！我还以为你不来了呢。",
+		"SaloonDate.2": "[CharacterName {{Gus}}]给我们预留了包间，是不是很贴心？",
+		"SaloonDate.3": "快坐下吧。",
+		"SaloonDate.4": "@，真高兴你能抽空陪我。$l",
+		"SaloonDate.5": "我已经跟[CharacterName {{Gus}}]点好餐了。#$b#别担心，我点了你最爱吃的！$h",
+		"SaloonDate.6": "从未想过会爱上搬来鹈鹕镇的新人，但现在我们竟走到了一起。$l",
+		"SaloonDate.7": "@，你是我生命中最美好的相遇。我们的一切都是最好的安排。$l",
+		"SaloonDate.8": "另外…谢谢你答应这次约会，知道你总是很忙。",
+		"SaloonDate.9": "您的餐点准备好了，[CharacterName {{Date}}].",
+		"SaloonDate.10": "谢啦[CharacterName {{Gus}}]！剩下的我来安排~！",
+		"SaloonDate.11": "嗯…就是这个味道！[CharacterName {{Date}}]果然懂我的喜好！",
+		"SaloonDate.12": "看吧！我就知道你会喜欢！$h", //Split into two for item giving
+		"SaloonDate.13": "我们还有些时间！",
+		"SaloonDate.14": "好啦亲爱的~接下来想做什么？",
+		"SaloonDate.15": "现在有什么打算？",
+		"SaloonDate.16": "来打台球吧！",
+		"SaloonDate.17": "去海边看浪花，怎么样？",
+		
+			//Beach Fork
+		
+		"Waves.1": "想去海边看浪花？$h#$b#好浪漫呀~我们走吧！$h",
+		"Waves.2": "@，有件事一直没和你说…",
+		"Waves.3": "你来鹈鹕镇前一晚，我在这儿整理思绪。",
+		"Waves.4": "其实…那时的我并不快乐。那晚我许下心愿，渴望能重拾笑容，渴望有什么…能改变我的人生…$s",
+		"Waves.5": "@…贝壳里的愿望终于靠岸了$l#$b#我向潮汐祈求的…正是与你共度的每个涨落。",
+		"Waves.6": "我爱你，@。",
+		"Waves.7": "多么美好的夜晚啊。[CharacterName {{Date}}]，能与你共度此生…$h",
+		
+		"Waves.8": "@，这会是…专属于我们的星夜童话。",
+		"Waves.9": "@…$l#$b#不如我们回家…延续这场星夜童话？$l",
+		"Waves.10": "真是…太美好了…@…$l#$b#哈…倦意里都是幸福的余韵…$l",
+		
+			//Pool Fork
+			
+		"Pool.1": "想打台球？好啊！$h#$b#不过我可不会手下留情！$h",
+		
+		"Pool.2.Gendered": "别以为你是我老公我就会放水！^别以为你是我老婆我就会放水！",
+		"Pool.2.Neutral": "别以为我们结婚了，我就会手下留情！",
+		
+		"Pool.3": "看招！",
+		"Pool.4": "白球…只蹭到了边。",
+		"Pool.5": "哎呀…手滑了！",
+		"Pool.6": "[CharacterName {{Date}}]使出浑身解数，还是被我轻松取胜。这样的夜晚…再多也不嫌多！",
+		
+		"Pool.7": "下次一定赢你，亲爱的~$h",
+		"Pool.8": "@…不如现场回家…开个私人教学局？$l",
+		"Pool.9": "真是…连指尖都记着这美妙对决…@…$l#$b#哈…连疲惫都带着甜味…$l",
+		
+		"SaloonDate.End": "这样的夜晚…像蜂蜜酒般醉人…$l#$b#下次…还要约在星辰坠入酒杯时…$l",
+		
+	//Picnic Date
+	
+		//Intro
+		"PicnicDateIntro.1": "嘿，@...",
+		"PicnicDateIntro.2": "亲爱的…在你走之前...",
+		"PicnicDateIntro.3": "@，等一下！",
+		"PicnicDateIntro.4": "亲爱的，等等。",
+		"PicnicDateIntro.5": "其实…被蒲公英绊住的心跳$h$l#$b#…今天能借你的影子去溪边野餐吗？$l",
+		"PicnicDateIntro.6": "练习了好久的开场白…$l#$b#@，今天能和我约会吗？$l",
+		"PicnicDateIntro.7": "其实早就想问了…$k$l#$b#@，愿意和我共享今天的黄昏吗？$l",
+		
+		"PicnicDateIntro.8.Gendered": "你总是这么忙…我的好丈夫，今天该属于我们了。$l^你总是这么忙…我的好妻子，今天该属于我们了。$l",
+		"PicnicDateIntro.8.Neutral": "你总是这么忙…我的挚爱，今天该属于我们了$l",
+		
+		"PicnicDateIntro.9.Gendered": "想和我的老公一起多晒晒太阳。$l^想和我的老婆一起多晒晒太阳。$l",
+		"PicnicDateIntro.9.Neutral": "想和我的爱人一起多晒晒太阳。$l",
+		
+		"PicnicDateIntro.10": "知道你在追赶季节的脚步，@…能让今天的农忙暂歇两小时吗？$l",
+		"PicnicDateIntro.11": "我有样东西一定要给你看。$l",
+		"PicnicDateIntro.12": "真的？太好啦！中午来煤矿森林找我吧。$h#$b#等不及要见到你了，@！$l",
+		"PicnicDateIntro.End": "亲爱的，我心跳得好快呀。$h#$b#别忘了中午来森林哦！$h",
+		
+		//Date
+		
+		"PicnicDate.1": "@！时间掐得刚刚好！$h",
+		"PicnicDate.2": "看！$l#$b#这些餐点…都是我亲手摆的$l#$b#这是只属于你和我的秘密野餐呀$h",
+		"PicnicDate.3": "你最爱吃的农夫午餐~$h#$b#我照着你的口味改良过哦！$l",
+		"PicnicDate.4": "哇唔！是记忆里的幸福味道！",
+		"PicnicDate.5": "你知道吗？每次来这儿野餐呀…$l#$b#都会让我更懂得珍惜咱们在山谷的小日子~",
+		"PicnicDate.6": "你看！$l#$b#从这儿望出去呀…$l#$b#满眼都是山风拂过的好风景！",
+		
+		"PicnicDate.7.Gendered": "特别是站在我眼前的这位先生！$l^特别是站在我眼前的这位姑娘！$l",
+		"PicnicDate.7.Neutral": "特别是站在我眼前的人！$l",
+		
+		"PicnicDate.8": "@，每次我看到农场的晨光，连草叶上的露珠都像在说我很幸运。$l",
+		"PicnicDate.9": "能有你在身边，能有这片土地...$l#$b#看着麦浪随风摇晃，大概就是最棒的幸运啦！$h",
+		"PicnicDate.10": "美味在舌尖跳舞！$h",
+		"PicnicDate.11": "@，看你吃得香喷喷的。$l",
+		"PicnicDate.12": "三明治还剩两个，日影也还没爬上树梢~#$b#亲爱的想做什么特别的事吗？",
+		"PicnicDate.13": "接下来要往哪片风铃草摇曳的方向去呢？",
+		"PicnicDate.14": "去湖边数睡莲的涟漪吧。",
+		"PicnicDate.15": "去找找萤火虫刚点亮的林间小径！",
+
+			//Forest Fork
+			
+		"Forest.1": "要往树林更密的地方去吗？虽然没走过最深处的路...#$b#但和@一起的话，树影斑驳的地方也能认出路！",
+		"Forest.2": "启程吧！踏着青苔铺就的小径前行。",
+		"Forest.3": "来吧，@！攀上这虬结的枝干，它比任何阶梯都更值得信赖。",
+		"Forest.4": "安心吧，亲爱的！落叶铺就的软垫将托住你的脚步。",
+		"Forest.5": "真美啊...天地尽在眼底，仿佛万物都在诉说爱意。",
+		"Forest.6": "感谢你与我共度这段时光，@。此刻的每一分每一秒，都如星辰般璀璨。$l",
+		"Forest.7": "@，你是我黑暗中的明灯，是我风雨中的港湾。我无以言表这份感激，唯愿此生与你同行。$l",
+		"Forest.8": "我爱你，@。纵星月更迭，此心不移。",
+		"Forest.9": "[CharacterName {{Date}}]倾心于此约...得你相伴，三生有幸。",
+		
+			//Lake Fork
+			
+		"Lake.1": "湖边？好主意！听说这季节的湖景美得让人心醉。",
+		"Lake.2": "那就出发吧！",
+		"Lake.3": "哇...果然名不虚传。#$b#今天的湖景真是美得让人屏息。",
+		"Lake.4": "@，但再美也不及你。$l",
+		"Lake.5": "@，能与你共赴此约...是我最珍贵的礼物。",
+		"Lake.6": "自从你踏入鹈鹕镇的那一刻，你为我带来了无尽的温暖...#$b#我只想为你做一件特别的事，以回报你给予我的一切美好。",
+		"Lake.7": "@，你是我所有美好的总和。#$b#遇见你之前，我不知幸福可如此具象。$l",
+		"Lake.8": "@，纵使星河熄灭，你仍是我终极的眷恋。$l",
+		"Lake.9": "[CharacterName {{Date}}]将全部的心意与灵魂都倾注于这次约会...#$b#能与你相遇，是我此生最大的幸运。",
+		
+		//Suggestive End
+		"PicnicDate.Suggestive.1": "嘿，@...$l",
+		"PicnicDate.Suggestive.2": "在回去之前，要不要在这片灌木中，悄悄留下属于我们的秘密？$l",
+		"PicnicDate.Suggestive.3": "嘻嘻，我只是在逗你啦！$h",
+		"PicnicDate.Suggestive.4": "不如我们回到农场小屋，继续我们的二人世界...$l",
+		"PicnicDate.Suggestive.5": "@，刚才的每一刻都让我心动不已！$l#$b#真希望未来的每一天，都能与你共度这样的美好时光...$l",
+		
+		"PicnicDate.End": "亲爱的，感谢你陪我度过这段甜蜜的时光。$l",
+		
+	//Library Date
+	
+		//Intro
+		"LibraryDateIntro.1": "@，等等我！",
+		"LibraryDateIntro.2": "亲爱的，别走那么快！",
+		"LibraryDateIntro.3": "@，等我一下！",
+		"LibraryDateIntro.4": "亲爱的，等等我！",
+		"LibraryDateIntro.5": "唔...好冷啊。",
+		"LibraryDateIntro.6": "哇，外面真冷！",
+		"LibraryDateIntro.7": "唔...今天真是冷得让人想依偎在一起呢。",
+		"LibraryDateIntro.8": "哎呀！没想到今天会这么冷，真是让人想找个温暖的怀抱呢！",
+		"LibraryDateIntro.9": "嘿，@，我突然有个更好的想法！",
+		"LibraryDateIntro.10": "嗯...等等，我觉得今天我们应该做点特别的事情！",
+		"LibraryDateIntro.11": "等等，@！我突然想到了今天最完美的计划！",
+		"LibraryDateIntro.12": "我知道一个绝佳的约会地点！@，你愿意和我一起去吗？$h",
+		"LibraryDateIntro.13": "太好了！今天随时来图书馆吧。我已经为这个寒冷的日子准备了最完美的安排！$h#$b#我迫不及待想见到你！$l",
+		"LibraryDateIntro.End": "别忘了哦！$h#$b#随时来图书馆，好吗？$h",
+		
+		//Date
+		
+		"LibraryDate.1": "啊，@，你来了！抱歉，我刚刚一直在为你热着这杯咖啡呢。",
+		"LibraryDate.2": "来，尝尝看！",
+		"LibraryDate.3": "嗯...温暖又美味！正是我今天需要的！",
+		"LibraryDate.4": "谢谢！我特意按照你的口味准备的。",
+		"LibraryDate.5": "看来我还多准备了一些呢！$h",
+		"LibraryDate.6": "嘿，@，我有个主意。#$b#我们一起读本书吧！$h",
+		"LibraryDate.7": "随便挑一本你喜欢的书。我不在乎是什么，只要能和你一起读就好！",
+		
+			//Book Choices
+		"LibraryDate.BookChoice": "我们一起读哪本书好呢？",
+		"LibraryDate.Detective": "《大侦探拉·{{PlayerName}}与失窃的珍宝》",
+		
+			//Detective Book (Default)
+		"Detective.1": "《大侦探拉·{{PlayerName}}与失窃的珍宝》...#$b#听起来很有趣！$h",
+		"Detective.2": "[CharacterName {{Date}}]依偎得更近了些。",
+		"Detective.3": "我们一起读这本书吧，@！$h#$b#你先读。",
+		"Detective.4": "『拉·{{PlayerName}}并不是一个普通的小镇居民。』",
+		
+		"Detective.5.Male": "『他在厌倦了城市的沉重生活后，搬到了海鸥村。』",
+		"Detective.5.Female": "『她在厌倦了城市的沉重生活后，搬到了海鸥村。』",
+		"Detective.5.Neutral": "『Ta在厌倦了城市的沉重生活后，搬到了海鸥村。』",
+		
+		"Detective.6": "嘿，有点像你呢，@！你们的名字甚至都很相似！",
+		"Detective.7": "『但拉·{{PlayerName}}并不是一个普通的办公室职员。』",
+		
+		"Detective.8.Male": "『他是一位世界级的侦探！』",
+		"Detective.8.Female": "『她是一位世界级的侦探！』",
+		"Detective.8.Neutral": "『Ta是一位世界级的侦探！』",
+		
+		"Detective.9": "轮到我了！",
+		"Detective.10": "我们读到哪儿了……",
+		"Detective.11": "啊哈！好吧……",
+		"Detective.12": "一个寒冷的夜晚，他们平静的小镇出现了麻烦……",
+		
+		"Detective.Skip": "[CharacterName {{Date}}]和我读了一整天的书。真是太有趣了！[CharacterName {{Date}}]说，拉·{{PlayerName}}会莫名让人联想到我……", //Library Cutscene Disabled
+		
+				//Detective Story
+		"Detective.13": "嘿！",
+		"Detective.14": "乔西：给我站住，你这小偷！",
+		"Detective.15": "乔西：噢，是拉·{{PlayerName}}！感谢由巴！",
+		"Detective.16": "拉·{{PlayerName}}：怎么了，乔西？",
+		"Detective.17": "乔西：有个小混混偷走了我珍贵的传家宝！那是我祖母传给我的。",
+		
+		"Detective.18.Male": "『拉·{{PlayerName}}知道他必须做什么。』",
+		"Detective.18.Female": "『拉·{{PlayerName}}知道她必须做什么。』",
+		"Detective.18.Neutral": "『拉·{{PlayerName}}知道Ta必须做什么。』",
+		
+		"Detective.19": "『对其他人来说，劫匪似乎凭空消失了……#$b#……但拉·{{PlayerName}}知道真相！』",
+		
+		"Detective.20.Male": "『他跟随线索，最终来到了……』",
+		"Detective.20.Female": "『她跟随线索，最终来到了……』",
+		"Detective.20.Neutral": "『Ta跟随线索，最终来到了……』",
+		
+		"Detective.21": "劫匪的藏身之处！#$b#太刺激了，@！轮到你了！",
+		"Detective.22": "拉·{{PlayerName}}：出来吧，小偷！",
+		"Detective.23": "拉·{{PlayerName}}：站住，小偷！不管你是谁，我都会揭开你的真面目！",
+		"Detective.24": "『劫匪不是别人，正是……』",
+		"Detective.25": "哦，会是谁呢？！我紧张得坐不住了！",
+		"Detective.26": "[CharacterName {{Date}}]·瑞普！", //Translator note: This is the Date's name with -reap appended to it. Likely doesn't need translating, but if you have a better idea on how to make the name work better, feel free to alter.
+		"Detective.27": "拉·{{PlayerName}}：[CharacterName {{Date}}]·瑞普？为什么？你明明是个善良的普通人！",
+		"Detective.28": "[CharacterName {{Date}}]·瑞普：太迟了！我已经得到了一切！",
+		"Detective.29": "[CharacterName {{Date}}]·瑞普：我只需要一个天启，预言很快就会实现！",
+		"Detective.30": "预言？什么预言？我们是不是错过了什么，@？",
+		"Detective.31": "[CharacterName {{Date}}]·瑞普：是的，终于，我——",
+		
+				//Story ends here (merge no cutscene and cutscene dialogues here)
+		"Detective.32": "打扰一下，[CharacterName {{Date}}]和@。",
+		"Detective.33": "嗯？",
+		"Detective.34": "抱歉打扰你们这对情侣，但我今天要打烊了。",
+		"Detective.35": "哎呀！时间竟然过得这么快吗？",
+		"Detective.36": "果然，和心爱的人在一起，感觉一眨眼时间就过去了！",
+		"Detective.37": "抱歉， [CharacterName {{Gunther}}]先生，我们这就走，不耽误您了。",
+		"Detective.38": "谢谢你，[CharacterName {{Date}}]。",
+		"Detective.39": "好吧，@。我想我们该回家了。真遗憾没看完那本书，我真的很想知道结局……#$b#哦，我忘了告诉你，读的时候，我脑海里已经浮现了整个故事。#$b#[CharacterName {{Jodi}}]是乔西，你是拉·{{PlayerName}}...#$b#而我，就是[CharacterName {{Date}}]·瑞普！$h",
+		"Detective.39.NoStory": "好吧，@。我想我们该回家了。真遗憾没看完那本书，我真的很想知道结局……#$b#哦，我忘了告诉你，读的时候，我脑海里已经浮现了整个故事。#$b#{{Jodi}}是遭窃的小镇居民乔西，你是勇敢的英雄拉·{{PlayerName}}...#$b#而我，就是反派 [CharacterName {{Date}}]·瑞普！$h",
+		
+		"Detective.40": "谢谢你今天来，@。我玩得很开心。#$b#希望我们以后还能再这样。",
+		"Detective.41": "[CharacterName {{Date}}] 和我在图书馆度过了美好的时光。真是难忘的约会！",
+		
+		"Detective.40.Suggestive": "谢谢你今天来，@。我玩得很开心。",
+		"Detective.41.Suggestive": "嘿，@，要不要回家继续找点乐子？",
+		"Detective.42.Suggestive": "太棒了，@……$l#$b#我累坏了！$h",
+		
+		"LibraryDate.End": "谢谢你能来，@。我很享受这一天。$l",
+	
+	//Dance Date (1st of Season)
+	
+		"DanceDate.1": "亲爱的@，你好呀。$l",
+		"DanceDate.2": "我只是想祝你{{Season}}快乐。时光如梭，转眼间又到了这个季节……$l#$b#但与你在一起的每一刻，都美好得让人心醉。$l",
+		"DanceDate.3": "来，@。我为你准备了一份小礼物。",
+		"DanceDate.4": "这是我亲手种下的。虽然我不像你一样擅长耕种，但每一片花瓣都倾注了我的心意。#$b#对我来说，这朵花不仅是生命与幸福的象征……#$b#……更是我对你的爱，只要有你在我身边，我的世界就永远充满光彩。$l",
+		"DanceDate.5": "亲爱的@……$l",
+		"DanceDate.6": "我知道这或许有点老套，但……$l#$b#你愿意和我跳支舞吗？只有你和我，在这片改变我们命运的农场前，随着微风与星光，跳一支属于我们的舞。$l",
+		"DanceDate.7": "和 [CharacterName {{Date}}]共舞一曲？",
+		"DanceDate.8": "谢谢你，我的爱人。让我为你奏响这最美的旋律。$l",
+		
+		
+		"DanceDate.9.Suggestive": "谢谢你和我共舞，@。$l#$b#我已经能感受到，我们即将迎来一个美好的季节。$l",
+		"DanceDate.10.Suggestive": "亲爱的，在你开始工作之前，还有一点时间，对吧？$l#$b#不如我们回到屋里，继续编织属于我们的浪漫回忆？$l",
+		"DanceDate.11.Suggestive": "哈，哈……$l#$b#那种感觉真美妙。$l#$b#你太棒了，@。我爱你，胜过这世间的一切。$l",
+		
+		"DanceDate.9": "谢谢你和我共舞，@。$l#$b#我已经能感受到，我们即将迎来一个充满爱与奇迹的季节。我爱你，@，直到时间的尽头。$l",
+		
+		"DanceDate.ILoveYou": "我也爱你， [CharacterName {{Date}}]，比昨天更多，但不及明天。",
+		"DanceDate.End": "谢谢你和我共舞，亲爱的。愿这个{{Season}}，我们的爱如花般绽放。",
+		
+		"DanceRefusal.1": "亲爱的……$s#$b#你太忙了吗？我的心依然为你停留。",
+		"DanceRefusal.2": "我明白。新季节的开始对你来说意味着很多工作。$s#$b#没关系，我想我们可以稍后再一起度过时光……$s#$b#我只是希望，你能多抽出一点时间，陪我感受这世界的温柔。",
+		"DanceRefusal.3": "别担心，我没有很难过。#$b#我知道你很忙……当我嫁给你时，我就知道，你是我一生中最美的选择。",
+	
+	//Beach Date
+	
+		//Intro
+		"BeachDateIntro.1": "嘿，@……",
+		"BeachDateIntro.2": "亲爱的，在你走之前……",
+		"BeachDateIntro.3": "@，等等我！",
+		"BeachDateIntro.4": "宝贝，等一下。",
+		"BeachDateIntro.5": "哇……外面真热。",
+		"BeachDateIntro.6": "哇，今天我能感受到阳光的炙热。",
+		"BeachDateIntro.7": "哇！我知道现在是夏天，但这比我想象的还要热！",
+		
+		"BeachDateIntro.8.Gendered": "@，海浪刚刚在我耳边说了个秘密……#$b#它说此刻该与你赤足踏浪，让盐粒沾湿发梢。#$b#你值得抛下所有疲惫，而我只想证明——#$b#成为你的丈夫，是我此生最滚烫的荣耀。$l^成为你的妻子，是我此生最温柔的宿命。$l",
+		"BeachDateIntro.8.Neutral": "@，潮汐正在谱写我们的邀请函……#$b#要不要让脚趾陷进金色沙滩，听贝壳讲述永恒的故事？#$b#忙碌不该是你生命的底色，#$b#此刻我只想作为你的港湾，而非过客。$l",
+		
+		"BeachDateIntro.9": "如何，亲爱的？",
+		"BeachDateIntro.10": "当真？$h#$b#那我们在潮水漫过第三个礁石时（上午10点后）相见！#$b#但请别让夕阳偷走我们的独处时光——#$b#我要用整个黄昏，丈量你掌心的纹路。$l",
+		"BeachDateIntro.11": "去吧，亲爱的。#$b#愿晨光代我轻吻你的眉梢，#$b#而我们将在浪花里重逢。",
+		"BeachDateIntro.End": "亲爱的，今日之约，如清风拂面，令人心驰神往。$l#$b#记得在十点后、夜幕初临时来海边，好吗？让我们共赏这潮起潮落，细数星辰。",
+		
+		//Date
+		
+		"BeachDate.1": "@，你来了！$h",
+		"BeachDate.2": "你觉得如何？我花了一上午为我们的约会布置这一切，只为让你感受到我的心意。#$b#这将是一个属于我们的完美海边时光。",
+		"BeachDate.3": "我从酒馆带来了新鲜出炉的披萨，还特意买了一瓶美酒，让我们一起享用！",
+		"BeachDate.4": "希望你喜欢，@。$l",
+		"BeachDate.5": "来吧，我们开动吧！$h",
+		"BeachDate.6": "好，@！让我们尽情享用！",
+		"BeachDate.7": "真美味！这披萨简直是完美！",
+		"BeachDate.8": "太棒了！酒馆的披萨从不让人失望！就像你，总是让我心动不已。$h",
+		"BeachDate.9": "嗯……这酒真是物有所值！#$b#我们还剩了不少呢！",
+		"BeachDate.10": "来，@。留着它，等一个雨天再享用吧。",
+		"BeachDate.11": "好了！现在是时候找点乐子了！#$b#亲爱的，你想做些什么？无论什么，只要和你在一起，都是最美的时光。",
+		"BeachDate.12": "我们该做些什么呢？无论什么，只要和你在一起，都是最浪漫的冒险。",
+		"BeachDate.13": "我们去游泳吧！",
+		"BeachDate.14": "我们去探索潮汐池吧！",
+		
+			//Swimming Fork
+			
+		"Swim.1": "游泳？听起来很有趣！$h#$b#我们可以在这炎热的天气里清凉一下。",
+		"Swim.2": "好啊，亲爱的，我们走吧！",
+		"Swim.3": "哇……这感觉真好！$h#$b#凉爽的海风让我感到无比宁静。",
+		"Swim.4": "大海的彼岸世界辽阔，但……#$b#我宁愿站在这里，与你并肩而立。$l",
+		"Swim.5": "怎么样，亲爱的？",
+		"Swim.6": "我们跳进去吧！",
+		"Swim.7": "来吧，亲爱的！水很舒服！",
+		"Swim.8": "哈！这感觉真好。$h",
+		"Swim.9": "怎么了，亲爱的？$s#$b#别害怕，宝贝。我就在这里。",
+		"Swim.10": "我会确保你没事。#$b#无论何时何地，我都会在你身边。无论是风雨还是阳光，你都可以依靠我。",
+		"Swim.11": "我爱你，@。",
+		"Swim.12": "我也爱你， [CharacterName {{Date}}]。",
+		"Swim.13": "无论风浪多大，我都会在你身边。",
+		"Swim.14": "我希望我们能像这海浪一样，永远交织在一起。",
+		"Swim.15": "哈，看到了吗？$h#$b#和我在一起，你不需要害怕。大海是我们的见证，而我是你的港湾。",
+		"Swim.16": "这才对嘛，亲爱的！",
+		"Swim.17": "[CharacterName {{Date}}]掀起的水花溅了你一脸。",
+		"Swim.18": "哎呀！对不起，亲爱的！",
+		"Swim.19": "我追着[CharacterName {{Date}}]游了很久，想要泼回去。",
+		"Swim.20": "经过近5分钟的追逐战，我终于成功回击了！",
+		"Swim.21": "哈哈哈，好吧，亲爱的，你抓到我了！$h",
+		"Swim.22": "太有趣了！$h#$b#现在我们俩都湿透了！$h",
+		"Swim.23": "我和[CharacterName {{Date}}]玩得太开心了，都忘记了时间！真是一次美妙的约会！",
+		
+				//Suggestive Lines
+		"Swim.24": "嘿，亲爱的……$l#$b#我们不能一直穿着泳衣度过这一天，对吧？$l#$b#让我们回家，换下它们，像潮汐退去，只留下沙滩上属于我们的温柔足迹。",
+		"Swim.25": "哇，@……那真是太棒了……$l#$b#你知道吗，你真的很特别，像海浪一样温柔而坚定。我不知道是否有人告诉过你，但请相信我……$l你是我心中最美的风景。$l",
+		
+			//Tide Pool Fork
+			
+		"TidePool.1": "潮汐池？哦，对了！自从那座桥被毁后，我就再也没去过那里了。#$b#听说夏天的时候，那里像一片被遗忘的仙境，美得让人心醉。$h",
+		"TidePool.2": "好的，亲爱的，我们走吧！",
+		"TidePool.3": "哇，这个季节的潮池真的像一幅画！阳光洒在水面上，像是撒了一层金粉，美得让人屏住呼吸。",
+		"TidePool.4": "这是什么？，看，水底好像有什么在闪烁！",
+		"TidePool.5": "是一只螃蟹！#$b#但它为什么看起来很害怕？也许它以为我们是来打扰它的世界的。$s",
+		
+		"TidePool.6.Gendered": "嘿，螃蟹先生，你还好吗？$s^嘿，螃蟹小姐，你还好吗？",
+		"TidePool.6.Neutral": "嘿，螃bro，你还好吗？$s", //Small change for gender neutral players, since the game supports gender neutral dialogues now and if someone sets it to non-gendered, should have a backup line
+		
+		"TidePool.7": "*咔嚓……*",
+		"TidePool.8": "它看起来好孤单，@……$s#$b#我想帮它，但我知道人们常说应该让自然保持原样……$s",
+		
+		"TidePool.9.Gendered": "我们很抱歉，螃蟹先生。我们希望能帮到你……$s^我们很抱歉，螃蟹小姐。我们希望能帮到你……$s",
+		"TidePool.9.Neutral": "我们很抱歉，螃bro。我们希望能帮到你……$s",
+		
+		"TidePool.10": "周围还有别的什么吗？",
+		"TidePool.11": "怎么了，亲爱的？",
+		
+		"TidePool.12.Gendered": "那一定是他的朋友！$h^那一定是她的朋友！$h",
+		"TidePool.12.Neutral": "那一定是它的朋友！$h",
+		
+		"TidePool.13.Gendered": "她回来找他了，@！^他回来找她了，@！", //Consider making this non-heterosexual? Granted, they're crabs, so it shouldn't matter that much.
+		"TidePool.13.Neutral": "它的朋友回来找它了，@！",
+		
+		"TidePool.14.Gendered": "她知道他很难过，所以回来帮助他。^他知道她很难过，所以回来帮助她。#$b#这就像我和你一样，亲爱的！$h#$b#无论你感到悲伤还是害怕，我都会一直在你身边。$l#$b#我会永远帮助你，亲爱的。$l",
+		"TidePool.14.Neutral": "它的朋友知道它很难过，所以回来帮助它。#$b#这就像我和你一样，亲爱的！$h#$b#无论你感到悲伤还是害怕，我都会一直在你身边。$l#$b#我会永远帮助你，亲爱的。$l",
+		
+		"TidePool.15": "爱是一种普遍的情感。即使是像这些螃蟹一样的动物，爱也能将它们联系在一起。",
+		"TidePool.16": "我爱你，@。我希望你知道这一点。#$b#我最爱你了。",
+		"TidePool.17": "我也爱你，[CharacterName {{Date}}]。",
+		"TidePool.18": "我也会一直在你身边。",
+		"TidePool.19": "我希望我们能永远在一起。",
+		"TidePool.20": "*咔嚓！*",
+		"TidePool.21": "看到那些螃蟹，真的让我意识到我有多么幸运才能拥有像你这样的人，@。$l#$b#和你在一起的这次约会真是太棒了。",
+		
+		"TidePool.22.NotSuggestive": "多么美妙的约会啊！我和 [CharacterName {{Date}}]一起度过了如此美好的时光。我迫不及待想再来一次！",
+		
+		"TidePool.22": "嘿，在你回去工作之前，我们还有一些时间……$l#$b#不如我们回到家里，脱掉这些沾满沙子的衣服……$l",
+		"TidePool.23": "这片潮汐池见证了无数生命的相遇与离别，@。但我们的爱情，将像潮汐一样永恒。$l",
+		
+		"BeachDate.End": "是啊，每一次潮起潮落，都是我们爱情的见证。",
+	
+	//Grocery Date
+	
+		//Intro
+		"GroceryDateIntro.1": "你好啊，亲爱的",
+		"GroceryDateIntro.2": "我正要去皮埃尔的店，采购我们这周的食材。我们得把冰箱填满！我可不愿看到你辛苦工作一天后，还要饿着肚子。",
+		"GroceryDateIntro.3": "嘿，@……$l#$b#你愿意和我一起去吗？虽然购物算不上浪漫约会，但我只想和你在一起......",
+		"GroceryDateIntro.4": "真的？太好了！$h#$b#那我们在皮埃尔店关门前见吧。我进去拿几个袋子，这样你就能帮我提着了。",
+		"GroceryDateIntro.End": "谢谢你愿意陪我，@。购物或许不是最有趣的事，但你的陪伴，让平凡的日子变得闪闪发光。$l",
+		
+		"GroceryDate.Refusal.1": "噢……$s#$b#还是很忙吗？$s",
+		"GroceryDate.Refusal.2": "没关系，我们改天再去吧。你专心工作就好，今天我自己去。我会挑一些你最喜欢的食材，等你忙完，我们一起做一顿温暖的晚餐。",
+		"GroceryDate.Refusal.3": "别担心，我没有很难过。#$b#我知道你很忙……当初嫁给你时，我就做好准备了。",
+	
+		//Date
+		"GroceryDate.1": "@！你来得真快！看来你和我一样，迫不及待想见到彼此呢。",
+		"GroceryDate.2": "好啦，亲爱的，我们开始吧！今天的购物清单，可是我们幸福的食谱哦。",
+		"GroceryDate.3": "今晚的晚餐需要这些……#$b#哦，对了，我们还可以买些饼干当甜点！",
+		"GroceryDate.4": "亲爱的，你有什么需要买的吗？",
+		"GroceryDate.5": "我需要从店里买些什么吗？",
+		"GroceryDate.6": "鸡蛋！",
+		"GroceryDate.7": "牛奶！",
+		"GroceryDate.8": "水果！",
+		"GroceryDate.9": "种子！",
+		"GroceryDate.10": "零食！",
+		"GroceryDate.11": "不用啦，我都准备好了！",
+		
+			//Eggs Fork
+		"Eggs.1": "亲爱的，你需要一些鸡蛋吗？#$b#没错，补充蛋白质很重要，尤其是像你这样努力工作的人。$l",
+		"Eggs.2": "好啦，亲爱的，我们去买些鸡蛋吧。它们应该就在这附近……顺便，我们可以挑一些新鲜的，就像我们每天的生活一样充满活力。",
+		"Eggs.3": "来，亲爱的！#$b#我希望你能用这些鸡蛋给我做个煎蛋卷……你的厨艺是最棒的！",
+
+			//Milk Fork
+		"Milk.1": "你想要牛奶吗？好的！#$b#像你这样努力工作的人，每一分能量都很重要，对吧？不过，别忘了也要照顾好自己。",
+		"Milk.2": "好啦，亲爱的，我们去买些牛奶吧。它应该就在这附近……顺便，我们可以挑一些你最喜欢的口味。",
+		"Milk.3": "来，亲爱的！#$b#喝了它，你会变得比现在更强壮！不过，你在我心里已经是最棒的了。",
+		
+			//Fruit Fork
+		"Fruit.1": "亲爱的，这真是个很棒的主意！#$b#一些水果会非常不错，甜味与健康的完美结合！",
+		"Fruit.2": "好啦，亲爱的，我们去买些水果吧。它们应该就在这附近……顺便，我们可以挑一些你最喜欢的种类。",
+		"Fruit.3": "来，@，我们拿一些这个吧。我听说它们在漫长的工作日后尝起来特别棒！",
+		
+			//Seeds Fork
+		"Seeds.1": "种子？当然！#$b#像你这样勤劳的农夫，总是需要做好准备。$l",
+		"Seeds.2": "好啦，亲爱的，我们去买些种子吧。它们应该就在这附近……顺便，我们可以挑一些你最喜欢的品种。",
+		"Seeds.3": "来，亲爱的！这些种子是给你的。种下它们，让我们的农场闪闪发光吧！#$b#如果你有多余的收获，我想你用新鲜食材让我感受你那令人心醉的厨艺……$l",
+		
+			//Treats Fork
+		"Treats.1": "来点甜点？当然要！#$b#虽然健康很重要，但偶尔的甜蜜，不正是我们浪漫生活的一部分吗？",
+		"Treats.2": "亲爱的，这里似乎有些美味的惊喜……让我们一起去找找看吧。",
+		"Treats.3": "真香！@，我们尝尝这个吧。我已经等不及和你一起分享这份甜蜜了。",
+		
+		//Date (continued)
+		
+		"GroceryDate.12": "亲爱的，我们一起去和[CharacterName {{Pierre}}]结账吧！",
+		"GroceryDate.13": "你好，[CharacterName {{Pierre}}]！这是我们精心挑选的商品。",
+		"GroceryDate.14": "你好，@和[CharacterName {{Date}}]感谢你们选择皮埃尔杂货店，希望你们的购物体验如春风般愉快。#$b#一切都顺利吗？",
+		"GroceryDate.15": "是的！一切都如我们所愿。",
+		"GroceryDate.16": "听到这个消息真让人开心。#$b#好的，您的总价大约是700g。",
+		"GroceryDate.17": "好，我的钱包在这……",
+		"GroceryDate.18": "主动付款",
+		"GroceryDate.19": "让[CharacterName {{Date}}]付款",
+		
+			//Offer to Pay
+		"Offer.1": "什么，亲爱的？#$b#你想付款？#$b#别这样，亲爱的！你已经为我们付出了很多，这次让我来为你分担吧，我也想为你做点什么。",
+		"Offer.2": "坚持付款",
+		"Offer.3": "让[CharacterName {{Date}}]付款",
+		
+			//Date Pays
+		"DatePay.1": "好的，[CharacterName {{Date}}]，感谢你们的光临！#$b#愿你们的每一天都如今天般甜蜜。",
+		"DatePay.2": "谢谢，也祝你拥有美好的一天！",
+		"DatePay.3": "谢谢你让我付款，亲爱的。我知道你为我们的生活付出了很多，所以我想用我的方式，为你减轻一点负担。",
+		
+			//Player Pays
+		"PlayerPay.1": "!!!$l#$b#亲爱的，我何德何能才能拥有你？$l#$b#如果你真的坚持，那这次就让你来付款吧...$l#$b#但下次一定要让我来，好吗？$l",
+		"PlayerPay.2": "支付了700g。",
+		"PlayerPay.3": "谢谢，@！愿你们的每一天都如今天般甜蜜。",
+
+		//Date End
+		
+		"GroceryDate.20": "好的，亲爱的。我们一起回家吧。",
+		"GroceryDate.21": "谢谢你陪我一起来买杂货，@。虽然这件事很普通，但和你一起，它就成了我最珍惜的时刻。",
+		
+		"GroceryDate.22": "嘿，@...（轻声呼唤）$l",
+		"GroceryDate.23": "[CharacterName {{Date}}]在你耳边轻声细语，带着一丝甜蜜。",
+		"GroceryDate.24": "我们把这些袋子带回家，然后一起享受属于我们的甜蜜时光，好吗？$l",
+		"GroceryDate.25": "那真是美好，@....$l#$b#我想以后我会常拉着你陪我来商店了……$l",
+		
+		"GroceryDate.22.NotSuggestive": "我们回家，享受属于我们的宁静时光吧。",
+		"GroceryDate.23.NotSuggestive": "这真有趣，@。$l#$b#我想以后我会常拉着你陪我来商店了！$l",
+		
+		"GroceryDate.DateEnd": "我也更想常和[CharacterName {{Date}}]一起去商店了！",
+		
+		"GroceryDate.End": "再次感谢你，亲爱的。你总能让平凡的日子变得如此特别。$l",
+	
+	//Camping Date
+	
+		//Intro
+		"CampingDateIntro.1": "嘿，@...（轻声呼唤）",
+		"CampingDateIntro.2": "亲爱的，在你离开之前...",
+		"CampingDateIntro.3": "@，稍等一下！",
+		"CampingDateIntro.4": "亲爱的，稍等一下。",
+		"CampingDateIntro.5": "今天天气真好...#$b#我在想，也许你愿意，嗯...$l#$b#...今晚和我一起去露营？$l#$b#这会是一个特别的夜晚，只有你和我，体验宁静的大自然。",
+		"CampingDateIntro.6": "谢谢，@！我们晚上8点后在煤矿森林见面吧，我会把一切都准备好的。#$b#我迫不及待想在那里见到你！对了，记得在来之前完成你的工作。我们会度过一个难忘的夜晚！$h",
+		"CampingDateIntro.7": "我会为今晚的约会准备好一切，@.$h#$b#你只需要晚上8点后来到森林！$h#$b#别忘了哦！",
+		
+		//Date
+		"CampingDate.1": "嗨，亲爱的。$l#$b#我花了一整个晚上为我们布置这一切，只为让你感受到我的心意。$l",
+		"CampingDate.2": "来，我烤了一些食物！",
+		"CampingDate.3": "真美味！新鲜的鱼总是让人感受到大自然的馈赠！",
+		"CampingDate.4": "我很高兴你喜欢，亲爱的！$h#$b#来吧，我们坐在火堆旁，让这温暖的火焰照亮我们的夜晚。$l",
+		"CampingDate.5": "[CharacterName {{Date}}]轻轻依偎在你身边，感受你的心跳，仿佛整个世界都安静了下来。",
+		"CampingDate.6": "你知道吗，这宁静的景色让我感到无比放松。#$b#我曾经有很多压力，很多烦恼...#$b#但和你在一起时，它们都烟消云散了...$l#$b#我永远感激这一点，亲爱的。",
+		"CampingDate.7": "好的，亲爱的！现在你想做些什么呢？",
+		"CampingDate.8": "现在你想做些什么呢？",
+		"CampingDate.9": "我们来打水漂吧。",
+		"CampingDate.10": "我们一起数星星吧。",
+
+			//Rock Skipping Fork
+			
+		"RockSkip.1": "打水漂听起来是个绝妙的主意，亲爱的。$l#$b#让我们一起享受这美好的时刻吧！$h",
+		"RockSkip.2": "夜晚的水面在月光下显得格外宁静。$l",
+		"RockSkip.3": "好的，亲爱的，看我的！",
+		"RockSkip.4": "哇！那一下真不错！$h",
+		"RockSkip.5": "轮到你了，亲爱的！",
+		"RockSkip.6": "别担心，亲爱的，我会耐心教你。",
+		"RockSkip.7": "首先，你要像这样握住石头，感受它的重量...",
+		"RockSkip.8": "[CharacterName {{Date}}]轻轻把手放在你的肩膀上。",
+		"RockSkip.9": "然后，投掷时一定要像这样甩动手腕，让石头在水面上跳跃...",
+		"RockSkip.10": "一定要全力以赴！",
+		"RockSkip.11": "太棒了，@！你只是需要我的一点帮助，而且你真的很有天赋！",
+		"RockSkip.12": "我会永远在你身边，亲爱的。永远！$l",
+		
+		"RockSkip.13.Suggestive": "我们为什么不回到帐篷里呢？我可以在那里教你更多...$l",
+		"RockSkip.14.Suggestive": "哈哈...那很有趣...$l#$b#我想以后可以和你常来露营！#$b#现在我们去睡觉吧，亲爱的。",
+		
+		"RockSkip.13": "好吧，亲爱的，我们现在回帐篷吧。这一天还很漫长！",
+		"RockSkip.14": "谢谢你今晚和我一起来露营，@。$l#$b#我希望我们以后还能再来一次。$l",
+		"RockSkip.15": "我也希望能再次和[CharacterName {{Date}}]一起度过时光！",
+		"RockSkip.16": "*打哈欠*#$b#现在我们去睡觉吧...",
+			
+			//Stargazing Fork
+			
+		"Stars.1": "数星星？听起来真浪漫！$h#$b#我们走吧，亲爱的。$l",
+		"Stars.2": "哇...真美！",
+		"Stars.3": "@，宇宙是如此广阔，远超我们的想象。$l#$b#你和我只是银河中的微小尘埃，但我们的爱却如星光般永恒。$l",
+		"Stars.4": "亲爱的，这很神奇，不是吗？#$b#在这宇宙的万亿事物中...#$b#我们却相遇了，仿佛命运早已注定。$l",
+		"Stars.5": "遇到你是我的幸运，亲爱的。你是我生命中最美的星星。$l",
+		
+		"Stars.6.Suggestive": "嘿，@...我有话想对你说。",
+		"Stars.7.Suggestive": "我们为什么不进帐篷呢？我可以给你看一些超乎想象的东西...$l",
+		"Stars.8.Suggestive": "哈，哈...真有趣...$l#$b#我想以后可以和你常来露营！#$b#现在我们去睡觉吧，亲爱的。",
+		
+		"Stars.6": "好吧，亲爱的，我们现在回帐篷吧。这一天还很漫长！",
+		"Stars.7": "谢谢你今晚和我一起来露营，@。$l#$b#我希望我们以后还能再来一次。$l",
+		"Stars.8": "我也希望能再次和[CharacterName {{Date}}]一起度过时光！",
+		"Stars.9": "*打哈欠*#$b#现在我们去睡觉吧...",
+	
+	//UNIQUE DATES
+	
+	//Maru Eclipse Date
+	
+		//Intro
+		"Maru.EclipseDate.Intro.1": "亲爱的！等等！",
+		"Maru.EclipseDate.Intro.2": "哦，太好了。在你开始工作之前我找到你了！#$b#今天有件非常特别的事情，亲爱的。#$b#每个月只有一次，但今晚天空中将出现一场美丽的月食。#$b#月亮会变成红色，我们宁静的山谷将被一种柔和的光芒笼罩几分钟。#$b#我真的很想看看，@，所以我在想...#$b#...你今晚愿意和我一起吗？我们可以在后山露营，来一场私密的观星派对！",
+		"Maru.EclipseDate.Intro.3": "太棒了！这一定会很有趣！$h#$b#晚上8点后在边远森林见。我会布置好我们的观星区。#$b#两个小小观星者，让星空见证我们的浪漫时刻。$l#$b#我等不及了！$h",
+		"Maru.EclipseDate.Intro.End": "今晚一定会很美，@。我等不及了。$l#$b#记住，晚上8点后来边远森林。我会把一切都准备好。$l",
+		
+		"Maru.EclipseDate.Intro.Refuse.1": "噢...$s#$b#又太忙了吗？$s",
+		"Maru.EclipseDate.Intro.Refuse.2": "没关系，我们下次再一起看吧。你继续工作吧。#$b#我想我只能一个人看了。$s",
+		"Maru.EclipseDate.Intro.Refuse.End": "别担心，我没有很难过。#$b#我知道你很忙...我嫁给你的时候就知道了，但我会一直支持你。",
+		
+		//Date
+		"Maru.EclipseDate.1": "月色温柔，亲爱的。$l#$b#你的到来，让这片夜色更加动人。$l",
+		"Maru.EclipseDate.2": "星光点点，你觉得我们的小营地如何？",
+		"Maru.EclipseDate.3": "太棒了，玛鲁！这里仿佛是我们与星空之间的秘密花园。",
+		"Maru.EclipseDate.4": "看起来真温馨。",
+		"Maru.EclipseDate.5": "我喜欢这个篝火！",
+		"Maru.EclipseDate.6": "谢谢，亲爱的！我尽力让这里像星光下的港湾，温暖而宁静。",
+		"Maru.EclipseDate.7": "哦！还有一件事...我想让今晚更加特别。",
+		"Maru.EclipseDate.8": "我带了一些鱼，我们可以在这里的篝火上烤。亲爱的，让篝火的光芒和鱼香为我们的夜晚增添一份温馨。",
+		"Maru.EclipseDate.9": "给，@。希望它能为我们的夜晚增添一份甜蜜！",
+		"Maru.EclipseDate.10": "嗯！又热又脆，完美！玛鲁的用心让这份简单变得特别。",
+		"Maru.EclipseDate.11": "哇！这些太棒了！",
+		"Maru.EclipseDate.12": "我吃饱啦，明明只是烤鱼，却尝出了幸福的滋味。$h",
+		"Maru.EclipseDate.13": "你的到来让这个夜晚有了特殊的意义。$l#$b#你看，月食马上就要开始了……",
+		"Maru.EclipseDate.14": "来了！就是现在！快看，亲爱的！",
+		"Maru.EclipseDate.15": "哇……太美了！真不敢相信我能亲眼见证！$h",
+		"Maru.EclipseDate.16": "亲爱的，快看——此刻的星光只属于我们。",
+		"Maru.EclipseDate.17": "当我们的星球轻轻横亘在日月之间，#$b#月亮便会沐浴在地球的影子里，只余日暮时分的那抹绯红，#$b#像被晚霞轻吻般染上温柔的光晕。",
+		"Maru.EclipseDate.18": "小时候我常仰望星空，想着星辰与行星是否真的蕴含深意。#$b#我们的存在是否注定有其意义？也许答案永远藏在星河尽头。",
+		"Maru.EclipseDate.19": "我曾以为...$s#$b#不...$s#$b#其实我一直相信...$l#$b#星辰会是我生命中的灯塔。",
+		"Maru.EclipseDate.20": "第一次这样看月食时，父亲曾对我说：#$b#『玛鲁，研究银河毫无意义。我们、我们的孩子、甚至孩子的孩子，都无法触及它的边际。生命的意义应当扎根于脚下的土地。』#$b#那时我不懂他的执念——我渴望探索未知，就像渴望触碰星辰。#$b#如今我终于明白，我注定无法见证宇宙真正的模样，但奇怪的是...#$b#这份遗憾，却化作了心底的宁静",
+		"Maru.EclipseDate.21": "但自从遇见你，@……$l#$b#我才懂得，宇宙再辽阔，也不及与你共度的这片星空。",
+		"Maru.EclipseDate.22": "仔细想想，红色就像我们的故事。#$b#既有命运交织时的跌宕，也有此刻篝火旁的温存...#$b#你看，连月光都染上了玫瑰色的涟漪。",
+		"Maru.EclipseDate.23": "@，能与你共度此生何其幸运...#$b#若我的目光是望远镜，你便是唯一值得凝视的星云。",
+		"Maru.EclipseDate.24": "月华如旧，温柔未改。#$b#月亮只是短暂躲进影子的臂弯，就像我们偶尔需要片刻依偎...",
+		"Maru.EclipseDate.25": "（轻声）哈啊——",
+		"Maru.EclipseDate.26": "@，夜色渐浓...#$b#要不要去帐篷里细数流萤？（指尖掠过你的袖口）我带了两人份的星光。",
+		
+		"Maru.EclipseDate.27": "@...$l#$b#我的心意，和今夜的星光一样明亮。",
+		
+		"Maru.EclipseDate.27.Suggestive": "@...$l#$b#帐篷里还有一份只为你准备的星夜礼物...$l",
+		"Maru.EclipseDate.28.Suggestive": "哈，哈...真是美妙...$l#$b#现在让我靠在你怀里入眠吧，亲爱的...$h",
+		
+		"Maru.EclipseDate.End": "与玛鲁共度的月食之夜，像银河倾泻般浪漫璀璨。",
+	
+	//Haley Desert Date
+	
+		//Intro
+		"Haley.DesertDate.Intro.1": "好吧，看看今天有没有信...",
+		"Haley.DesertDate.Intro.2": "这是...？（信封上的邮戳像一朵未绽放的花）",
+		"Haley.DesertDate.Intro.3": "啊，亲爱的！",
+		"Haley.DesertDate.Intro.4": "正想着今天的信箱有没有信。",
+		"Haley.DesertDate.Intro.5": "亲爱的，其实...$l",
+		"Haley.DesertDate.Intro.6": "我刚收到姐姐的来信。#$b#她邀请我和她一起去沙漠拜访她的朋友桑迪。#$b#（睫毛轻颤）或许...我们可以让沙粒也记住我们的足迹？",
+		
+		"Haley.DesertDate.Intro.7.Gendered": "亲爱的，愿意陪我去吗？沙漠是绝佳的摄影地...那里的景色浑然天成。#$b#只有我们两个人的独处时光...$l#$b#在无垠的沙海中定格永恒的回忆...和我的丈夫共度的浪漫，莫过于此。 $l^和我的妻子漫步沙丘，让风蚀岩见证我们的足迹...这大概就是永恒的模样。$l",
+		"Haley.DesertDate.Intro.7.Neutral": "亲爱的，愿意陪我去吗？沙漠是绝佳的摄影地...那里的景色浑然天成。#$b#只有我们两个人的独处时光...$l#$b#和我的伴侣漫步沙丘，让风蚀岩在暮色中低语...沙粒会记住我们相扣的指缝。$l",
+		
+		"Haley.DesertDate.Intro.8": "沙丘上的风捎来你的答案了吗，亲爱的？",
+		"Haley.DesertDate.Intro.9": "好耶！谢谢你，@！$h#$b#我会在下午五点斜阳染红沙丘前备好遮阳帽，会带上相机，和艾米丽在公交站守候...",
+		"Haley.DesertDate.Intro.10": "我等不及要和你共度时光了，亲爱的。$l",
+		"Haley.DesertDate.Intro.End": "我好兴奋呀，亲爱的。$h#$b#收拾完行李就去公交站。#$b#下午五点前来，我们就出发！$h",
+		
+		"Haley.DesertDate.Intro.Refusal.9": "噢...$s#$b#又太忙了吗？$s",
+		"Haley.DesertDate.Intro.Refusal.10": "没关系的，我们下次再去吧。你专注工作吧，下次骆驼铃响起时我们再出发。",
+		"Haley.DesertDate.Intro.Refusal.End": "别担心，我没有很难过。#$b#我早知你的忙碌像沙漠昼夜交替般必然...#$b#等新月升起时，我们再去听沙丘唱歌吧...$s",
+		
+		//Date
+		"Haley.DesertDate.1": "@，你来啦！$h#$b#很高兴你决定赴约。",
+		"Haley.DesertDate.2": "艾米丽正在买我们的车票。马上就能上车了。",
+		"Haley.DesertDate.3": "好啦妹妹，票买好了。上车吧！",
+		"Haley.DesertDate.4": "嗨，@！我也给你买了票，别担心。#$b#你现在是家人啦！$h",
+		"Haley.DesertDate.5": "来吧亲爱的！快牵紧我的手！",
+		"Haley.DesertDate.6": "我太激动了！$h",
+		"Haley.DesertDate.7": "好啦孩子们，出发吧...",
+		"Haley.DesertDate.8": "嗨，桑迪！",
+		"Haley.DesertDate.9": "嗨，艾米丽！",
+		"Haley.DesertDate.10": "又见到你真好，桑迪！",
+		"Haley.DesertDate.11": "见到你我也很高兴，亲爱的。",
+		"Haley.DesertDate.12": "哦，这位是？",
+		"Haley.DesertDate.13": "哎呀海莉！好久不见。",
+		
+		"Haley.DesertDate.14.Gendered": "看来你把你英俊的丈夫也带来了。^看来你把你美丽的妻子也带来了。",
+		"Haley.DesertDate.14.Neutral": "看来你把你漂亮的另一半也带来了。",
+		
+		"Haley.Giggle": "*咯咯笑*",
+		
+		"Haley.DesertDate.15": "桑迪，见到你真好！",
+		"Haley.DesertDate.16": "好啦妹妹，我和桑迪去她店里坐坐，你和@在沙漠玩得开心！",
+		"Haley.DesertDate.17": "知道啦艾米！待会见~",
+		"Haley.DesertDate.18": "亲爱的快看！我们到啦！$h#$b#这里有超多绝美拍摄点！$h",
+		"Haley.DesertDate.19": "天，比想象中还热...$s",
+		"Haley.DesertDate.20": "@，我们去桑迪店里备点降温物资吧？$h#$b#免得变成沙漠烤肉啦！",
+		"Haley.DesertDate.21": "那咱们出发吧！",
+		"Haley.DesertDate.22": "他真这么说？",
+		"Haley.DesertDate.23": "是啊！",
+		"Haley.DesertDate.24": "亲爱的怎么来啦？不是说你们要一起探索沙漠吗？",
+		"Haley.DesertDate.25": "哦我们当然要去沙漠的，桑迪！#$b#只是顺路来看看情况，再买些必需品。",
+		"Haley.DesertDate.26": "当然可以！$h#$b#来，拿些冰镇牛奶，能帮你们在酷热中保持清爽。#$b#既然是最好朋友的妹妹，就免费送你们啦！$h",
+		"Haley.DesertDate.27": "哇，桑迪你人真好！",
+		"Haley.DesertDate.28": "谢谢！",
+		"Haley.DesertDate.29": "拿好啦亲爱的！",
+		"Haley.DesertDate.30": "好，我们出发吧！",
+		"Haley.DesertDate.31": "对了桑迪，在我们走之前...",
+		"Haley.DesertDate.32": "我能拍张照吗？我要把这段旅程刻进记忆深处！",
+		"Haley.DesertDate.33": "当然可以，亲爱的。",
+		"Haley.DesertDate.34": "好耶！",
+		"Haley.DesertDate.35": "亲爱的，你站到那边去。#$b#我来架相机。",
+		"Haley.DesertDate.36": "完美！",
+		"Haley.DesertDate.37": "好了各位！笑一个！$h",
+		"Haley.DesertDate.38": "茄子——",
+		"Haley.DesertDate.39": "这些看起来很棒！非常感谢大家！$h",
+		"Haley.DesertDate.40": "不客气！",
+		"Haley.DesertDate.41": "好了，@。我们出发吧！",
+		"Haley.DesertDate.42": "与海莉穿越沙漠的每个角落，用镜头捕捉每一刻的光影。",
+		"Haley.DesertDate.43": "我们看遍了沙漠里所有值得一看的美景。",
+		"Haley.DesertDate.44": "还有最后一个地方海莉想去看看……",
+		"Haley.DesertDate.45": "哇，真是太可爱了！",
+		"Haley.DesertDate.46": "它叫汉弗瑞。",
+		"Haley.DesertDate.47": "汉弗瑞？#$b#这名字太可爱了！$h",
+		"Haley.DesertDate.48": "你喜欢摸摸吗，汉弗瑞？",
+		"Haley.DesertDate.49": "知道吗，@……",
+		"Haley.DesertDate.50": "如果不是爱上了你，我永远不会出现在这里做这些事。$l",
+		"Haley.DesertDate.51": "是你撕碎了世人对我『花瓶』的偏见...$l#$b#...也是你让我发现，自己灵魂的光芒远比想象中璀璨...$l",
+		"Haley.DesertDate.52": "@，我的爱比卡利科的星空更永恒。$l#$b#正因如你相遇我才能踏上这样的旅程，去我一直想看的地方...$l",
+		"Haley.DesertDate.53": "...以及我一直想做的事$l#$b#（指尖轻抚驼峰）看呀，它在对你笑呢！$h",
+		"Haley.DesertDate.54": "真是个好孩子，汉弗瑞~",
+		"Haley.DesertDate.55": "知道吗，甜心？$l#$b#这趟旅程最动人的风景，是你眼中映出的我的倒影。$l",
+		"Haley.DesertDate.56": "海莉，@！公交车马上要启程了，快过来！",
+		"Haley.DesertDate.57": "就来，艾米丽！",
+		"Haley.DesertDate.58": "在我们走前，还有一件事情要做。",
+		"Haley.DesertDate.59": "@，快说茄子！",
+		"Haley.DesertDate.60": "我和海莉在沙漠玩得很开心。很高兴能和她共度时光。",
+		"Haley.DesertDate.61": "哇，海莉！你的探险听起来真的很有趣！",
+		"Haley.DesertDate.62": "是啊，太棒了！$h#$b#来，我给你看看我的照片！$h",
+		"Haley.DesertDate.63": "这是我拍的第一张，是我们刚到时的沙子…...",
+		"Haley.DesertDate.64": "很可爱！",
+		"Haley.DesertDate.65": "这是我在桑迪的店里给大家拍的那张！",
+		"Haley.DesertDate.66": "哇，海莉，这些照片看起来真棒！",
+		"Haley.DesertDate.67": "谢谢！接下来这张是……",
+		"Haley.DesertDate.68": "天！$l",
+		"Haley.DesertDate.69": "哎呀！这不是很可爱吗？",
+		"Haley.DesertDate.70": "嘿嘿，这个…...$l",
+		"Haley.DesertDate.71": "我、呃，没注意到相机还在录…...$l",
+		"Haley.DesertDate.72": "太美了！你们俩真是天生一对。真高兴你们找到了彼此。",
+		"Haley.DesertDate.73": "我也很高兴能找到海莉。",
+		
+		"Haley.DesertDate.74": "@…你脸红了哦？$l#$b#那个…咱们是不是该回农舍处理那件『重要的事』了？$l",
+		"Haley.DesertDate.75": "得快点儿回去...…不然...…可就来不及准备了呀...…$l",
+		"Haley.DesertDate.76": "要乖乖的哦～可别让我逮到你们做坏事！♡", //giggle with textabovehead after this, see above
+		"Haley.DesertDate.77": "刚才的约会…心跳得好快呢@…#$b#要不要…再来一次？$13",
+		
+		"Haley.DesertDate.End": "和你共度的这一天太棒了，@。",
+		
+	
+	//Emily Gem Date
+	
+		//Intro
+		"Emily.GemDate.Intro.1": "东西应该都带齐了…...",
+		"Emily.GemDate.Intro.2": "等等！我忘了…...",
+		"Emily.GemDate.Intro.3": "哎呀！@！抱歉亲爱的。",
+		"Emily.GemDate.Intro.4": "本打算去老房子给海莉送些东西，顺便取回今天落在那儿的物品。#$b#不想吵醒你……你睡觉的样子特别安详。$l",
+		"Emily.GemDate.Intro.5": "本来要走了，刚想起来有东西落屋里了。",
+		"Emily.GemDate.Intro.6": "嘿，亲爱的……$l",
+		
+		"Emily.GemDate.Intro.7.Gendered": "要一起来吗？我可以给你看看我的旧物件…$l#$b#就当是小小的‘二人时光’。#$b#和我的完美丈夫共处…再没有比这更美好的一天了！^和我的完美妻子共处…再没有比这更美好的一天了！",
+		"Emily.GemDate.Intro.7.Neutral": "要一起来吗？我可以给你看看我的旧物件…$l#$b#就当是小小的‘二人时光’。#$b#和我的完美伴侣共处…再没有比这更美好的一天了",
+		
+		"Emily.GemDate.Intro.8": "怎么样，亲爱的？",
+		"Emily.GemDate.Intro.9": "太好啦！这一定会很有趣，@！$h#$b#我去拿个落下的东西就出门。#$b#忙完农活随时来老房子找我！$h#$b#等不及要见你了，亲爱的！$l",
+		"Emily.GemDate.Intro.End": "我马上要去海莉那儿了。#$b#亲爱的可别忘了随时过来坐坐！",
+		
+		"Emily.GemDate.Intro.Refusal.9": "噢……$s#$b#又在忙吗？$s",
+		"Emily.GemDate.Intro.Refusal.10": "没事的亲爱的，我们改天再聚。你先去忙工作吧。",
+		"Emily.GemDate.Intro.Refusal.11": "我大概拿了落下的东西就走吧。$s#$b#不过想想，今天或许哪儿也不去了……$s",
+		"Emily.GemDate.Intro.Refusal.End": "别担心，@。我没有很难过……#$b#我知道你很忙……嫁给你时我就做好准备了。",
+		
+		//Date
+		"Emily.GemDate.1": "完成！",
+		"Emily.GemDate.2": "大功告成！",
+		"Emily.GemDate.3": "唉……真希望海莉别这么邋遢..$s#$b#我搬走后同意她继续用我的房间，但至少也该保持整洁吧...$s",
+		"Emily.GemDate.4": "『1封未读邮件』",
+		"Emily.GemDate.5": "会是谁发来的呢～",
+		"Emily.GemDate.6": "主题：最近还好吗亲爱的？",
+		"Emily.GemDate.7": "发件人：桑迪",
+		"Emily.GemDate.8": "『天气真棒艾米！好久没你的消息了，希望你一切安好！如果感到孤单，记得沙漠里永远有个好朋友在这儿。』",
+		"Emily.GemDate.9": "哎呀，桑迪！你真好！",
+		"Emily.GemDate.10": "不过，我想你暂时不会孤单了，毕竟你和那位有魅力的农场主{{PlayerName}}结婚了。",
+		"Emily.GemDate.11": "拜托，艾米！你以为我不知道吗？山谷里的消息我可灵通着呢。你是忘了告诉我吗？真为你高兴！",
+		"Emily.GemDate.12": "糟了！我完全忘记告诉桑迪我要结婚了！$s",
+		"Emily.GemDate.13": "我得立刻安排和她见面。先回这封信。",
+		"Emily.GemDate.14": "『我最亲爱的桑迪』#$b#『很抱歉忘了告诉你关于@的事』#$b#『我完全沉浸其中，竟然把这事给忘了』#$b#『请别觉得被冷落，我对此深感愧疚，会尽快来看你』",
+		
+		"Emily.GemDate.15.Gendered": "『至于@……』$l#$b#『他是我此生最珍贵的礼物』$l^『她是我此生最珍贵的礼物』$l#$b#『他让我感到安心和快乐，珍惜与他共度的每一天。我爱他的——』$l^『她让我感到安心和快乐，珍惜与她共度的每一天。我爱她的——』$l",
+		"Emily.GemDate.15.Neutral": "『至于@……』$l#$b#『Ta是我此生最珍贵的礼物』$l#$b#『Ta让我感到安心和快乐，珍惜与Ta共度的每一天。我爱Ta的——』$l",
+		
+		"Emily.GemDate.16": "@！亲爱的，你可算来了！$h",
+		"Emily.GemDate.17": "我刚才正和桑迪聊到你呢！",
+		"Emily.GemDate.18": "我跟她说呀——$l#$b#你是我见过最正直可靠、聪慧勇敢的完美之人！$l",
+		"Emily.GemDate.19": "对了！有样东西想给你看~",
+		"Emily.GemDate.20": "来，凑近点看！",
+		"Emily.GemDate.21": "这可是我珍藏的『涤泪晶石』哦♡$3",
+		"Emily.GemDate.22": "每当我在酒馆工作一整天后感到悲伤孤独，或是和海莉吵架时，我就会拿一颗这样的水晶，把悲伤的情绪封存在里面。$s",
+		"Emily.GemDate.23": "我以为把负面能量封进水晶，就能让它们与世隔绝。$s#$b#我不想让任何负能量因我而泄露给别人。$s#$b#而这些水晶某种意义上，也是我藏匿痛苦记忆的方式……$s",
+		"Emily.GemDate.24": "这颗是父母离开后，我和海莉独处第一晚的水晶……$s#$b#这颗是克林顿和我争吵那晚的……$s#$b#还有这颗最新的……$s",
+		"Emily.GemDate.25": "@，我最后一次用水晶封存情绪，是在我们相遇的前夜。$3#$b#当时刚和海莉大吵一架，感觉自己被全世界抛弃了。$s",
+		"Emily.GemDate.26": "但你走进了我的生命，@。从相遇那刻起，我就感受到你温暖明亮的气场……$l#$b#那时便知道，我们的命运会紧紧交织…...$l",
+		"Emily.GemDate.27": "收下吧，@。这颗水晶我想送给你。",
+		
+		"Emily.GemDate.28.Gendered": "不要觉得是我把负面情绪强加给你……$s#$b#而是想把我最棒的丈夫当作情绪的守护者呀~$l^But as me giving my amazing wife my emotions to protect and keep safe.$l",
+		"Emily.GemDate.28.Neutral": "不要觉得是我把负面情绪强加给你……$s#$b#而是想把我最棒的爱人当作情绪的守护者呀~$l",
+		
+		"Emily.GemDate.29": "@，谢谢你过来。能和你一起重温这些回忆，真好。",
+		
+		"Emily.GemDate.30.Suggestive": "呐，@…...$l",
+		"Emily.GemDate.31.Suggestive": "海莉还有几小时才回来……$l#$b#现在家里只有我们……$l",
+		"Emily.GemDate.32.Suggestive": "我从未这么开心过，@…$l#$b#再来一次，好吗？$l",
+		"Emily.GemDate.End.Suggestive": "刚才很舒服呢…...$l#$b#啊对了，那颗宝石要好好收着哦！",
+		
+		"Emily.GemDate.30": "我应该还留着些『涤泪晶石』在这儿…...#$b#和克林特相处后不得不用了好多颗！$h",
+		"Emily.GemDate.31": "和艾米丽共度的美妙时光。真高兴她再也不需要这些涤泪晶石了！",
+		"Emily.GemDate.End": "很愉快呢，@。$l#$b#记得保管好那颗宝石！",
+	
+	//Alex Gridball Date
+	
+		//Intro
+		"Alex.Gridball.Intro.1": "@，等下！",
+		"Alex.Gridball.Intro.2": "你猜我刚搞到什么好东西？",
+		"Alex.Gridball.Intro.3": "错错错…#$b#其实是…#$b#铛铛——今晚隧道队的比赛门票两张！$h",
+		"Alex.Gridball.Intro.4": "所以亲爱的？要不要和我一起去看？$h#$b#绝对会是史诗级对决！$h",
+		
+		"Alex.Gridball.Intro.Refusal.5": "唉……$s#$b#又没空吗？$s",
+		"Alex.Gridball.Intro.Refusal.6": "没事的，改天再去吧。#$b#你先忙工作，我找别人陪我去就是了…...$s",
+		"Alex.Gridball.Intro.Refusal.7.Gendered": "别多想，我没有很难过。#$b#知道你忙…和你结婚时我就知道会这样。#$b#只是…要是能和我的丈夫一起去该多好。^只是…要是能和我的妻子一起去该多好。",
+		"Alex.Gridball.Intro.Refusal.7.Neutral": "别多想，我没有很难过。#$b#知道你忙…和你结婚时我就知道会这样。#$b#只是…要是能和我的爱人一起去该多好。",
+		
+		"Alex.Gridball.Intro.5": "酷毙了！这场球赛绝对燃爆全场！$h#$b#@，午饭后在公交车站见——但最晚不要超过7点！咱们得提前出发！$h#$b#我这就去收拾背包，提前到场等着你！#$b#我已经急着要看比赛了！$h",
+		"Alex.Gridball.Intro.End": "宝贝千万记住！晚上七点前公交站！#$b#咱们的约会绝对High翻天，亲爱的！$h",
+		
+		//Date
+		"Alex.Gridball.1": "喂小家伙！到底走不走？！要赶上时间就立刻出发！",
+		"Alex.Gridball.2": "别催潘姆！我还在等个人……",
+		"Alex.Gridball.3": "哼。",
+		"Alex.Gridball.4": "@！可算找到你了！#$b#快上车！错过开场我会哭的！",
+		"Alex.Gridball.5": "这绝对是我们最棒的约会，亲爱的～我已经心跳加速了！$h",
+		"Alex.Gridball.6": "压哨进场成功！快跟上节奏，@！$h",
+		"Alex.Gridball.7": "让我看看……",
+		"Alex.Gridball.8": "看见没@！隧道队已经势如破竹了！$h",
+		"Alex.Gridball.9": "芜湖——！",
+		"Alex.Gridball.10": "冲冲冲！隧道队再下一城！$h#$b#这比分差要突破天际啦！$h",
+		"Alex.Gridball.11": "啧，对方居然要技术暂停。",
+		"Alex.Gridball.12": "解说员：注意——又双叒到了接吻游戏环节！",
+		"Alex.Gridball.13": "解说员：锁定大屏幕......",
+		"Alex.Gridball.14": "解说员：前排这对迷人的伴侣！",
+		"Alex.Gridball.15": "那那那是我们啊，@！",
+		"Alex.Gridball.16": "嗯，亲爱的？",
+		"Alex.Gridball.17": "解说员：燃爆全场！",
+		"Alex.Gridball.18": "哈，刚才挺不错的嘛～$l",
+		"Alex.Gridball.19": "比赛重新开始了，@！$h",
+		"Alex.Gridball.20": "WOO！",
+		"Alex.Gridball.21": "再破敌阵@！$h#$b#隧道队打出赛季最强音！$h",
+		"Alex.Gridball.22": "冲！",
+		"Alex.Gridball.23": "亚历克斯和我在隧道队主场见证大获全胜！",
+		"Alex.Gridball.24": "这真是太棒了，@！#$b#隧道队简直是王者归来！$h",
+		"Alex.Gridball.25": "谢谢你来陪我看球赛呀～#$b#有你空气都是甜的。$l",
+		
+		"Alex.Gridball.26.Suggestive": "亲爱的......$l#$b#有要不要回家接着狂欢？$l",
+		"Alex.Gridball.27.Suggestive": "刚才......挺尽兴的嘛......$l#$b#那个......再来一次？$l",
+		
+		"Alex.Gridball.26": "走啦回家！#$b#正好翻翻拍的照片嘿嘿！$h",
+		"Alex.Gridball.27": "今日约会全成就达成！#$b#能娶到@简直是宇宙级幸运！",
+		
+	//2.1 Lines
+		
+	//NPC Tokens Compat
+	
+		//Make ABSOLUTELY sure these do not apply with spouses which swap gender or have a non-binary gender presentation or otherwise. Not having specific pronouns is something to fix, but the fix *cannot* be misgendering an NPC.
+	
+		//Generic Alterations
+		
+		"Pool.6.M": "[CharacterName {{Date}}]竭尽全力，但我仍轻松取胜。多么愉快的夜晚！",
+		"Pool.6.F": "[CharacterName {{Date}}]竭尽全力，但我仍轻松取胜。多么愉快的夜晚！",
+		
+		"Forest.9.M": "[CharacterName {{Date}}]全心投入了这次约会...能拥有他何其幸运！",
+		"Forest.9.F": "[CharacterName {{Date}}]全心投入了这次约会...能遇见她宛若奇迹！",
+		
+		"Lake.9.M": "[CharacterName {{Date}}]全心投入了这次约会……能拥有他何其幸运！",
+		"Lake.9.F": "[CharacterName {{Date}}]全心投入了这次约会...能遇见她宛若奇迹！",
+		
+		"Swim.19.M": "我追着[CharacterName {{Date}}]游了很久，试图向他泼水还击。",
+		"Swim.20.M": "经过近五分钟的追逐，我终于抓住了他！",
+		"Swim.19.F": "我追着[CharacterName {{Date}}]游了很久，试图向她泼水还击。",
+		"Swim.20.F": "在近五分钟的追逐后，我终于成功抓住了她！",
+		
+		//Unique Alterations (for genderbent mods)
+		
+		"Haley.DesertDate.60.M": "海莉与我在沙漠中度过了一段美妙时光。能与他共享这段时光令人欣喜。", //Haley is male
+		"Alex.Gridball.27.F": "亚历克斯与我在今日完成了最完美的约会。能与她缔结婚姻何其幸运！", //Alex is female
+		
+			//More Specific Changes
+		"Haley.DesertDate.Intro.6.M": "我刚收到兄弟的来信。#$b#他邀请我同去沙漠拜访好友桑迪。#$b#如今巴士已修复，我们前往沙漠将更便捷。", //Emily is male
+		"Haley.DesertDate.3.M": "海莉，我已经买好票了。上车吧！", //Haley is male - "bro" doesn't quite fit here.
+		"Haley.DesertDate.16.M": "听好海莉，我和桑迪要去她的商店消磨时间。你就在沙漠和@好好享受吧！", //Haley is male
+		"Haley.DesertDate.26.M": "噢，当然！$h#$b#带上这瓶冰镇牛奶，助你抵御酷暑。#$b#既然是挚友胞弟，本次消费全免！$h", //Haley is male
+		"Emily.GemDate.3.M": "*叹息*...真希望海莉能注重整洁......$s#$b#我搬离后允其使用旧居，但维持基本清洁应是底线......$s", //Haley is male
+		
+	//Small additional line fix for Abigail in Grocery Date
+	
+	"GroceryDate.13.Abigail": "嘿，老爸，今天我们来采购。", //Suggested by nomorenamesleft - one line change for consistency.
+	
+	//Dynamic Pool endings
+	
+		//Pool Fork - Date Wins
+			
+		"PoolWin.1": "想玩台球？来吧！#$b#上次败北后我可一直有在练习，这次定要雪耻！$h",
+		
+		"PoolWin.2.Gendered": "今非昔比了！$h#$b#该让老公见识真正的实力......^该让老婆见识真正的实力......",
+		"PoolWin.2.Neutral": "今非昔比了！$h#$b#该让爱人见识真正的实力.......",
+		
+		"PoolWin.3": "看招！",
+		"PoolWin.4": "白球疾驰撞击，数枚彩色球在碰撞轨迹中精准入袋。",
+		"PoolWin.5": "得手！",
+		"PoolWin.6": "比分咬到最后，还是[CharacterName {{Date}}]险胜！看来还得多加练习......",
+		
+		"PoolWin.7": "真不敢相信赢了！看来努力没白费！$h",
+		"PoolWin.8": "@，要不要回家教你我新练的绝招？$l",
+		"PoolWin.9": "@，刚才那几杆绝了...$l#$b#哈，精疲力尽了......$l",
+		
+		//Pool Fork - Player Wins
+		
+		"PoolLose.1": "想玩台球？来吧！#$b#上次败北后我可一直有在练习，这次定要雪耻！$h",
+		
+		"PoolLose.2.Gendered": "这次可不会放水！$h#$b#该让老公见识真正的实力......^该让老婆见识真正的实力......",
+		"PoolLose.2.Neutral": "这次可不会放水！$h#$b#该让爱人见识真正的实力.......",
+		
+		"PoolLose.3": "接招！",
+		"PoolLose.4": "白球划出诡异切线，然后便入袋了。",
+		"PoolLose.5": "失误示范...",
+		"PoolLose.6": "[CharacterName {{Date}}]拼尽了全力，但还是被我侥幸取胜！不过我们玩得超开心~",
+		
+		"PoolLose.7": "下次一定赢你哦亲爱的！给我等着瞧！$h",
+		"PoolLose.8": "@，要不要回家教教我你的技巧？$l",
+		"PoolLose.9": "刚才那几杆太厉害了，@......$l#$b#哈啊......完全累瘫了......$l",
+		
+		"SaloonDate.End.PoolFork": "和你打桌球超愉快的，亲爱的！下次还要再约哦~$l",
+		
+	//Date Reminders!
+		
+		"SaloonReminder": "[CharacterName {{Date}}]正在酒馆等你…",
+		"PicnicReminder": "[CharacterName {{Date}}]正在森林等你…",
+		"LibraryReminder": "[CharacterName {{Date}}]正在博物馆等你…",
+		"BeachReminder": "[CharacterName {{Date}}]正在海滩等你…",
+		"GroceryReminder": "[CharacterName {{Date}}]正在杂货店等你…",
+		"CampingReminder": "[CharacterName {{Date}}]正在森林等你！做完农活就出发吧...",
+		"EmilyReminder.": "[CharacterName {{Date}}]正在Ta的老家等你…",
+		"EmilyReminder.F": "[CharacterName {{Date}}]正在她的老家等你…",
+		"EmilyReminder.M": "[CharacterName {{Date}}]正在他的老家等你…",
+		"HaleyReminder": "[CharacterName {{Date}}]正在公交车站等你…",
+		"AlexReminder": "[CharacterName {{Date}}]正在公交车站等你…",
+		"MaruReminder": "[CharacterName {{Date}}]正在边远森林等你！做完农活就出发吧...",
+		
+		"MissedPicnic": "你错过了与[CharacterName {{Date}}]的野餐约会！",
+		"MissedBeach": "你错过了与[CharacterName {{Date}}]的海滩约会！",
+		"MissedGrocery": "你错过了与[CharacterName {{Date}}]的杂货店约会！",
+		"MissedHaley": "你错过了与[CharacterName {{Date}}]的沙漠约会！",
+		"MissedAlex": "你错过了与[CharacterName {{Date}}]的球赛约会！",
+}

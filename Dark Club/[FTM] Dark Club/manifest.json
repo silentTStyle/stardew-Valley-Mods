@@ -1,0 +1,12 @@
+{
+  "Name": "Dark_Club_FTM",
+  "Author": "simezi21",
+  "Version": "2.9.0",
+  "Description": "MOD 07",
+  "UniqueID": "simezi21.Dark_Club_FTM",
+  "MinimumApiVersion": "3.13.0",
+  "ContentPackFor": {
+    "UniqueID": "Esca.FarmTypeManager",
+    "MinimumVersion": "1.8"
+  }
+}

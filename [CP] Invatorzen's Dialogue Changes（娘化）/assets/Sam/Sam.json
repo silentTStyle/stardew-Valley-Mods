@@ -1,0 +1,196 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Jodi",
+            "Entries": {
+                "Thu6": "时间都去哪儿了?*叹气*#$e#我还记得萨姆小时候还穿着尿布的样子。那时的她真是个可爱的小孩。$s#$e#别告诉她是我说的。$h#$e#你一定很喜欢和我说话，嗯?",
+                "fall_Thu": "也许我有点把孩子们宠坏了。他们从来不用做任何家务。#$e#我想我只是希望他们能在还能享受童年的时候好好享受。好吧，虽然萨姆现在也差不多成年了。#$b#我希望她不会因此变得懒惰。那样不好。$s#$e#做父母并不容易。",
+                "winter_Thu": "萨姆的音乐很吵。希望不会打扰到邻居。",
+                "winter_Thu_inlaw_Sam": "萨姆怎么样了?我得承认，自从她搬出去了以后，我做饭和打扫的工作都少了..."
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Kent",
+            "Entries": {
+                "Thu6": "#$1 Kent1#我4点就起了...有时我真想知道我能否回到正常的生活中去。$k#$e#自从我离开后，萨姆真的长大了。她现在是个女人了。#$e#真希望我能一直待在这儿，陪在她身边。$s",
+                "Thu": "你是我女儿的朋友吗?#$e#你可能比我还了解她...$s"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/MarriageDialogue",
+            "Entries": {
+                "winter_Sam": "我已经放弃做音乐家了。我现在是家庭型女孩了!"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/MarriageDialogueSam",
+            "Entries": {
+                "OneKid_1": "虽然这感觉很奇怪，但我真的很喜欢当妈妈!$h",
+                "TwoKids_3": "我从没想过我会有这么大的一个家庭，但我对我们在这里建立的一切感到非常满意。生活正在逐渐步入正轨。$l",
+                "winter_1": "冷空气把我的发胶都冻住了。很不舒服。$s"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/MarriageDialogueSebastian",
+            "Entries": {
+                "fall_15": "星露谷展览会对我来说有点挤了...但我还是和萨姆一起去逛逛吧。跟她叙叙旧也不错。#$e#你可以去玩玩些展览会上的游戏!不用为我担心。$7"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Sam",
+            "Entries": {
+                "Mon8": "告诉你一个秘密...我的名字“萨姆”其实是“萨曼莎”的缩写。$l#$e#大多数人不知道这个，所以你要保守秘密哦。"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Vincent",
+            "Entries": {
+                "Mon": "我长大后要像姐姐一样!$h#$e#好的!再见!"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Events/Forest",
+            "Entries": {
+                "choseFarming": "pause 500/question fork0 \"#星露谷的土壤非常适合种植美味的蔬菜。#星露谷里的空气和草地非常适合饲养动物。\"/fork choseAnimals/animate Vincent false true 50 16 17/playSound dwop/pause 300/faceDirection Penny 2/pause 500/stopAnimation Vincent/speak Penny \"什么事，文森特?\"/speak Vincent \"嗯，农夫@?如果我吃了你的蔬菜，我会长得像我姐姐萨姆那样强壮吗?#$b#她力气太大了，我昨晚看到她把潘妮小姐从地上抱起来，当时她们正在爬树。$h\"/showFrame Penny 27/jump Penny/pause 800/showFrame Penny 0/faceDirection farmer 3 true/emote Penny 12/speak Penny \"文森特!八卦别人是不对的!$a\"/switchEvent fieldTripEnd/"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Events/SamHouse",
+            "Entries": {
+                "46/f Sam 1000/p Sam": "playful/7 4/farmer 7 12 0 Sam 7 5 0 Jodi 17 7 0/skippable/move farmer 0 -6 0/faceDirection Sam 2/pause 300/speak Sam \"哦，嗨，@。我正准备吃点心呢。\"/pause 500/speak Sam \"来，我给你拿点东西。\"/faceDirection Sam 0/pause 500/playSound openBox/pause 500/faceDirection Sam 3/playSound dwop/specificTemporarySprite dropEgg/showFrame Sam 33/jump Sam/pause 1000/emote Sam 12/showFrame Sam 12/speak Sam \"哦，不...真是一团糟。$s\"/speed Jodi 4/move Jodi -10 0 0/speak Jodi \"什么声音?\"/emote Jodi 16/speak Jodi \"*喘息*$s\"/move Jodi -1 0 0/move Jodi 0 -1 0/speak Jodi \"糟糕!发生了什么事?$u\"/speak Sam \"$q 80 null#...告诉她，@。$s#$r 80 -10 event_snack1#萨姆递零食给我时把它弄洒了。#$r 80 50 event_snack2#萨姆把零食递给我后，我把它弄洒了。#$r 81 -50 event_snack3#萨姆故意把它弄洒的。她觉得这会很有趣。\"/pause 300/speak Jodi \"$p 80#谢谢你告诉我真相，@。这没什么大不了的。|你做了什么，萨姆?!你怎么了?!$u\"/faceDirection Jodi 0/speak Sam \"我很抱歉，妈妈。我会打扫的。$s\"/emote Jodi 20/speak Jodi \"谢谢，亲爱的。$h\"/move Jodi 0 1 1/move Jodi 1 0 2 /faceDirection Sam 2 true/move Jodi 0 7 2 true/globalFade/viewport -1000 -1000/end dialogue Sam \"$p 81#我很生你的气。我搞不明白你为什么要撒谎。$s|刚才发生的事...抱歉\""
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Events/Town",
+            "Entries": {
+                "45/f Sam 1500/t 1200 1600/w sunny": "breezy/-1000 -1000/farmer 20 93 3 Sam 12 90 2 Lewis 28 78 1/skippable/showFrame Sam 25/move Lewis 0 12 3 true/viewport 22 89 true/specificTemporarySprite samSkate1/null/pause 400/faceDirection farmer 1/showFrame Lewis 24/shake Lewis 8000/jump Lewis/showFrame Sam 35/specificTemporarySprite skateboardFly/jump Sam/pause 1000/speak Lewis \"嘿!你以为你在干什么?那是私人财产!$4\"/textAboveHead Lewis \"萨姆!\"/pause 500/speak Sam \"呃...我...我很抱歉，先生。$8\"/showFrame Sam 4/emote Lewis 12/showFrame Lewis 12/pause 800/speak Lewis \"*叹气*...现在的年轻人...有时侯我甚至在想，这个小镇是不是要完蛋了。$u\"/move farmer 0 -2 1/move farmer 6 0 1/faceDirection Sam 2/pause 500/move Lewis 0 1 3/speak Lewis \"你看到发生了什么，@。你有什么要说的吗?\"/pause 600/question null \"#你说得对，先生，萨姆应该尊重私人财产。#没必要怪萨姆。她实在是没有别的地方可以玩了!#我不想掺和这事。\"/pause 500/splitSpeak Sam \"好啊!那我再也不玩滑板了。开心了吗?$a~确实!要是镇上有公园的话，我就可以去那里玩了，每个人都会很开心。~嗯。好吧。$a\"/faceDirection Lewis 2/emote Lewis 12/splitSpeak Lewis \"你太难缠了，萨姆。我对你在镇上踩着滑板转悠没有意见，只是不要破坏任何东西!就这么简单~嗯。我还以为你会更成熟呢，@。$4~萨姆，这次我就不计较了。但下不为例。\"/faceDirection Lewis 3/splitSpeak Lewis \"明白了吗?~萨姆...冲着你大喊大叫，我很抱歉。以后请尽量不要破坏任何东西。明白了吗?~明白了吗?\"/faceDirection Sam 1/pause 800/faceDirection Sam 0/emote Sam 28/pause 500/faceDirection Sam 1/speak Sam \"好的，先生。$7\"/pause 600/move Lewis 0 -16 0 true/pause 800/faceDirection Sam 2/pause 800/speak Sam \"...不过，你看到我刚才那个操作了吗?那简直酷毙了。$u\"/faceDirection farmer 0/emote farmer 16/pause 800/end"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/EngagementDialogue",
+            "Entries": {
+                "Sam0": "作为你的妻子，我非常乐意，@。$l#$e#我有点激动。"
+            }
+        },
+        {
+            "LogName": "Jodi, Kent, Vincent, Sam data",
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "Fields": {
+                "Jodi": {
+                    "FriendsAndFamily": {
+                        "Sam": "[LocalizedText Strings\\Characters:Relative_Daughter]",
+                        "Vincent": "[LocalizedText Strings\\Characters:Relative_Son]",
+                        "Kent": "[LocalizedText Strings\\Characters:Relative_Husband]"
+                    }
+                },
+                "Kent": {
+                    "FriendsAndFamily": {
+                        "Jodi": "[LocalizedText Strings\\Characters:Relative_Wife]",
+                        "Sam": "[LocalizedText Strings\\Characters:Relative_Daughter]",
+                        "Vincent": "[LocalizedText Strings\\Characters:Relative_Son]"
+                    }
+                },
+                "Sam": {
+                    "DisplayName":  "萨姆",
+                    "Gender": "Female"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Strings/animationDescriptions",
+            "Entries": {
+                "sam_work": "%Sam's on the clock... better not get her in trouble."
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Strings/Locations",
+            "Entries": {
+                "SamHouse_Sam_Trash": "看起来萨姆定期清理着她的垃圾桶。"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Strings/StringsFromCSFiles",
+            "Entries": {
+                "ItemDeliveryQuest.cs.13574": "我想要个可爱的男孩给带我个{0}。(^_-)      -萨姆"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Strings/StringsFromMaps",
+            "Entries": {
+                "SamHouse.11": "这是萨姆的电脑。她库里真的有很多电脑游戏。"
+            }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Characters/Sam",
+            "FromFile": "assets/Sam/SamOW.png",
+            "When": {
+                "DayEvent |contains=wedding": false
+            }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Characters/Sam_Beach",
+            "FromFile": "assets/Sam/SamOW.png",
+            "When": {
+                "DayEvent |contains=wedding": false
+            }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Characters/Sam_Winter",
+            "FromFile": "assets/Sam/SamOW.png",
+            "When": {
+                "DayEvent |contains=wedding": false
+            }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Portraits/Sam",
+            "FromFile": "assets/Sam/Sam.png",
+            "When": {
+                "Sam's Portrait": "true"
+            }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Portraits/Sam_Beach",
+            "FromFile": "assets/Sam/Sam.png",
+            "When": {
+                "Sam's Portrait": "true"
+            }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Portraits/Sam_Winter",
+            "FromFile": "assets/Sam/Sam.png",
+            "When": {
+                "Sam's Portrait": "true"
+            }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Characters/Sam",
+            "FromFile": "assets/Sam/SamOW_Wedding.png",
+            "When": {
+                "DayEvent": "wedding"
+            }
+        }
+    ]
+}

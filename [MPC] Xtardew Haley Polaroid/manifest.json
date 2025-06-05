@@ -1,0 +1,16 @@
+﻿{
+  "Name": "Xtardew Mobile Haley Polaroid",
+  "Author": "hixega",
+  "Version": "2.0.0",
+  "Description": "Adds the Xtardew Haley Polaroid to the Mobile phone.",
+  "UniqueID": "hixega.XtardewMobileHaleyPolaroid",
+  "UpdateKeys": ["Nexus:16871"],
+  "ContentPackFor": {
+    "UniqueID": "JoXW.MobilePhone"
+  },
+  "Dependencies": [
+    {
+      "UniqueID": "JoXW.MobilePhone"
+    }
+  ]
+}

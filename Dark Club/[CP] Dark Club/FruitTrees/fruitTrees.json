@@ -1,0 +1,64 @@
+{
+    "Changes": [
+		{
+			"Action": "Load",
+			"Target": "Mods/{{ModId}}/FruitTrees",
+			"FromFile": "FruitTrees/assets/fruitTrees.png"
+		},
+		// add fruit trees
+        {
+            "Action": "EditData",
+            "Target": "Data/FruitTrees",
+            "Entries": {
+                "ButtPeachSapling": {
+                    "DisplayName": "{{i18n:Item.ButtPeach.Name}}",
+                    "Seasons": [ "fall" ],
+                    "Fruit": [
+                        {
+                            "Id": "E{{ModId}}_ButtPeach",
+                            "ItemId": "(O)ButtPeach"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/FruitTrees",
+                    "TextureSpriteRow": 0
+                },
+				"DickBananaSapling": {
+                    "DisplayName": "{{i18n:Item.DickBanana.Name}}",
+                    "Seasons": [ "summer" ],
+                    "Fruit": [
+                        {
+                            "Id": "E{{ModId}}_DickBanana",
+                            "ItemId": "(O)DickBanana"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/FruitTrees",
+                    "TextureSpriteRow": 1
+                },
+				"NutsCherrySapling": {
+                    "DisplayName": "{{i18n:Item.NutsCherry.Name}}",
+                    "Seasons": [ "winter" ],
+                    "Fruit": [
+                        {
+                            "Id": "E{{ModId}}_NutsCherry",
+                            "ItemId": "(O)NutsCherry"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/FruitTrees",
+                    "TextureSpriteRow": 2
+                },
+				"TitsAppleSapling": {
+                    "DisplayName": "{{i18n:Item.TitsApple.Name}}",
+                    "Seasons": [ "spring" ],
+                    "Fruit": [
+                        {
+                            "Id": "E{{ModId}}_TitsApple",
+                            "ItemId": "(O)TitsApple"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/FruitTrees",
+                    "TextureSpriteRow": 3
+                },
+            }
+        },
+    ]
+}

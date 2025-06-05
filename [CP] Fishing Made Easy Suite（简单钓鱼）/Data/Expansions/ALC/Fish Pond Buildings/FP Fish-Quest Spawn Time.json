@@ -1,0 +1,50 @@
+{
+	"Changes": [
+		{
+			"LogName": "ALC - FP Fish/Quest Spawn Half The Time",
+			"Action": "EditData",
+			"Target": "Data/FishPondData",
+			"Fields": {
+				"Morghoula.AlchemistryCP_Lamprey": {
+					"SpawnTime": 2,
+					},
+				"Morghoula.AlchemistryCP_VampireAnemone": {
+					"SpawnTime": 2,
+					},
+				"Morghoula.AlchemistryCP_Newt": {
+					"SpawnTime": 2,
+					},
+				"Morghoula.AlchemistryCP_MoonlightJellyfish": {
+					"SpawnTime": 2,
+					},
+				"Morghoula.AlchemistryCP_ZombieFish": {
+					"SpawnTime": 1,
+					},
+			        },
+			"When": {"FP Fish/Quest Spawn Time": "Half The Time"},
+		},
+		{
+			"LogName": "ALC - FP Fish/Quest Spawn Every Day",
+			"Action": "EditData",
+			"Target": "Data/FishPondData",
+			"Fields": {
+				"Morghoula.AlchemistryCP_Lamprey": {
+					"SpawnTime": 1,
+					},
+				"Morghoula.AlchemistryCP_VampireAnemone": {
+					"SpawnTime": 1,
+					},
+				"Morghoula.AlchemistryCP_Newt": {
+					"SpawnTime": 1,
+					},
+				"Morghoula.AlchemistryCP_MoonlightJellyfish": {
+					"SpawnTime": 1,
+					},
+				"Morghoula.AlchemistryCP_ZombieFish": {
+					"SpawnTime": 1,
+					},
+			        },
+			"When": {"FP Fish/Quest Spawn Time": "Every Day"},
+		},
+	]
+}

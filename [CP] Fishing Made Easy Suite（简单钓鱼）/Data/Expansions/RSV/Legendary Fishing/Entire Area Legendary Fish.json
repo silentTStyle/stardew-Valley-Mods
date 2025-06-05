@@ -1,0 +1,34 @@
+{
+	"Changes": [
+		{
+			"LogName": "RSV - Entire Area Legendary Fish Ridge Forest",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_Ridgeside_RidgeForest", "Fish" ],
+			"Fields": { 
+				"Rafseazz.RSVCP_Deep_Ridge_Angler": {"BobberPosition": null},
+					  },
+			    "When": {"Entire Area Legendary Fish": true},
+	    },
+		{
+			"LogName": "RSV - Entire Area Legendary Fish Ridgeside Village",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_Ridgeside_RidgesideVillage", "Fish" ],
+			"Fields": { 
+				"Rafseazz.RSVCP_Sockeye_Salmon": {"BobberPosition": null},
+					  },
+			    "When": {"Entire Area Legendary Fish": true},
+	    },
+		{
+			"LogName": "RSV - Entire Area Legendary Fish Ridge Falls",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Custom_Ridgeside_RidgeFalls", "Fish" ],
+			"Fields": { 
+				"Rafseazz.RSVCP_Waterfall_Snakehead": {"BobberPosition": null},
+					  },
+			    "When": {"Entire Area Legendary Fish": true},
+	    },
+	]
+}

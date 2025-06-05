@@ -1,0 +1,65 @@
+{
+  "Changes": [
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Kent",
+      "FromFile": "assets/Characters/Kent.png",
+      "When": { "Futanari": "false" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Kent",
+      "FromFile": "assets/Characters/Kent_Futanari.png",
+      "When": { "Futanari": "true" }
+    },
+	{
+      "Action": "EditImage",
+      "Target": "Characters/Kent_Winter",
+      "FromFile": "assets/Characters/Kent.png",
+      "When": { "Futanari": "false" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Kent_Winter",
+      "FromFile": "assets/Characters/Kent_Futanari.png",
+      "When": { "Futanari": "true" }
+    },
+	// Portraits -----------------------------------------------------------------------------------
+	{
+      "Action": "EditImage",
+      "Target": "Portraits/Kent",
+      "FromFile": "assets/Portraits/Kent.png",
+      "When": { 
+		"Hypnosis": "false",
+		"Kent": "On",
+	  }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Kent",
+      "FromFile": "assets/Portraits/Kent_Hypnosis.png",
+      "When": { 
+		"Hypnosis": "true",
+		"Kent": "On",
+	  }
+    },
+	{
+      "Action": "EditImage",
+      "Target": "Portraits/Kent_Winter",
+      "FromFile": "assets/Portraits/Kent.png",
+      "When": { 
+		"Hypnosis": "false",
+		"Kent": "On",
+	  }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Kent_Winter",
+      "FromFile": "assets/Portraits/Kent_Hypnosis.png",
+      "When": { 
+		"Hypnosis": "true",
+		"Kent": "On",
+	  }
+    },
+  ]
+}

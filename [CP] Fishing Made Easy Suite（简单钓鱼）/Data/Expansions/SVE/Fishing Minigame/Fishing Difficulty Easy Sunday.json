@@ -1,0 +1,309 @@
+{
+	"Changes": [
+		{
+			"LogName": "SVE - Fishing Difficulty 10% Easy Sunday",
+			"Action": "EditData",
+			"Target": "Data/Fish",
+			"Fields": {
+				"FlashShifter.StardewValleyExpandedCP_Minnow": {1: "1"}, //Minnow
+				"FlashShifter.StardewValleyExpandedCP_Butterfish": {1: "{{Round: {{Query: (80 - (80 * 0.1)) }} }}"}, //Butterfish
+				"FlashShifter.StardewValleyExpandedCP_Void_Eel": {1: "{{Round: {{Query: (100 - (100 * 0.1)) }} }}"}, //Void Eel
+				"FlashShifter.StardewValleyExpandedCP_Puppyfish": {1: "{{Round: {{Query: (90 - (90 * 0.1)) }} }}"}, //Puppyfish
+				"FlashShifter.StardewValleyExpandedCP_King_Salmon": {1: "{{Round: {{Query: (80 - (80 * 0.1)) }} }}"}, //King Salmon
+				"FlashShifter.StardewValleyExpandedCP_Frog": {1: "{{Round: {{Query: (70 - (70 * 0.1)) }} }}"}, //Frog
+				"FlashShifter.StardewValleyExpandedCP_Kittyfish": {1: "{{Round: {{Query: (85 - (85 * 0.1)) }} }}"}, //Kittyfish
+				"FlashShifter.StardewValleyExpandedCP_Seahorse": {1: "{{Round: {{Query: (25 - (25 * 0.1)) }} }}"}, //Seahorse
+				"FlashShifter.StardewValleyExpandedCP_Sea_Sponge": {1: "{{Round: {{Query: (40 - (40 * 0.1)) }} }}"}, //Sea Sponge
+				"FlashShifter.StardewValleyExpandedCP_Lunaloo": {1: "{{Round: {{Query: (70 - (70 * 0.1)) }} }}"}, //Lunaloo
+				"FlashShifter.StardewValleyExpandedCP_Baby_Lunaloo": {1: "{{Round: {{Query: (15 - (15 * 0.1)) }} }}"}, //Baby Lunaloo
+				"FlashShifter.StardewValleyExpandedCP_Shiny_Lunaloo": {1: "{{Round: {{Query: (110 - (110 * 0.1)) }} }}"}, //Shiny Lunaloo
+				"FlashShifter.StardewValleyExpandedCP_Bonefish": {1: "{{Round: {{Query: (70 - (70 * 0.1)) }} }}"}, //Bonefish
+				"FlashShifter.StardewValleyExpandedCP_Undeadfish": {1: "{{Round: {{Query: (80 - (80 * 0.1)) }} }}"}, //Undeadfish
+				"FlashShifter.StardewValleyExpandedCP_Radioactive_Bass": {1: "{{Round: {{Query: (90 - (90 * 0.1)) }} }}"}, //Radioactive Bass
+				"FlashShifter.StardewValleyExpandedCP_Goldenfish": {1: "{{Round: {{Query: (60 - (60 * 0.1)) }} }}"}, //Goldenfish
+				"FlashShifter.StardewValleyExpandedCP_Meteor_Carp": {1: "{{Round: {{Query: (80 - (80 * 0.1)) }} }}"}, //Meteor Carp
+				"FlashShifter.StardewValleyExpandedCP_Torpedo_Trout": {1: "{{Round: {{Query: (70 - (70 * 0.1)) }} }}"}, //Torpedo Trout
+				"FlashShifter.StardewValleyExpandedCP_Gemfish": {1: "{{Round: {{Query: (100 - (100 * 0.1)) }} }}"}, //Gemfish
+				"FlashShifter.StardewValleyExpandedCP_Daggerfish": {1: "{{Round: {{Query: (50 - (50 * 0.1)) }} }}"}, //Daggerfish
+				"FlashShifter.StardewValleyExpandedCP_Grass_Carp": {1: "{{Round: {{Query: (85 - (85 * 0.1)) }} }}"}, //Grass Carp
+				"FlashShifter.StardewValleyExpandedCP_Bull_Trout": {1: "{{Round: {{Query: (45 - (45 * 0.1)) }} }}"}, //Bull Trout
+				"FlashShifter.StardewValleyExpandedCP_Water_Grub": {1: "{{Round: {{Query: (60 - (60 * 0.1)) }} }}"}, //Water Grub
+				"FlashShifter.StardewValleyExpandedCP_Snatcher_Worm": {1: "{{Round: {{Query: (75 - (75 * 0.1)) }} }}"}, //Snatcher Worm
+				"FlashShifter.StardewValleyExpandedCP_Clownfish": {1: "{{Round: {{Query: (45 - (45 * 0.10)) }} }}"}, //Clownfish
+				"FlashShifter.StardewValleyExpandedCP_Starfish": {1: "{{Round: {{Query: (75 - (75 * 0.10)) }} }}"}, //Starfish
+				"FlashShifter.StardewValleyExpandedCP_Tadpole": {1: "{{Round: {{Query: (3 - (3 * 0.1)) }} }}"}, //Tadpole
+				"FlashShifter.StardewValleyExpandedCP_Diamond_Carp": {1: "{{Round: {{Query: (70 - (70 * 0.1)) }} }}"}, //Diamond Carp
+				"FlashShifter.StardewValleyExpandedCP_Fiber_Goby": {1: "{{Round: {{Query: (60 - (60 * 0.1)) }} }}"}, //Fiber Goby
+				"FlashShifter.StardewValleyExpandedCP_Highlands_Bass": {1: "{{Round: {{Query: (45 - (45 * 0.1)) }} }}"}, //Highlands Bass
+				"FlashShifter.StardewValleyExpandedCP_Alligator": {1: "{{Round: {{Query: (75 - (75 * 0.1)) }} }}"}, //Alligator
+				"FlashShifter.StardewValleyExpandedCP_Swamp_Crab": {1: "{{Round: {{Query: (35 - (35 * 0.1)) }} }}"}, //Swamp Crab
+				"FlashShifter.StardewValleyExpandedCP_Barred_Knifejaw": {1: "{{Round: {{Query: (65 - (65 * 0.1)) }} }}"}, //Barred Knifejaw
+				"FlashShifter.StardewValleyExpandedCP_Blue_Tang": {1: "{{Round: {{Query: (30 - (30 * 0.1)) }} }}"}, //Blue Tang
+				"FlashShifter.StardewValleyExpandedCP_Viper_Eel": {1: "{{Round: {{Query: (80 - (80 * 0.1)) }} }}"}, //Viper Eel
+				"FlashShifter.StardewValleyExpandedCP_Shark": {1: "{{Round: {{Query: (100 - (100 * 0.1)) }} }}"}, //Shark
+				"FlashShifter.StardewValleyExpandedCP_Arrowhead_Shark": {1: "{{Round: {{Query: (95 - (95 * 0.1)) }} }}"}, //Arrowhead Shark
+				"FlashShifter.StardewValleyExpandedCP_Ocean_Sunfish": {1: "{{Round: {{Query: (90 - (90 * 0.1)) }} }}"}, //Ocean Sunfish
+				"FlashShifter.StardewValleyExpandedCP_Wolf_Snapper": {1: "{{Round: {{Query: (110 - (110 * 0.1)) }} }}"}, //Wolf Snapper
+				"FlashShifter.StardewValleyExpandedCP_Goldfish": {1: "{{Round: {{Query: (25 - (25 * 0.1)) }} }}"}, //Goldfish
+				"FlashShifter.StardewValleyExpandedCP_Gar": {1: "{{Round: {{Query: (85 - (85 * 0.1)) }} }}"}, //Gar
+				"FlashShifter.StardewValleyExpandedCP_Turretfish": {1: "{{Round: {{Query: (999 - (999 * 0.1)) }} }}"}, //Turretfish
+					},
+				"When": {"Fishing Difficulty": "10% Easy Sunday",
+						 "DayOfWeek": "Sunday"},
+		},
+		{
+			"LogName": "SVE - Fishing Difficulty 10% Easy Sunday Razor Trout",
+			"Action": "EditData",
+			"Target": "Data/Fish",
+			"Fields": {
+				"FlashShifter.StardewValleyExpandedCP_Razor_Trout": {1: "{{Round: {{Query: (85 - (85 * 0.10)) }} }}"}, //Razor Trout
+					},
+				"When": {"Fishing Difficulty": "10% Easy Sunday", 
+						 "HasSeenevent": "5553210"},
+		},
+		{
+			"LogName": "SVE - Fishing Difficulty 20% Easy Sunday",
+			"Action": "EditData",
+			"Target": "Data/Fish",
+			"Fields": {
+				"FlashShifter.StardewValleyExpandedCP_Minnow": {1: "1"}, //Minnow
+				"FlashShifter.StardewValleyExpandedCP_Butterfish": {1: "{{Round: {{Query: (80 - (80 * 0.2)) }} }}"}, //Butterfish
+				"FlashShifter.StardewValleyExpandedCP_Void_Eel": {1: "{{Round: {{Query: (100 - (100 * 0.2)) }} }}"}, //Void Eel
+				"FlashShifter.StardewValleyExpandedCP_Puppyfish": {1: "{{Round: {{Query: (90 - (90 * 0.2)) }} }}"}, //Puppyfish
+				"FlashShifter.StardewValleyExpandedCP_King_Salmon": {1: "{{Round: {{Query: (80 - (80 * 0.2)) }} }}"}, //King Salmon
+				"FlashShifter.StardewValleyExpandedCP_Frog": {1: "{{Round: {{Query: (70 - (70 * 0.2)) }} }}"}, //Frog
+				"FlashShifter.StardewValleyExpandedCP_Kittyfish": {1: "{{Round: {{Query: (85 - (85 * 0.2)) }} }}"}, //Kittyfish
+				"FlashShifter.StardewValleyExpandedCP_Seahorse": {1: "{{Round: {{Query: (25 - (25 * 0.2)) }} }}"}, //Seahorse
+				"FlashShifter.StardewValleyExpandedCP_Sea_Sponge": {1: "{{Round: {{Query: (40 - (40 * 0.2)) }} }}"}, //Sea Sponge
+				"FlashShifter.StardewValleyExpandedCP_Lunaloo": {1: "{{Round: {{Query: (70 - (70 * 0.2)) }} }}"}, //Lunaloo
+				"FlashShifter.StardewValleyExpandedCP_Baby_Lunaloo": {1: "{{Round: {{Query: (15 - (15 * 0.2)) }} }}"}, //Baby Lunaloo
+				"FlashShifter.StardewValleyExpandedCP_Shiny_Lunaloo": {1: "{{Round: {{Query: (110 - (110 * 0.2)) }} }}"}, //Shiny Lunaloo
+				"FlashShifter.StardewValleyExpandedCP_Bonefish": {1: "{{Round: {{Query: (70 - (70 * 0.2)) }} }}"}, //Bonefish
+				"FlashShifter.StardewValleyExpandedCP_Undeadfish": {1: "{{Round: {{Query: (80 - (80 * 0.2)) }} }}"}, //Undeadfish
+				"FlashShifter.StardewValleyExpandedCP_Radioactive_Bass": {1: "{{Round: {{Query: (90 - (90 * 0.2)) }} }}"}, //Radioactive Bass
+				"FlashShifter.StardewValleyExpandedCP_Goldenfish": {1: "{{Round: {{Query: (60 - (60 * 0.2)) }} }}"}, //Goldenfish
+				"FlashShifter.StardewValleyExpandedCP_Meteor_Carp": {1: "{{Round: {{Query: (80 - (80 * 0.2)) }} }}"}, //Meteor Carp
+				"FlashShifter.StardewValleyExpandedCP_Torpedo_Trout": {1: "{{Round: {{Query: (70 - (70 * 0.2)) }} }}"}, //Torpedo Trout
+				"FlashShifter.StardewValleyExpandedCP_Gemfish": {1: "{{Round: {{Query: (100 - (100 * 0.2)) }} }}"}, //Gemfish
+				"FlashShifter.StardewValleyExpandedCP_Daggerfish": {1: "{{Round: {{Query: (50 - (50 * 0.2)) }} }}"}, //Daggerfish
+				"FlashShifter.StardewValleyExpandedCP_Grass_Carp": {1: "{{Round: {{Query: (85 - (85 * 0.2)) }} }}"}, //Grass Carp
+				"FlashShifter.StardewValleyExpandedCP_Bull_Trout": {1: "{{Round: {{Query: (45 - (45 * 0.2)) }} }}"}, //Bull Trout
+				"FlashShifter.StardewValleyExpandedCP_Water_Grub": {1: "{{Round: {{Query: (60 - (60 * 0.2)) }} }}"}, //Water Grub
+				"FlashShifter.StardewValleyExpandedCP_Snatcher_Worm": {1: "{{Round: {{Query: (75 - (75 * 0.2)) }} }}"}, //Snatcher Worm
+				"FlashShifter.StardewValleyExpandedCP_Clownfish": {1: "{{Round: {{Query: (45 - (45 * 0.20)) }} }}"}, //Clownfish
+				"FlashShifter.StardewValleyExpandedCP_Starfish": {1: "{{Round: {{Query: (75 - (75 * 0.20)) }} }}"}, //Starfish
+				"FlashShifter.StardewValleyExpandedCP_Tadpole": {1: "{{Round: {{Query: (3 - (3 * 0.2)) }} }}"}, //Tadpole
+				"FlashShifter.StardewValleyExpandedCP_Diamond_Carp": {1: "{{Round: {{Query: (70 - (70 * 0.2)) }} }}"}, //Diamond Carp
+				"FlashShifter.StardewValleyExpandedCP_Fiber_Goby": {1: "{{Round: {{Query: (60 - (60 * 0.2)) }} }}"}, //Fiber Goby
+				"FlashShifter.StardewValleyExpandedCP_Highlands_Bass": {1: "{{Round: {{Query: (45 - (45 * 0.2)) }} }}"}, //Highlands Bass
+				"FlashShifter.StardewValleyExpandedCP_Alligator": {1: "{{Round: {{Query: (75 - (75 * 0.2)) }} }}"}, //Alligator
+				"FlashShifter.StardewValleyExpandedCP_Swamp_Crab": {1: "{{Round: {{Query: (35 - (35 * 0.2)) }} }}"}, //Swamp Crab
+				"FlashShifter.StardewValleyExpandedCP_Barred_Knifejaw": {1: "{{Round: {{Query: (65 - (65 * 0.2)) }} }}"}, //Barred Knifejaw
+				"FlashShifter.StardewValleyExpandedCP_Blue_Tang": {1: "{{Round: {{Query: (30 - (30 * 0.2)) }} }}"}, //Blue Tang
+				"FlashShifter.StardewValleyExpandedCP_Viper_Eel": {1: "{{Round: {{Query: (80 - (80 * 0.2)) }} }}"}, //Viper Eel
+				"FlashShifter.StardewValleyExpandedCP_Shark": {1: "{{Round: {{Query: (100 - (100 * 0.2)) }} }}"}, //Shark
+				"FlashShifter.StardewValleyExpandedCP_Arrowhead_Shark": {1: "{{Round: {{Query: (95 - (95 * 0.2)) }} }}"}, //Arrowhead Shark
+				"FlashShifter.StardewValleyExpandedCP_Ocean_Sunfish": {1: "{{Round: {{Query: (90 - (90 * 0.2)) }} }}"}, //Ocean Sunfish
+				"FlashShifter.StardewValleyExpandedCP_Wolf_Snapper": {1: "{{Round: {{Query: (110 - (110 * 0.2)) }} }}"}, //Wolf Snapper
+				"FlashShifter.StardewValleyExpandedCP_Goldfish": {1: "{{Round: {{Query: (25 - (25 * 0.2)) }} }}"}, //Goldfish
+				"FlashShifter.StardewValleyExpandedCP_Gar": {1: "{{Round: {{Query: (85 - (85 * 0.2)) }} }}"}, //Gar
+				"FlashShifter.StardewValleyExpandedCP_Turretfish": {1: "{{Round: {{Query: (999 - (999 * 0.2)) }} }}"}, //Turretfish
+					},
+				"When": {"Fishing Difficulty": "20% Easy Sunday",
+						 "DayOfWeek": "Sunday"},
+		},
+		{
+			"LogName": "SVE - Fishing Difficulty 20% Easy Sunday Razor Trout",
+			"Action": "EditData",
+			"Target": "Data/Fish",
+			"Fields": {
+				"FlashShifter.StardewValleyExpandedCP_Razor_Trout": {1: "{{Round: {{Query: (85 - (85 * 0.20)) }} }}"}, //Razor Trout
+					},
+				"When": {"Fishing Difficulty": "20% Easy Sunday", 
+						 "HasSeenevent": "5553210"},
+		},
+		{
+			"LogName": "SVE - Fishing Difficulty 30% Easy Sunday",
+			"Action": "EditData",
+			"Target": "Data/Fish",
+			"Fields": {
+				"FlashShifter.StardewValleyExpandedCP_Minnow": {1: "1"}, //Minnow
+				"FlashShifter.StardewValleyExpandedCP_Butterfish": {1: "{{Round: {{Query: (80 - (80 * 0.3)) }} }}"}, //Butterfish
+				"FlashShifter.StardewValleyExpandedCP_Void_Eel": {1: "{{Round: {{Query: (100 - (100 * 0.3)) }} }}"}, //Void Eel
+				"FlashShifter.StardewValleyExpandedCP_Puppyfish": {1: "{{Round: {{Query: (90 - (90 * 0.3)) }} }}"}, //Puppyfish
+				"FlashShifter.StardewValleyExpandedCP_King_Salmon": {1: "{{Round: {{Query: (80 - (80 * 0.3)) }} }}"}, //King Salmon
+				"FlashShifter.StardewValleyExpandedCP_Frog": {1: "{{Round: {{Query: (70 - (70 * 0.3)) }} }}"}, //Frog
+				"FlashShifter.StardewValleyExpandedCP_Kittyfish": {1: "{{Round: {{Query: (85 - (85 * 0.3)) }} }}"}, //Kittyfish
+				"FlashShifter.StardewValleyExpandedCP_Seahorse": {1: "{{Round: {{Query: (25 - (25 * 0.3)) }} }}"}, //Seahorse
+				"FlashShifter.StardewValleyExpandedCP_Sea_Sponge": {1: "{{Round: {{Query: (40 - (40 * 0.3)) }} }}"}, //Sea Sponge
+				"FlashShifter.StardewValleyExpandedCP_Lunaloo": {1: "{{Round: {{Query: (70 - (70 * 0.3)) }} }}"}, //Lunaloo
+				"FlashShifter.StardewValleyExpandedCP_Baby_Lunaloo": {1: "{{Round: {{Query: (15 - (15 * 0.3)) }} }}"}, //Baby Lunaloo
+				"FlashShifter.StardewValleyExpandedCP_Shiny_Lunaloo": {1: "{{Round: {{Query: (110 - (110 * 0.3)) }} }}"}, //Shiny Lunaloo
+				"FlashShifter.StardewValleyExpandedCP_Bonefish": {1: "{{Round: {{Query: (70 - (70 * 0.3)) }} }}"}, //Bonefish
+				"FlashShifter.StardewValleyExpandedCP_Undeadfish": {1: "{{Round: {{Query: (80 - (80 * 0.3)) }} }}"}, //Undeadfish
+				"FlashShifter.StardewValleyExpandedCP_Radioactive_Bass": {1: "{{Round: {{Query: (90 - (90 * 0.3)) }} }}"}, //Radioactive Bass
+				"FlashShifter.StardewValleyExpandedCP_Goldenfish": {1: "{{Round: {{Query: (60 - (60 * 0.3)) }} }}"}, //Goldenfish
+				"FlashShifter.StardewValleyExpandedCP_Meteor_Carp": {1: "{{Round: {{Query: (80 - (80 * 0.3)) }} }}"}, //Meteor Carp
+				"FlashShifter.StardewValleyExpandedCP_Torpedo_Trout": {1: "{{Round: {{Query: (70 - (70 * 0.3)) }} }}"}, //Torpedo Trout
+				"FlashShifter.StardewValleyExpandedCP_Gemfish": {1: "{{Round: {{Query: (100 - (100 * 0.3)) }} }}"}, //Gemfish
+				"FlashShifter.StardewValleyExpandedCP_Daggerfish": {1: "{{Round: {{Query: (50 - (50 * 0.3)) }} }}"}, //Daggerfish
+				"FlashShifter.StardewValleyExpandedCP_Grass_Carp": {1: "{{Round: {{Query: (85 - (85 * 0.3)) }} }}"}, //Grass Carp
+				"FlashShifter.StardewValleyExpandedCP_Bull_Trout": {1: "{{Round: {{Query: (45 - (45 * 0.3)) }} }}"}, //Bull Trout
+				"FlashShifter.StardewValleyExpandedCP_Water_Grub": {1: "{{Round: {{Query: (60 - (60 * 0.3)) }} }}"}, //Water Grub
+				"FlashShifter.StardewValleyExpandedCP_Snatcher_Worm": {1: "{{Round: {{Query: (75 - (75 * 0.3)) }} }}"}, //Snatcher Worm
+				"FlashShifter.StardewValleyExpandedCP_Clownfish": {1: "{{Round: {{Query: (45 - (45 * 0.30)) }} }}"}, //Clownfish
+				"FlashShifter.StardewValleyExpandedCP_Starfish": {1: "{{Round: {{Query: (75 - (75 * 0.30)) }} }}"}, //Starfish
+				"FlashShifter.StardewValleyExpandedCP_Tadpole": {1: "{{Round: {{Query: (3 - (3 * 0.3)) }} }}"}, //Tadpole
+				"FlashShifter.StardewValleyExpandedCP_Diamond_Carp": {1: "{{Round: {{Query: (70 - (70 * 0.3)) }} }}"}, //Diamond Carp
+				"FlashShifter.StardewValleyExpandedCP_Fiber_Goby": {1: "{{Round: {{Query: (60 - (60 * 0.3)) }} }}"}, //Fiber Goby
+				"FlashShifter.StardewValleyExpandedCP_Highlands_Bass": {1: "{{Round: {{Query: (45 - (45 * 0.3)) }} }}"}, //Highlands Bass
+				"FlashShifter.StardewValleyExpandedCP_Alligator": {1: "{{Round: {{Query: (75 - (75 * 0.3)) }} }}"}, //Alligator
+				"FlashShifter.StardewValleyExpandedCP_Swamp_Crab": {1: "{{Round: {{Query: (35 - (35 * 0.3)) }} }}"}, //Swamp Crab
+				"FlashShifter.StardewValleyExpandedCP_Barred_Knifejaw": {1: "{{Round: {{Query: (65 - (65 * 0.3)) }} }}"}, //Barred Knifejaw
+				"FlashShifter.StardewValleyExpandedCP_Blue_Tang": {1: "{{Round: {{Query: (30 - (30 * 0.3)) }} }}"}, //Blue Tang
+				"FlashShifter.StardewValleyExpandedCP_Viper_Eel": {1: "{{Round: {{Query: (80 - (80 * 0.3)) }} }}"}, //Viper Eel
+				"FlashShifter.StardewValleyExpandedCP_Shark": {1: "{{Round: {{Query: (100 - (100 * 0.3)) }} }}"}, //Shark
+				"FlashShifter.StardewValleyExpandedCP_Arrowhead_Shark": {1: "{{Round: {{Query: (95 - (95 * 0.3)) }} }}"}, //Arrowhead Shark
+				"FlashShifter.StardewValleyExpandedCP_Ocean_Sunfish": {1: "{{Round: {{Query: (90 - (90 * 0.3)) }} }}"}, //Ocean Sunfish
+				"FlashShifter.StardewValleyExpandedCP_Wolf_Snapper": {1: "{{Round: {{Query: (110 - (110 * 0.3)) }} }}"}, //Wolf Snapper
+				"FlashShifter.StardewValleyExpandedCP_Goldfish": {1: "{{Round: {{Query: (25 - (25 * 0.3)) }} }}"}, //Goldfish
+				"FlashShifter.StardewValleyExpandedCP_Gar": {1: "{{Round: {{Query: (85 - (85 * 0.3)) }} }}"}, //Gar
+				"FlashShifter.StardewValleyExpandedCP_Turretfish": {1: "{{Round: {{Query: (999 - (999 * 0.3)) }} }}"}, //Turretfish
+					},
+				"When": {"Fishing Difficulty": "30% Easy Sunday",
+						 "DayOfWeek": "Sunday"},
+		},
+		{
+			"LogName": "SVE - Fishing Difficulty 30% Easy Sunday Razor Trout",
+			"Action": "EditData",
+			"Target": "Data/Fish",
+			"Fields": {
+				"FlashShifter.StardewValleyExpandedCP_Razor_Trout": {1: "{{Round: {{Query: (85 - (85 * 0.30)) }} }}"}, //Razor Trout
+					},
+				"When": {"Fishing Difficulty": "30% Easy Sunday", 
+						 "HasSeenevent": "5553210"},
+		},
+		{
+			"LogName": "SVE - Fishing Difficulty 40% Easy Sunday",
+			"Action": "EditData",
+			"Target": "Data/Fish",
+			"Fields": {
+				"FlashShifter.StardewValleyExpandedCP_Minnow": {1: "1"}, //Minnow
+				"FlashShifter.StardewValleyExpandedCP_Butterfish": {1: "{{Round: {{Query: (80 - (80 * 0.4)) }} }}"}, //Butterfish
+				"FlashShifter.StardewValleyExpandedCP_Void_Eel": {1: "{{Round: {{Query: (100 - (100 * 0.4)) }} }}"}, //Void Eel
+				"FlashShifter.StardewValleyExpandedCP_Puppyfish": {1: "{{Round: {{Query: (90 - (90 * 0.4)) }} }}"}, //Puppyfish
+				"FlashShifter.StardewValleyExpandedCP_King_Salmon": {1: "{{Round: {{Query: (80 - (80 * 0.4)) }} }}"}, //King Salmon
+				"FlashShifter.StardewValleyExpandedCP_Frog": {1: "{{Round: {{Query: (70 - (70 * 0.4)) }} }}"}, //Frog
+				"FlashShifter.StardewValleyExpandedCP_Kittyfish": {1: "{{Round: {{Query: (85 - (85 * 0.4)) }} }}"}, //Kittyfish
+				"FlashShifter.StardewValleyExpandedCP_Seahorse": {1: "{{Round: {{Query: (25 - (25 * 0.4)) }} }}"}, //Seahorse
+				"FlashShifter.StardewValleyExpandedCP_Sea_Sponge": {1: "{{Round: {{Query: (40 - (40 * 0.4)) }} }}"}, //Sea Sponge
+				"FlashShifter.StardewValleyExpandedCP_Lunaloo": {1: "{{Round: {{Query: (70 - (70 * 0.4)) }} }}"}, //Lunaloo
+				"FlashShifter.StardewValleyExpandedCP_Baby_Lunaloo": {1: "{{Round: {{Query: (15 - (15 * 0.4)) }} }}"}, //Baby Lunaloo
+				"FlashShifter.StardewValleyExpandedCP_Shiny_Lunaloo": {1: "{{Round: {{Query: (110 - (110 * 0.4)) }} }}"}, //Shiny Lunaloo
+				"FlashShifter.StardewValleyExpandedCP_Bonefish": {1: "{{Round: {{Query: (70 - (70 * 0.4)) }} }}"}, //Bonefish
+				"FlashShifter.StardewValleyExpandedCP_Undeadfish": {1: "{{Round: {{Query: (80 - (80 * 0.4)) }} }}"}, //Undeadfish
+				"FlashShifter.StardewValleyExpandedCP_Radioactive_Bass": {1: "{{Round: {{Query: (90 - (90 * 0.4)) }} }}"}, //Radioactive Bass
+				"FlashShifter.StardewValleyExpandedCP_Goldenfish": {1: "{{Round: {{Query: (60 - (60 * 0.4)) }} }}"}, //Goldenfish
+				"FlashShifter.StardewValleyExpandedCP_Meteor_Carp": {1: "{{Round: {{Query: (80 - (80 * 0.4)) }} }}"}, //Meteor Carp
+				"FlashShifter.StardewValleyExpandedCP_Torpedo_Trout": {1: "{{Round: {{Query: (70 - (70 * 0.4)) }} }}"}, //Torpedo Trout
+				"FlashShifter.StardewValleyExpandedCP_Gemfish": {1: "{{Round: {{Query: (100 - (100 * 0.4)) }} }}"}, //Gemfish
+				"FlashShifter.StardewValleyExpandedCP_Daggerfish": {1: "{{Round: {{Query: (50 - (50 * 0.4)) }} }}"}, //Daggerfish
+				"FlashShifter.StardewValleyExpandedCP_Grass_Carp": {1: "{{Round: {{Query: (85 - (85 * 0.4)) }} }}"}, //Grass Carp
+				"FlashShifter.StardewValleyExpandedCP_Bull_Trout": {1: "{{Round: {{Query: (45 - (45 * 0.4)) }} }}"}, //Bull Trout
+				"FlashShifter.StardewValleyExpandedCP_Water_Grub": {1: "{{Round: {{Query: (60 - (60 * 0.4)) }} }}"}, //Water Grub
+				"FlashShifter.StardewValleyExpandedCP_Snatcher_Worm": {1: "{{Round: {{Query: (75 - (75 * 0.4)) }} }}"}, //Snatcher Worm
+				"FlashShifter.StardewValleyExpandedCP_Clownfish": {1: "{{Round: {{Query: (45 - (45 * 0.40)) }} }}"}, //Clownfish
+				"FlashShifter.StardewValleyExpandedCP_Starfish": {1: "{{Round: {{Query: (75 - (75 * 0.40)) }} }}"}, //Starfish
+				"FlashShifter.StardewValleyExpandedCP_Tadpole": {1: "{{Round: {{Query: (3 - (3 * 0.4)) }} }}"}, //Tadpole
+				"FlashShifter.StardewValleyExpandedCP_Diamond_Carp": {1: "{{Round: {{Query: (70 - (70 * 0.4)) }} }}"}, //Diamond Carp
+				"FlashShifter.StardewValleyExpandedCP_Fiber_Goby": {1: "{{Round: {{Query: (60 - (60 * 0.4)) }} }}"}, //Fiber Goby
+				"FlashShifter.StardewValleyExpandedCP_Highlands_Bass": {1: "{{Round: {{Query: (45 - (45 * 0.4)) }} }}"}, //Highlands Bass
+				"FlashShifter.StardewValleyExpandedCP_Alligator": {1: "{{Round: {{Query: (75 - (75 * 0.4)) }} }}"}, //Alligator
+				"FlashShifter.StardewValleyExpandedCP_Swamp_Crab": {1: "{{Round: {{Query: (35 - (35 * 0.4)) }} }}"}, //Swamp Crab
+				"FlashShifter.StardewValleyExpandedCP_Barred_Knifejaw": {1: "{{Round: {{Query: (65 - (65 * 0.4)) }} }}"}, //Barred Knifejaw
+				"FlashShifter.StardewValleyExpandedCP_Blue_Tang": {1: "{{Round: {{Query: (30 - (30 * 0.4)) }} }}"}, //Blue Tang
+				"FlashShifter.StardewValleyExpandedCP_Viper_Eel": {1: "{{Round: {{Query: (80 - (80 * 0.4)) }} }}"}, //Viper Eel
+				"FlashShifter.StardewValleyExpandedCP_Shark": {1: "{{Round: {{Query: (100 - (100 * 0.4)) }} }}"}, //Shark
+				"FlashShifter.StardewValleyExpandedCP_Arrowhead_Shark": {1: "{{Round: {{Query: (95 - (95 * 0.4)) }} }}"}, //Arrowhead Shark
+				"FlashShifter.StardewValleyExpandedCP_Ocean_Sunfish": {1: "{{Round: {{Query: (90 - (90 * 0.4)) }} }}"}, //Ocean Sunfish
+				"FlashShifter.StardewValleyExpandedCP_Wolf_Snapper": {1: "{{Round: {{Query: (110 - (110 * 0.4)) }} }}"}, //Wolf Snapper
+				"FlashShifter.StardewValleyExpandedCP_Goldfish": {1: "{{Round: {{Query: (25 - (25 * 0.4)) }} }}"}, //Goldfish
+				"FlashShifter.StardewValleyExpandedCP_Gar": {1: "{{Round: {{Query: (85 - (85 * 0.4)) }} }}"}, //Gar
+				"FlashShifter.StardewValleyExpandedCP_Turretfish": {1: "{{Round: {{Query: (999 - (999 * 0.4)) }} }}"}, //Turretfish
+					},
+				"When": {"Fishing Difficulty": "40% Easy Sunday",
+						 "DayOfWeek": "Sunday"},
+		},
+		{
+			"LogName": "SVE - Fishing Difficulty 40% Easy Sunday Razor Trout",
+			"Action": "EditData",
+			"Target": "Data/Fish",
+			"Fields": {
+				"FlashShifter.StardewValleyExpandedCP_Razor_Trout": {1: "{{Round: {{Query: (85 - (85 * 0.40)) }} }}"}, //Razor Trout
+					},
+				"When": {"Fishing Difficulty": "40% Easy Sunday", 
+						 "HasSeenevent": "5553210"},
+		},
+		{
+			"LogName": "SVE - Fishing Difficulty 50% Easy Sunday",
+			"Action": "EditData",
+			"Target": "Data/Fish",
+			"Fields": {
+				"FlashShifter.StardewValleyExpandedCP_Minnow": {1: "1"}, //Minnow
+				"FlashShifter.StardewValleyExpandedCP_Butterfish": {1: "{{Round: {{Query: (80 - (80 * 0.5)) }} }}"}, //Butterfish
+				"FlashShifter.StardewValleyExpandedCP_Void_Eel": {1: "{{Round: {{Query: (100 - (100 * 0.5)) }} }}"}, //Void Eel
+				"FlashShifter.StardewValleyExpandedCP_Puppyfish": {1: "{{Round: {{Query: (90 - (90 * 0.5)) }} }}"}, //Puppyfish
+				"FlashShifter.StardewValleyExpandedCP_King_Salmon": {1: "{{Round: {{Query: (80 - (80 * 0.5)) }} }}"}, //King Salmon
+				"FlashShifter.StardewValleyExpandedCP_Frog": {1: "{{Round: {{Query: (70 - (70 * 0.5)) }} }}"}, //Frog
+				"FlashShifter.StardewValleyExpandedCP_Kittyfish": {1: "{{Round: {{Query: (85 - (85 * 0.5)) }} }}"}, //Kittyfish
+				"FlashShifter.StardewValleyExpandedCP_Seahorse": {1: "{{Round: {{Query: (25 - (25 * 0.5)) }} }}"}, //Seahorse
+				"FlashShifter.StardewValleyExpandedCP_Sea_Sponge": {1: "{{Round: {{Query: (40 - (40 * 0.5)) }} }}"}, //Sea Sponge
+				"FlashShifter.StardewValleyExpandedCP_Lunaloo": {1: "{{Round: {{Query: (70 - (70 * 0.5)) }} }}"}, //Lunaloo
+				"FlashShifter.StardewValleyExpandedCP_Baby_Lunaloo": {1: "{{Round: {{Query: (15 - (15 * 0.5)) }} }}"}, //Baby Lunaloo
+				"FlashShifter.StardewValleyExpandedCP_Shiny_Lunaloo": {1: "{{Round: {{Query: (110 - (110 * 0.5)) }} }}"}, //Shiny Lunaloo
+				"FlashShifter.StardewValleyExpandedCP_Bonefish": {1: "{{Round: {{Query: (70 - (70 * 0.5)) }} }}"}, //Bonefish
+				"FlashShifter.StardewValleyExpandedCP_Undeadfish": {1: "{{Round: {{Query: (80 - (80 * 0.5)) }} }}"}, //Undeadfish
+				"FlashShifter.StardewValleyExpandedCP_Radioactive_Bass": {1: "{{Round: {{Query: (90 - (90 * 0.5)) }} }}"}, //Radioactive Bass
+				"FlashShifter.StardewValleyExpandedCP_Goldenfish": {1: "{{Round: {{Query: (60 - (60 * 0.5)) }} }}"}, //Goldenfish
+				"FlashShifter.StardewValleyExpandedCP_Meteor_Carp": {1: "{{Round: {{Query: (80 - (80 * 0.5)) }} }}"}, //Meteor Carp
+				"FlashShifter.StardewValleyExpandedCP_Torpedo_Trout": {1: "{{Round: {{Query: (70 - (70 * 0.5)) }} }}"}, //Torpedo Trout
+				"FlashShifter.StardewValleyExpandedCP_Gemfish": {1: "{{Round: {{Query: (100 - (100 * 0.5)) }} }}"}, //Gemfish
+				"FlashShifter.StardewValleyExpandedCP_Daggerfish": {1: "{{Round: {{Query: (50 - (50 * 0.5)) }} }}"}, //Daggerfish
+				"FlashShifter.StardewValleyExpandedCP_Grass_Carp": {1: "{{Round: {{Query: (85 - (85 * 0.5)) }} }}"}, //Grass Carp
+				"FlashShifter.StardewValleyExpandedCP_Bull_Trout": {1: "{{Round: {{Query: (45 - (45 * 0.5)) }} }}"}, //Bull Trout
+				"FlashShifter.StardewValleyExpandedCP_Water_Grub": {1: "{{Round: {{Query: (60 - (60 * 0.5)) }} }}"}, //Water Grub
+				"FlashShifter.StardewValleyExpandedCP_Snatcher_Worm": {1: "{{Round: {{Query: (75 - (75 * 0.5)) }} }}"}, //Snatcher Worm
+				"FlashShifter.StardewValleyExpandedCP_Clownfish": {1: "{{Round: {{Query: (45 - (45 * 0.50)) }} }}"}, //Clownfish
+				"FlashShifter.StardewValleyExpandedCP_Starfish": {1: "{{Round: {{Query: (75 - (75 * 0.50)) }} }}"}, //Starfish
+				"FlashShifter.StardewValleyExpandedCP_Tadpole": {1: "{{Round: {{Query: (3 - (3 * 0.5)) }} }}"}, //Tadpole
+				"FlashShifter.StardewValleyExpandedCP_Diamond_Carp": {1: "{{Round: {{Query: (70 - (70 * 0.5)) }} }}"}, //Diamond Carp
+				"FlashShifter.StardewValleyExpandedCP_Fiber_Goby": {1: "{{Round: {{Query: (60 - (60 * 0.5)) }} }}"}, //Fiber Goby
+				"FlashShifter.StardewValleyExpandedCP_Highlands_Bass": {1: "{{Round: {{Query: (45 - (45 * 0.5)) }} }}"}, //Highlands Bass
+				"FlashShifter.StardewValleyExpandedCP_Alligator": {1: "{{Round: {{Query: (75 - (75 * 0.5)) }} }}"}, //Alligator
+				"FlashShifter.StardewValleyExpandedCP_Swamp_Crab": {1: "{{Round: {{Query: (35 - (35 * 0.5)) }} }}"}, //Swamp Crab
+				"FlashShifter.StardewValleyExpandedCP_Barred_Knifejaw": {1: "{{Round: {{Query: (65 - (65 * 0.5)) }} }}"}, //Barred Knifejaw
+				"FlashShifter.StardewValleyExpandedCP_Blue_Tang": {1: "{{Round: {{Query: (30 - (30 * 0.5)) }} }}"}, //Blue Tang
+				"FlashShifter.StardewValleyExpandedCP_Viper_Eel": {1: "{{Round: {{Query: (80 - (80 * 0.5)) }} }}"}, //Viper Eel
+				"FlashShifter.StardewValleyExpandedCP_Shark": {1: "{{Round: {{Query: (100 - (100 * 0.5)) }} }}"}, //Shark
+				"FlashShifter.StardewValleyExpandedCP_Arrowhead_Shark": {1: "{{Round: {{Query: (95 - (95 * 0.5)) }} }}"}, //Arrowhead Shark
+				"FlashShifter.StardewValleyExpandedCP_Ocean_Sunfish": {1: "{{Round: {{Query: (90 - (90 * 0.5)) }} }}"}, //Ocean Sunfish
+				"FlashShifter.StardewValleyExpandedCP_Wolf_Snapper": {1: "{{Round: {{Query: (110 - (110 * 0.5)) }} }}"}, //Wolf Snapper
+				"FlashShifter.StardewValleyExpandedCP_Goldfish": {1: "{{Round: {{Query: (25 - (25 * 0.5)) }} }}"}, //Goldfish
+				"FlashShifter.StardewValleyExpandedCP_Gar": {1: "{{Round: {{Query: (85 - (85 * 0.5)) }} }}"}, //Gar
+				"FlashShifter.StardewValleyExpandedCP_Turretfish": {1: "{{Round: {{Query: (999 - (999 * 0.5)) }} }}"}, //Turretfish
+					},
+				"When": {"Fishing Difficulty": "50% Easy Sunday",
+						 "DayOfWeek": "Sunday"},
+		},
+		{
+			"LogName": "SVE - Fishing Difficulty 50% Easy Sunday Razor Trout",
+			"Action": "EditData",
+			"Target": "Data/Fish",
+			"Fields": {
+				"FlashShifter.StardewValleyExpandedCP_Razor_Trout": {1: "{{Round: {{Query: (85 - (85 * 0.50)) }} }}"}, //Razor Trout
+					},
+				"When": {"Fishing Difficulty": "50% Easy Sunday", 
+						 "HasSeenevent": "5553210"},
+		},
+	]
+}

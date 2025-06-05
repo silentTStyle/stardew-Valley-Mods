@@ -1,0 +1,56 @@
+{
+  "Changes": [
+    // Change NPC Schedules - Portraits ------------------------------------------------------------
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Sandy",
+      "FromFile": "Characters/Sandy/assets/Portraits/Sandy_Lewd.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 128 },
+      "ToArea": { "X": 0, "Y": 640, "Width": 128, "Height": 128 },
+      "When": { 
+		"Change NPC Schedules": "true", 
+		"Hypnosis": "false",
+		"Sandy": "true",
+	  }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Sandy",
+      "FromFile": "Characters/Sandy/assets/Portraits/Sandy_Lewd_Hypnosis.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 128 },
+      "ToArea": { "X": 0, "Y": 640, "Width": 128, "Height": 128 },
+      "When": {
+		  "Change NPC Schedules": "true",
+		  "Hypnosis": "true",
+		  "Sandy": "true",
+	  }
+    },
+    // Change NPC Schedules - schedules ------------------------------------------------------------
+    {
+      "Action": "EditData",
+      "Target": "Characters/schedules/Sandy",
+      "Entries": {
+        "spring": "630 SandyHouse 2 5 2/1800 SandyHouse 2 5 2 sandy_onanie",
+      },
+      "When": { "Change NPC Schedules": "true" }
+    },
+    // Change NPC Schedules - animationDescriptions ------------------------------------------------
+    {
+      "Action": "EditData",
+      "Target": "Data/animationDescriptions",
+      "Entries": {
+        "sandy_onanie": "101/101/101/Strings\\animationDescriptions:sandy_onanie",
+      },
+      "When": { "Change NPC Schedules": "true" }
+    },
+    // Change NPC Schedules - animationDescriptions Dialogue ---------------------------------------
+    {
+      "Action": "EditData",
+      "Target": "Strings/animationDescriptions",
+      "Entries": {
+        "sandy_onanie": "{{i18n:NPC.Sandy.Fuck}}",
+      },
+      "When": { "Change NPC Schedules": "true" }
+    },
+  ]
+}

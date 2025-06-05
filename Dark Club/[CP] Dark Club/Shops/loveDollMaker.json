@@ -1,0 +1,321 @@
+{
+	"Changes": [
+		{
+			"Action": "Load",
+			"Target": "Mods/{{ModId}}/Portraits/LoveDollMaker",
+			"FromFile": "Shops/assets/Maker.png",
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"Entries": {
+				"LoveDollMaker": {
+					"Owners": [
+						{
+							"Portrait": "Mods/{{ModId}}/Portraits/LoveDollMaker",
+							"Dialogues": [
+								{
+									"Id": "LilithShop.openMessage",
+									"Dialogue": "{{i18n:Shop.LoveDollMaker.WelcomeMessage}}",
+								}
+							],
+							"Id": "Maker",
+							"Name": "Maker",
+						},
+					],
+
+					"Items": [
+						{
+							"Id": "LoveDoll_01",
+							"ItemId": "(BC)LoveDoll_01",
+							"TradeItemId": "(O)SlaveSoul",
+							"TradeItemAmount": 3,
+						},
+						{
+							"Id": "LoveDoll_02",
+							"ItemId": "(BC)LoveDoll_02",
+							"TradeItemId": "(O)SlaveSoul",
+							"TradeItemAmount": 3,
+						},
+						{
+							"Id": "LoveDoll_03",
+							"ItemId": "(BC)LoveDoll_03",
+							"TradeItemId": "(O)SlaveSoul",
+							"TradeItemAmount": 3,
+						},
+						{
+							"Id": "LoveDoll_04",
+							"ItemId": "(BC)LoveDoll_04",
+							"TradeItemId": "(O)SlaveSoul",
+							"TradeItemAmount": 3,
+						},
+						{
+							"Id": "LoveDoll_05",
+							"ItemId": "(BC)LoveDoll_05",
+							"TradeItemId": "(O)SlaveSoul",
+							"TradeItemAmount": 3,
+						},
+						{
+							"Id": "LoveDoll_06",
+							"ItemId": "(BC)LoveDoll_06",
+							"TradeItemId": "(O)SlaveSoul",
+							"TradeItemAmount": 3,
+						},
+						{
+							"Id": "LoveDoll_07",
+							"ItemId": "(BC)LoveDoll_07",
+							"TradeItemId": "(O)SlaveSoul",
+							"TradeItemAmount": 3,
+						},
+						{
+							"Id": "LoveDoll_08",
+							"ItemId": "(BC)LoveDoll_08",
+							"TradeItemId": "(O)SlaveSoul",
+							"TradeItemAmount": 3,
+						},
+						{
+							"Id": "LoveDoll_09",
+							"ItemId": "(BC)LoveDoll_09",
+							"TradeItemId": "(O)SlaveSoul",
+							"TradeItemAmount": 3,
+						},
+						{
+							"Id": "LoveDoll_10",
+							"ItemId": "(BC)LoveDoll_10",
+							"TradeItemId": "(O)SlaveSoul",
+							"TradeItemAmount": 3,
+						},
+						{
+							"Id": "LoveDoll_11",
+							"ItemId": "(BC)LoveDoll_11",
+							"TradeItemId": "(O)SlaveSoul",
+							"TradeItemAmount": 3,
+						},
+						{
+							"Id": "LoveDoll_12",
+							"ItemId": "(BC)LoveDoll_12",
+							"TradeItemId": "(O)SlaveSoul",
+							"TradeItemAmount": 3,
+						},
+						{
+							"Id": "LoveDoll_13",
+							"ItemId": "(BC)LoveDoll_13",
+							"TradeItemId": "(O)SlaveSoul",
+							"TradeItemAmount": 3,
+						},
+						{
+							"Id": "LoveDoll_14",
+							"ItemId": "(BC)LoveDoll_14",
+							"TradeItemId": "(O)SlaveSoul",
+							"TradeItemAmount": 3,
+						},
+						{
+							"Id": "LoveDoll_15",
+							"ItemId": "(BC)LoveDoll_15",
+							"TradeItemId": "(O)SlaveSoul",
+							"TradeItemAmount": 3,
+						},
+						{
+							"Id": "LoveDoll_16",
+							"ItemId": "(BC)LoveDoll_16",
+							"TradeItemId": "(O)SlaveSoul",
+							"TradeItemAmount": 3,
+						},
+						{
+							"Id": "LoveDoll_17",
+							"ItemId": "(BC)LoveDoll_17",
+							"TradeItemId": "(O)SlaveSoul",
+							"TradeItemAmount": 3,
+						},
+						{
+							"Id": "LoveDoll_18",
+							"ItemId": "(BC)LoveDoll_18",
+							"TradeItemId": "(O)SlaveSoul",
+							"TradeItemAmount": 3,
+						},
+						{
+							"Id": "LoveDoll_19",
+							"ItemId": "(BC)LoveDoll_19",
+							"TradeItemId": "(O)SlaveSoul",
+							"TradeItemAmount": 3,
+						},
+						{
+							"Id": "LoveDoll_20",
+							"ItemId": "(BC)LoveDoll_20",
+							"TradeItemId": "(O)SlaveSoul",
+							"TradeItemAmount": 3,
+						},
+						{
+							"Id": "LoveDoll_21",
+							"ItemId": "(BC)LoveDoll_21",
+							"TradeItemId": "(O)SlaveSoul",
+							"TradeItemAmount": 3,
+						},
+						{
+							"Id": "LoveDoll_22",
+							"ItemId": "(BC)LoveDoll_22",
+							"TradeItemId": "(O)SlaveSoul",
+							"TradeItemAmount": 3,
+						},
+						{
+							"Id": "LoveDoll_23",
+							"ItemId": "(BC)LoveDoll_23",
+							"TradeItemId": "(O)SlaveSoul",
+							"TradeItemAmount": 3,
+						},
+						{
+							"Id": "LoveDoll_24",
+							"ItemId": "(BC)LoveDoll_24",
+							"TradeItemId": "(O)SlaveSoul",
+							"TradeItemAmount": 3,
+						},
+						{
+							"Id": "LoveDoll_25",
+							"ItemId": "(BC)LoveDoll_25",
+							"TradeItemId": "(O)SlaveSoul",
+							"TradeItemAmount": 3,
+						},
+						{
+							"Id": "LoveDoll_26",
+							"ItemId": "(BC)LoveDoll_26",
+							"TradeItemId": "(O)SlaveSoul",
+							"TradeItemAmount": 3,
+						},
+						{
+							"Id": "LoveDoll_27",
+							"ItemId": "(BC)LoveDoll_27",
+							"TradeItemId": "(O)SlaveSoul",
+							"TradeItemAmount": 3,
+						},
+						{
+							"Id": "LoveDoll_28",
+							"ItemId": "(BC)LoveDoll_28",
+							"TradeItemId": "(O)SlaveSoul",
+							"TradeItemAmount": 3,
+						},
+						{
+							"Id": "LoveDoll_29",
+							"ItemId": "(BC)LoveDoll_29",
+							"TradeItemId": "(O)SlaveSoul",
+							"TradeItemAmount": 3,
+						},
+						{
+							"Id": "LoveDoll_30",
+							"ItemId": "(BC)LoveDoll_30",
+							"TradeItemId": "(O)SlaveSoul",
+							"TradeItemAmount": 3,
+						},
+						{
+							"Id": "LoveDoll_31",
+							"ItemId": "(BC)LoveDoll_31",
+							"TradeItemId": "(O)SlaveSoul",
+							"TradeItemAmount": 3,
+						},
+						{
+							"Id": "LoveDoll_32",
+							"ItemId": "(BC)LoveDoll_32",
+							"TradeItemId": "(O)SlaveSoul",
+							"TradeItemAmount": 3,
+						},
+						{
+							"Id": "LoveDoll_33",
+							"ItemId": "(BC)LoveDoll_33",
+							"TradeItemId": "(O)SlaveSoul",
+							"TradeItemAmount": 3,
+						},
+						{
+							"Id": "LoveDoll_34",
+							"ItemId": "(BC)LoveDoll_34",
+							"TradeItemId": "(O)SlaveSoul",
+							"TradeItemAmount": 3,
+						},
+						{
+							"Id": "LoveDoll_35",
+							"ItemId": "(BC)LoveDoll_35",
+							"TradeItemId": "(O)SlaveSoul",
+							"TradeItemAmount": 3,
+						},
+						{
+							"Id": "LoveDoll_36",
+							"ItemId": "(BC)LoveDoll_36",
+							"TradeItemId": "(O)SlaveSoul",
+							"TradeItemAmount": 3,
+						},
+						{
+							"Id": "LoveDoll_37",
+							"ItemId": "(BC)LoveDoll_37",
+							"TradeItemId": "(O)SlaveSoul",
+							"TradeItemAmount": 3,
+						},
+						{
+							"Id": "LoveDoll_38",
+							"ItemId": "(BC)LoveDoll_38",
+							"TradeItemId": "(O)SlaveSoul",
+							"TradeItemAmount": 3,
+						},
+						{
+							"Id": "LoveDoll_39",
+							"ItemId": "(BC)LoveDoll_39",
+							"TradeItemId": "(O)SlaveSoul",
+							"TradeItemAmount": 3,
+						},
+						{
+							"Id": "LoveDoll_40",
+							"ItemId": "(BC)LoveDoll_40",
+							"TradeItemId": "(O)SlaveSoul",
+							"TradeItemAmount": 3,
+						},
+						{
+							"Id": "LargeLoveDoll01",
+							"ItemId": "(F)LargeLoveDoll01",
+							"TradeItemId": "(O)SlaveSoul",
+							"TradeItemAmount": 5,
+						},
+						{
+							"Id": "LargeLoveDoll02",
+							"ItemId": "(F)LargeLoveDoll02",
+							"TradeItemId": "(O)SlaveSoul",
+							"TradeItemAmount": 5,
+						},
+						{
+							"Id": "LargeLoveDoll03",
+							"ItemId": "(F)LargeLoveDoll03",
+							"TradeItemId": "(O)SlaveSoul",
+							"TradeItemAmount": 5,
+						},
+						{
+							"Id": "LargeLoveDoll04",
+							"ItemId": "(F)LargeLoveDoll04",
+							"TradeItemId": "(O)SlaveSoul",
+							"TradeItemAmount": 5,
+						},
+						{
+							"Id": "LargeLoveDoll05",
+							"ItemId": "(F)LargeLoveDoll05",
+							"TradeItemId": "(O)SlaveSoul",
+							"TradeItemAmount": 5,
+						},
+						{
+							"Id": "LargeLoveDoll06",
+							"ItemId": "(F)LargeLoveDoll06",
+							"TradeItemId": "(O)SlaveSoul",
+							"TradeItemAmount": 5,
+						},
+						{
+							"Id": "LargeLoveDoll07",
+							"ItemId": "(F)LargeLoveDoll07",
+							"TradeItemId": "(O)SlaveSoul",
+							"TradeItemAmount": 5,
+						},
+						{
+							"Id": "LargeLoveDoll08",
+							"ItemId": "(F)LargeLoveDoll08",
+							"TradeItemId": "(O)SlaveSoul",
+							"TradeItemAmount": 5,
+						},
+					]
+				}
+			}
+		}
+	]
+}

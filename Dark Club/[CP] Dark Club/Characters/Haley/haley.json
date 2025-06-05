@@ -1,0 +1,96 @@
+{
+  "Changes": [
+    // Change NPC Schedules - Portraits ------------------------------------------------------------
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Haley",
+      "FromFile": "Characters/Haley/assets/Portraits/Haley_Lewd.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 128 },
+      "ToArea": { "X": 0, "Y": 640, "Width": 128, "Height": 128 },
+      "When": { 
+		"Change NPC Schedules": "true", 
+		"Hypnosis": "false",
+		"Haley": "true",
+	  }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Haley",
+      "FromFile": "Characters/Haley/assets/Portraits/Haley_Lewd_Hypnosis.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 128 },
+      "ToArea": { "X": 0, "Y": 640, "Width": 128, "Height": 128 },
+      "When": { 
+		"Change NPC Schedules": "true", 
+		"Hypnosis": "true",
+		"Haley": "true",
+	  }
+    },
+	{
+      "Action": "EditImage",
+      "Target": "Portraits/Haley_Winter",
+      "FromFile": "Characters/Haley/assets/Portraits/Haley_Lewd.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 128 },
+      "ToArea": { "X": 0, "Y": 640, "Width": 128, "Height": 128 },
+      "When": { 
+		"Change NPC Schedules": "true", 
+		"Hypnosis": "false",
+		"Haley": "true",
+	  }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Haley_Winter",
+      "FromFile": "Characters/Haley/assets/Portraits/Haley_Lewd_Hypnosis.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 128 },
+      "ToArea": { "X": 0, "Y": 640, "Width": 128, "Height": 128 },
+      "When": { 
+		"Change NPC Schedules": "true", 
+		"Hypnosis": "true",
+		"Haley": "true",
+	  }
+    },
+    // Change NPC Schedules - schedules ------------------------------------------------------------
+    {
+      "Action": "EditData",
+      "Target": "Characters/schedules/Haley",
+      "Entries": {
+        "rain": "830 HaleyHouse 2 5 2 \"Strings\\schedules\\Haley:rain.000\"/1030 HaleyHouse 6 5 0/1130 HaleyHouse 8 7 1/1200 HaleyHouse 19 16 0 square_5_1_0/1600 HaleyHouse 7 5 2 haley_onanie1/2000 5 5 2 haley_dildo/2400 HaleyHouse 1 5 3 haley_uplate",
+        "rain2": "830 HaleyHouse 1 5 3 haley_uplate/1030 HaleyHouse 6 5 0/1130 HaleyHouse 8 7 1/1200 HaleyHouse 19 16 0 square_5_1_0/1630 Custom_DarkClub 6 28 1 haley_photodc/2000 Custom_DarkClub 6 28 1 haley_onanie2",
+        "Wed": "900 HaleyHouse 6 5 0/950 HaleyHouse 8 7 1 haley_onanie2/1300 HaleyHouse 1 5 3 haley_uplate/1640 Custom_DarkClub 6 28 1 haley_photodc/2000 Custom_DarkClub 6 28 1 haley_onanie2",
+        "spring": "900 HaleyHouse 6 5 0/950 HaleyHouse 8 7 1/1100 Town 23 22 2/1430 Town 23 22 2 haley_onanie1/1630 HaleyHouse 19 16 0 square_5_1_0/2000 HaleyHouse 7 5 2 haley_vibrator/2400 HaleyHouse 1 5 3 haley_sleep",
+        "spring_Mon": "800 HaleyHouse 6 5 0/830 HaleyHouse 1 8 2/1000 HaleyHouse 19 16 0/1100 Forest 77 44 2 haley_photo/1630 HaleyHouse 19 16 0 square_5_1/2000 HaleyHouse 1 5 3 haley_uplate",
+        "summer": "840 HaleyHouse 6 5 0/930 HaleyHouse 8 7 1/1030 Beach 19 7 1 haley_onanie1/1330 Town 90 91 3/1700 HaleyHouse 19 16 0 square_5_1/2000 HaleyHouse 5 5 2 haley_dildo/2400 HaleyHouse 1 5 3 haley_sleep",
+        "fall_Mon": "GOTO spring_Mon",
+        "winter": "830 HaleyHouse 2 5 2 \"Strings\\schedules\\Haley:winter.000\"/1000 HaleyHouse 8 7 1 haley_onanie2/1200 HaleyHouse 19 16 0 square_5_1_0/1600 HaleyHouse 5 5 2 haley_dildo/2000 HaleyHouse 7 5 2 haley_vibrator/2400 HaleyHouse 1 5 3 haley_sleep"
+      },
+      "When": { "Change NPC Schedules": "true" }
+    },
+    // Change NPC Schedules - animationDescriptions ------------------------------------------------
+    {
+      "Action": "EditData",
+      "Target": "Data/animationDescriptions",
+      "Entries": {
+        "haley_uplate": "100/100/100/Strings\\animationDescriptions:haley_uplate",
+        "haley_onanie1": "101/101/101/Strings\\animationDescriptions:haley_onanie1",
+        "haley_onanie2": "102/102/102/Strings\\animationDescriptions:haley_onanie2",
+        "haley_dildo": "103/103/103/Strings\\animationDescriptions:haley_dildo",
+        "haley_vibrator": "104/104/104/Strings\\animationDescriptions:haley_vibrator",
+        "haley_photodc": "33/33 33 33 33 33 33 33 33 33 33 33 33 33 33 33 32 25 25 25 25 25 25 25 25 25 25 32 33 33 33 33 33 33 33 32 25 25 25 25 25 25 25 25 25 32 33 33 33 33 33 33/33",
+      },
+      "When": { "Change NPC Schedules": "true" }
+    },
+    // Change NPC Schedules - animationDescriptions Dialogue ---------------------------------------
+    {
+      "Action": "EditData",
+      "Target": "Strings/animationDescriptions",
+      "Entries": {
+        "haley_uplate1": "{{i18n:NPC.Haley.UpLate}}",
+        "haley_onanie1": "{{i18n:NPC.Haley.Fuck}}",
+        "haley_onanie2": "{{i18n:NPC.Haley.Fuck}}",
+        "haley_dildo": "{{i18n:NPC.Haley.Fuck}}",
+        "haley_vibrator": "{{i18n:NPC.Haley.Fuck}}",
+      },
+      "When": { "Change NPC Schedules": "true" }
+    },
+  ]
+}

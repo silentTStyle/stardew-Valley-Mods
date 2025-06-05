@@ -1,0 +1,110 @@
+{
+   "Format": "2.0.1",
+    "ConfigSchema": {
+        "EnableShaneNoBrow": {
+            "AllowValues": "true, false",
+            "Default": false
+        },
+		"EnableSamHairPin": {
+            "AllowValues": "true, false",
+            "Default": false
+        }
+    },
+   "Changes": [
+      {
+         "Action": "EditImage",
+         "Target": "Characters/Sam_Beach.xnb",
+         "FromFile": "assets/Sam_BeachOW.png"
+      },
+
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Sam_Beach.xnb",
+         "FromFile": "assets/Sam_Beach.png",
+		 "When": {
+            "EnableSamHairPin": "false"
+         }
+      },
+
+	  {
+         "Action": "EditImage",
+         "Target": "Portraits/Sam_Beach.xnb",
+         "FromFile": "assets/Sam_Beach_Pin.png",
+         "When": {
+            "EnableSamHairPin": "true"
+         }
+      },
+
+      {
+         "Action": "EditImage",
+         "Target": "Characters/Sebastian_Beach.xnb",
+         "FromFile": "assets/Sebastian_BeachOW.png"
+      },
+
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Sebastian_Beach.xnb",
+         "FromFile": "assets/Sebastian_Beach.png"
+      },
+      
+      {
+         "Action": "EditImage",
+         "Target": "Characters/Elliott_Beach.xnb",
+         "FromFile": "assets/Elliott_BeachOW.png"
+      },
+
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Elliott_Beach.xnb",
+         "FromFile": "assets/Elliott_Beach.png"
+      },
+
+      {
+         "Action": "EditImage",
+         "Target": "Characters/Alex_Beach.xnb",
+         "FromFile": "assets/Alex_BeachOW.png"
+      },
+
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Alex_Beach.xnb",
+         "FromFile": "assets/Alex_Beach.png"
+      },
+	  
+      {
+         "Action": "EditImage",
+         "Target": "Characters/Harvey_Beach.xnb",
+         "FromFile": "assets/Harvey_BeachOW.png"
+      },
+	  
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Harvey_Beach.xnb",
+         "FromFile": "assets/Harvey_Beach.png"
+      },
+	  
+	  {
+         "Action": "EditImage",
+         "Target": "Characters/Shane_Beach.xnb",
+         "FromFile": "assets/Shane_BeachOW.png"
+      },
+	  
+	  {
+         "Action": "EditImage",
+         "Target": "Portraits/Shane_Beach.xnb",
+         "FromFile": "assets/Shane_Beach.png",
+		 "When": {
+                "EnableShaneNoBrow": "false"
+            }
+      },
+	  
+	  {
+            "Action": "EditImage",
+            "Target": "Portraits/Shane_Beach.xnb",
+            "FromFile": "assets/Shane_Beach_No_Brows.png",
+            "When": {
+                "EnableShaneNoBrow": "true"
+            }
+      }
+   ]
+}

@@ -1,0 +1,104 @@
+{
+	"Changes": [
+		{
+			"LogName": "Fish Shop Deluxe Worm Bin Price 7500g",
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "FishShop", "Items" ],
+			"Fields": {
+			    "(BC)DeluxeWormBin": {"Price": 7500},
+					   },
+			"When": {"Fish Shop Deluxe Worm Bin": "Immediately, Fishing Level 8, Fishing Level 6, Fishing Level 4, Fishing Level 2, Fishing Level 1", "Fish Shop Deluxe Worm Bin Price": "7500g"},
+		},
+		{
+			"LogName": "Fish Shop Deluxe Worm Bin Price 5000g",
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "FishShop", "Items" ],
+			"Fields": {
+			    "(BC)DeluxeWormBin": {"Price": 5000},
+					   },
+			"When": {"Fish Shop Deluxe Worm Bin": "Immediately, Fishing Level 8, Fishing Level 6, Fishing Level 4, Fishing Level 2, Fishing Level 1", "Fish Shop Deluxe Worm Bin Price": "5000g"},
+		},
+		{
+			"LogName": "Fish Shop Deluxe Worm Bin Price 4000g",
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "FishShop", "Items" ],
+			"Fields": {
+			    "(BC)DeluxeWormBin": {"Price": 4000},
+					   },
+			"When": {"Fish Shop Deluxe Worm Bin": "Immediately, Fishing Level 8, Fishing Level 6, Fishing Level 4, Fishing Level 2, Fishing Level 1", "Fish Shop Deluxe Worm Bin Price": "4000g"},
+		},
+		{
+			"LogName": "Fish Shop Deluxe Worm Bin Price 3000g",
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "FishShop", "Items" ],
+			"Fields": {
+			    "(BC)DeluxeWormBin": {"Price": 3000},
+					   },
+			"When": {"Fish Shop Deluxe Worm Bin": "Immediately, Fishing Level 8, Fishing Level 6, Fishing Level 4, Fishing Level 2, Fishing Level 1", "Fish Shop Deluxe Worm Bin Price": "3000g"},
+		},
+		{
+			"LogName": "Fish Shop Deluxe Worm Bin Price 2000g",
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "FishShop", "Items" ],
+			"Fields": {
+			    "(BC)DeluxeWormBin": {"Price": 2000},
+					   },
+			"When": {"Fish Shop Deluxe Worm Bin": "Immediately, Fishing Level 8, Fishing Level 6, Fishing Level 4, Fishing Level 2, Fishing Level 1", "Fish Shop Deluxe Worm Bin Price": "2000g"},
+		},
+		{
+			"LogName": "Fish Shop Deluxe Worm Bin Price 1000g",
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "FishShop", "Items" ],
+			"Fields": {
+			    "(BC)DeluxeWormBin": {"Price": 1000},
+					   },
+			"When": {"Fish Shop Deluxe Worm Bin": "Immediately, Fishing Level 8, Fishing Level 6, Fishing Level 4, Fishing Level 2, Fishing Level 1", "Fish Shop Deluxe Worm Bin Price": "1000g"},
+		},
+		{
+			"LogName": "Fish Shop Deluxe Worm Bin Price 750g",
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "FishShop", "Items" ],
+			"Fields": {
+			    "(BC)DeluxeWormBin": {"Price": 750},
+					   },
+			"When": {"Fish Shop Deluxe Worm Bin": "Immediately, Fishing Level 8, Fishing Level 6, Fishing Level 4, Fishing Level 2, Fishing Level 1", "Fish Shop Deluxe Worm Bin Price": "750g"},
+		},
+		{
+			"LogName": "Fish Shop Deluxe Worm Bin Price 500g",
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "FishShop", "Items" ],
+			"Fields": {
+			    "(BC)DeluxeWormBin": {"Price": 500},
+					   },
+			"When": {"Fish Shop Deluxe Worm Bin": "Immediately, Fishing Level 8, Fishing Level 6, Fishing Level 4, Fishing Level 2, Fishing Level 1", "Fish Shop Deluxe Worm Bin Price": "500g"},
+		},
+		{
+			"LogName": "Fish Shop Deluxe Worm Bin Price 250g",
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "FishShop", "Items" ],
+			"Fields": {
+			    "(BC)DeluxeWormBin": {"Price": 250},
+					   },
+			"When": {"Fish Shop Deluxe Worm Bin": "Immediately, Fishing Level 8, Fishing Level 6, Fishing Level 4, Fishing Level 2, Fishing Level 1", "Fish Shop Deluxe Worm Bin Price": "250g"},
+		},
+		{
+			"LogName": "Fish Shop Deluxe Worm Bin Price 1g",
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "FishShop", "Items" ],
+			"Fields": {
+			    "(BC)DeluxeWormBin": {"Price": 1},
+					   },
+			"When": {"Fish Shop Deluxe Worm Bin": "Immediately, Fishing Level 8, Fishing Level 6, Fishing Level 4, Fishing Level 2, Fishing Level 1", "Fish Shop Deluxe Worm Bin Price": "1g"},
+		},
+	]
+}

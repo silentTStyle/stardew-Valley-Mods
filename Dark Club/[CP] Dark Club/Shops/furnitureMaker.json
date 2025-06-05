@@ -1,0 +1,339 @@
+{
+	"Changes": [
+		{
+			"Action": "Load",
+			"Target": "Mods/{{ModId}}/Portraits/LoveDollMaker",
+			"FromFile": "Shops/assets/Maker.png",
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"Entries": {
+				"MeatFurnitureMaker": {
+					"Owners": [
+						{
+							"Portrait": "Mods/{{ModId}}/Portraits/LoveDollMaker",
+							"Dialogues": [
+								{
+									"Id": "LilithShop.openMessage",
+									"Dialogue": "{{i18n:Shop.LoveDollMaker.WelcomeMessage}}",
+								}
+							],
+							"Id": "Maker",
+							"Name": "Maker",
+						},
+					],
+
+					"Items": [
+						{
+							"Id": "WoodenHorse",
+							"ItemId": "(F)WoodenHorse",
+							"TradeItemId": "(O)388",
+							"TradeItemAmount": 50,
+						},
+						{
+							"Id": "TrainingToolShelf",
+							"ItemId": "(F)TrainingToolShelf",
+							"TradeItemId": "(O)388",
+							"TradeItemAmount": 50,
+						},
+						{
+							"Id": "VoyeurismTV",
+							"ItemId": "(F)VoyeurismTV",
+							"TradeItemId": "(O)787",
+							"TradeItemAmount": 5,
+						},
+						{
+							"Id": "PaintingCreamPie",
+							"ItemId": "(F)PaintingCreamPie",
+							"TradeItemId": "(O)SoullessBodyA",
+							"TradeItemAmount": 3,
+						},
+						{
+							"Id": "PaintingEstrus",
+							"ItemId": "(F)PaintingEstrus",
+							"TradeItemId": "(O)SoullessBodyB",
+							"TradeItemAmount": 3,
+						},
+						{
+							"Id": "PaintingTemptation",
+							"ItemId": "(F)PaintingTemptation",
+							"TradeItemId": "(O)SoullessBodyC",
+							"TradeItemAmount": 3,
+						},
+						{
+							"Id": "PaintingDoublePiece",
+							"ItemId": "(F)PaintingDoublePiece",
+							"TradeItemId": "(O)SoullessBodyD",
+							"TradeItemAmount": 3,
+						},
+						{
+							"Id": "MeatRug01",
+							"ItemId": "(F)MeatRug01",
+							"TradeItemId": "(O)SoullessBodyA",
+							"TradeItemAmount": 1,
+						},
+						{
+							"Id": "MeatRug02",
+							"ItemId": "(F)MeatRug02",
+							"TradeItemId": "(O)SoullessBodyB",
+							"TradeItemAmount": 1,
+						},
+						{
+							"Id": "MeatRug03",
+							"ItemId": "(F)MeatRug03",
+							"TradeItemId": "(O)SoullessBodyC",
+							"TradeItemAmount": 1,
+						},
+						{
+							"Id": "MeatRug04",
+							"ItemId": "(F)MeatRug04",
+							"TradeItemId": "(O)SoullessBodyD",
+							"TradeItemAmount": 1,
+						},
+						{
+							"Id": "TortureTable01",
+							"ItemId": "(F)TortureTable01",
+							"TradeItemId": "(O)SoullessBodyA",
+							"TradeItemAmount": 1,
+						},
+						{
+							"Id": "TortureTable02",
+							"ItemId": "(F)TortureTable02",
+							"TradeItemId": "(O)SoullessBodyB",
+							"TradeItemAmount": 1,
+						},
+						{
+							"Id": "TortureTable03",
+							"ItemId": "(F)TortureTable03",
+							"TradeItemId": "(O)SoullessBodyC",
+							"TradeItemAmount": 1,
+						},
+						{
+							"Id": "TortureTable04",
+							"ItemId": "(F)TortureTable04",
+							"TradeItemId": "(O)SoullessBodyD",
+							"TradeItemAmount": 1,
+						},
+						{
+							"Id": "Pillory01",
+							"ItemId": "(F)Pillory01",
+							"TradeItemId": "(O)SoullessBodyA",
+							"TradeItemAmount": 1,
+						},
+						{
+							"Id": "Pillory02",
+							"ItemId": "(F)Pillory02",
+							"TradeItemId": "(O)SoullessBodyB",
+							"TradeItemAmount": 1,
+						},
+						{
+							"Id": "Pillory03",
+							"ItemId": "(F)Pillory03",
+							"TradeItemId": "(O)SoullessBodyC",
+							"TradeItemAmount": 1,
+						},
+						{
+							"Id": "Pillory04",
+							"ItemId": "(F)Pillory04",
+							"TradeItemId": "(O)SoullessBodyD",
+							"TradeItemAmount": 1,
+						},
+						{
+							"Id": "HangingHandcuffs01",
+							"ItemId": "(F)HangingHandcuffs01",
+							"TradeItemId": "(O)SoullessBodyA",
+							"TradeItemAmount": 1,
+						},
+						{
+							"Id": "HangingHandcuffs02",
+							"ItemId": "(F)HangingHandcuffs02",
+							"TradeItemId": "(O)SoullessBodyB",
+							"TradeItemAmount": 1,
+						},
+						{
+							"Id": "HangingHandcuffs03",
+							"ItemId": "(F)HangingHandcuffs03",
+							"TradeItemId": "(O)SoullessBodyC",
+							"TradeItemAmount": 1,
+						},
+						{
+							"Id": "HangingHandcuffs04",
+							"ItemId": "(F)HangingHandcuffs04",
+							"TradeItemId": "(O)SoullessBodyD",
+							"TradeItemAmount": 1,
+						},
+						{
+							"Id": "Stake01",
+							"ItemId": "(F)Stake01",
+							"TradeItemId": "(O)SoullessBodyA",
+							"TradeItemAmount": 1,
+						},
+						{
+							"Id": "Stake02",
+							"ItemId": "(F)Stake02",
+							"TradeItemId": "(O)SoullessBodyB",
+							"TradeItemAmount": 1,
+						},
+						{
+							"Id": "Stake03",
+							"ItemId": "(F)Stake03",
+							"TradeItemId": "(O)SoullessBodyC",
+							"TradeItemAmount": 1,
+						},
+						{
+							"Id": "Stake04",
+							"ItemId": "(F)Stake04",
+							"TradeItemId": "(O)SoullessBodyD",
+							"TradeItemAmount": 1,
+						},
+						{
+							"Id": "WaterTortureCell01",
+							"ItemId": "(F)WaterTortureCell01",
+							"TradeItemId": "(O)SoullessBodyA",
+							"TradeItemAmount": 1,
+						},
+						{
+							"Id": "WaterTortureCell02",
+							"ItemId": "(F)WaterTortureCell02",
+							"TradeItemId": "(O)SoullessBodyB",
+							"TradeItemAmount": 1,
+						},
+						{
+							"Id": "WaterTortureCell03",
+							"ItemId": "(F)WaterTortureCell03",
+							"TradeItemId": "(O)SoullessBodyC",
+							"TradeItemAmount": 1,
+						},
+						{
+							"Id": "WaterTortureCell04",
+							"ItemId": "(F)WaterTortureCell04",
+							"TradeItemId": "(O)SoullessBodyD",
+							"TradeItemAmount": 1,
+						},
+						{
+							"Id": "VoreWorm01",
+							"ItemId": "(F)VoreWorm01",
+							"TradeItemId": "(O)SoullessBodyA",
+							"TradeItemAmount": 1,
+						},
+						{
+							"Id": "VoreWorm02",
+							"ItemId": "(F)VoreWorm02",
+							"TradeItemId": "(O)SoullessBodyB",
+							"TradeItemAmount": 1,
+						},
+						{
+							"Id": "VoreWorm03",
+							"ItemId": "(F)VoreWorm03",
+							"TradeItemId": "(O)SoullessBodyC",
+							"TradeItemAmount": 1,
+						},
+						{
+							"Id": "VoreWorm04",
+							"ItemId": "(F)VoreWorm04",
+							"TradeItemId": "(O)SoullessBodyD",
+							"TradeItemAmount": 1,
+						},
+						{
+							"Id": "MeatLamp01",
+							"ItemId": "(F)MeatLamp01",
+							"TradeItemId": "(O)SoullessBodyA",
+							"TradeItemAmount": 1,
+						},
+						{
+							"Id": "MeatLamp02",
+							"ItemId": "(F)MeatLamp02",
+							"TradeItemId": "(O)SoullessBodyB",
+							"TradeItemAmount": 1,
+						},
+						{
+							"Id": "MeatLamp03",
+							"ItemId": "(F)MeatLamp03",
+							"TradeItemId": "(O)SoullessBodyC",
+							"TradeItemAmount": 1,
+						},
+						{
+							"Id": "MeatLamp04",
+							"ItemId": "(F)MeatLamp04",
+							"TradeItemId": "(O)SoullessBodyD",
+							"TradeItemAmount": 1,
+						},
+						{
+							"Id": "ButtWallSconce01",
+							"ItemId": "(F)ButtWallSconce01",
+							"TradeItemId": "(O)SoullessBodyA",
+							"TradeItemAmount": 1,
+						},
+						{
+							"Id": "ButtWallSconce02",
+							"ItemId": "(F)ButtWallSconce02",
+							"TradeItemId": "(O)SoullessBodyB",
+							"TradeItemAmount": 1,
+						},
+						{
+							"Id": "ButtWallSconce03",
+							"ItemId": "(F)ButtWallSconce03",
+							"TradeItemId": "(O)SoullessBodyC",
+							"TradeItemAmount": 1,
+						},
+						{
+							"Id": "ButtWallSconce04",
+							"ItemId": "(F)ButtWallSconce04",
+							"TradeItemId": "(O)SoullessBodyD",
+							"TradeItemAmount": 1,
+						},
+						{
+							"Id": "OppaiChair01",
+							"ItemId": "(F)OppaiChair01",
+							"TradeItemId": "(O)SoullessBodyA",
+							"TradeItemAmount": 3,
+						},
+						{
+							"Id": "OppaiChair02",
+							"ItemId": "(F)OppaiChair02",
+							"TradeItemId": "(O)SoullessBodyB",
+							"TradeItemAmount": 3,
+						},
+						{
+							"Id": "OppaiChair03",
+							"ItemId": "(F)OppaiChair03",
+							"TradeItemId": "(O)SoullessBodyC",
+							"TradeItemAmount": 3,
+						},
+						{
+							"Id": "OppaiChair04",
+							"ItemId": "(F)OppaiChair04",
+							"TradeItemId": "(O)SoullessBodyD",
+							"TradeItemAmount": 3,
+						},
+						{
+							"Id": "ButtWall01",
+							"ItemId": "(F)ButtWall01",
+							"TradeItemId": "(O)SoullessBodyA",
+							"TradeItemAmount": 3,
+						},
+						{
+							"Id": "ButtWall02",
+							"ItemId": "(F)ButtWall02",
+							"TradeItemId": "(O)SoullessBodyB",
+							"TradeItemAmount": 3,
+						},
+						{
+							"Id": "ButtWall03",
+							"ItemId": "(F)ButtWall03",
+							"TradeItemId": "(O)SoullessBodyC",
+							"TradeItemAmount": 3,
+						},
+						{
+							"Id": "ButtWall04",
+							"ItemId": "(F)ButtWall04",
+							"TradeItemId": "(O)SoullessBodyD",
+							"TradeItemAmount": 3,
+						},
+					]
+				}
+			}
+		}
+	]
+}

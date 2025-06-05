@@ -1,0 +1,11 @@
+{
+   "Name": "Female Bachelors Beach",
+   "Author": "RhythmREDK",
+   "Description": " ",
+   "Version": "4.52",
+   "UniqueID": "female.bachelors.beach",
+   "ContentPackFor": {
+       "UniqueID": "Pathoschild.ContentPatcher"
+    },
+   "UpdateKeys": [ "Nexus:7342" ],
+}

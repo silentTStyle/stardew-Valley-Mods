@@ -1,0 +1,97 @@
+{
+  //UI
+  "QuickStackButton.hoverText": "快速收纳到附近的箱子", 
+
+  
+  "AutoOrganizeButton.hoverText": "自动整理",
+  "AutoOrganizeButton.hoverText.disable": "（右键关闭）",
+  "AutoOrganizeButton.hoverText.disable-gamepad": "（按X关闭）",
+
+  // ModConfigMenu 
+  "ModConfigMenu.Label.QuickStackToNearbyChests": "快速收纳到附近的箱子",
+
+  "ModConfigMenu.IsEnableQuickStack.Name": "启用快速收纳?",
+  "ModConfigMenu.IsEnableQuickStack.Desc": "如果启用，将在您的库存菜单中添加\"快速收纳到附近的箱子\"按钮。按下此按钮将从你的库存物品收纳到附近任何包含该物品的箱子。",
+
+  "ModConfigMenu.QuickStackRange.Name": "探测范围",
+  "ModConfigMenu.QuickStackRange.Desc": "玩家能探测到箱子的范围。\n\n\"范围\"选项仅探测玩家一定范围内的箱子。\n\n\"全局\"选项将探测全图范围内的箱子。",
+  "ModConfigMenu.QuickStackRange.ChestsAnywhereGlobalWarning": "快速收纳配置已从\"全局\"更改为\"范围\"。\"全局\"仅在安装Chests Anywhere模组后可启用。",
+
+  "ModConfigMenu.IsEnableQuickStackHotkey.Name": "启用快捷键?",
+  "ModConfigMenu.IsEnableQuickStackHotkey.Desc": "如果启用，按下下面指定的快捷键将快速收纳您的物品（无论是否打开背包）。",
+
+  "ModConfigMenu.QuickStackKeyboardHotkey.Name": "快捷键(键盘)",
+  "ModConfigMenu.QuickStackKeyboardHotkey.Desc": "按此键可快速收纳物品。",
+
+  "ModConfigMenu.QuickStackControllerHotkey.Name": "快捷键(手柄)",
+  "ModConfigMenu.QuickStackControllerHotkey.Desc": "按此键可快速收纳物品。",
+
+  "ModConfigMenu.IsQuickStackIntoBuildingsWithInventories.Name": "收纳到建筑物?",
+  "ModConfigMenu.IsQuickStackIntoBuildingsWithInventories.Desc": "启用后，物品在收纳时可能会被放入附近有物品栏的建筑（如磨坊或祝尼魔小屋）。",
+
+  "ModConfigMenu.IsQuickStackIntoDressers.Name": "收纳到梳妆台?",
+  "ModConfigMenu.IsQuickStackIntoDressers.Desc": "（需要启用\"收纳溢出物品?\"）\n启用后，物品在收纳时可能会被放入附近的梳妆台。",
+
+  "ModConfigMenu.IsQuickStackOverflowItems.Name": "收纳溢出物品?",
+  "ModConfigMenu.IsQuickStackOverflowItems.Desc": "启用后，物品在收纳时将尽可能的放在已含有该类同品质物品的箱子中，无论该箱子中物品是否已达一组。",
+
+  "ModConfigMenu.IsQuickStackIgnoreItemQuality.Name": "收纳时忽略品质?",
+  "ModConfigMenu.IsQuickStackIgnoreItemQuality.Desc": "（需要启用\"收纳溢出物品?\"）\n启用后，不同品质的相同物品将尽可能的收到同一个箱子中。",
+
+  "ModConfigMenu.IsQuickStackTooltipDrawNearbyChests.Name": "在提示中显示附近的箱子?",
+  "ModConfigMenu.IsQuickStackTooltipDrawNearbyChests.Desc": "启用后，将鼠标悬停在快速收纳按钮上将显示附近所有箱子的预览，且按距离排序。",
+
+  "ModConfigMenu.IsEnableQuickStackAnimation.Name": "启用收纳动画?",
+  "ModConfigMenu.IsEnableQuickStackAnimation.Desc": "启用后，物品在收纳时将播放动画以直观的看见该物品储存位置。",
+
+  "ModConfigMenu.QuickStackAnimationItemSpeed.Name": "动画：物品速度",
+  "ModConfigMenu.QuickStackAnimationItemSpeed.Desc": "调节物品飞向箱子的速度。\n\n0.5x：0.5倍速\n1x：一倍速（默认）\n3x：三倍速",
+
+  "ModConfigMenu.QuickStackAnimationStackSpeed.Name": "动画：收纳速度",
+  "ModConfigMenu.QuickStackAnimationStackSpeed.Desc": "调节物品进入箱子的速度。\n\n0.5x：0.5倍速\n1x：一倍速（默认）\n3x：三倍速",
+
+  "ModConfigMenu.Label.FavoriteItems": "收藏",
+
+  "ModConfigMenu.IsEnableFavoriteItems.Name": "启用收藏项?",
+  "ModConfigMenu.IsEnableFavoriteItems.Desc": "启用后，库存中的物品可以加入收藏。收藏的物品将不会快速收纳到附近的箱子。您将无法丢弃或遗落收藏的物品。",
+
+  "ModConfigMenu.FavoriteItemsHighlightTextureChoice.Name": "高亮的风格",
+  "ModConfigMenu.FavoriteItemsHighlightTextureChoice.Desc": "选择你喜欢的纹理样式来突出显示你收藏的物品。",
+  "ModConfigMenu.FavoriteItemsHighlightTextureChoice.Desc-0": "金色虚线",
+  "ModConfigMenu.FavoriteItemsHighlightTextureChoice.Desc-1": "干净的金色虚线",
+  "ModConfigMenu.FavoriteItemsHighlightTextureChoice.Desc-2": "金色边框：粗",
+  "ModConfigMenu.FavoriteItemsHighlightTextureChoice.Desc-3": "金色边框：纹理",
+  "ModConfigMenu.FavoriteItemsHighlightTextureChoice.Desc-4": "金色边框",
+  "ModConfigMenu.FavoriteItemsHighlightTextureChoice.Desc-5": "黑色虚线",
+  "ModConfigMenu.FavoriteItemsHighlightTextureChoice.Desc-6": "黑色边框：粗",
+
+  "ModConfigMenu.FavoriteItemsKeyboardHotkey.Name": "快捷键(键盘)",
+  "ModConfigMenu.FavoriteItemsKeyboardHotkey.Desc": "按此键将物品加入收藏。",
+
+  "ModConfigMenu.FavoriteItemsControllerHotkey.Name": "快捷键(手柄)",
+  "ModConfigMenu.FavoriteItemsControllerHotkey.Desc": "按此键将物品加入收藏。",
+
+  "ModConfigMenu.Label.TakeAllButOne": "只留一个",
+
+  "ModConfigMenu.IsEnableTakeAllButOne.Name": "启用只留一个?",
+  "ModConfigMenu.IsEnableTakeAllButOne.Desc": "启用后，在按住快捷键时取出物品将会全部取出，仅会留一个在箱子中。",
+
+  "ModConfigMenu.TakeAllButOneKeyboardHotkey.Name": "快捷键（键盘）",
+  "ModConfigMenu.TakeAllButOneKeyboardHotkey.Desc": "按住此键时取出物品将会全部取出，仅会留一个在箱子中。",
+
+  "ModConfigMenu.TakeAllButOneControllerHotkey.Name": "快捷键（手柄）",
+  "ModConfigMenu.TakeAllButOneControllerHotkey.Desc": "按住此键时取出物品将会全部取出，仅会留一个在箱子中。",
+
+  "ModConfigMenu.Label.AutoOrganizeChest": "自动整理",
+
+  "ModConfigMenu.IsEnableAutoOrganizeChest.Name": "启用自动整理?",
+  "ModConfigMenu.IsEnableAutoOrganizeChest.Desc": "启用后，右键箱子的整理按钮（或使用手柄的X键）启用/关闭自动整理。启用自动整理时，添加新物品进箱子后将会自动帮您点击整理按钮。",
+
+  "ModConfigMenu.IsShowAutoOrganizeButtonInstructions.Name": "在悬停文本中显示说明?",
+  "ModConfigMenu.IsShowAutoOrganizeButtonInstructions.Desc": "启用后，鼠标放在整理按钮上时将包括一行额外的内容，解释如何关闭自动整理。",
+
+  "ModConfigMenu.Label.Miscellaneous": "杂项",
+
+  "ModConfigMenu.IsEnableInventoryPageSideWarp.Name": "启用物品栏光标对称?",
+  "ModConfigMenu.IsEnableInventoryPageSideWarp.Desc": "启用后，将控制器的光标移动到物品栏边缘时会使光标翻转。"
+}

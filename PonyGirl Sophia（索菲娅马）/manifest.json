@@ -1,0 +1,11 @@
+{
+  "Name": "PonyGirl Sophia",
+  "Author": "MortaliB",
+  "Version": "1.0",
+  "Description": "Replace your horse with Sophia from Stardew Valley Expanded",
+  "UniqueID": "MortaliB.PonyGirl_Sophia",
+  "MinimumApiVersion": "2.5",
+  "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+  }
+}

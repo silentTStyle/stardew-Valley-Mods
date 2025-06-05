@@ -1,0 +1,440 @@
+{
+	"Format": "1.27.0",
+	
+	"Changes": [
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Jodi",
+			"FromFile": "assets/Characters/Jodi.png",
+			"ToArea": { "X": 0, "Y": 224, "Width": 64, "Height": 160 }
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Jodi",
+			"FromFile": "assets/Portraits/Jodi.png"
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Jodi_Beach",
+			"FromFile": "assets/Portraits/Jodi_Beach.png",
+			"ToArea": { "X": 0, "Y": 128, "Width": 64, "Height": 64 }
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Jodi_Beach",
+			"FromFile": "assets/Characters/Jodi_Beach.png",
+			"ToArea": { "X": 0, "Y": 128, "Width": 16, "Height": 32 }
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Maps/spring_outdoorsTileSheet",
+			"FromFile": "assets/Maps/Jodi_Patio_Spring.png",
+			"ToArea": { "X": 0, "Y": 1264, "Width": 48, "Height": 48 }
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Maps/summer_outdoorsTileSheet",
+			"FromFile": "assets/Maps/Jodi_Patio_Summer.png",
+			"ToArea": { "X": 0, "Y": 1264, "Width": 48, "Height": 48 }
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Maps/fall_outdoorsTileSheet",
+			"FromFile": "assets/Maps/Jodi_Patio_Fall.png",
+			"ToArea": { "X": 0, "Y": 1264, "Width": 48, "Height": 48 }
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Maps/winter_outdoorsTileSheet",
+			"FromFile": "assets/Maps/Jodi_Patio_Winter.png",
+			"ToArea": { "X": 0, "Y": 1264, "Width": 48, "Height": 48 }
+		},
+		{
+            "Action": "EditData",
+            "Target": "Data/SpouseRooms",
+            "Entries": {
+                "Jodi": "SpouseRoomJodi/0"
+            }
+        },
+		{
+            "Action": "Load",
+            "Target": "Maps/SpouseRoomJodi",
+            "FromFile": "assets/Maps/SpouseRoomJodi.tmx"
+        },
+		{
+            "Action": "EditData",
+            "Target": "Data/SpousePatios",
+            "Entries": {
+                "Jodi": "SpousePatioJodi/0/19 19 19 20 20 20 21 21 21 22 22 22 23 23 23 23 23 23 23 22 22 22 22 22 22 21 21 21 21 21 21 20 20 20 20 20 20 20 20 21 21 21 22 22 22 22 22 22 21 21 21 21 21 21 20 20 20 20 19 19 19 19/0 -3"
+            }
+        },
+		{
+            "Action": "Load",
+            "Target": "Maps/SpousePatioJodi",
+            "FromFile": "assets/Maps/SpousePatioJodi.tmx"
+        },
+		{
+			"Action": "EditData",
+			"Target": "Data/NPCDispositions",
+			"Fields": {
+				"Jodi": {
+					5: "datable"
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/NPCDispositions",
+			"Fields": {
+				"Jodi": {
+					9: "Sam 'eldest_son' Vincent 'youngest_son' Kent 'ex-husband'"
+				},
+				"Kent": {
+					9: "Jodi 'ex-wife' Sam 'eldest_son' Vincent 'youngest_boy'"
+				}
+			},
+			"When": {
+				"Relationship:Jodi": "Married"
+			}
+		},
+		{
+         "Action": "EditData",
+         "Target": "Data/EngagementDialogue",
+         "Entries": {
+				"Jodi0": "我太兴奋了！$l#$e#哦，这让我想起了我年轻的时候。$l",
+				"Jodi1": "我从没想过我会再婚...#$b#但能和你重新开始，我感到很兴奋。$l",
+			}
+		},
+		{
+			"Action": "Load",
+			"Target": "Characters/Dialogue/MarriageDialogueJodi",
+			"FromFile": "assets/Dialogue/MarriageDialogueJodi.json"
+		},
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialogueJodi",
+			"Entries": {
+				"Good_5": "你好啊，亲爱的。我有个惊喜给你！#$b#我觉得礼物比言语更能表达我的感激之情。希望你喜欢它，就像我爱你一样。$l[917 908 918 919 926 872 877 856 913 915]",
+				"Good_6": "给你，@，我为你准备了一些美味的东西，作为我对你爱的象征。$l[903 608 222 223 732 731 201 241 204 243 279]",
+			},
+			"When": {
+				"Hearts:Jodi": "14"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Jodi",
+			"Entries": {
+				"winter_Tue6": "*叹息*... 有时候我会梦想自己独自生活... 不用照顾家庭。这很可怕吗？$s#$e#别告诉任何人。$6",
+				"winter_Thu8": "我们有点仓促地结婚了，毕竟肯特是个军人... 我几乎没有尝到青春和自由的滋味，现在想回去已经太晚了。$s#$e#真不敢相信我在跟你说这些。$6",
+				"winter_Fri6": "来场快速的雪球大战怎么样，@?#$e#当然，我只是在开玩笑。$h",
+				"summer_Wed6": "正是去游泳的好天气，你不觉得吗？",
+				"fall_Tue6": "我希望你确保吃得够多。#$e#我肯定在农场工作会让人很疲惫。",
+				"danceRejection": "哦不，我年纪太大了，不适合参加。$h",
+				"divorced": "别烦我！$a#$b#真不敢相信因为你我经历了两次离婚...$s",
+				"dumped_Girls": "我太忙了，没空跟你说话。$a",
+				"secondChance_Girls": "我或许应该表现得像个成年人，停止记那些小仇。$s",
+				"breakUp": "哦... 我理解，@...$s#$b#也许我真的不适合谈恋爱了...$s",
+				"event_vbump0": "嗯，很高兴听到这个。",
+				"event_vbump1": "看吧，文森特，连那位善良的农夫都说你应该听我的。$h",
+				"event_vbump2": "嗯，我觉得我的教育方式不关你的事。$u",
+				"event_caroline0": "呼，那就好。#$b#别担心。$h",
+				"event_caroline1": "啊，好吧，我想也没那么糟。就当没听见我说的话吧。$s",
+				"event_caroline2": "那我收回所有关于你的话。我不想再见到你了。$8",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Jodi",
+			"Entries": {
+				"2_1": "我的前夫肯特是一名军人，正在海外工作。这就是为什么他现在不在这里。#$b#我知道他一旦结束任务就会安全回来！！#$e#需要什么吗？",
+				"Mon2": "$d kent#昨天我去了尤巴祭坛，感谢肯特平安归来。|昨天我去了尤巴祭坛，祈求肯特平安归来。#$e#我试着保持积极，但有时候真的很难。$s",
+						  },
+			"When": {
+				"Relationship:Jodi": "Married"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Strings/animationDescriptions",
+			"Entries": {
+				"jodi_exercise": "Ungh... Breathe in.... Ungh.... Breathe out.$8",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Strings/StringsFromCSFiles",
+			"Entries": {
+				"Utility.cs.5371": "@... %spouse... #$b# 作为鹈鹕镇的镇长，以及婚姻印章的地区持有者，我现在宣布你们结为夫妻！$h",
+				"Utility.cs.5377": "@... %spouse... #$b# 作为鹈鹕镇的镇长，以及婚姻印章的地区持有者，我现在宣布你们结为妻子和... 嗯，妻子！$h",
+			},
+			"When": {
+				"Spouse": "Jodi"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/mail",
+			"Entries": {
+				"jodiMessage": "天黑后在山里见我。我需要和你谈谈。^   -乔迪[#]乔迪的便条",
+				"jodiLeaving": "我决定出去探索世界。亲爱的，我会在一周后回来。^   -乔迪[#]乔迪离开",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/CraftingRecipes",
+			"Entries": {
+				"Coffee Maker": "433 50 335 10 787 1 709 15/Home/246/true/null"
+			}
+		},
+		{
+            "Action": "EditData",
+            "Target": "Data/Events/SamHouse",
+            "Entries": {
+				"100/f Kent 750/p Kent/p Jodi": null,
+					"100/f Kent 750/p Kent/p Sam": "none/6 5/farmer 7 12 0 Sam 5 5 0 Kent 7 16 2/skippable/playSound cowboy_monsterhit/move farmer 0 -3 0/playSound cowboy_monsterhit/move farmer 0 -2 0/playSound cowboy_monsterhit/move farmer 0 -1 0/playSound cowboy_monsterhit/move farmer 0 -1 3/playSound cowboy_monsterhit/pause 200/faceDirection Sam 1/speak Sam \"嗨，@！我正在做一些爆米花。$h\"/pause 50/playSound cowboy_monsterhit/pause 79/playSound cowboy_monsterhit/pause 100/playSound cowboy_monsterhit/pause 26/playSound cowboy_monsterhit/pause 39/playSound cowboy_monsterhit/pause 50/playSound cowboy_monsterhit/pause 110/playSound cowboy_monsterhit/pause 59/playSound cowboy_monsterhit/speak Kent \"啊啊啊啊啊！！！$u\"/faceDirection Sam 2 true/faceDirection farmer 2 true/speed Kent 4/playSound cowboy_monsterhit/move Kent 0 -1 0/speed Kent 4/playSound cowboy_monsterhit/move Kent 0 -2 0/speed Kent 4/playSound cowboy_monsterhit/move Kent 0 -1 0/speed Kent 4/playSound cowboy_monsterhit/move Kent 0 -2 0/speed Kent 4/playSound cowboy_monsterhit/move Kent 0 -1 0/speed Kent 4/playSound cowboy_monsterhit/move Kent 0 -3 0/playSound cowboy_monsterhit/pause 50/playSound cowboy_monsterhit/pause 100/playSound cowboy_monsterhit/pause 80/playSound cowboy_monsterhit/speak Kent \"那个声音...$s\"/playSound cowboy_monsterhit/pause 70/playSound cowboy_monsterhit/pause 100/playSound cowboy_monsterhit/pause 180/playSound cowboy_monsterhit/emote Kent 12/faceDirection Kent 3/speak Kent \"你应该知道那个声音会让我想起战争！$u\"/pause 50/playSound cowboy_monsterhit/pause 75/playSound cowboy_monsterhit/faceDirection Sam 0/playSound openBox/pause 400/faceDirection Sam 2/pause 500/playMusic desolate/faceDirection Kent 2/pause 800/showFrame Kent 16/pause 800/speak Kent \"...我在那些血腥的战壕里失去了很多好朋友。$s\"/pause 800/emote Sam 28/pause 500/speak Sam \"但是，爸爸...在你离开之前，爆米花一直是你最喜欢的。$s\"/pause 500/showFrame Kent 0/pause 500/pause 800/speak Kent \"...事情已经变了。\"/pause 600/faceDirection Sam 1/pause 400/move Sam 1 0 1/speak Sam \"*低声* @...你能对他说点什么吗？$s\"/pause 300/faceDirection farmer 3/pause 500/faceDirection farmer 2/pause 500/faceDirection Kent 0/pause 300/speak Kent \"$q 215 null#(对肯特说点什么)$s#$r 215 -25 event_popcorn1#山姆有责任...他应该更懂事的！#$r 215 50 event_popcorn2#我知道你很痛苦...但别怪你儿子。#$r 215 -50 event_popcorn3#(撒谎) 怪我...是我要爆米花的\"/pause 900/faceDirection Kent 2/pause 700/emote Kent 28/pause 600/speak Kent \"...$s#$b#对不起，山姆。你不知道爆米花的声音会让我难过。\"/pause 700/move Sam 0 1 1/speak Sam \"没关系，爸爸。$s#$b#我最不想做的就是让你难过。从现在开始，我会尽力让你振作起来。\"/pause 500/faceDirection Kent 3/pause 1000/end dialogue Kent \"我很高兴你是我们家的朋友，@。抱歉我之前的行为。\"",							  },
+			"When": {
+				"Relationship:Jodi": "Married"
+			}
+		},
+		{
+            "Action": "EditData",
+            "Target": "Data/Events/Farm",
+            "Entries": {
+					"63/y 2/t 600 1800/H": "continue/64 15/farmer 64 16 2 Kent 64 18 0/broadcastEvent/pause 1500/speak Kent \"呃，你好。我叫肯特。我昨晚刚回来...从海外。山姆告诉我，我不在的时候，这里搬来了一位新农夫。\"/pause 500/speak Kent \"嗯，我只是想自我介绍一下...我们回头见。\"/pause 300/end",
+							  },
+			"When": {
+				"Relationship:Jodi": "Married"
+			}
+		},
+		{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Kent",
+            "Entries": {
+					"event_popcorn1": "你闭嘴！别想挑拨我和我儿子的关系。$u",
+					"Tue_inlaw_Jodi6": "我很高兴乔迪现在更开心了。#$e#我们那时候太冲动了。$s"
+			},
+			"When": {
+				"Relationship:Jodi": "Married"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Characters/schedules/Jodi",
+			"Entries": {
+				"marriage_Tue": "1000 SeedShop 22 17 1/1300 SeedShop 21 17 2 jodi_exercise/1600 SeedShop 24 14 2 \"Strings\\schedules\\Jodi:Tue.000\"/1800 BusStop -1 23 3",
+			},
+			"When": {
+				"Relationship:Jodi": "Married",
+				"Weather": "Sun, Snow, Wind"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/Farm",
+			"Entries": {
+				"79480007/f Jodi 2500/x jodiMessage": "null"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/Town",
+			"Entries": {
+				"79480000/f Jodi 500/p Jodi/p Vincent": "jaunty/39 81/farmer 39 81 1 Vincent 28 90 1 Jodi 25 81 1/skippable/speed Vincent 5/move Vincent 0 -9 1/speed Vincent 5/move Vincent 10 0 1/jump Vincent/playSound clubSmash/startJittering/pause 1000/stopJittering/pause 500/faceDirection farmer 3/speak Vincent \"哎哟... 对不起，先生。$s^哎哟... 对不起，女士。$s\"/pause 500/speed Jodi 4/move Jodi 12 0 1/pause 200/faceDirection Vincent 3/speak Jodi \"文森特！我告诉过你别乱跑！$a\"/emote Vincent 28/speak Jodi \"$q 794800001 null#你没事吧，@？#$r 794800001 0 event_vbump0#我没事，不用担心。#$r 794800001 10 event_vbump1#你应该听你妈妈的话，文森特，我们俩都可能受伤。#$r 794800001 -30 event_vbump2#我觉得你需要更好地照看你的孩子。\"/move Jodi -7 0 1 true/move Vincent -7 0 1 true/globalFade/viewport -1000 -1000/end dialogue Jodi \"再次为这次意外道歉。\"",
+				"79480003/f Jodi 1500/p Jodi/z spring/z summer/z fall": "none/26 22/farmer 34 23 0 Jodi 26 22 2/skippable/showFrame Jodi 18/positionOffset Jodi 0 -30/pause 200/emote Jodi 28/pause 600/move farmer 0 -1 3/move farmer -6 0 3/pause 200/speak Jodi \"哦... 你好，@。你可能在想我一个人在这里做什么。$s\"/showFrame Jodi 0/jump Jodi/positionOffset Jodi 0 5/pause 5/positionOffset Jodi 0 5/pause 5/positionOffset Jodi 0 5/pause 5/positionOffset Jodi 0 5/pause 5/positionOffset Jodi 0 5/pause 5/positionOffset Jodi 0 5/pause 700/showFrame Jodi 31/pause 200/playMusic echos/pause 400/speak Jodi \"你看，肯特和我在还年轻的时候就仓促结婚了。$s#$b#我觉得我没有完全活出我的青春，因为我忙于家务和照顾孩子们。$s#$b#我几乎不再做我喜欢的事情了，比如在雪地里玩耍。$s#$b#以前每次下雪我都很开心。我现在依然喜欢，只是没时间了。$s\"/question fork0 \"#那我们堆个雪人怎么样？。#也许你应该停止想过去的事了。\"/fork snowman/stopMusic/speak Jodi \"我想你是对的。$s#$b#我无法改变过去，何必再去想它呢？$s\"/move Jodi -10 0 2 true/globalFade/viewport -1000 -1000/end dialogue Jodi \"也许我应该接受现实。$s\"",
+				"snowman": "stopMusic/friendship Jodi 100/showFrame Jodi 0/pause 100/speak Jodi \"听起来很棒。\"/globalFade 0.007 true/advancedMove Jodi true -5 0 2 2000/move farmer -5 0 2 true/pause 2000/viewport -1000 -1000/stopAdvancedMoves/pause 300/warp farmer 16 34/warp Jodi 18 34/addBigProp 17 34 51/faceDirection farmer 1/faceDirection Jodi 3/animate Jodi true true 800 29 30/showFrame 89/positionOffset farmer 8 20/pause 2500/globalFadeToClear 0.007 true/viewport 17 34/pause 750/playSound snowyStep/pause 1500/playsound snowyStep/pause 500/speak Jodi \"谢谢你，@。\"/playMusic musicboxsong/pause 1500/speak Jodi \"这是我很长时间以来最开心的一次。#$b#我很高兴能和你一起做这件事。$l\"/pause 100/emote farmer 32 true/pause 300/playSound snowyStep/globalFade/viewport -1000 -1000/end dialogue Jodi \"非常感谢你之前的事。#$e#也许我们以后可以再做一次。\"",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/SamHouse",
+			"Entries": {
+					"79480001/f Jodi 1000/p Jodi": "playful/7 4/farmer 7 12 0 Jodi 6 5 2/skippable/animate Jodi false true 200 16 17/pause 500/emote Jodi 12/pause 1000/move farmer 0 -5 3/move farmer -1 0 0/pause 1500/stopAnimation Jodi/pause 500/speak Jodi \"哦！你好。#$b#我只是在打理日常家务。#$b#*叹气*... 有时候我希望山姆和文森特能帮帮我，但我也没法强迫他们。$s\"/question fork0 \"#我很乐意帮你。#祝你的家务顺利完成。\"/fork helpJodi/speak Jodi \"谢谢，那我就继续工作了。$s\"/move farmer 1 0 2/move farmer 0 6 2 true/globalFade/viewport -1000 -1000/end dialogue Jodi \"抱歉，我还在忙家务。$s\"",
+					"helpJodi": "friendship Jodi 50/speak Jodi \"真的吗？$7#$b#哦，太感谢你了！$h#$b#如果你能帮我把这些垃圾倒掉，我会非常感激。\"/move Jodi 0 1 2/playSound slimeHit/pause 700/emote Jodi 20 true/pause 50/move farmer 1 0 2/move farmer 0 6 2 true/globalFade/viewport -1000 -1000/end dialogue Jodi \"谢谢你的帮助。\"",
+					"794800015/f Kent 1500/p Kent/O Jodi": "none/4 16/farmer -100 -100 0 Kent 4 15 1/skippable/pause 700/warp farmer 4 23/playSound woodyStep/pause 300/faceDirection Kent 2/pause 500/speak Kent \"你好，@。我能和你聊一会儿吗？\"/emote farmer 8 true/move farmer 0 -6 0/pause 700/speak Kent \"是关于乔迪的。我肯定你迟早会想到我会提这件事。#$b#我只是想告诉你...$s#$b#我其实对她嫁给你这件事没有意见。\"/pause 400/showFrame Kent 16/pause 700/speak Kent \"我可能不是情感上最聪明的人，但连我都知道乔迪对我们的婚姻并不满意。$s#$b#我们仓促结婚，这对她造成了很大的影响。$5#$b#我很高兴她现在更幸福了，谢谢你。$h\"/globalFade/viewport -1000 -1000/end dialogue Kent \"你是个好人，@。$h^你是个好女人，@。$h\"",
+			  }
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/SeedShop",
+			"Entries": {
+					"79480004/f Jodi 2000/p Jodi/p Caroline": "breezy/35 9/farmer 30 13 1 Jodi 35 9 1 Caroline 36 9 3/skippable/pause 1000/speak Jodi \"你见过最近搬来的那位农夫了吗？#$b#他们真的非常善良，而且乐于助人。$h#$b#我开始真的很喜欢他们了。$l\"/pause 1000/move farmer 1 0 0/move farmer 0 -4 1/emote Caroline 16/speak Caroline \"说曹操，曹操到。$h\"/faceDirection Jodi 3/pause 400/emote Jodi 16 true/jump Jodi 7/pause 600/speak Jodi \"@！$9\"/speak Jodi \"$q 794800000 null#你在听我们说话吗？#$r 794800000 0 event_caroline0#没有，你们在说什么？#$r 794800000 0 event_caroline1#我听到了，但不是故意的...#$r 794800000 -50 event_caroline2#每个字都听到了。\"/pause 500/globalFade/viewport -1000 -1000/end dialogue Jodi \"请把这件事忘了吧。\"",
+				  }
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/Mountain",
+			"Entries": {
+					"79480005/t 2000 2400/n jodiMessage/f Jodi 2500": "spaceMusic/68 25/farmer 63 21 1 Jodi 68 24 2/changeSprite Jodi Beach/changePortrait Jodi Beach/move farmer 5 0 2/pause 1000/speak Jodi \"你可能在想我为什么想和你谈谈。\"/faceDirection Jodi 0/pause 500/speak Jodi \"你看，我最近对自己的生活很不满意。$s#$b#我没有体验到青春，一直被困在家庭主妇的角色里。$s#$b#至少我是这么想的。你让我意识到事情不一定要这样，我可以做我想做的事。#$b#在这个过程中...我渐渐喜欢上了你。$l#$b#所以我决定今天做一件我一直想做的事...和你一起。在鹈鹕镇的河里游泳。\"/question fork1 \"所以你怎么说？#我很乐意陪在你身边。#抱歉，我不太感兴趣。\"/fork rejectJodi/pause 500/speak Jodi \"很高兴听到你这么说。$l#$b#那我们就出发吧。\"/fade/viewport -1000 -1000/warp Jodi 73 28/warp farmer 70 28/faceDirection Jodi 3/faceDirection farmer 1/swimming Jodi/swimming farmer/pause 700/playSound dropItemInWater/pause 600/playSound dropItemInWater/pause 2500/fade unfade/viewport 72 29/pause 1000/speak Jodi \"我得承认，我有点紧张...$l#$b#但有你在这里，我觉得没什么好害怕的。\"/move Jodi 0 1 2/playSound slosh/faceDirection farmer 2 true/globalFade 0.007 true/move Jodi 0 5 2 true/pause 2000/halt/viewport -1000 -1000/changeLocation Town/warp farmer 79 76/warp Jodi 81 66/faceDirection farmer 1 true/faceDirection Jodi 2 true/pause 500/globalFadeToClear 0.007 true/viewport 77 69/move Jodi 0 3 2 false/playSound slosh/globalFade 0.007 true/move Jodi 0 5 2 true/pause 2000/halt/viewport -1000 -1000/changeLocation Beach/pause 400/warp farmer 60 16/warp Jodi 59 16/positionOffset Jodi 0 -18/faceDirection farmer 3 true/faceDirection Jodi 1 true/pause 100/globalFadeToClear 0.007 true/viewport 59 17/pause 1500/speak Jodi \"我很高兴终于做到了。#$b#更高兴的是能和你一起做这件事。$l\"/pause 1000/showFrame Jodi 16/pause 200/playSound slosh/positionOffset Jodi 2 0/pause 50/positionOffset Jodi 2 0/pause 50/positionOffset Jodi 2 0/pause 50/positionOffset Jodi 2 0/positionOffset farmer -2 0/pause 50/positionOffset Jodi 2 0/positionOffset farmer -2 0/pause 50/eyes 1 -10000/positionOffset Jodi 2 0/positionOffset farmer -2 2/pause 50/positionOffset Jodi 2 0/positionOffset farmer -2 0/pause 50/positionOffset Jodi 2 0/positionOffset farmer -2 0/pause 50/positionOffset Jodi 2 0/positionOffset farmer -2 0/pause 50/positionOffset Jodi 2 0/positionOffset farmer -2 0/specificTemporarySprite heart 60 16/pause 1200/globalFade/viewport -1000 -1000/pause 2000/stopSwimming farmer/stopSwimming Jodi/end warpOut",
+					"rejectJodi": "friendship Jodi -50/speak Jodi \"哦，我...明白了。$s\"/move farmer -10 0 3 true/globalFade/viewport -1000 -1000/warp farmer 1 13/end warpOut",
+			  }
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/FarmHouse",
+			"Entries": {
+				"79480006/f Jodi 3500/O Jodi/t 1200 1800": "continue/6 7/farmer 8 5 3 Jodi 4 5 0/makeInvisible 4 5 5 2/pause 500/move farmer -2 0 3/faceDirection Jodi 1/pause 500/speak Jodi \"准时到了，亲爱的。我也刚从老家回来。$h#$b#我们决定整理一下旧东西，毕竟我们所有人的生活都发生了很大变化。#$b#在这个过程中，我翻出了这本旧咖啡机使用手册，也许你能从中学到点什么！$7\"/pause 100/playSound reward/addCraftingRecipe Coffee Maker/message \"你学会了如何制作咖啡机！\"/pause 500/move farmer -1 0 3/animate Jodi false true 100 28/animate farmer true true 100 101/positionOffset farmer -16 0/specificTemporarySprite heart 5 5/globalFade/viewport -1000 -1000/end",
+			},
+			"When": {
+				"FarmhouseUpgrade": "1"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/FarmHouse",
+			"Entries": {
+					"79480006/f Jodi 3500/O Jodi/t 1200 1800": "continue/9 16/farmer 11 14 3 Jodi 7 14 0/makeInvisible 4 5 5 2/pause 500/move farmer -2 0 3/faceDirection Jodi 1/pause 500/speak Jodi \"准时到了，亲爱的。我也刚从老家回来。$h#$b#我们决定整理一下旧东西，毕竟我们所有人的生活都发生了很大变化。#$b#在这个过程中，我翻出了这本旧咖啡机使用手册，也许你能从中学到点什么！$7\"/pause 100/playSound reward/addCraftingRecipe Coffee Maker/message \"你学会了如何制作咖啡机！\"/pause 500/move farmer -1 0 3/animate Jodi false true 100 28/animate farmer true true 100 101/positionOffset farmer -16 0/specificTemporarySprite heart 5 5/globalFade/viewport -1000 -1000/end",
+					},
+			"When": {
+				"FarmhouseUpgrade": "2, 3"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Strings/schedules/Sam",
+			"Entries": {
+				"spring_11.000": "文森特最讨厌去看医生了，但他只能忍着了。",
+				"spring_11.001": "勇敢点，文森特。想想爸爸。",
+				"spring_11.002": "哈维医生？我有点担心文森特的身高。他这个年纪是不是有点矮了？",
+				"spring_11.003": "文森特今天在医生那里表现得非常勇敢。我为他感到骄傲。",
+			},
+			"When": {
+				"Relationship:Jodi": "Married"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Strings/schedules/Vincent",
+			"Entries": {
+				  "spring_11.001": "*咽口水*... 山姆，别逼我这么做。$s",
+			},
+			"When": {
+				"Relationship:Jodi": "Married"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Characters/schedules/Sam",
+			"Entries": {
+				  "spring_11": "900 SamHouse 15 13 0 \"Strings\\schedules\\Sam:spring_11.000\"/1130 Hospital 13 14 3 \"Strings\\schedules\\Sam:spring_11.001\"/1330 Hospital 2 7 1 \"Strings\\schedules\\Sam:spring_11.002\"/1600 SamHouse 12 22 3 \"Strings\\schedules\\Sam:spring_11.003\"/1900 SamHouse 22 16 1/2100 SamHouse 22 13 1 sam_sleep",
+			},
+			"When": {
+				"Relationship:Jodi": "Married"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Vincent",
+			"Entries": {
+				"Sun10_inlaw_Jodi": "嗨，爸爸！^嗨，妈妈！#$e#别告诉妈妈...但你是我最喜欢的成年人。$h",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sam",
+			"Entries": {
+				"summer_Tue_inlaw_Jodi": "我从没意识到妈妈做了这么多工作...#$e#请代我向她问好。",
+  				"winter_Thu_inlaw_Jodi": "妈妈最近怎么样？#$b#我希望你对她很好。$a#$e#我只是在开玩笑。$h#$b#我相信你，一切都会很好。",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Jodi",
+			"Entries": {
+				"give_flowersA": "这些真的是给我的吗？$9#$b#我会收下这些！我怎么能拒绝这么漂亮的花束呢？$4",
+				"give_flowersB": "是的，我也想更认真一些！$4#$b#我从没想过你会喜欢像我这样的年长女性。$h",
+				"give_pendant": "是的！我会接受这个！$4#$b#我们在一起的时光是我第一次婚姻以来最快乐的时光。$4#$b#我已经准备好和你一起彻底改变我的生活了。$4",
+				"stardrop_gift": "@，我们的婚姻是我生命中最快乐的时光。$4#$b#我无法用言语表达对你为我所做的一切的感激。",
+				"reject_two_heartA": "哦不，我不这么认为。$h#$b#你很好，但我仍然已婚。",
+				"reject_two_heartB": "我不知道你还有幽默感，@。$h#$b#你只是在开玩笑，对吧？",
+				"reject_four_heartA": "我没想到今天喷我最喜欢的香水会有这种效果。$h",
+				"reject_four_heartB": "不，谢谢。$6#$b#我们是朋友，只是朋友。",
+				"refusal_knownA": "你是个很好的朋友，@，但我不确定我是否准备好接受这样的事情。$s",
+				"refusal_knownB": "抱歉，我想我需要更多时间来整理我的思绪。$s",
+				"refusal_botherA": "别这样，我已经告诉过我需要更多时间！$a",
+				"refusal_botherB": "我欣赏你的热情，但我觉得强迫不会让你走得太远。$6",
+			},
+			"When": {
+				"HasMod": "misscoriel.courtship"
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Jodi",
+			"Entries": {
+				"spring_Wed8": "我在想，如果今天我跳过打扫房子，会不会有人说什么...$s#$e#我在开玩笑吗？我自己都会注意到。$6",
+			},
+			"When": {
+				"HasMod": "gizzymo.canonfriendlyexpansion"
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall27.xnb",
+			"Entries": {
+				"Jodi": "我确定文森特想去迷宫只是因为山姆把它说得没什么大不了的。$6#$e#我觉得他没意识到他会陷入什么境地。",
+			},
+			"When": {
+				"HasMod": "gizzymo.canonfriendlyexpansion",
+				"Year": "2"
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer28.xnb",
+			"Entries": {
+				"Jodi": "肯特，今年你能和我们一起在家，我真的很高兴。"
+			},
+			"When": {
+				"HasMod": "gizzymo.canonfriendlyexpansion",
+				"Year": "2",
+				"Relationship:Jodi": "Married"
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall27.xnb",
+			"Entries": {
+				"Jodi": "{{Random: 我确定文森特想去迷宫只是因为山姆把它说得没什么大不了的。$6#$e#我觉得他没意识到他会陷入什么境地。 @@ *打哈欠* ...该睡觉了吗？随着年龄增长，我越来越不能熬夜了。$s |inputSeparator=@@}}",
+			},
+			"When": {
+				"HasMod": "gizzymo.canonfriendlyexpansion",
+				"Year |contains= 1, 2, 3": false
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Jodi",
+			"Entries": {
+				"Mon2": "#$1 JodiAltar#昨天我去了尤巴祭坛，祈求我的前夫平安归来。#$e#我试着保持积极，但有时候真的很难。$s",
+				"2_1": "我的前夫肯特是一名军人，正在海外工作。这就是为什么他现在不在这里。#$b#我知道他一旦结束任务就会安全回来！#$e#需要什么吗？",
+				"Sun_old": "$p 116#谢谢你为我前夫祈祷。这对我来说意义重大。|我的前夫在海外参战。我提过这件事吗？",
+				"Sun_116": "太好了。如果可以的话，你能为我的前夫肯特祈祷吗？只是为了他能从战争中平安归来。#$b#谢谢。",
+				"Sun_2": "真不敢相信肯特终于回来了！$h#$e#我们应该多聚聚。",
+				"summer_Thu6_2": "有些日子很难熬。但肯特回来了，无论多难，我很高兴他没事。#$e#我得花时间为此感恩。",
+				"fall_Sun8_2": "哦！抱歉，你能再说一遍吗？我今天太累了，感觉脑子像在水里一样。",
+				"winter_Sun8_2": "哦，你刚才说什么？抱歉，我今天真的太累了！",
+			},
+			"When": {
+				"HasMod": "gizzymo.canonfriendlyexpansion",
+				"Relationship:Jodi": "Married"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/NPCDispositions",
+			"Fields": {
+				"Jodi": {
+					9: "Sam 'daughter' Vincent 'son' Kent 'ex-husband'"
+				},
+				"Kent": {
+					9: "Jodi 'ex-wife' Sam 'daughter' Vincent 'son'"
+				}
+			},
+			"When": {
+				"HasMod": "invatorzen.idcsm",
+				"Relationship:Jodi": "Married"
+			}
+		},
+	]
+}

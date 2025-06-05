@@ -1,0 +1,94 @@
+{
+	"Changes": [
+		{
+			"LogName": "Fish Shop Bait Maker Price 5000g",
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "FishShop", "Items" ],
+			"Fields": {
+			    "(BC)BaitMaker": {"Price": 5000},
+					   },
+			"When": {"Fish Shop Bait Maker": true, "Fish Shop Bait Maker Price": "5000g"},
+		},
+		{
+			"LogName": "Fish Shop Bait Maker Price 4000g",
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "FishShop", "Items" ],
+			"Fields": {
+			    "(BC)BaitMaker": {"Price": 4000},
+					   },
+			"When": {"Fish Shop Bait Maker": true, "Fish Shop Bait Maker Price": "4000g"},
+		},
+		{
+			"LogName": "Fish Shop Bait Maker Price 3000g",
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "FishShop", "Items" ],
+			"Fields": {
+			    "(BC)BaitMaker": {"Price": 3000},
+					   },
+			"When": {"Fish Shop Bait Maker": true, "Fish Shop Bait Maker Price": "3000g"},
+		},
+		{
+			"LogName": "Fish Shop Bait Maker Price 2000g",
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "FishShop", "Items" ],
+			"Fields": {
+			    "(BC)BaitMaker": {"Price": 2000},
+					   },
+			"When": {"Fish Shop Bait Maker": true, "Fish Shop Bait Maker Price": "2000g"},
+		},
+		{
+			"LogName": "Fish Shop Bait Maker Price 1000g",
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "FishShop", "Items" ],
+			"Fields": {
+			    "(BC)BaitMaker": {"Price": 1000},
+					   },
+			"When": {"Fish Shop Bait Maker": true, "Fish Shop Bait Maker Price": "1000g"},
+		},
+		{
+			"LogName": "Fish Shop Bait Maker Price 750g",
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "FishShop", "Items" ],
+			"Fields": {
+			    "(BC)BaitMaker": {"Price": 750},
+					   },
+			"When": {"Fish Shop Bait Maker": true, "Fish Shop Bait Maker Price": "750g"},
+		},
+		{
+			"LogName": "Fish Shop Bait Maker Price 500g",
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "FishShop", "Items" ],
+			"Fields": {
+			    "(BC)BaitMaker": {"Price": 500},
+					   },
+			"When": {"Fish Shop Bait Maker": true, "Fish Shop Bait Maker Price": "500g"},
+		},
+		{
+			"LogName": "Fish Shop Bait Maker Price 250g",
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "FishShop", "Items" ],
+			"Fields": {
+			    "(BC)BaitMaker": {"Price": 250},
+					   },
+			"When": {"Fish Shop Bait Maker": true, "Fish Shop Bait Maker Price": "250g"},
+		},
+		{
+			"LogName": "Fish Shop Bait Maker Price 1g",
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "FishShop", "Items" ],
+			"Fields": {
+			    "(BC)BaitMaker": {"Price": 1},
+					   },
+			"When": {"Fish Shop Bait Maker": true, "Fish Shop Bait Maker Price": "1g"},
+		},
+	]
+}

@@ -1,0 +1,11 @@
+{
+    // Translation provided by: <在此处留下您的名字或Nexus/Discord用户名>
+    "errors": "StardewHack检测到以下错误: {{version}} :",
+    "footer": "查看控制台或错误日志以获取更多指示.",
+    "fatal":  "星露谷物语无法启动，直到这些错误被修复.",
+    "outdated-harmony": "SMAPI正在使用过时的Harmony版本.",
+    "initialization-error": "无法初始化模组.",
+    "failed-patch": "未能应用部分/全部补丁.",
+    "outdated-version": "StardewHack 不支持此版本.",
+    "corrupted": "模组安装文件已损坏.",
+}

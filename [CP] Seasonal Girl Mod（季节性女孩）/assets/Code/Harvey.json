@@ -1,0 +1,174 @@
+{
+	"Changes": [
+		{
+			"LogName": "Harvey - Winter",
+			"Action": "EditImage",
+			"Target": "Portraits/Harvey_Winter, Characters/Harvey_Winter",
+			"FromFile": "assets/{{TargetPathOnly}}/Harvey/{{TargetWithoutPath}}{{IndoorVariant}}{{Matching}}.png",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+			},
+		},
+		{
+			"LogName": "Harvey - Winter Indoor/Outdoor 2",
+			"Action": "EditImage",
+			"Target": "Portraits/Harvey_Winter, Characters/Harvey_Winter",
+			"FromFile": "assets/{{TargetPathOnly}}/Harvey/{{TargetWithoutPath}}{{IndoorVariant}}{{Matching}}.png",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+                "Season": "Winter",
+                "WinterIndoorOutdoorOutfits": "IndoorOutdoor",
+			},
+			"Update": "OnLocationChange",
+		},
+		{
+			"LogName": "Harvey - Seasonal",
+			"Action": "EditImage",
+			"Target": "Portraits/Harvey, Characters/Harvey",
+			"FromFile": "assets/{{Target}}/{{TargetWithoutPath}}_{{season}}{{IndoorVariant}}{{Matching}}.png",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+			},
+		},
+		{
+			"LogName": "Harvey - Winter Indoor/Outdoor",
+			"Action": "EditImage",
+			"Target": "Portraits/Harvey, Characters/Harvey",
+			"FromFile": "assets/{{Target}}/{{TargetWithoutPath}}_{{season}}{{IndoorVariant}}{{Matching}}.png",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+                "Season": "Winter",
+                "WinterIndoorOutdoorOutfits": "IndoorOutdoor",
+			},
+			"Update": "OnLocationChange",
+		},
+		{
+			"LogName": "Harvey - Festival",
+			"Action": "EditImage",
+			"Target": "Portraits/Harvey, Portraits/Harvey_Winter, Characters/Harvey, Characters/Harvey_Winter",
+            "FromFile": "assets/{{TargetPathOnly}}/Festivals/{{Festival}}/{{TargetWithoutPath}}_{{Festival}}{{Matching}}.png",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+				"FestivalOutfits": "True",
+			},
+			"Update": "OnLocationChange",
+		},
+		{
+			"LogName": "Harvey - Beach",
+			"Action": "EditImage",
+			"Target": "Portraits/Harvey_Beach, Characters/Harvey_Beach",
+			"FromFile": "assets/{{TargetPathOnly}}/Beach/{{TargetWithoutPath}}.png",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+			},
+		},
+		{
+			"LogName": "Harvey - Aerobics",
+			"Action": "EditImage",
+			"Target": "Portraits/Harvey, Characters/Harvey",
+			"FromFile": "assets/{{Target}}/{{TargetWithoutPath}}_Aerobics{{Matching}}.png",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+				"AerobicsDay": "Harvey",
+			},
+			"Update": "OnLocationChange",
+		},
+		{
+			"LogName": "Harvey - Aerobics Winter",
+			"Action": "EditImage",
+			"Target": "Portraits/Harvey_Winter, Characters/Harvey_Winter",
+			"FromFile": "assets/{{TargetPathOnly}}/Harvey/{{TargetWithoutPath}}_Aerobics{{Matching}}.png",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+				"AerobicsDay": "Harvey",
+			},
+			"Update": "OnLocationChange, OnTimeChange",
+		},			
+		{
+            "LogName": "Harvey - Labcoat",
+            "Action": "EditImage",
+            "Target": "Portraits/Harvey, Characters/Harvey",
+            "FromFile": "assets/{{Target}}/Harvey_Doctor{{Matching}}.png",
+			"When":
+            {
+                "HasFile:{{FromFile}}": true,
+                "LocationName": "Hospital",
+				"ExtraOutfits": "True",
+            },
+            "Update": "OnLocationChange",
+        },
+		{
+            "LogName": "Harvey - Labcoat Winter",
+            "Action": "EditImage",
+            "Target": "Portraits/Harvey_Winter, Characters/Harvey_Winter",
+            "FromFile": "assets/{{TargetPathOnly}}/Harvey/Harvey_Doctor{{Matching}}.png",
+			"When":
+            {
+                "HasFile:{{FromFile}}": true,
+                "LocationName": "Hospital",
+				"ExtraOutfits": "True",
+            },
+            "Update": "OnLocationChange",
+        },
+	
+		//Bandaid Wedding Fix for Invatorzen's Dialogue Changes
+		{
+			"LogName": "Harvey Wedding Fix",
+			"Action": "EditData",
+			"Target": "Data/Characters",
+			"When": {"DayEvent": "wedding"},
+			"Fields": {
+				"Harvey": {
+					"Gender": "Male",
+				},
+			},
+		},		
+		
+// MISCELLANEOUS			
+		{
+			"LogName": "Harvey - Glasses Overlay",
+			"Action": "EditImage",
+			"Target": "Portraits/Harvey, Portraits/Harvey_Winter, Characters/Harvey, Characters/Harvey_Winter",
+			"FromFile": "assets/{{TargetPathOnly}}/Harvey/Glasses/{{HarveyGlasses}}_Glasses.png",
+			"PatchMode": "Overlay",
+			"When": 
+			{
+				"HasFile:{{FromFile}}": true,
+				"HarveyGlasses": "Pink, Orange, Yellow, Green, Teal, Blue, Purple, White, Black, Grey",
+			},
+		},
+		{
+			"LogName": "Harvey - Spouse Portrait",
+			"Action": "EditImage",
+			"Target": "TileSheets/junimo_furniture",
+			"FromFile": "assets/Characters/junimo_furniture_harvey.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+			},
+		},		
+		/*
+        {
+			"LogName": "Harvey - Emoji",
+			"Action": "EditImage",
+			"Target": "LooseSprites/emojis",
+            "FromFile": "assets/{{NoNose}}/Random/emojis.png",
+			"FromArea": {"X": 90, "Y": 99, "Width": 9, "Height": 9},
+			"ToArea": {"X": 90, "Y": 99, "Width": 9, "Height": 9},
+			"When": 
+			{
+				"HasFile:{{FromFile}}": true,
+			},
+		},
+		*/
+	]
+}

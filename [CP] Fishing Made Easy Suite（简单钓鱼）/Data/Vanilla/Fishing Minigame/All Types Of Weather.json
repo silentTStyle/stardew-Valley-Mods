@@ -1,0 +1,22 @@
+{
+	"Changes": [
+		{
+			"LogName": "All Types Of Weather",
+			"Action": "EditData",
+			"Target": "Data/Fish",
+			"Fields": {
+			    "128": {7: "both"}, //Pufferfish
+				"138": {7: "both"}, //Rainbow Trout
+				"140": {7: "both"}, //Walleye
+				"143": {7: "both"}, //Catfish
+				"145": {7: "both"}, //Sunfish
+				"148": {7: "both"}, //Eel
+				"150": {7: "both"}, //Red Snapper
+				"706": {7: "both"}, //Shad
+				"775": {7: "both"}, //Glacierfish
+				"902": {7: "both"}, //Glacierfish Jr
+					  },
+				"When": {"All Types Of Weather": true},
+		},
+	]
+}

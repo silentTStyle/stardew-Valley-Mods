@@ -1,0 +1,12 @@
+{ 
+  "Name": "Lnh's Natural Slime Hutch",
+  "Author": "Lnh",
+  "Version": "1.1.1",
+  "Description": "An new slime hutch.",
+  "UniqueID": "Lnh.NaturalSlimeHutch",
+  "UpdateKeys": [ "Nexus:16001" ],
+  "ContentPackFor": 
+    {
+      "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}

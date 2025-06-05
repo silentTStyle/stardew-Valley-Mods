@@ -1,0 +1,12 @@
+{
+  "Name": "[BL] Downtown Zuzu",
+  "Author": "Zuzu Development Team",
+  "Version": "0.9.4",
+  "Description": "新增一个中等规模的地点，位于祖祖市郊区。它通过公交车站和CP运行。",
+  "UniqueID": "DTZ.DowntownZuzuBL",
+  "MinimumApiVersion": "4.1.5",
+  "UpdateKeys": [ "Nexus:8587" ],
+  "ContentPackFor": {
+     "UniqueID": "hootless.BusLocations"
+  }
+}

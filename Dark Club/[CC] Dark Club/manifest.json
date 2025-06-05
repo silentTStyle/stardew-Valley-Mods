@@ -1,0 +1,12 @@
+{
+  "Name": "Dark_Club_CC",
+  "Author": "simezi21",
+  "Version": "2.13.0",
+  "Description": "MOD 07",
+  "UniqueID": "simezi21.Dark_Club_CC",
+  "MinimumApiVersion": "3.13.0",
+  "ContentPackFor": {
+    "UniqueID": "PeacefulEnd.CustomCompanions",
+    "MinimumVersion": "1.6.5"
+  }
+}

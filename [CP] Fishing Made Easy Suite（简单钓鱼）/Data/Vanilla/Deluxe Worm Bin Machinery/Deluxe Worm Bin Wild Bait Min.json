@@ -1,0 +1,174 @@
+{
+	"Changes": [
+		{
+			"LogName": "Deluxe Worm Bin Wild Bait Min 3",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)DeluxeWormBin", "OutputRules", "Default", "OutputItem" ],
+			"Fields": {
+			    "(O)774": {"MinStack": 3}
+					},
+			"When": {"Deluxe Worm Bin Wild Bait (REQ)": true, "Deluxe Worm Bin Wild Bait Min": 3},
+		},
+		{
+			"LogName": "Deluxe Worm Bin Wild Bait Min 4",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)DeluxeWormBin", "OutputRules", "Default", "OutputItem" ],
+			"Fields": {
+			    "(O)774": {"MinStack": 4}
+					},
+			"When": {"Deluxe Worm Bin Wild Bait (REQ)": true, "Deluxe Worm Bin Wild Bait Min": 4},
+		},
+		{
+			"LogName": "Deluxe Worm Bin Wild Bait Min 5",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)DeluxeWormBin", "OutputRules", "Default", "OutputItem" ],
+			"Fields": {
+			    "(O)774": {"MinStack": 5}
+					},
+			"When": {"Deluxe Worm Bin Wild Bait (REQ)": true, "Deluxe Worm Bin Wild Bait Min": 5},
+		},
+		{
+			"LogName": "Deluxe Worm Bin Wild Bait Min 6",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)DeluxeWormBin", "OutputRules", "Default", "OutputItem" ],
+			"Fields": {
+			    "(O)774": {"MinStack": 6}
+					},
+			"When": {"Deluxe Worm Bin Wild Bait (REQ)": true, "Deluxe Worm Bin Wild Bait Min": 6},
+		},
+		{
+			"LogName": "Deluxe Worm Bin Wild Bait Min 7",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)DeluxeWormBin", "OutputRules", "Default", "OutputItem" ],
+			"Fields": {
+			    "(O)774": {"MinStack": 7}
+					},
+			"When": {"Deluxe Worm Bin Wild Bait (REQ)": true, "Deluxe Worm Bin Wild Bait Min": 7},
+		},
+		{
+			"LogName": "Deluxe Worm Bin Wild Bait Min 8",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)DeluxeWormBin", "OutputRules", "Default", "OutputItem" ],
+			"Fields": {
+			    "(O)774": {"MinStack": 8}
+					},
+			"When": {"Deluxe Worm Bin Wild Bait (REQ)": true, "Deluxe Worm Bin Wild Bait Min": 8},
+		},
+		{
+			"LogName": "Deluxe Worm Bin Wild Bait Min 9",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)DeluxeWormBin", "OutputRules", "Default", "OutputItem" ],
+			"Fields": {
+			    "(O)774": {"MinStack": 9}
+					},
+			"When": {"Deluxe Worm Bin Wild Bait (REQ)": true, "Deluxe Worm Bin Wild Bait Min": 9},
+		},
+		{
+			"LogName": "Deluxe Worm Bin Wild Bait Min 10",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)DeluxeWormBin", "OutputRules", "Default", "OutputItem" ],
+			"Fields": {
+			    "(O)774": {"MinStack": 10}
+					},
+			"When": {"Deluxe Worm Bin Wild Bait (REQ)": true, "Deluxe Worm Bin Wild Bait Min": 10},
+		},
+		{
+			"LogName": "Deluxe Worm Bin Wild Bait Min 15",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)DeluxeWormBin", "OutputRules", "Default", "OutputItem" ],
+			"Fields": {
+			    "(O)774": {"MinStack": 15}
+					},
+			"When": {"Deluxe Worm Bin Wild Bait (REQ)": true, "Deluxe Worm Bin Wild Bait Min": 15},
+		},
+		{
+			"LogName": "Deluxe Worm Bin Wild Bait Min 20",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)DeluxeWormBin", "OutputRules", "Default", "OutputItem" ],
+			"Fields": {
+			    "(O)774": {"MinStack": 20}
+					},
+			"When": {"Deluxe Worm Bin Wild Bait (REQ)": true, "Deluxe Worm Bin Wild Bait Min": 20},
+		},
+		{
+			"LogName": "Deluxe Worm Bin Wild Bait Min 25",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)DeluxeWormBin", "OutputRules", "Default", "OutputItem" ],
+			"Fields": {
+			    "(O)774": {"MinStack": 25}
+					},
+			"When": {"Deluxe Worm Bin Wild Bait (REQ)": true, "Deluxe Worm Bin Wild Bait Min": 25},
+		},
+		{
+			"LogName": "Deluxe Worm Bin Wild Bait Min 30",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)DeluxeWormBin", "OutputRules", "Default", "OutputItem" ],
+			"Fields": {
+			    "(O)774": {"MinStack": 30}
+					},
+			"When": {"Deluxe Worm Bin Wild Bait (REQ)": true, "Deluxe Worm Bin Wild Bait Min": 30},
+		},
+		{
+			"LogName": "Deluxe Worm Bin Wild Bait Min 35",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)DeluxeWormBin", "OutputRules", "Default", "OutputItem" ],
+			"Fields": {
+			    "(O)774": {"MinStack": 35}
+					},
+			"When": {"Deluxe Worm Bin Wild Bait (REQ)": true, "Deluxe Worm Bin Wild Bait Min": 35},
+		},
+		{
+			"LogName": "Deluxe Worm Bin Wild Bait Min 40",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)DeluxeWormBin", "OutputRules", "Default", "OutputItem" ],
+			"Fields": {
+			    "(O)774": {"MinStack": 40}
+					},
+			"When": {"Deluxe Worm Bin Wild Bait (REQ)": true, "Deluxe Worm Bin Wild Bait Min": 40},
+		},
+		{
+			"LogName": "Deluxe Worm Bin Wild Bait Min 45",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)DeluxeWormBin", "OutputRules", "Default", "OutputItem" ],
+			"Fields": {
+			    "(O)774": {"MinStack": 45}
+					},
+			"When": {"Deluxe Worm Bin Wild Bait (REQ)": true, "Deluxe Worm Bin Wild Bait Min": 45},
+		},
+		{
+			"LogName": "Deluxe Worm Bin Wild Bait Min 50",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)DeluxeWormBin", "OutputRules", "Default", "OutputItem" ],
+			"Fields": {
+			    "(O)774": {"MinStack": 50}
+					},
+			"When": {"Deluxe Worm Bin Wild Bait (REQ)": true, "Deluxe Worm Bin Wild Bait Min": 50},
+		},
+		{
+			"LogName": "Deluxe Worm Bin Wild Bait Min 100",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)DeluxeWormBin", "OutputRules", "Default", "OutputItem" ],
+			"Fields": {
+			    "(O)774": {"MinStack": 100}
+					},
+			"When": {"Deluxe Worm Bin Wild Bait (REQ)": true, "Deluxe Worm Bin Wild Bait Min": 100},
+		},
+	]
+}

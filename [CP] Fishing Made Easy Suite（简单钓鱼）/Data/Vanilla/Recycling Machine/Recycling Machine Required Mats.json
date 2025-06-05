@@ -1,0 +1,904 @@
+{
+	"Changes": [
+		{
+			"LogName": "Recycling Machine Trash Required Mats 2",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)20", "OutputRules", "Default_Trash", "Triggers" ],
+			"Fields": {
+			    "ItemPlacedInMachine": {"RequiredCount": 2},
+		            },
+			"When": {"Recycling Machine Required Mats.": "2"},
+		},
+		{
+			"LogName": "Recycling Machine Driftwood Required Mats 2",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)20", "OutputRules", "Default_Driftwood", "Triggers" ],
+			"Fields": {
+			    "ItemPlacedInMachine": {"RequiredCount": 2},
+		            },
+			"When": {"Recycling Machine Required Mats.": "2"},
+		},
+		{
+			"LogName": "Recycling Machine Broken Glasses Required Mats 2",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)20", "OutputRules", "Default_BrokenGlasses", "Triggers" ],
+			"Fields": {
+			    "ItemPlacedInMachine": {"RequiredCount": 2},
+		            },
+			"When": {"Recycling Machine Required Mats.": "2"},
+		},
+		{
+			"LogName": "Recycling Machine Broken CD Required Mats 2",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)20", "OutputRules", "Default_BrokenCd", "Triggers" ],
+			"Fields": {
+			    "ItemPlacedInMachine": {"RequiredCount": 2},
+		            },
+			"When": {"Recycling Machine Required Mats.": "2"},
+		},
+		{
+			"LogName": "Recycling Machine Soggy Newspaper Required Mats 2",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)20", "OutputRules", "Default_SoggyNewspaper", "Triggers" ],
+			"Fields": {
+			    "ItemPlacedInMachine": {"RequiredCount": 2},
+		            },
+			"When": {"Recycling Machine Required Mats.": "2"},
+		},
+		{
+			"LogName": "Recycling Machine Trash Required Mats 3",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)20", "OutputRules", "Default_Trash", "Triggers" ],
+			"Fields": {
+			    "ItemPlacedInMachine": {"RequiredCount": 3},
+		            },
+			"When": {"Recycling Machine Required Mats.": "3"},
+		},
+		{
+			"LogName": "Recycling Machine Driftwood Required Mats 3",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)20", "OutputRules", "Default_Driftwood", "Triggers" ],
+			"Fields": {
+			    "ItemPlacedInMachine": {"RequiredCount": 3},
+		            },
+			"When": {"Recycling Machine Required Mats.": "3"},
+		},
+		{
+			"LogName": "Recycling Machine Broken Glasses Required Mats 3",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)20", "OutputRules", "Default_BrokenGlasses", "Triggers" ],
+			"Fields": {
+			    "ItemPlacedInMachine": {"RequiredCount": 3},
+		            },
+			"When": {"Recycling Machine Required Mats.": "3"},
+		},
+		{
+			"LogName": "Recycling Machine Broken CD Required Mats 3",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)20", "OutputRules", "Default_BrokenCd", "Triggers" ],
+			"Fields": {
+			    "ItemPlacedInMachine": {"RequiredCount": 3},
+		            },
+			"When": {"Recycling Machine Required Mats.": "3"},
+		},
+		{
+			"LogName": "Recycling Machine Soggy Newspaper Required Mats 3",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)20", "OutputRules", "Default_SoggyNewspaper", "Triggers" ],
+			"Fields": {
+			    "ItemPlacedInMachine": {"RequiredCount": 3},
+		            },
+			"When": {"Recycling Machine Required Mats.": "3"},
+		},
+		{
+			"LogName": "Recycling Machine Trash Required Mats 4",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)20", "OutputRules", "Default_Trash", "Triggers" ],
+			"Fields": {
+			    "ItemPlacedInMachine": {"RequiredCount": 4},
+		            },
+			"When": {"Recycling Machine Required Mats.": "4"},
+		},
+		{
+			"LogName": "Recycling Machine Driftwood Required Mats 4",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)20", "OutputRules", "Default_Driftwood", "Triggers" ],
+			"Fields": {
+			    "ItemPlacedInMachine": {"RequiredCount": 4},
+		            },
+			"When": {"Recycling Machine Required Mats.": "4"},
+		},
+		{
+			"LogName": "Recycling Machine Broken Glasses Required Mats 4",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)20", "OutputRules", "Default_BrokenGlasses", "Triggers" ],
+			"Fields": {
+			    "ItemPlacedInMachine": {"RequiredCount": 4},
+		            },
+			"When": {"Recycling Machine Required Mats.": "4"},
+		},
+		{
+			"LogName": "Recycling Machine Broken CD Required Mats 4",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)20", "OutputRules", "Default_BrokenCd", "Triggers" ],
+			"Fields": {
+			    "ItemPlacedInMachine": {"RequiredCount": 4},
+		            },
+			"When": {"Recycling Machine Required Mats.": "4"},
+		},
+		{
+			"LogName": "Recycling Machine Soggy Newspaper Required Mats 4",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)20", "OutputRules", "Default_SoggyNewspaper", "Triggers" ],
+			"Fields": {
+			    "ItemPlacedInMachine": {"RequiredCount": 4},
+		            },
+			"When": {"Recycling Machine Required Mats.": "4"},
+		},
+		{
+			"LogName": "Recycling Machine Trash Required Mats 5",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)20", "OutputRules", "Default_Trash", "Triggers" ],
+			"Fields": {
+			    "ItemPlacedInMachine": {"RequiredCount": 5},
+		            },
+			"When": {"Recycling Machine Required Mats.": "5"},
+		},
+		{
+			"LogName": "Recycling Machine Driftwood Required Mats 5",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)20", "OutputRules", "Default_Driftwood", "Triggers" ],
+			"Fields": {
+			    "ItemPlacedInMachine": {"RequiredCount": 5},
+		            },
+			"When": {"Recycling Machine Required Mats.": "5"},
+		},
+		{
+			"LogName": "Recycling Machine Broken Glasses Required Mats 5",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)20", "OutputRules", "Default_BrokenGlasses", "Triggers" ],
+			"Fields": {
+			    "ItemPlacedInMachine": {"RequiredCount": 5},
+		            },
+			"When": {"Recycling Machine Required Mats.": "5"},
+		},
+		{
+			"LogName": "Recycling Machine Broken CD Required Mats 5",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)20", "OutputRules", "Default_BrokenCd", "Triggers" ],
+			"Fields": {
+			    "ItemPlacedInMachine": {"RequiredCount": 5},
+		            },
+			"When": {"Recycling Machine Required Mats.": "5"},
+		},
+		{
+			"LogName": "Recycling Machine Soggy Newspaper Required Mats 5",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)20", "OutputRules", "Default_SoggyNewspaper", "Triggers" ],
+			"Fields": {
+			    "ItemPlacedInMachine": {"RequiredCount": 5},
+		            },
+			"When": {"Recycling Machine Required Mats.": "5"},
+		},
+		{
+			"LogName": "Recycling Machine Trash Required Mats 6",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)20", "OutputRules", "Default_Trash", "Triggers" ],
+			"Fields": {
+			    "ItemPlacedInMachine": {"RequiredCount": 6},
+		            },
+			"When": {"Recycling Machine Required Mats.": "6"},
+		},
+		{
+			"LogName": "Recycling Machine Driftwood Required Mats 6",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)20", "OutputRules", "Default_Driftwood", "Triggers" ],
+			"Fields": {
+			    "ItemPlacedInMachine": {"RequiredCount": 6},
+		            },
+			"When": {"Recycling Machine Required Mats.": "6"},
+		},
+		{
+			"LogName": "Recycling Machine Broken Glasses Required Mats 6",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)20", "OutputRules", "Default_BrokenGlasses", "Triggers" ],
+			"Fields": {
+			    "ItemPlacedInMachine": {"RequiredCount": 6},
+		            },
+			"When": {"Recycling Machine Required Mats.": "6"},
+		},
+		{
+			"LogName": "Recycling Machine Broken CD Required Mats 6",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)20", "OutputRules", "Default_BrokenCd", "Triggers" ],
+			"Fields": {
+			    "ItemPlacedInMachine": {"RequiredCount": 6},
+		            },
+			"When": {"Recycling Machine Required Mats.": "6"},
+		},
+		{
+			"LogName": "Recycling Machine Soggy Newspaper Required Mats 6",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)20", "OutputRules", "Default_SoggyNewspaper", "Triggers" ],
+			"Fields": {
+			    "ItemPlacedInMachine": {"RequiredCount": 6},
+		            },
+			"When": {"Recycling Machine Required Mats.": "6"},
+		},
+		{
+			"LogName": "Recycling Machine Trash Required Mats 7",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)20", "OutputRules", "Default_Trash", "Triggers" ],
+			"Fields": {
+			    "ItemPlacedInMachine": {"RequiredCount": 7},
+		            },
+			"When": {"Recycling Machine Required Mats.": "7"},
+		},
+		{
+			"LogName": "Recycling Machine Driftwood Required Mats 7",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)20", "OutputRules", "Default_Driftwood", "Triggers" ],
+			"Fields": {
+			    "ItemPlacedInMachine": {"RequiredCount": 7},
+		            },
+			"When": {"Recycling Machine Required Mats.": "7"},
+		},
+		{
+			"LogName": "Recycling Machine Broken Glasses Required Mats 7",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)20", "OutputRules", "Default_BrokenGlasses", "Triggers" ],
+			"Fields": {
+			    "ItemPlacedInMachine": {"RequiredCount": 7},
+		            },
+			"When": {"Recycling Machine Required Mats.": "7"},
+		},
+		{
+			"LogName": "Recycling Machine Broken CD Required Mats 7",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)20", "OutputRules", "Default_BrokenCd", "Triggers" ],
+			"Fields": {
+			    "ItemPlacedInMachine": {"RequiredCount": 7},
+		            },
+			"When": {"Recycling Machine Required Mats.": "7"},
+		},
+		{
+			"LogName": "Recycling Machine Soggy Newspaper Required Mats 7",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)20", "OutputRules", "Default_SoggyNewspaper", "Triggers" ],
+			"Fields": {
+			    "ItemPlacedInMachine": {"RequiredCount": 7},
+		            },
+			"When": {"Recycling Machine Required Mats.": "7"},
+		},
+		{
+			"LogName": "Recycling Machine Trash Required Mats 8",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)20", "OutputRules", "Default_Trash", "Triggers" ],
+			"Fields": {
+			    "ItemPlacedInMachine": {"RequiredCount": 8},
+		            },
+			"When": {"Recycling Machine Required Mats.": "8"},
+		},
+		{
+			"LogName": "Recycling Machine Driftwood Required Mats 8",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)20", "OutputRules", "Default_Driftwood", "Triggers" ],
+			"Fields": {
+			    "ItemPlacedInMachine": {"RequiredCount": 8},
+		            },
+			"When": {"Recycling Machine Required Mats.": "8"},
+		},
+		{
+			"LogName": "Recycling Machine Broken Glasses Required Mats 8",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)20", "OutputRules", "Default_BrokenGlasses", "Triggers" ],
+			"Fields": {
+			    "ItemPlacedInMachine": {"RequiredCount": 8},
+		            },
+			"When": {"Recycling Machine Required Mats.": "8"},
+		},
+		{
+			"LogName": "Recycling Machine Broken CD Required Mats 8",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)20", "OutputRules", "Default_BrokenCd", "Triggers" ],
+			"Fields": {
+			    "ItemPlacedInMachine": {"RequiredCount": 8},
+		            },
+			"When": {"Recycling Machine Required Mats.": "8"},
+		},
+		{
+			"LogName": "Recycling Machine Soggy Newspaper Required Mats 8",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)20", "OutputRules", "Default_SoggyNewspaper", "Triggers" ],
+			"Fields": {
+			    "ItemPlacedInMachine": {"RequiredCount": 8},
+		            },
+			"When": {"Recycling Machine Required Mats.": "8"},
+		},
+		{
+			"LogName": "Recycling Machine Trash Required Mats 9",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)20", "OutputRules", "Default_Trash", "Triggers" ],
+			"Fields": {
+			    "ItemPlacedInMachine": {"RequiredCount": 9},
+		            },
+			"When": {"Recycling Machine Required Mats.": "9"},
+		},
+		{
+			"LogName": "Recycling Machine Driftwood Required Mats 9",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)20", "OutputRules", "Default_Driftwood", "Triggers" ],
+			"Fields": {
+			    "ItemPlacedInMachine": {"RequiredCount": 9},
+		            },
+			"When": {"Recycling Machine Required Mats.": "9"},
+		},
+		{
+			"LogName": "Recycling Machine Broken Glasses Required Mats 9",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)20", "OutputRules", "Default_BrokenGlasses", "Triggers" ],
+			"Fields": {
+			    "ItemPlacedInMachine": {"RequiredCount": 9},
+		            },
+			"When": {"Recycling Machine Required Mats.": "9"},
+		},
+		{
+			"LogName": "Recycling Machine Broken CD Required Mats 9",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)20", "OutputRules", "Default_BrokenCd", "Triggers" ],
+			"Fields": {
+			    "ItemPlacedInMachine": {"RequiredCount": 9},
+		            },
+			"When": {"Recycling Machine Required Mats.": "9"},
+		},
+		{
+			"LogName": "Recycling Machine Soggy Newspaper Required Mats 9",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)20", "OutputRules", "Default_SoggyNewspaper", "Triggers" ],
+			"Fields": {
+			    "ItemPlacedInMachine": {"RequiredCount": 9},
+		            },
+			"When": {"Recycling Machine Required Mats.": "9"},
+		},
+		{
+			"LogName": "Recycling Machine Trash Required Mats 10",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)20", "OutputRules", "Default_Trash", "Triggers" ],
+			"Fields": {
+			    "ItemPlacedInMachine": {"RequiredCount": 10},
+		            },
+			"When": {"Recycling Machine Required Mats.": "10"},
+		},
+		{
+			"LogName": "Recycling Machine Driftwood Required Mats 10",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)20", "OutputRules", "Default_Driftwood", "Triggers" ],
+			"Fields": {
+			    "ItemPlacedInMachine": {"RequiredCount": 10},
+		            },
+			"When": {"Recycling Machine Required Mats.": "10"},
+		},
+		{
+			"LogName": "Recycling Machine Broken Glasses Required Mats 10",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)20", "OutputRules", "Default_BrokenGlasses", "Triggers" ],
+			"Fields": {
+			    "ItemPlacedInMachine": {"RequiredCount": 10},
+		            },
+			"When": {"Recycling Machine Required Mats.": "10"},
+		},
+		{
+			"LogName": "Recycling Machine Broken CD Required Mats 10",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)20", "OutputRules", "Default_BrokenCd", "Triggers" ],
+			"Fields": {
+			    "ItemPlacedInMachine": {"RequiredCount": 10},
+		            },
+			"When": {"Recycling Machine Required Mats.": "10"},
+		},
+		{
+			"LogName": "Recycling Machine Soggy Newspaper Required Mats 10",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)20", "OutputRules", "Default_SoggyNewspaper", "Triggers" ],
+			"Fields": {
+			    "ItemPlacedInMachine": {"RequiredCount": 10},
+		            },
+			"When": {"Recycling Machine Required Mats.": "10"},
+		},
+		{
+			"LogName": "Recycling Machine Trash Required Mats 15",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)20", "OutputRules", "Default_Trash", "Triggers" ],
+			"Fields": {
+			    "ItemPlacedInMachine": {"RequiredCount": 15},
+		            },
+			"When": {"Recycling Machine Required Mats.": "15"},
+		},
+		{
+			"LogName": "Recycling Machine Driftwood Required Mats 15",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)20", "OutputRules", "Default_Driftwood", "Triggers" ],
+			"Fields": {
+			    "ItemPlacedInMachine": {"RequiredCount": 15},
+		            },
+			"When": {"Recycling Machine Required Mats.": "15"},
+		},
+		{
+			"LogName": "Recycling Machine Broken Glasses Required Mats 15",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)20", "OutputRules", "Default_BrokenGlasses", "Triggers" ],
+			"Fields": {
+			    "ItemPlacedInMachine": {"RequiredCount": 15},
+		            },
+			"When": {"Recycling Machine Required Mats.": "15"},
+		},
+		{
+			"LogName": "Recycling Machine Broken CD Required Mats 15",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)20", "OutputRules", "Default_BrokenCd", "Triggers" ],
+			"Fields": {
+			    "ItemPlacedInMachine": {"RequiredCount": 15},
+		            },
+			"When": {"Recycling Machine Required Mats.": "15"},
+		},
+		{
+			"LogName": "Recycling Machine Soggy Newspaper Required Mats 15",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)20", "OutputRules", "Default_SoggyNewspaper", "Triggers" ],
+			"Fields": {
+			    "ItemPlacedInMachine": {"RequiredCount": 15},
+		            },
+			"When": {"Recycling Machine Required Mats.": "15"},
+		},
+		{
+			"LogName": "Recycling Machine Trash Required Mats 20",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)20", "OutputRules", "Default_Trash", "Triggers" ],
+			"Fields": {
+			    "ItemPlacedInMachine": {"RequiredCount": 20},
+		            },
+			"When": {"Recycling Machine Required Mats.": "20"},
+		},
+		{
+			"LogName": "Recycling Machine Driftwood Required Mats 20",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)20", "OutputRules", "Default_Driftwood", "Triggers" ],
+			"Fields": {
+			    "ItemPlacedInMachine": {"RequiredCount": 20},
+		            },
+			"When": {"Recycling Machine Required Mats.": "20"},
+		},
+		{
+			"LogName": "Recycling Machine Broken Glasses Required Mats 20",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)20", "OutputRules", "Default_BrokenGlasses", "Triggers" ],
+			"Fields": {
+			    "ItemPlacedInMachine": {"RequiredCount": 20},
+		            },
+			"When": {"Recycling Machine Required Mats.": "20"},
+		},
+		{
+			"LogName": "Recycling Machine Broken CD Required Mats 20",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)20", "OutputRules", "Default_BrokenCd", "Triggers" ],
+			"Fields": {
+			    "ItemPlacedInMachine": {"RequiredCount": 20},
+		            },
+			"When": {"Recycling Machine Required Mats.": "20"},
+		},
+		{
+			"LogName": "Recycling Machine Soggy Newspaper Required Mats 20",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)20", "OutputRules", "Default_SoggyNewspaper", "Triggers" ],
+			"Fields": {
+			    "ItemPlacedInMachine": {"RequiredCount": 20},
+		            },
+			"When": {"Recycling Machine Required Mats.": "20"},
+		},
+		{
+			"LogName": "Recycling Machine Trash Required Mats 25",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)20", "OutputRules", "Default_Trash", "Triggers" ],
+			"Fields": {
+			    "ItemPlacedInMachine": {"RequiredCount": 25},
+		            },
+			"When": {"Recycling Machine Required Mats.": "25"},
+		},
+		{
+			"LogName": "Recycling Machine Driftwood Required Mats 25",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)20", "OutputRules", "Default_Driftwood", "Triggers" ],
+			"Fields": {
+			    "ItemPlacedInMachine": {"RequiredCount": 25},
+		            },
+			"When": {"Recycling Machine Required Mats.": "25"},
+		},
+		{
+			"LogName": "Recycling Machine Broken Glasses Required Mats 25",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)20", "OutputRules", "Default_BrokenGlasses", "Triggers" ],
+			"Fields": {
+			    "ItemPlacedInMachine": {"RequiredCount": 25},
+		            },
+			"When": {"Recycling Machine Required Mats.": "25"},
+		},
+		{
+			"LogName": "Recycling Machine Broken CD Required Mats 25",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)20", "OutputRules", "Default_BrokenCd", "Triggers" ],
+			"Fields": {
+			    "ItemPlacedInMachine": {"RequiredCount": 25},
+		            },
+			"When": {"Recycling Machine Required Mats.": "25"},
+		},
+		{
+			"LogName": "Recycling Machine Soggy Newspaper Required Mats 25",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)20", "OutputRules", "Default_SoggyNewspaper", "Triggers" ],
+			"Fields": {
+			    "ItemPlacedInMachine": {"RequiredCount": 25},
+		            },
+			"When": {"Recycling Machine Required Mats.": "25"},
+		},
+		{
+			"LogName": "Recycling Machine Trash Required Mats 30",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)20", "OutputRules", "Default_Trash", "Triggers" ],
+			"Fields": {
+			    "ItemPlacedInMachine": {"RequiredCount": 30},
+		            },
+			"When": {"Recycling Machine Required Mats.": "30"},
+		},
+		{
+			"LogName": "Recycling Machine Driftwood Required Mats 30",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)20", "OutputRules", "Default_Driftwood", "Triggers" ],
+			"Fields": {
+			    "ItemPlacedInMachine": {"RequiredCount": 30},
+		            },
+			"When": {"Recycling Machine Required Mats.": "30"},
+		},
+		{
+			"LogName": "Recycling Machine Broken Glasses Required Mats 30",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)20", "OutputRules", "Default_BrokenGlasses", "Triggers" ],
+			"Fields": {
+			    "ItemPlacedInMachine": {"RequiredCount": 30},
+		            },
+			"When": {"Recycling Machine Required Mats.": "30"},
+		},
+		{
+			"LogName": "Recycling Machine Broken CD Required Mats 30",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)20", "OutputRules", "Default_BrokenCd", "Triggers" ],
+			"Fields": {
+			    "ItemPlacedInMachine": {"RequiredCount": 30},
+		            },
+			"When": {"Recycling Machine Required Mats.": "30"},
+		},
+		{
+			"LogName": "Recycling Machine Soggy Newspaper Required Mats 30",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)20", "OutputRules", "Default_SoggyNewspaper", "Triggers" ],
+			"Fields": {
+			    "ItemPlacedInMachine": {"RequiredCount": 30},
+		            },
+			"When": {"Recycling Machine Required Mats.": "30"},
+		},
+		{
+			"LogName": "Recycling Machine Trash Required Mats 35",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)20", "OutputRules", "Default_Trash", "Triggers" ],
+			"Fields": {
+			    "ItemPlacedInMachine": {"RequiredCount": 35},
+		            },
+			"When": {"Recycling Machine Required Mats.": "35"},
+		},
+		{
+			"LogName": "Recycling Machine Driftwood Required Mats 35",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)20", "OutputRules", "Default_Driftwood", "Triggers" ],
+			"Fields": {
+			    "ItemPlacedInMachine": {"RequiredCount": 35},
+		            },
+			"When": {"Recycling Machine Required Mats.": "35"},
+		},
+		{
+			"LogName": "Recycling Machine Broken Glasses Required Mats 35",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)20", "OutputRules", "Default_BrokenGlasses", "Triggers" ],
+			"Fields": {
+			    "ItemPlacedInMachine": {"RequiredCount": 35},
+		            },
+			"When": {"Recycling Machine Required Mats.": "35"},
+		},
+		{
+			"LogName": "Recycling Machine Broken CD Required Mats 35",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)20", "OutputRules", "Default_BrokenCd", "Triggers" ],
+			"Fields": {
+			    "ItemPlacedInMachine": {"RequiredCount": 35},
+		            },
+			"When": {"Recycling Machine Required Mats.": "35"},
+		},
+		{
+			"LogName": "Recycling Machine Soggy Newspaper Required Mats 35",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)20", "OutputRules", "Default_SoggyNewspaper", "Triggers" ],
+			"Fields": {
+			    "ItemPlacedInMachine": {"RequiredCount": 35},
+		            },
+			"When": {"Recycling Machine Required Mats.": "35"},
+		},
+		{
+			"LogName": "Recycling Machine Trash Required Mats 40",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)20", "OutputRules", "Default_Trash", "Triggers" ],
+			"Fields": {
+			    "ItemPlacedInMachine": {"RequiredCount": 40},
+		            },
+			"When": {"Recycling Machine Required Mats.": "40"},
+		},
+		{
+			"LogName": "Recycling Machine Driftwood Required Mats 40",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)20", "OutputRules", "Default_Driftwood", "Triggers" ],
+			"Fields": {
+			    "ItemPlacedInMachine": {"RequiredCount": 40},
+		            },
+			"When": {"Recycling Machine Required Mats.": "40"},
+		},
+		{
+			"LogName": "Recycling Machine Broken Glasses Required Mats 40",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)20", "OutputRules", "Default_BrokenGlasses", "Triggers" ],
+			"Fields": {
+			    "ItemPlacedInMachine": {"RequiredCount": 40},
+		            },
+			"When": {"Recycling Machine Required Mats.": "40"},
+		},
+		{
+			"LogName": "Recycling Machine Broken CD Required Mats 40",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)20", "OutputRules", "Default_BrokenCd", "Triggers" ],
+			"Fields": {
+			    "ItemPlacedInMachine": {"RequiredCount": 40},
+		            },
+			"When": {"Recycling Machine Required Mats.": "40"},
+		},
+		{
+			"LogName": "Recycling Machine Soggy Newspaper Required Mats 40",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)20", "OutputRules", "Default_SoggyNewspaper", "Triggers" ],
+			"Fields": {
+			    "ItemPlacedInMachine": {"RequiredCount": 40},
+		            },
+			"When": {"Recycling Machine Required Mats.": "40"},
+		},
+		{
+			"LogName": "Recycling Machine Trash Required Mats 45",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)20", "OutputRules", "Default_Trash", "Triggers" ],
+			"Fields": {
+			    "ItemPlacedInMachine": {"RequiredCount": 45},
+		            },
+			"When": {"Recycling Machine Required Mats.": "45"},
+		},
+		{
+			"LogName": "Recycling Machine Driftwood Required Mats 45",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)20", "OutputRules", "Default_Driftwood", "Triggers" ],
+			"Fields": {
+			    "ItemPlacedInMachine": {"RequiredCount": 45},
+		            },
+			"When": {"Recycling Machine Required Mats.": "45"},
+		},
+		{
+			"LogName": "Recycling Machine Broken Glasses Required Mats 45",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)20", "OutputRules", "Default_BrokenGlasses", "Triggers" ],
+			"Fields": {
+			    "ItemPlacedInMachine": {"RequiredCount": 45},
+		            },
+			"When": {"Recycling Machine Required Mats.": "45"},
+		},
+		{
+			"LogName": "Recycling Machine Broken CD Required Mats 45",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)20", "OutputRules", "Default_BrokenCd", "Triggers" ],
+			"Fields": {
+			    "ItemPlacedInMachine": {"RequiredCount": 45},
+		            },
+			"When": {"Recycling Machine Required Mats.": "45"},
+		},
+		{
+			"LogName": "Recycling Machine Soggy Newspaper Required Mats 45",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)20", "OutputRules", "Default_SoggyNewspaper", "Triggers" ],
+			"Fields": {
+			    "ItemPlacedInMachine": {"RequiredCount": 45},
+		            },
+			"When": {"Recycling Machine Required Mats.": "45"},
+		},
+		{
+			"LogName": "Recycling Machine Trash Required Mats 50",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)20", "OutputRules", "Default_Trash", "Triggers" ],
+			"Fields": {
+			    "ItemPlacedInMachine": {"RequiredCount": 50},
+		            },
+			"When": {"Recycling Machine Required Mats.": "50"},
+		},
+		{
+			"LogName": "Recycling Machine Driftwood Required Mats 50",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)20", "OutputRules", "Default_Driftwood", "Triggers" ],
+			"Fields": {
+			    "ItemPlacedInMachine": {"RequiredCount": 50},
+		            },
+			"When": {"Recycling Machine Required Mats.": "50"},
+		},
+		{
+			"LogName": "Recycling Machine Broken Glasses Required Mats 50",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)20", "OutputRules", "Default_BrokenGlasses", "Triggers" ],
+			"Fields": {
+			    "ItemPlacedInMachine": {"RequiredCount": 50},
+		            },
+			"When": {"Recycling Machine Required Mats.": "50"},
+		},
+		{
+			"LogName": "Recycling Machine Broken CD Required Mats 50",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)20", "OutputRules", "Default_BrokenCd", "Triggers" ],
+			"Fields": {
+			    "ItemPlacedInMachine": {"RequiredCount": 50},
+		            },
+			"When": {"Recycling Machine Required Mats.": "50"},
+		},
+		{
+			"LogName": "Recycling Machine Soggy Newspaper Required Mats 50",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)20", "OutputRules", "Default_SoggyNewspaper", "Triggers" ],
+			"Fields": {
+			    "ItemPlacedInMachine": {"RequiredCount": 50},
+		            },
+			"When": {"Recycling Machine Required Mats.": "50"},
+		},
+		{
+			"LogName": "Recycling Machine Trash Required Mats 100",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)20", "OutputRules", "Default_Trash", "Triggers" ],
+			"Fields": {
+			    "ItemPlacedInMachine": {"RequiredCount": 100},
+		            },
+			"When": {"Recycling Machine Required Mats.": "100"},
+		},
+		{
+			"LogName": "Recycling Machine Driftwood Required Mats 100",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)20", "OutputRules", "Default_Driftwood", "Triggers" ],
+			"Fields": {
+			    "ItemPlacedInMachine": {"RequiredCount": 100},
+		            },
+			"When": {"Recycling Machine Required Mats.": "100"},
+		},
+		{
+			"LogName": "Recycling Machine Broken Glasses Required Mats 100",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)20", "OutputRules", "Default_BrokenGlasses", "Triggers" ],
+			"Fields": {
+			    "ItemPlacedInMachine": {"RequiredCount": 100},
+		            },
+			"When": {"Recycling Machine Required Mats.": "100"},
+		},
+		{
+			"LogName": "Recycling Machine Broken CD Required Mats 100",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)20", "OutputRules", "Default_BrokenCd", "Triggers" ],
+			"Fields": {
+			    "ItemPlacedInMachine": {"RequiredCount": 100},
+		            },
+			"When": {"Recycling Machine Required Mats.": "100"},
+		},
+		{
+			"LogName": "Recycling Machine Soggy Newspaper Required Mats 100",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)20", "OutputRules", "Default_SoggyNewspaper", "Triggers" ],
+			"Fields": {
+			    "ItemPlacedInMachine": {"RequiredCount": 100},
+		            },
+			"When": {"Recycling Machine Required Mats.": "100"},
+		},
+	]
+}

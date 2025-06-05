@@ -1,0 +1,333 @@
+{
+  "Changes": [
+    // LooseSprites --------------------------------------------------------------------------------
+    {
+      "Action": "EditImage",
+      "Target": "LooseSprites/cowPhotos",
+      "FromFile": "assets/LooseSprites/cowPhotos.png"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "LooseSprites/Cursors",
+      "FromFile": "assets/LooseSprites/Cursors.png",
+      "FromArea": { "X": 0, "Y": 1363, "Width": 114, "Height": 58 },
+      "ToArea": { "X": 0, "Y": 1363, "Width": 114, "Height": 58 },
+      "When": { "Futanari": "false" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "LooseSprites/Cursors",
+      "FromFile": "assets/LooseSprites/Cursors_Futanari.png",
+      "FromArea": { "X": 0, "Y": 1363, "Width": 114, "Height": 58 },
+      "ToArea": { "X": 0, "Y": 1363, "Width": 114, "Height": 58 },
+      "When": { "Futanari": "true" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "LooseSprites/Cursors",
+      "FromFile": "assets/LooseSprites/Cursors.png",
+      "FromArea": { "X": 57, "Y": 1430, "Width": 40, "Height": 12 },
+      "ToArea": { "X": 57, "Y": 1430, "Width": 40, "Height": 12 }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "LooseSprites/Cursors",
+      "FromFile": "assets/LooseSprites/Cursors.png",
+      "FromArea": { "X": 89, "Y": 1445, "Width": 18, "Height": 3 },
+      "ToArea": { "X": 89, "Y": 1445, "Width": 18, "Height": 3 }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "LooseSprites/Cursors",
+      "FromFile": "assets/LooseSprites/Cursors.png",
+      "FromArea": { "X": 105, "Y": 1318, "Width": 13, "Height": 31 },
+      "ToArea": { "X": 105, "Y": 1318, "Width": 13, "Height": 31 },
+      "When": { "Futanari": "false" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "LooseSprites/Cursors",
+      "FromFile": "assets/LooseSprites/Cursors_Futanari.png",
+      "FromArea": { "X": 105, "Y": 1318, "Width": 13, "Height": 31 },
+      "ToArea": { "X": 105, "Y": 1318, "Width": 13, "Height": 31 },
+      "When": { "Futanari": "true" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "LooseSprites/Cursors",
+      "FromFile": "assets/LooseSprites/Cursors.png",
+      "FromArea": { "X": 194, "Y": 1413, "Width": 16, "Height": 17 },
+      "ToArea": { "X": 194, "Y": 1413, "Width": 16, "Height": 17 }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "LooseSprites/Cursors",
+      "FromFile": "assets/LooseSprites/Cursors.png",
+      "FromArea": { "X": 206, "Y": 1827, "Width": 60, "Height": 27 },
+      "ToArea": { "X": 206, "Y": 1827, "Width": 60, "Height": 27 }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "LooseSprites/Cursors",
+      "FromFile": "assets/LooseSprites/Cursors.png",
+      "FromArea": { "X": 277, "Y": 1886, "Width": 34, "Height": 57 },
+      "ToArea": { "X": 277, "Y": 1886, "Width": 34, "Height": 57 }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "LooseSprites/Cursors",
+      "FromFile": "assets/LooseSprites/Cursors.png",
+      "FromArea": { "X": 288, "Y": 1349, "Width": 95, "Height": 28 },
+      "ToArea": { "X": 288, "Y": 1349, "Width": 95, "Height": 28 }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "LooseSprites/Cursors",
+      "FromFile": "assets/LooseSprites/Cursors.png",
+      "FromArea": { "X": 288, "Y": 1377, "Width": 151, "Height": 28 },
+      "ToArea": { "X": 288, "Y": 1377, "Width": 151, "Height": 28 },
+      "When": { "Futanari": "false" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "LooseSprites/Cursors",
+      "FromFile": "assets/LooseSprites/Cursors_Futanari.png",
+      "FromArea": { "X": 288, "Y": 1377, "Width": 151, "Height": 28 },
+      "ToArea": { "X": 288, "Y": 1377, "Width": 151, "Height": 28 },
+      "When": { "Futanari": "true" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "LooseSprites/Cursors",
+      "FromFile": "assets/LooseSprites/Cursors.png",
+      "FromArea": { "X": 288, "Y": 1406, "Width": 44, "Height": 26 },
+      "ToArea": { "X": 288, "Y": 1406, "Width": 44, "Height": 26 }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "LooseSprites/Cursors",
+      "FromFile": "assets/LooseSprites/Cursors.png",
+      "FromArea": { "X": 384, "Y": 1311, "Width": 15, "Height": 19 },
+      "ToArea": { "X": 384, "Y": 1311, "Width": 15, "Height": 19 }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "LooseSprites/Cursors",
+      "FromFile": "assets/LooseSprites/Cursors.png",
+      "FromArea": { "X": 387, "Y": 1340, "Width": 34, "Height": 37 },
+      "ToArea": { "X": 387, "Y": 1340, "Width": 34, "Height": 37 }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "LooseSprites/Cursors",
+      "FromFile": "assets/LooseSprites/Cursors.png",
+      "FromArea": { "X": 387, "Y": 1965, "Width": 16, "Height": 31 },
+      "ToArea": { "X": 387, "Y": 1965, "Width": 16, "Height": 31 }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "LooseSprites/Cursors",
+      "FromFile": "assets/LooseSprites/Cursors.png",
+      "FromArea": { "X": 390, "Y": 1405, "Width": 36, "Height": 32 },
+      "ToArea": { "X": 390, "Y": 1405, "Width": 36, "Height": 32 }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "LooseSprites/Cursors",
+      "FromFile": "assets/LooseSprites/Cursors.png",
+      "FromArea": { "X": 405, "Y": 1854, "Width": 47, "Height": 33 },
+      "ToArea": { "X": 405, "Y": 1854, "Width": 47, "Height": 33 },
+      "When": { "Futanari": "false" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "LooseSprites/Cursors",
+      "FromFile": "assets/LooseSprites/Cursors_Futanari.png",
+      "FromArea": { "X": 405, "Y": 1854, "Width": 47, "Height": 33 },
+      "ToArea": { "X": 405, "Y": 1854, "Width": 47, "Height": 33 },
+      "When": { "Futanari": "true" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "LooseSprites/Cursors",
+      "FromFile": "assets/LooseSprites/Cursors.png",
+      "FromArea": { "X": 533, "Y": 1864, "Width": 19, "Height": 27 },
+      "ToArea": { "X": 533, "Y": 1864, "Width": 19, "Height": 27 },
+      "When": { "Futanari": "false" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "LooseSprites/Cursors",
+      "FromFile": "assets/LooseSprites/Cursors_Futanari.png",
+      "FromArea": { "X": 533, "Y": 1864, "Width": 19, "Height": 27 },
+      "ToArea": { "X": 533, "Y": 1864, "Width": 19, "Height": 27 },
+      "When": { "Futanari": "true" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "LooseSprites/Cursors",
+      "FromFile": "assets/LooseSprites/Cursors.png",
+      "FromArea": { "X": 555, "Y": 1957, "Width": 18, "Height": 34 },
+      "ToArea": { "X": 555, "Y": 1957, "Width": 18, "Height": 34 },
+      "When": { "Futanari": "false" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "LooseSprites/Cursors",
+      "FromFile": "assets/LooseSprites/Cursors_Futanari.png",
+      "FromArea": { "X": 555, "Y": 1957, "Width": 18, "Height": 34 },
+      "ToArea": { "X": 555, "Y": 1957, "Width": 18, "Height": 34 },
+      "When": { "Futanari": "true" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "LooseSprites/Cursors",
+      "FromFile": "assets/LooseSprites/Cursors.png",
+      "FromArea": { "X": 558, "Y": 1425, "Width": 60, "Height": 26 },
+      "ToArea": { "X": 558, "Y": 1425, "Width": 60, "Height": 26 }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "LooseSprites/Cursors",
+      "FromFile": "assets/LooseSprites/Cursors.png",
+      "FromArea": { "X": 627, "Y": 1957, "Width": 23, "Height": 32 },
+      "ToArea": { "X": 627, "Y": 1957, "Width": 23, "Height": 32 }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "LooseSprites/Cursors2",
+      "FromFile": "assets/LooseSprites/Cursors2.png",
+      "FromArea": { "X": 0, "Y": 80, "Width": 92, "Height": 56 },
+      "ToArea": { "X": 0, "Y": 80, "Width": 92, "Height": 56 }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "LooseSprites/Cursors2",
+      "FromFile": "assets/LooseSprites/Cursors2.png",
+      "FromArea": { "X": 186, "Y": 265, "Width": 22, "Height": 34 },
+      "ToArea": { "X": 186, "Y": 265, "Width": 22, "Height": 34 },
+      "When": { "Futanari": "false" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "LooseSprites/Cursors2",
+      "FromFile": "assets/LooseSprites/Cursors2_Futanari.png",
+      "FromArea": { "X": 186, "Y": 265, "Width": 22, "Height": 34 },
+      "ToArea": { "X": 186, "Y": 265, "Width": 22, "Height": 34 },
+      "When": { "Futanari": "true" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "LooseSprites/Cursors2",
+      "FromFile": "assets/LooseSprites/Cursors2.png",
+      "FromArea": { "X": 215, "Y": 262, "Width": 34, "Height": 58 },
+      "ToArea": { "X": 215, "Y": 262, "Width": 34, "Height": 58 }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "LooseSprites/JunimoNote",
+      "FromFile": "assets/LooseSprites/JunimoNote.png",
+      "FromArea": { "X": 352, "Y": 212, "Width": 160, "Height": 32 },
+      "ToArea": { "X": 352, "Y": 212, "Width": 160, "Height": 32 },
+      "When": { "Futanari": "false" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "LooseSprites/JunimoNote",
+      "FromFile": "assets/LooseSprites/JunimoNote_Futanari.png",
+      "FromArea": { "X": 352, "Y": 212, "Width": 160, "Height": 32 },
+      "ToArea": { "X": 352, "Y": 212, "Width": 160, "Height": 32 },
+      "When": { "Futanari": "true" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "LooseSprites/SeaMonster",
+      "FromFile": "assets/LooseSprites/SeaMonster.png"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "LooseSprites/temporary_sprites_1",
+      "FromFile": "assets/LooseSprites/temporary_sprites_1.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 114, "Height": 70 },
+      "ToArea": { "X": 0, "Y": 0, "Width": 114, "Height": 70 }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "LooseSprites/temporary_sprites_1",
+      "FromFile": "assets/LooseSprites/temporary_sprites_1.png",
+      "FromArea": { "X": 0, "Y": 80, "Width": 252, "Height": 36 },
+      "ToArea": { "X": 0, "Y": 80, "Width": 252, "Height": 36 }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "LooseSprites/temporary_sprites_1",
+      "FromFile": "assets/LooseSprites/temporary_sprites_1.png",
+      "FromArea": { "X": 0, "Y": 614, "Width": 180, "Height": 26 },
+      "ToArea": { "X": 0, "Y": 614, "Width": 180, "Height": 26 }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "LooseSprites/temporary_sprites_1",
+      "FromFile": "assets/LooseSprites/temporary_sprites_1.png",
+      "FromArea": { "X": 2, "Y": 127, "Width": 76, "Height": 18 },
+      "ToArea": { "X": 2, "Y": 127, "Width": 76, "Height": 18 }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "LooseSprites/temporary_sprites_1",
+      "FromFile": "assets/LooseSprites/temporary_sprites_1.png",
+      "FromArea": { "X": 67, "Y": 189, "Width": 72, "Height": 53 },
+      "ToArea": { "X": 67, "Y": 189, "Width": 72, "Height": 53 }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "LooseSprites/temporary_sprites_1",
+      "FromFile": "assets/LooseSprites/temporary_sprites_1.png",
+      "FromArea": { "X": 89, "Y": 164, "Width": 54, "Height": 23 },
+      "ToArea": { "X": 89, "Y": 164, "Width": 54, "Height": 23 }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "LooseSprites/temporary_sprites_1",
+      "FromFile": "assets/LooseSprites/temporary_sprites_1.png",
+      "FromArea": { "X": 192, "Y": 0, "Width": 16, "Height": 32 },
+      "ToArea": { "X": 192, "Y": 0, "Width": 16, "Height": 32 }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "LooseSprites/temporary_sprites_1",
+      "FromFile": "assets/LooseSprites/temporary_sprites_1.png",
+      "FromArea": { "X": 304, "Y": 592, "Width": 196, "Height": 36 },
+      "ToArea": { "X": 304, "Y": 592, "Width": 196, "Height": 36 }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "LooseSprites/temporary_sprites_1",
+      "FromFile": "assets/LooseSprites/temporary_sprites_1.png",
+      "FromArea": { "X": 354, "Y": 168, "Width": 64, "Height": 32 },
+      "ToArea": { "X": 354, "Y": 168, "Width": 64, "Height": 32 }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "LooseSprites/temporary_sprites_1",
+      "FromFile": "assets/LooseSprites/temporary_sprites_1.png",
+      "FromArea": { "X": 457, "Y": 11, "Width": 42, "Height": 18 },
+      "ToArea": { "X": 457, "Y": 11, "Width": 42, "Height": 18 }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "LooseSprites/WillysBoat",
+      "FromFile": "assets/LooseSprites/WillysBoat.png",
+      "FromArea": { "X": 173, "Y": 163, "Width": 16, "Height": 18 },
+      "ToArea": { "X": 173, "Y": 163, "Width": 16, "Height": 18 }
+    },
+	// TileSheets ----------------------------------------------------------------------------------
+    {
+      "Action": "EditImage",
+      "Target": "TileSheets/SecretNotesImages",
+      "FromFile": "assets/TileSheets/SecretNotesImages.png",
+      "FromArea": { "X": 128, "Y": 64, "Width": 64, "Height": 64 },
+      "ToArea": { "X": 128, "Y": 64, "Width": 64, "Height": 64 }
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "Price": 15,
+  "BuyPrice": 500,
+  "FailChance": 25,
+  "BypassSellModifier": true,
+  "CanBuyFrom": [
+    "Blacksmith"
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "Changes": [
+    // Change NPC Schedules - Portraits ------------------------------------------------------------
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Shane",
+      "FromFile": "Characters/Shane/assets/Portraits/Shane_Lewd.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 128 },
+      "ToArea": { "X": 0, "Y": 640, "Width": 128, "Height": 128 },
+      "When": { 
+		"Change NPC Schedules": "true", 
+		"Hypnosis": "false",
+		"Shane": "true",
+	  }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Shane",
+      "FromFile": "Characters/Shane/assets/Portraits/Shane_Lewd_Hypnosis.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 128 },
+      "ToArea": { "X": 0, "Y": 640, "Width": 128, "Height": 128 },
+      "When": { 
+		"Change NPC Schedules": "true", 
+		"Hypnosis": "true",
+		"Shane": "true",
+	  }
+    },
+	{
+      "Action": "EditImage",
+      "Target": "Portraits/Shane_Winter",
+      "FromFile": "Characters/Shane/assets/Portraits/Shane_Lewd.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 128 },
+      "ToArea": { "X": 0, "Y": 640, "Width": 128, "Height": 128 },
+      "When": { 
+		"Change NPC Schedules": "true", 
+		"Hypnosis": "false",
+		"Shane": "true",
+	  }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Shane_Winter",
+      "FromFile": "Characters/Shane/assets/Portraits/Shane_Lewd_Hypnosis.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 128 },
+      "ToArea": { "X": 0, "Y": 640, "Width": 128, "Height": 128 },
+      "When": { 
+		"Change NPC Schedules": "true", 
+		"Hypnosis": "true",
+		"Shane": "true",
+	  }
+    },
+    // Change NPC Schedules - schedules ------------------------------------------------------------
+    {
+      "Action": "EditData",
+      "Target": "Characters/schedules/Shane",
+      "Entries": {
+        "rain": "GOTO spring",
+        "rain2": "700 JojaMart 9 17 2 shane_work/1230 JojaMart 5 13 0 shane_dildo/1330 JojaMart 21 16 2 shane_work/1430 JojaMart 25 12 2 shane_hole/1530 JojaMart 17 12 2 shane_work/1630 JojaMart 7 25 1/1700 Custom_DarkClub 4 32 2 shane_drink/2200 Custom_Restroom 17 7 1 shane_onanie2",
+        "Sat": "700 AnimalShop 24 8 2 shane_onanie1/1200 SeedShop 16 29 3/1700 Saloon 21 17 2 shane_drink/2300 AnimalShop 27 4 1 shane_uplate",
+        "Sun": "MAIL saloonSportsRoom/GOTO Sun_normal/700 AnimalShop 24 15 0/1000 Saloon 33 8 0 \"Strings\\schedules\\Shane:marriage_Sun.000\"/1500 Saloon 21 17 2 shane_drink/1800 Custom_DarkClub 4 32 2 shane_drink/2100 Custom_Restroom 17 7 1 shane_onanie2",
+        "Sun_normal": "700 AnimalShop 24 15 0/1100 AnimalShop 24 8 2 shane_onanie1/1450 AnimalShop 16 13 2/1800 Custom_DarkClub 4 32 2 shane_drink/2100 Custom_Restroom 17 7 1 shane_onanie2",
+        "spring": "700 JojaMart 9 17 2 shane_work/1230 JojaMart 5 13 0 shane_dildo/1330 JojaMart 21 16 2 shane_work/1430 JojaMart 25 12 2 shane_hole/1530 JojaMart 17 12 2 shane_work/1630 JojaMart 7 25 1/1700 Saloon 21 17 2 shane_drink/2300 AnimalShop 27 4 1 shane_sleep",
+        "summer_Sun": "700 AnimalShop 24 15 0/1100 AnimalShop 24 8 2 shane_onanie1/1450 AnimalShop 16 13 2/1800 Custom_DarkClub 4 32 2 shane_drink/2100 Custom_Restroom 17 7 1 shane_onanie2",
+        "default": "900 AnimalShop 24 17 1/1000 AnimalShop 24 15 0/1100 AnimalShop 24 8 2 shane_onanie1/1200 AnimalShop 5 14 2/1400 Saloon 11 20 0/1630 Saloon 21 17 2 shane_drink/1900 Saloon 27 23 1 shane_onanie2/2100 Saloon 24 17 2 shane_drink/2300 AnimalShop 27 4 1 shane_sleep"
+      },
+      "When": { "Change NPC Schedules": "true" }
+    },
+    // Change NPC Schedules - animationDescriptions ------------------------------------------------
+    {
+      "Action": "EditData",
+      "Target": "Data/animationDescriptions",
+      "Entries": {
+        "shane_uplate": "100/100/100/Strings\\animationDescriptions:shane_uplate",
+        "shane_onanie1": "101/101/101/Strings\\animationDescriptions:shane_onanie1",
+        "shane_onanie2": "102/102/102/Strings\\animationDescriptions:shane_onanie2",
+        "shane_hole": "103/103/103/Strings\\animationDescriptions:shane_hole",
+        "shane_dildo": "104/104/104/Strings\\animationDescriptions:shane_dildo",
+      },
+      "When": { "Change NPC Schedules": "true" }
+    },
+    // Change NPC Schedules - animationDescriptions Dialogue ---------------------------------------
+    {
+      "Action": "EditData",
+      "Target": "Strings/animationDescriptions",
+      "Entries": {
+        "shane_uplate": "{{i18n:NPC.Shane.UpLate}}",
+        "shane_onanie1": "{{i18n:NPC.Shane.Fuck}}",
+        "shane_onanie2": "{{i18n:NPC.Shane.Fuck}}",
+        "shane_hole": "{{i18n:NPC.Shane.Fuck}}",
+        "shane_dildo": "{{i18n:NPC.Shane.Fuck}}",
+      },
+      "When": { "Change NPC Schedules": "true" }
+    },
+  ]
+}

@@ -1,0 +1,245 @@
+{
+  "Changes": [
+    { //Sprites
+      "LogName": "Sprites",
+      "Action": "EditImage",
+      "Target": "Characters/Haley, Characters/Haley_Winter",
+      "FromFile": "assets/Characters/Haley/Haley_Sprites.png",
+      "Update": "OnLocationChange",
+      "ToArea": {"X": 0, "Y": 1600, "Width": 64, "Height": 896}
+    },
+    { //Undress
+      "LogName": "Undress",
+      "Action": "EditImage",
+      "Target": "Characters/Haley, Characters/Haley_Winter",
+      "FromFile": "assets/Characters/Haley/{{TargetWithoutPath}}_Undress.png",
+      "Update": "OnLocationChange",
+      "ToArea": {"X": 0, "Y": 1568, "Width": 64, "Height": 32}
+    },
+    { //Extras
+      "Action": "Load",
+      "Target": "Characters/HaleyExtra",
+      "FromFile": "assets/Characters/Haley/HaleyExtra.png"
+    },
+    { //Extras2
+      "Action": "Load",
+      "Target": "Characters/HaleyExtra2",
+      "FromFile": "assets/Characters/Haley/HaleyExtra2.png"
+    },
+    { //Nude Sprite (Used in Cutscenes)
+      "Action": "Load",
+      "Target": "Characters/HaleyNude",
+      "FromFile": "assets/Characters/Haley/HaleyNude.png"
+    },
+    { //Portraits
+      "LogName": "Portraits",
+      "Action": "EditImage",
+      "Target": "Portraits/Haley, Portraits/Haley_Winter",
+      "FromFile": "assets/Portraits/Haley.png",
+      "Update": "OnLocationChange",
+      "ToArea": {"X": 0, "Y": 960, "Width": 128, "Height": 192}
+    },
+    { //Unique Portrait (Stationary)
+      "LogName": "Portraits",
+      "Action": "EditImage",
+      "Target": "Portraits/Haley, Portraits/Haley_Winter",
+      "FromFile": "assets/Animations/Unique/Haley.png",
+      "Update": "OnLocationChange",
+      "FromArea": {"X": 0, "Y": 0, "Width": 64, "Height": 64},
+      "ToArea": {"X": 0, "Y": 1472, "Width": 64, "Height": 64}
+    },
+    /*=======================================================================================================================
+    SCHEDULES
+    =======================================================================================================================*/
+    { //Haley Pleasure
+      "Action": "EditData",
+      "Target": "Characters/Schedules/Haley",
+      "entries": {
+        //SEASON
+        "spring": "900 HaleyHouse 6 5 0/950 HaleyHouse 7 6 2 {{haley_r}}/1100 Town 23 22 2/1630 HaleyHouse 19 16 0 square_5_1_0/2000 HaleyHouse 7 6 0 {{haley_r}}/2230 HaleyHouse 1 5 3 haley_sleep",
+        "summer": "840 HaleyHouse 6 5 0/930 HaleyHouse 7 6 2 {{haley_r}}/1030 Beach 19 7 2/1330 Town 90 91 3/1700 HaleyHouse 19 16 0 square_5_1/2000 HaleyHouse 7 6 2 {{haley_r}}/2300 HaleyHouse 1 5 3 haley_sleep",
+        "winter": "830 HaleyHouse 2 5 2 \"Strings\\schedules\\Haley:winter.000\"/1030 HaleyHouse 7 6 2 {{haley_r}}/1200 HaleyHouse 19 16 0 square_5_1_0/1600 HaleyHouse 7 6 2 {{haley_r}}/1900 HaleyHouse 7 16 0/2200 HaleyHouse 1 5 3 haley_sleep",
+        //RAIN
+        "rain": "830 HaleyHouse 2 5 2 \"Strings\\schedules\\Haley:rain.000\"/1030 HaleyHouse 7 6 2 {{haley_r}}/1200 HaleyHouse 19 16 0 square_5_1_0/1600 HaleyHouse 7 6 2 {{haley_r}}/1900 HaleyHouse 7 16 0/2200 HaleyHouse 1 5 3 haley_sleep",
+        "rain2": "830 HaleyHouse 2 5 2 \"Strings\\schedules\\Haley:rain.000\"/1030 HaleyHouse 7 6 2 {{haley_r}}/1200 Custom_FemaleToilet 4 7 {{haley_r}}/1600 HaleyHouse 5 7 2 square_5_5/1900 HaleyHouse 7 16 0/2200 HaleyHouse 1 5 3 haley_sleep",
+        //OTHER DAYS
+        "Wed": "NOT friendship Alex 6/900 HaleyHouse 6 5 0/950 HaleyHouse 7 6 0 {{haley_r}}/1200 HaleyHouse 5 20 2/1630 HaleyHouse 19 16 0 square_5_1_0/2000 HaleyHouse 7 6 2 {{haley_r}}/2230 HaleyHouse 1 5 3 haley_sleep",
+        //MARRIAGE
+        "marriage_Mon": "930 HaleyHouse 4 15 2 \"Strings\\schedules\\Haley:marriage_Mon.000\"/1200 Custom_FemaleToilet 5 4 2 {{haley_r}}/1740 BusStop -1 23 3",
+        "marriage_Fri": "930 HaleyHouse 7 6 2 {{haley_r}}/1200 Custom_FemaleToilet 5 4 2 {{haley_r}}/1740 BusStop -1 23 3"
+      },
+      "When": {
+        "Pleasure": "Haley"
+      }
+    },
+    { //SEX ALEX
+      "Action": "EditData",
+      "Target": "Characters/Schedules/Haley",
+      "entries": {
+        //SUMMER FRIDAY
+        "summer_5": "840 HaleyHouse 6 5 0/930 HaleyHouse 8 7 1/1030 Beach 19 7 2/1330 Town 90 91 3/1700 Custom_MaleToilet 5 10 3/1900 Custom_MaleToilet 5 10 3 haley_sex1/2000 Custom_MaleToilet 5 10 3 haley_sex2/2100 Custom_MaleToilet 5 10 3 haley_sex1/2300 HaleyHouse 1 5 3 haley_sleep",
+        "summer_19": "GOTO summer_5",
+        "summer_12": "840 HaleyHouse 6 5 0/930 HaleyHouse 8 7 1/1030 Beach 19 7 2/1330 Town 90 91 3/1700 Custom_MaleToilet 5 10 3/1900 Custom_MaleToilet 5 10 3 haley_sex1/2000 Custom_MaleToilet 5 10 3 haley_sex2/2100 Custom_MaleToilet 5 10 3 haley_sex1/2300 HaleyHouse 1 5 3 haley_sleep",
+        "summer_26": "GOTO summer_12",
+        //SUMMER TUESDAY
+        "summer_2": "840 HaleyHouse 6 5 0/930 Beach 53 7 3/1130 Beach 53 7 3 haley_sex3/1230 Beach 53 7 3 haley_sex2/1330 Town 90 91 3/1700 HaleyHouse 19 16 0 square_5_1/2000 HaleyHouse 5 7 2 square_5_5/2300 HaleyHouse 1 5 3 haley_sleep",
+        "summer_9": "GOTO summer_2",
+        "summer_16": "GOTO summer_2",
+        "summer_23": "GOTO summer_2"
+      },
+      "When": {
+        "Sex Schedule": "Haley+Alex",
+        "Relationship:Alex": "Unmet, Friendly, Dating, Engaged, Divorced"
+      }
+    },
+    { //SEX ABIGAIL - HALEY TOP
+      "Action": "EditData",
+      "Target": "Characters/Schedules/Haley",
+      "entries": {
+        //WINTER FRIDAY
+        "winter_5": "830 HaleyHouse 2 5 2 \"Strings\\schedules\\Haley:winter.000\"/1030 HaleyHouse 6 5 0/1130 HaleyHouse 8 7 1/1200 HaleyHouse 19 16 0 square_5_1_0/1600 Custom_BathroomVG 15 5 2/1800 Custom_BathroomVG 15 5 2 haley_top/2200 HaleyHouse 1 5 3 haley_sleep",
+        "winter_12": "GOTO winter_5",
+        "winter_19": "GOTO winter_5",
+        "winter_26": "GOTO winter_5"
+      },
+      "When": {
+        "Sex Schedule": "Haley+Abigail",
+        "Relationship:Abigail": "Unmet, Friendly, Dating, Engaged, Divorced"
+      }
+    },
+    /*=======================================================================================================================
+    DIALOGUE
+    =======================================================================================================================*/
+    { //Pleasure Dialogue Angry
+      "Action": "EditData",
+      "Target": "Strings/schedules/Haley",
+      "Update": "OnLocationChange",
+      "Entries": {
+        "pleasure1": "{{i18n:Haley.Pleasure.Angry}}",
+        "pleasure2": "{{i18n:Haley.Pleasure.Angry}}",
+        "pleasure3": "{{i18n:Haley.Pleasure.Angry}}",
+        "pleasure4": "{{i18n:Haley.Pleasure.Angry}}",
+        "pleasure5": "{{i18n:Haley.Pleasure.Angry}}",
+        "pleasure6": "{{i18n:Haley.Pleasure.Angry}}",
+        "pleasure7": "{{i18n:Haley.Pleasure.Angry}}",
+        "pleasure8": "{{i18n:Haley.Pleasure.Angry}}"
+      },
+      "When": {
+        "Hearts:Haley": "{{Range: 0, 3}}"
+      }
+    },
+    { //Pleasure Dialogue Happy
+      "Action": "EditData",
+      "Target": "Strings/schedules/Haley",
+      "Update": "OnLocationChange",
+      "Entries": {
+        "pleasure1": "{{i18n:Haley.Pleasure.01}}",
+        "pleasure2": "{{i18n:Haley.Pleasure.02}}",
+        "pleasure3": "{{i18n:Haley.Pleasure.03}}",
+        "pleasure4": "{{i18n:Haley.Pleasure.04}}",
+        "pleasure5": "{{i18n:Haley.Pleasure.05}}",
+        "pleasure6": "{{i18n:Haley.Pleasure.06}}",
+        "pleasure7": "{{i18n:Haley.Pleasure.07}}",
+        "pleasure8": "{{i18n:Haley.Pleasure.08}}"
+      },
+      "When": {
+        "Hearts:Haley": "{{Range: 4, 14}}"
+      }
+    },
+    { //Sex Dialogue
+      "Action": "EditData",
+      "Target": "Strings/animationDescriptions",
+      "entries": {
+        "haley_sex1": "{{i18n:Haley.Sex.01}}",
+        "haley_sex2": "{{i18n:Haley.Sex.02}}",
+        "haley_sex3": "{{i18n:Haley.Sex.03}}",
+        "haley_sex4": "{{i18n:Haley.Sex.04}}",
+        "haley_sex5": "{{i18n:Haley.Sex.05}}",
+        "haley_sex6": "{{i18n:Haley.Sex.06}}",
+        "haley_top": "{{i18n:Haley.Top}}",
+        "haley_bottom": "{{i18n:Haley.Bottom}}"
+      }
+    },
+    /*=======================================================================================================================
+    ANIMATIONS
+    =======================================================================================================================*/
+    { //Pleasure
+      "Action": "EditData",
+      "Target": "Data/animationDescriptions",
+      "Update": "OnLocationChange",
+      "entries": {
+        "haley_pleasure1": "196 197 198 199/200 201 202 203 204/199 198 197 196",
+        "haley_pleasure2": "196 197 198 199/205 206 207 208 209/199 198 197 196",
+        "haley_pleasure3": "196 197 198 199/210 211 212 213 214/199 198 197 196",
+        "haley_pleasure4": "196 197 198 199/215 216 217 218 219/199 198 197 196",
+        "haley_pleasure5": "196 197 198 199/220 221 222 223 224/199 198 197 196",
+        "haley_pleasure6": "196 197 198 199/225 226 227 228 229/199 198 197 196",
+        "haley_pleasure7": "196 197 198 199/230 231 232 233 234/199 198 197 196",
+        "haley_pleasure8": "196 197 198 199/235 236 237 238/199 198 197 196"
+      }
+    },
+    { //Sex
+      "Action": "EditData",
+      "Target": "Data/animationDescriptions",
+      "Update": "OnLocationChange",
+      "entries": {
+        "haley_sex1": "196 197 198 199/240 241 242 243 244/199 198 197 196/Strings\\animationDescriptions:haley_sex1",
+        "haley_sex2": "196 197 198 199/245 246 247 248 249/199 198 197 196/Strings\\animationDescriptions:haley_sex2",
+        "haley_sex3": "196 197 198 199/250 251 252 253 254/199 198 197 196/Strings\\animationDescriptions:haley_sex3",
+        "haley_sex4": "196 197 198 199/255 256 257 258 259/199 198 197 196/Strings\\animationDescriptions:haley_sex4",
+        "haley_sex5": "196 197 198 199/260 261 262 263 264/199 198 197 196/Strings\\animationDescriptions:haley_sex5",
+        "haley_sex6": "196 197 198 199/265 266 267 268 269/199 198 197 196/Strings\\animationDescriptions:haley_sex6",
+        "haley_top": "196 197 198 199/270 271 272 273 274/199 198 197 196/Strings\\animationDescriptions:haley_top",
+        "haley_bottom": "196 197 198 199/275 276 277 278 279/199 198 197 196/Strings\\animationDescriptions:haley_bottom"
+      }
+    },
+    /*=======================================================================================================================
+    MALE COUNTERPART - ALEX
+    =======================================================================================================================*/
+    { //Sprites
+      "LogName": "Sprites",
+      "Action": "EditImage",
+      "Target": "Characters/Alex, Characters/Alex_Winter",
+      "FromFile": "assets/Characters/Haley/Alex.png",
+      "Update": "OnLocationChange",
+      "ToArea": {"X": 0, "Y": 1920, "Width": 64, "Height": 96}
+    },
+    { //Dialogue
+      "Action": "EditData",
+      "Target": "Strings/animationDescriptions",
+      "entries": {
+        "alex_haley": "{{i18n:Alex.Haley}}"
+      }
+    },
+    { //Animations
+      "Action": "EditData",
+      "Target": "Data/animationDescriptions",
+      "Update": "OnLocationChange",
+      "entries": {
+        "alex_haley1": "0 0 0 0/246/0 0 0 0/Strings\\animationDescriptions:alex_haley",
+        "alex_haley2": "0 0 0 0/240 241 242 243 244/0 0 0 0/Strings\\animationDescriptions:alex_haley",
+        "alex_haley3": "0 0 0 0/245/0 0 0 0/Strings\\animationDescriptions:alex_haley"
+      }
+    },
+    { //Schedules
+      "Action": "EditData",
+      "Target": "Characters/Schedules/Alex",
+      "entries": {
+        //SUMMER FRIDAY
+        "summer_5": "730 Beach 30 13 2 square_7_7/1200 Town 88 91 2/1700 Custom_MaleToilet 4 10 1/1900 Custom_MaleToilet 4 10 1 alex_haley3/2000 Custom_MaleToilet 4 10 1 alex_haley2/2100 Custom_MaleToilet 4 10 1 alex_haley1/2300 JoshHouse 21 4 1 alex_sleep",
+        "summer_19": "GOTO summer_5",
+        "summer_12": "730 Beach 30 13 2 square_7_7/1200 Town 88 91 2/1700 Custom_MaleToilet 4 10 1/1900 Custom_MaleToilet 4 10 1 alex_haley3/2000 Custom_MaleToilet 4 10 1 alex_haley2/2100 Custom_MaleToilet 4 10 1 alex_haley1/2300 JoshHouse 21 4 1 alex_sleep",
+        "summer_26": "GOTO summer_12",
+        //SUMMER TUESDAY
+        "summer_2": "730 Beach 30 13 2 square_7_7/1030 Beach 52 7 1/1130 Beach 52 7 1 alex_haley3/1230 Beach 52 7 1 alex_haley2/1330 Town 88 91 2/1700 JoshHouse 14 5 2 alex_lift_weights/1900 JoshHouse 8 19 2/2000 JoshHouse 17 5 0/2200 JoshHouse 21 4 1 alex_sleep",
+        "summer_9": "GOTO summer_2",
+        "summer_16": "GOTO summer_2",
+        "summer_23": "GOTO summer_2"
+      },
+      "When": {
+        "Sex Schedule": "Haley+Alex",
+        "Relationship:Haley": "Unmet, Friendly, Dating, Engaged, Divorced"
+      }
+    }
+  ]
+}

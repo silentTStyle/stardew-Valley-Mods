@@ -1,0 +1,27 @@
+{
+  // Config Description ----------------------------------------------------------------------------
+  // General
+  "Config.Section.General.Name": "General",
+  "Config.Glasses.Name": "Glasses",
+  "Config.Glasses.Description": "Displays NPC glasses.",
+  "Config.Hypnosis.Name": "Glasses",
+  "Config.Hypnosis.Description": "Change the face of NPCs to hypnotic state.",
+  "Config.Futanari.Name": "Futanari",
+  "Config.Futanari.Description": "Change the male NPC sprite to Futanari.",
+  // Villagers
+  "Config.Section.Villagers.Name": "Villagers",
+  "Config.Section.Villagers.Description": "For every villager you can change sprite and portrait, only the sprite or nothing at all.",
+  "Config.Abigail.Name": "Abigail",
+  "Config.Alex.Name": "Alex",
+  "Config.Caroline.Name": "Caroline",
+  "Config.Clint.Name": "Clint",
+  "Config.Demetrius.Name": "Demetrius",
+  "Config.Elliott.Name": "Elliott",
+  "Config.Emily.Name": "Emily",
+  "Config.Evelyn.Name": "Evelyn",
+  "Config.George.Name": "George",
+  "Config.Gus.Name": "Gus",
+  "Config.Haley.Name": "Haley",
+  "Config.Harvey.Name": "Harvey",
+  "Config.Jodi.Name": "Jodi",
+}

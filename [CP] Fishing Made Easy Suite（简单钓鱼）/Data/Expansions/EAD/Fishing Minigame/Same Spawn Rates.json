@@ -1,0 +1,16 @@
+{
+	"Changes": [
+		{
+			"LogName": "EAD - Same Spawn Rates",
+			"Action": "EditData",
+			"Target": "Data/Fish",
+			"Fields": {
+				"TenebrousNova.EliDylan.CP_TenebrousNova.EnD.LambentHyphafin": {10: ".45", 11: ".1"},
+				"TenebrousNova.EliDylan.CP_TenebrousNova.EnD.Junimeel": {10: ".45", 11: ".1"},
+				"TenebrousNova.EliDylan.CP_TenebrousNova.EnD.CombJelly": {10: ".45", 11: ".1"},
+				"TenebrousNova.EliDylan.CP_TenebrousNova.EnD.BloodybellyCombJelly": {10: ".45", 11: ".1"},
+					},
+				"When": {"Same Spawn Rates": true},
+		},
+	]
+}

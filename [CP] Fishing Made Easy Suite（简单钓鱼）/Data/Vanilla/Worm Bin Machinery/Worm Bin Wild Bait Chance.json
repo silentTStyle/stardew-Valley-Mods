@@ -1,0 +1,194 @@
+{
+	"Changes": [
+		{
+			"LogName": "Worm Bin Wild Bait Chance 15%",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)154", "OutputRules", "Default", "OutputItem" ],
+			"Fields": {
+			    "(O)774": {"Condition": "RANDOM 0.15"}
+					},
+			"When": {"Worm Bin Wild Bait (REQ)": true, "Worm Bin Wild Bait Chance": "15% Chance"},
+		},
+		{
+			"LogName": "Worm Bin Wild Bait Chance 20%",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)154", "OutputRules", "Default", "OutputItem" ],
+			"Fields": {
+			    "(O)774": {"Condition": "RANDOM 0.20"}
+					},
+			"When": {"Worm Bin Wild Bait (REQ)": true, "Worm Bin Wild Bait Chance": "20% Chance"},
+		},
+		{
+			"LogName": "Worm Bin Wild Bait Chance 25%",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)154", "OutputRules", "Default", "OutputItem" ],
+			"Fields": {
+			    "(O)774": {"Condition": "RANDOM 0.25"}
+					},
+			"When": {"Worm Bin Wild Bait (REQ)": true, "Worm Bin Wild Bait Chance": "25% Chance"},
+		},
+		{
+			"LogName": "Worm Bin Wild Bait Chance 30%",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)154", "OutputRules", "Default", "OutputItem" ],
+			"Fields": {
+			    "(O)774": {"Condition": "RANDOM 0.30"}
+					},
+			"When": {"Worm Bin Wild Bait (REQ)": true, "Worm Bin Wild Bait Chance": "30% Chance"},
+		},
+		{
+			"LogName": "Worm Bin Wild Bait Chance 35%",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)154", "OutputRules", "Default", "OutputItem" ],
+			"Fields": {
+			    "(O)774": {"Condition": "RANDOM 0.35"}
+					},
+			"When": {"Worm Bin Wild Bait (REQ)": true, "Worm Bin Wild Bait Chance": "35% Chance"},
+		},
+		{
+			"LogName": "Worm Bin Wild Bait Chance 40%",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)154", "OutputRules", "Default", "OutputItem" ],
+			"Fields": {
+			    "(O)774": {"Condition": "RANDOM 0.40"}
+					},
+			"When": {"Worm Bin Wild Bait (REQ)": true, "Worm Bin Wild Bait Chance": "40% Chance"},
+		},
+		{
+			"LogName": "Worm Bin Wild Bait Chance 45%",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)154", "OutputRules", "Default", "OutputItem" ],
+			"Fields": {
+			    "(O)774": {"Condition": "RANDOM 0.45"}
+					},
+			"When": {"Worm Bin Wild Bait (REQ)": true, "Worm Bin Wild Bait Chance": "45% Chance"},
+		},
+		{
+			"LogName": "Worm Bin Wild Bait Chance 50%",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)154", "OutputRules", "Default", "OutputItem" ],
+			"Fields": {
+			    "(O)774": {"Condition": "RANDOM 0.50"}
+					},
+			"When": {"Worm Bin Wild Bait (REQ)": true, "Worm Bin Wild Bait Chance": "50% Chance"},
+		},
+		{
+			"LogName": "Worm Bin Wild Bait Chance 55%",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)154", "OutputRules", "Default", "OutputItem" ],
+			"Fields": {
+				"(O)685": {"Condition": "RANDOM 0.45"},
+			    "(O)774": {"Condition": null}
+					},
+			"When": {"Worm Bin Wild Bait (REQ)": true, "Worm Bin Wild Bait Chance": "55% Chance"},
+		},
+		{
+			"LogName": "Worm Bin Wild Bait Chance 60%",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)154", "OutputRules", "Default", "OutputItem" ],
+			"Fields": {
+				"(O)685": {"Condition": "RANDOM 0.40"},
+			    "(O)774": {"Condition": null}
+					},
+			"When": {"Worm Bin Wild Bait (REQ)": true, "Worm Bin Wild Bait Chance": "60% Chance"},
+		},
+		{
+			"LogName": "Worm Bin Wild Bait Chance 65%",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)154", "OutputRules", "Default", "OutputItem" ],
+			"Fields": {
+				"(O)685": {"Condition": "RANDOM 0.35"},
+			    "(O)774": {"Condition": null}
+					},
+			"When": {"Worm Bin Wild Bait (REQ)": true, "Worm Bin Wild Bait Chance": "65% Chance"},
+		},
+		{
+			"LogName": "Worm Bin Wild Bait Chance 70%",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)154", "OutputRules", "Default", "OutputItem" ],
+			"Fields": {
+				"(O)685": {"Condition": "RANDOM 0.30"},
+			    "(O)774": {"Condition": null}
+					},
+			"When": {"Worm Bin Wild Bait (REQ)": true, "Worm Bin Wild Bait Chance": "70% Chance"},
+		},
+		{
+			"LogName": "Worm Bin Wild Bait Chance 75%",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)154", "OutputRules", "Default", "OutputItem" ],
+			"Fields": {
+				"(O)685": {"Condition": "RANDOM 0.25"},
+			    "(O)774": {"Condition": null}
+					},
+			"When": {"Worm Bin Wild Bait (REQ)": true, "Worm Bin Wild Bait Chance": "75% Chance"},
+		},
+		{
+			"LogName": "Worm Bin Wild Bait Chance 80%",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)154", "OutputRules", "Default", "OutputItem" ],
+			"Fields": {
+				"(O)685": {"Condition": "RANDOM 0.20"},
+			    "(O)774": {"Condition": null}
+					},
+			"When": {"Worm Bin Wild Bait (REQ)": true, "Worm Bin Wild Bait Chance": "80% Chance"},
+		},
+		{
+			"LogName": "Worm Bin Wild Bait Chance 85%",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)154", "OutputRules", "Default", "OutputItem" ],
+			"Fields": {
+				"(O)685": {"Condition": "RANDOM 0.15"},
+			    "(O)774": {"Condition": null}
+					},
+			"When": {"Worm Bin Wild Bait (REQ)": true, "Worm Bin Wild Bait Chance": "85% Chance"},
+		},
+		{
+			"LogName": "Worm Bin Wild Bait Chance 90%",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)154", "OutputRules", "Default", "OutputItem" ],
+			"Fields": {
+				"(O)685": {"Condition": "RANDOM 0.10"},
+			    "(O)774": {"Condition": null}
+					},
+			"When": {"Worm Bin Wild Bait (REQ)": true, "Worm Bin Wild Bait Chance": "90% Chance"},
+		},
+		{
+			"LogName": "Worm Bin Wild Bait Chance 95%",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)154", "OutputRules", "Default", "OutputItem" ],
+			"Fields": {
+				"(O)685": {"Condition": "RANDOM 0.05"},
+			    "(O)774": {"Condition": null}
+					},
+			"When": {"Worm Bin Wild Bait (REQ)": true, "Worm Bin Wild Bait Chance": "95% Chance"},
+		},
+		{
+			"LogName": "Worm Bin Wild Bait Chance 100%",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)154", "OutputRules", "Default", "OutputItem" ],
+			"Fields": {
+				"(O)685": {"Condition": "RANDOM 0"},
+			    "(O)774": {"Condition": null}
+					},
+			"When": {"Worm Bin Wild Bait (REQ)": true, "Worm Bin Wild Bait Chance": "100% Chance"},
+		},
+	]
+}

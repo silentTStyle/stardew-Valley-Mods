@@ -1,0 +1,8 @@
+{
+	"config.Shaymin confusion change.name": "シェイミの混乱の変化",
+	"config.Shaymin confusion change.description": "これはシェイミとシャイニーシェイミの外見を変えるためのものです。",
+	"config.Shaymin confusion change.values.Shiny is Shiny and Normal is Normal": "シャイニーはシャイニーで、ノーマルはノーマルです。",
+    "config.Shaymin confusion change.values.Shiny is Normal and Normal is Shiny": "光沢は普通で、普通は光沢があります。",
+	"config.Adoption Price.name": "養子縁組の価格",
+	"config.Adoption Price.description": "シェイミの養子縁組のための価格。",
+}

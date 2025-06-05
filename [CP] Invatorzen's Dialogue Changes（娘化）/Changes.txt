@@ -1,0 +1,3 @@
+* Added string for granddaughter for Alex
+* Fixed character data for Evelyn, Alex, George, Elena (Elliott), Harriet (Harvey), Sabrina (Sebastian), Maru, Robin, Jodi, Kent and Sam
+* Set sprites to use default ones during winter

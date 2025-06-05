@@ -1,0 +1,95 @@
+{
+  "Changes": [
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Sam",
+      "FromFile": "assets/Characters/Sam.png",
+      "When": { "Futanari": "false" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Sam",
+      "FromFile": "assets/Characters/Sam_Futanari.png",
+      "When": { "Futanari": "true" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Sam_Beach",
+      "FromFile": "assets/Characters/Sam_Beach.png",
+      "When": { "Futanari": "false" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Sam_Beach",
+      "FromFile": "assets/Characters/Sam_Beach_Futanari.png",
+      "When": { "Futanari": "true" }
+    },
+	{
+      "Action": "EditImage",
+      "Target": "Characters/Sam_Winter",
+      "FromFile": "assets/Characters/Sam.png",
+      "When": { "Futanari": "false" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Sam_Winter",
+      "FromFile": "assets/Characters/Sam_Futanari.png",
+      "When": { "Futanari": "true" }
+    },
+	// Portraits -----------------------------------------------------------------------------------
+	{
+      "Action": "EditImage",
+      "Target": "Portraits/Sam",
+      "FromFile": "assets/Portraits/Sam.png",
+      "When": { 
+		"Hypnosis": "false",
+		"Sam": "On",
+	  }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Sam",
+      "FromFile": "assets/Portraits/Sam_Hypnosis.png",
+      "When": { 
+		"Hypnosis": "true",
+		"Sam": "On",
+	  }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Sam_Beach",
+      "FromFile": "assets/Portraits/Sam_Beach.png",
+      "When": { 
+		"Hypnosis": "false",
+		"Sam": "On",
+	  }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Sam_Beach",
+      "FromFile": "assets/Portraits/Sam_Beach_Hypnosis.png",
+      "When": { 
+		"Hypnosis": "true",
+		"Sam": "On",
+	  }
+    },
+	{
+      "Action": "EditImage",
+      "Target": "Portraits/Sam_Winter",
+      "FromFile": "assets/Portraits/Sam.png",
+      "When": { 
+		"Hypnosis": "false",
+		"Sam": "On",
+	  }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Sam_Winter",
+      "FromFile": "assets/Portraits/Sam_Hypnosis.png",
+      "When": { 
+		"Hypnosis": "true",
+		"Sam": "On",
+	  }
+    },
+  ]
+}

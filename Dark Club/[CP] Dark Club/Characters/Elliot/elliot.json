@@ -1,0 +1,96 @@
+{
+  "Changes": [
+    // Change NPC Schedules - Portraits ------------------------------------------------------------
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Elliott",
+      "FromFile": "Characters/Elliot/assets/Portraits/Elliott_Lewd.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 128 },
+      "ToArea": { "X": 0, "Y": 640, "Width": 128, "Height": 128 },
+      "When": { 
+		"Change NPC Schedules": "true", 
+		"Hypnosis": "false",
+		"Eliott": "true",
+	  }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Elliott",
+      "FromFile": "Characters/Elliot/assets/Portraits/Elliott_Lewd_Hypnosis.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 128 },
+      "ToArea": { "X": 0, "Y": 640, "Width": 128, "Height": 128 },
+      "When": {
+		 "Change NPC Schedules": "true",
+		 "Hypnosis": "true",
+		 "Eliott": "true",
+	  }
+    },
+	{
+      "Action": "EditImage",
+      "Target": "Portraits/Elliott_Winter",
+      "FromFile": "Characters/Elliot/assets/Portraits/Elliott_Lewd.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 128 },
+      "ToArea": { "X": 0, "Y": 640, "Width": 128, "Height": 128 },
+      "When": { 
+		"Change NPC Schedules": "true", 
+		"Hypnosis": "false",
+		"Eliott": "true",
+	  }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Elliott_Winter",
+      "FromFile": "Characters/Elliot/assets/Portraits/Elliott_Lewd_Hypnosis.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 128 },
+      "ToArea": { "X": 0, "Y": 640, "Width": 128, "Height": 128 },
+      "When": {
+		 "Change NPC Schedules": "true",
+		 "Hypnosis": "true",
+		 "Eliott": "true",
+	  }
+    },
+    // Change NPC Schedules - schedules ------------------------------------------------------------
+    {
+      "Action": "EditData",
+      "Target": "Characters/schedules/Elliott",
+      "Entries": {
+        "rain": "800 ElliottHouse 1 5 0/1000 ElliottHouse 6 4 0/1100 ElliottHouse 1 5 3 elliott_onanie2/1800 ElliottHouse 7 7 2/2000 ElliottHouse 13 4 1 elliott_uplate",
+        "rain2": "800 ElliottHouse 1 5 3 elliott_onanie2/1300 ElliottHouse 6 4 0/1400 ElliottHouse 1 5 0/1800 Custom_DarkClub 15 33 2 elliott_drink/2100 Custom_DarkClub 14 29 3 elliott_onanie2",
+        "Thu": "800 ElliottHouse 1 5 3 elliott_onanie2/1130 SeedShop 10 20 0/1730 ElliottHouse 7 7 2/2000 ElliottHouse 13 4 1 elliott_uplate",
+        "Fri": "800 ElliottHouse 1 5 0/1100 Beach 24 32 3 square_1_5_3/1700 Saloon 4 19 2 elliott_drink/2000 Saloon 7 6 2 elliott_onanie1/2330 ElliottHouse 13 4 1 elliott_sleep",
+        "Sun": "800 ElliottHouse 1 5 0/1100 Beach 49 19 3 elliott_dildo/1800 Custom_DarkClub 15 33 2 elliott_drink/2100 Custom_DarkClub 14 29 3 elliott_onanie2",
+        "spring": "800 ElliottHouse 1 5 0/1000 ElliottHouse 6 4 0/1100 ElliottHouse 1 5 0/1200 Beach 49 19 3 elliott_dildo/1330 ElliottHouse 1 5 0/1500 Town 55 104 1/1800 ElliottHouse 7 7 2/2000 ElliottHouse 10 6 2 elliott_hole/2400 ElliottHouse 13 4 1 elliott_sleep",
+        "summer": "800 ElliottHouse 1 5 0/1000 ElliottHouse 6 4 0/1100 ElliottHouse 1 5 0/1130 Forest 96 39 2 elliott_onanie1/1800 ElliottHouse 7 7 2/2000 ElliottHouse 10 6 2 elliott_hole/2400 ElliottHouse 13 4 1 elliott_sleep",
+        "fall": "800 ElliottHouse 1 5 0/1000 ElliottHouse 6 4 0/1100 ElliottHouse 1 5 0/1130 ArchaeologyHouse 21 11 2 elliott_read/1730 ElliottHouse 7 7 2/2000 ElliottHouse 10 6 2 elliott_hole/2400 ElliottHouse 13 4 1 elliott_sleep",
+        "winter": "800 ElliottHouse 1 5 0/1000 ElliottHouse 6 4 0/1100 ElliottHouse 1 5 0/1130 ArchaeologyHouse 21 11 2 elliott_read/1730 ElliottHouse 7 7 2/2000 ElliottHouse 10 6 2 elliott_hole/2400 ElliottHouse 13 4 1 elliott_sleep"
+      },
+      "When": { "Change NPC Schedules": "true" }
+    },
+    // Change NPC Schedules - animationDescriptions ------------------------------------------------
+    {
+      "Action": "EditData",
+      "Target": "Data/animationDescriptions",
+      "Entries": {
+        "elliott_uplate": "100/100/100/Strings\\animationDescriptions:elliott_uplate",
+        "elliott_onanie1": "101/101/101/Strings\\animationDescriptions:elliott_onanie1",
+        "elliott_onanie2": "102/102/102/Strings\\animationDescriptions:elliott_onanie2",
+        "elliott_hole": "103/103/103/Strings\\animationDescriptions:elliott_hole",
+        "elliott_dildo": "104/104/104/Strings\\animationDescriptions:elliott_dildo",
+      },
+      "When": { "Change NPC Schedules": "true" }
+    },
+    // Change NPC Schedules - animationDescriptions Dialogue ---------------------------------------
+    {
+      "Action": "EditData",
+      "Target": "Strings/animationDescriptions",
+      "Entries": {
+        "elliott_uplate": "{{i18n:NPC.Elliott.UpLate}}",
+        "elliott_onanie1": "{{i18n:NPC.Elliott.Fuck}}",
+        "elliott_onanie2": "{{i18n:NPC.Elliott.Fuck}}",
+        "elliott_hole": "{{i18n:NPC.Elliott.Fuck}}",
+        "elliott_dildo": "{{i18n:NPC.Elliott.Fuck}}",
+      },
+      "When": { "Change NPC Schedules": "true" }
+    },
+  ]
+}

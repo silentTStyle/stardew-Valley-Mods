@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="1" height="3" tilewidth="16" tileheight="16" infinite="0" nextlayerid="17" nextobjectid="136">
+ <properties>
+  <property name="Outdoors" value="T"/>
+ </properties>
+ <tileset firstgid="1" name="outdoors" tilewidth="16" tileheight="16" tilecount="1975" columns="25">
+  <image source="spring_outdoorsTileSheet" width="400" height="1264"/>
+  <tile id="180">
+   <properties>
+    <property name="Spawnable" value="T"/>
+    <property name="Type" value="Grass"/>
+   </properties>
+  </tile>
+  <tile id="352">
+   <properties>
+    <property name="Type" value="Grass"/>
+   </properties>
+  </tile>
+  <tile id="377">
+   <properties>
+    <property name="Type" value="Grass"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="1976" name="Paths" tilewidth="16" tileheight="16" tilecount="64" columns="4">
+  <image source="paths" width="64" height="256"/>
+ </tileset>
+ <layer id="1" name="Back" width="1" height="3">
+  <data encoding="csv">
+353,
+378,
+181
+</data>
+ </layer>
+ <layer id="2" name="Buildings" width="1" height="3">
+  <data encoding="csv">
+0,
+436,
+0
+</data>
+ </layer>
+ <layer id="4" name="Front" width="1" height="3">
+  <data encoding="csv">
+411,
+0,
+0
+</data>
+ </layer>
+ <layer id="5" name="Paths" width="1" height="3">
+  <data encoding="csv">
+0,
+0,
+0
+</data>
+ </layer>
+ <layer id="6" name="AlwaysFront" width="1" height="3">
+  <data encoding="csv">
+0,
+0,
+0
+</data>
+ </layer>
+ <objectgroup id="9" name="Back"/>
+ <objectgroup id="10" name="Buildings">
+  <object id="135" name="TileData" x="0" y="16" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;BusStop.1&quot;"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="12" name="Front"/>
+ <objectgroup id="13" name="Paths"/>
+ <objectgroup id="14" name="AlwaysFront"/>
+</map>

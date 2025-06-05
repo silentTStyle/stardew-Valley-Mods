@@ -1,0 +1,65 @@
+{
+  "Changes": [
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Gus",
+      "FromFile": "assets/Characters/Gus.png",
+      "When": { "Futanari": "false" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Gus",
+      "FromFile": "assets/Characters/Gus_Futanari.png",
+      "When": { "Futanari": "true" }
+    },
+	{
+      "Action": "EditImage",
+      "Target": "Characters/Gus_Winter",
+      "FromFile": "assets/Characters/Gus.png",
+      "When": { "Futanari": "false" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Gus_Winter",
+      "FromFile": "assets/Characters/Gus_Futanari.png",
+      "When": { "Futanari": "true" }
+    },
+	// Portraits -----------------------------------------------------------------------------------
+	{
+      "Action": "EditImage",
+      "Target": "Portraits/Gus",
+      "FromFile": "assets/Portraits/Gus.png",
+      "When": { 
+		"Hypnosis": "false",
+		"Gus": "On",
+	  }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Gus",
+      "FromFile": "assets/Portraits/Gus_Hypnosis.png",
+      "When": { 
+		"Hypnosis": "true",
+		"Gus": "On",
+	  }
+    },
+	{
+      "Action": "EditImage",
+      "Target": "Portraits/Gus_Winter",
+      "FromFile": "assets/Portraits/Gus.png",
+      "When": { 
+		"Hypnosis": "false",
+		"Gus": "On",
+	  }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Gus_Winter",
+      "FromFile": "assets/Portraits/Gus_Hypnosis.png",
+      "When": { 
+		"Hypnosis": "true",
+		"Gus": "On",
+	  }
+    },
+  ]
+}

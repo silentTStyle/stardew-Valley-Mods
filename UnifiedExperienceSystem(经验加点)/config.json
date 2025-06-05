@@ -1,0 +1,7 @@
+{
+  "ToggleMenuKeys": "F2, LeftTrigger + RightTrigger",
+  "ShowSkillPointButton": true,
+  "UpdateIntervalTicks": 6,
+  "LuckSkillIsEnabled": false,
+  "DebugMode": false
+}

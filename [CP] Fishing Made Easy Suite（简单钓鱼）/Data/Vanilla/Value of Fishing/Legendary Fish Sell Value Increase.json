@@ -1,0 +1,832 @@
+{
+	"Changes": [
+		{
+			"LogName": "Legendary Fish Sell Value Increase by 10%",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+			    "159": {"Price": "{{Round: {{Query: (1500 * 1.10) }} }}"}, //Crimsonfish
+				"160": {"Price": "{{Round: {{Query: (900 * 1.10) }} }}"}, //Angler
+				"163": {"Price": "{{Round: {{Query: (5000 * 1.10) }} }}"}, //Legend
+				"682": {"Price": "{{Round: {{Query: (1000 * 1.10) }} }}"}, //Mutant Carp
+				"775": {"Price": "{{Round: {{Query: (1000 * 1.10) }} }}"}, //Glacierfish
+				"898": {"Price": "{{Round: {{Query: (1500 * 1.10) }} }}"}, //Son of Crimsonfish
+				"899": {"Price": "{{Round: {{Query: (900 * 1.10) }} }}"}, //Ms. Angler
+				"900": {"Price": "{{Round: {{Query: (5000 * 1.10) }} }}"}, //Legend II
+				"901": {"Price": "{{Round: {{Query: (1000 * 1.10) }} }}"}, //Radioactive Carp
+				"902": {"Price": "{{Round: {{Query: (1000 * 1.10) }} }}"}, //Glacierfish Jr.
+			    },
+			"When": {"Legendary Fish Sell Value": "Increase by 10%"},
+		},
+		{
+			"LogName": "Legendary Fish Sell Value Increase by 20%",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+			    "159": {"Price": "{{Round: {{Query: (1500 * 1.20) }} }}"}, //Crimsonfish
+				"160": {"Price": "{{Round: {{Query: (900 * 1.20) }} }}"}, //Angler
+				"163": {"Price": "{{Round: {{Query: (5000 * 1.20) }} }}"}, //Legend
+				"682": {"Price": "{{Round: {{Query: (1000 * 1.20) }} }}"}, //Mutant Carp
+				"775": {"Price": "{{Round: {{Query: (1000 * 1.20) }} }}"}, //Glacierfish
+				"898": {"Price": "{{Round: {{Query: (1500 * 1.20) }} }}"}, //Son of Crimsonfish
+				"899": {"Price": "{{Round: {{Query: (900 * 1.20) }} }}"}, //Ms. Angler
+				"900": {"Price": "{{Round: {{Query: (5000 * 1.20) }} }}"}, //Legend II
+				"901": {"Price": "{{Round: {{Query: (1000 * 1.20) }} }}"}, //Radioactive Carp
+				"902": {"Price": "{{Round: {{Query: (1000 * 1.20) }} }}"}, //Glacierfish Jr.
+			    },
+			"When": {"Legendary Fish Sell Value": "Increase by 20%"},
+		},
+		{
+			"LogName": "Legendary Fish Sell Value Increase by 30%",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+			    "159": {"Price": "{{Round: {{Query: (1500 * 1.30) }} }}"}, //Crimsonfish
+				"160": {"Price": "{{Round: {{Query: (900 * 1.30) }} }}"}, //Angler
+				"163": {"Price": "{{Round: {{Query: (5000 * 1.30) }} }}"}, //Legend
+				"682": {"Price": "{{Round: {{Query: (1000 * 1.30) }} }}"}, //Mutant Carp
+				"775": {"Price": "{{Round: {{Query: (1000 * 1.30) }} }}"}, //Glacierfish
+				"898": {"Price": "{{Round: {{Query: (1500 * 1.30) }} }}"}, //Son of Crimsonfish
+				"899": {"Price": "{{Round: {{Query: (900 * 1.30) }} }}"}, //Ms. Angler
+				"900": {"Price": "{{Round: {{Query: (5000 * 1.30) }} }}"}, //Legend II
+				"901": {"Price": "{{Round: {{Query: (1000 * 1.30) }} }}"}, //Radioactive Carp
+				"902": {"Price": "{{Round: {{Query: (1000 * 1.30) }} }}"}, //Glacierfish Jr.
+			    },
+			"When": {"Legendary Fish Sell Value": "Increase by 30%"},
+		},
+		{
+			"LogName": "Legendary Fish Sell Value Increase by 40%",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+			    "159": {"Price": "{{Round: {{Query: (1500 * 1.40) }} }}"}, //Crimsonfish
+				"160": {"Price": "{{Round: {{Query: (900 * 1.40) }} }}"}, //Angler
+				"163": {"Price": "{{Round: {{Query: (5000 * 1.40) }} }}"}, //Legend
+				"682": {"Price": "{{Round: {{Query: (1000 * 1.40) }} }}"}, //Mutant Carp
+				"775": {"Price": "{{Round: {{Query: (1000 * 1.40) }} }}"}, //Glacierfish
+				"898": {"Price": "{{Round: {{Query: (1500 * 1.40) }} }}"}, //Son of Crimsonfish
+				"899": {"Price": "{{Round: {{Query: (900 * 1.40) }} }}"}, //Ms. Angler
+				"900": {"Price": "{{Round: {{Query: (5000 * 1.40) }} }}"}, //Legend II
+				"901": {"Price": "{{Round: {{Query: (1000 * 1.40) }} }}"}, //Radioactive Carp
+				"902": {"Price": "{{Round: {{Query: (1000 * 1.40) }} }}"}, //Glacierfish Jr.
+			    },
+			"When": {"Legendary Fish Sell Value": "Increase by 40%"},
+		},
+		{
+			"LogName": "Legendary Fish Sell Value Increase by 50%",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+			    "159": {"Price": "{{Round: {{Query: (1500 * 1.50) }} }}"}, //Crimsonfish
+				"160": {"Price": "{{Round: {{Query: (900 * 1.50) }} }}"}, //Angler
+				"163": {"Price": "{{Round: {{Query: (5000 * 1.50) }} }}"}, //Legend
+				"682": {"Price": "{{Round: {{Query: (1000 * 1.50) }} }}"}, //Mutant Carp
+				"775": {"Price": "{{Round: {{Query: (1000 * 1.50) }} }}"}, //Glacierfish
+				"898": {"Price": "{{Round: {{Query: (1500 * 1.50) }} }}"}, //Son of Crimsonfish
+				"899": {"Price": "{{Round: {{Query: (900 * 1.50) }} }}"}, //Ms. Angler
+				"900": {"Price": "{{Round: {{Query: (5000 * 1.50) }} }}"}, //Legend II
+				"901": {"Price": "{{Round: {{Query: (1000 * 1.50) }} }}"}, //Radioactive Carp
+				"902": {"Price": "{{Round: {{Query: (1000 * 1.50) }} }}"}, //Glacierfish Jr.
+			    },
+			"When": {"Legendary Fish Sell Value": "Increase by 50%"},
+		},
+		{
+			"LogName": "Legendary Fish Sell Value Increase by 60%",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+			    "159": {"Price": "{{Round: {{Query: (1500 * 1.60) }} }}"}, //Crimsonfish
+				"160": {"Price": "{{Round: {{Query: (900 * 1.60) }} }}"}, //Angler
+				"163": {"Price": "{{Round: {{Query: (5000 * 1.60) }} }}"}, //Legend
+				"682": {"Price": "{{Round: {{Query: (1000 * 1.60) }} }}"}, //Mutant Carp
+				"775": {"Price": "{{Round: {{Query: (1000 * 1.60) }} }}"}, //Glacierfish
+				"898": {"Price": "{{Round: {{Query: (1500 * 1.60) }} }}"}, //Son of Crimsonfish
+				"899": {"Price": "{{Round: {{Query: (900 * 1.60) }} }}"}, //Ms. Angler
+				"900": {"Price": "{{Round: {{Query: (5000 * 1.60) }} }}"}, //Legend II
+				"901": {"Price": "{{Round: {{Query: (1000 * 1.60) }} }}"}, //Radioactive Carp
+				"902": {"Price": "{{Round: {{Query: (1000 * 1.60) }} }}"}, //Glacierfish Jr.
+			    },
+			"When": {"Legendary Fish Sell Value": "Increase by 60%"},
+		},
+		{
+			"LogName": "Legendary Fish Sell Value Increase by 70%",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+			    "159": {"Price": "{{Round: {{Query: (1500 * 1.70) }} }}"}, //Crimsonfish
+				"160": {"Price": "{{Round: {{Query: (900 * 1.70) }} }}"}, //Angler
+				"163": {"Price": "{{Round: {{Query: (5000 * 1.70) }} }}"}, //Legend
+				"682": {"Price": "{{Round: {{Query: (1000 * 1.70) }} }}"}, //Mutant Carp
+				"775": {"Price": "{{Round: {{Query: (1000 * 1.70) }} }}"}, //Glacierfish
+				"898": {"Price": "{{Round: {{Query: (1500 * 1.70) }} }}"}, //Son of Crimsonfish
+				"899": {"Price": "{{Round: {{Query: (900 * 1.70) }} }}"}, //Ms. Angler
+				"900": {"Price": "{{Round: {{Query: (5000 * 1.70) }} }}"}, //Legend II
+				"901": {"Price": "{{Round: {{Query: (1000 * 1.70) }} }}"}, //Radioactive Carp
+				"902": {"Price": "{{Round: {{Query: (1000 * 1.70) }} }}"}, //Glacierfish Jr.
+			    },
+			"When": {"Legendary Fish Sell Value": "Increase by 70%"},
+		},
+		{
+			"LogName": "Legendary Fish Sell Value Increase by 80%",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+			    "159": {"Price": "{{Round: {{Query: (1500 * 1.80) }} }}"}, //Crimsonfish
+				"160": {"Price": "{{Round: {{Query: (900 * 1.80) }} }}"}, //Angler
+				"163": {"Price": "{{Round: {{Query: (5000 * 1.80) }} }}"}, //Legend
+				"682": {"Price": "{{Round: {{Query: (1000 * 1.80) }} }}"}, //Mutant Carp
+				"775": {"Price": "{{Round: {{Query: (1000 * 1.80) }} }}"}, //Glacierfish
+				"898": {"Price": "{{Round: {{Query: (1500 * 1.80) }} }}"}, //Son of Crimsonfish
+				"899": {"Price": "{{Round: {{Query: (900 * 1.80) }} }}"}, //Ms. Angler
+				"900": {"Price": "{{Round: {{Query: (5000 * 1.80) }} }}"}, //Legend II
+				"901": {"Price": "{{Round: {{Query: (1000 * 1.80) }} }}"}, //Radioactive Carp
+				"902": {"Price": "{{Round: {{Query: (1000 * 1.80) }} }}"}, //Glacierfish Jr.
+			    },
+			"When": {"Legendary Fish Sell Value": "Increase by 80%"},
+		},
+		{
+			"LogName": "Legendary Fish Sell Value Increase by 90%",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+			    "159": {"Price": "{{Round: {{Query: (1500 * 1.90) }} }}"}, //Crimsonfish
+				"160": {"Price": "{{Round: {{Query: (900 * 1.90) }} }}"}, //Angler
+				"163": {"Price": "{{Round: {{Query: (5000 * 1.90) }} }}"}, //Legend
+				"682": {"Price": "{{Round: {{Query: (1000 * 1.90) }} }}"}, //Mutant Carp
+				"775": {"Price": "{{Round: {{Query: (1000 * 1.90) }} }}"}, //Glacierfish
+				"898": {"Price": "{{Round: {{Query: (1500 * 1.90) }} }}"}, //Son of Crimsonfish
+				"899": {"Price": "{{Round: {{Query: (900 * 1.90) }} }}"}, //Ms. Angler
+				"900": {"Price": "{{Round: {{Query: (5000 * 1.90) }} }}"}, //Legend II
+				"901": {"Price": "{{Round: {{Query: (1000 * 1.90) }} }}"}, //Radioactive Carp
+				"902": {"Price": "{{Round: {{Query: (1000 * 1.90) }} }}"}, //Glacierfish Jr.
+			    },
+			"When": {"Legendary Fish Sell Value": "Increase by 90%"},
+		},
+		{
+			"LogName": "Legendary Fish Sell Value Increase by 100%",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+			    "159": {"Price": "{{Round: {{Query: (1500 * 2) }} }}"}, //Crimsonfish
+				"160": {"Price": "{{Round: {{Query: (900 * 2) }} }}"}, //Angler
+				"163": {"Price": "{{Round: {{Query: (5000 * 2) }} }}"}, //Legend
+				"682": {"Price": "{{Round: {{Query: (1000 * 2) }} }}"}, //Mutant Carp
+				"775": {"Price": "{{Round: {{Query: (1000 * 2) }} }}"}, //Glacierfish
+				"898": {"Price": "{{Round: {{Query: (1500 * 2) }} }}"}, //Son of Crimsonfish
+				"899": {"Price": "{{Round: {{Query: (900 * 2) }} }}"}, //Ms. Angler
+				"900": {"Price": "{{Round: {{Query: (5000 * 2) }} }}"}, //Legend II
+				"901": {"Price": "{{Round: {{Query: (1000 * 2) }} }}"}, //Radioactive Carp
+				"902": {"Price": "{{Round: {{Query: (1000 * 2) }} }}"}, //Glacierfish Jr.
+			    },
+			"When": {"Legendary Fish Sell Value": "Increase by 100%"},
+		},
+		{
+			"LogName": "Legendary Fish Sell Value Increase by 125%",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+			    "159": {"Price": "{{Round: {{Query: (1500 * 2.25) }} }}"}, //Crimsonfish
+				"160": {"Price": "{{Round: {{Query: (900 * 2.25) }} }}"}, //Angler
+				"163": {"Price": "{{Round: {{Query: (5000 * 2.25) }} }}"}, //Legend
+				"682": {"Price": "{{Round: {{Query: (1000 * 2.25) }} }}"}, //Mutant Carp
+				"775": {"Price": "{{Round: {{Query: (1000 * 2.25) }} }}"}, //Glacierfish
+				"898": {"Price": "{{Round: {{Query: (1500 * 2.25) }} }}"}, //Son of Crimsonfish
+				"899": {"Price": "{{Round: {{Query: (900 * 2.25) }} }}"}, //Ms. Angler
+				"900": {"Price": "{{Round: {{Query: (5000 * 2.25) }} }}"}, //Legend II
+				"901": {"Price": "{{Round: {{Query: (1000 * 2.25) }} }}"}, //Radioactive Carp
+				"902": {"Price": "{{Round: {{Query: (1000 * 2.25) }} }}"}, //Glacierfish Jr.
+			    },
+			"When": {"Legendary Fish Sell Value": "Increase by 125%"},
+		},
+		{
+			"LogName": "Legendary Fish Sell Value Increase by 150%",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+			    "159": {"Price": "{{Round: {{Query: (1500 * 2.50) }} }}"}, //Crimsonfish
+				"160": {"Price": "{{Round: {{Query: (900 * 2.50) }} }}"}, //Angler
+				"163": {"Price": "{{Round: {{Query: (5000 * 2.50) }} }}"}, //Legend
+				"682": {"Price": "{{Round: {{Query: (1000 * 2.50) }} }}"}, //Mutant Carp
+				"775": {"Price": "{{Round: {{Query: (1000 * 2.50) }} }}"}, //Glacierfish
+				"898": {"Price": "{{Round: {{Query: (1500 * 2.50) }} }}"}, //Son of Crimsonfish
+				"899": {"Price": "{{Round: {{Query: (900 * 2.50) }} }}"}, //Ms. Angler
+				"900": {"Price": "{{Round: {{Query: (5000 * 2.50) }} }}"}, //Legend II
+				"901": {"Price": "{{Round: {{Query: (1000 * 2.50) }} }}"}, //Radioactive Carp
+				"902": {"Price": "{{Round: {{Query: (1000 * 2.50) }} }}"}, //Glacierfish Jr.
+			    },
+			"When": {"Legendary Fish Sell Value": "Increase by 150%"},
+		},
+		{
+			"LogName": "Legendary Fish Sell Value Increase by 175%",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+			    "159": {"Price": "{{Round: {{Query: (1500 * 2.75) }} }}"}, //Crimsonfish
+				"160": {"Price": "{{Round: {{Query: (900 * 2.75) }} }}"}, //Angler
+				"163": {"Price": "{{Round: {{Query: (5000 * 2.75) }} }}"}, //Legend
+				"682": {"Price": "{{Round: {{Query: (1000 * 2.75) }} }}"}, //Mutant Carp
+				"775": {"Price": "{{Round: {{Query: (1000 * 2.75) }} }}"}, //Glacierfish
+				"898": {"Price": "{{Round: {{Query: (1500 * 2.75) }} }}"}, //Son of Crimsonfish
+				"899": {"Price": "{{Round: {{Query: (900 * 2.75) }} }}"}, //Ms. Angler
+				"900": {"Price": "{{Round: {{Query: (5000 * 2.75) }} }}"}, //Legend II
+				"901": {"Price": "{{Round: {{Query: (1000 * 2.75) }} }}"}, //Radioactive Carp
+				"902": {"Price": "{{Round: {{Query: (1000 * 2.75) }} }}"}, //Glacierfish Jr.
+			    },
+			"When": {"Legendary Fish Sell Value": "Increase by 175%"},
+		},
+		{
+			"LogName": "Legendary Fish Sell Value Increase by 200%",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+			    "159": {"Price": "{{Round: {{Query: (1500 * 3) }} }}"}, //Crimsonfish
+				"160": {"Price": "{{Round: {{Query: (900 * 3) }} }}"}, //Angler
+				"163": {"Price": "{{Round: {{Query: (5000 * 3) }} }}"}, //Legend
+				"682": {"Price": "{{Round: {{Query: (1000 * 3) }} }}"}, //Mutant Carp
+				"775": {"Price": "{{Round: {{Query: (1000 * 3) }} }}"}, //Glacierfish
+				"898": {"Price": "{{Round: {{Query: (1500 * 3) }} }}"}, //Son of Crimsonfish
+				"899": {"Price": "{{Round: {{Query: (900 * 3) }} }}"}, //Ms. Angler
+				"900": {"Price": "{{Round: {{Query: (5000 * 3) }} }}"}, //Legend II
+				"901": {"Price": "{{Round: {{Query: (1000 * 3) }} }}"}, //Radioactive Carp
+				"902": {"Price": "{{Round: {{Query: (1000 * 3) }} }}"}, //Glacierfish Jr.
+			    },
+			"When": {"Legendary Fish Sell Value": "Increase by 200%"},
+		},
+		{
+			"LogName": "Legendary Fish Sell Value Increase by 225%",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+			    "159": {"Price": "{{Round: {{Query: (1500 * 3.25) }} }}"}, //Crimsonfish
+				"160": {"Price": "{{Round: {{Query: (900 * 3.25) }} }}"}, //Angler
+				"163": {"Price": "{{Round: {{Query: (5000 * 3.25) }} }}"}, //Legend
+				"682": {"Price": "{{Round: {{Query: (1000 * 3.25) }} }}"}, //Mutant Carp
+				"775": {"Price": "{{Round: {{Query: (1000 * 3.25) }} }}"}, //Glacierfish
+				"898": {"Price": "{{Round: {{Query: (1500 * 3.25) }} }}"}, //Son of Crimsonfish
+				"899": {"Price": "{{Round: {{Query: (900 * 3.25) }} }}"}, //Ms. Angler
+				"900": {"Price": "{{Round: {{Query: (5000 * 3.25) }} }}"}, //Legend II
+				"901": {"Price": "{{Round: {{Query: (1000 * 3.25) }} }}"}, //Radioactive Carp
+				"902": {"Price": "{{Round: {{Query: (1000 * 3.25) }} }}"}, //Glacierfish Jr.
+			    },
+			"When": {"Legendary Fish Sell Value": "Increase by 225%"},
+		},
+		{
+			"LogName": "Legendary Fish Sell Value Increase by 250%",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+			    "159": {"Price": "{{Round: {{Query: (1500 * 3.50) }} }}"}, //Crimsonfish
+				"160": {"Price": "{{Round: {{Query: (900 * 3.50) }} }}"}, //Angler
+				"163": {"Price": "{{Round: {{Query: (5000 * 3.50) }} }}"}, //Legend
+				"682": {"Price": "{{Round: {{Query: (1000 * 3.50) }} }}"}, //Mutant Carp
+				"775": {"Price": "{{Round: {{Query: (1000 * 3.50) }} }}"}, //Glacierfish
+				"898": {"Price": "{{Round: {{Query: (1500 * 3.50) }} }}"}, //Son of Crimsonfish
+				"899": {"Price": "{{Round: {{Query: (900 * 3.50) }} }}"}, //Ms. Angler
+				"900": {"Price": "{{Round: {{Query: (5000 * 3.50) }} }}"}, //Legend II
+				"901": {"Price": "{{Round: {{Query: (1000 * 3.50) }} }}"}, //Radioactive Carp
+				"902": {"Price": "{{Round: {{Query: (1000 * 3.50) }} }}"}, //Glacierfish Jr.
+			    },
+			"When": {"Legendary Fish Sell Value": "Increase by 250%"},
+		},
+		{
+			"LogName": "Legendary Fish Sell Value Increase by 275%",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+			    "159": {"Price": "{{Round: {{Query: (1500 * 3.75) }} }}"}, //Crimsonfish
+				"160": {"Price": "{{Round: {{Query: (900 * 3.75) }} }}"}, //Angler
+				"163": {"Price": "{{Round: {{Query: (5000 * 3.75) }} }}"}, //Legend
+				"682": {"Price": "{{Round: {{Query: (1000 * 3.75) }} }}"}, //Mutant Carp
+				"775": {"Price": "{{Round: {{Query: (1000 * 3.75) }} }}"}, //Glacierfish
+				"898": {"Price": "{{Round: {{Query: (1500 * 3.75) }} }}"}, //Son of Crimsonfish
+				"899": {"Price": "{{Round: {{Query: (900 * 3.75) }} }}"}, //Ms. Angler
+				"900": {"Price": "{{Round: {{Query: (5000 * 3.75) }} }}"}, //Legend II
+				"901": {"Price": "{{Round: {{Query: (1000 * 3.75) }} }}"}, //Radioactive Carp
+				"902": {"Price": "{{Round: {{Query: (1000 * 3.75) }} }}"}, //Glacierfish Jr.
+			    },
+			"When": {"Legendary Fish Sell Value": "Increase by 275%"},
+		},
+		{
+			"LogName": "Legendary Fish Sell Value Increase by 300%",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+			    "159": {"Price": "{{Round: {{Query: (1500 * 4) }} }}"}, //Crimsonfish
+				"160": {"Price": "{{Round: {{Query: (900 * 4) }} }}"}, //Angler
+				"163": {"Price": "{{Round: {{Query: (5000 * 4) }} }}"}, //Legend
+				"682": {"Price": "{{Round: {{Query: (1000 * 4) }} }}"}, //Mutant Carp
+				"775": {"Price": "{{Round: {{Query: (1000 * 4) }} }}"}, //Glacierfish
+				"898": {"Price": "{{Round: {{Query: (1500 * 4) }} }}"}, //Son of Crimsonfish
+				"899": {"Price": "{{Round: {{Query: (900 * 4) }} }}"}, //Ms. Angler
+				"900": {"Price": "{{Round: {{Query: (5000 * 4) }} }}"}, //Legend II
+				"901": {"Price": "{{Round: {{Query: (1000 * 4) }} }}"}, //Radioactive Carp
+				"902": {"Price": "{{Round: {{Query: (1000 * 4) }} }}"}, //Glacierfish Jr.
+			    },
+			"When": {"Legendary Fish Sell Value": "Increase by 300%"},
+		},
+		{
+			"LogName": "Legendary Fish Sell Value Increase by 325%",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+			    "159": {"Price": "{{Round: {{Query: (1500 * 4.25) }} }}"}, //Crimsonfish
+				"160": {"Price": "{{Round: {{Query: (900 * 4.25) }} }}"}, //Angler
+				"163": {"Price": "{{Round: {{Query: (5000 * 4.25) }} }}"}, //Legend
+				"682": {"Price": "{{Round: {{Query: (1000 * 4.25) }} }}"}, //Mutant Carp
+				"775": {"Price": "{{Round: {{Query: (1000 * 4.25) }} }}"}, //Glacierfish
+				"898": {"Price": "{{Round: {{Query: (1500 * 4.25) }} }}"}, //Son of Crimsonfish
+				"899": {"Price": "{{Round: {{Query: (900 * 4.25) }} }}"}, //Ms. Angler
+				"900": {"Price": "{{Round: {{Query: (5000 * 4.25) }} }}"}, //Legend II
+				"901": {"Price": "{{Round: {{Query: (1000 * 4.25) }} }}"}, //Radioactive Carp
+				"902": {"Price": "{{Round: {{Query: (1000 * 4.25) }} }}"}, //Glacierfish Jr.
+			    },
+			"When": {"Legendary Fish Sell Value": "Increase by 325%"},
+		},
+		{
+			"LogName": "Legendary Fish Sell Value Increase by 350%",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+			    "159": {"Price": "{{Round: {{Query: (1500 * 4.50) }} }}"}, //Crimsonfish
+				"160": {"Price": "{{Round: {{Query: (900 * 4.50) }} }}"}, //Angler
+				"163": {"Price": "{{Round: {{Query: (5000 * 4.50) }} }}"}, //Legend
+				"682": {"Price": "{{Round: {{Query: (1000 * 4.50) }} }}"}, //Mutant Carp
+				"775": {"Price": "{{Round: {{Query: (1000 * 4.50) }} }}"}, //Glacierfish
+				"898": {"Price": "{{Round: {{Query: (1500 * 4.50) }} }}"}, //Son of Crimsonfish
+				"899": {"Price": "{{Round: {{Query: (900 * 4.50) }} }}"}, //Ms. Angler
+				"900": {"Price": "{{Round: {{Query: (5000 * 4.50) }} }}"}, //Legend II
+				"901": {"Price": "{{Round: {{Query: (1000 * 4.50) }} }}"}, //Radioactive Carp
+				"902": {"Price": "{{Round: {{Query: (1000 * 4.50) }} }}"}, //Glacierfish Jr.
+			    },
+			"When": {"Legendary Fish Sell Value": "Increase by 350%"},
+		},
+		{
+			"LogName": "Legendary Fish Sell Value Increase by 375%",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+			    "159": {"Price": "{{Round: {{Query: (1500 * 4.75) }} }}"}, //Crimsonfish
+				"160": {"Price": "{{Round: {{Query: (900 * 4.75) }} }}"}, //Angler
+				"163": {"Price": "{{Round: {{Query: (5000 * 4.75) }} }}"}, //Legend
+				"682": {"Price": "{{Round: {{Query: (1000 * 4.75) }} }}"}, //Mutant Carp
+				"775": {"Price": "{{Round: {{Query: (1000 * 4.75) }} }}"}, //Glacierfish
+				"898": {"Price": "{{Round: {{Query: (1500 * 4.75) }} }}"}, //Son of Crimsonfish
+				"899": {"Price": "{{Round: {{Query: (900 * 4.75) }} }}"}, //Ms. Angler
+				"900": {"Price": "{{Round: {{Query: (5000 * 4.75) }} }}"}, //Legend II
+				"901": {"Price": "{{Round: {{Query: (1000 * 4.75) }} }}"}, //Radioactive Carp
+				"902": {"Price": "{{Round: {{Query: (1000 * 4.75) }} }}"}, //Glacierfish Jr.
+			    },
+			"When": {"Legendary Fish Sell Value": "Increase by 375%"},
+		},
+		{
+			"LogName": "Legendary Fish Sell Value Increase by 400%",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+			    "159": {"Price": "{{Round: {{Query: (1500 * 5) }} }}"}, //Crimsonfish
+				"160": {"Price": "{{Round: {{Query: (900 * 5) }} }}"}, //Angler
+				"163": {"Price": "{{Round: {{Query: (5000 * 5) }} }}"}, //Legend
+				"682": {"Price": "{{Round: {{Query: (1000 * 5) }} }}"}, //Mutant Carp
+				"775": {"Price": "{{Round: {{Query: (1000 * 5) }} }}"}, //Glacierfish
+				"898": {"Price": "{{Round: {{Query: (1500 * 5) }} }}"}, //Son of Crimsonfish
+				"899": {"Price": "{{Round: {{Query: (900 * 5) }} }}"}, //Ms. Angler
+				"900": {"Price": "{{Round: {{Query: (5000 * 5) }} }}"}, //Legend II
+				"901": {"Price": "{{Round: {{Query: (1000 * 5) }} }}"}, //Radioactive Carp
+				"902": {"Price": "{{Round: {{Query: (1000 * 5) }} }}"}, //Glacierfish Jr.
+			    },
+			"When": {"Legendary Fish Sell Value": "Increase by 400%"},
+		},
+		{
+			"LogName": "Legendary Fish Sell Value Increase by 425%",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+			    "159": {"Price": "{{Round: {{Query: (1500 * 5.25) }} }}"}, //Crimsonfish
+				"160": {"Price": "{{Round: {{Query: (900 * 5.25) }} }}"}, //Angler
+				"163": {"Price": "{{Round: {{Query: (5000 * 5.25) }} }}"}, //Legend
+				"682": {"Price": "{{Round: {{Query: (1000 * 5.25) }} }}"}, //Mutant Carp
+				"775": {"Price": "{{Round: {{Query: (1000 * 5.25) }} }}"}, //Glacierfish
+				"898": {"Price": "{{Round: {{Query: (1500 * 5.25) }} }}"}, //Son of Crimsonfish
+				"899": {"Price": "{{Round: {{Query: (900 * 5.25) }} }}"}, //Ms. Angler
+				"900": {"Price": "{{Round: {{Query: (5000 * 5.25) }} }}"}, //Legend II
+				"901": {"Price": "{{Round: {{Query: (1000 * 5.25) }} }}"}, //Radioactive Carp
+				"902": {"Price": "{{Round: {{Query: (1000 * 5.25) }} }}"}, //Glacierfish Jr.
+			    },
+			"When": {"Legendary Fish Sell Value": "Increase by 425%"},
+		},
+		{
+			"LogName": "Legendary Fish Sell Value Increase by 450%",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+			    "159": {"Price": "{{Round: {{Query: (1500 * 5.50) }} }}"}, //Crimsonfish
+				"160": {"Price": "{{Round: {{Query: (900 * 5.50) }} }}"}, //Angler
+				"163": {"Price": "{{Round: {{Query: (5000 * 5.50) }} }}"}, //Legend
+				"682": {"Price": "{{Round: {{Query: (1000 * 5.50) }} }}"}, //Mutant Carp
+				"775": {"Price": "{{Round: {{Query: (1000 * 5.50) }} }}"}, //Glacierfish
+				"898": {"Price": "{{Round: {{Query: (1500 * 5.50) }} }}"}, //Son of Crimsonfish
+				"899": {"Price": "{{Round: {{Query: (900 * 5.50) }} }}"}, //Ms. Angler
+				"900": {"Price": "{{Round: {{Query: (5000 * 5.50) }} }}"}, //Legend II
+				"901": {"Price": "{{Round: {{Query: (1000 * 5.50) }} }}"}, //Radioactive Carp
+				"902": {"Price": "{{Round: {{Query: (1000 * 5.50) }} }}"}, //Glacierfish Jr.
+			    },
+			"When": {"Legendary Fish Sell Value": "Increase by 450%"},
+		},
+		{
+			"LogName": "Legendary Fish Sell Value Increase by 475%",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+			    "159": {"Price": "{{Round: {{Query: (1500 * 5.75) }} }}"}, //Crimsonfish
+				"160": {"Price": "{{Round: {{Query: (900 * 5.75) }} }}"}, //Angler
+				"163": {"Price": "{{Round: {{Query: (5000 * 5.75) }} }}"}, //Legend
+				"682": {"Price": "{{Round: {{Query: (1000 * 5.75) }} }}"}, //Mutant Carp
+				"775": {"Price": "{{Round: {{Query: (1000 * 5.75) }} }}"}, //Glacierfish
+				"898": {"Price": "{{Round: {{Query: (1500 * 5.75) }} }}"}, //Son of Crimsonfish
+				"899": {"Price": "{{Round: {{Query: (900 * 5.75) }} }}"}, //Ms. Angler
+				"900": {"Price": "{{Round: {{Query: (5000 * 5.75) }} }}"}, //Legend II
+				"901": {"Price": "{{Round: {{Query: (1000 * 5.75) }} }}"}, //Radioactive Carp
+				"902": {"Price": "{{Round: {{Query: (1000 * 5.75) }} }}"}, //Glacierfish Jr.
+			    },
+			"When": {"Legendary Fish Sell Value": "Increase by 475%"},
+		},
+		{
+			"LogName": "Legendary Fish Sell Value Increase by 500%",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+			    "159": {"Price": "{{Round: {{Query: (1500 * 6) }} }}"}, //Crimsonfish
+				"160": {"Price": "{{Round: {{Query: (900 * 6) }} }}"}, //Angler
+				"163": {"Price": "{{Round: {{Query: (5000 * 6) }} }}"}, //Legend
+				"682": {"Price": "{{Round: {{Query: (1000 * 6) }} }}"}, //Mutant Carp
+				"775": {"Price": "{{Round: {{Query: (1000 * 6) }} }}"}, //Glacierfish
+				"898": {"Price": "{{Round: {{Query: (1500 * 6) }} }}"}, //Son of Crimsonfish
+				"899": {"Price": "{{Round: {{Query: (900 * 6) }} }}"}, //Ms. Angler
+				"900": {"Price": "{{Round: {{Query: (5000 * 6) }} }}"}, //Legend II
+				"901": {"Price": "{{Round: {{Query: (1000 * 6) }} }}"}, //Radioactive Carp
+				"902": {"Price": "{{Round: {{Query: (1000 * 6) }} }}"}, //Glacierfish Jr.
+			    },
+			"When": {"Legendary Fish Sell Value": "Increase by 500%"},
+		},
+		{
+			"LogName": "Legendary Fish Sell Value Increase by 525%",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+			    "159": {"Price": "{{Round: {{Query: (1500 * 6.25) }} }}"}, //Crimsonfish
+				"160": {"Price": "{{Round: {{Query: (900 * 6.25) }} }}"}, //Angler
+				"163": {"Price": "{{Round: {{Query: (5000 * 6.25) }} }}"}, //Legend
+				"682": {"Price": "{{Round: {{Query: (1000 * 6.25) }} }}"}, //Mutant Carp
+				"775": {"Price": "{{Round: {{Query: (1000 * 6.25) }} }}"}, //Glacierfish
+				"898": {"Price": "{{Round: {{Query: (1500 * 6.25) }} }}"}, //Son of Crimsonfish
+				"899": {"Price": "{{Round: {{Query: (900 * 6.25) }} }}"}, //Ms. Angler
+				"900": {"Price": "{{Round: {{Query: (5000 * 6.25) }} }}"}, //Legend II
+				"901": {"Price": "{{Round: {{Query: (1000 * 6.25) }} }}"}, //Radioactive Carp
+				"902": {"Price": "{{Round: {{Query: (1000 * 6.25) }} }}"}, //Glacierfish Jr.
+			    },
+			"When": {"Legendary Fish Sell Value": "Increase by 525%"},
+		},
+		{
+			"LogName": "Legendary Fish Sell Value Increase by 550%",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+			    "159": {"Price": "{{Round: {{Query: (1500 * 6.50) }} }}"}, //Crimsonfish
+				"160": {"Price": "{{Round: {{Query: (900 * 6.50) }} }}"}, //Angler
+				"163": {"Price": "{{Round: {{Query: (5000 * 6.50) }} }}"}, //Legend
+				"682": {"Price": "{{Round: {{Query: (1000 * 6.50) }} }}"}, //Mutant Carp
+				"775": {"Price": "{{Round: {{Query: (1000 * 6.50) }} }}"}, //Glacierfish
+				"898": {"Price": "{{Round: {{Query: (1500 * 6.50) }} }}"}, //Son of Crimsonfish
+				"899": {"Price": "{{Round: {{Query: (900 * 6.50) }} }}"}, //Ms. Angler
+				"900": {"Price": "{{Round: {{Query: (5000 * 6.50) }} }}"}, //Legend II
+				"901": {"Price": "{{Round: {{Query: (1000 * 6.50) }} }}"}, //Radioactive Carp
+				"902": {"Price": "{{Round: {{Query: (1000 * 6.50) }} }}"}, //Glacierfish Jr.
+			    },
+			"When": {"Legendary Fish Sell Value": "Increase by 550%"},
+		},
+		{
+			"LogName": "Legendary Fish Sell Value Increase by 575%",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+			    "159": {"Price": "{{Round: {{Query: (1500 * 6.75) }} }}"}, //Crimsonfish
+				"160": {"Price": "{{Round: {{Query: (900 * 6.75) }} }}"}, //Angler
+				"163": {"Price": "{{Round: {{Query: (5000 * 6.75) }} }}"}, //Legend
+				"682": {"Price": "{{Round: {{Query: (1000 * 6.75) }} }}"}, //Mutant Carp
+				"775": {"Price": "{{Round: {{Query: (1000 * 6.75) }} }}"}, //Glacierfish
+				"898": {"Price": "{{Round: {{Query: (1500 * 6.75) }} }}"}, //Son of Crimsonfish
+				"899": {"Price": "{{Round: {{Query: (900 * 6.75) }} }}"}, //Ms. Angler
+				"900": {"Price": "{{Round: {{Query: (5000 * 6.75) }} }}"}, //Legend II
+				"901": {"Price": "{{Round: {{Query: (1000 * 6.75) }} }}"}, //Radioactive Carp
+				"902": {"Price": "{{Round: {{Query: (1000 * 6.75) }} }}"}, //Glacierfish Jr.
+			    },
+			"When": {"Legendary Fish Sell Value": "Increase by 575%"},
+		},
+		{
+			"LogName": "Legendary Fish Sell Value Increase by 600%",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+			    "159": {"Price": "{{Round: {{Query: (1500 * 7) }} }}"}, //Crimsonfish
+				"160": {"Price": "{{Round: {{Query: (900 * 7) }} }}"}, //Angler
+				"163": {"Price": "{{Round: {{Query: (5000 * 7) }} }}"}, //Legend
+				"682": {"Price": "{{Round: {{Query: (1000 * 7) }} }}"}, //Mutant Carp
+				"775": {"Price": "{{Round: {{Query: (1000 * 7) }} }}"}, //Glacierfish
+				"898": {"Price": "{{Round: {{Query: (1500 * 7) }} }}"}, //Son of Crimsonfish
+				"899": {"Price": "{{Round: {{Query: (900 * 7) }} }}"}, //Ms. Angler
+				"900": {"Price": "{{Round: {{Query: (5000 * 7) }} }}"}, //Legend II
+				"901": {"Price": "{{Round: {{Query: (1000 * 7) }} }}"}, //Radioactive Carp
+				"902": {"Price": "{{Round: {{Query: (1000 * 7) }} }}"}, //Glacierfish Jr.
+			    },
+			"When": {"Legendary Fish Sell Value": "Increase by 600%"},
+		},
+		{
+			"LogName": "Legendary Fish Sell Value Increase by 625%",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+			    "159": {"Price": "{{Round: {{Query: (1500 * 7.25) }} }}"}, //Crimsonfish
+				"160": {"Price": "{{Round: {{Query: (900 * 7.25) }} }}"}, //Angler
+				"163": {"Price": "{{Round: {{Query: (5000 * 7.25) }} }}"}, //Legend
+				"682": {"Price": "{{Round: {{Query: (1000 * 7.25) }} }}"}, //Mutant Carp
+				"775": {"Price": "{{Round: {{Query: (1000 * 7.25) }} }}"}, //Glacierfish
+				"898": {"Price": "{{Round: {{Query: (1500 * 7.25) }} }}"}, //Son of Crimsonfish
+				"899": {"Price": "{{Round: {{Query: (900 * 7.25) }} }}"}, //Ms. Angler
+				"900": {"Price": "{{Round: {{Query: (5000 * 7.25) }} }}"}, //Legend II
+				"901": {"Price": "{{Round: {{Query: (1000 * 7.25) }} }}"}, //Radioactive Carp
+				"902": {"Price": "{{Round: {{Query: (1000 * 7.25) }} }}"}, //Glacierfish Jr.
+			    },
+			"When": {"Legendary Fish Sell Value": "Increase by 625%"},
+		},
+		{
+			"LogName": "Legendary Fish Sell Value Increase by 650%",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+			    "159": {"Price": "{{Round: {{Query: (1500 * 7.50) }} }}"}, //Crimsonfish
+				"160": {"Price": "{{Round: {{Query: (900 * 7.50) }} }}"}, //Angler
+				"163": {"Price": "{{Round: {{Query: (5000 * 7.50) }} }}"}, //Legend
+				"682": {"Price": "{{Round: {{Query: (1000 * 7.50) }} }}"}, //Mutant Carp
+				"775": {"Price": "{{Round: {{Query: (1000 * 7.50) }} }}"}, //Glacierfish
+				"898": {"Price": "{{Round: {{Query: (1500 * 7.50) }} }}"}, //Son of Crimsonfish
+				"899": {"Price": "{{Round: {{Query: (900 * 7.50) }} }}"}, //Ms. Angler
+				"900": {"Price": "{{Round: {{Query: (5000 * 7.50) }} }}"}, //Legend II
+				"901": {"Price": "{{Round: {{Query: (1000 * 7.50) }} }}"}, //Radioactive Carp
+				"902": {"Price": "{{Round: {{Query: (1000 * 7.50) }} }}"}, //Glacierfish Jr.
+			    },
+			"When": {"Legendary Fish Sell Value": "Increase by 650%"},
+		},
+		{
+			"LogName": "Legendary Fish Sell Value Increase by 675%",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+			    "159": {"Price": "{{Round: {{Query: (1500 * 7.75) }} }}"}, //Crimsonfish
+				"160": {"Price": "{{Round: {{Query: (900 * 7.75) }} }}"}, //Angler
+				"163": {"Price": "{{Round: {{Query: (5000 * 7.75) }} }}"}, //Legend
+				"682": {"Price": "{{Round: {{Query: (1000 * 7.75) }} }}"}, //Mutant Carp
+				"775": {"Price": "{{Round: {{Query: (1000 * 7.75) }} }}"}, //Glacierfish
+				"898": {"Price": "{{Round: {{Query: (1500 * 7.75) }} }}"}, //Son of Crimsonfish
+				"899": {"Price": "{{Round: {{Query: (900 * 7.75) }} }}"}, //Ms. Angler
+				"900": {"Price": "{{Round: {{Query: (5000 * 7.75) }} }}"}, //Legend II
+				"901": {"Price": "{{Round: {{Query: (1000 * 7.75) }} }}"}, //Radioactive Carp
+				"902": {"Price": "{{Round: {{Query: (1000 * 7.75) }} }}"}, //Glacierfish Jr.
+			    },
+			"When": {"Legendary Fish Sell Value": "Increase by 675%"},
+		},
+		{
+			"LogName": "Legendary Fish Sell Value Increase by 700%",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+			    "159": {"Price": "{{Round: {{Query: (1500 * 8) }} }}"}, //Crimsonfish
+				"160": {"Price": "{{Round: {{Query: (900 * 8) }} }}"}, //Angler
+				"163": {"Price": "{{Round: {{Query: (5000 * 8) }} }}"}, //Legend
+				"682": {"Price": "{{Round: {{Query: (1000 * 8) }} }}"}, //Mutant Carp
+				"775": {"Price": "{{Round: {{Query: (1000 * 8) }} }}"}, //Glacierfish
+				"898": {"Price": "{{Round: {{Query: (1500 * 8) }} }}"}, //Son of Crimsonfish
+				"899": {"Price": "{{Round: {{Query: (900 * 8) }} }}"}, //Ms. Angler
+				"900": {"Price": "{{Round: {{Query: (5000 * 8) }} }}"}, //Legend II
+				"901": {"Price": "{{Round: {{Query: (1000 * 8) }} }}"}, //Radioactive Carp
+				"902": {"Price": "{{Round: {{Query: (1000 * 8) }} }}"}, //Glacierfish Jr.
+			    },
+			"When": {"Legendary Fish Sell Value": "Increase by 700%"},
+		},
+		{
+			"LogName": "Legendary Fish Sell Value Increase by 725%",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+			    "159": {"Price": "{{Round: {{Query: (1500 * 8.25) }} }}"}, //Crimsonfish
+				"160": {"Price": "{{Round: {{Query: (900 * 8.25) }} }}"}, //Angler
+				"163": {"Price": "{{Round: {{Query: (5000 * 8.25) }} }}"}, //Legend
+				"682": {"Price": "{{Round: {{Query: (1000 * 8.25) }} }}"}, //Mutant Carp
+				"775": {"Price": "{{Round: {{Query: (1000 * 8.25) }} }}"}, //Glacierfish
+				"898": {"Price": "{{Round: {{Query: (1500 * 8.25) }} }}"}, //Son of Crimsonfish
+				"899": {"Price": "{{Round: {{Query: (900 * 8.25) }} }}"}, //Ms. Angler
+				"900": {"Price": "{{Round: {{Query: (5000 * 8.25) }} }}"}, //Legend II
+				"901": {"Price": "{{Round: {{Query: (1000 * 8.25) }} }}"}, //Radioactive Carp
+				"902": {"Price": "{{Round: {{Query: (1000 * 8.25) }} }}"}, //Glacierfish Jr.
+			    },
+			"When": {"Legendary Fish Sell Value": "Increase by 725%"},
+		},
+		{
+			"LogName": "Legendary Fish Sell Value Increase by 750%",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+			    "159": {"Price": "{{Round: {{Query: (1500 * 8.50) }} }}"}, //Crimsonfish
+				"160": {"Price": "{{Round: {{Query: (900 * 8.50) }} }}"}, //Angler
+				"163": {"Price": "{{Round: {{Query: (5000 * 8.50) }} }}"}, //Legend
+				"682": {"Price": "{{Round: {{Query: (1000 * 8.50) }} }}"}, //Mutant Carp
+				"775": {"Price": "{{Round: {{Query: (1000 * 8.50) }} }}"}, //Glacierfish
+				"898": {"Price": "{{Round: {{Query: (1500 * 8.50) }} }}"}, //Son of Crimsonfish
+				"899": {"Price": "{{Round: {{Query: (900 * 8.50) }} }}"}, //Ms. Angler
+				"900": {"Price": "{{Round: {{Query: (5000 * 8.50) }} }}"}, //Legend II
+				"901": {"Price": "{{Round: {{Query: (1000 * 8.50) }} }}"}, //Radioactive Carp
+				"902": {"Price": "{{Round: {{Query: (1000 * 8.50) }} }}"}, //Glacierfish Jr.
+			    },
+			"When": {"Legendary Fish Sell Value": "Increase by 750%"},
+		},
+		{
+			"LogName": "Legendary Fish Sell Value Increase by 775%",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+			    "159": {"Price": "{{Round: {{Query: (1500 * 8.75) }} }}"}, //Crimsonfish
+				"160": {"Price": "{{Round: {{Query: (900 * 8.75) }} }}"}, //Angler
+				"163": {"Price": "{{Round: {{Query: (5000 * 8.75) }} }}"}, //Legend
+				"682": {"Price": "{{Round: {{Query: (1000 * 8.75) }} }}"}, //Mutant Carp
+				"775": {"Price": "{{Round: {{Query: (1000 * 8.75) }} }}"}, //Glacierfish
+				"898": {"Price": "{{Round: {{Query: (1500 * 8.75) }} }}"}, //Son of Crimsonfish
+				"899": {"Price": "{{Round: {{Query: (900 * 8.75) }} }}"}, //Ms. Angler
+				"900": {"Price": "{{Round: {{Query: (5000 * 8.75) }} }}"}, //Legend II
+				"901": {"Price": "{{Round: {{Query: (1000 * 8.75) }} }}"}, //Radioactive Carp
+				"902": {"Price": "{{Round: {{Query: (1000 * 8.75) }} }}"}, //Glacierfish Jr.
+			    },
+			"When": {"Legendary Fish Sell Value": "Increase by 775%"},
+		},
+		{
+			"LogName": "Legendary Fish Sell Value Increase by 800%",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+			    "159": {"Price": "{{Round: {{Query: (1500 * 9) }} }}"}, //Crimsonfish
+				"160": {"Price": "{{Round: {{Query: (900 * 9) }} }}"}, //Angler
+				"163": {"Price": "{{Round: {{Query: (5000 * 9) }} }}"}, //Legend
+				"682": {"Price": "{{Round: {{Query: (1000 * 9) }} }}"}, //Mutant Carp
+				"775": {"Price": "{{Round: {{Query: (1000 * 9) }} }}"}, //Glacierfish
+				"898": {"Price": "{{Round: {{Query: (1500 * 9) }} }}"}, //Son of Crimsonfish
+				"899": {"Price": "{{Round: {{Query: (900 * 9) }} }}"}, //Ms. Angler
+				"900": {"Price": "{{Round: {{Query: (5000 * 9) }} }}"}, //Legend II
+				"901": {"Price": "{{Round: {{Query: (1000 * 9) }} }}"}, //Radioactive Carp
+				"902": {"Price": "{{Round: {{Query: (1000 * 9) }} }}"}, //Glacierfish Jr.
+			    },
+			"When": {"Legendary Fish Sell Value": "Increase by 800%"},
+		},
+		{
+			"LogName": "Legendary Fish Sell Value Increase by 825%",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+			    "159": {"Price": "{{Round: {{Query: (1500 * 9.25) }} }}"}, //Crimsonfish
+				"160": {"Price": "{{Round: {{Query: (900 * 9.25) }} }}"}, //Angler
+				"163": {"Price": "{{Round: {{Query: (5000 * 9.25) }} }}"}, //Legend
+				"682": {"Price": "{{Round: {{Query: (1000 * 9.25) }} }}"}, //Mutant Carp
+				"775": {"Price": "{{Round: {{Query: (1000 * 9.25) }} }}"}, //Glacierfish
+				"898": {"Price": "{{Round: {{Query: (1500 * 9.25) }} }}"}, //Son of Crimsonfish
+				"899": {"Price": "{{Round: {{Query: (900 * 9.25) }} }}"}, //Ms. Angler
+				"900": {"Price": "{{Round: {{Query: (5000 * 9.25) }} }}"}, //Legend II
+				"901": {"Price": "{{Round: {{Query: (1000 * 9.25) }} }}"}, //Radioactive Carp
+				"902": {"Price": "{{Round: {{Query: (1000 * 9.25) }} }}"}, //Glacierfish Jr.
+			    },
+			"When": {"Legendary Fish Sell Value": "Increase by 825%"},
+		},
+		{
+			"LogName": "Legendary Fish Sell Value Increase by 850%",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+			    "159": {"Price": "{{Round: {{Query: (1500 * 9.50) }} }}"}, //Crimsonfish
+				"160": {"Price": "{{Round: {{Query: (900 * 9.50) }} }}"}, //Angler
+				"163": {"Price": "{{Round: {{Query: (5000 * 9.50) }} }}"}, //Legend
+				"682": {"Price": "{{Round: {{Query: (1000 * 9.50) }} }}"}, //Mutant Carp
+				"775": {"Price": "{{Round: {{Query: (1000 * 9.50) }} }}"}, //Glacierfish
+				"898": {"Price": "{{Round: {{Query: (1500 * 9.50) }} }}"}, //Son of Crimsonfish
+				"899": {"Price": "{{Round: {{Query: (900 * 9.50) }} }}"}, //Ms. Angler
+				"900": {"Price": "{{Round: {{Query: (5000 * 9.50) }} }}"}, //Legend II
+				"901": {"Price": "{{Round: {{Query: (1000 * 9.50) }} }}"}, //Radioactive Carp
+				"902": {"Price": "{{Round: {{Query: (1000 * 9.50) }} }}"}, //Glacierfish Jr.
+			    },
+			"When": {"Legendary Fish Sell Value": "Increase by 850%"},
+		},
+		{
+			"LogName": "Legendary Fish Sell Value Increase by 875%",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+			    "159": {"Price": "{{Round: {{Query: (1500 * 9.75) }} }}"}, //Crimsonfish
+				"160": {"Price": "{{Round: {{Query: (900 * 9.75) }} }}"}, //Angler
+				"163": {"Price": "{{Round: {{Query: (5000 * 9.75) }} }}"}, //Legend
+				"682": {"Price": "{{Round: {{Query: (1000 * 9.75) }} }}"}, //Mutant Carp
+				"775": {"Price": "{{Round: {{Query: (1000 * 9.75) }} }}"}, //Glacierfish
+				"898": {"Price": "{{Round: {{Query: (1500 * 9.75) }} }}"}, //Son of Crimsonfish
+				"899": {"Price": "{{Round: {{Query: (900 * 9.75) }} }}"}, //Ms. Angler
+				"900": {"Price": "{{Round: {{Query: (5000 * 9.75) }} }}"}, //Legend II
+				"901": {"Price": "{{Round: {{Query: (1000 * 9.75) }} }}"}, //Radioactive Carp
+				"902": {"Price": "{{Round: {{Query: (1000 * 9.75) }} }}"}, //Glacierfish Jr.
+			    },
+			"When": {"Legendary Fish Sell Value": "Increase by 875%"},
+		},
+		{
+			"LogName": "Legendary Fish Sell Value Increase by 900%",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+			    "159": {"Price": "{{Round: {{Query: (1500 * 10) }} }}"}, //Crimsonfish
+				"160": {"Price": "{{Round: {{Query: (900 * 10) }} }}"}, //Angler
+				"163": {"Price": "{{Round: {{Query: (5000 * 10) }} }}"}, //Legend
+				"682": {"Price": "{{Round: {{Query: (1000 * 10) }} }}"}, //Mutant Carp
+				"775": {"Price": "{{Round: {{Query: (1000 * 10) }} }}"}, //Glacierfish
+				"898": {"Price": "{{Round: {{Query: (1500 * 10) }} }}"}, //Son of Crimsonfish
+				"899": {"Price": "{{Round: {{Query: (900 * 10) }} }}"}, //Ms. Angler
+				"900": {"Price": "{{Round: {{Query: (5000 * 10) }} }}"}, //Legend II
+				"901": {"Price": "{{Round: {{Query: (1000 * 10) }} }}"}, //Radioactive Carp
+				"902": {"Price": "{{Round: {{Query: (1000 * 10) }} }}"}, //Glacierfish Jr.
+			    },
+			"When": {"Legendary Fish Sell Value": "Increase by 900%"},
+		},
+		{
+			"LogName": "Legendary Fish Sell Value Increase by 925%",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+			    "159": {"Price": "{{Round: {{Query: (1500 * 10.25) }} }}"}, //Crimsonfish
+				"160": {"Price": "{{Round: {{Query: (900 * 10.25) }} }}"}, //Angler
+				"163": {"Price": "{{Round: {{Query: (5000 * 10.25) }} }}"}, //Legend
+				"682": {"Price": "{{Round: {{Query: (1000 * 10.25) }} }}"}, //Mutant Carp
+				"775": {"Price": "{{Round: {{Query: (1000 * 10.25) }} }}"}, //Glacierfish
+				"898": {"Price": "{{Round: {{Query: (1500 * 10.25) }} }}"}, //Son of Crimsonfish
+				"899": {"Price": "{{Round: {{Query: (900 * 10.25) }} }}"}, //Ms. Angler
+				"900": {"Price": "{{Round: {{Query: (5000 * 10.25) }} }}"}, //Legend II
+				"901": {"Price": "{{Round: {{Query: (1000 * 10.25) }} }}"}, //Radioactive Carp
+				"902": {"Price": "{{Round: {{Query: (1000 * 10.25) }} }}"}, //Glacierfish Jr.
+			    },
+			"When": {"Legendary Fish Sell Value": "Increase by 925%"},
+		},
+		{
+			"LogName": "Legendary Fish Sell Value Increase by 950%",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+			    "159": {"Price": "{{Round: {{Query: (1500 * 10.50) }} }}"}, //Crimsonfish
+				"160": {"Price": "{{Round: {{Query: (900 * 10.50) }} }}"}, //Angler
+				"163": {"Price": "{{Round: {{Query: (5000 * 10.50) }} }}"}, //Legend
+				"682": {"Price": "{{Round: {{Query: (1000 * 10.50) }} }}"}, //Mutant Carp
+				"775": {"Price": "{{Round: {{Query: (1000 * 10.50) }} }}"}, //Glacierfish
+				"898": {"Price": "{{Round: {{Query: (1500 * 10.50) }} }}"}, //Son of Crimsonfish
+				"899": {"Price": "{{Round: {{Query: (900 * 10.50) }} }}"}, //Ms. Angler
+				"900": {"Price": "{{Round: {{Query: (5000 * 10.50) }} }}"}, //Legend II
+				"901": {"Price": "{{Round: {{Query: (1000 * 10.50) }} }}"}, //Radioactive Carp
+				"902": {"Price": "{{Round: {{Query: (1000 * 10.50) }} }}"}, //Glacierfish Jr.
+			    },
+			"When": {"Legendary Fish Sell Value": "Increase by 950%"},
+		},
+		{
+			"LogName": "Legendary Fish Sell Value Increase by 975%",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+			    "159": {"Price": "{{Round: {{Query: (1500 * 10.75) }} }}"}, //Crimsonfish
+				"160": {"Price": "{{Round: {{Query: (900 * 10.75) }} }}"}, //Angler
+				"163": {"Price": "{{Round: {{Query: (5000 * 10.75) }} }}"}, //Legend
+				"682": {"Price": "{{Round: {{Query: (1000 * 10.75) }} }}"}, //Mutant Carp
+				"775": {"Price": "{{Round: {{Query: (1000 * 10.75) }} }}"}, //Glacierfish
+				"898": {"Price": "{{Round: {{Query: (1500 * 10.75) }} }}"}, //Son of Crimsonfish
+				"899": {"Price": "{{Round: {{Query: (900 * 10.75) }} }}"}, //Ms. Angler
+				"900": {"Price": "{{Round: {{Query: (5000 * 10.75) }} }}"}, //Legend II
+				"901": {"Price": "{{Round: {{Query: (1000 * 10.75) }} }}"}, //Radioactive Carp
+				"902": {"Price": "{{Round: {{Query: (1000 * 10.75) }} }}"}, //Glacierfish Jr.
+			    },
+			"When": {"Legendary Fish Sell Value": "Increase by 975%"},
+		},
+		{
+			"LogName": "Legendary Fish Sell Value Increase by 1000%",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+			    "159": {"Price": "{{Round: {{Query: (1500 * 11) }} }}"}, //Crimsonfish
+				"160": {"Price": "{{Round: {{Query: (900 * 11) }} }}"}, //Angler
+				"163": {"Price": "{{Round: {{Query: (5000 * 11) }} }}"}, //Legend
+				"682": {"Price": "{{Round: {{Query: (1000 * 11) }} }}"}, //Mutant Carp
+				"775": {"Price": "{{Round: {{Query: (1000 * 11) }} }}"}, //Glacierfish
+				"898": {"Price": "{{Round: {{Query: (1500 * 11) }} }}"}, //Son of Crimsonfish
+				"899": {"Price": "{{Round: {{Query: (900 * 11) }} }}"}, //Ms. Angler
+				"900": {"Price": "{{Round: {{Query: (5000 * 11) }} }}"}, //Legend II
+				"901": {"Price": "{{Round: {{Query: (1000 * 11) }} }}"}, //Radioactive Carp
+				"902": {"Price": "{{Round: {{Query: (1000 * 11) }} }}"}, //Glacierfish Jr.
+			    },
+			"When": {"Legendary Fish Sell Value": "Increase by 1000%"},
+		},
+	]
+}

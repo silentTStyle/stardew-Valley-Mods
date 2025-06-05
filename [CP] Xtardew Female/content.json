@@ -1,0 +1,52 @@
+{
+  "Format": "2.0.0",
+  "Changes": [
+    {
+      "LogName": "Abigail Content",
+      "Action": "Include",
+      "FromFile": "content/abigail.json"
+    },
+
+    {
+      "LogName": "Emily Content",
+      "Action": "Include",
+      "FromFile": "content/emily.json"
+    },
+
+    {
+      "LogName": "Haley Content",
+      "Action": "Include",
+      "FromFile": "content/haley.json"
+    },
+
+    {
+      "LogName": "Jodi Content",
+      "Action": "Include",
+      "FromFile": "content/jodi.json"
+    },
+
+    {
+      "LogName": "Maru Content",
+      "Action": "Include",
+      "FromFile": "content/maru.json"
+    },
+
+    {
+      "LogName": "Olivia Content",
+      "Action": "Include",
+      "FromFile": "content/olivia.json"
+    },
+
+    {
+      "LogName": "Penny Content",
+      "Action": "Include",
+      "FromFile": "content/penny.json"
+    },
+
+    {
+      "LogName": "Witch Content",
+      "Action": "Include",
+      "FromFile": "content/witch.json"
+    }
+  ]
+}

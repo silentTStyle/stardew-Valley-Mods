@@ -1,0 +1,339 @@
+[
+  // Fucking Machine -------------------------------------------------------------------------------
+  {
+    "ProducerName": "Milking Machine A",
+	"ProducerQualifiedItemId": "(BC)Milking_Machine_A",
+    "AlternateFrameProducing": false,
+    "AlternateFrameWhenReady": false,
+    "DisableBouncingAnimationWhileWorking": true,
+    "NoInputStartMode": "Placement",
+    "LightSource": {
+      "TextureIndex": 1,
+      "Radius": 1.5,
+      "OffsetX": 0,
+      "OffsetY": -20,
+      "ColorType": "DefinedColor",
+      "ColorRed": 58,
+      "ColorGreen": 37,
+      "ColorBlue": 100,
+      "ColorAlpha": 150,
+      "ColorFactor": 1,
+      "AlwaysOn": false
+    },
+    "ProducingAnimation": {
+      "RelativeFrameIndex": [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15 ],
+      "FrameInterval": 3
+    },
+    "ReadyAnimation": {
+      "RelativeFrameIndex": [ 0 ]
+    }
+  },
+  {
+    "ProducerName": "Milking Machine B",
+	"ProducerQualifiedItemId": "(BC)Milking_Machine_B",
+    "AlternateFrameProducing": false,
+    "AlternateFrameWhenReady": false,
+    "DisableBouncingAnimationWhileWorking": true,
+    "NoInputStartMode": "Placement",
+    "LightSource": {
+      "TextureIndex": 1,
+      "Radius": 1.5,
+      "OffsetX": 0,
+      "OffsetY": -20,
+      "ColorType": "DefinedColor",
+      "ColorRed": 58,
+      "ColorGreen": 37,
+      "ColorBlue": 100,
+      "ColorAlpha": 150,
+      "ColorFactor": 1,
+      "AlwaysOn": false
+    },
+    "ProducingAnimation": {
+      "RelativeFrameIndex": [ 1, 2, 3, 4, 5, 6, 7 ],
+      "FrameInterval": 7
+    },
+    "ReadyAnimation": {
+      "RelativeFrameIndex": [ 0 ]
+    }
+  },
+  {
+    "ProducerName": "Semen Milking Machine A",
+	"ProducerQualifiedItemId": "(BC)Semen_Milking_Machine_A",
+    "AlternateFrameProducing": false,
+    "AlternateFrameWhenReady": false,
+    "DisableBouncingAnimationWhileWorking": true,
+    "NoInputStartMode": "Placement",
+    "LightSource": {
+      "TextureIndex": 1,
+      "Radius": 1.5,
+      "OffsetX": 0,
+      "OffsetY": -20,
+      "ColorType": "DefinedColor",
+      "ColorRed": 58,
+      "ColorGreen": 37,
+      "ColorBlue": 100,
+      "ColorAlpha": 150,
+      "ColorFactor": 1,
+      "AlwaysOn": false
+    },
+    "ProducingAnimation": {
+      "RelativeFrameIndex": [ 1, 2, 3, 4, 5, 6, 7 ],
+      "FrameInterval": 7
+    },
+    "ReadyAnimation": {
+      "RelativeFrameIndex": [ 0 ]
+    }
+  },
+  {
+    "ProducerName": "Semen Milking Machine B",
+	"ProducerQualifiedItemId": "(BC)Semen_Milking_Machine_B",
+    "AlternateFrameProducing": false,
+    "AlternateFrameWhenReady": false,
+    "DisableBouncingAnimationWhileWorking": true,
+    "NoInputStartMode": "Placement",
+    "LightSource": {
+      "TextureIndex": 1,
+      "Radius": 1.5,
+      "OffsetX": 0,
+      "OffsetY": -20,
+      "ColorType": "DefinedColor",
+      "ColorRed": 58,
+      "ColorGreen": 37,
+      "ColorBlue": 100,
+      "ColorAlpha": 150,
+      "ColorFactor": 1,
+      "AlwaysOn": false
+    },
+    "ProducingAnimation": {
+      "RelativeFrameIndex": [ 1, 2, 3, 4, 5, 6, 7 ],
+      "FrameInterval": 7
+    },
+    "ReadyAnimation": {
+      "RelativeFrameIndex": [ 0 ]
+    }
+  },
+  {
+    "ProducerName": "Feed Maker",
+	"ProducerQualifiedItemId": "(BC)Feed_Maker",
+    "AlternateFrameProducing": false,
+    "AlternateFrameWhenReady": false,
+    "DisableBouncingAnimationWhileWorking": true,
+    "NoInputStartMode": "",
+    "LightSource": {
+      "TextureIndex": 1,
+      "Radius": 1.5,
+      "OffsetX": 0,
+      "OffsetY": -20,
+      "ColorType": "DefinedColor",
+      "ColorRed": 58,
+      "ColorGreen": 37,
+      "ColorBlue": 100,
+      "ColorAlpha": 150,
+      "ColorFactor": 1,
+      "AlwaysOn": false
+    },
+    "ProducingAnimation": {
+      "RelativeFrameIndex": [ 1, 2, 3, 4, 5, 6, 7 ],
+      "FrameInterval": 7
+    },
+    "ReadyAnimation": {
+      "RelativeFrameIndex": [ 0 ]
+    }
+  },
+  {
+    "ProducerName": "Fertilizer Maker",
+	"ProducerQualifiedItemId": "(BC)Fertilizer_Maker",
+    "AlternateFrameProducing": false,
+    "AlternateFrameWhenReady": false,
+    "DisableBouncingAnimationWhileWorking": true,
+    "NoInputStartMode": "",
+    "LightSource": {
+      "TextureIndex": 1,
+      "Radius": 1.5,
+      "OffsetX": 0,
+      "OffsetY": -20,
+      "ColorType": "DefinedColor",
+      "ColorRed": 58,
+      "ColorGreen": 37,
+      "ColorBlue": 100,
+      "ColorAlpha": 150,
+      "ColorFactor": 1,
+      "AlwaysOn": false
+    },
+    "ProducingAnimation": {
+      "RelativeFrameIndex": [ 1, 2, 3, 4, 5, 6, 7 ],
+      "FrameInterval": 7
+    },
+    "ReadyAnimation": {
+      "RelativeFrameIndex": [ 0 ]
+    }
+  },
+  {
+    "ProducerName": "Tree Fertilizer Maker",
+	"ProducerQualifiedItemId": "(BC)Tree_Fertilizer_Maker",
+    "AlternateFrameProducing": false,
+    "AlternateFrameWhenReady": false,
+    "DisableBouncingAnimationWhileWorking": true,
+    "NoInputStartMode": "",
+    "LightSource": {
+      "TextureIndex": 1,
+      "Radius": 1.5,
+      "OffsetX": 0,
+      "OffsetY": -20,
+      "ColorType": "DefinedColor",
+      "ColorRed": 58,
+      "ColorGreen": 37,
+      "ColorBlue": 100,
+      "ColorAlpha": 150,
+      "ColorFactor": 1,
+      "AlwaysOn": false
+    },
+    "ProducingAnimation": {
+      "RelativeFrameIndex": [ 1, 2, 3, 4, 5, 6, 7 ],
+      "FrameInterval": 7
+    },
+    "ReadyAnimation": {
+      "RelativeFrameIndex": [ 0 ]
+    }
+  },
+  {
+    "ProducerName": "Speed-Gro Maker",
+	"ProducerQualifiedItemId": "(BC)Speed_Gro_Maker",
+    "AlternateFrameProducing": false,
+    "AlternateFrameWhenReady": false,
+    "DisableBouncingAnimationWhileWorking": true,
+    "NoInputStartMode": "",
+    "LightSource": {
+      "TextureIndex": 1,
+      "Radius": 1.5,
+      "OffsetX": 0,
+      "OffsetY": -20,
+      "ColorType": "DefinedColor",
+      "ColorRed": 58,
+      "ColorGreen": 37,
+      "ColorBlue": 100,
+      "ColorAlpha": 150,
+      "ColorFactor": 1,
+      "AlwaysOn": false
+    },
+    "ProducingAnimation": {
+      "RelativeFrameIndex": [ 1, 2, 3, 4, 5, 6, 7 ],
+      "FrameInterval": 7
+    },
+    "ReadyAnimation": {
+      "RelativeFrameIndex": [ 0 ]
+    }
+  },
+  {
+    "ProducerName": "Milk Concentrator",
+	"ProducerQualifiedItemId": "(BC)Milk_Concentrator",
+    "AlternateFrameProducing": false,
+    "AlternateFrameWhenReady": false,
+    "DisableBouncingAnimationWhileWorking": true,
+    "NoInputStartMode": "",
+    "LightSource": {
+      "TextureIndex": 1,
+      "Radius": 1.5,
+      "OffsetX": 0,
+      "OffsetY": -20,
+      "ColorType": "DefinedColor",
+      "ColorRed": 58,
+      "ColorGreen": 37,
+      "ColorBlue": 100,
+      "ColorAlpha": 150,
+      "ColorFactor": 1,
+      "AlwaysOn": false
+    },
+    "ProducingAnimation": {
+      "RelativeFrameIndex": [ 1, 2, 3, 4, 5, 6, 7 ],
+      "FrameInterval": 7
+    },
+    "ReadyAnimation": {
+      "RelativeFrameIndex": [ 0 ]
+    }
+  },
+  {
+    "ProducerName": "Semen Concentrator",
+	"ProducerQualifiedItemId": "(BC)Semen_Concentrator",
+    "AlternateFrameProducing": false,
+    "AlternateFrameWhenReady": false,
+    "DisableBouncingAnimationWhileWorking": true,
+    "NoInputStartMode": "",
+    "LightSource": {
+      "TextureIndex": 1,
+      "Radius": 1.5,
+      "OffsetX": 0,
+      "OffsetY": -20,
+      "ColorType": "DefinedColor",
+      "ColorRed": 58,
+      "ColorGreen": 37,
+      "ColorBlue": 100,
+      "ColorAlpha": 150,
+      "ColorFactor": 1,
+      "AlwaysOn": false
+    },
+    "ProducingAnimation": {
+      "RelativeFrameIndex": [ 1, 2, 3, 4, 5, 6, 7 ],
+      "FrameInterval": 7
+    },
+    "ReadyAnimation": {
+      "RelativeFrameIndex": [ 0 ]
+    }
+  },
+  {
+    "ProducerName": "Gem Maker",
+	"ProducerQualifiedItemId": "(BC)Gem_Maker",
+    "AlternateFrameProducing": false,
+    "AlternateFrameWhenReady": false,
+    "DisableBouncingAnimationWhileWorking": true,
+    "NoInputStartMode": "",
+    "LightSource": {
+      "TextureIndex": 1,
+      "Radius": 1.5,
+      "OffsetX": 0,
+      "OffsetY": -20,
+      "ColorType": "DefinedColor",
+      "ColorRed": 31,
+      "ColorGreen": 83,
+      "ColorBlue": 34,
+      "ColorAlpha": 150,
+      "ColorFactor": 1,
+      "AlwaysOn": false
+    },
+    "ProducingAnimation": {
+      "RelativeFrameIndex": [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 ],
+      "FrameInterval": 7
+    },
+    "ReadyAnimation": {
+      "RelativeFrameIndex": [ 0 ]
+    }
+  },
+  {
+    "ProducerName": "Slime Regenerator",
+	"ProducerQualifiedItemId": "(BC)Slime_Regenerator",
+    "AlternateFrameProducing": false,
+    "AlternateFrameWhenReady": false,
+    "DisableBouncingAnimationWhileWorking": true,
+    "NoInputStartMode": "",
+    "LightSource": {
+      "TextureIndex": 1,
+      "Radius": 1.5,
+      "OffsetX": 0,
+      "OffsetY": -20,
+      "ColorType": "DefinedColor",
+      "ColorRed": 31,
+      "ColorGreen": 83,
+      "ColorBlue": 34,
+      "ColorAlpha": 150,
+      "ColorFactor": 1,
+      "AlwaysOn": false
+    },
+    "ProducingAnimation": {
+      "RelativeFrameIndex": [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19 ],
+      "FrameInterval": 8
+    },
+    "ReadyAnimation": {
+      "RelativeFrameIndex": [ 0 ]
+    }
+  }
+]

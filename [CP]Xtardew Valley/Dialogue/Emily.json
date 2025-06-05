@@ -1,0 +1,30 @@
+{
+    "Changes": [
+        {
+            "LogName": "Emily",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Emily",
+            "Entries": {
+                "emily_event1": "哦！这是我们的招牌鸡尾酒。不错的选择，@。$1",
+                "emily_event2": "@，你一定很喜欢你的杜松子酒。月之地平线很强！$1",
+                "emily_event3": "这是我的最爱之一！我很高兴你选择了这个。$1",
+                "emily_event4": "大爆炸非常强大。但我确信你能处理好。$1",
+                "emily_event5": "*微笑*不错的选择，适合你的。",
+                "event_dance1": "谢谢你！$1",
+                "event_dance2": "嗯...好吧。抱歉你不喜欢它。我想这三年的练习完全是浪费了……$s",
+                "event_dance3": "你真的这么认为吗？这正是我拍摄的效果！$h#$b#我很高兴你喜欢它。"
+            }
+        },
+        {
+            "LogName": "Emily Marriage",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/MarriageDialogueEmily",
+            "Entries": {
+                "Rainy_Day_4": "雨下得很大。#$b#下雨天做爱有种平静的感觉。$4#$e#今晚不要回来太晚。$4",
+                "Outdoor_4": "早上好！我想知道你何时能滚下床！$h#$e#没关系...昨晚你应该休息一个美好的夜晚。$4",
+                "summer_7": "我永远不会忘记在我们露营旅行中出现的熊。#$b#我第一次因为一头熊感到惊讶...我认为大多数人没有机会说同样的话。$1",
+                "Indoor_Night_4": "#$c .5#我扫过整个房子，洗了窗户，撒了灰尘，然后清洗了冰箱。这是非常富有成效的一天！#也许有一天我们退休了，你和我可以像我的父母一样环游世界。这一点可以有点像。$u"
+            }
+        }
+    ]
+}

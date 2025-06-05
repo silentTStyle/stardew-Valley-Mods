@@ -1,0 +1,12 @@
+{
+    "Changes": [
+        {
+            "LogName": "Lewis",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Lewis",
+            "Entries": {
+                "Sun2": "莉亚和艾利欧特大约一年前就搬到这里。你和他们交谈过吗？"
+            }
+        }
+    ]
+}

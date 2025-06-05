@@ -1,0 +1,20 @@
+{
+	"Changes": [
+		{
+			"LogName": "All Tackle Immediately",
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "FishShop", "Items" ],
+			"Fields": {
+			    "(O)686": {"Condition": null}, //Spinner
+				"(O)687": {"Condition": null}, //Dressed Spinner
+				"(O)691": {"Condition": null}, //Barbed Hook
+				"(O)692": {"Condition": null}, //Lead Bobber
+				"(O)693": {"Condition": null}, //Treasure Hunter
+				"(O)694": {"Condition": null}, //Trap Bobber
+				"(O)695": {"Condition": null}, //Cork Bobber
+					   },
+			"When": {"All Tackle Immediately": true},
+		},
+	]
+}

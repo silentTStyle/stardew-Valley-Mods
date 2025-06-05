@@ -1,0 +1,74 @@
+{
+    "Name": "Maru Bread",
+    "Description": ".Cooking with Maru 's head ",
+    "Category": "Cooking",
+    "Edibility": 100,
+  	"EdibleIsFood": true,
+	"EdibleBuffs": {
+	"Farming": 0,
+	"Fishing": 0,
+	"Mining": 0,
+	"Luck": 1,
+	"Foraging": 0,
+	"MaxStamina": 40,
+	"MagnetRadius": 1,
+	"Speed": 1,
+	"Defense": 3,
+	"Attack": 2,
+	"Duration": 300,
+	},
+    "Price": 240,
+    "IsColored": false,
+    "Recipe":
+    {
+        "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": "Maru",
+            "Count": 1,
+        },
+        {
+            "Object": 245,
+            "Count": 1,
+        },
+        {
+            "Object": 262,
+            "Count": 1,
+        },
+        ],
+        "IsDefault": true,
+    },
+    "GiftTastes":
+    {
+        "Like": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Haley", "Jas", "Jodi", "Kent", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Vincent", "Wizard"],
+        "Dislike": ["Harvey", "Krobus", "Leah", "Willy"],
+    },
+    "NameLocalization":
+    {
+        // "es": "",
+        // "ko": "",
+       // "de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        // "ja": "",
+        // "pt": "",
+        // "ru": "",
+        // "tr": "",
+        "zh": "玛鲁面包",
+    },
+    "DescriptionLocalization":
+    {
+        // "es": "",
+        // "ko": "",
+       // "de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        // "ja": "",
+        // "pt": "",
+        // "ru": "",
+        // "tr": "",
+        "zh": "用玛鲁的头颅做的",
+    },
+}

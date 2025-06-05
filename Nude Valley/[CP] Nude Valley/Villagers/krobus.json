@@ -1,0 +1,79 @@
+{
+  "Changes": [
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Krobus",
+      "FromFile": "assets/Characters/Krobus.png"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Krobus_Trenchcoat",
+      "FromFile": "assets/Characters/Krobus_Trenchcoat.png"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Krobus_Trenchcoat",
+      "FromFile": "assets/Characters/Krobus_Trenchcoat_Glasses.png",
+      "PatchMode": "Overlay",
+      "When": { "Glasses": "true" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/KrobusRaven",
+      "FromFile": "assets/Characters/KrobusRaven.png"
+    },
+	{
+      "Action": "EditImage",
+      "Target": "Characters/SeaMonsterKrobus",
+      "FromFile": "assets/Characters/SeaMonsterKrobus.png"
+    },
+	// Portraits -----------------------------------------------------------------------------------
+	{
+      "Action": "EditImage",
+      "Target": "Portraits/Krobus",
+      "FromFile": "assets/Portraits/Krobus.png",
+      "When": { 
+		"Hypnosis": "false",
+		"Krobus": "On",
+	  }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Krobus",
+      "FromFile": "assets/Portraits/Krobus_Hypnosis.png",
+      "When": { 
+		"Hypnosis": "true",
+		"Krobus": "On",
+	  }
+    },
+	{
+      "Action": "EditImage",
+      "Target": "Portraits/Krobus",
+      "FromFile": "assets/Portraits/Krobus_Glasses.png",
+      "PatchMode": "Overlay",
+      "When": { 
+		"Glasses": "true",
+		"Krobus": "On",	  
+	  }
+    },
+	{
+      "Action": "EditImage",
+      "Target": "Portraits/Krobus_Trenchcoat",
+      "FromFile": "assets/Portraits/Krobus_Trenchcoat.png",
+      "When": { "Hypnosis": "false" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Krobus_Trenchcoat",
+      "FromFile": "assets/Portraits/Krobus_Trenchcoat_Hypnosis.png",
+      "When": { "Hypnosis": "true" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Krobus_Trenchcoat",
+      "FromFile": "assets/Portraits/Krobus_Trenchcoat_Glasses.png",
+      "PatchMode": "Overlay",
+      "When": { "Glasses": "true" }
+    },
+  ]
+}

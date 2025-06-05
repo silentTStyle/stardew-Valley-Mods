@@ -1,0 +1,10 @@
+{
+    "Config.DecorationStyle.Name": "Decoration Style",
+    "Config.DecorationStyle.Description": "Which decoration style to use for the bathroom.",
+
+    "Config.ChangeIntoSwimsuit.Name": "Change into Swimsuit",
+    "Config.ChangeIntoSwimsuit.Description": "Whether to change into a swimsuit before entering the bath.",
+
+    "Config.StarterFarmHouseKitchen.Name": "Starter FarmHouse Kitchen",
+    "Config.StarterFarmHouseKitchen.Description": "Whether to change the starter farmhouse to be larger and have a kitchen."
+}

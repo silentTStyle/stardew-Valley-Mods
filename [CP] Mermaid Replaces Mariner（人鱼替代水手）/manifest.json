@@ -1,0 +1,12 @@
+{
+   "Name": "Mariner To Mermaid",
+   "Author": "PumkinKat",
+   "Version": "1.0.0",
+   "Description": "Replaces Mariner with Mermaid for Stardew Valley 1.6",
+   "UniqueID": "PumkinKat.MarinerToMermaid",
+   "MinimumApiVersion": "2.5",
+   "UpdateKeys": ["Nexus:1931"],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+   }
+}

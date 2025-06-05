@@ -1,0 +1,144 @@
+{
+	"Changes": [
+		{
+			"LogName": "Bait Maker Produce Min 6",
+		    "Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)BaitMaker", "OutputRules", "Default", "OutputItem" ],
+			"Fields": {
+				"FLAVORED_ITEM Bait DROP_IN_ID": {"MinStack": 6},
+		           },
+				"When": {"Bait Maker Produce Min": "6"},				 
+	    },
+		{
+			"LogName": "Bait Maker Produce Min 7",
+		    "Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)BaitMaker", "OutputRules", "Default", "OutputItem" ],
+			"Fields": {
+				"FLAVORED_ITEM Bait DROP_IN_ID": {"MinStack": 7},
+		           },
+				"When": {"Bait Maker Produce Min": "7"},				 
+	    },
+		{
+			"LogName": "Bait Maker Produce Min 8",
+		    "Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)BaitMaker", "OutputRules", "Default", "OutputItem" ],
+			"Fields": {
+				"FLAVORED_ITEM Bait DROP_IN_ID": {"MinStack": 8},
+		           },
+				"When": {"Bait Maker Produce Min": "8"},				 
+	    },
+		{
+			"LogName": "Bait Maker Produce Min 9",
+		    "Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)BaitMaker", "OutputRules", "Default", "OutputItem" ],
+			"Fields": {
+				"FLAVORED_ITEM Bait DROP_IN_ID": {"MinStack": 9},
+		           },
+				"When": {"Bait Maker Produce Min": "9"},				 
+	    },
+		{
+			"LogName": "Bait Maker Produce Min 10",
+		    "Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)BaitMaker", "OutputRules", "Default", "OutputItem" ],
+			"Fields": {
+				"FLAVORED_ITEM Bait DROP_IN_ID": {"MinStack": 10},
+		           },
+				"When": {"Bait Maker Produce Min": "10"},				 
+	    },
+		{
+			"LogName": "Bait Maker Produce Min 15",
+		    "Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)BaitMaker", "OutputRules", "Default", "OutputItem" ],
+			"Fields": {
+				"FLAVORED_ITEM Bait DROP_IN_ID": {"MinStack": 15},
+		           },
+				"When": {"Bait Maker Produce Min": "15"},				 
+	    },
+		{
+			"LogName": "Bait Maker Produce Min 20",
+		    "Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)BaitMaker", "OutputRules", "Default", "OutputItem" ],
+			"Fields": {
+				"FLAVORED_ITEM Bait DROP_IN_ID": {"MinStack": 20},
+		           },
+				"When": {"Bait Maker Produce Min": "20"},				 
+	    },
+		{
+			"LogName": "Bait Maker Produce Min 25",
+		    "Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)BaitMaker", "OutputRules", "Default", "OutputItem" ],
+			"Fields": {
+				"FLAVORED_ITEM Bait DROP_IN_ID": {"MinStack": 25},
+		           },
+				"When": {"Bait Maker Produce Min": "25"},				 
+	    },
+		{
+			"LogName": "Bait Maker Produce Min 30",
+		    "Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)BaitMaker", "OutputRules", "Default", "OutputItem" ],
+			"Fields": {
+				"FLAVORED_ITEM Bait DROP_IN_ID": {"MinStack": 30},
+		           },
+				"When": {"Bait Maker Produce Min": "30"},				 
+	    },
+		{
+			"LogName": "Bait Maker Produce Min 35",
+		    "Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)BaitMaker", "OutputRules", "Default", "OutputItem" ],
+			"Fields": {
+				"FLAVORED_ITEM Bait DROP_IN_ID": {"MinStack": 35},
+		           },
+				"When": {"Bait Maker Produce Min": "35"},				 
+	    },
+		{
+			"LogName": "Bait Maker Produce Min 40",
+		    "Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)BaitMaker", "OutputRules", "Default", "OutputItem" ],
+			"Fields": {
+				"FLAVORED_ITEM Bait DROP_IN_ID": {"MinStack": 40},
+		           },
+				"When": {"Bait Maker Produce Min": "40"},				 
+	    },
+		{
+			"LogName": "Bait Maker Produce Min 45",
+		    "Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)BaitMaker", "OutputRules", "Default", "OutputItem" ],
+			"Fields": {
+				"FLAVORED_ITEM Bait DROP_IN_ID": {"MinStack": 45},
+		           },
+				"When": {"Bait Maker Produce Min": "45"},				 
+	    },
+		{
+			"LogName": "Bait Maker Produce Min 50",
+		    "Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)BaitMaker", "OutputRules", "Default", "OutputItem" ],
+			"Fields": {
+				"FLAVORED_ITEM Bait DROP_IN_ID": {"MinStack": 50},
+		           },
+				"When": {"Bait Maker Produce Min": "50"},				 
+	    },
+		{
+			"LogName": "Bait Maker Produce Min 100",
+		    "Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)BaitMaker", "OutputRules", "Default", "OutputItem" ],
+			"Fields": {
+				"FLAVORED_ITEM Bait DROP_IN_ID": {"MinStack": 100},
+		           },
+				"When": {"Bait Maker Produce Min": "100"},				 
+	    },
+	]
+}

@@ -1,0 +1,24 @@
+{
+    "Name": "Seasonal Girl Mod",
+    "Author": "LadyoftheLight and jupitergirl",
+    "Version": "2.7.0",
+    "Description": "Seasonal Portraits & Sprites of AdarinSinner's & Rekooooon's Girl Mods",
+    "UniqueID": "LadyoftheLight.SeasonalGirlMod",
+ "UpdateKeys": [ "Nexus:15764" ],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+   },
+ "Dependencies": [
+	 {
+	 //Seasonal Cute Characters
+		 "UniqueID": "Poltergeister.SeasonalCuteCharacters",
+		 "IsRequired": false
+	 },
+	 {
+     //Invatorzen's Dialogue Changes
+		 "UniqueID": "invatorzen.idcsm",
+		 "IsRequired": false
+	 }
+ ],
+
+}

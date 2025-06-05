@@ -1,0 +1,104 @@
+{
+	"Changes": [
+		{
+			"LogName": "SVE - Legendary Fish Sell Value Decrease by 10%",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+			    "FlashShifter.StardewValleyExpandedCP_Wolf_Snapper": {"Price": "{{Round: {{Query: (4000 - (4000 * 0.10)) }} }}"},
+				"FlashShifter.StardewValleyExpandedCP_Turretfish": {"Price": "{{Round: {{Query: (10000 - (10000 * 0.10)) }} }}"},
+			    },
+			"When": {"Legendary Fish Sell Value": "Decrease by 10%"},
+		},
+		{
+			"LogName": "SVE - Legendary Fish Sell Value Decrease by 20%",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+			    "FlashShifter.StardewValleyExpandedCP_Wolf_Snapper": {"Price": "{{Round: {{Query: (4000 - (4000 * 0.20)) }} }}"},
+				"FlashShifter.StardewValleyExpandedCP_Turretfish": {"Price": "{{Round: {{Query: (10000 - (10000 * 0.20)) }} }}"},
+			    },
+			"When": {"Legendary Fish Sell Value": "Decrease by 20%"},
+		},
+		{
+			"LogName": "SVE - Legendary Fish Sell Value Decrease by 30%",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+			    "FlashShifter.StardewValleyExpandedCP_Wolf_Snapper": {"Price": "{{Round: {{Query: (4000 - (4000 * 0.30)) }} }}"},
+				"FlashShifter.StardewValleyExpandedCP_Turretfish": {"Price": "{{Round: {{Query: (10000 - (10000 * 0.30)) }} }}"},
+			    },
+			"When": {"Legendary Fish Sell Value": "Decrease by 30%"},
+		},
+		{
+			"LogName": "SVE - Legendary Fish Sell Value Decrease by 40%",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+			    "FlashShifter.StardewValleyExpandedCP_Wolf_Snapper": {"Price": "{{Round: {{Query: (4000 - (4000 * 0.40)) }} }}"},
+				"FlashShifter.StardewValleyExpandedCP_Turretfish": {"Price": "{{Round: {{Query: (10000 - (10000 * 0.40)) }} }}"},
+			    },
+			"When": {"Legendary Fish Sell Value": "Decrease by 40%"},
+		},
+		{
+			"LogName": "SVE - Legendary Fish Sell Value Decrease by 50%",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+			    "FlashShifter.StardewValleyExpandedCP_Wolf_Snapper": {"Price": "{{Round: {{Query: (4000 - (4000 * 0.50)) }} }}"},
+				"FlashShifter.StardewValleyExpandedCP_Turretfish": {"Price": "{{Round: {{Query: (10000 - (10000 * 0.50)) }} }}"},
+			    },
+			"When": {"Legendary Fish Sell Value": "Decrease by 50%"},
+		},
+		{
+			"LogName": "SVE - Legendary Fish Sell Value Decrease by 60%",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+			    "FlashShifter.StardewValleyExpandedCP_Wolf_Snapper": {"Price": "{{Round: {{Query: (4000 - (4000 * 0.60)) }} }}"},
+				"FlashShifter.StardewValleyExpandedCP_Turretfish": {"Price": "{{Round: {{Query: (10000 - (10000 * 0.60)) }} }}"},
+			    },
+			"When": {"Legendary Fish Sell Value": "Decrease by 60%"},
+		},
+		{
+			"LogName": "SVE - Legendary Fish Sell Value Decrease by 70%",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+			    "FlashShifter.StardewValleyExpandedCP_Wolf_Snapper": {"Price": "{{Round: {{Query: (4000 - (4000 * 0.70)) }} }}"},
+				"FlashShifter.StardewValleyExpandedCP_Turretfish": {"Price": "{{Round: {{Query: (10000 - (10000 * 0.70)) }} }}"},
+			    },
+			"When": {"Legendary Fish Sell Value": "Decrease by 70%"},
+		},
+		{
+			"LogName": "SVE - Legendary Fish Sell Value Decrease by 80%",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+			    "FlashShifter.StardewValleyExpandedCP_Wolf_Snapper": {"Price": "{{Round: {{Query: (4000 - (4000 * 0.80)) }} }}"},
+				"FlashShifter.StardewValleyExpandedCP_Turretfish": {"Price": "{{Round: {{Query: (10000 - (10000 * 0.80)) }} }}"},
+			    },
+			"When": {"Legendary Fish Sell Value": "Decrease by 80%"},
+		},
+		{
+			"LogName": "SVE - Legendary Fish Sell Value Decrease by 90%",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+			    "FlashShifter.StardewValleyExpandedCP_Wolf_Snapper": {"Price": "{{Round: {{Query: (4000 - (4000 * 0.90)) }} }}"},
+				"FlashShifter.StardewValleyExpandedCP_Turretfish": {"Price": "{{Round: {{Query: (10000 - (10000 * 0.90)) }} }}"},
+			    },
+			"When": {"Legendary Fish Sell Value": "Decrease by 90%"},
+		},
+		{
+			"LogName": "SVE - Legendary Fish Sell Value Decrease by 99%",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+			    "FlashShifter.StardewValleyExpandedCP_Wolf_Snapper": {"Price": 1},
+				"FlashShifter.StardewValleyExpandedCP_Turretfish": {"Price": 1},
+			    },
+			"When": {"Legendary Fish Sell Value": "Decrease by 99%"},
+		},
+	]
+}

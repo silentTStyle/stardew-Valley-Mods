@@ -1,0 +1,250 @@
+{
+  "Changes": [
+    // Dark Club - NPC -----------------------------------------------------------------------------
+	{
+      "Action": "EditData",
+      "Target": "Data/Characters",
+      "Entries": {
+        "ToiletDC1": {
+			"DisplayName": "{{i18n:NPC.Toilet.Name}}",
+			"Gender": "Female",
+			"Age": "Adult",
+			"SocialTab": "HiddenAlways",
+			"CanSocialize": false,
+			"IntroductionsQuest": false,
+			"PerfectionScore": false,
+			"EndSlideShow": "Hidden",
+			"Home": [
+				{
+					"ID": "Default",
+					"Location": "Custom_Restroom",
+					"Tile": {"X": 8, "Y": 3},
+					"Direction": "Down",
+				}
+			],
+		},
+		"ToiletDC2": {
+			"DisplayName": "{{i18n:NPC.Toilet.Name}}",
+			"Gender": "Female",
+			"Age": "Adult",
+			"SocialTab": "HiddenAlways",
+			"CanSocialize": false,
+			"IntroductionsQuest": false,
+			"PerfectionScore": false,
+			"EndSlideShow": "Hidden",
+			"Home": [
+				{
+					"ID": "Default",
+					"Location": "Custom_Restroom",
+					"Tile": {"X": 5, "Y": 8},
+					"Direction": "Down",
+				}
+			],
+		},
+		"ToiletDC3": {
+			"DisplayName": "{{i18n:NPC.Toilet.Name}}",
+			"Gender": "Female",
+			"Age": "Adult",
+			"SocialTab": "HiddenAlways",
+			"CanSocialize": false,
+			"IntroductionsQuest": false,
+			"PerfectionScore": false,
+			"EndSlideShow": "Hidden",
+			"Home": [
+				{
+					"ID": "Default",
+					"Location": "Custom_Restroom",
+					"Tile": {"X": 18, "Y": 7},
+					"Direction": "Down",
+				}
+			],
+		},
+		"MermaidDC": {
+			"DisplayName": "{{i18n:NPC.Mermaid.Name}}",
+			"Gender": "Female",
+			"Age": "Adult",
+			"SocialTab": "HiddenAlways",
+			"CanSocialize": false,
+			"IntroductionsQuest": false,
+			"PerfectionScore": false,
+			"EndSlideShow": "Hidden",
+			"Home": [
+				{
+					"ID": "Default",
+					"Location": "Custom_DarkClub",
+					"Tile": {"X": 35, "Y": 32},
+					"Direction": "Down",
+				}
+			],
+		},
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Dialogue/ToiletDC1",
+      "FromFile": "Characters/DarkClubNPC/assets/Data/Dummy.json"
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/ToiletDC1",
+      "Entries": {
+      "Mon": "{{i18n:NPC.Toilet.Dialogue}}",
+      "Tue": "{{i18n:NPC.Toilet.Dialogue}}",
+      "Wed": "{{i18n:NPC.Toilet.Dialogue}}",
+      "Thu": "{{i18n:NPC.Toilet.Dialogue}}",
+      "Fri": "{{i18n:NPC.Toilet.Dialogue}}",
+      "Sat": "{{i18n:NPC.Toilet.Dialogue}}",
+      "Sun": "{{i18n:NPC.Toilet.Dialogue}}"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Dialogue/ToiletDC2",
+      "FromFile": "Characters/DarkClubNPC/assets/Data/Dummy.json"
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/ToiletDC2",
+      "Entries": {
+      "Mon": "{{i18n:NPC.Toilet.Dialogue}}",
+      "Tue": "{{i18n:NPC.Toilet.Dialogue}}",
+      "Wed": "{{i18n:NPC.Toilet.Dialogue}}",
+      "Thu": "{{i18n:NPC.Toilet.Dialogue}}",
+      "Fri": "{{i18n:NPC.Toilet.Dialogue}}",
+      "Sat": "{{i18n:NPC.Toilet.Dialogue}}",
+      "Sun": "{{i18n:NPC.Toilet.Dialogue}}"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Dialogue/ToiletDC3",
+      "FromFile": "Characters/DarkClubNPC/assets/Data/Dummy.json"
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/ToiletDC3",
+      "Entries": {
+      "Mon": "{{i18n:NPC.Toilet.Dialogue}}",
+      "Tue": "{{i18n:NPC.Toilet.Dialogue}}",
+      "Wed": "{{i18n:NPC.Toilet.Dialogue}}",
+      "Thu": "{{i18n:NPC.Toilet.Dialogue}}",
+      "Fri": "{{i18n:NPC.Toilet.Dialogue}}",
+      "Sat": "{{i18n:NPC.Toilet.Dialogue}}",
+      "Sun": "{{i18n:NPC.Toilet.Dialogue}}"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Dialogue/MermaidDC",
+      "FromFile": "Characters/DarkClubNPC/assets/Data/Dummy.json"
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MermaidDC",
+      "Entries": {
+      "Mon": "{{i18n:NPC.Mermaid.Dialogue}}",
+      "Tue": "{{i18n:NPC.Mermaid.Dialogue}}",
+      "Wed": "{{i18n:NPC.Mermaid.Dialogue}}",
+      "Thu": "{{i18n:NPC.Mermaid.Dialogue}}",
+      "Fri": "{{i18n:NPC.Mermaid.Dialogue}}",
+      "Sat": "{{i18n:NPC.Mermaid.Dialogue}}",
+      "Sun": "{{i18n:NPC.Mermaid.Dialogue}}"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/schedules/ToiletDC1",
+      "FromFile": "Characters/DarkClubNPC/assets/Data/Dummy.json"
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/schedules/ToiletDC1",
+      "Entries": {
+      "spring": "0 Custom_Restroom 8 3 0/610 Custom_Restroom 8 3 0"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/schedules/ToiletDC2",
+      "FromFile": "Characters/DarkClubNPC/assets/Data/Dummy.json"
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/schedules/ToiletDC2",
+      "Entries": {
+      "spring": "0 Custom_Restroom 5 8 0/610 Custom_Restroom 5 8 0"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/schedules/ToiletDC3",
+      "FromFile": "Characters/DarkClubNPC/assets/Data/Dummy.json"
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/schedules/ToiletDC3",
+      "Entries": {
+      "spring": "0 Custom_Restroom 18 7 0/610 Custom_Restroom 18 7 0"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/schedules/MermaidDC",
+      "FromFile": "Characters/DarkClubNPC/assets/Data/Dummy.json"
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/schedules/MermaidDC",
+      "Entries": {
+      "spring": "0 Custom_DarkClub 35 32 0/610 Custom_DarkClub 35 32 0"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/ToiletDC1",
+      "FromFile": "Characters/DarkClubNPC/assets/Characters/null.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/ToiletDC2",
+      "FromFile": "Characters/DarkClubNPC/assets/Characters/null.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/ToiletDC3",
+      "FromFile": "Characters/DarkClubNPC/assets/Characters/null.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/MermaidDC",
+      "FromFile": "Characters/DarkClubNPC/assets/Characters/null.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Portraits/ToiletDC1",
+      "FromFile": "Characters/DarkClubNPC/assets/Portraits/null.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Portraits/ToiletDC2",
+      "FromFile": "Characters/DarkClubNPC/assets/Portraits/null.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Portraits/ToiletDC3",
+      "FromFile": "Characters/DarkClubNPC/assets/Portraits/null.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Portraits/MermaidDC",
+      "FromFile": "Characters/DarkClubNPC/assets/Portraits/Mermaid.png",
+      "When": { "Hypnosis": "false" }
+    },
+    {
+      "Action": "Load",
+      "Target": "Portraits/MermaidDC",
+      "FromFile": "Characters/DarkClubNPC/assets/Portraits/Mermaid_Hypnosis.png",
+      "When": { "Hypnosis": "true" }
+    },
+  ]
+}

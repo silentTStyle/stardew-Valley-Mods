@@ -1,0 +1,192 @@
+{
+	"Changes": [
+		{
+			"LogName": "Escargot Duration",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [ "729", "Buffs" ],
+			"Fields": {
+				"Food": {"Duration": -2},
+				},
+			"When": {"Escargot Duration": true}
+		},
+		{
+			"LogName": "Escargot Level Boost Fishing Level +3",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [ "729", "Buffs", "Food" ],
+			"Fields": {
+			    "CustomAttributes": {"FishingLevel": 3},
+					   },
+			"When": {"Escargot Level Boost": "Fishing Level +3"},
+		},
+		{
+			"LogName": "Escargot Level Boost Fishing Level +4",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [ "729", "Buffs", "Food" ],
+			"Fields": {
+			    "CustomAttributes": {"FishingLevel": 4},
+					   },
+			"When": {"Escargot Level Boost": "Fishing Level +4"},
+		},
+		{
+			"LogName": "Escargot Level Boost Fishing Level +5",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [ "729", "Buffs", "Food" ],
+			"Fields": {
+			    "CustomAttributes": {"FishingLevel": 5},
+					   },
+			"When": {"Escargot Level Boost": "Fishing Level +5"},
+		},
+		{
+			"LogName": "Escargot Level Boost Fishing Level +6",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [ "729", "Buffs", "Food" ],
+			"Fields": {
+			    "CustomAttributes": {"FishingLevel": 6},
+					   },
+			"When": {"Escargot Level Boost": "Fishing Level +6"},
+		},
+		{
+			"LogName": "Escargot Level Boost Fishing Level +7",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [ "729", "Buffs", "Food" ],
+			"Fields": {
+			    "CustomAttributes": {"FishingLevel": 7},
+					   },
+			"When": {"Escargot Level Boost": "Fishing Level +7"},
+		},
+		{
+			"LogName": "Escargot Level Boost Fishing Level +8",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [ "729", "Buffs", "Food" ],
+			"Fields": {
+			    "CustomAttributes": {"FishingLevel": 8},
+					   },
+			"When": {"Escargot Level Boost": "Fishing Level +8"},
+		},
+		{
+			"LogName": "Escargot Level Boost Fishing Level +9",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [ "729", "Buffs", "Food" ],
+			"Fields": {
+			    "CustomAttributes": {"FishingLevel": 9},
+					   },
+			"When": {"Escargot Level Boost": "Fishing Level +9"},
+		},
+		{
+			"LogName": "Escargot Level Boost Fishing Level +10",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [ "729", "Buffs", "Food" ],
+			"Fields": {
+			    "CustomAttributes": {"FishingLevel": 10},
+					   },
+			"When": {"Escargot Level Boost": "Fishing Level +10"},
+		},
+		{
+			"LogName": "Escargot Level Boost Fishing Level +15",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [ "729", "Buffs", "Food" ],
+			"Fields": {
+			    "CustomAttributes": {"FishingLevel": 15},
+					   },
+			"When": {"Escargot Level Boost": "Fishing Level +15"},
+		},
+		{
+			"LogName": "Escargot Level Boost Fishing Level +20",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [ "729", "Buffs", "Food" ],
+			"Fields": {
+			    "CustomAttributes": {"FishingLevel": 20},
+					   },
+			"When": {"Escargot Level Boost": "Fishing Level +20"},
+		},
+		{
+			"LogName": "Escargot Level Boost Fishing Level +25",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [ "729", "Buffs", "Food" ],
+			"Fields": {
+			    "CustomAttributes": {"FishingLevel": 25},
+					   },
+			"When": {"Escargot Level Boost": "Fishing Level +25"},
+		},
+		{
+			"LogName": "Escargot Level Boost Fishing Level +30",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [ "729", "Buffs", "Food" ],
+			"Fields": {
+			    "CustomAttributes": {"FishingLevel": 30},
+					   },
+			"When": {"Escargot Level Boost": "Fishing Level +30"},
+		},
+		{
+			"LogName": "Escargot Level Boost Fishing Level +35",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [ "729", "Buffs", "Food" ],
+			"Fields": {
+			    "CustomAttributes": {"FishingLevel": 35},
+					   },
+			"When": {"Escargot Level Boost": "Fishing Level +35"},
+		},
+		{
+			"LogName": "Escargot Level Boost Fishing Level +40",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [ "729", "Buffs", "Food" ],
+			"Fields": {
+			    "CustomAttributes": {"FishingLevel": 40},
+					   },
+			"When": {"Escargot Level Boost": "Fishing Level +40"},
+		},
+		{
+			"LogName": "Escargot Level Boost Fishing Level +45",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [ "729", "Buffs", "Food" ],
+			"Fields": {
+			    "CustomAttributes": {"FishingLevel": 45},
+					   },
+			"When": {"Escargot Level Boost": "Fishing Level +45"},
+		},
+		{
+			"LogName": "Escargot Level Boost Fishing Level +50",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [ "729", "Buffs", "Food" ],
+			"Fields": {
+			    "CustomAttributes": {"FishingLevel": 50},
+					   },
+			"When": {"Escargot Level Boost": "Fishing Level +50"},
+		},
+		{
+			"LogName": "Escargot Lessened Ingredients",
+			"Action": "EditData",
+			"Target": "Data/CookingRecipes",
+			"Fields": {
+			    "Escargot": {0: "721 1"},
+					},
+			"When": {"Escargot Ingredients": "Lessened Ingredients"},
+		},
+		{
+			"LogName": "Escargot 1 of Any Fish",
+			"Action": "EditData",
+			"Target": "Data/CookingRecipes",
+			"Fields": {
+			    "Escargot": {0: "-4 1"},
+					},
+			"When": {"Escargot Ingredients": "1 of Any Fish"},
+		},
+	]
+}

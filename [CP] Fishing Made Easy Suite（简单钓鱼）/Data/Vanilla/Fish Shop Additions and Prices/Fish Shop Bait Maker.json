@@ -1,0 +1,22 @@
+{
+	"Changes": [
+		{
+			"LogName": "Fish Shop Bait Maker",
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "FishShop", "Items" ],
+			"Entries": {
+			    "(BC)BaitMaker": {"TradeItemAmount": 1,
+                           "Price": 10000,
+                           "AvailableStockLimit": "Global",
+                           "Condition": null,
+                           "Id": "(BC)BaitMaker",
+                           "ItemId": "(BC)BaitMaker",},
+					   },
+			"When": {"Fish Shop Bait Maker": true},
+			"MoveEntries": [
+                { "Id": "(BC)BaitMaker", "BeforeId": "(O)686" },
+            ]
+		},
+	]
+}

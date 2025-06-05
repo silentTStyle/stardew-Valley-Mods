@@ -1,0 +1,201 @@
+{
+  "Changes": [
+    { //Sprites
+      "LogName": "Sprites",
+      "Action": "EditImage",
+      "Target": "Characters/Caroline, Characters/Caroline_Winter",
+      "FromFile": "assets/Characters/Caroline/Caroline_Sprites.png",
+      "Update": "OnLocationChange",
+      "ToArea": {"X": 0, "Y": 1600, "Width": 64, "Height": 896}
+    },
+    { //Undress
+      "LogName": "Undress",
+      "Action": "EditImage",
+      "Target": "Characters/Caroline, Characters/Caroline_Winter",
+      "FromFile": "assets/Characters/Caroline/{{TargetWithoutPath}}_Undress.png",
+      "Update": "OnLocationChange",
+      "ToArea": {"X": 0, "Y": 1568, "Width": 64, "Height": 32}
+    },
+    { //Extras
+      "Action": "Load",
+      "Target": "Characters/CarolineExtra",
+      "FromFile": "assets/Characters/Caroline/CarolineExtra.png"
+    },
+    { //Portraits
+      "LogName": "Portraits",
+      "Action": "EditImage",
+      "Target": "Portraits/Caroline, Portraits/Caroline_Winter",
+      "FromFile": "assets/Portraits/Caroline.png",
+      "Update": "OnLocationChange",
+      "ToArea": {"X": 0, "Y": 960, "Width": 128, "Height": 192}
+    },
+    /*=======================================================================================================================
+    SCHEDULES
+    =======================================================================================================================*/
+    { //Caroline Pleasure
+      "Action": "EditData",
+      "Target": "Characters/Schedules/Caroline",
+      "entries": {
+        //SEASON
+        "spring": "800 SeedShop 37 6 3/1000 Sunroom 5 7 1 {{caroline_r}}/1200 SeedShop 15 23 0/1330 Town 23 71 2/1600 SeedShop 25 18 2 square_9_9/2100 SeedShop 25 4 1 caroline_sleep",
+        //RAIN
+        "rain": "800 SeedShop 37 6 3/1200 SeedShop 15 23 0/1330 SeedShop 21 5 2 caroline_read/1600 SeedShop 25 18 2 square_9_9/2100 SeedShop 21 5 2 {{caroline_r}}/2400 SeedShop 25 4 1 caroline_sleep",
+        "rain2": "800 SeedShop 37 6 3/1200 SeedShop 15 23 0/1330 SeedShop 21 5 2 {{caroline_r}}/1600 SeedShop 25 18 2 square_9_9/2100 SeedShop 25 4 1 caroline_sleep",
+        //OTHER DAYS
+        "Wed": "800 SeedShop 37 6 3/1000 Sunroom 5 7 1 {{caroline_r}}/1200 Town 23 27 1/1700 SeedShop 25 18 2 square_9_9/2100 SeedShop 25 4 1 caroline_sleep",
+        "Fri": "800 SeedShop 37 6 3/1000 Sunroom 5 7 1 {{caroline_r}}/1200 ArchaeologyHouse 14 4 2 caroline_read \"Strings\\schedules\\Caroline:Fri.000\"/1700 SeedShop 26 15 2 {{caroline_r}}/2100 SeedShop 25 4 1 caroline_sleep"
+      },
+      "When": {
+        "Pleasure": "Caroline"
+      }
+    },
+    { //SEX JODI
+      "Action": "EditData",
+      "Target": "Characters/Schedules/Caroline",
+      "entries": { //CAROLINE TOP
+        "Sat": "800 SeedShop 37 6 3/1100 CommunityCenter 25 17 2/1330 CommunityCenter 25 17 2 caroline_top/1700 SeedShop 25 18 2 square_9_9/2100 SeedShop 25 4 1 caroline_sleep",
+        "Sun": "900 SeedShop 22 5 2/1040 SeedShop 21 5 3 \"Strings\\schedules\\Caroline:Sun.000\"/1330 SeedShop 39 17 2/1430 SeedShop 39 17 2 caroline_top/1700 SeedShop 27 7 1/2100 SeedShop 25 4 1 caroline_sleep",
+        //AEROBICS SHOWER - SEX JODI - CAROLINE TOP
+        "summer_Tue": "800 SeedShop 22 14 0 \"Strings\\schedules\\Caroline:Tue.000\"/1030 SeedShop 24 17 3/1300 SeedShop 24 21 0 caroline_exercise/1600 Custom_BathroomVG 14 5 2/1720 Custom_BathroomVG 14 5 2 caroline_top/2100 SeedShop 25 4 1 caroline_sleep"
+      },
+      "When": {
+        "Sex Schedule": "Caroline+Jodi"
+      }
+    },
+    { //SEX PIERRE
+      "Action": "EditData",
+      "Target": "Characters/Schedules/Caroline",
+      "entries": {
+        "Mon": "800 SeedShop 37 6 3/1000 Sunroom 5 7 1 {{caroline_r}}/1200 SeedShop 15 23 0/1330 Town 23 71 2/1600 SeedShop 37 5 3/1900 SeedShop 37 5 3 caroline_sex3/2000 SeedShop 22 6 3/2030 SeedShop 22 6 3 caroline_sex2/2200 SeedShop 22 6 3 caroline_sex1/2400 SeedShop 25 4 1 caroline_sleep"
+      },
+      "When": {
+        "Sex Schedule": "Caroline+Pierre"
+      }
+    },
+    /*=======================================================================================================================
+    DIALOGUE
+    =======================================================================================================================*/
+    { //Pleasure Dialogue Angry
+      "Action": "EditData",
+      "Target": "Strings/schedules/Caroline",
+      "Update": "OnLocationChange",
+      "Entries": {
+        "pleasure1": "{{i18n:Caroline.Pleasure.Angry}}",
+        "pleasure2": "{{i18n:Caroline.Pleasure.Angry}}",
+        "pleasure3": "{{i18n:Caroline.Pleasure.Angry}}",
+        "pleasure4": "{{i18n:Caroline.Pleasure.Angry}}",
+        "pleasure5": "{{i18n:Caroline.Pleasure.Angry}}",
+        "pleasure6": "{{i18n:Caroline.Pleasure.Angry}}",
+        "pleasure7": "{{i18n:Caroline.Pleasure.Angry}}",
+        "pleasure8": "{{i18n:Caroline.Pleasure.Angry}}"
+      },
+      "When": {
+        "Hearts:Caroline": "{{Range: 0, 3}}"
+      }
+    },
+    { //Pleasure Dialogue Happy
+      "Action": "EditData",
+      "Target": "Strings/schedules/Caroline",
+      "Update": "OnLocationChange",
+      "Entries": {
+        "pleasure1": "{{i18n:Caroline.Pleasure.01}}",
+        "pleasure2": "{{i18n:Caroline.Pleasure.02}}",
+        "pleasure3": "{{i18n:Caroline.Pleasure.03}}",
+        "pleasure4": "{{i18n:Caroline.Pleasure.04}}",
+        "pleasure5": "{{i18n:Caroline.Pleasure.05}}",
+        "pleasure6": "{{i18n:Caroline.Pleasure.06}}",
+        "pleasure7": "{{i18n:Caroline.Pleasure.07}}",
+        "pleasure8": "{{i18n:Caroline.Pleasure.08}}"
+      },
+      "When": {
+        "Hearts:Caroline": "{{Range: 4, 14}}"
+      }
+    },
+    { //Sex Dialogue
+      "Action": "EditData",
+      "Target": "Strings/animationDescriptions",
+      "entries": {
+        "caroline_sex1": "{{i18n:Caroline.Sex.01}}",
+        "caroline_sex2": "{{i18n:Caroline.Sex.02}}",
+        "caroline_sex3": "{{i18n:Caroline.Sex.03}}",
+        "caroline_sex4": "{{i18n:Caroline.Sex.04}}",
+        "caroline_sex5": "{{i18n:Caroline.Sex.05}}",
+        "caroline_sex6": "{{i18n:Caroline.Sex.06}}",
+        "caroline_top": "{{i18n:Caroline.Top}}",
+        "caroline_bottom": "{{i18n:Caroline.Bottom}}"
+      }
+    },
+    /*=======================================================================================================================
+    ANIMATIONS
+    =======================================================================================================================*/
+    { //Pleasure
+      "Action": "EditData",
+      "Target": "Data/animationDescriptions",
+      "Update": "OnLocationChange",
+      "entries": {
+        "caroline_pleasure1": "196 197 198 199/200 201 202 203 204/199 198 197 196",
+        "caroline_pleasure2": "196 197 198 199/205 206 207 208 209/199 198 197 196",
+        "caroline_pleasure3": "196 197 198 199/210 211 212 213 214/199 198 197 196",
+        "caroline_pleasure4": "196 197 198 199/215 216 217 218 219/199 198 197 196",
+        "caroline_pleasure5": "196 197 198 199/220 221 222 223 224/199 198 197 196",
+        "caroline_pleasure6": "196 197 198 199/225 226 227 228 229/199 198 197 196",
+        "caroline_pleasure7": "196 197 198 199/230 231 232 233 234/199 198 197 196",
+        "caroline_pleasure8": "196 197 198 199/235 236 237 238/199 198 197 196"
+      }
+    },
+    { //Sex
+      "Action": "EditData",
+      "Target": "Data/animationDescriptions",
+      "Update": "OnLocationChange",
+      "entries": {
+        "caroline_sex1": "196 197 198 199/240 241 242 243 244/199 198 197 196/Strings\\animationDescriptions:caroline_sex1",
+        "caroline_sex2": "196 197 198 199/245 246 247 248 249/199 198 197 196/Strings\\animationDescriptions:caroline_sex2",
+        "caroline_sex3": "196 197 198 199/250 251 252 253 254/199 198 197 196/Strings\\animationDescriptions:caroline_sex3",
+        "caroline_sex4": "196 197 198 199/255 256 257 258 259/199 198 197 196/Strings\\animationDescriptions:caroline_sex4",
+        "caroline_sex5": "196 197 198 199/260 261 262 263 264/199 198 197 196/Strings\\animationDescriptions:caroline_sex5",
+        "caroline_sex6": "196 197 198 199/265 266 267 268 269/199 198 197 196/Strings\\animationDescriptions:caroline_sex6",
+        "caroline_top": "196 197 198 199/270 271 272 273 274/199 198 197 196/Strings\\animationDescriptions:caroline_top",
+        "caroline_bottom": "196 197 198 199/275 276 277 278 279/199 198 197 196/Strings\\animationDescriptions:caroline_bottom"
+      }
+    },
+    /*=======================================================================================================================
+    MALE COUNTERPART - PIERRE
+    =======================================================================================================================*/
+    { //Sprites
+      "LogName": "Sprites",
+      "Action": "EditImage",
+      "Target": "Characters/Pierre, Characters/Pierre_Winter",
+      "FromFile": "assets/Characters/Caroline/Pierre.png",
+      "Update": "OnLocationChange",
+      "ToArea": {"X": 0, "Y": 1920, "Width": 64, "Height": 64}
+    },
+    { //Dialogue
+      "Action": "EditData",
+      "Target": "Strings/animationDescriptions",
+      "entries": {
+        "pierre_caroline": "{{i18n:Pierre.Caroline}}"
+      }
+    },
+    { //Animations
+      "Action": "EditData",
+      "Target": "Data/animationDescriptions",
+      "Update": "OnLocationChange",
+      "entries": {
+        "pierre_caroline1": "0 0 0 0/246/0 0 0 0/Strings\\animationDescriptions:pierre_caroline",
+        "pierre_caroline2": "0 0 0 0/240 241 242 243 244/0 0 0 0/Strings\\animationDescriptions:pierre_caroline",
+        "pierre_caroline3": "0 0 0 0/245/0 0 0 0/Strings\\animationDescriptions:pierre_caroline"
+      }
+    },
+    { //Schedules
+      "Action": "EditData",
+      "Target": "Characters/Schedules/Pierre",
+      "entries": {
+        "Mon": "700 SeedShop 10 20 0/830 SeedShop 4 17 2/1700 SeedShop 11 20 0/1800 SeedShop 36 5 0/1900 SeedShop 36 5 0 pierre_caroline3/2000 SeedShop 21 6 1/2030 SeedShop 21 6 1 pierre_caroline2/2200 SeedShop 21 6 1 pierre_caroline1/2400 SeedShop 24 4 1 pierre_sleep"
+      },
+      "When": {
+        "Sex Schedule": "Caroline+Pierre",
+        "Relationship:Caroline": "Unmet, Friendly, Dating, Engaged, Divorced"
+      }
+    }
+  ]
+}

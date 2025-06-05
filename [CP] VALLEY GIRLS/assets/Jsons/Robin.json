@@ -1,0 +1,211 @@
+{
+  "Changes": [
+    { //Sprites
+      "LogName": "Sprites",
+      "Action": "EditImage",
+      "Target": "Characters/Robin, Characters/Robin_Winter",
+      "FromFile": "assets/Characters/Robin/Robin_Sprites.png",
+      "Update": "OnLocationChange",
+      "ToArea": {"X": 0, "Y": 1600, "Width": 64, "Height": 896}
+    },
+    { //Undress
+      "LogName": "Undress",
+      "Action": "EditImage",
+      "Target": "Characters/Robin, Characters/Robin_Winter",
+      "FromFile": "assets/Characters/Robin/{{TargetWithoutPath}}_Undress.png",
+      "Update": "OnLocationChange",
+      "ToArea": {"X": 0, "Y": 1568, "Width": 64, "Height": 32}
+    },
+    { //Extras
+      "Action": "Load",
+      "Target": "Characters/RobinExtra",
+      "FromFile": "assets/Characters/Robin/RobinExtra.png"
+    },
+    { //Portraits
+      "LogName": "Portraits",
+      "Action": "EditImage",
+      "Target": "Portraits/Robin, Portraits/Robin_Winter",
+      "FromFile": "assets/Portraits/Robin.png",
+      "Update": "OnLocationChange",
+      "ToArea": {"X": 0, "Y": 960, "Width": 128, "Height": 192}
+    },
+    /*=======================================================================================================================
+    SCHEDULES
+    =======================================================================================================================*/
+    { //Robin Pleasure
+      "Action": "EditData",
+      "Target": "Characters/Schedules/Robin",
+      "entries": {
+        //SEASON
+        "spring": "800 ScienceHouse 8 18 2/1700 Mountain 29 36 2/1930 ScienceHouse 20 6 2 {{robin_r}}/2100 ScienceHouse 21 4 1 robin_sleep",
+        //RAIN
+        "rain": "800 ScienceHouse 8 18 2/1700 ScienceHouse 29 9 0/1930 ScienceHouse 20 6 2 {{robin_r}}/2100 ScienceHouse 21 4 1 robin_sleep",
+        "rain2": "800 ScienceHouse 8 18 2/1700 Custom_FemaleToilet 4 10 2 {{robin_r}}/2100 ScienceHouse 21 4 1 robin_sleep",
+        //OTHER DAYS
+        "Mon": "800 ScienceHouse 8 18 2/1700 CommunityCenter 9 19 3/1940 ScienceHouse 20 6 2 {{robin_r}}/2200 ScienceHouse 21 4 1 robin_sleep",
+        "Tue": "930 SeedShop 27 18 0/1300 SeedShop 27 22 2 robin_exercise/1600 SeedShop 24 16 0 \"Strings\\schedules\\Robin:Tue.000\"/1800 ScienceHouse 20 6 2 {{robin_r}}/2100 ScienceHouse 21 4 1 robin_sleep",
+        "Fall_Fri": "800 ScienceHouse 8 18 2/1600 Custom_FemaleToilet 4 10 2 {{robin_r}}/2100 ScienceHouse 21 4 1 robin_sleep",
+        "Winter_Fri": "800 ScienceHouse 8 18 2/1600 Custom_FemaleToilet 4 10 2 {{robin_r}}/2100 ScienceHouse 21 4 1 robin_sleep",
+        //AEROBICS SHOWER
+        "summer_Tue": "930 SeedShop 27 18 0/1300 SeedShop 27 22 2 robin_exercise/1600 Custom_BathroomVG 15 5 2 {{robin_r}}/2100 ScienceHouse 21 4 1 robin_sleep"
+      },
+      "When": {
+        "Pleasure": "Robin"
+      }
+    },
+    { //SEX DEMETRIUS
+      "Action": "EditData",
+      "Target": "Characters/Schedules/Robin",
+      "entries": {
+        "spring_Sun": "800 ScienceHouse 8 18 2/1700 Mountain 29 36 2/1930 ScienceHouse 17 6 3/2030 ScienceHouse 17 6 3 robin_sex3/2130 ScienceHouse 17 6 3 robin_sex2/2230 ScienceHouse 17 6 3 robin_sex1/2400 ScienceHouse 21 4 1 robin_sleep",
+        "summer_Sun": "800 ScienceHouse 8 18 2/1700 Mountain 29 36 2/1930 ScienceHouse 17 6 3/2030 ScienceHouse 17 6 3 robin_sex3/2130 ScienceHouse 17 6 3 robin_sex2/2230 ScienceHouse 17 6 3 robin_sex1/2400 ScienceHouse 21 4 1 robin_sleep",
+        "fall_Sun": "800 ScienceHouse 8 18 2/1700 Mountain 29 36 2/1930 ScienceHouse 17 6 3/2030 ScienceHouse 17 6 3 robin_sex3/2130 ScienceHouse 17 6 3 robin_sex2/2230 ScienceHouse 17 6 3 robin_sex1/2400 ScienceHouse 21 4 1 robin_sleep",
+        "winter_Sun": "800 ScienceHouse 8 18 2/1700 Mountain 29 36 2/1930 ScienceHouse 17 6 3/2030 ScienceHouse 17 6 3 robin_sex3/2130 ScienceHouse 17 6 3 robin_sex2/2230 ScienceHouse 17 6 3 robin_sex1/2400 ScienceHouse 21 4 1 robin_sleep"
+      },
+      "When": {
+        "Sex Schedule": "Robin+Demetrius",
+        "Relationship:Demetrius": "Unmet, Friendly, Dating, Engaged, Divorced"
+      }
+    },
+    { //SEX LEAH 
+      "Action": "EditData",
+      "Target": "Characters/Schedules/Robin",
+      "entries": {
+        //FALL WEDNESDAY - ROBIN BOTTOM
+        "fall_Wed": "800 ScienceHouse 8 18 2/1700 Custom_FemaleToilet 2 8 0/1940 Custom_FemaleToilet 2 8 0 robin_bottom/2300 ScienceHouse 21 4 1 robin_sleep"
+      },
+      "When": {
+        "Sex Schedule": "Robin+Leah",
+        "Relationship:Leah": "Unmet, Friendly, Dating, Engaged, Divorced"
+      }
+    },
+    /*=======================================================================================================================
+    DIALOGUE
+    =======================================================================================================================*/
+    { //Pleasure Dialogue Angry
+      "Action": "EditData",
+      "Target": "Strings/schedules/Robin",
+      "Update": "OnLocationChange",
+      "Entries": {
+        "pleasure1": "{{i18n:Robin.Pleasure.Angry}}",
+        "pleasure2": "{{i18n:Robin.Pleasure.Angry}}",
+        "pleasure3": "{{i18n:Robin.Pleasure.Angry}}",
+        "pleasure4": "{{i18n:Robin.Pleasure.Angry}}",
+        "pleasure5": "{{i18n:Robin.Pleasure.Angry}}",
+        "pleasure6": "{{i18n:Robin.Pleasure.Angry}}",
+        "pleasure7": "{{i18n:Robin.Pleasure.Angry}}",
+        "pleasure8": "{{i18n:Robin.Pleasure.Angry}}"
+      },
+      "When": {
+        "Hearts:Robin": "{{Range: 0, 3}}"
+      }
+    },
+    { //Pleasure Dialogue Happy
+      "Action": "EditData",
+      "Target": "Strings/schedules/Robin",
+      "Update": "OnLocationChange",
+      "Entries": {
+        "pleasure1": "{{i18n:Robin.Pleasure.01}}",
+        "pleasure2": "{{i18n:Robin.Pleasure.02}}",
+        "pleasure3": "{{i18n:Robin.Pleasure.03}}",
+        "pleasure4": "{{i18n:Robin.Pleasure.04}}",
+        "pleasure5": "{{i18n:Robin.Pleasure.05}}",
+        "pleasure6": "{{i18n:Robin.Pleasure.06}}",
+        "pleasure7": "{{i18n:Robin.Pleasure.07}}",
+        "pleasure8": "{{i18n:Robin.Pleasure.08}}"
+      },
+      "When": {
+        "Hearts:Robin": "{{Range: 4, 14}}"
+      }
+    },
+    { //Sex Dialogue
+      "Action": "EditData",
+      "Target": "Strings/animationDescriptions",
+      "entries": {
+        "robin_sex1": "{{i18n:Robin.Sex.01}}",
+        "robin_sex2": "{{i18n:Robin.Sex.02}}",
+        "robin_sex3": "{{i18n:Robin.Sex.03}}",
+        "robin_sex4": "{{i18n:Robin.Sex.04}}",
+        "robin_sex5": "{{i18n:Robin.Sex.05}}",
+        "robin_sex6": "{{i18n:Robin.Sex.06}}",
+        "robin_top": "{{i18n:Robin.Top}}",
+        "robin_bottom": "{{i18n:Robin.Bottom}}"
+      }
+    },
+    /*=======================================================================================================================
+    ANIMATIONS
+    =======================================================================================================================*/
+    { //Pleasure
+      "Action": "EditData",
+      "Target": "Data/animationDescriptions",
+      "Update": "OnLocationChange",
+      "entries": {
+        "robin_pleasure1": "196 197 198 199/200 201 202 203 204/199 198 197 196",
+        "robin_pleasure2": "196 197 198 199/205 206 207 208 209/199 198 197 196",
+        "robin_pleasure3": "196 197 198 199/210 211 212 213 214/199 198 197 196",
+        "robin_pleasure4": "196 197 198 199/215 216 217 218 219/199 198 197 196",
+        "robin_pleasure5": "196 197 198 199/220 221 222 223 224/199 198 197 196",
+        "robin_pleasure6": "196 197 198 199/225 226 227 228 229/199 198 197 196",
+        "robin_pleasure7": "196 197 198 199/230 231 232 233 234/199 198 197 196",
+        "robin_pleasure8": "196 197 198 199/235 236 237 238/199 198 197 196"
+      }
+    },
+    { //Sex
+      "Action": "EditData",
+      "Target": "Data/animationDescriptions",
+      "Update": "OnLocationChange",
+      "entries": {
+        "robin_sex1": "196 197 198 199/240 241 242 243 244/199 198 197 196/Strings\\animationDescriptions:robin_sex1",
+        "robin_sex2": "196 197 198 199/245 246 247 248 249/199 198 197 196/Strings\\animationDescriptions:robin_sex2",
+        "robin_sex3": "196 197 198 199/250 251 252 253 254/199 198 197 196/Strings\\animationDescriptions:robin_sex3",
+        "robin_sex4": "196 197 198 199/255 256 257 258 259/199 198 197 196/Strings\\animationDescriptions:robin_sex4",
+        "robin_sex5": "196 197 198 199/260 261 262 263 264/199 198 197 196/Strings\\animationDescriptions:robin_sex5",
+        "robin_sex6": "196 197 198 199/265 266 267 268 269/199 198 197 196/Strings\\animationDescriptions:robin_sex6",
+        "robin_top": "196 197 198 199/270 271 272 273 274/199 198 197 196/Strings\\animationDescriptions:robin_top",
+        "robin_bottom": "196 197 198 199/275 276 277 278 279/199 198 197 196/Strings\\animationDescriptions:robin_bottom"
+      }
+    },
+    /*=======================================================================================================================
+    MALE COUNTERPART - DEMETRIUS
+    =======================================================================================================================*/
+    { //Sprites
+      "LogName": "Sprites",
+      "Action": "EditImage",
+      "Target": "Characters/Demetrius, Characters/Demetrius_Winter",
+      "FromFile": "assets/Characters/Robin/Demetrius.png",
+      "Update": "OnLocationChange",
+      "ToArea": {"X": 0, "Y": 1920, "Width": 64, "Height": 64}
+    },
+    { //Dialogue
+      "Action": "EditData",
+      "Target": "Strings/animationDescriptions",
+      "entries": {
+        "demetrius_robin": "{{i18n:Demetrius.Robin}}"
+      }
+    },
+    { //Animations
+      "Action": "EditData",
+      "Target": "Data/animationDescriptions",
+      "Update": "OnLocationChange",
+      "entries": {
+        "demetrius_robin1": "0 0 0 0/246/0 0 0 0/Strings\\animationDescriptions:demetrius_robin",
+        "demetrius_robin2": "0 0 0 0/240 241 242 243 244/0 0 0 0/Strings\\animationDescriptions:demetrius_robin",
+        "demetrius_robin3": "0 0 0 0/245/0 0 0 0/Strings\\animationDescriptions:demetrius_robin"
+      }
+    },
+    { //Schedules
+      "Action": "EditData",
+      "Target": "Characters/Schedules/Demetrius",
+      "entries": {
+        "spring_Sun": "750 ScienceHouse 29 9 0/1100 ScienceHouse 22 20 1 demetrius_notes/1430 Mountain 15 26 1/1530 Mountain 30 36 2/1930 ScienceHouse 16 6 1/2030 ScienceHouse 16 6 1 demetrius_robin3/2130 ScienceHouse 16 6 1 demetrius_robin2/2230 ScienceHouse 16 6 1 demetrius_robin1/2400 ScienceHouse 19 4 11 demetrius_sleep",
+        "summer_Sun": "750 ScienceHouse 29 9 0/1100 Town 31 23 1 square_3_9/1850 ScienceHouse 16 6 1/2030 ScienceHouse 16 6 1 demetrius_robin3/2130 ScienceHouse 16 6 1 demetrius_robin2/2230 ScienceHouse 16 6 1 demetrius_robin1/2400 ScienceHouse 19 4 11 demetrius_sleep",
+        "fall_Sun": "750 ScienceHouse 29 9 0/1100 Mountain 45 8 demetrius_notes/1900 ScienceHouse 16 6 1/2030 ScienceHouse 16 6 1 demetrius_robin3/2130 ScienceHouse 16 6 1 demetrius_robin2/2230 ScienceHouse 16 6 1 demetrius_robin1/2400 ScienceHouse 19 4 11 demetrius_sleep",
+        "winter_Sun": "750 ScienceHouse 16 19 2 demetrius_read/1100 ScienceHouse 22 20 1 demetrius_notes/1500 ScienceHouse 7 18 1/1540 ScienceHouse 22 20 1/1800 ScienceHouse 27 9 0/1930 ScienceHouse 16 6 1/2030 ScienceHouse 16 6 1 demetrius_robin3/2130 ScienceHouse 16 6 1 demetrius_robin2/2230 ScienceHouse 16 6 1 demetrius_robin1/2400 ScienceHouse 19 4 11 demetrius_sleep"
+      },
+      "When": {
+        "Sex Schedule": "Robin+Demetrius",
+        "Relationship:Robin": "Unmet, Friendly, Dating, Engaged, Divorced"
+      }
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+	"Changes": [
+		{
+			"LogName": "Fishing Shop Worm Bin Price 4000g",
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "FishShop", "Items" ],
+			"Fields": {
+			    "(BC)154": {"Price": 4000},
+					   },
+			"When": {"Fish Shop Worm Bin": "Immediately, Fishing Level 4, Fishing Level 3, Fishing Level 2, Fishing Level 1", "Fish Shop Worm Bin Price": "4000g"},
+		},
+		{
+			"LogName": "Fishing Shop Worm Bin Price 3000g",
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "FishShop", "Items" ],
+			"Fields": {
+			    "(BC)154": {"Price": 3000},
+					   },
+			"When": {"Fish Shop Worm Bin": "Immediately, Fishing Level 4, Fishing Level 3, Fishing Level 2, Fishing Level 1", "Fish Shop Worm Bin Price": "3000g"},
+		},
+		{
+			"LogName": "Fishing Shop Worm Bin Price 2000g",
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "FishShop", "Items" ],
+			"Fields": {
+			    "(BC)154": {"Price": 2000},
+					   },
+			"When": {"Fish Shop Worm Bin": "Immediately, Fishing Level 4, Fishing Level 3, Fishing Level 2, Fishing Level 1", "Fish Shop Worm Bin Price": "2000g"},
+		},
+		{
+			"LogName": "Fishing Shop Worm Bin Price 1500g",
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "FishShop", "Items" ],
+			"Fields": {
+			    "(BC)154": {"Price": 1500},
+					   },
+			"When": {"Fish Shop Worm Bin": "Immediately, Fishing Level 4, Fishing Level 3, Fishing Level 2, Fishing Level 1", "Fish Shop Worm Bin Price": "1500g"},
+		},
+		{
+			"LogName": "Fishing Shop Worm Bin Price 1000g",
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "FishShop", "Items" ],
+			"Fields": {
+			    "(BC)154": {"Price": 1000},
+					   },
+			"When": {"Fish Shop Worm Bin": "Immediately, Fishing Level 4, Fishing Level 3, Fishing Level 2, Fishing Level 1", "Fish Shop Worm Bin Price": "1000g"},
+		},
+		{
+			"LogName": "Fishing Shop Worm Bin Price 750g",
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "FishShop", "Items" ],
+			"Fields": {
+			    "(BC)154": {"Price": 750},
+					   },
+			"When": {"Fish Shop Worm Bin": "Immediately, Fishing Level 4, Fishing Level 3, Fishing Level 2, Fishing Level 1", "Fish Shop Worm Bin Price": "750g"},
+		},
+		{
+			"LogName": "Fishing Shop Worm Bin Price 500g",
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "FishShop", "Items" ],
+			"Fields": {
+			    "(BC)154": {"Price": 500},
+					   },
+			"When": {"Fish Shop Worm Bin": "Immediately, Fishing Level 4, Fishing Level 3, Fishing Level 2, Fishing Level 1", "Fish Shop Worm Bin Price": "500g"},
+		},
+		{
+			"LogName": "Fishing Shop Worm Bin Price 250g",
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "FishShop", "Items" ],
+			"Fields": {
+			    "(BC)154": {"Price": 250},
+					   },
+			"When": {"Fish Shop Worm Bin": "Immediately, Fishing Level 4, Fishing Level 3, Fishing Level 2, Fishing Level 1", "Fish Shop Worm Bin Price": "250g"},
+		},
+		{
+			"LogName": "Fishing Shop Worm Bin Price 1g",
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "FishShop", "Items" ],
+			"Fields": {
+			    "(BC)154": {"Price": 1},
+					   },
+			"When": {"Fish Shop Worm Bin": "Immediately, Fishing Level 4, Fishing Level 3, Fishing Level 2, Fishing Level 1", "Fish Shop Worm Bin Price": "1g"},
+		},
+	]
+}

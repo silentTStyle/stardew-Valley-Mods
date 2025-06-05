@@ -1,0 +1,182 @@
+{
+	"Changes": [
+		{
+			"LogName": "Fish Stew Duration",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [ "728", "Buffs" ],
+			"Fields": {
+				"Food": {"Duration": -2},
+				},
+			"When": {"Fish Stew Duration": true}
+		},
+		{
+			"LogName": "Fish Stew Level Boost Fishing Level +4",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [ "728", "Buffs", "Food" ],
+			"Fields": {
+			    "CustomAttributes": {"FishingLevel": 4},
+					   },
+			"When": {"Fish Stew Level Boost": "Fishing Level +4"},
+		},
+		{
+			"LogName": "Fish Stew Level Boost Fishing Level +5",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [ "728", "Buffs", "Food" ],
+			"Fields": {
+			    "CustomAttributes": {"FishingLevel": 5},
+					   },
+			"When": {"Fish Stew Level Boost": "Fishing Level +5"},
+		},
+		{
+			"LogName": "Fish Stew Level Boost Fishing Level +6",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [ "728", "Buffs", "Food" ],
+			"Fields": {
+			    "CustomAttributes": {"FishingLevel": 6},
+					   },
+			"When": {"Fish Stew Level Boost": "Fishing Level +6"},
+		},
+		{
+			"LogName": "Fish Stew Level Boost Fishing Level +7",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [ "728", "Buffs", "Food" ],
+			"Fields": {
+			    "CustomAttributes": {"FishingLevel": 7},
+					   },
+			"When": {"Fish Stew Level Boost": "Fishing Level +7"},
+		},
+		{
+			"LogName": "Fish Stew Level Boost Fishing Level +8",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [ "728", "Buffs", "Food" ],
+			"Fields": {
+			    "CustomAttributes": {"FishingLevel": 8},
+					   },
+			"When": {"Fish Stew Level Boost": "Fishing Level +8"},
+		},
+		{
+			"LogName": "Fish Stew Level Boost Fishing Level +9",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [ "728", "Buffs", "Food" ],
+			"Fields": {
+			    "CustomAttributes": {"FishingLevel": 9},
+					   },
+			"When": {"Fish Stew Level Boost": "Fishing Level +9"},
+		},
+		{
+			"LogName": "Fish Stew Level Boost Fishing Level +10",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [ "728", "Buffs", "Food" ],
+			"Fields": {
+			    "CustomAttributes": {"FishingLevel": 10},
+					   },
+			"When": {"Fish Stew Level Boost": "Fishing Level +10"},
+		},
+		{
+			"LogName": "Fish Stew Level Boost Fishing Level +15",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [ "728", "Buffs", "Food" ],
+			"Fields": {
+			    "CustomAttributes": {"FishingLevel": 15},
+					   },
+			"When": {"Fish Stew Level Boost": "Fishing Level +15"},
+		},
+		{
+			"LogName": "Fish Stew Level Boost Fishing Level +20",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [ "728", "Buffs", "Food" ],
+			"Fields": {
+			    "CustomAttributes": {"FishingLevel": 20},
+					   },
+			"When": {"Fish Stew Level Boost": "Fishing Level +20"},
+		},
+		{
+			"LogName": "Fish Stew Level Boost Fishing Level +25",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [ "728", "Buffs", "Food" ],
+			"Fields": {
+			    "CustomAttributes": {"FishingLevel": 25},
+					   },
+			"When": {"Fish Stew Level Boost": "Fishing Level +25"},
+		},
+		{
+			"LogName": "Fish Stew Level Boost Fishing Level +30",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [ "728", "Buffs", "Food" ],
+			"Fields": {
+			    "CustomAttributes": {"FishingLevel": 30},
+					   },
+			"When": {"Fish Stew Level Boost": "Fishing Level +30"},
+		},
+		{
+			"LogName": "Fish Stew Level Boost Fishing Level +35",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [ "728", "Buffs", "Food" ],
+			"Fields": {
+			    "CustomAttributes": {"FishingLevel": 35},
+					   },
+			"When": {"Fish Stew Level Boost": "Fishing Level +35"},
+		},
+		{
+			"LogName": "Fish Stew Level Boost Fishing Level +40",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [ "728", "Buffs", "Food" ],
+			"Fields": {
+			    "CustomAttributes": {"FishingLevel": 40},
+					   },
+			"When": {"Fish Stew Level Boost": "Fishing Level +40"},
+		},
+		{
+			"LogName": "Fish Stew Level Boost Fishing Level +45",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [ "728", "Buffs", "Food" ],
+			"Fields": {
+			    "CustomAttributes": {"FishingLevel": 45},
+					   },
+			"When": {"Fish Stew Level Boost": "Fishing Level +45"},
+		},
+		{
+			"LogName": "Fish Stew Level Boost Fishing Level +50",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [ "728", "Buffs", "Food" ],
+			"Fields": {
+			    "CustomAttributes": {"FishingLevel": 50},
+					   },
+			"When": {"Fish Stew Level Boost": "Fishing Level +50"},
+		},
+		{
+			"LogName": "Fish Stew Lessened Ingredients",
+			"Action": "EditData",
+			"Target": "Data/CookingRecipes",
+			"Fields": {
+			    "Fish Stew": {0: "716 1"},
+					},
+			"When": {"Fish Stew Ingredients": "Lessened Ingredients"},
+		},
+		{
+			"LogName": "Fish Stew 1 of Any Fish",
+			"Action": "EditData",
+			"Target": "Data/CookingRecipes",
+			"Fields": {
+			    "Fish Stew": {0: "-4 1"},
+					},
+			"When": {"Fish Stew Ingredients": "1 of Any Fish"},
+		},
+	]
+}

@@ -1,0 +1,54 @@
+{
+	"Changes": [
+		{
+			"LogName": "Fishable Prismatic Shards (REQ) Common 30%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Default", "Fish" ],
+				"Fields": { 
+					"(O)74": {"Chance": 0.3},
+				           },
+					"When": {"Fishable Prismatic Shards (REQ)": true, "Prismatic Shard Spawn Rate": "Common (30%)"},
+	    },
+		{
+			"LogName": "Fishable Prismatic Shards (REQ) Very Common 50%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Default", "Fish" ],
+				"Fields": { 
+					"(O)74": {"Chance": 0.5},
+				           },
+					"When": {"Fishable Prismatic Shards (REQ)": true, "Prismatic Shard Spawn Rate": "Very Common (50%)"},
+	    },
+		{
+			"LogName": "Fishable Prismatic Shards (REQ) Rare 10%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Default", "Fish" ],
+				"Fields": { 
+					"(O)74": {"Chance": 0.1},
+				           },
+					"When": {"Fishable Prismatic Shards (REQ)": true, "Prismatic Shard Spawn Rate": "Rare (10%)"},
+	    },
+		{
+			"LogName": "Fishable Prismatic Shards (REQ) Very Rare 5%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Default", "Fish" ],
+				"Fields": { 
+					"(O)74": {"Chance": 0.05},
+				           },
+					"When": {"Fishable Prismatic Shards (REQ)": true, "Prismatic Shard Spawn Rate": "Very Rare (5%)"},
+	    },
+		{
+			"LogName": "Fishable Prismatic Shards (REQ) Near Impossible 1%",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Default", "Fish" ],
+				"Fields": { 
+					"(O)74": {"Chance": 0.01},
+				           },
+					"When": {"Fishable Prismatic Shards (REQ)": true, "Prismatic Shard Spawn Rate": "Near Impossible (1%)"},
+	    },
+	]
+}

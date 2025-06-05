@@ -1,0 +1,17 @@
+{
+  "FestivalOutfits": "true",
+  "ExtraOutfits": "true",
+  "WinterIndoorOutdoorOutfits": "IndoorOutdoor",
+  "FemAlex": "true",
+  "FemElliott": "true",
+  "FemHarvey": "true",
+  "FemSam": "true",
+  "FemSebastian": "true",
+  "FemShane": "true",
+  "ElliottVersion": "Adrarin's",
+  "HarveyGlasses": "Red (Default)",
+  "SamCollar": "None (Default)",
+  "SamCollarBell": "Gold",
+  "SamHairpin": "None (Default)",
+  "SamModest": "false"
+}

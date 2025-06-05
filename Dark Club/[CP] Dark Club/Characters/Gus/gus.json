@@ -1,0 +1,86 @@
+{
+  "Changes": [
+    // Change NPC Schedules - Portraits ------------------------------------------------------------
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Gus",
+      "FromFile": "Characters/Gus/assets/Portraits/Gus_Lewd.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 128 },
+      "ToArea": { "X": 0, "Y": 640, "Width": 128, "Height": 128 },
+      "When": { 
+		"Change NPC Schedules": "true", 
+		"Hypnosis": "false",
+		"Gus": "true",
+	  }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Gus",
+      "FromFile": "Characters/Gus/assets/Portraits/Gus_Lewd_Hypnosis.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 128 },
+      "ToArea": { "X": 0, "Y": 640, "Width": 128, "Height": 128 },
+      "When": { 
+		"Change NPC Schedules": "true", 
+		"Hypnosis": "true",
+		"Gus": "true",
+	  }
+    },
+	{
+      "Action": "EditImage",
+      "Target": "Portraits/Gus_Winter",
+      "FromFile": "Characters/Gus/assets/Portraits/Gus_Lewd.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 128 },
+      "ToArea": { "X": 0, "Y": 640, "Width": 128, "Height": 128 },
+      "When": { 
+		"Change NPC Schedules": "true", 
+		"Hypnosis": "false",
+		"Gus": "true",
+	  }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Gus_Winter",
+      "FromFile": "Characters/Gus/assets/Portraits/Gus_Lewd_Hypnosis.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 128 },
+      "ToArea": { "X": 0, "Y": 640, "Width": 128, "Height": 128 },
+      "When": { 
+		"Change NPC Schedules": "true", 
+		"Hypnosis": "true",
+		"Gus": "true",
+	  }
+    },
+    // Change NPC Schedules - schedules ------------------------------------------------------------
+    {
+      "Action": "EditData",
+      "Target": "Characters/schedules/Gus",
+      "Entries": {
+        "rain": "GOTO spring",
+        "Mon": "800 SeedShop 13 23 0 \"Strings\\schedules\\Gus:Mon.000\"/1100 Saloon 10 18 2/1830 Saloon 12 18 2 gus_onanie/1850 Saloon 10 18 2 gus_onanie/1940 Saloon 12 18 2 gus_onanie/1950 Saloon 10 18 2 gus_onanie/2030 Saloon 12 18 2 gus_onanie/2040 Saloon 10 18 2 gus_onanie/2400 Saloon 23 4 1 gus_uplate",
+        "Tue": "800 Saloon 16 4 2 gus_sit_down/830 CommunityCenter 5 5 0 square_5_1_0/1230 Saloon 10 18 2/1830 Saloon 12 18 2 gus_onanie/1850 Saloon 10 18 2 gus_onanie/1940 Saloon 12 18 2 gus_onanie/1950 Saloon 10 18 2 gus_onanie/2030 Saloon 12 18 2 gus_onanie/2040 Saloon 10 18 2 gus_onanie/2400 Saloon 23 4 1 gus_uplate",
+        "Sun": "MAIL saloonSportsRoom/GOTO spring/800 Saloon 16 4 2 gus_sit_down/1140 Saloon 34 8 0 \"Strings\\schedules\\Gus:Sun.000\"/1500 Saloon 12 18 0/1850 Saloon 10 18 2 gus_onanie/1940 Saloon 12 18 2 gus_onanie/1950 Saloon 10 18 2 gus_onanie/2030 Saloon 12 18 2 gus_onanie/2040 Saloon 10 18 2 gus_onanie/2400 Saloon 23 4 1 gus_uplate",
+        "spring": "800 Saloon 16 4 2 gus_sit_down/1200 Saloon 14 18 2 gus_clean/1830 Saloon 12 18 2 gus_onanie/1850 Saloon 10 18 2 gus_onanie/1940 Saloon 12 18 2 gus_onanie/1950 Saloon 10 18 2 gus_onanie/2030 Saloon 12 18 2 gus_onanie/2040 Saloon 10 18 2 gus_onanie/2400 Saloon 23 4 1 gus_sleep"
+      },
+      "When": { "Change NPC Schedules": "true" }
+    },
+    // Change NPC Schedules - animationDescriptions ------------------------------------------------
+    {
+      "Action": "EditData",
+      "Target": "Data/animationDescriptions",
+      "Entries": {
+        "gus_uplate": "100/100/100/Strings\\animationDescriptions:gus_uplate",
+        "gus_onanie": "101/101/101/Strings\\animationDescriptions:gus_onanie",
+      },
+      "When": { "Change NPC Schedules": "true" }
+    },
+    // Change NPC Schedules - animationDescriptions Dialogue ---------------------------------------
+    {
+      "Action": "EditData",
+      "Target": "Strings/animationDescriptions",
+      "Entries": { 
+        "gus_uplate": "{{i18n:NPC.Gus.UpLate}}",
+        "gus_onanie": "{{i18n:NPC.Gus.Fuck}}",
+      },
+      "When": { "Change NPC Schedules": "true" }
+    },
+  ]
+}

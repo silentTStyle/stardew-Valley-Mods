@@ -1,0 +1,37 @@
+{
+  "Name": "GenitalPiercingA",
+  "Type": "Flying",
+  "EnableShadow": false,
+  "TravelSpeed": 1,
+  "SpawnDirection": 2,
+  "SpawnOffsetX": 0,
+  "SpawnOffsetY": 0,
+  "MaxIdleDistance": 0,
+  "MaxDistanceBeforeTeleport": 0,
+  "IdleBehavior": "Nothing",
+  "Sounds": [
+    {
+      "SoundName": "dc_pant",
+      "WhenToPlay": "Always",
+      "Pitch": 1200,
+      "MinPitchRandomness": -200,
+      "MaxPitchRandomness": 201,
+      "TimeBetweenSound": 3000,
+      "ChanceOfPlaying": 1
+    }
+  ],
+  "Scale": 1.0,
+  "FrameSizeWidth": 16,
+  "FrameSizeHeight": 16,
+  "TileSheetPath": "",
+  "UniformAnimation": {
+    "StartingFrame": 0,
+    "NumberOfFrames": 1,
+    "Duration": 1,
+    "IdleAnimation": {
+      "StartingFrame": 0,
+      "NumberOfFrames": 1,
+      "Duration": 1
+    }
+  }
+}

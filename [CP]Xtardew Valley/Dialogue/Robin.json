@@ -1,0 +1,12 @@
+{
+    "Changes": [
+        {
+            "LogName": "Robin",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Robin",
+            "Entries": {
+                "Wed8": "塞巴斯蒂安的父亲？我们还是聊点别的吧。$2"
+            }
+        }
+    ]
+}

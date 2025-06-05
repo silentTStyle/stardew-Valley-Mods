@@ -1,0 +1,205 @@
+{
+  "Changes": [
+   // Change NPC Schedules - Portraits ------------------------------------------------------------
+   {
+      "Action": "EditImage",
+      "Target": "Portraits/Demetrius",
+      "FromFile": "Characters/DemetriusRobin/assets/Portraits/Demetrius_Lewd.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 128 },
+      "ToArea": { "X": 0, "Y": 640, "Width": 128, "Height": 128 },
+      "When": { 
+		  "Change NPC Schedules": "true", 
+		  "Hypnosis": "false", 
+		  "DemetriusRobin": "On, Demetrius Only",
+		  "DemetriusRobinPortrait": "On, Demetrius Only",
+	  },
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Demetrius",
+      "FromFile": "Characters/DemetriusRobin/assets/Portraits/Demetrius_Lewd_Hypnosis.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 128 },
+      "ToArea": { "X": 0, "Y": 640, "Width": 128, "Height": 128 },
+      "When": { 
+		  "Change NPC Schedules": "true", 
+		  "Hypnosis": "true", 
+		  "DemetriusRobin": "On, Demetrius Only",
+		  "DemetriusRobinPortrait": "On, Demetrius Only",
+	  },
+    },
+	{
+      "Action": "EditImage",
+      "Target": "Portraits/Demetrius_Winter",
+      "FromFile": "Characters/DemetriusRobin/assets/Portraits/Demetrius_Lewd.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 128 },
+      "ToArea": { "X": 0, "Y": 640, "Width": 128, "Height": 128 },
+      "When": { 
+		  "Change NPC Schedules": "true", 
+		  "Hypnosis": "false", 
+		  "DemetriusRobin": "On, Demetrius Only",
+		  "DemetriusRobinPortrait": "On, Demetrius Only",
+	  },
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Demetrius_Winter",
+      "FromFile": "Characters/DemetriusRobin/assets/Portraits/Demetrius_Lewd_Hypnosis.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 128 },
+      "ToArea": { "X": 0, "Y": 640, "Width": 128, "Height": 128 },
+      "When": { 
+		  "Change NPC Schedules": "true", 
+		  "Hypnosis": "true", 
+		  "DemetriusRobin": "On, Demetrius Only",
+		  "DemetriusRobinPortrait": "On, Demetrius Only",
+	  },
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Robin",
+      "FromFile": "Characters/DemetriusRobin/assets/Portraits/Robin_Lewd.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 128 },
+      "ToArea": { "X": 0, "Y": 640, "Width": 128, "Height": 128 },
+      "When": { 
+		  "Change NPC Schedules": "true",
+		  "Hypnosis": "false",
+		  "DemetriusRobin": "On, Robin Only",
+		  "DemetriusRobinPortrait": "On, Robin Only",
+	  },
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Robin",
+      "FromFile": "Characters/DemetriusRobin/assets/Portraits/Robin_Lewd_Hypnosis.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 128 },
+      "ToArea": { "X": 0, "Y": 640, "Width": 128, "Height": 128 },
+      "When": { 
+		  "Change NPC Schedules": "true", 
+		  "Hypnosis": "true", 
+		  "DemetriusRobin": "On, Robin Only",
+		  "DemetriusRobinPortrait": "On, Robin Only",
+	  },
+    },
+	{
+      "Action": "EditImage",
+      "Target": "Portraits/Robin_Winter",
+      "FromFile": "Characters/DemetriusRobin/assets/Portraits/Robin_Lewd.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 128 },
+      "ToArea": { "X": 0, "Y": 640, "Width": 128, "Height": 128 },
+      "When": { 
+		  "Change NPC Schedules": "true",
+		  "Hypnosis": "false",
+		  "DemetriusRobin": "On, Robin Only",
+		  "DemetriusRobinPortrait": "On, Robin Only",
+	  },
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Robin_Winter",
+      "FromFile": "Characters/DemetriusRobin/assets/Portraits/Robin_Lewd_Hypnosis.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 128 },
+      "ToArea": { "X": 0, "Y": 640, "Width": 128, "Height": 128 },
+      "When": { 
+		  "Change NPC Schedules": "true", 
+		  "Hypnosis": "true", 
+		  "DemetriusRobin": "On, Robin Only",
+		  "DemetriusRobinPortrait": "On, Robin Only",
+	  },
+    },
+    // Change NPC Schedules - schedules ------------------------------------------------------------
+	// Demetrius
+    {
+      "Action": "EditData",
+      "Target": "Characters/schedules/Demetrius",
+      "Entries": {
+        "rain": "750 ScienceHouse 16 19 2 demetrius_read/1100 ScienceHouse 22 20 2 demetrius_hole/1500 ScienceHouse 7 18 1/1540 ScienceHouse 22 20 1 demetrius_notes/1800 ScienceHouse 27 9 0/1920 ScienceHouse 28 9 0/2000 ScienceHouse 15 4 0/2200 ScienceHouse 19 4 3 demetrius_uplate",
+        "rain2": "750 ScienceHouse 16 19 2 demetrius_read/1100 ScienceHouse 22 20 1 demetrius_notes/1500 ScienceHouse 7 18 1/1540 Custom_DarkClub 7 33 1/1830 Custom_DarkClub 7 33 2 demetrius_hole",
+        "Fri": "750 ScienceHouse 22 20 2 demetrius_hole/1600 Saloon 23 22 3/1920 Saloon 24 22 3 demetrius_dance/2100 ScienceHouse 19 4 3 demetrius_uplate",
+        "spring": "750 ScienceHouse 29 9 0/1100 ScienceHouse 22 20 1 demetrius_notes/1430 Mountain 15 26 1/1530 Mountain 30 36 2 demetrius_onanie/1900 ScienceHouse 27 9 0/2040 ScienceHouse 28 9 0/2100 ScienceHouse 15 4 0/2230 ScienceHouse 19 4 11 demetrius_sleep",
+        "summer": "750 ScienceHouse 29 9 0/1100 Town 31 23 2 demetrius_onanie/1900 ScienceHouse 27 9 0/2040 ScienceHouse 28 9 0/2100 ScienceHouse 15 4 0/2230 ScienceHouse 19 4 11 demetrius_sleep",
+        "fall": "750 ScienceHouse 29 9 0/1100 Mountain 45 8 2 demetrius_onanie/1900 ScienceHouse 27 9 0/2040 ScienceHouse 28 9 0/2100 ScienceHouse 15 4 0/2230 ScienceHouse 19 4 11 demetrius_sleep",
+        "winter": "750 ScienceHouse 16 19 2 demetrius_read/1100 ScienceHouse 22 20 2 demetrius_hole/1500 ScienceHouse 7 18 1/1540 ScienceHouse 22 20 1/1800 ScienceHouse 27 9 0/1920 ScienceHouse 28 9 0/2000 ScienceHouse 15 4 0/2200 ScienceHouse 19 4 11 demetrius_sleep"
+      },
+      "When": { "Change NPC Schedules": "true", "DemetriusRobin": "On, Demetrius Only" }
+    },
+	{
+      "Action": "EditData",
+      "Target": "Characters/schedules/Demetrius",
+      "Entries": {
+        "Sun": "750 ScienceHouse 29 9 0/1100 ScienceHouse 22 20 1 demetrius_notes/1600 Custom_DarkClub 7 33 1/1830 Custom_DarkClub 7 33 1 demetrius_hole",
+      },
+      "When": { "Change NPC Schedules": "true", "DemetriusRobin": "Demetrius Only" }
+    },
+	{
+      "Action": "EditData",
+      "Target": "Characters/schedules/Demetrius",
+      "Entries": {
+        "Sun": "750 ScienceHouse 29 9 0/1100 ScienceHouse 22 20 1 demetrius_notes/1600 Custom_DarkClub 7 33 1/1830 Custom_DarkClub 7 33 1 demetrius_fuck",
+      },
+      "When": { "Change NPC Schedules": "true", "DemetriusRobin": "On" }
+    },
+	// Robin
+    {
+      "Action": "EditData",
+      "Target": "Characters/schedules/Robin",
+      "Entries": {
+        "rain": "800 ScienceHouse 8 18 2 robin_dildo/1700 ScienceHouse 29 9 0/1930 ScienceHouse 16 5 0/2100 ScienceHouse 21 4 1 robin_sleep",
+        "rain2": "800 ScienceHouse 8 18 2/1600 Custom_DarkClub 8 33 3/1830 Custom_DarkClub 8 33 2 robin_onanie",
+        "Mon": "800 ScienceHouse 8 18 2 robin_dildo/1700 CommunityCenter 9 19 3/1940 ScienceHouse 16 5 0/2200 ScienceHouse 21 4 1 robin_uplate",
+        "Tue": "930 SeedShop 27 18 0/1300 SeedShop 27 22 2 robin_exercise/1600 SeedShop 24 16 0 \"Strings\\schedules\\Robin:Tue.000\"/1800 ScienceHouse 16 5 2 robin_onanie/2100 ScienceHouse 21 4 1 robin_uplate",
+        "Fri": "800 ScienceHouse 8 18 2 robin_dildo/1600 Saloon 22 22 1/1920 Saloon 23 22 1 robin_dance/2100 ScienceHouse 21 4 1 robin_sleep",
+        "spring": "800 ScienceHouse 8 18 2/1700 Mountain 29 36 2 robin_onanie/1930 ScienceHouse 16 5 0/2100 ScienceHouse 21 4 1 robin_sleep"
+      },
+      "When": { "Change NPC Schedules": "true", "DemetriusRobin": "On, Robin Only" }
+    },
+	{
+      "Action": "EditData",
+      "Target": "Characters/schedules/Robin",
+      "Entries": {
+        "Sun": "800 ScienceHouse 8 18 2/1600 Custom_DarkClub 8 33 3/1830 Custom_DarkClub 8 33 1 robin_dildo",
+      },
+      "When": { "Change NPC Schedules": "true", "DemetriusRobin": "Robin Only" }
+    },
+	{
+      "Action": "EditData",
+      "Target": "Characters/schedules/Robin",
+      "Entries": {
+        "Sun": "800 ScienceHouse 8 18 2/1600 Custom_DarkClub 8 33 3/1830 Custom_DarkClub 8 33 1 robin_fuck",
+      },
+      "When": { "Change NPC Schedules": "true", "DemetriusRobin": "On" }
+    },
+    // Change NPC Schedules - animationDescriptions ------------------------------------------------
+    {
+      "Action": "EditData",
+      "Target": "Data/animationDescriptions",
+      "Entries": {
+        "demetrius_uplate": "100/100/100/Strings\\animationDescriptions:demetrius_uplate",
+        "demetrius_onanie": "101/101/101/Strings\\animationDescriptions:demetrius_onanie",
+        "demetrius_hole": "102/102/102/Strings\\animationDescriptions:demetrius_hole",
+        "demetrius_fuck": "104/104/104/Strings\\animationDescriptions:demetrius_fuck",
+        
+        "robin_uplate": "100/100/100/Strings\\animationDescriptions:robin_uplate",
+        "robin_onanie": "101/101/101/Strings\\animationDescriptions:robin_onanie",
+        "robin_dildo": "102/102/102/Strings\\animationDescriptions:robin_dildo",
+        "robin_fuck": "104/104/104/Strings\\animationDescriptions:robin_fuck",
+      },
+      "When": { "Change NPC Schedules": "true" }
+    },
+    // Change NPC Schedules - animationDescriptions Dialogue ---------------------------------------
+    {
+      "Action": "EditData",
+      "Target": "Strings/animationDescriptions",
+      "Entries": {
+        "demetrius_uplate": "{{i18n:NPC.Demetrius.UpLate}}",
+        "demetrius_onanie": "{{i18n:NPC.Demetrius.Fuck}}",
+        "demetrius_hole": "{{i18n:NPC.Demetrius.Fuck}}",
+        "demetrius_fuck": "{{i18n:NPC.Demetrius.Fuck}}",
+        
+        "robin_uplate": "{{i18n:NPC.Robin.UpLate}}",
+        "robin_onanie": "{{i18n:NPC.Robin.Fuck}}",
+        "robin_dildo": "{{i18n:NPC.Robin.Fuck}}",
+        "robin_fuck": "{{i18n:NPC.Robin.Fuck}}",
+      },
+      "When": { "Change NPC Schedules": "true" }
+    },
+  ]
+}

@@ -1,0 +1,75 @@
+{
+    "Name": "Abigail flower",
+    "Description": ".Cooking with Abigail's head ",
+    "Category": "Cooking",
+    "Edibility": 100,
+  	"EdibleIsFood": true,
+	"EdibleBuffs": {
+	"Farming": 0,
+	"Fishing": 0,
+	"Mining": 2,
+	"Luck": 1,
+	"Foraging": 0,
+	"MaxStamina": 32,
+	"MagnetRadius": 0,
+	"Speed": 3,
+	"Defense": -1,
+	"Attack": 1,
+	"Duration": 300,
+	},
+    "Price": 240,
+    "IsColored": false,
+    "Recipe":
+    {
+        "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": "Abigail",
+            "Count": 2,
+        },
+        {
+            "Object": 262,
+            "Count": 1,
+        },
+
+        {
+            "Object": 245,
+            "Count": 1,
+        },
+        ],
+        "IsDefault": true,
+    },
+    "GiftTastes":
+    {
+        "Like": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Haley", "Jas", "Jodi", "Kent", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Vincent", "Wizard"],
+        "Dislike": ["Harvey", "Krobus", "Leah", "Willy"],
+    },
+    "NameLocalization":
+    {
+        // "es": "",
+        // "ko": "",
+       // "de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        // "ja": "",
+        // "pt": "",
+        // "ru": "",
+        // "tr": "",
+        "zh": "阿比盖尔脑花",
+    },
+    "DescriptionLocalization":
+    {
+        // "es": "",
+        // "ko": "",
+       // "de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        // "ja": "",
+        // "pt": "",
+        // "ru": "",
+        // "tr": "",
+        "zh": "用阿比盖尔的头颅做的",
+    },
+}

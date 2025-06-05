@@ -1,0 +1,47 @@
+{
+  "Format": "2.0.0",
+  
+    "ConfigSchema": { 
+	"Shaymin confusion change": {
+		"AllowValues": "Shiny is Shiny and Normal is Normal, Shiny is Normal and Normal is Shiny",
+	    "Default": "Shiny is Shiny and Normal is Normal",
+		"Description": "Is there to change the appearance of Shaymin and Shiny Shaymin."
+    },
+	
+	"Adoption Price": {
+		"Default": "50000",
+		"Description": "The price for the adoption of Shaymin."
+	},
+  },
+	
+    "Changes": [
+        {
+        "Action": "Include",
+        "FromFile": "assets/Json/Shaymin.json",
+		"When": {"Shaymin confusion change": "Shiny is Shiny and Normal is Normal"},
+        },
+	
+        {
+        "LogName": "Load image",
+        "Action": "Load",
+        "Target": "Mods\\Smapifan.Shaymin\\Shaymin, Mods\\Smapifan.Shaymin\\Shiny Shaymin, Mods\\Smapifan.Shaymin\\Shaymin Icon, Mods\\Smapifan.Shaymin\\Shiny Shaymin Icon, Mods\\Smapifan.Shaymin\\Sky Shiny Shaymin Icon, Mods\\Smapifan.Shaymin\\Sky Shaymin Icon, Mods\\Smapifan.Shaymin\\Sky Shiny Shaymin, Mods\\Smapifan.Shaymin\\Sky Shaymin",
+        "FromFile": "assets/Shaymin/{{TargetWithoutPath}}.png",
+		"When": {"Shaymin confusion change": "Shiny is Shiny and Normal is Normal"},
+        },
+		
+		
+		{
+        "Action": "Include",
+        "FromFile": "assets/Json/Shaymin1.json",
+		"When": {"Shaymin confusion change": "Shiny is Normal and Normal is Shiny"},
+        },
+		
+		{
+        "LogName": "Load image",
+        "Action": "Load",
+        "Target": "Mods\\Smapifan.Shaymin\\Shaymin1, Mods\\Smapifan.Shaymin\\Shiny Shaymin1, Mods\\Smapifan.Shaymin\\Shaymin Icon1, Mods\\Smapifan.Shaymin\\Shiny Shaymin Icon1, Mods\\Smapifan.Shaymin\\Sky Shiny Shaymin Icon1, Mods\\Smapifan.Shaymin\\Sky Shaymin Icon1, Mods\\Smapifan.Shaymin\\Sky Shiny Shaymin1, Mods\\Smapifan.Shaymin\\Sky Shaymin1",
+        "FromFile": "assets/Shaymin1/{{TargetWithoutPath}}.png",
+		"When": {"Shaymin confusion change": "Shiny is Normal and Normal is Shiny"},
+        },
+    ]
+}

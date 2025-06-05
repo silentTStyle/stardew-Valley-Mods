@@ -1,0 +1,122 @@
+{
+  "Name": "SlaveI",
+  "Type": "Walking",
+  "EnableShadow": false,
+  "TravelSpeed": 1,
+  "SpawnDirection": 2,
+  "SpawnOffsetX": 0,
+  "SpawnOffsetY": 0,
+  "MaxIdleDistance": -1,
+  "MaxDistanceBeforeTeleport": 800,
+  "IdleBehavior": "Nothing",
+  "Sounds": [
+    {
+      "SoundName": "dc_moan",
+      "WhenToPlay": "Always",
+      "Pitch": 1200,
+      "MinPitchRandomness": -200,
+      "MaxPitchRandomness": 201,
+      "TimeBetweenSound": 5000,
+      "ChanceOfPlaying": 0.25
+    }
+  ],
+  "Scale": 1.0,
+  "FrameSizeWidth": 32,
+  "FrameSizeHeight": 32,
+  "TileSheetPath": "",
+  "UpAnimation": {
+    "StartingFrame": 8,
+    "NumberOfFrames": 4,
+    "Duration": 300,
+    "IdleAnimation": {
+      "ManualFrames": [
+        {
+          "Frame": 8,
+          "Duration": 10000,
+          "Flip": false
+        },
+        {
+          "Frame": 15,
+          "Duration": 30000,
+          "Flip": false
+        }
+      ]
+    }
+  },
+  "DownAnimation": {
+    "StartingFrame": 0,
+    "NumberOfFrames": 4,
+    "Duration": 300,
+    "IdleAnimation": {
+      "ManualFrames": [
+        {
+          "Frame": 0,
+          "Duration": 10000,
+          "Flip": false
+        },
+        {
+          "Frame": 13,
+          "Duration": 30000,
+          "Flip": false
+        }
+      ]
+    }
+  },
+  "LeftAnimation": {
+    "ManualFrames": [
+      {
+        "Frame": 4,
+        "Duration": 300,
+        "Flip": true
+      },
+      {
+        "Frame": 5,
+        "Duration": 300,
+        "Flip": true
+      },
+      {
+        "Frame": 6,
+        "Duration": 300,
+        "Flip": true
+      },
+      {
+        "Frame": 7,
+        "Duration": 300,
+        "Flip": true
+      }
+    ],
+    "IdleAnimation": {
+      "ManualFrames": [
+        {
+          "Frame": 4,
+          "Duration": 10000,
+          "Flip": true
+        },
+        {
+          "Frame": 14,
+          "Duration": 30000,
+          "Flip": true
+        }
+      ]
+    }
+  },
+  "RightAnimation": {
+    "StartingFrame": 4,
+    "NumberOfFrames": 4,
+    "Duration": 300,
+    "IdleAnimation": {
+      "ManualFrames": [
+        {
+          "Frame": 4,
+          "Duration": 10000,
+          "Flip": false
+        },
+        {
+          "Frame": 14,
+          "Duration": 30000,
+          "Flip": false
+        }
+      ]
+    }
+  }
+}

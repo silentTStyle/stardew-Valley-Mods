@@ -1,0 +1,182 @@
+{
+	"Changes": [
+		{
+			"LogName": "Lobster Bisque Duration",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [ "730", "Buffs" ],
+			"Fields": {
+				"Food": {"Duration": -2},
+				},
+			"When": {"Lobster Bisque Duration": true}
+		},
+		{
+			"LogName": "Lobster Bisque Level Boost Fishing Level +4",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [ "730", "Buffs", "Food" ],
+			"Fields": {
+			    "CustomAttributes": {"FishingLevel": 4},
+					   },
+			"When": {"Lobster Bisque Level Boost": "Fishing Level +4"},
+		},
+		{
+			"LogName": "Lobster Bisque Level Boost Fishing Level +5",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [ "730", "Buffs", "Food" ],
+			"Fields": {
+			    "CustomAttributes": {"FishingLevel": 5},
+					   },
+			"When": {"Lobster Bisque Level Boost": "Fishing Level +5"},
+		},
+		{
+			"LogName": "Lobster Bisque Level Boost Fishing Level +6",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [ "730", "Buffs", "Food" ],
+			"Fields": {
+			    "CustomAttributes": {"FishingLevel": 6},
+					   },
+			"When": {"Lobster Bisque Level Boost": "Fishing Level +6"},
+		},
+		{
+			"LogName": "Lobster Bisque Level Boost Fishing Level +7",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [ "730", "Buffs", "Food" ],
+			"Fields": {
+			    "CustomAttributes": {"FishingLevel": 7},
+					   },
+			"When": {"Lobster Bisque Level Boost": "Fishing Level +7"},
+		},
+		{
+			"LogName": "Lobster Bisque Level Boost Fishing Level +8",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [ "730", "Buffs", "Food" ],
+			"Fields": {
+			    "CustomAttributes": {"FishingLevel": 8},
+					   },
+			"When": {"Lobster Bisque Level Boost": "Fishing Level +8"},
+		},
+		{
+			"LogName": "Lobster Bisque Level Boost Fishing Level +9",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [ "730", "Buffs", "Food" ],
+			"Fields": {
+			    "CustomAttributes": {"FishingLevel": 9},
+					   },
+			"When": {"Lobster Bisque Level Boost": "Fishing Level +9"},
+		},
+		{
+			"LogName": "Lobster Bisque Level Boost Fishing Level +10",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [ "730", "Buffs", "Food" ],
+			"Fields": {
+			    "CustomAttributes": {"FishingLevel": 10},
+					   },
+			"When": {"Lobster Bisque Level Boost": "Fishing Level +10"},
+		},
+		{
+			"LogName": "Lobster Bisque Level Boost Fishing Level +15",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [ "730", "Buffs", "Food" ],
+			"Fields": {
+			    "CustomAttributes": {"FishingLevel": 15},
+					   },
+			"When": {"Lobster Bisque Level Boost": "Fishing Level +15"},
+		},
+		{
+			"LogName": "Lobster Bisque Level Boost Fishing Level +20",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [ "730", "Buffs", "Food" ],
+			"Fields": {
+			    "CustomAttributes": {"FishingLevel": 20},
+					   },
+			"When": {"Lobster Bisque Level Boost": "Fishing Level +20"},
+		},
+		{
+			"LogName": "Lobster Bisque Level Boost Fishing Level +25",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [ "730", "Buffs", "Food" ],
+			"Fields": {
+			    "CustomAttributes": {"FishingLevel": 25},
+					   },
+			"When": {"Lobster Bisque Level Boost": "Fishing Level +25"},
+		},
+		{
+			"LogName": "Lobster Bisque Level Boost Fishing Level +30",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [ "730", "Buffs", "Food" ],
+			"Fields": {
+			    "CustomAttributes": {"FishingLevel": 30},
+					   },
+			"When": {"Lobster Bisque Level Boost": "Fishing Level +30"},
+		},
+		{
+			"LogName": "Lobster Bisque Level Boost Fishing Level +35",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [ "730", "Buffs", "Food" ],
+			"Fields": {
+			    "CustomAttributes": {"FishingLevel": 35},
+					   },
+			"When": {"Lobster Bisque Level Boost": "Fishing Level +35"},
+		},
+		{
+			"LogName": "Lobster Bisque Level Boost Fishing Level +40",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [ "730", "Buffs", "Food" ],
+			"Fields": {
+			    "CustomAttributes": {"FishingLevel": 40},
+					   },
+			"When": {"Lobster Bisque Level Boost": "Fishing Level +40"},
+		},
+		{
+			"LogName": "Lobster Bisque Level Boost Fishing Level +45",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [ "730", "Buffs", "Food" ],
+			"Fields": {
+			    "CustomAttributes": {"FishingLevel": 45},
+					   },
+			"When": {"Lobster Bisque Level Boost": "Fishing Level +45"},
+		},
+		{
+			"LogName": "Lobster Bisque Level Boost Fishing Level +50",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [ "730", "Buffs", "Food" ],
+			"Fields": {
+			    "CustomAttributes": {"FishingLevel": 50},
+					   },
+			"When": {"Lobster Bisque Level Boost": "Fishing Level +50"},
+		},
+		{
+			"LogName": "Lobster Bisque Lessened Ingredients",
+			"Action": "EditData",
+			"Target": "Data/CookingRecipes",
+			"Fields": {
+			    "Lobster Bisque": {0: "715 1"},
+					},
+			"When": {"Lobster Bisque Ingredients": "Lessened Ingredients"},
+		},
+		{
+			"LogName": "Lobster Bisque 1 of Any Fish",
+			"Action": "EditData",
+			"Target": "Data/CookingRecipes",
+			"Fields": {
+			    "Lobster Bisque": {0: "-4 1"},
+					},
+			"When": {"Lobster Bisque Ingredients": "1 of Any Fish"},
+		},
+	]
+}

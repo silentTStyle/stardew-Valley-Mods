@@ -1,0 +1,1152 @@
+{
+	"Changes": [
+		{
+			"LogName": "SVE - Fish Pond Rare Loot Chance Less Rare More Roe",
+			"Action": "EditData",
+			"Target": "Data/FishPondData",
+			"Fields": {
+				"FlashShifter.StardewValleyExpandedCP_Butterfish": {
+					"ProducedItems": [
+                  {
+                     "RequiredPopulation": 10,
+                     "Chance": 0.03,
+                     "ItemID": "FlashShifter.StardewValleyExpandedCP_Glazed_Butterfish",
+                     "MinQuantity": 1,
+                     "MaxQuantity": 2
+                  },
+                  {
+                     "RequiredPopulation": 7,
+                     "Chance": 0.03,
+                     "ItemID": "FlashShifter.StardewValleyExpandedCP_Butter",
+                     "MinQuantity": 1,
+                     "MaxQuantity": 6
+                  },
+                  {
+                     "RequiredPopulation": 0,
+                     "Chance": 1.0,
+                     "ItemID": 812,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 1
+                  }
+               ],
+			        },
+				"FlashShifter.StardewValleyExpandedCP_Puppyfish": {
+					"ProducedItems": [
+                  {
+                     "RequiredPopulation": 10,
+                     "Chance": 0.03,
+                     "ItemID": 580,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 6
+                  },
+                  {
+                     "RequiredPopulation": 5,
+                     "Chance": 0.03,
+                     "ItemID": 709,
+                     "MinQuantity": 5,
+                     "MaxQuantity": 15
+                  },
+                  {
+                     "RequiredPopulation": 0,
+                     "Chance": 1.0,
+                     "ItemID": 812,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 1
+                  }
+               ],
+			        },
+				"FlashShifter.StardewValleyExpandedCP_Razor_Trout": {
+					"ProducedItems": [
+                  {
+                     "RequiredPopulation": 10,
+                     "Chance": 0.03,
+                     "ItemID": 288,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 5
+                  },
+                  {
+                     "RequiredPopulation": 6,
+                     "Chance": 0.03,
+                     "ItemID": 287,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 5
+                  },
+                  {
+                     "RequiredPopulation": 0,
+                     "Chance": 1.0,
+                     "ItemID": 812,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 2
+                  }
+               ],
+			        },				
+				"FlashShifter.StardewValleyExpandedCP_Clownfish": {
+					"ProducedItems": [
+                  {
+                     "RequiredPopulation": 10,
+                     "Chance": 0.03,
+                     "ItemID": 394,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 3
+                  },
+                  {
+                     "RequiredPopulation": 5,
+                     "Chance": 0.03,
+                     "ItemID": 397,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 5
+                  },
+                  {
+                     "RequiredPopulation": 3,
+                     "Chance": 0.03,
+                     "ItemID": 393,
+                     "MinQuantity": 2,
+                     "MaxQuantity": 5
+                  },
+                  {
+                     "RequiredPopulation": 0,
+                     "Chance": 1.0,
+                     "ItemID": 812,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 2
+                  }
+               ],
+			        },					
+				"FlashShifter.StardewValleyExpandedCP_Minnow": {
+					"ProducedItems": [
+                  {
+                     "RequiredPopulation": 10,
+                     "Chance": 0.03,
+                     "ItemID": 774,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 6
+                  },
+                  {
+                     "RequiredPopulation": 3,
+                     "Chance": 0.03,
+                     "ItemID": 774,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 3
+                  },
+                  {
+                     "RequiredPopulation": 0,
+                     "Chance": 1.0,
+                     "ItemID": 812,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 2
+                  }
+               ],
+			        },				
+				"FlashShifter.StardewValleyExpandedCP_Void_Eel": {
+					"ProducedItems": [
+                  {
+                     "RequiredPopulation": 10,
+                     "Chance": 0.03,
+                     "ItemID": "FlashShifter.StardewValleyExpandedCP_Swirl_Stone",
+                     "MinQuantity": 1,
+                     "MaxQuantity": 1
+                  },
+                  {
+                     "RequiredPopulation": 8,
+                     "Chance": 0.03,
+                     "ItemID": "FlashShifter.StardewValleyExpandedCP_Void_Pebble",
+                     "MinQuantity": 1,
+                     "MaxQuantity": 1
+                  },
+                  {
+                     "RequiredPopulation": 5,
+                     "Chance": 0.03,
+                     "ItemID": 769,
+                     "MinQuantity": 10,
+                     "MaxQuantity": 30
+                  },
+                  {
+                     "RequiredPopulation": 0,
+                     "Chance": 1.0,
+                     "ItemID": 812,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 1
+                  }
+               ],
+			        },				
+				"FlashShifter.StardewValleyExpandedCP_King_Salmon": {
+					"ProducedItems": [
+                  {
+                     "RequiredPopulation": 10,
+                     "Chance": 0.03,
+                     "ItemID": 749,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 4
+                  },
+                  {
+                     "RequiredPopulation": 6,
+                     "Chance": 0.03,
+                     "ItemID": 749,
+                     "MinQuantity": 6,
+                     "MaxQuantity": 6
+                  },
+                  {
+                     "RequiredPopulation": 0,
+                     "Chance": 1.0,
+                     "ItemID": 812,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 1
+                  }
+               ],
+			        },					
+				"FlashShifter.StardewValleyExpandedCP_Frog": {
+					"ProducedItems": [
+                  {
+                     "RequiredPopulation": 10,
+                     "Chance": 0.03,
+                     "ItemID": 680,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 1
+                  },
+                  {
+                     "RequiredPopulation": 6,
+                     "Chance": 0.03,
+                     "ItemID": 766,
+                     "MinQuantity": 10,
+                     "MaxQuantity": 20
+                  },
+                  {
+                     "RequiredPopulation": 0,
+                     "Chance": 1.0,
+                     "ItemID": 812,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 1
+                  }
+               ],
+			        },					
+				"FlashShifter.StardewValleyExpandedCP_Kittyfish": {
+					"ProducedItems": [
+                  {
+                     "RequiredPopulation": 10,
+                     "Chance": 0.03,
+                     "ItemID": 428,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 3
+                  },
+                  {
+                     "RequiredPopulation": 5,
+                     "Chance": 0.03,
+                     "ItemID": 440,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 3
+                  },
+                  {
+                     "RequiredPopulation": 0,
+                     "Chance": 1.0,
+                     "ItemID": 812,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 1
+                  }
+               ],
+			        },					
+				"FlashShifter.StardewValleyExpandedCP_Seahorse": {
+					"ProducedItems": [
+                  {
+                     "RequiredPopulation": 10,
+                     "Chance": 0.03,
+                     "ItemID": 16,
+                     "MinQuantity": 2,
+                     "MaxQuantity": 6
+                  },
+                  {
+                     "RequiredPopulation": 1,
+                     "Chance": 1.0,
+                     "ItemID": 812,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 2
+                  },
+                  {
+                     "RequiredPopulation": 1,
+                     "Chance": 1.0,
+                     "ItemID": 812,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 1
+                  }
+               ],
+			        },					
+				"FlashShifter.StardewValleyExpandedCP_Sea_Sponge": {
+					"ProducedItems": [
+                  {
+                     "RequiredPopulation": 10,
+                     "Chance": 0.03,
+                     "ItemID": 397,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 4
+                  },
+                  {
+                     "RequiredPopulation": 6,
+                     "Chance": 0.03,
+                     "ItemID": 392,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 3
+                  },
+                  {
+                     "RequiredPopulation": 1,
+                     "Chance": 1.0,
+                     "ItemID": 812,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 1
+                  }
+               ],
+			        },					
+				"FlashShifter.StardewValleyExpandedCP_Lunaloo": {
+					"ProducedItems": [
+                  {
+                     "RequiredPopulation": 10,
+                     "Chance": 0.03,
+                     "ItemID": 680,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 1
+                  },
+                  {
+                     "RequiredPopulation": 10,
+                     "Chance": 0.03,
+                     "ItemID": 344,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 3
+                  },
+                  {
+                     "RequiredPopulation": 5,
+                     "Chance": 0.03,
+                     "ItemID": 344,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 4
+                  },
+                  {
+                     "RequiredPopulation": 2,
+                     "Chance": 0.03,
+                     "ItemID": 766,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 5
+                  },
+                  {
+                     "RequiredPopulation": 1,
+                     "Chance": 1.0,
+                     "ItemID": 812,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 1
+                  }
+               ],
+			        },				
+				"FlashShifter.StardewValleyExpandedCP_Baby_Lunaloo": {
+					"ProducedItems": [
+                  {
+                     "RequiredPopulation": 7,
+                     "Chance": 0.03,
+                     "ItemID": 344,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 2
+                  },
+                  {
+                     "RequiredPopulation": 3,
+                     "Chance": 0.03,
+                     "ItemID": 766,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 2
+                  },
+                  {
+                     "RequiredPopulation": 1,
+                     "Chance": 0.50,
+                     "ItemID": 812,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 1
+                  }
+               ],
+			        },					
+				"FlashShifter.StardewValleyExpandedCP_Shiny_Lunaloo": {
+					"ProducedItems": [
+                  {
+                     "RequiredPopulation": 10,
+                     "Chance": 0.03,
+                     "ItemID": 439,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 1
+                  },
+                  {
+                     "RequiredPopulation": 10,
+                     "Chance": 0.03,
+                     "ItemID": 437,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 1
+                  },
+                  {
+                     "RequiredPopulation": 10,
+                     "Chance": 0.03,
+                     "ItemID": 413,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 1
+                  },
+                  {
+                     "RequiredPopulation": 10,
+                     "Chance": 0.03,
+                     "ItemID": 680,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 1
+                  },
+                  {
+                     "RequiredPopulation": 10,
+                     "Chance": 0.03,
+                     "ItemID": 344,
+                     "MinQuantity": 3,
+                     "MaxQuantity": 5
+                  },
+                  {
+                     "RequiredPopulation": 5,
+                     "Chance": 0.03,
+                     "ItemID": 344,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 4
+                  },
+                  {
+                     "RequiredPopulation": 1,
+                     "Chance": 1.0,
+                     "ItemID": 812,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 2
+                  }
+               ],
+			        },				
+				"FlashShifter.StardewValleyExpandedCP_Radioactive_Bass": {
+					"ProducedItems": [
+                  {
+                     "RequiredPopulation": 10,
+                     "Chance": 0.03,
+                     "ItemID": 910,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 2
+                  },
+                  {
+                     "RequiredPopulation": 5,
+                     "Chance": 0.03,
+                     "ItemID": 909,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 4
+                  },
+                  {
+                     "RequiredPopulation": 1,
+                     "Chance": 0.03,
+                     "ItemID": 909,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 1
+                  },
+                  {
+                     "RequiredPopulation": 1,
+                     "Chance": 0.40,
+                     "ItemID": 812,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 1
+                  }
+               ],
+			        },					
+				"FlashShifter.StardewValleyExpandedCP_Goldenfish": {
+					"ProducedItems": [
+                  {
+                     "RequiredPopulation": 10,
+                     "Chance": 0.03,
+                     "ItemID": 373,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 1
+                  },
+                  {
+                     "RequiredPopulation": 10,
+                     "Chance": 0.03,
+                     "ItemID": 125,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 5
+                  },
+                  {
+                     "RequiredPopulation": 5,
+                     "Chance": 0.03,
+                     "ItemID": 336,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 2
+                  },
+                  {
+                     "RequiredPopulation": 1,
+                     "Chance": 0.03,
+                     "ItemID": 384,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 3
+                  },
+                  {
+                     "RequiredPopulation": 1,
+                     "Chance": 0.5,
+                     "ItemID": 812,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 1
+                  }
+               ],
+			        },
+				"FlashShifter.StardewValleyExpandedCP_Meteor_Carp": {
+					"ProducedItems": [
+                  {
+                     "RequiredPopulation": 10,
+                     "Chance": 0.03,
+                     "ItemID": 645,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 1
+                  },
+                  {
+                     "RequiredPopulation": 10,
+                     "Chance": 0.03,
+                     "ItemID": 337,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 2
+                  },
+                  {
+                     "RequiredPopulation": 5,
+                     "Chance": 0.03,
+                     "ItemID": 386,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 4
+                  },
+                  {
+                     "RequiredPopulation": 1,
+                     "Chance": 0.5,
+                     "ItemID": 812,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 2
+                  }
+               ],
+			        },					
+				"FlashShifter.StardewValleyExpandedCP_Torpedo_Trout": {
+					"ProducedItems": [
+                  {
+                     "RequiredPopulation": 10,
+                     "Chance": 0.03,
+                     "ItemID": 288,
+                     "MinQuantity": 25,
+                     "MaxQuantity": 50
+                  },
+                  {
+                     "RequiredPopulation": 10,
+                     "Chance": 0.03,
+                     "ItemID": 288,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 5
+                  },
+                  {
+                     "RequiredPopulation": 5,
+                     "Chance": 0.03,
+                     "ItemID": 287,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 5
+                  },
+                  {
+                     "RequiredPopulation": 1,
+                     "Chance": 0.03,
+                     "ItemID": 286,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 5
+                  },
+                  {
+                     "RequiredPopulation": 1,
+                     "Chance": 0.50,
+                     "ItemID": 812,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 2
+                  }
+               ],
+			        },
+				"FlashShifter.StardewValleyExpandedCP_Gemfish": {
+					"ProducedItems": [
+                  {
+                     "RequiredPopulation": 10,
+                     "Chance": 0.03,
+                     "ItemID": 74, //prismatic shard
+                     "MinQuantity": 1,
+                     "MaxQuantity": 1
+                  },
+                  {
+                     "RequiredPopulation": 10,
+                     "Chance": 0.03,
+                     "ItemID": 72, //diamond
+                     "MinQuantity": 1,
+                     "MaxQuantity": 3
+                  },
+                  {
+                     "RequiredPopulation": 10,
+                     "Chance": 0.03,
+                     "ItemID": 64, //ruby
+                     "MinQuantity": 2,
+                     "MaxQuantity": 6
+                  },
+                  {
+                     "RequiredPopulation": 10,
+                     "Chance": 0.03,
+                     "ItemID": 60, //emerald
+                     "MinQuantity": 2,
+                     "MaxQuantity": 6
+                  },
+                  {
+                     "RequiredPopulation": 7,
+                     "Chance": 0.03,
+                     "ItemID": 64, //ruby
+                     "MinQuantity": 1,
+                     "MaxQuantity": 2
+                  },
+                  {
+                     "RequiredPopulation": 7,
+                     "Chance": 0.03,
+                     "ItemID": 60, //emerald
+                     "MinQuantity": 1,
+                     "MaxQuantity": 2
+                  },
+                  {
+                     "RequiredPopulation": 4,
+                     "Chance": 0.03,
+                     "ItemID": 62, //aquamarine
+                     "MinQuantity": 1,
+                     "MaxQuantity": 2
+                  },
+                  {
+                     "RequiredPopulation": 4,
+                     "Chance": 0.03,
+                     "ItemID": 70, //jade
+                     "MinQuantity": 1,
+                     "MaxQuantity": 2
+                  },
+                  {
+                     "RequiredPopulation": 1,
+                     "Chance": 0.03,
+                     "ItemID": 66, //amethyst
+                     "MinQuantity": 1,
+                     "MaxQuantity": 2
+                  },
+                  {
+                     "RequiredPopulation": 1,
+                     "Chance": 0.03,
+                     "ItemID": 68, //topaz
+                     "MinQuantity": 1,
+                     "MaxQuantity": 2
+                  },
+                  {
+                     "RequiredPopulation": 1,
+                     "Chance": 0.5,
+                     "ItemID": 812, //roe
+                     "MinQuantity": 1,
+                     "MaxQuantity": 2
+                  }
+               ],
+			        },
+				"FlashShifter.StardewValleyExpandedCP_Daggerfish": {
+					"ProducedItems": [
+                  {
+                     "RequiredPopulation": 8,
+                     "Chance": 0.03,
+                     "ItemID": 109, //ancient sword
+                     "MinQuantity": 2,
+                     "MaxQuantity": 6
+                  },
+                  {
+                     "RequiredPopulation": 3,
+                     "Chance": 0.03,
+                     "ItemID": 109, //ancient sword
+                     "MinQuantity": 1,
+                     "MaxQuantity": 3
+                  },
+                  {
+                     "RequiredPopulation": 1,
+                     "Chance": 0.50,
+                     "ItemID": 812, //roe
+                     "MinQuantity": 1,
+                     "MaxQuantity": 2
+                  }
+               ],
+					},
+				"FlashShifter.StardewValleyExpandedCP_Grass_Carp": {
+					"ProducedItems": [
+                  {
+                     "RequiredPopulation": 10,
+                     "Chance": 0.03,
+                     "ItemID": 297, //grass starter
+                     "MinQuantity": 5,
+                     "MaxQuantity": 10
+                  },
+                  {
+                     "RequiredPopulation": 5,
+                     "Chance": 0.03,
+                     "ItemID": 297, //grass starter
+                     "MinQuantity": 1,
+                     "MaxQuantity": 5
+                  },
+                  {
+                     "RequiredPopulation": 1,
+                     "Chance": 0.50,
+                     "ItemID": 812, //roe
+                     "MinQuantity": 1,
+                     "MaxQuantity": 2
+                  }
+               ],
+				},
+			    "FlashShifter.StardewValleyExpandedCP_Water_Grub": {
+					"ProducedItems": [
+                  {
+                     "RequiredPopulation": 10,
+                     "Chance": 0.03,
+                     "ItemID": 874, //bug steak
+                     "MinQuantity": 1,
+                     "MaxQuantity": 6
+                  },
+                  {
+                     "RequiredPopulation": 5,
+                     "Chance": 0.03,
+                     "ItemID": 874, //bug steak
+                     "MinQuantity": 1,
+                     "MaxQuantity": 1
+                  },
+                  {
+                     "RequiredPopulation": 5,
+                     "Chance": 0.03,
+                     "ItemID": 684, //bug meat
+                     "MinQuantity": 1,
+                     "MaxQuantity": 10
+                  },
+                  {
+                     "RequiredPopulation": 1,
+                     "Chance": 0.03,
+                     "ItemID": 684, //bug meat
+                     "MinQuantity": 1,
+                     "MaxQuantity": 5
+                  },
+                  {
+                     "RequiredPopulation": 1,
+                     "Chance": 0.50,
+                     "ItemID": 812, //roe
+                     "MinQuantity": 1,
+                     "MaxQuantity": 2
+                  }
+               ],
+				},
+			    "FlashShifter.StardewValleyExpandedCP_Snatcher_Worm": {
+					"ProducedItems": [
+                  {
+                     "RequiredPopulation": 10,
+                     "Chance": 0.03,
+                     "ItemID": 72, //diamond
+                     "MinQuantity": 2,
+                     "MaxQuantity": 5
+                  },
+                  {
+                     "RequiredPopulation": 10,
+                     "Chance": 0.03,
+                     "ItemID": 774, //wild bait
+                     "MinQuantity": 4,
+                     "MaxQuantity": 10
+                  },
+                  {
+                     "RequiredPopulation": 10,
+                     "Chance": 0.03,
+                     "ItemID": 874, //bug steak
+                     "MinQuantity": 1,
+                     "MaxQuantity": 6
+                  },
+                  {
+                     "RequiredPopulation": 5,
+                     "Chance": 0.03,
+                     "ItemID": 874, //bug steak
+                     "MinQuantity": 1,
+                     "MaxQuantity": 1
+                  },
+                  {
+                     "RequiredPopulation": 5,
+                     "Chance": 0.03,
+                     "ItemID": 684, //bug meat
+                     "MinQuantity": 2,
+                     "MaxQuantity": 8
+                  },
+                  {
+                     "RequiredPopulation": 1,
+                     "Chance": 0.03,
+                     "ItemID": 684, //bug meat
+                     "MinQuantity": 2,
+                     "MaxQuantity": 4
+                  },
+                  {
+                     "RequiredPopulation": 1,
+                     "Chance": 0.50,
+                     "ItemID": 812, //roe
+                     "MinQuantity": 1,
+                     "MaxQuantity": 1
+                  }
+               ],
+				},
+				"FlashShifter.StardewValleyExpandedCP_Shark": {
+					"ProducedItems": [
+                  {
+                     "RequiredPopulation": 10,
+                     "Chance": 0.03,
+                     "ItemID": 265,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 1
+                  },
+				  {
+                     "RequiredPopulation": 10,
+                     "Chance": 0.03,
+                     "ItemID": 166,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 1
+                  },
+				  {
+                     "RequiredPopulation": 10,
+                     "Chance": 0.03,
+                     "ItemID": 275,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 1
+                  },
+                  {
+                     "RequiredPopulation": 8,
+                     "Chance": 0.03,
+                     "ItemID": "FlashShifter.StardewValleyExpandedCP_Shark_Tooth",
+                     "MinQuantity": 4,
+                     "MaxQuantity": 8
+                  },
+                  {
+                     "RequiredPopulation": 3,
+                     "Chance": 0.03,
+                     "ItemID": "FlashShifter.StardewValleyExpandedCP_Shark_Tooth",
+                     "MinQuantity": 3,
+                     "MaxQuantity": 5
+                  },
+                  {
+                     "RequiredPopulation": 0,
+                     "Chance": 0.8,
+                     "ItemID": 812,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 1
+                  }
+               ],
+				},
+				"FlashShifter.StardewValleyExpandedCP_Ocean_Sunfish": {
+					"ProducedItems": [
+                  {
+                     "RequiredPopulation": 10,
+                     "Chance": 0.03,
+                     "ItemID": 797,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 1
+                  },
+				  {
+                     "RequiredPopulation": 8,
+                     "Chance": 0.03,
+                     "ItemID": 768,
+                     "MinQuantity": 12,
+                     "MaxQuantity": 20
+                  },
+				  {
+                     "RequiredPopulation": 5,
+                     "Chance": 0.03,
+                     "ItemID": 560,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 1
+                  },
+                  {
+                     "RequiredPopulation": 0,
+                     "Chance": 0.9,
+                     "ItemID": 812,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 1
+                  }
+               ],
+				},
+				"FlashShifter.StardewValleyExpandedCP_Arrowhead_Shark": {
+					"ProducedItems": [
+                  {
+                     "RequiredPopulation": 10,
+                     "Chance": 0.03,
+                     "ItemID": "BlueGrassStarter",
+                     "MinQuantity": 1,
+                     "MaxQuantity": 4
+                  },
+				  {
+                     "RequiredPopulation": 8,
+                     "Chance": 0.03,
+                     "ItemID": 101,
+                     "MinQuantity": 10,
+                     "MaxQuantity": 20
+                  },
+                  {
+                     "RequiredPopulation": 4,
+                     "Chance": 0.03,
+                     "ItemID": 101,
+                     "MinQuantity": 7,
+                     "MaxQuantity": 14
+                  },
+				  {
+                     "RequiredPopulation": 0,
+                     "Chance": 0.9,
+                     "ItemID": 812,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 1
+                  }
+               ],
+				},
+				"FlashShifter.StardewValleyExpandedCP_Barred_Knifejaw": {
+					"ProducedItems": [
+                  {
+                     "RequiredPopulation": 10,
+                     "Chance": 0.03,
+                     "ItemID": "FlashShifter.StardewValleyExpandedCP_Gold_Carrot_Seed",
+                     "MinQuantity": 1,
+                     "MaxQuantity": 2
+                  },
+				  {
+                     "RequiredPopulation": 8,
+                     "Chance": 0.03,
+                     "ItemID": 835,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 1
+                  },
+				  {
+                     "RequiredPopulation": 4,
+                     "Chance": 0.03,
+                     "ItemID": 834,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 2
+                  },
+                  {
+                     "RequiredPopulation": 0,
+                     "Chance": 1.0,
+                     "ItemID": 812,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 1
+                  }
+               ],
+				},
+				"FlashShifter.StardewValleyExpandedCP_Blue_Tang": {
+					"ProducedItems": [
+                   {
+                     "RequiredPopulation": 10,
+                     "Chance": 0.03,
+                     "ItemID": 69,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 1
+                  },
+				  {
+                     "RequiredPopulation": 8,
+                     "Chance": 0.03,
+                     "ItemID": 550,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 1
+                  },
+				  {
+                     "RequiredPopulation": 3,
+                     "Chance": 0.03,
+                     "ItemID": 542,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 1
+                  },
+                  {
+                     "RequiredPopulation": 0,
+                     "Chance": 1.0,
+                     "ItemID": 812,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 1
+                  }
+               ],
+				},
+				"FlashShifter.StardewValleyExpandedCP_Viper_Eel": {
+					"ProducedItems": [
+                  {
+                     "RequiredPopulation": 10,
+                     "Chance": 0.03,
+                     "ItemID": 437,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 2
+                  },
+				  {
+                     "RequiredPopulation": 10,
+                     "Chance": 0.03,
+                     "ItemID": 893,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 2
+                  },
+				  {
+                     "RequiredPopulation": 10,
+                     "Chance": 0.03,
+                     "ItemID": 894,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 2
+                  },
+				  {
+                     "RequiredPopulation": 10,
+                     "Chance": 0.03,
+                     "ItemID": 895,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 2
+                  },
+				  {
+                     "RequiredPopulation": 7,
+                     "Chance": 0.03,
+                     "ItemID": 225,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 3
+                  },
+                  {
+                     "RequiredPopulation": 0,
+                     "Chance": 1.0,
+                     "ItemID": 812,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 1
+                  }
+               ],
+				},
+				"FlashShifter.StardewValleyExpandedCP_Fiber_Goby": {
+					"ProducedItems": [
+                  {
+                     "RequiredPopulation": 10,
+                     "Chance": 0.03,
+                     "ItemID": 771,
+                     "MinQuantity": 20,
+                     "MaxQuantity": 32
+                  },
+                  {
+                     "RequiredPopulation": 8,
+                     "Chance": 0.03,
+                     "ItemID": 771,
+                     "MinQuantity": 3,
+                     "MaxQuantity": 12
+                  },
+				  {
+                     "RequiredPopulation": 4,
+                     "Chance": 0.03,
+                     "ItemID": "FlashShifter.StardewValleyExpandedCP_Birch_Seed",
+                     "MinQuantity": 2,
+                     "MaxQuantity": 5
+                  },
+				  {
+                     "RequiredPopulation": 4,
+                     "Chance": 0.03,
+                     "ItemID": "FlashShifter.StardewValleyExpandedCP_Fir_Cone",
+                     "MinQuantity": 2,
+                     "MaxQuantity": 5
+                  },
+                  {
+                     "RequiredPopulation": 0,
+                     "Chance": 0.9,
+                     "ItemID": 812,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 1
+                  }
+               ],
+				},
+				"FlashShifter.StardewValleyExpandedCP_Highlands_Bass": {
+					"ProducedItems": [
+                 {
+                     "RequiredPopulation": 10,
+                     "Chance": 0.03,
+                     "ItemID": 680,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 2
+                  },
+                  {
+                     "RequiredPopulation": 10,
+                     "Chance": 0.03,
+                     "ItemID": 297,
+                     "MinQuantity": 5,
+                     "MaxQuantity": 12
+                  },
+				  {
+                     "RequiredPopulation": 7,
+                     "Chance": 0.03,
+                     "ItemID": 297,
+                     "MinQuantity": 3,
+                     "MaxQuantity": 7
+                  },
+				  {
+                     "RequiredPopulation": 4,
+                     "Chance": 0.03,
+                     "ItemID": 297,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 3
+                  },
+                  {
+                     "RequiredPopulation": 0,
+                     "Chance": 1.0,
+                     "ItemID": 812,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 1
+                  }
+               ],
+				},
+				"FlashShifter.StardewValleyExpandedCP_Diamond_Carp": {
+					"ProducedItems": [
+                 {
+                     "RequiredPopulation": 10,
+                     "Chance": 0.03,
+                     "ItemID": "FlashShifter.StardewValleyExpandedCP_Ornate_Treasure_Chest",
+                     "MinQuantity": 1,
+                     "MaxQuantity": 1
+                  },
+				  {
+                     "RequiredPopulation": 7,
+                     "Chance": 0.03,
+                     "ItemID": 72,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 3
+                  },
+				  {
+                     "RequiredPopulation": 3,
+                     "Chance": 0.03,
+                     "ItemID": 72,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 1
+                  },
+                  {
+                     "RequiredPopulation": 0,
+                     "Chance": 0.8,
+                     "ItemID": 812,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 1
+                  }
+               ],
+			},
+				"FlashShifter.StardewValleyExpandedCP_Gar": {
+					"ProducedItems": [
+                 {
+                     "RequiredPopulation": 10,
+                     "Chance": 0.03,
+                     "ItemID": "FlashShifter.StardewValleyExpandedCP_Fir_Wax",
+                     "MinQuantity": 1,
+                     "MaxQuantity": 2
+                  },
+				  {
+                     "RequiredPopulation": 10,
+                     "Chance": 0.03,
+                     "ItemID": 725,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 2
+                  },
+				  {
+                     "RequiredPopulation": 5,
+                     "Chance": 0.03,
+                     "ItemID": "FlashShifter.StardewValleyExpandedCP_Birch_Water",
+                     "MinQuantity": 1,
+                     "MaxQuantity": 3
+                  },
+				  {
+                     "RequiredPopulation": 5,
+                     "Chance": 0.03,
+                     "ItemID": 726,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 3
+                  },
+                  {
+                     "RequiredPopulation": 0,
+                     "Chance": 0.9,
+                     "ItemID": 812,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 1
+                  }
+               ],
+			},
+		},
+			"When": {"Fish Pond Rare Loot": "Less Rare More Roe"},
+		},
+	]
+}

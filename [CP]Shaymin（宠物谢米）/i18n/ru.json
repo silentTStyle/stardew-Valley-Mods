@@ -1,0 +1,8 @@
+{
+	"config.Shaymin confusion change.name": "Изменение растерянности Шеймин",
+	"config.Shaymin confusion change.description": "Стоит ли менять внешность Шеймина и Шайни Шеймина.",
+	"config.Shaymin confusion change.values.Shiny is Shiny and Normal is Normal": "Блестящее — это блестящее, а нормальное — это нормальное.",
+    "config.Shaymin confusion change.values.Shiny is Normal and Normal is Shiny": "Блестящее — это нормальное, а нормальное — блестящее.",
+	"config.Adoption Price.name": "Цена внедрения",
+	"config.Adoption Price.description": "Цена усыновления Шаймина.",
+}

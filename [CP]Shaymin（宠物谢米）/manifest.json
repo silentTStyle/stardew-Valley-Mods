@@ -1,0 +1,12 @@
+{
+   "Name": "Shaymin",
+   "Author": "Smapifan",
+   "Version": "4.0.1",
+   "Description": "Shaymin is a New Pet in Stardew Valley.",
+   "UniqueID": "Smapifan.Shaymin",
+   "MinimumApiVersion": "4.0.0",
+   "UpdateKeys": [ "Nexus:32657" ],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+   }
+}

@@ -1,0 +1,146 @@
+{
+  "Changes": [
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Pierre",
+      "FromFile": "assets/Characters/Pierre.png",
+      "When": { "Futanari": "false" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Pierre",
+      "FromFile": "assets/Characters/Pierre_Futanari.png",
+      "When": { "Futanari": "true" }
+    },
+	{
+      "Action": "EditImage",
+      "Target": "Characters/Pierre",
+      "FromFile": "assets/Characters/Pierre_Glasses.png",
+      "PatchMode": "Overlay",
+      "When": { "Glasses": "true" }
+    },
+	{
+      "Action": "EditImage",
+      "Target": "Characters/Pierre_Beach",
+      "FromFile": "assets/Characters/Pierre_Beach.png",
+      "When": { "Futanari": "false" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Pierre_Beach",
+      "FromFile": "assets/Characters/Pierre_Beach_Futanari.png",
+      "When": { "Futanari": "true" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Pierre_Beach",
+      "FromFile": "assets/Characters/Pierre_Beach_Glasses.png",
+      "PatchMode": "Overlay",
+      "When": { "Glasses": "true" }
+    },
+	{
+      "Action": "EditImage",
+      "Target": "Characters/Pierre_Winter",
+      "FromFile": "assets/Characters/Pierre.png",
+      "When": { "Futanari": "false" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Pierre_Winter",
+      "FromFile": "assets/Characters/Pierre_Futanari.png",
+      "When": { "Futanari": "true" }
+    },
+	{
+      "Action": "EditImage",
+      "Target": "Characters/Pierre_Winter",
+      "FromFile": "assets/Characters/Pierre_Glasses.png",
+      "PatchMode": "Overlay",
+      "When": { "Glasses": "true" }
+    },
+	// Portraits -----------------------------------------------------------------------------------
+	{
+      "Action": "EditImage",
+      "Target": "Portraits/Pierre",
+      "FromFile": "assets/Portraits/Pierre.png",
+      "When": { 
+		"Hypnosis": "false",
+		"Pierre": "On",
+	  }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Pierre",
+      "FromFile": "assets/Portraits/Pierre_Hypnosis.png",
+      "When": { 
+		"Hypnosis": "true",
+		"Pierre": "On",
+	  }
+    },
+	{
+      "Action": "EditImage",
+      "Target": "Portraits/Pierre",
+      "FromFile": "assets/Portraits/Pierre_Glasses.png",
+      "PatchMode": "Overlay",
+      "When": { 
+		"Glasses": "true",
+		"Pierre": "On",
+	  }
+    },
+	{
+      "Action": "EditImage",
+      "Target": "Portraits/Pierre_Beach",
+      "FromFile": "assets/Portraits/Pierre_Beach.png",
+      "When": { 
+		"Hypnosis": "false",
+		"Pierre": "On",
+	  }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Pierre_Beach",
+      "FromFile": "assets/Portraits/Pierre_Beach_Hypnosis.png",
+      "When": { 
+		"Hypnosis": "true",
+		"Pierre": "On",
+	  }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Pierre_Beach",
+      "FromFile": "assets/Portraits/Pierre_Beach_Glasses.png",
+      "PatchMode": "Overlay",
+      "When": { 
+		"Glasses": "true",
+		"Pierre": "On", 
+	  }
+    },
+	{
+      "Action": "EditImage",
+      "Target": "Portraits/Pierre_Winter",
+      "FromFile": "assets/Portraits/Pierre.png",
+      "When": { 
+		"Hypnosis": "false",
+		"Pierre": "On",
+	  }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Pierre_Winter",
+      "FromFile": "assets/Portraits/Pierre_Hypnosis.png",
+      "When": { 
+		"Hypnosis": "true",
+		"Pierre": "On",
+	  }
+    },
+	{
+      "Action": "EditImage",
+      "Target": "Portraits/Pierre_Winter",
+      "FromFile": "assets/Portraits/Pierre_Glasses.png",
+      "PatchMode": "Overlay",
+      "When": { 
+		"Glasses": "true",
+		"Pierre": "On",
+	  }
+    },
+  ]
+}

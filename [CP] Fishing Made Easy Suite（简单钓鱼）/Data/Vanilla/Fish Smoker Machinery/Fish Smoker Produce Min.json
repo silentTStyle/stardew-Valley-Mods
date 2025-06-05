@@ -1,0 +1,184 @@
+{
+	"Changes": [
+		{
+			"LogName": "Fish Smoker Produce Min 2",
+		    "Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)FishSmoker", "OutputRules", "SmokedFish", "OutputItem" ],
+			"Fields": {
+				"FLAVORED_ITEM SmokedFish DROP_IN_ID DROP_IN_QUALITY": {"MinStack": 2},
+		           },
+				"When": {"Fish Smoker Produce Min": "2"},				 
+	    },
+		{
+			"LogName": "Fish Smoker Produce Min 3",
+		    "Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)FishSmoker", "OutputRules", "SmokedFish", "OutputItem" ],
+			"Fields": {
+				"FLAVORED_ITEM SmokedFish DROP_IN_ID DROP_IN_QUALITY": {"MinStack": 3},
+		           },
+				"When": {"Fish Smoker Produce Min": "3"},				 
+	    },
+		{
+			"LogName": "Fish Smoker Produce Min 4",
+		    "Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)FishSmoker", "OutputRules", "SmokedFish", "OutputItem" ],
+			"Fields": {
+				"FLAVORED_ITEM SmokedFish DROP_IN_ID DROP_IN_QUALITY": {"MinStack": 4},
+		           },
+				"When": {"Fish Smoker Produce Min": "4"},				 
+	    },
+		{
+			"LogName": "Fish Smoker Produce Min 5",
+		    "Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)FishSmoker", "OutputRules", "SmokedFish", "OutputItem" ],
+			"Fields": {
+				"FLAVORED_ITEM SmokedFish DROP_IN_ID DROP_IN_QUALITY": {"MinStack": 5},
+		           },
+				"When": {"Fish Smoker Produce Min": "5"},				 
+	    },
+		{
+			"LogName": "Fish Smoker Produce Min 6",
+		    "Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)FishSmoker", "OutputRules", "SmokedFish", "OutputItem" ],
+			"Fields": {
+				"FLAVORED_ITEM SmokedFish DROP_IN_ID DROP_IN_QUALITY": {"MinStack": 6},
+		           },
+				"When": {"Fish Smoker Produce Min": "6"},				 
+	    },
+		{
+			"LogName": "Fish Smoker Produce Min 7",
+		    "Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)FishSmoker", "OutputRules", "SmokedFish", "OutputItem" ],
+			"Fields": {
+				"FLAVORED_ITEM SmokedFish DROP_IN_ID DROP_IN_QUALITY": {"MinStack": 7},
+		           },
+				"When": {"Fish Smoker Produce Min": "7"},				 
+	    },
+		{
+			"LogName": "Fish Smoker Produce Min 8",
+		    "Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)FishSmoker", "OutputRules", "SmokedFish", "OutputItem" ],
+			"Fields": {
+				"FLAVORED_ITEM SmokedFish DROP_IN_ID DROP_IN_QUALITY": {"MinStack": 8},
+		           },
+				"When": {"Fish Smoker Produce Min": "8"},				 
+	    },
+		{
+			"LogName": "Fish Smoker Produce Min 9",
+		    "Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)FishSmoker", "OutputRules", "SmokedFish", "OutputItem" ],
+			"Fields": {
+				"FLAVORED_ITEM SmokedFish DROP_IN_ID DROP_IN_QUALITY": {"MinStack": 9},
+		           },
+				"When": {"Fish Smoker Produce Min": "9"},				 
+	    },
+		{
+			"LogName": "Fish Smoker Produce Min 10",
+		    "Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)FishSmoker", "OutputRules", "SmokedFish", "OutputItem" ],
+			"Fields": {
+				"FLAVORED_ITEM SmokedFish DROP_IN_ID DROP_IN_QUALITY": {"MinStack": 10},
+		           },
+				"When": {"Fish Smoker Produce Min": "10"},				 
+	    },
+		{
+			"LogName": "Fish Smoker Produce Min 15",
+		    "Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)FishSmoker", "OutputRules", "SmokedFish", "OutputItem" ],
+			"Fields": {
+				"FLAVORED_ITEM SmokedFish DROP_IN_ID DROP_IN_QUALITY": {"MinStack": 15},
+		           },
+				"When": {"Fish Smoker Produce Min": "15"},				 
+	    },
+		{
+			"LogName": "Fish Smoker Produce Min 20",
+		    "Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)FishSmoker", "OutputRules", "SmokedFish", "OutputItem" ],
+			"Fields": {
+				"FLAVORED_ITEM SmokedFish DROP_IN_ID DROP_IN_QUALITY": {"MinStack": 20},
+		           },
+				"When": {"Fish Smoker Produce Min": "20"},				 
+	    },
+		{
+			"LogName": "Fish Smoker Produce Min 25",
+		    "Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)FishSmoker", "OutputRules", "SmokedFish", "OutputItem" ],
+			"Fields": {
+				"FLAVORED_ITEM SmokedFish DROP_IN_ID DROP_IN_QUALITY": {"MinStack": 25},
+		           },
+				"When": {"Fish Smoker Produce Min": "25"},				 
+	    },
+		{
+			"LogName": "Fish Smoker Produce Min 30",
+		    "Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)FishSmoker", "OutputRules", "SmokedFish", "OutputItem" ],
+			"Fields": {
+				"FLAVORED_ITEM SmokedFish DROP_IN_ID DROP_IN_QUALITY": {"MinStack": 30},
+		           },
+				"When": {"Fish Smoker Produce Min": "30"},				 
+	    },
+		{
+			"LogName": "Fish Smoker Produce Min 35",
+		    "Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)FishSmoker", "OutputRules", "SmokedFish", "OutputItem" ],
+			"Fields": {
+				"FLAVORED_ITEM SmokedFish DROP_IN_ID DROP_IN_QUALITY": {"MinStack": 35},
+		           },
+				"When": {"Fish Smoker Produce Min": "35"},				 
+	    },
+		{
+			"LogName": "Fish Smoker Produce Min 40",
+		    "Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)FishSmoker", "OutputRules", "SmokedFish", "OutputItem" ],
+			"Fields": {
+				"FLAVORED_ITEM SmokedFish DROP_IN_ID DROP_IN_QUALITY": {"MinStack": 40},
+		           },
+				"When": {"Fish Smoker Produce Min": "40"},				 
+	    },
+		{
+			"LogName": "Fish Smoker Produce Min 45",
+		    "Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)FishSmoker", "OutputRules", "SmokedFish", "OutputItem" ],
+			"Fields": {
+				"FLAVORED_ITEM SmokedFish DROP_IN_ID DROP_IN_QUALITY": {"MinStack": 45},
+		           },
+				"When": {"Fish Smoker Produce Min": "45"},				 
+	    },
+		{
+			"LogName": "Fish Smoker Produce Min 50",
+		    "Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)FishSmoker", "OutputRules", "SmokedFish", "OutputItem" ],
+			"Fields": {
+				"FLAVORED_ITEM SmokedFish DROP_IN_ID DROP_IN_QUALITY": {"MinStack": 50},
+		           },
+				"When": {"Fish Smoker Produce Min": "50"},				 
+	    },
+		{
+			"LogName": "Fish Smoker Produce Min 100",
+		    "Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)FishSmoker", "OutputRules", "SmokedFish", "OutputItem" ],
+			"Fields": {
+				"FLAVORED_ITEM SmokedFish DROP_IN_ID DROP_IN_QUALITY": {"MinStack": 100},
+		           },
+				"When": {"Fish Smoker Produce Min": "100"},				 
+	    },
+	]
+}

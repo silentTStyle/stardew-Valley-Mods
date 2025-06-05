@@ -1,0 +1,44 @@
+{
+	"Changes": [
+		{
+			"LogName": "ALC - Fish Pond Rare Loot Chance Less Rare More Roe",
+			"Action": "EditData",
+			"Target": "Data/FishPondData",
+			"Fields": {
+				"Morghoula.AlchemistryCP_Lamprey": {
+					"ProducedItems": [
+						{
+                            "RequiredPopulation": 10,
+                            "Chance": 0.03,
+                            "ItemID": "(O)437",
+                            "MinQuantity": 1,
+                            "MaxQuantity": 1
+                        },
+                        {
+                            "RequiredPopulation": 6,
+                            "Chance": 0.03,
+                            "ItemID": "(O)Morghoula.AlchemistryCP_AquaticEctoplasm",
+                            "MinQuantity": 1,
+                            "MaxQuantity": 1
+                        },
+                        {
+                            "RequiredPopulation": 3,
+                            "Chance": 0.03,
+                            "ItemID": "(O)SeaJelly",
+                            "MinQuantity": 1,
+                            "MaxQuantity": 2
+                        },
+                        {
+                            "RequiredPopulation": 0,
+                            "Chance": 1.0,
+                            "ItemID": "(O)812",
+                            "MinQuantity": 1,
+                            "MaxQuantity": 1
+					},
+				    ],
+			        },
+					},	
+			"When": {"Fish Pond Rare Loot": "Less Rare More Roe"},
+		},
+	]
+}

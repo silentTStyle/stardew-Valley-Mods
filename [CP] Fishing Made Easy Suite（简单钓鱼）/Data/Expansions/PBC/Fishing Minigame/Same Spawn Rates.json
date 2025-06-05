@@ -1,0 +1,18 @@
+{
+	"Changes": [
+		{
+			"LogName": "PBC - Same Spawn Rates",
+			"Action": "EditData",
+			"Target": "Data/Fish",
+			"Fields": {
+				"Fellowclown.PC_BoneyHeadedGraveFish": {10: ".45", 11: ".1"},
+				"Fellowclown.PC_IficusFish": {10: ".45", 11: ".1"},
+				"Fellowclown.PC_DancerFish": {10: ".45", 11: ".1"},
+				"Fellowclown.PC_RiverBedJelly": {10: ".45", 11: ".1"},
+				"Fellowclown.PC_GulpFish": {10: ".45", 11: ".1"},
+				"skellady.SBVCP_AnglerJr": {10: ".45", 11: ".1"},
+					},
+				"When": {"Same Spawn Rates": true},
+		},
+	]
+}

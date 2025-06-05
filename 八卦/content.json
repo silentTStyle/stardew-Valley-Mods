@@ -1,0 +1,444 @@
+{
+    "Format": "1.13.0",
+    "Changes": [
+
+{
+    "Action": "EditData",
+    "Target": "Data/Events/Farm",
+    "Entries": {
+      "50705070/q 201/x {{Random:MarnieTellEveryone, LewisTellEveryone}}": "null",
+      "6046001/e 6497428/x LeoThankYouNote":"null",									  
+      /*"50705071/e 1848481/x ElliottReadingLetter": "null"*/
+               }
+            },
+
+{   "Action": "EditData",
+    "Target": "Data/mail",
+    "Entries":{ 
+        "MarnieTellEveryone": "@, 我对你昨晚看到的和谈话的进展感到很尴尬…我尊重市长的尊严，尽管保守我们的秘密让我很痛苦。请仔细考虑你的选择。^ - 玛妮 %item conversationTopic TellEveryone 3%% [#]Marnie's reaction",
+        "LewisTellEveryone": "@, I对于你目睹的一切，我很抱歉，也很震惊我的反应。 你让我措手不及。 求你了，我恳求你，请重新考虑你想告诉所有人的决定。 我不想有人知道我的... 我们的... 不检点行为。^ - 刘易斯市长 %item conversationTopic TellEveryone 3 %% [#]Lewis's reaction",
+        "ElliottReadingLetter": "亲爱的 @,^我必须再次感谢你在我写小说时的建议和支持。 我觉得我的阅读很成功！ 虽然很遗憾有这么多参加者有其他安排。^ 艾利欧特 %item conversationTopic ElliotsBookReading 3%% [#] Elliott's Gratitude",
+		"LeoThankYouNote":"@, 我只是写信说'谢谢你'的一切。你是个好朋友。莱纳斯教了我很多东西，而且能吃到不是水果和坚果的东西也很好！^希望你今天过得愉快，^ Leo %item conversationTopic LeoNewKid 3 %% [#] 利奥的感谢信"																																																																				  
+               }
+        },
+
+{
+    "LogName": "Tell Abigail",
+    "Action": "EditData",
+    "Target": "Characters/Dialogue/Abigail",
+    "Entries": {
+        "TellEveryone": "$q 150701/150702 null#告诉阿比盖尔关于玛妮和刘易斯的事？#$r 150701 0 TellEveryone_AbigailYes#Yes#$r 150702 0 TellEveryone_AbigailNo#否",
+        "TellEveryone_AbigailYes": "真的吗? 刘易斯和玛妮! 哈，我看见他们晚上鬼鬼祟祟的！#$b#我就知道玛妮不是在找'失踪的鸡'。",
+        "TellEveryone_AbigailNo": "嘿，怎么了? 你看起来有话要说? 没有吗？",
+		"LeoNewKid":"那个新来的孩子，利奥？他看起来很有趣。也很奇怪，但我喜欢这样。普通人很无聊，你不觉得吗？",
+        "ElliottsBookReading": "天啊，艾利欧特的书写得太多了，不是吗? 给我一些有怪物和大量动作的书！"
+        }
+},
+
+{
+    "LogName": "Tell Alex",
+    "Action": "EditData",
+    "Target": "Characters/Dialogue/Alex",
+    "Entries": {
+        "TellEveryone": "$q 150703/150704 null#告诉亚历克斯关于玛妮和刘易斯的事？#$r 150703 0 TellEveryone_AlexYes#Yes#$r 150704 0 TellEveryone_AlexNo#否",
+        "TellEveryone_AlexYes": "很好，我想对他们来说是好事。#$b#嘿，你觉得我的头发怎么样? 我在尝试新的发型。",
+        "TellEveryone_AlexNo": "嘿，你觉得我的头发怎么样? 我在尝试新的发型。",
+		"LeoNewKid":"利奥？是的，我在附近见过他。他穿得有点奇怪。",																		 
+            }
+        },
+{
+    "LogName": "Tell Caroline",
+    "Action": "EditData",
+    "Target": "Characters/Dialogue/Caroline",
+    "Entries": {
+        "TellEveryone": "$q 150705/150706 null#告诉卡洛琳关于玛妮和刘易斯的事？#$r 150705 0 TellEveryone_CarolineYes#Yes#$r 150704 0 TellEveryone_CarolineNo#否",
+        "TellEveryone_CarolineYes": "也许有些事还是保密比较好，你不觉得吗？",
+        "TellEveryone_CarolineNo": "趁青春还在，好好享受吧@。 婚姻生活很美好，但我怀念那些自由奔放的无忧无虑的日子。$2",
+        "ElliottsBookReading": "$p 958699#我喜欢艾利欧特的书，虽然对我的品味来说，有点黑暗和粗糙。 我相信我们的艾利欧特很有才华，但他的故事不合我的口味。"
+            }
+        },
+{
+    "LogName": "Tell Clint",
+    "Action": "EditData",
+    "Target": "Characters/Dialogue/Clint",
+    "Entries": {
+        "TellEveryone": "$q 150707/150708 null#告诉克林特关于玛妮和刘易斯的事？#$r 150707 0 TellEveryone_ClintYes#Yes#$r 150708 0 TellEveryone_ClintNo#否",
+        "TellEveryone_ClintYes": "Huh,是吗? 我觉得这不关我的事，也不关你的事。",
+        "TellEveryone_ClintNo": "最近有去采矿吗，@? 如果你仔细看的话，里面有些不错的东西。",
+        "ElliottsBookReading": "那个艾利欧特真会说话，毫无疑问，他赢得了不少粉丝。$5"
+            }
+        },
+
+{
+    "LogName": "Tell Demetrius",
+    "Action": "EditData",
+    "Target": "Characters/Dialogue/Demetrius",
+    "Entries": {
+        "TellEveryone": "$q 150709/1507010 null#告诉德米特里厄斯关于玛妮和刘易斯的事？#$r 150709 0 TellEveryone_DemetriusYes#Yes#$r 1507010 0 TellEveryone_DemetriusNo#否",
+        "TellEveryone_DemetriusYes": "好吧... 根据你所告诉我的... 我无法对他的保密论得出合乎逻辑的结论。$2#$b#他是不是担心我们看轻他?罗宾对玛妮评价很高。$3",
+        "TellEveryone_DemetriusNo": "嗯... 我和我妻子又有了一个误会。 显然南瓜，加番茄和辣椒，不算水果沙拉。$4#$B#但我不明白，它们都是水果！$2",
+        "ElliottsBookReading": "我不是小说迷，但罗宾推荐我去艾利欧特的读书会。 我很高兴她让我们提前溜走了。",
+		"LeoNewKid":"一个由鹦鹉养大的孩子？他是个谜；他的语言相当诡辩，而且他几乎看不出有什么野性......#$b#哦，我不是在研究他，@。虽然现在你提到了......从心理学的角度来看，他是相当迷人的。"																																																																			 
+            }
+        },
+
+{
+    "LogName": "Tell Emily",
+    "Action": "EditData",
+    "Target": "Characters/Dialogue/Emily",
+    "Entries": {
+        "TellEveryone": "$q 1507011/1507012 null#告诉艾米丽关于玛妮和刘易斯的事？#$r 150709 0 TellEveryone_EmilyYes#Yes#$r 1507010 0 TellEveryone_EmilyNo#否",
+        "TellEveryone_EmilyYes": "真的吗? 我想我见过他们在一起，但他们的气场很不一样。$2",
+        "TellEveryone_EmilyNo": "你有没有站在森林里，闭上眼睛，听着树木的低语？$1#$b#有时间你也该试试！$3",
+        "ElliottsBookReading": "艾利欧特的书是不是很吸引人? 我昨晚几乎没睡，我必须完成它！$4",
+		"LeoNewKid":"那个可怜的孩子，独自生活在岛上。我想知道他是怎么活下来的。也许他的父母在看护他？"																																										
+            }
+        },
+
+{
+    "LogName": "Tell Elliot",
+    "Action": "EditData",
+    "Target": "Characters/Dialogue/Elliot",
+    "Entries": {
+        "TellEveryone": "$q 1507012/1507013 null#告诉艾利欧特关于玛妮和刘易斯的事？#$r 1507012 0 TellEveryone_ElliotYes#Yes#$r 1507013 0 TellEveryone_ElliotNo#否",
+        "TellEveryone_ElliotYes": "啊，这就是诗歌的实质，两颗心，像飞蛾扑火一样互相吸引，一时的轻率行为会使他们两个都燃烧起来。",
+        "TellEveryone_ElliotNo": "S有时候当我的脑子堵塞困惑的时候，我会沿着海滩散步。#$b#海盐的刺鼻气味... 微风拂过我的脸颊... 它们证明了一种奇妙的灵感, @。$1",
+        "LeoNewKid":"年轻的利奥，一个被大海的怒火烧成孤儿的孩子，被森林里的鸟儿收养。一个关于悲剧和生存的故事......也许哦......我的笔在哪里，我必须做一些记录!$1",
+		"ElliottsBookReading": "哦，你好 @. 再次感谢你们的支持，我很有动力，我已经开始写续集了！"
+            }
+        },
+{
+    "LogName": "Tell Dwarf",
+    "Action": "EditData",
+    "Target": "Characters/Dialogue/Dwarf",
+    "Entries": {
+        "TellEveryone": "$q 1507014/1507015 null#告诉矮人关于玛妮和刘易斯的事？#$r 1507014 0 TellEveryone_DwarfYes#Yes#$r 1507015 0 TellEveryone_DwarfNo#否",
+        "TellEveryone_DwarfYes": "我不明白，为什么我会对这个感兴趣？",
+        "TellEveryone_DwarfNo": "啊，你是来参观山洞的吗? 也许是来买些东西？"
+            }
+        },
+
+{
+    "LogName": "Tell Evelyn",
+    "Action": "EditData",
+    "Target": "Characters/Dialogue/Evelyn",
+    "Entries": {
+        "TellEveryone": "$q 1507016/1507017 null#告诉伊芙琳关于玛妮和刘易斯的事？#$r 1507016 0 TellEveryone_EvelynYes#Yes#$r 1507017 0 TellEveryone_EvelynNo#否",
+        "TellEveryone_EvelynYes": "他们当然是这样的，亲爱的，但你不觉得八卦是不合适的吗？",
+        "TellEveryone_EvelynNo": "噢，亲爱的，你好像有心事。 如果你想谈谈，我很乐意倾听。$1",
+		"LeoNewKid":"哦，那个可怜的孩子。我必须给他一些我的饼干。我相信你会让他在这里有家的感觉。 @."																													  
+            }
+        },
+{
+    "LogName": "Tell George",
+    "Action": "EditData",
+    "Target": "Characters/Dialogue/George",
+    "Entries": {
+        "TellEveryone": "$q 1507018/1507019 null#告诉乔治关于玛妮和刘易斯的事？#$r 1507016 0 TellEveryone_GeorgeYes#Yes#$r 1507017 0 TellEveryone_GeorgeNo#否",
+        "TellEveryone_GeorgeYes": "太荒谬了! 你现在只是在散布谣言，把你的胡话留给你自己吧。$4",
+        "TellEveryone_GeorgeNo": "现在的年轻人，太沉迷于关于谁在和谁做什么的流言蜚语。 我很高兴你不是那种人, @。"
+            }
+        },
+
+{
+    "LogName": "Tell Harvey",
+    "Action": "EditData",
+    "Target": "Characters/Dialogue/Harvey",
+    "Entries": {
+        "TellEveryone": "$q 1507020/1507021 null#告诉哈维关于玛妮和刘易斯的事？#$r 1507020 0 TellEveryone_HarveyYes#Yes#$r 1507021 0 TellEveryone_HarveyNo#否",
+        "TellEveryone_HarveyYes": "哦? 你是来八卦的吗? 我发誓我会保密的。$5",
+        "TellEveryone_HarveyNo": "希望你吃得好。 我喜欢烹饪，但是连续四个晚上吃同样的食物有点单调。",
+		"LeoNewKid":"利奥？哦，是的，他和莱纳斯来这里做了检查。我不能透露细节--病人的保密性和所有这些--但考虑到他的病史，他出奇地健康。"																																																								   
+            }
+        },
+{
+    "LogName": "Tell Haley",
+    "Action": "EditData",
+    "Target": "Characters/Dialogue/Haley",
+    "Entries": {
+        "TellEveryone": "$q 1507022/1507023 null#告诉海莉关于玛妮和刘易斯的事？#$r 1507022 0 TellEveryone_HaleyYes#Yes#$r 1507023 0 TellEveryone_HaleyNo#否",
+        "TellEveryone_HaleyYes": "真是恶心? ! 她看上他什么了? 他太老了! 看看他那小胡子！$8",
+        "TellEveryone_HaleyNo": "我收到一些新衣服的邮购。但它们看起来一点也不像图片上的一样！$5#$b#*叹息*我想再去逛逛真正的商店。$2",
+		"LeoNewKid":"那个新来的孩子？他很奇怪... 哦，我不是说这是一件坏事。"																				
+            }
+        },
+{
+    "LogName": "Tell Gus",
+    "Action": "EditData",
+    "Target": "Characters/Dialogue/Gus",
+    "Entries": {
+        "TellEveryone": "$q 124/125 null#告诉贾斯关于玛妮和刘易斯的事？#$r 1507024 0 TellEveryone_GusYes#Yes#$r 1507025 0 TellEveryone_GusNo#否",
+        "TellEveryone_GusYes": "哈，你把八卦带给我这个酒保了？",
+        "TellEveryone_GusNo": "农场怎么样了? 新鲜的有机原料真的是最好的。$1",
+		"LeoNewKid":"昨晚我邀请莱纳斯和利奥进来帮我清理剩菜。这个小家伙的胃口可真不小啊!$1",
+        "ElliottsBookReading": "我喜欢艾利欧特的读书会。 这个年轻人很有天赋。 我想我从他的角色中认出了一些镇上的人。"
+            }
+        },
+
+{
+    "LogName": "Tell Leah",
+    "Action": "EditData",
+    "Target": "Characters/Dialogue/Leah",
+    "Entries": {
+        "TellEveryone": "$q 1507026/1507027 null#告诉莉亚关于玛妮和刘易斯的事？#$r 1507026 0 TellEveryone_LeahYes#Yes#$r 1507027 0 TellEveryone_LeahNo#否",
+        "TellEveryone_LeahYes": "在这么小的镇子里，几乎没有什么秘密，但我们尽可能给彼此隐私。$1",
+        "TellEveryone_LeahNo": "回归自然是件很美妙的事， @。#$b#I'm sure you 我相信你也感觉到了，这种与地球的联系？$1",
+		"LeoNewKid":"与大自然融为一体的生活... 它改变了一个人，你不觉得吗？",
+        "ElliottsBookReading": "我不太喜欢艾利欧特的书，但你得支持镇上的艺术天才，对吧？"
+            }
+        },
+{
+"LogName": "Tell Linus",
+"Action": "EditData",
+"Target": "Characters/Dialogue/Linus",
+"Entries": {
+    "TellEveryone": "$q 1507028/1507029 null#告诉莱纳斯关于玛妮和刘易斯的事？#$r 1507028 0 TellEveryone_LinusYes#Yes#$r 1507029 0 TellEveryone_LinusNo#否",
+    "TellEveryone_LinusYes": "啊，我年轻的朋友，你的消息对我来说并不新鲜，因为那些走在郊区的人，能看到别人错过的东西。#$b#但也许你散布谣言的欲望，应该转移到其他事情上去？",
+    "TellEveryone_LinusNo": "这是我为自己选择的生活，@.。但这并不意味着它总是舒适的。#$b#我可能因为自己的选择而遭到嘲笑，但我并不后悔。#$b#离地球近总比城市里的鬼魂好，你同意吗？",
+	"LeoNewKid":"利奥和我相处得很好，谢谢你的关心。他是个好孩子。而且学得很快!"																												  
+        }
+    },
+{
+    "LogName": "Tell Jodi",
+    "Action": "EditData",
+    "Target": "Characters/Dialogue/Jodi",
+    "Entries": {
+        "TellEveryone": "$q 1507030/1507031 null#告诉乔迪关于玛妮和刘易斯的事？#$r 1507030 0 TellEveryone_JodiYes#Yes#$r 1507031 0 TellEveryone_JodiNo#否",
+        "TellEveryone_JodiYes": "哦! 我想知道她的生活中是否有新的人，她的步伐总是那么的灵活。#$b#我为她感到高兴... 但是她为什么这么神秘？",
+        "TellEveryone_JodiNo": "两个男孩能洗出这么多衣服，真是令人惊讶，尤其是文森特; 他总是弄得满身污渍。",
+        "ElliottsBookReading": "我很抱歉我不得不提前离开艾利欧特的演讲，但他真的继续了，不是吗？",
+		"LeoNewKid":"温尼告诉了我们很多关于利奥的事情。很难把事情弄清楚! 那个可怜的孩子，独自在那个岛上... ...只有鸟儿作伴... ...。$2"																																							  
+            }
+        },
+{
+    "LogName": "Tell Kent",
+    "Action": "EditData",
+    "Target": "Characters/Dialogue/Kent",
+    "Entries": {
+        "TellEveryone": "$q 1507032/1507033 null#告诉肯特关于玛妮和刘易斯的事？#$r 1507032 0 TellEveryone_KentYes#Yes#$r 1507033 0 TellEveryone_KentNo#否",
+        "TellEveryone_KentYes": "那始终是他的私人事务，不是吗？",
+        "TellEveryone_KentNo": "夜晚的空气有助于我平静下来，但是我却总是对脚步的噼啪声，或者迫击炮的声音保持警惕。#$b#战争是件可怕的事情,@。 它能把你变成一个你不再认识的人..."
+            }
+        },
+{
+    "LogName": "Tell Maru",
+    "Action": "EditData",
+    "Target": "Characters/Dialogue/Maru",
+    "Entries": {
+        "TellEveryone": "$q 1507034/1507035 null#告诉玛鲁关于玛妮和刘易斯的事？#$r 1507034 0 TellEveryone_MaruYes#Yes#$r 1507035 0 TellEveryone_MaruNo#否",
+        "TellEveryone_MaruYes": "只要他们都喜欢，我就不会批评他们。",
+        "TellEveryone_MaruNo": "塞巴斯蒂安喜欢电脑，而我喜欢摆弄小玩意儿，我觉得我们应该会相处融洽，也许可以一起创造一些奇妙的东西...$2#$b#但是他只是躲在地下室，面带怒容。$2"
+            }
+        },
+{
+    "LogName": "Tell Pam",
+    "Action": "EditData",
+    "Target": "Characters/Dialogue/Pam",
+    "Entries": {
+        "TellEveryone": "$q 1507035/1507036 null#告诉潘姆关于玛妮和刘易斯的事？#$r 1507035 0 TellEveryone_PamYes#Yes#$r 1507036 0 TellEveryone_PamNo#否",
+        "TellEveryone_PamYes": "哦，老家伙! 他真不错。",
+        "TellEveryone_PamNo": "我希望我把佩妮带到这里来是对的，不过她看起来很开心。 比以前聪明多了。 对孩子也很好。 她会走得很远的。"
+            }
+        },
+{
+    "LogName": "Tell Pierre",
+    "Action": "EditData",
+    "Target": "Characters/Dialogue/Pierre",
+    "Entries": {
+        "TellEveryone": "$q 1507037/1507038 null#告诉皮埃尔关于玛妮和刘易斯的事？#$r 1507037 0 TellEveryone_PierreYes#Yes#$r 1507038 0 TellEveryone_PierreNo#否",
+        "TellEveryone_PierreYes": "，是吗? 我猜她在享受额外的'工作福利'吧。$3",
+        "TellEveryone_PierreNo": "你知道，经营一家商店的问题，就是整天被困在里面。 我觉得外面有个世界，但我几乎看不到。"
+     
+            }
+        },
+
+{
+    "LogName": "Lewis reacts",
+    "Action": "EditData",
+    "Target": "Characters/Dialogue/Lewis",
+    "Entries": {
+        "TellEveryone": "$p 1507037#T多亏了你，皮埃尔问了一些非常尴尬的问题。如果你以后能保持沉默，我将不胜感激,@.$4|我的耳朵感到异常的热。也许我有点晒太多太阳了。$2",
+		"LeoNewKid":"镇上的另一张新面孔。有更多的孩子在身边是件好事。鹈鹕镇的未来感觉很光明，你不觉得吗？$1"																																		   
+            }
+        },
+
+{
+    "LogName": "Marnie reacts",
+    "Action": "EditData",
+    "Target": "Characters/Dialogue/Marnie",
+    "Entries": {
+        "TellEveryone": "$p 150705#卡罗琳告诉我你在做什么，@。这很难堪，是的......但我很高兴现在它被公开了。虽然这并不意味着我不生你的气！$3|是我的想象吗？还是今天镇上的一些人看我的眼神有点怪怪的？$2",
+        "LeoNewKid":"看到贾斯和一个新朋友在一起真好! 我应该邀请他来吃晚饭。"
+		},																											
+        },																																																												 			 		  
+
+
+{
+    "LogName": "Tell Penny",
+    "Action": "EditData",
+    "Target": "Characters/Dialogue/Penny",
+    "Entries": {
+        "TellEveryone": "$q 1507039/1507040 null#告诉潘妮关于玛妮和刘易斯的事？#$r 1507039 0 TellEveryone_PennyYes#Yes#$r 1507040 0 TellEveryone_PennyNo#否",
+        "TellEveryone_PennyYes": "哦，太好了! 我想找到真爱永远都不会太晚，不是吗？$1",
+        "TellEveryone_PennyNo": "我最近读了很多书。 贾斯和文森特提出的问题，让我一直猜不透！",
+		"LeoNewKid":"我承认，一开始我很紧张，当刘易斯问利奥能否加入我们的课程时。#$b#但他做得非常好，而且他似乎喜欢学习。我很高兴。$1"																																											  
+            }
+        },
+{
+    "LogName": "Tell Robin",
+    "Action": "EditData",
+    "Target": "Characters/Dialogue/Robin",
+    "Entries": {
+        "TellEveryone": "$q 1507041/1507042 null#告诉罗宾关于玛妮和刘易斯的事？#$r 1507041 0 TellEveryone_RobinYes#Yes#$r 1507042 0 TellEveryone_RobinNo#否",
+        "TellEveryone_RobinYes": "市长和玛妮? 这就解释了我为什么要修玛尔尼的窗户，它不是设计来开那么大的！$1",
+        "TellEveryone_RobinNo": "我在学校爱上了木工活，木头对我说话了。#$b#当然不是字面上的意思，但我摸到它就知道它会变成什么样子。",
+		"LeoNewKid":"那个树屋的木工活很不错......他们说这是鸟儿做的？$1"																									
+            }
+        },
+{
+    "LogName": "Tell Sam",
+    "Action": "EditData",
+    "Target": "Characters/Dialogue/Sam",
+    "Entries": {
+        "TellEveryone": "$q 1507043/1507044 null#告诉山姆关于玛妮和刘易斯的事？#$r 1507043 0 TellEveryone_SamYes#Yes#$r 1507044 0 TellEveryone_SamNo#否",
+        "TellEveryone_SamYes": "哈! 那老家伙还是那么厉害！$1#$b#我觉得他挺好的，虽然他不愿意公开真是糟透了。$5",
+        "TellEveryone_SamNo": "嘿！@。 为什么最好的歌曲创意总是在我躺在床上的时候出现？#$b#我不得不立马坐起来把我所有的灵感都写下来，但今天看起来又像是在胡说八道。"
+            }
+        },
+{
+    "LogName": "Tell Sebastian",
+    "Action": "EditData",
+    "Target": "Characters/Dialogue/Sebastian",
+    "Entries": {
+        "TellEveryone": "$q 1507045/1507046 null#告诉塞巴斯蒂安关于玛妮和刘易斯的事？#$r 1507045 0 TellEveryone_SebastianYes#Yes#$r 1507046 0 TellEveryone_SebastianNo#否",
+        "TellEveryone_SebastianYes": "谁在乎呢？",
+        "TellEveryone_SebastianNo": "我晚上在湖边能看到的东西真是太神奇了，天黑以后一切都变得更有趣了。"
+            }
+        },
+
+{
+    "LogName": "Tell Shane",
+    "Action": "EditData",
+    "Target": "Characters/Dialogue/Shane",
+    "Entries": {
+        "TellEveryone": "$q 1507047/1507048 null#告诉谢恩关于玛妮和刘易斯的事？#$r 1507047 0 TellEveryone_ShaneYes#Yes#$r 1507048 0 TellEveryone_ShaneNo#否",
+        "TellEveryone_ShaneYes": "所以市长还在维护他的宝贵声誉？$5#$b#他知道你在到处散布谣言吗？$2#$b#别担心，我不会告发你的，尤巴知道，阿姨应该得到更好的。$4",
+        "TellEveryone_ShaneNo": "这对你来说没问题, @, 你知道你的人生将走向何方。 而我呢？我就像一个塑料袋，每次我觉得我要去什么地方，我就会被困在树上。$2"
+            }
+        },
+
+{
+    "LogName": "Tell Willy",
+    "Action": "EditData",
+    "Target": "Characters/Dialogue/Willy",
+    "Entries": {
+        "TellEveryone": "$q 1507049/1507050 null#告诉威廉关于玛妮和刘易斯的事？#$r 1507049 0 TellEveryone_WillyYes#Yes#$r 1507050 0 TellEveryone_WillyNo#否",
+        "TellEveryone_WillyYes": "看起来他设法把她钓上来了，是的，我在酒吧里见过他们, @。没什么能逃过我这个老水手的眼睛。",
+        "TellEveryone_WillyNo": "我第一次钓鱼是在我还是个小伙子的时候。 那家伙块头太大了，差点把我拖进水里。",
+		"LeoNewKid":"很高兴看到这个年轻的小伙子交了一些新朋友。帮我看着他，好吗，@？ 这对他来说一定是一个陌生的新世界。"																																						
+            }
+        },
+
+{
+    "LogName": "Tell Wizard",
+    "Action": "EditData",
+    "Target": "Characters/Dialogue/Wizard",
+    "Entries": {
+        "TellEveryone": "$q 1507051/1507052 null#告诉巫师关于玛妮和刘易斯的事？#$r 1507051 0 TellEveryone_WizardYes#Yes#$r 1507052 0 TellEveryone_WizardNo#否",
+        "TellEveryone_WizardYes": "你认为我会对凡人的事情感兴趣? 呸！#$b#这个世界上能满足你的基本欲望还有很多, @。你最好记住这一点。",
+        "TellEveryone_WizardNo": "这个世界还有很多你不知道的东西, @。你最好记住这一点。"
+            }
+        },
+
+{
+    "LogName": "Tell Marlon",
+    "Action": "EditData",
+    "Target": "Characters/Dialogue/MarlonFay",
+    "Entries": {
+        "TellEveryone": "$q 1507053/1507054 null#告诉马龙关于玛妮和刘易斯的事？#$r 1507053 0 TellEveryone_MarlonYes#Yes#$r 1507054 0 TellEveryone_MarlonNo#否",
+        "TellEveryone_MarlonYes": "玛妮把她的心给了我们尊敬的市长? 哦...$s#$b#也许与其散布淫秽的流言蜚语，你应该把注意力伸向杀死怪物, @。$a",
+        "TellEveryone_MarlonNo": "你今天看起来很不安,@。是不是有什么事让你心情沉重？"
+            }
+        },
+{
+    "LogName": "Tell Marlon",
+    "Action": "EditData",
+    "Target": "Characters/Dialogue/Marlon",
+    "Entries": {
+        "TellEveryone": "$q 1507053/1507054 null#告诉马龙关于玛妮和刘易斯的事#$r 1507053 0 TellEveryone_MarlonYes#Yes#$r 1507054 0 TellEveryone_MarlonNo#否",
+        "TellEveryone_MarlonYes": "玛妮把她的心给了我们尊敬的市长? 哦...$s#$b#也许与其散布淫秽的流言蜚语，你应该把注意力伸向杀死怪物, @。",
+        "TellEveryone_MarlonNo": "你今天看起来很不安,@。是不是有什么事让你心情沉重？"
+            }
+        },
+{
+    "LogName": "Tell Gunther",
+    "Action": "EditData",
+    "Target": "Characters/Dialogue/Gunther",
+    "Entries": {
+        "TellEveryone": "$q 1507061/1507062 null#告诉冈特关于玛尔尼和刘易斯的事？#$r 1507061 0 TellEveryone_GuntherYes#Yes#$r 1507062 0 TellEveryone_GuntherNo#否",
+        "TellEveryone_GuntherYes": "啊，这么久以来，市长已经为自己找到了一位女性朋友。#$b#我以为......好吧，算了。她已经做出了自己的选择。",
+        "TellEveryone_GuntherNo": "发现什么新的宝藏了吗，@？#$b#我想出来帮你，但我不像以前那样健壮了。"
+            }
+        },						 
+
+{
+    "LogName": "Tell Juliet",
+    "Action": "EditData",
+    "Target": "Characters/Dialogue/Juliet",
+    "Entries": {
+        "TellEveryone": "$q 1507055/1507056 null#告诉朱丽叶关于玛妮和刘易斯的事？#$r 1507055 0 TellEveryone_JulietYes#Yes#$r 1507056 0 TellEveryone_JulietNo#否",
+        "TellEveryone_JulietYes": "天啊! 我完全能看出他看上她什么了，但她看上他什么了？#$b#为什么要保密? 如果她是我的女朋友，我会兴奋的在屋顶上唱歌！",
+        "TellEveryone_JulietNo": "嘿， @! 今天怎么样? 想出去玩吗? 我有点无聊，想和你一起玩。"
+            }
+        },
+{
+    "LogName": "Tell Jasper",
+    "Action": "EditData",						 
+    "Target": "Characters/Dialogue/Jasper",
+    "Entries": {
+        "TellEveryone": "$q 1507057/1507058 null#告诉贾斯珀关于玛妮和刘易斯的事？#$r 1507057 0 TellEveryone_JasperYes#Yes#$r 1507058 0 TellEveryone_JasperNo#否",
+        "TellEveryone_JasperYes": "哦... 是的，我很惊讶，有人听到这个消息会很难过的。$2#$b#不，我不会说是谁告诉我的，事实证明你不能保持沉默！$5",
+        "TellEveryone_JasperNo": "哦，你好 @。 你让我措手不及。"
+            }
+        },
+
+{
+    "LogName": "Tell Gale",
+    "Action": "EditData",
+    "Target": "Characters/Dialogue/Gale",
+    "Entries": {
+        "TellEveryone": "$q 1507059/1507060 null#告诉盖尔关于玛妮和刘易斯的事？#$r 1507059 0 TellEveryone_GaleYes#Yes#$r 1507060 0 TellEveryone_GaleNo#否",
+        "TellEveryone_GaleYes": "我知道，亲爱的，但也许我们该感谢你的谨慎。",
+        "TellEveryone_GaleNo": "你好，亲爱的! 今天天气真好，不是吗？",
+		"LeoNewKid":"看到莱纳斯将利奥置于他的羽翼之下真是太可爱了！他们将从彼此身上学到很多东西。他们会从彼此身上学到很多东西。"
+            }
+        },
+        {
+            "LogName": "Tell Vincent",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Vincent",
+            "Entries": {
+                "LeoNewKid":"利奥教我如何用鹦鹉说粗鲁的话！#$b#普卡! 普卡！$1#$b#这是什么意思？我不能告诉你，你是个大人了!$3"
+            }
+        },
+        {
+            "LogName": "Tell Jas",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Jas",
+            "Entries": {
+                "LeoNewKid":"是的，我真的很喜欢里奥，但他看起来很悲伤。我想这是因为他想念他的家人--父母和鹦鹉。$2"
+            }
+        },
+        {
+            "LogName": "Tell Eloise",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Eloise",
+            "Entries": {
+                "LeoNewKid":"利奥真了不起! 你知道他能和鸟儿说话吗？它太酷了！$1#$b#而且他说他也会教我！#$b#我希望我们能成为真正的好朋友。$3"
+            }
+        },																											
+            
+
+
+    ]
+    }

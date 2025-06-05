@@ -1,0 +1,328 @@
+{
+    "Changes": [	
+		// Milking Machine A
+		{
+			"Action": "Load",
+			"Target": "Mods/{{ModId}}/MilkingMachineA",
+			"FromFile": "BigCraftables/assets/milkingMachineA.png",
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/BigCraftables",
+			"Entries": {
+				"Milking_Machine_A": {
+					"Name": "Milking_Machine_A",
+					"DisplayName": "{{i18n:Item.MilkingMachineA.Name}}",
+					"Description": "{{i18n:Item.MilkingMachineA.Description}}",
+					"Price": 17,
+					"Texture": "Mods/{{ModId}}/MilkingMachineA",
+					"SpriteIndex": 0,
+				}
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/CraftingRecipes",
+			"Entries": {
+				"Milking_Machine_A": "80 1 334 1 766 5/Home/Milking_Machine_A 1/true/null/",
+			}
+		},
+		// Milking Machine B
+		{
+			"Action": "Load",
+			"Target": "Mods/{{ModId}}/MilkingMachineB",
+			"FromFile": "BigCraftables/assets/milkingMachineB.png",
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/BigCraftables",
+			"Entries": {
+				"Milking_Machine_B": {
+					"Name": "Milking_Machine_B",
+					"DisplayName": "{{i18n:Item.MilkingMachineB.Name}}",
+					"Description": "{{i18n:Item.MilkingMachineB.Description}}",
+					"Price": 17,
+					"Texture": "Mods/{{ModId}}/MilkingMachineB",
+					"SpriteIndex": 0,
+				}
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/CraftingRecipes",
+			"Entries": {
+				"Milking_Machine_B": "80 1 334 1 766 5/Home/Milking_Machine_B 1/true/null/",
+			}
+		},
+		// Feed Maker
+		{
+			"Action": "Load",
+			"Target": "Mods/{{ModId}}/FeedMaker",
+			"FromFile": "BigCraftables/assets/feedMaker.png",
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/BigCraftables",
+			"Entries": {
+				"Feed_Maker": {
+					"Name": "Feed_Maker",
+					"DisplayName": "{{i18n:Item.FeedMaker.Name}}",
+					"Description": "{{i18n:Item.FeedMaker.Description}}",
+					"Price": 19,
+					"Texture": "Mods/{{ModId}}/FeedMaker",
+					"SpriteIndex": 0,
+				}
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/CraftingRecipes",
+			"Entries": {
+				"Feed_Maker": "86 1 335 1 766 10/Home/Feed_Maker 1/true/null/",
+			}
+		},
+		// Fertilizer Maker
+		{
+			"Action": "Load",
+			"Target": "Mods/{{ModId}}/FertilizerMaker",
+			"FromFile": "BigCraftables/assets/fertilizerMaker.png",
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/BigCraftables",
+			"Entries": {
+				"Fertilizer_Maker": {
+					"Name": "Fertilizer_Maker",
+					"DisplayName": "{{i18n:Item.FertilizerMaker.Name}}",
+					"Description": "{{i18n:Item.FertilizerMaker.Description}}",
+					"Price": 19,
+					"Texture": "Mods/{{ModId}}/FertilizerMaker",
+					"SpriteIndex": 0,
+				}
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/CraftingRecipes",
+			"Entries": {
+				"Fertilizer_Maker": "86 1 335 1 766 10/Home/Fertilizer_Maker 1/true/null/",
+			}
+		},
+		// Gem Maker
+		{
+			"Action": "Load",
+			"Target": "Mods/{{ModId}}/GemMaker",
+			"FromFile": "BigCraftables/assets/gemMaker.png",
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/BigCraftables",
+			"Entries": {
+				"Gem_Maker": {
+					"Name": "Gem_Maker",
+					"DisplayName": "{{i18n:Item.GemMaker.Name}}",
+					"Description": "{{i18n:Item.GemMaker.Description}}",
+					"Price": 19,
+					"Texture": "Mods/{{ModId}}/GemMaker",
+					"SpriteIndex": 0,
+				}
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/CraftingRecipes",
+			"Entries": {
+				"Gem_Maker": "82 1 337 1 766 20/Home/Gem_Maker 1/true/null/",
+			}
+		},
+		// Milk Concentrator
+		{
+			"Action": "Load",
+			"Target": "Mods/{{ModId}}/MilkConcentrator",
+			"FromFile": "BigCraftables/assets/milkConcentrator.png",
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/BigCraftables",
+			"Entries": {
+				"Milk_Concentrator": {
+					"Name": "Milk_Concentrator",
+					"DisplayName": "{{i18n:Item.MilkConcentrator.Name}}",
+					"Description": "{{i18n:Item.MilkConcentrator.Description}}",
+					"Price": 19,
+					"Texture": "Mods/{{ModId}}/MilkConcentrator",
+					"SpriteIndex": 0,
+				}
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/CraftingRecipes",
+			"Entries": {
+				"Milk_Concentrator": "84 1 336 1 766 15/Home/Milk_Concentrator 1/true/null/",
+			}
+		},
+		// Semen Concentrator
+		{
+			"Action": "Load",
+			"Target": "Mods/{{ModId}}/SemenConcentrator",
+			"FromFile": "BigCraftables/assets/semenConcentrator.png",
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/BigCraftables",
+			"Entries": {
+				"Semen_Concentrator": {
+					"Name": "Semen_Concentrator",
+					"DisplayName": "{{i18n:Item.SemenConcentrator.Name}}",
+					"Description": "{{i18n:Item.SemenConcentrator.Description}}",
+					"Price": 19,
+					"Texture": "Mods/{{ModId}}/SemenConcentrator",
+					"SpriteIndex": 0,
+				}
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/CraftingRecipes",
+			"Entries": {
+				"Semen_Concentrator": "84 1 336 1 766 15/Home/Semen_Concentrator 1/true/null/",
+			}
+		},
+		// Semen Milking Machine A
+		{
+			"Action": "Load",
+			"Target": "Mods/{{ModId}}/SemenMilkingMachineA",
+			"FromFile": "BigCraftables/assets/semenMilkingMachineA.png",
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/BigCraftables",
+			"Entries": {
+				"Semen_Milking_Machine_A": {
+					"Name": "Semen_Milking_Machine_A",
+					"DisplayName": "{{i18n:Item.SemenMilkingMachineA.Name}}",
+					"Description": "{{i18n:Item.SemenMilkingMachineA.Description}}",
+					"Price": 17,
+					"Texture": "Mods/{{ModId}}/SemenMilkingMachineA",
+					"SpriteIndex": 0,
+				}
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/CraftingRecipes",
+			"Entries": {
+				"Semen_Milking_Machine_A": "80 1 334 1 766 5/Home/Semen_Milking_Machine_A 1/true/null/",
+			}
+		},
+		// Semen Milking Machine B
+		{
+			"Action": "Load",
+			"Target": "Mods/{{ModId}}/SemenMilkingMachineB",
+			"FromFile": "BigCraftables/assets/semenMilkingMachineB.png",
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/BigCraftables",
+			"Entries": {
+				"Semen_Milking_Machine_B": {
+					"Name": "Semen_Milking_Machine_B",
+					"DisplayName": "{{i18n:Item.SemenMilkingMachineB.Name}}",
+					"Description": "{{i18n:Item.SemenMilkingMachineB.Description}}",
+					"Price": 17,
+					"Texture": "Mods/{{ModId}}/SemenMilkingMachineB",
+					"SpriteIndex": 0,
+				}
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/CraftingRecipes",
+			"Entries": {
+				"Semen_Milking_Machine_B": "80 1 334 1 766 5/Home/Semen_Milking_Machine_B 1/true/null/",
+			}
+		},
+		// Slime Regenerator
+		{
+			"Action": "Load",
+			"Target": "Mods/{{ModId}}/SlimeRegenerator",
+			"FromFile": "BigCraftables/assets/slimeRegenerator.png",
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/BigCraftables",
+			"Entries": {
+				"Slime_Regenerator": {
+					"Name": "Slime_Regenerator",
+					"DisplayName": "{{i18n:Item.SlimeRegenerator.Name}}",
+					"Description": "{{i18n:Item.SlimeRegenerator.Description}}",
+					"Price": 17,
+					"Texture": "Mods/{{ModId}}/SlimeRegenerator",
+					"SpriteIndex": 0,
+				}
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/CraftingRecipes",
+			"Entries": {
+				"Slime_Regenerator": "82 1 337 1 766 20/Home/Slime_Regenerator 1/true/null/",
+			}
+		},
+		// Speed-Gro Maker
+		{
+			"Action": "Load",
+			"Target": "Mods/{{ModId}}/SpeedGroMaker",
+			"FromFile": "BigCraftables/assets/speedGroMaker.png",
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/BigCraftables",
+			"Entries": {
+				"Speed_Gro_Maker": {
+					"Name": "Speed_Gro_Maker",
+					"DisplayName": "{{i18n:Item.Speed-GroMaker.Name}}",
+					"Description": "{{i18n:Item.Speed-GroMaker.Description}}",
+					"Price": 17,
+					"Texture": "Mods/{{ModId}}/SpeedGroMaker",
+					"SpriteIndex": 0,
+				}
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/CraftingRecipes",
+			"Entries": {
+				"Speed_Gro_Maker": "86 1 335 1 766 10/Home/Speed_Gro_Maker 1/true/null/",
+			}
+		},
+		// Tree Fertilizer Maker
+		{
+			"Action": "Load",
+			"Target": "Mods/{{ModId}}/TreeFertilizerMaker",
+			"FromFile": "BigCraftables/assets/treeFertilizerMaker.png",
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/BigCraftables",
+			"Entries": {
+				"Tree_Fertilizer_Maker": {
+					"Name": "Tree_Fertilizer_Maker",
+					"DisplayName": "{{i18n:Item.TreeFertilizerMaker.Name}}",
+					"Description": "{{i18n:Item.TreeFertilizerMaker.Description}}",
+					"Price": 17,
+					"Texture": "Mods/{{ModId}}/TreeFertilizerMaker",
+					"SpriteIndex": 0,
+				}
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/CraftingRecipes",
+			"Entries": {
+				"Tree_Fertilizer_Maker": "86 1 335 1 766 10/Home/Tree_Fertilizer_Maker 1/true/null/",
+			}
+		},
+    ]
+}

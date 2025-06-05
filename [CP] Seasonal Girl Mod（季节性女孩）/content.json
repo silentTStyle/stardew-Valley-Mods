@@ -1,0 +1,385 @@
+{
+    "Format": "2.0.0",
+    "DynamicTokens": [
+
+        // Standard Dynamic Tokens
+
+        {
+            "Name": "IndoorVariant", // Default
+            "Value": "",
+            "When":
+            {
+                "Season": "Spring, Summer, Fall",
+            }
+        },
+        {
+            "Name": "IndoorVariant", // Indoors Only
+            "Value": "_Indoor",
+            "When":
+            {
+                "Season": "Winter",
+                "WinterIndoorOutdoorOutfits": "IndoorOnly",
+            }
+        },
+        {
+            "Name": "IndoorVariant", // Outdoors Only
+            "Value": "_Outdoor",
+            "When":
+            {
+                "Season": "Winter",
+                "WinterIndoorOutdoorOutfits": "OutdoorOnly",
+            }
+        },
+        {
+            "Name": "IndoorVariant", // Indoors Switch
+            "Value": "_Indoor",
+            "When":
+            {
+                "IsOutdoors": "false",
+                "Season": "Winter",
+                "WinterIndoorOutdoorOutfits": "IndoorOutdoor",
+            }
+        },
+        {
+            "Name": "IndoorVariant", // Outdoors Switch
+            "Value": "_Outdoor",
+            "When":
+            {
+                "IsOutdoors": "true",
+                "Season": "Winter",
+                "WinterIndoorOutdoorOutfits": "IndoorOutdoor",
+            }
+        },
+	
+	//Festivals
+		{
+            "Name": "Festival",
+            "Value": "",
+        },
+        {
+            "Name": "Festival",
+            "Value": "FlowerDance",
+            "When":
+            {
+                "DayEvent": "flower dance",
+                "LocationName": "Forest, temp"
+            }
+        },
+        {
+            "Name": "Festival",
+            "Value": "SpiritsEve",
+            "When":
+            {
+                "DayEvent": "spirit's eve",
+                "LocationName": "town,Custom_EastScarpeInn, Custom_EastScarpe, temp"
+            }
+        },
+        {
+            "Name": "Festival",
+            "Value": "EggF",
+            "When":
+            {
+                "DayEvent": "egg festival",
+                "LocationName": "town, temp"
+            }
+        },
+        {
+            "Name": "Festival",
+            "Value": "IceF",
+            "When":
+            {
+                "DayEvent": "festival of ice",
+                "LocationName": "Forest, temp"
+            }
+        },
+        {
+            "Name": "Festival",
+            "Value": "Luau",
+            "When":
+            {
+                "DayEvent": "luau",
+                "LocationName": "Beach, temp"
+            }
+        },
+        {
+            "Name": "Festival",
+            "Value": "Jellies",
+            "When":
+            {
+                "DayEvent": "dance of the moonlight jellies",
+                "LocationName": "Beach, temp"
+            }
+        },
+        {
+            "Name": "Festival",
+            "Value": "Fair",
+            "When":
+            {
+                "DayEvent": "stardew valley fair",
+                "LocationName": "town, temp"
+            }
+        },
+        {
+            "Name": "Festival",
+            "Value": "WinterStar",
+            "When":
+            {
+                "DayEvent": "feast of the winter star",
+                "LocationName": "town, temp"
+            }
+        },
+		{
+			"Name": "IsFestival",
+			"Value": "False",
+		},
+		{
+			"Name": "IsFestival",
+			"Value": "True",
+			"When": {
+				"Festival": "FlowerDance, SpiritsEve, EggF, IceF, Luau, Jellies, Fair, WinterStar",
+			},
+		},
+		
+	//Misc Events
+        {
+            "Name": "Wedding",
+            "Value": "WeddingOutfits",
+            "When":
+            {
+                "DayEvent": "wedding",
+            }
+        },
+		{
+			"Name": "AerobicsDay",
+			"Value": "Harvey",
+			"When":
+			{
+				"Time": "{{Range: 1100, 1500}}",
+				"Hearts:Harvey": "{{range: 6, 14}}",
+                "LocationName": "SeedShop",
+				"ExtraOutfits": "True",
+                "HasSeenEvent: currentPlayer |contains=58": false,
+			},
+		},
+		{
+			"Name": "SamWork",
+			"Value": "True",
+			"When":
+			{
+				"HasSeenEvent: currentPlayer |contains=191393": false,
+                "LocationName": "JojaMart",
+				"DayOfWeek": "Monday, Wednesday,"
+			},
+		},
+        {
+			"Name": "SamWork",
+			"Value": "True",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+                "HasSeenEvent: currentPlayer |contains=191393": true,
+                "LocationName": "ArchaeologyHouse",
+				"DayOfWeek": "Monday, Wednesday,"
+			},
+		},
+	//Alt Elliott
+		{
+			"Name": "Alt",
+			"Value": "",
+			"When": {
+				"ElliottVersion": "Adrarin's",
+			}
+		},
+		{
+			"Name": "Alt",
+			"Value": "_Alt",
+			"When": {
+				"ElliottVersion": "Rekooooon's",
+			}
+		},
+	//Harvey Glasses
+		{
+			"Name": "Matching",
+			"Value": "",
+		},
+		{
+			"Name": "Matching",
+			"Value": "_Matching_Glasses",
+			"When": {
+				"HarveyGlasses": "Matching (Dynamic)",
+			},
+		},
+	//Sam Hat
+		{
+			"Name": "Hat",
+			"Value": "False",
+		},
+		{
+			"Name": "Hat",
+			"Value": "True",
+			"When": {
+				"Season": "Winter",
+				"IsOutdoors": "True",
+				"WinterIndoorOutdoorOutfits": "IndoorOutdoor, OutdoorOnly",
+			},
+		},
+		{
+			"Name": "Hat",
+			"Value": "True",
+			"When": {
+				"Festival": "Fair",
+			},
+		},
+	],
+	
+	"ConfigSchema": {
+		
+		//Seasonal Cute Character options
+		"FestivalOutfits": {
+            "AllowValues": "True, False",
+            "Default": "True",
+			"Section": "Seasonal Options",
+        },
+		"ExtraOutfits":
+        {
+            "AllowValues": "True, False",
+            "Default": "True",
+			"Section": "Seasonal Options",
+			"Description": "Turns on/off work outfits for Harvey, Sam, and Shane (Requires any of their respective \"Fem\" version(s) to be on)",
+        },
+        "WinterIndoorOutdoorOutfits": {
+			"AllowValues": "IndoorOutdoor, IndoorOnly, OutdoorOnly",
+			"Default": "IndoorOutdoor",
+			"Section": "Seasonal Options",
+		},
+		//Genderswap options
+		"FemAlex": {
+			"AllowValues": "True, False",
+			"Default": "True",
+			"Section": "Genderswap",
+		},
+		"FemElliott": {
+			"AllowValues": "True, False",
+			"Default": "True",
+			"Section": "Genderswap",
+		},
+		"FemHarvey": {
+			"AllowValues": "True, False",
+			"Default": "True",
+			"Section": "Genderswap",
+		},
+		"FemSam": {
+			"AllowValues": "True, False",
+			"Default": "True",
+			"Section": "Genderswap",
+		},
+		"FemSebastian": {
+			"AllowValues": "True, False",
+			"Default": "True",
+			"Section": "Genderswap",
+		},
+		"FemShane": {
+			"AllowValues": "True, False",
+			"Default": "True",
+			"Section": "Genderswap",
+		},
+		//Alt options
+		"ElliottVersion": {
+			"AllowValues": "Adrarin's, Rekooooon's",
+			"Default": "Adrarin's",
+			"Section": "Alt(s)",
+			"Description": "Choose between Adrarin's or Rekooooon's portraits for Elliott (Requires \"FemElliott\" to be on)",
+		},
+		"HarveyGlasses": {
+			"AllowValues": "Red (Default), Matching (Dynamic), Pink, Orange, Yellow, Green, Teal, Blue, Purple, White, Black, Grey",
+			"Default": "Red (Default)",
+			"Section": "Alt(s)",
+			"Description": "Choose the color of Harvey's glasses! The \"Matching\" option changes her glasses dynamically to match her current outfit. (Requires \"FemHarvey\" to be on)",
+		},
+		
+		"SamCollar": {
+			"AllowValues": "None (Default), Matching (Dynamic), Red, Pink, Orange, Yellow, Green, Teal, Blue, Purple, White, Black, Brown, Grey",
+			"Default": "None (Default)",
+			"Section": "Alt(s)",
+			"Description": "Choose the color of Sam's collar! The \"Matching\" option changes her collar dynamically to match her current outfit. (Requires \"FemSam\" to be on)",
+		},
+		"SamCollarBell": {
+			"AllowValues": "Gold, Silver",
+			"Default": "Gold",
+			"Section": "Alt(s)",
+			"Description": "Changes the bell on Sam's Collar. The \"None\" and \"Matching\" collar options will override this.",
+		},
+		"SamHairpin": {
+			"AllowValues": "None (Default), Matching (Dynamic), Red, Pink, Orange, Yellow, Green, Teal, Blue, Purple, White, Black, Brown, Grey",
+			"Default": "None (Default)",
+			"Section": "Alt(s)",
+			"Description": "Similar to SamCollar, choose the color of Sam's hairpin. The \"Matching\" option changes her hairpin dynamically to match her current outfit. (Requires \"FemSam\" to be on)",
+		},
+		"SamModest": {
+			"AllowValues": "True, False",
+			"Default": "False",
+			"Section": "Alt(s)",
+			"Description": "Changes Sam's Fall portrait and Moonlight Jellies portrait to be slightly more \"modest\" without completely changing her outfit (her shirt covers a bit more skin)",
+		},
+	},
+	
+	"Changes": [ 
+	
+	//Character Includes
+		{
+			"LogName": "Alex Include",
+			"Action": "Include",
+			"FromFile": "assets/Code/Alex.json",
+			"When": {
+				"HasFile:{{FromFile}}": true,
+				"FemAlex": "True",
+			}
+		},
+		{
+			"LogName": "Elliott Include",
+			"Action": "Include",
+			"FromFile": "assets/Code/Elliott.json",
+			"When": {
+				"HasFile:{{FromFile}}": true,
+				"FemElliott": "True",
+			}
+		},
+		{
+			"LogName": "Harvey Include",
+			"Action": "Include",
+			"FromFile": "assets/Code/Harvey.json",
+			"When": {
+				"HasFile:{{FromFile}}": true,
+				"FemHarvey": "True",
+			}
+		},
+		{
+			"LogName": "Sam Include",
+			"Action": "Include",
+			"FromFile": "assets/Code/Sam.json",
+			"When": {
+				"HasFile:{{FromFile}}": true,
+				"FemSam": "True",
+			}
+		},
+		{
+			"LogName": "Sebastian Include",
+			"Action": "Include",
+			"FromFile": "assets/Code/Sebastian.json",
+			"When": {
+				"HasFile:{{FromFile}}": true,
+				"FemSebastian": "True",
+			}
+		},
+		{
+			"LogName": "Shane Include",
+			"Action": "Include",
+			"FromFile": "assets/Code/Shane.json",
+			"When": {
+				"HasFile:{{FromFile}}": true,
+				"FemShane": "True",
+			}
+		},
+	]
+	
+}

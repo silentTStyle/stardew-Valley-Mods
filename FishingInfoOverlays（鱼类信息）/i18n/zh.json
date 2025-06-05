@@ -1,0 +1,84 @@
+{
+	"GenericMC.barLabel": "鱼类信息显示",
+	"GenericMC.barDescription": "当你手持鱼竿时会显示附近的鱼类信息，手持蟹笼也同样会显示能捕到什么东西。",
+	"GenericMC.barDescription2": "你可以用光标停在图标上查看鱼的更多信息，信息栏是实时更新的，保存设置就能看到信息栏产生变化。",
+
+	"GenericMC.barSonarMode": "仅声纳浮标生效",
+	"GenericMC.barSonarModeDesc": "启用后，根据你的选择，只有使用声纳浮标时此mod的部分功能才会生效:\n完整功能: 没有声纳浮标的话，此mod不会生效\n部分功能加扫描: 没有声纳浮标的话，无法显示钓鱼小游戏里的鱼类，无法使用shift扫描功能\n扫描: 没有声纳浮标将无法使用shift扫描功能",
+	"GenericMC.barSonarMode0": "完整功能",
+	"GenericMC.barSonarMode1": "部分功能+扫描",
+	"GenericMC.barSonarMode2": "扫描",
+
+	"GenericMC.barIconMode": "图标样式",
+	"GenericMC.barIconModeDesc": "鱼饵/鱼钩/垃圾/鱼类图标的显示方向。",
+	"GenericMC.barIconMode0": "横向显示",
+	"GenericMC.barIconMode1": "纵向显示",
+	"GenericMC.barIconMode2": "纵向图标加鱼类名称",
+
+	"GenericMC.Disabled": "禁用",
+
+	"GenericMC.barPosX": "信息栏左右平移",
+	"GenericMC.barPosXDesc": "默认位于左上角，数值变大向右移。",
+	"GenericMC.barPosY": "信息栏上下平移",
+	"GenericMC.barPosYDesc": "默认位于左上角，数值变大向下移。",
+
+	"GenericMC.barScale": "信息栏大小",
+	"GenericMC.barScaleDesc": "信息栏以及UI的大小调整，请填0.1-10的数字。",
+
+	"GenericMC.barMaxIcons": "最大图标数",
+	"GenericMC.barMaxIconsDesc": "信息栏最多能显示的图标数，请填4-500的数字，太多可能会导致卡顿。",
+	"GenericMC.barMaxIconsPerRow": "每行/每列最大图标数",
+	"GenericMC.barMaxIconsPerRowDesc": "在不选择横向/纵向排列的情况下能显示的最大图标数，4-500的数字，这个数字最好能被上面的最大图标数整除。",
+
+	"GenericMC.barBackgroundMode": "信息栏背景样式",
+	"GenericMC.barBackgroundModeDesc": "在图标背后添加深色背景，适合与纵向显示+鱼类名称的功能一起使用。圆形为每个图标单独显示，方形整体显示在信息栏后（推荐这个）。",
+	"GenericMC.barBackgroundMode0": "圆形",
+	"GenericMC.barBackgroundMode1": "方形",
+
+	"GenericMC.barShowBaitTackle": "显示鱼饵/鱼钩图标",
+	"GenericMC.barShowBaitTackleDesc": "显示当前还有多少鱼饵，鱼钩还能使用的次数，如果鱼竿上有这些的话。",
+
+	"GenericMC.barShowPercentages": "显示上钩几率",
+	"GenericMC.barShowPercentagesDesc": "在鱼类图标旁显示大致的上钩几率，实时显示需要调整信息栏刷新频率，频率越高就越准确。。",
+
+	"GenericMC.barSortMode": "信息栏显示顺序",
+	"GenericMC.barSortModeDesc": "按名字顺序/上钩几率大小排列，需要调整信息栏刷新频率，频率越高越准确。如果禁用排序，顺序为：垃圾/按ID排列的鱼类/其他物品。",
+	"GenericMC.barSortMode0": "按名称",
+	"GenericMC.barSortMode1": "按上钩几率",
+
+	"GenericMC.barExtraCheckFrequency": "信息栏刷新频率",
+	"GenericMC.barExtraCheckFrequencyDesc": "信息栏鱼类上钩几率和分布刷新频率，数值越高刷新越频繁，效果也越好，但是太高容易造成一定卡顿。",
+
+	"GenericMC.barScanRadius": "信息检测范围",
+	"GenericMC.barScanRadiusDesc": "附近水域的信息检测范围，只会显示最近的水域鱼类信息，所以范围大也没什么用。",
+
+	"GenericMC.barCrabPotEnabled": "蟹笼信息显示",
+	"GenericMC.barCrabPotEnabledDesc": "手持蟹笼时也显示可捕捞的鱼类信息",
+
+	"GenericMC.barUncaughtDarker": "黑色鱼类图标",
+	"GenericMC.barUncaughtDarkerDesc": "没抓过的鱼都会暂时显示为黑色，名字也会显示为‘？？？’，并且上钩时的图标也会变成黑色。",
+
+	"GenericMC.barOnlyFish": "仅显示鱼类信息",
+	"GenericMC.barOnlyFishDesc": "只显示鱼和垃圾的信息，家具或者其他物品不会显示，但它们仍然会影响上钩几率的计算。有的mod可能会有特殊物品需要钓，启用这个可能看不到该物品显示。",
+
+	"GenericMC.MinigameLabel": "钓鱼小游戏设置",
+	"GenericMC.MinigameDescription": "启用的话，小游戏里的鱼会显示具体的图标。",
+	"GenericMC.MinigameDescription2": "只要没有mod覆盖小游戏的UI，这个功能就不会出问题。如果没生效就试试其他选项，或者禁用这个功能。",
+
+	"GenericMC.MinigameMode": "小游戏显示样式",
+	"GenericMC.MinigameModeDesc": "全显示：覆盖图标和UI，显示效果较好。简单显示：只覆盖鱼的图标。仅信息栏：上钩时会在信息栏圈出上钩鱼的图标（这个功能包含在上面两个选项之中）。",
+	"GenericMC.MinigameMode0": "全显示",
+	"GenericMC.MinigameMode1": "简单显示",
+	"GenericMC.MinigameMode2": "仅信息栏",
+
+	"GenericMC.SplitScreenDesc": "分屏游玩设置选项，请房主修改这些选项。",
+	"GenericMC.SplitScreen2": "分屏2（右上角）",
+	"GenericMC.SplitScreen3": "分屏3（左下角）",
+	"GenericMC.SplitScreen4": "分屏4（右下角）",
+
+	"GenericMC.barColors": "颜色调整",
+	"GenericMC.barBackgroundColor": "背景颜色",
+	"GenericMC.barTextColor": "文本颜色",
+
+	"Bar.CrabMineWarning": "警告：请不要把蟹笼放在这里，离开矿洞时它会消失。"
+}

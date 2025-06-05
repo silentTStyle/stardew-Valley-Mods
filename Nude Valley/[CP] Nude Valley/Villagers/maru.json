@@ -1,0 +1,121 @@
+{
+  "Changes": [
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Maru",
+      "FromFile": "assets/Characters/Maru.png"
+    },
+	{
+      "Action": "EditImage",
+      "Target": "Characters/Maru",
+      "FromFile": "assets/Characters/Maru_Beach_Glasses.png",
+      "PatchMode": "Overlay",
+      "When": { "Glasses": "true" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Maru_Beach",
+      "FromFile": "assets/Characters/Maru_Beach.png"
+    },
+	{
+      "Action": "EditImage",
+      "Target": "Characters/Maru_Beach",
+      "FromFile": "assets/Characters/Maru_Beach_Glasses.png",
+      "PatchMode": "Overlay",
+      "When": { "Glasses": "true" }
+    },
+	{
+      "Action": "EditImage",
+      "Target": "Characters/Maru_Hospital",
+      "FromFile": "assets/Characters/Maru_Hospital.png"
+    },
+	{
+      "Action": "EditImage",
+      "Target": "Characters/Maru_Winter",
+      "FromFile": "assets/Characters/Maru.png"
+    },
+	// Portraits -----------------------------------------------------------------------------------
+	{
+      "Action": "EditImage",
+      "Target": "Portraits/Maru",
+      "FromFile": "assets/Portraits/Maru.png",
+      "When": { 
+		"Hypnosis": "false",
+		"Maru": "On",
+	  }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Maru",
+      "FromFile": "assets/Portraits/Maru_Hypnosis.png",
+      "When": { 
+		"Hypnosis": "true",
+		"Maru": "On",
+	  }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Maru_Beach",
+      "FromFile": "assets/Portraits/Maru_Beach.png",
+      "When": { 
+		"Hypnosis": "false",
+		"Maru": "On",
+	  }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Maru_Beach",
+      "FromFile": "assets/Portraits/Maru_Beach_Hypnosis.png",
+      "When": { 
+		"Hypnosis": "true",
+		"Maru": "On",
+	  }
+    },
+	{
+      "Action": "EditImage",
+      "Target": "Portraits/Maru_Beach",
+      "FromFile": "assets/Portraits/Maru_Beach_Glasses.png",
+      "PatchMode": "Overlay",
+      "When": { 
+		"Glasses": "true",
+		"Maru": "On", 
+	  }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Maru_Hospital",
+      "FromFile": "assets/Portraits/Maru_Hospital.png",
+      "When": { 
+		"Hypnosis": "false",
+		"Maru": "On", 
+	  }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Maru_Hospital",
+      "FromFile": "assets/Portraits/Maru_Hospital_Hypnosis.png",
+      "When": { 
+		"Hypnosis": "true",
+		"Maru": "On", 
+	  }
+    },
+	{
+      "Action": "EditImage",
+      "Target": "Portraits/Maru_Winter",
+      "FromFile": "assets/Portraits/Maru.png",
+      "When": { 
+		"Hypnosis": "false",
+		"Maru": "On",
+	  }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Maru_Winter",
+      "FromFile": "assets/Portraits/Maru_Hypnosis.png",
+      "When": { 
+		"Hypnosis": "true",
+		"Maru": "On",
+	  }
+    },
+  ]
+}

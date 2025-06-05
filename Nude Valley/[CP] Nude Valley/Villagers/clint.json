@@ -1,0 +1,95 @@
+{
+  "Changes": [
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Clint",
+      "FromFile": "assets/Characters/Clint.png",
+      "When": { "Futanari": "false" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Clint",
+      "FromFile": "assets/Characters/Clint_Futanari.png",
+      "When": { "Futanari": "true" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Clint_Beach",
+      "FromFile": "assets/Characters/Clint_Beach.png",
+      "When": { "Futanari": "false" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Clint_Beach",
+      "FromFile": "assets/Characters/Clint_Beach_Futanari.png",
+      "When": { "Futanari": "true" }
+    },
+	{
+      "Action": "EditImage",
+      "Target": "Characters/Clint_Winter",
+      "FromFile": "assets/Characters/Clint.png",
+      "When": { "Futanari": "false" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Clint_Winter",
+      "FromFile": "assets/Characters/Clint_Futanari.png",
+      "When": { "Futanari": "true" }
+    },
+	// Portraits -----------------------------------------------------------------------------------
+	{
+      "Action": "EditImage",
+      "Target": "Portraits/Clint",
+      "FromFile": "assets/Portraits/Clint.png",
+      "When": { 
+		"Hypnosis": "false",
+		"Clint": "On",
+	  }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Clint",
+      "FromFile": "assets/Portraits/Clint_Hypnosis.png",
+      "When": { 
+		"Hypnosis": "true",
+		"Clint": "On",
+	  }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Clint_Beach",
+      "FromFile": "assets/Portraits/Clint_Beach.png",
+      "When": { 
+		"Hypnosis": "false",
+		"Clint": "On",
+	  }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Clint_Beach",
+      "FromFile": "assets/Portraits/Clint_Beach_Hypnosis.png",
+      "When": { 
+		"Hypnosis": "true",
+		"Clint": "On",
+	  }
+    },	
+	{
+      "Action": "EditImage",
+      "Target": "Portraits/Clint_Winter",
+      "FromFile": "assets/Portraits/Clint.png",
+      "When": { 
+		"Hypnosis": "false",
+		"Clint": "On",
+	  }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Clint_Winter",
+      "FromFile": "assets/Portraits/Clint_Hypnosis.png",
+      "When": { 
+		"Hypnosis": "true",
+		"Clint": "On",
+	  }
+    },
+  ]
+}

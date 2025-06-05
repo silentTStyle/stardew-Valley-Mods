@@ -1,0 +1,231 @@
+{
+  "Changes": [
+	// Change NPC Schedules - Portraits ------------------------------------------------------------
+	{
+      "Action": "EditImage",
+      "Target": "Portraits/Caroline",
+      "FromFile": "Characters/CarolinePierre/assets/Portraits/Caroline_Lewd.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 128 },
+      "ToArea": { "X": 0, "Y": 640, "Width": 128, "Height": 128 },
+      "When": {
+		  "Change NPC Schedules": "true",
+		  "Hypnosis": "false",
+		  "CarolinePierre": "On, Caroline Only",
+		  "CarolinePierrePortrait": "On, Caroline Only",
+	  }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Caroline",
+      "FromFile": "Characters/CarolinePierre/assets/Portraits/Caroline_Lewd_Hypnosis.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 128 },
+      "ToArea": { "X": 0, "Y": 640, "Width": 128, "Height": 128 },
+      "When": { 
+		"Change NPC Schedules": "true",
+		"Hypnosis": "true", 
+		"CarolinePierre": "On, Caroline Only",
+		"CarolinePierrePortrait": "On, Caroline Only",
+	  }
+    },
+	{
+      "Action": "EditImage",
+      "Target": "Portraits/Caroline_Winter",
+      "FromFile": "Characters/CarolinePierre/assets/Portraits/Caroline_Lewd.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 128 },
+      "ToArea": { "X": 0, "Y": 640, "Width": 128, "Height": 128 },
+      "When": {
+		  "Change NPC Schedules": "true",
+		  "Hypnosis": "false",
+		  "CarolinePierre": "On, Caroline Only",
+		  "CarolinePierrePortrait": "On, Caroline Only",
+	  }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Caroline_Winter",
+      "FromFile": "Characters/CarolinePierre/assets/Portraits/Caroline_Lewd_Hypnosis.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 128 },
+      "ToArea": { "X": 0, "Y": 640, "Width": 128, "Height": 128 },
+      "When": { 
+		"Change NPC Schedules": "true",
+		"Hypnosis": "true", 
+		"CarolinePierre": "On, Caroline Only",
+		"CarolinePierrePortrait": "On, Caroline Only",
+	  }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Pierre",
+      "FromFile": "Characters/CarolinePierre/assets/Portraits/Pierre_Lewd.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 128 },
+      "ToArea": { "X": 0, "Y": 640, "Width": 128, "Height": 128 },
+      "When": { 
+		"Change NPC Schedules": "true", 
+		"Hypnosis": "false", 
+		"CarolinePierre": "On, Pierre Only",
+		"CarolinePierrePortrait": "On, Pierre Only",
+	  }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Pierre",
+      "FromFile": "Characters/CarolinePierre/assets/Portraits/Pierre_Lewd_Hypnosis.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 128 },
+      "ToArea": { "X": 0, "Y": 640, "Width": 128, "Height": 128 },
+      "When": {
+		  "Change NPC Schedules": "true", 
+		  "Hypnosis": "true", 
+		  "CarolinePierre": "On, Pierre Only",
+		  "CarolinePierrePortrait": "On, Pierre Only",
+	  }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Pierre",
+      "FromFile": "Characters/CarolinePierre/assets/Portraits/Pierre_Lewd_Glasses.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 128 },
+      "ToArea": { "X": 0, "Y": 640, "Width": 128, "Height": 128 },
+      "PatchMode": "Overlay",
+      "When": {
+		  "Change NPC Schedules": "true",
+		  "Glasses": "true",
+		  "CarolinePierre": "On, Pierre Only",
+		  "CarolinePierrePortrait": "On, Pierre Only",
+	  }
+    },
+	{
+      "Action": "EditImage",
+      "Target": "Portraits/Pierre_Winter",
+      "FromFile": "Characters/CarolinePierre/assets/Portraits/Pierre_Lewd.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 128 },
+      "ToArea": { "X": 0, "Y": 640, "Width": 128, "Height": 128 },
+      "When": { 
+		"Change NPC Schedules": "true", 
+		"Hypnosis": "false", 
+		"CarolinePierre": "On, Pierre Only",
+		"CarolinePierrePortrait": "On, Pierre Only",
+	  }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Pierre_Winter",
+      "FromFile": "Characters/CarolinePierre/assets/Portraits/Pierre_Lewd_Hypnosis.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 128 },
+      "ToArea": { "X": 0, "Y": 640, "Width": 128, "Height": 128 },
+      "When": {
+		  "Change NPC Schedules": "true", 
+		  "Hypnosis": "true", 
+		  "CarolinePierre": "On, Pierre Only",
+		  "CarolinePierrePortrait": "On, Pierre Only",
+	  }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Pierre_Winter",
+      "FromFile": "Characters/CarolinePierre/assets/Portraits/Pierre_Lewd_Glasses.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 128 },
+      "ToArea": { "X": 0, "Y": 640, "Width": 128, "Height": 128 },
+      "PatchMode": "Overlay",
+      "When": {
+		  "Change NPC Schedules": "true",
+		  "Glasses": "true",
+		  "CarolinePierre": "On, Pierre Only",
+		  "CarolinePierrePortrait": "On, Pierre Only",
+	  }
+    },
+    // Change NPC Schedules - schedules ------------------------------------------------------------
+	// Caroline
+    {
+      "Action": "EditData",
+      "Target": "Characters/schedules/Caroline",
+      "Entries": {
+        "rain": "800 SeedShop 37 6 2 caroline_milking/1200 SeedShop 15 23 0/1330 SeedShop 21 5 2 caroline_onanie/1600 SeedShop 25 18 2 square_9_9/2100 SeedShop 25 4 1 caroline_sleep",
+        "rain2": "800 SeedShop 37 6 2 caroline_milking/1200 SeedShop 15 23 0/1330 SeedShop 21 5 2 caroline_read/1600 Custom_DarkClub 2 23 1/1830 Custom_DarkClub 2 23 2 caroline_onanie",
+        "Tue": "800 SeedShop 22 14 0 \"Strings\\schedules\\Caroline:Tue.000\"/1030 SeedShop 24 17 3/1300 SeedShop 24 21 0 caroline_exercise/1600 SeedShop 23 15 1 \"Strings\\schedules\\Caroline:Tue.001\"/1810 SeedShop 34 5 0 \"Strings\\schedules\\Caroline:Tue.002\"/2100 SeedShop 25 4 1 caroline_uplate",
+        "Wed": "800 SeedShop 37 6 3/1000 Sunroom 5 7 2 caroline_onanie/1200 Town 23 27 1/1700 SeedShop 25 18 2 square_9_9/2100 SeedShop 25 4 1 caroline_sleep",
+        "Fri": "800 SeedShop 37 6 3/1000 Sunroom 5 7 2 caroline_onanie/1200 ArchaeologyHouse 14 4 2 caroline_read \"Strings\\schedules\\Caroline:Fri.000\"/1700 SeedShop 25 18 2 square_9_9/2100 SeedShop 25 4 1 caroline_sleep",
+        "Sat": "800 SeedShop 37 6 2 caroline_milking/1100 CommunityCenter 26 9 0/1700 SeedShop 25 18 2 square_9_9/2100 SeedShop 25 4 1 caroline_uplate",
+        "spring": "800 SeedShop 37 6 2 caroline_milking/1000 Sunroom 5 7 1/1200 SeedShop 15 23 0/1330 Town 23 71 2 caroline_onanie/1600 SeedShop 25 18 2 square_9_9/2100 SeedShop 25 4 1 caroline_sleep"
+      },
+	  "When": { "Change NPC Schedules": "true", "CarolinePierre": "On, Caroline Only" }
+	},
+	{
+      "Action": "EditData",
+      "Target": "Characters/schedules/Caroline",
+      "Entries": {
+        "Sun": "900 SeedShop 22 5 2/1040 SeedShop 21 5 3 \"Strings\\schedules\\Caroline:Sun.000\"/1330 SeedShop 15 23 0/1440 Town 48 33 2 caroline_onanie/1700 Custom_DarkClub 2 23 1/1830 Custom_DarkClub 2 23 1 caroline_fuck",
+      },
+	  "When": { "Change NPC Schedules": "true", "CarolinePierre": "On" }
+	},
+	{
+      "Action": "EditData",
+      "Target": "Characters/schedules/Caroline",
+      "Entries": {
+        "Sun": "900 SeedShop 22 5 2/1040 SeedShop 21 5 3 \"Strings\\schedules\\Caroline:Sun.000\"/1330 SeedShop 15 23 0/1440 Town 48 33 2 caroline_onanie/1700 Custom_DarkClub 2 23 1/1830 Custom_DarkClub 2 23 1 caroline_onanie",
+      },
+	  "When": { "Change NPC Schedules": "true", "CarolinePierre": "Caroline Only" }
+	},
+	// Pierre
+    {
+      "Action": "EditData",
+      "Target": "Characters/schedules/Pierre",
+      "Entries": {
+        "rain": "700 SeedShop 10 20 0/830 SeedShop 4 17 2 pierre_onanie1/1700 SeedShop 11 20 0/1900 SeedShop 37 5 0/2100 SeedShop 19 5 3 pierre_onanie2/2300 SeedShop 24 4 1 pierre_uplate",
+        "rain2": "700 SeedShop 10 20 0/830 SeedShop 4 17 2/1700 Custom_DarkClub 3 23 3/1830 Custom_DarkClub 3 23 3 pierre_onanie2",
+        "Fri": "700 SeedShop 10 20 0/830 SeedShop 4 17 2/1700 Saloon 16 20 0 \"Strings\\schedules\\Pierre:Fri.000\"/2250 SeedShop 24 4 1 pierre_uplate",
+        "spring": "700 SeedShop 10 20 0/830 SeedShop 4 17 2/1700 SeedShop 11 20 2 pierre_onanie1/1900 SeedShop 37 5 0/2100 SeedShop 19 5 3 pierre_onanie2/2300 SeedShop 24 4 1 pierre_sleep"
+      },
+      "When": { "Change NPC Schedules": "true", "CarolinePierre": "On, Pierre Only" }
+    },
+	{
+      "Action": "EditData",
+      "Target": "Characters/schedules/Pierre",
+      "Entries": {
+        "Sun": "700 SeedShop 10 20 0/830 SeedShop 4 17 2 pierre_onanie1/1700 Custom_DarkClub 3 23 3/1830 Custom_DarkClub 3 23 3 pierre_fuck",
+      },
+      "When": { "Change NPC Schedules": "true", "CarolinePierre": "On" }
+    },
+	{
+      "Action": "EditData",
+      "Target": "Characters/schedules/Pierre",
+      "Entries": {
+        "Sun": "700 SeedShop 10 20 0/830 SeedShop 4 17 2 pierre_onanie1/1700 Custom_DarkClub 3 23 3/1830 Custom_DarkClub 3 23 3 pierre_onanie2",
+      },
+      "When": { "Change NPC Schedules": "true", "CarolinePierre": "Pierre Only" }
+    },
+    // Change NPC Schedules - animationDescriptions ------------------------------------------------
+    {
+      "Action": "EditData",
+      "Target": "Data/animationDescriptions",
+      "Entries": {
+        "caroline_uplate": "100/100/100/Strings\\animationDescriptions:caroline_uplate",
+        "caroline_milking": "101/101/101/Strings\\animationDescriptions:caroline_milking",
+        "caroline_onanie": "102/102/102/Strings\\animationDescriptions:caroline_onanie",
+        "caroline_fuck": "104/104/104/Strings\\animationDescriptions:caroline_fuck",
+		
+        "pierre_uplate": "100/100/100/Strings\\animationDescriptions:pierre_uplate",
+        "pierre_onanie1": "101/101/101/Strings\\animationDescriptions:pierre_onanie1",
+        "pierre_onanie2": "102/102/102/Strings\\animationDescriptions:pierre_onanie2",
+        "pierre_fuck": "104/104/104/Strings\\animationDescriptions:pierre_fuck",
+      },
+      "When": { "Change NPC Schedules": "true" }
+    },
+    // Change NPC Schedules - animationDescriptions Dialogue ---------------------------------------
+    {
+      "Action": "EditData",
+      "Target": "Strings/animationDescriptions",
+      "Entries": {
+        "caroline_uplate": "{{i18n:NPC.Caroline.UpLate}}",
+        "caroline_milking": "{{i18n:NPC.Caroline.Fuck}}",
+        "caroline_onanie": "{{i18n:NPC.Caroline.Fuck}}",
+        "caroline_fuck": "{{i18n:NPC.Caroline.Fuck}}",
+		       
+        "pierre_uplate": "{{i18n:NPC.Pierre.UpLate}}",
+        "pierre_onanie1": "{{i18n:NPC.Pierre.Fuck}}",
+        "pierre_onanie2": "{{i18n:NPC.Pierre.Fuck}}",
+        "pierre_fuck": "{{i18n:NPC.Pierre.Fuck}}",
+      },
+      "When": { "Change NPC Schedules": "true" }
+    },
+  ]
+}

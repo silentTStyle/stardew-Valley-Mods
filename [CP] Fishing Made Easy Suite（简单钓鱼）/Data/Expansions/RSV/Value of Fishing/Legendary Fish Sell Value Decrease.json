@@ -1,0 +1,114 @@
+{
+	"Changes": [
+		{
+			"LogName": "RSV - Legendary Fish Sell Value Decrease by 10%",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+			    "Rafseazz.RSVCP_Deep_Ridge_Angler": {"Price": "{{Round: {{Query: (2500 - (2500 * 0.10)) }} }}"},
+				"Rafseazz.RSVCP_Sockeye_Salmon": {"Price": "{{Round: {{Query: (1800 - (1800 * 0.10)) }} }}"}, 
+				"Rafseazz.RSVCP_Waterfall_Snakehead": {"Price": "{{Round: {{Query: (2100 - (2100 * 0.10)) }} }}"}, 
+			    },
+			"When": {"Legendary Fish Sell Value": "Decrease by 10%"},
+		},
+		{
+			"LogName": "RSV - Legendary Fish Sell Value Decrease by 20%",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+			    "Rafseazz.RSVCP_Deep_Ridge_Angler": {"Price": "{{Round: {{Query: (2500 - (2500 * 0.20)) }} }}"},
+				"Rafseazz.RSVCP_Sockeye_Salmon": {"Price": "{{Round: {{Query: (1800 - (1800 * 0.20)) }} }}"}, 
+				"Rafseazz.RSVCP_Waterfall_Snakehead": {"Price": "{{Round: {{Query: (2100 - (2100 * 0.20)) }} }}"}, 
+			    },
+			"When": {"Legendary Fish Sell Value": "Decrease by 20%"},
+		},
+		{
+			"LogName": "RSV - Legendary Fish Sell Value Decrease by 30%",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+			    "Rafseazz.RSVCP_Deep_Ridge_Angler": {"Price": "{{Round: {{Query: (2500 - (2500 * 0.30)) }} }}"},
+				"Rafseazz.RSVCP_Sockeye_Salmon": {"Price": "{{Round: {{Query: (1800 - (1800 * 0.30)) }} }}"}, 
+				"Rafseazz.RSVCP_Waterfall_Snakehead": {"Price": "{{Round: {{Query: (2100 - (2100 * 0.30)) }} }}"}, 
+			    },
+			"When": {"Legendary Fish Sell Value": "Decrease by 30%"},
+		},
+		{
+			"LogName": "RSV - Legendary Fish Sell Value Decrease by 40%",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+			    "Rafseazz.RSVCP_Deep_Ridge_Angler": {"Price": "{{Round: {{Query: (2500 - (2500 * 0.40)) }} }}"},
+				"Rafseazz.RSVCP_Sockeye_Salmon": {"Price": "{{Round: {{Query: (1800 - (1800 * 0.40)) }} }}"}, 
+				"Rafseazz.RSVCP_Waterfall_Snakehead": {"Price": "{{Round: {{Query: (2100 - (2100 * 0.40)) }} }}"}, 
+			    },
+			"When": {"Legendary Fish Sell Value": "Decrease by 40%"},
+		},
+		{
+			"LogName": "RSV - Legendary Fish Sell Value Decrease by 50%",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+			    "Rafseazz.RSVCP_Deep_Ridge_Angler": {"Price": "{{Round: {{Query: (2500 - (2500 * 0.50)) }} }}"},
+				"Rafseazz.RSVCP_Sockeye_Salmon": {"Price": "{{Round: {{Query: (1800 - (1800 * 0.50)) }} }}"}, 
+				"Rafseazz.RSVCP_Waterfall_Snakehead": {"Price": "{{Round: {{Query: (2100 - (2100 * 0.50)) }} }}"}, 
+			    },
+			"When": {"Legendary Fish Sell Value": "Decrease by 50%"},
+		},
+		{
+			"LogName": "RSV - Legendary Fish Sell Value Decrease by 60%",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+			    "Rafseazz.RSVCP_Deep_Ridge_Angler": {"Price": "{{Round: {{Query: (2500 - (2500 * 0.60)) }} }}"},
+				"Rafseazz.RSVCP_Sockeye_Salmon": {"Price": "{{Round: {{Query: (1800 - (1800 * 0.60)) }} }}"}, 
+				"Rafseazz.RSVCP_Waterfall_Snakehead": {"Price": "{{Round: {{Query: (2100 - (2100 * 0.60)) }} }}"}, 
+			    },
+			"When": {"Legendary Fish Sell Value": "Decrease by 60%"},
+		},
+		{
+			"LogName": "RSV - Legendary Fish Sell Value Decrease by 70%",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+			    "Rafseazz.RSVCP_Deep_Ridge_Angler": {"Price": "{{Round: {{Query: (2500 - (2500 * 0.70)) }} }}"},
+				"Rafseazz.RSVCP_Sockeye_Salmon": {"Price": "{{Round: {{Query: (1800 - (1800 * 0.70)) }} }}"}, 
+				"Rafseazz.RSVCP_Waterfall_Snakehead": {"Price": "{{Round: {{Query: (2100 - (2100 * 0.70)) }} }}"}, 
+			    },
+			"When": {"Legendary Fish Sell Value": "Decrease by 70%"},
+		},
+		{
+			"LogName": "RSV - Legendary Fish Sell Value Decrease by 80%",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+			    "Rafseazz.RSVCP_Deep_Ridge_Angler": {"Price": "{{Round: {{Query: (2500 - (2500 * 0.80)) }} }}"},
+				"Rafseazz.RSVCP_Sockeye_Salmon": {"Price": "{{Round: {{Query: (1800 - (1800 * 0.80)) }} }}"}, 
+				"Rafseazz.RSVCP_Waterfall_Snakehead": {"Price": "{{Round: {{Query: (2100 - (2100 * 0.80)) }} }}"}, 
+			    },
+			"When": {"Legendary Fish Sell Value": "Decrease by 80%"},
+		},
+		{
+			"LogName": "RSV - Legendary Fish Sell Value Decrease by 90%",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+			    "Rafseazz.RSVCP_Deep_Ridge_Angler": {"Price": "{{Round: {{Query: (2500 - (2500 * 0.90)) }} }}"},
+				"Rafseazz.RSVCP_Sockeye_Salmon": {"Price": "{{Round: {{Query: (1800 - (1800 * 0.90)) }} }}"}, 
+				"Rafseazz.RSVCP_Waterfall_Snakehead": {"Price": "{{Round: {{Query: (2100 - (2100 * 0.90)) }} }}"}, 
+			    },
+			"When": {"Legendary Fish Sell Value": "Decrease by 90%"},
+		},
+		{
+			"LogName": "RSV - Legendary Fish Sell Value Decrease by 99%",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+			    "Rafseazz.RSVCP_Deep_Ridge_Angler": {"Price": 1},
+				"Rafseazz.RSVCP_Sockeye_Salmon": {"Price": 1}, 
+				"Rafseazz.RSVCP_Waterfall_Snakehead": {"Price": 1}, 
+			    },
+			"When": {"Legendary Fish Sell Value": "Decrease by 99%"},
+		},
+	]
+}

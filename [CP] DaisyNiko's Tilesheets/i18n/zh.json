@@ -1,0 +1,23 @@
+{
+	"config.ManualRecolourSelection.name": "重新着色选择",
+	"config.ManualRecolourSelection.values.Off": "关闭",
+	"config.ManualRecolourSelection.values.Vanilla": "原版",
+	"config.ManualRecolourSelection.values.Earthy": "DaisyNiko",
+	"config.ManualRecolourSelection.values.Starblue": "星蓝谷",
+	"config.ManualRecolourSelection.values.VibrantPastoral": "充满活力的田园风光",
+	"config.ManualRecolourSelection.values.WittilyNamed": "Wittily(有外网1.6更新)",
+
+	"config.ManualInterfaceSelection.name": "UI界面选择",
+	"config.ManualInterfaceSelection.values.Off": "关闭",
+	"config.ManualInterfaceSelection.values.Vanilla": "原版",	"config.ManualInterfaceSelection.values.Earthy": "DaisyNiko",
+	"config.ManualInterfaceSelection.values.OvergrownFlowery": "杂草丛生的花朵",	"config.ManualInterfaceSelection.values.StarrySky": "可爱的粉彩魔法少女",
+	"config.ManualInterfaceSelection.values.StarrySkyDark": "可爱的紫暗魔法少女",
+	"config.ManualInterfaceSelection.values.Vintage": "复古界面",
+
+	"config.VibrantPastoralFallVariant.name": "充满活力的田园风光秋天色调",
+	"config.VibrantPastoralFallVariant.values.Green": "绿色",
+	"config.VibrantPastoralFallVariant.values.Orange": "橙色",
+
+	"config.EnableArrows.name": "UI箭头美化",
+	"config.StarrySkyInterfaceDarkerFont.name": "可爱的紫暗魔法少女界面深色字体",
+}

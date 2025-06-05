@@ -1,0 +1,1502 @@
+{
+	"Changes": [
+		{
+			"LogName": "Jelly Spawn Rates Slightly Common Town",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Town", "Fish" ],
+			"Fields": {
+			    "(O)RiverJelly": {
+					"Precedence": -180, 
+					"ChanceBoostPerLuckLevel": 0.0,
+					"UseFishCaughtSeededRandom": false}, //River Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Slightly Common (True 10%)"},
+		},
+		{
+			"LogName": "Jelly Spawn Rates Slightly Common Beach",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Beach", "Fish" ],
+			"Fields": {
+			    "(O)SeaJelly": {
+					"Precedence": -180, 
+					"ChanceBoostPerLuckLevel": 0.0,
+					"UseFishCaughtSeededRandom": false}, //Sea Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Slightly Common (True 10%)"},
+		},
+		{
+			"LogName": "Jelly Spawn Rates Slightly Common Mountain",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Mountain", "Fish" ],
+			"Fields": {
+			    "(O)RiverJelly": {
+					"Precedence": -180, 
+					"ChanceBoostPerLuckLevel": 0.0,
+					"UseFishCaughtSeededRandom": false}, //River Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Slightly Common (True 10%)"},
+		},
+		{
+			"LogName": "Jelly Spawn Rates Slightly Common Forest",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Forest", "Fish" ],
+			"Fields": {
+			    "(O)RiverJelly": {
+					"Precedence": -180, 
+					"ChanceBoostPerLuckLevel": 0.0,
+					"UseFishCaughtSeededRandom": false}, //River Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Slightly Common (True 10%)"},
+		},
+		{
+			"LogName": "Jelly Spawn Rates Slightly Common Desert",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Desert", "Fish" ],
+			"Fields": {
+			    "(O)RiverJelly": {
+					"Precedence": -180, 
+					"ChanceBoostPerLuckLevel": 0.0,
+					"UseFishCaughtSeededRandom": false}, //River Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Slightly Common (True 10%)"},
+		},
+		{
+			"LogName": "Jelly Spawn Rates Slightly Common Woods",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Woods", "Fish" ],
+			"Fields": {
+			    "(O)RiverJelly": {
+					"Precedence": -180, 
+					"ChanceBoostPerLuckLevel": 0.0,
+					"UseFishCaughtSeededRandom": false}, //River Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Slightly Common (True 10%)"},
+		},
+		{
+			"LogName": "Jelly Spawn Rates Slightly Common Submarine",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Submarine", "Fish" ],
+			"Fields": {
+			    "(O)SeaJelly": {
+					"Precedence": -180, 
+					"ChanceBoostPerLuckLevel": 0.0,
+					"UseFishCaughtSeededRandom": false}, //Sea Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Slightly Common (True 10%)"},
+		},
+		{
+			"LogName": "Jelly Spawn Rates Slightly Common Island South",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "IslandSouth", "Fish" ],
+			"Fields": {
+			    "(O)SeaJelly": {
+					"Precedence": -180, 
+					"ChanceBoostPerLuckLevel": 0.0,
+					"UseFishCaughtSeededRandom": false}, //Sea Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Slightly Common (True 10%)"},
+		},
+		{
+			"LogName": "Jelly Spawn Rates Slightly Common Island South East",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "IslandSouthEast", "Fish" ],
+			"Fields": {
+			    "(O)SeaJelly": {
+					"Precedence": -180, 
+					"ChanceBoostPerLuckLevel": 0.0,
+					"UseFishCaughtSeededRandom": false}, //Sea Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Slightly Common (True 10%)"},
+		},
+		{
+			"LogName": "Jelly Spawn Rates Slightly Common Island South East Cave",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "IslandSouthEastCave", "Fish" ],
+			"Fields": {
+			    "(O)SeaJelly": {
+					"Precedence": -180, 
+					"ChanceBoostPerLuckLevel": 0.0,
+					"UseFishCaughtSeededRandom": false}, //Sea Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Slightly Common (True 10%)"},
+		},
+		{
+			"LogName": "Jelly Spawn Rates Slightly Common Island West River",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "IslandWest", "Fish" ],
+			"Fields": {
+			    "(O)RiverJelly": {
+					"Precedence": -180, 
+					"ChanceBoostPerLuckLevel": 0.0,
+					"UseFishCaughtSeededRandom": false}, //River Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Slightly Common (True 10%)"},
+		},
+		{
+			"LogName": "Jelly Spawn Rates Slightly Common Island West Sea",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "IslandWest", "Fish" ],
+			"Fields": {
+			    "(O)SeaJelly": {
+					"Precedence": -180, 
+					"ChanceBoostPerLuckLevel": 0.0,
+					"UseFishCaughtSeededRandom": false}, //Sea Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Slightly Common (True 10%)"},
+		},
+		{
+			"LogName": "Jelly Spawn Rates Slightly Common Island North",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "IslandNorth", "Fish" ],
+			"Fields": {
+			    "(O)RiverJelly": {
+					"Precedence": -180, 
+					"ChanceBoostPerLuckLevel": 0.0,
+					"UseFishCaughtSeededRandom": false}, //River Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Slightly Common (True 10%)"},
+		},
+		{
+			"LogName": "Jelly Spawn Rates Slightly Common Underground Mine",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "UndergroundMine", "Fish" ],
+			"Fields": {
+			    "(O)CaveJelly": {
+					"Precedence": -180, 
+					"ChanceBoostPerLuckLevel": 0.0,
+					"UseFishCaughtSeededRandom": false}, //Cave Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Slightly Common (True 10%)"},
+		},
+		{
+			"LogName": "Jelly Spawn Rates Common Town",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Town", "Fish" ],
+			"Fields": {
+			    "(O)RiverJelly": {
+					"Chance": 0.2,
+					"Precedence": -180, 
+					"ChanceBoostPerLuckLevel": 0.0,
+					"UseFishCaughtSeededRandom": false}, //River Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Common (20%)"},
+		},
+		{
+			"LogName": "Jelly Spawn Rates Common Beach",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Beach", "Fish" ],
+			"Fields": {
+			    "(O)SeaJelly": {
+					"Chance": 0.2,
+					"Precedence": -180, 
+					"ChanceBoostPerLuckLevel": 0.0,
+					"UseFishCaughtSeededRandom": false}, //Sea Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Common (20%)"},
+		},
+		{
+			"LogName": "Jelly Spawn Rates Common Mountain",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Mountain", "Fish" ],
+			"Fields": {
+			    "(O)RiverJelly": {
+					"Chance": 0.2,
+					"Precedence": -180, 
+					"ChanceBoostPerLuckLevel": 0.0,
+					"UseFishCaughtSeededRandom": false}, //River Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Common (20%)"},
+		},
+		{
+			"LogName": "Jelly Spawn Rates Common Forest",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Forest", "Fish" ],
+			"Fields": {
+			    "(O)RiverJelly": {
+					"Chance": 0.2,
+					"Precedence": -180, 
+					"ChanceBoostPerLuckLevel": 0.0,
+					"UseFishCaughtSeededRandom": false}, //River Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Common (20%)"},
+		},
+		{
+			"LogName": "Jelly Spawn Rates Common Desert",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Desert", "Fish" ],
+			"Fields": {
+			    "(O)RiverJelly": {
+					"Chance": 0.2,
+					"Precedence": -180, 
+					"ChanceBoostPerLuckLevel": 0.0,
+					"UseFishCaughtSeededRandom": false}, //River Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Common (20%)"},
+		},
+		{
+			"LogName": "Jelly Spawn Rates Common Woods",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Woods", "Fish" ],
+			"Fields": {
+			    "(O)RiverJelly": {
+					"Chance": 0.2,
+					"Precedence": -180, 
+					"ChanceBoostPerLuckLevel": 0.0,
+					"UseFishCaughtSeededRandom": false}, //River Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Common (20%)"},
+		},
+		{
+			"LogName": "Jelly Spawn Rates Common Submarine",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Submarine", "Fish" ],
+			"Fields": {
+			    "(O)SeaJelly": {
+					"Chance": 0.2,
+					"Precedence": -180, 
+					"ChanceBoostPerLuckLevel": 0.0,
+					"UseFishCaughtSeededRandom": false}, //Sea Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Common (20%)"},
+		},
+		{
+			"LogName": "Jelly Spawn Rates Common Island South",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "IslandSouth", "Fish" ],
+			"Fields": {
+			    "(O)SeaJelly": {
+					"Chance": 0.2,
+					"Precedence": -180, 
+					"ChanceBoostPerLuckLevel": 0.0,
+					"UseFishCaughtSeededRandom": false}, //Sea Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Common (20%)"},
+		},
+		{
+			"LogName": "Jelly Spawn Rates Common Island South East",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "IslandSouthEast", "Fish" ],
+			"Fields": {
+			    "(O)SeaJelly": {
+					"Chance": 0.2,
+					"Precedence": -180, 
+					"ChanceBoostPerLuckLevel": 0.0,
+					"UseFishCaughtSeededRandom": false}, //Sea Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Common (20%)"},
+		},
+		{
+			"LogName": "Jelly Spawn Rates Common Island South East Cave",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "IslandSouthEastCave", "Fish" ],
+			"Fields": {
+			    "(O)SeaJelly": {
+					"Chance": 0.2,
+					"Precedence": -180, 
+					"ChanceBoostPerLuckLevel": 0.0,
+					"UseFishCaughtSeededRandom": false}, //Sea Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Common (20%)"},
+		},
+		{
+			"LogName": "Jelly Spawn Rates Common Island West River",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "IslandWest", "Fish" ],
+			"Fields": {
+			    "(O)RiverJelly": {
+					"Chance": 0.2,
+					"Precedence": -180, 
+					"ChanceBoostPerLuckLevel": 0.0,
+					"UseFishCaughtSeededRandom": false}, //River Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Common (20%)"},
+		},
+		{
+			"LogName": "Jelly Spawn Rates Common Island West Sea",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "IslandWest", "Fish" ],
+			"Fields": {
+			    "(O)SeaJelly": {
+					"Chance": 0.2,
+					"Precedence": -180, 
+					"ChanceBoostPerLuckLevel": 0.0,
+					"UseFishCaughtSeededRandom": false}, //Sea Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Common (20%)"},
+		},
+		{
+			"LogName": "Jelly Spawn Rates Common Island North",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "IslandNorth", "Fish" ],
+			"Fields": {
+			    "(O)RiverJelly": {
+					"Chance": 0.2,
+					"Precedence": -180, 
+					"ChanceBoostPerLuckLevel": 0.0,
+					"UseFishCaughtSeededRandom": false}, //River Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Common (20%)"},
+		},
+		{
+			"LogName": "Jelly Spawn Rates Common Underground Mine",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "UndergroundMine", "Fish" ],
+			"Fields": {
+			    "(O)CaveJelly": {
+					"Chance": 0.2,
+					"Precedence": -180, 
+					"ChanceBoostPerLuckLevel": 0.0,
+					"UseFishCaughtSeededRandom": false}, //Cave Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Common (20%)"},
+		},
+		{
+			"LogName": "Jelly Spawn Rates More Common Town",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Town", "Fish" ],
+			"Fields": {
+			    "(O)RiverJelly": {
+					"Chance": 0.3,
+					"Precedence": -180, 
+					"ChanceBoostPerLuckLevel": 0.0,
+					"UseFishCaughtSeededRandom": false}, //River Jelly
+					},
+				"When": {"Jelly Spawn Rates": "More Common (30%)"},
+		},
+		{
+			"LogName": "Jelly Spawn Rates More Common Beach",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Beach", "Fish" ],
+			"Fields": {
+			    "(O)SeaJelly": {
+					"Chance": 0.3,
+					"Precedence": -180, 
+					"ChanceBoostPerLuckLevel": 0.0,
+					"UseFishCaughtSeededRandom": false}, //Sea Jelly
+					},
+				"When": {"Jelly Spawn Rates": "More Common (30%)"},
+		},
+		{
+			"LogName": "Jelly Spawn Rates More Common Mountain",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Mountain", "Fish" ],
+			"Fields": {
+			    "(O)RiverJelly": {
+					"Chance": 0.3,
+					"Precedence": -180, 
+					"ChanceBoostPerLuckLevel": 0.0,
+					"UseFishCaughtSeededRandom": false}, //River Jelly
+					},
+				"When": {"Jelly Spawn Rates": "More Common (30%)"},
+		},
+		{
+			"LogName": "Jelly Spawn Rates More Common Forest",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Forest", "Fish" ],
+			"Fields": {
+			    "(O)RiverJelly": {
+					"Chance": 0.3,
+					"Precedence": -180, 
+					"ChanceBoostPerLuckLevel": 0.0,
+					"UseFishCaughtSeededRandom": false}, //River Jelly
+					},
+				"When": {"Jelly Spawn Rates": "More Common (30%)"},
+		},
+		{
+			"LogName": "Jelly Spawn Rates More Common Desert",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Desert", "Fish" ],
+			"Fields": {
+			    "(O)RiverJelly": {
+					"Chance": 0.3,
+					"Precedence": -180, 
+					"ChanceBoostPerLuckLevel": 0.0,
+					"UseFishCaughtSeededRandom": false}, //River Jelly
+					},
+				"When": {"Jelly Spawn Rates": "More Common (30%)"},
+		},
+		{
+			"LogName": "Jelly Spawn Rates More Common Woods",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Woods", "Fish" ],
+			"Fields": {
+			    "(O)RiverJelly": {
+					"Chance": 0.3,
+					"Precedence": -180, 
+					"ChanceBoostPerLuckLevel": 0.0,
+					"UseFishCaughtSeededRandom": false}, //River Jelly
+					},
+				"When": {"Jelly Spawn Rates": "More Common (30%)"},
+		},
+		{
+			"LogName": "Jelly Spawn Rates More Common Submarine",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Submarine", "Fish" ],
+			"Fields": {
+			    "(O)SeaJelly": {
+					"Chance": 0.3,
+					"Precedence": -180, 
+					"ChanceBoostPerLuckLevel": 0.0,
+					"UseFishCaughtSeededRandom": false}, //Sea Jelly
+					},
+				"When": {"Jelly Spawn Rates": "More Common (30%)"},
+		},
+		{
+			"LogName": "Jelly Spawn Rates More Common Island South",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "IslandSouth", "Fish" ],
+			"Fields": {
+			    "(O)SeaJelly": {
+					"Chance": 0.3,
+					"Precedence": -180, 
+					"ChanceBoostPerLuckLevel": 0.0,
+					"UseFishCaughtSeededRandom": false}, //Sea Jelly
+					},
+				"When": {"Jelly Spawn Rates": "More Common (30%)"},
+		},
+		{
+			"LogName": "Jelly Spawn Rates More Common Island South East",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "IslandSouthEast", "Fish" ],
+			"Fields": {
+			    "(O)SeaJelly": {
+					"Chance": 0.3,
+					"Precedence": -180, 
+					"ChanceBoostPerLuckLevel": 0.0,
+					"UseFishCaughtSeededRandom": false}, //Sea Jelly
+					},
+				"When": {"Jelly Spawn Rates": "More Common (30%)"},
+		},
+		{
+			"LogName": "Jelly Spawn Rates More Common Island South East Cave",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "IslandSouthEastCave", "Fish" ],
+			"Fields": {
+			    "(O)SeaJelly": {
+					"Chance": 0.3,
+					"Precedence": -180, 
+					"ChanceBoostPerLuckLevel": 0.0,
+					"UseFishCaughtSeededRandom": false}, //Sea Jelly
+					},
+				"When": {"Jelly Spawn Rates": "More Common (30%)"},
+		},
+		{
+			"LogName": "Jelly Spawn Rates More Common Island West River",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "IslandWest", "Fish" ],
+			"Fields": {
+			    "(O)RiverJelly": {
+					"Chance": 0.3,
+					"Precedence": -180, 
+					"ChanceBoostPerLuckLevel": 0.0,
+					"UseFishCaughtSeededRandom": false}, //River Jelly
+					},
+				"When": {"Jelly Spawn Rates": "More Common (30%)"},
+		},
+		{
+			"LogName": "Jelly Spawn Rates More Common Island West Sea",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "IslandWest", "Fish" ],
+			"Fields": {
+			    "(O)SeaJelly": {
+					"Chance": 0.3,
+					"Precedence": -180, 
+					"ChanceBoostPerLuckLevel": 0.0,
+					"UseFishCaughtSeededRandom": false}, //Sea Jelly
+					},
+				"When": {"Jelly Spawn Rates": "More Common (30%)"},
+		},
+		{
+			"LogName": "Jelly Spawn Rates More Common Island North",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "IslandNorth", "Fish" ],
+			"Fields": {
+			    "(O)RiverJelly": {
+					"Chance": 0.3,
+					"Precedence": -180, 
+					"ChanceBoostPerLuckLevel": 0.0,
+					"UseFishCaughtSeededRandom": false}, //River Jelly
+					},
+				"When": {"Jelly Spawn Rates": "More Common (30%)"},
+		},
+		{
+			"LogName": "Jelly Spawn Rates More Common Underground Mine",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "UndergroundMine", "Fish" ],
+			"Fields": {
+			    "(O)CaveJelly": {
+					"Chance": 0.3,
+					"Precedence": -180, 
+					"ChanceBoostPerLuckLevel": 0.0,
+					"UseFishCaughtSeededRandom": false}, //Cave Jelly
+					},
+				"When": {"Jelly Spawn Rates": "More Common (30%)"},
+		},
+		{
+			"LogName": "Jelly Spawn Rates Very Common Town",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Town", "Fish" ],
+			"Fields": {
+			    "(O)RiverJelly": {
+					"Chance": 0.5,
+					"Precedence": -180, 
+					"ChanceBoostPerLuckLevel": 0.0,
+					"UseFishCaughtSeededRandom": false}, //River Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Very Common (50%)"},
+		},
+		{
+			"LogName": "Jelly Spawn Rates Very Common Beach",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Beach", "Fish" ],
+			"Fields": {
+			    "(O)SeaJelly": {
+					"Chance": 0.5,
+					"Precedence": -180, 
+					"ChanceBoostPerLuckLevel": 0.0,
+					"UseFishCaughtSeededRandom": false}, //Sea Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Very Common (50%)"},
+		},
+		{
+			"LogName": "Jelly Spawn Rates Very Common Mountain",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Mountain", "Fish" ],
+			"Fields": {
+			    "(O)RiverJelly": {
+					"Chance": 0.5,
+					"Precedence": -180, 
+					"ChanceBoostPerLuckLevel": 0.0,
+					"UseFishCaughtSeededRandom": false}, //River Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Very Common (50%)"},
+		},
+		{
+			"LogName": "Jelly Spawn Rates Very Common Forest",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Forest", "Fish" ],
+			"Fields": {
+			    "(O)RiverJelly": {
+					"Chance": 0.5,
+					"Precedence": -180, 
+					"ChanceBoostPerLuckLevel": 0.0,
+					"UseFishCaughtSeededRandom": false}, //River Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Very Common (50%)"},
+		},
+		{
+			"LogName": "Jelly Spawn Rates Very Common Desert",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Desert", "Fish" ],
+			"Fields": {
+			    "(O)RiverJelly": {
+					"Chance": 0.5,
+					"Precedence": -180, 
+					"ChanceBoostPerLuckLevel": 0.0,
+					"UseFishCaughtSeededRandom": false}, //River Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Very Common (50%)"},
+		},
+		{
+			"LogName": "Jelly Spawn Rates Very Common Woods",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Woods", "Fish" ],
+			"Fields": {
+			    "(O)RiverJelly": {
+					"Chance": 0.5,
+					"Precedence": -180, 
+					"ChanceBoostPerLuckLevel": 0.0,
+					"UseFishCaughtSeededRandom": false}, //River Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Very Common (50%)"},
+		},
+		{
+			"LogName": "Jelly Spawn Rates Very Common Submarine",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Submarine", "Fish" ],
+			"Fields": {
+			    "(O)SeaJelly": {
+					"Chance": 0.5,
+					"Precedence": -180, 
+					"ChanceBoostPerLuckLevel": 0.0,
+					"UseFishCaughtSeededRandom": false}, //Sea Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Very Common (50%)"},
+		},
+		{
+			"LogName": "Jelly Spawn Rates Very Common Island South",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "IslandSouth", "Fish" ],
+			"Fields": {
+			    "(O)SeaJelly": {
+					"Chance": 0.5,
+					"Precedence": -180, 
+					"ChanceBoostPerLuckLevel": 0.0,
+					"UseFishCaughtSeededRandom": false}, //Sea Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Very Common (50%)"},
+		},
+		{
+			"LogName": "Jelly Spawn Rates Very Common Island South East",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "IslandSouthEast", "Fish" ],
+			"Fields": {
+			    "(O)SeaJelly": {
+					"Chance": 0.5,
+					"Precedence": -180, 
+					"ChanceBoostPerLuckLevel": 0.0,
+					"UseFishCaughtSeededRandom": false}, //Sea Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Very Common (50%)"},
+		},
+		{
+			"LogName": "Jelly Spawn Rates Very Common Island South East Cave",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "IslandSouthEastCave", "Fish" ],
+			"Fields": {
+			    "(O)SeaJelly": {
+					"Chance": 0.5,
+					"Precedence": -180, 
+					"ChanceBoostPerLuckLevel": 0.0,
+					"UseFishCaughtSeededRandom": false}, //Sea Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Very Common (50%)"},
+		},
+		{
+			"LogName": "Jelly Spawn Rates Very Common Island West River",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "IslandWest", "Fish" ],
+			"Fields": {
+			    "(O)RiverJelly": {
+					"Chance": 0.5,
+					"Precedence": -180, 
+					"ChanceBoostPerLuckLevel": 0.0,
+					"UseFishCaughtSeededRandom": false}, //River Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Very Common (50%)"},
+		},
+		{
+			"LogName": "Jelly Spawn Rates Very Common Island West Sea",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "IslandWest", "Fish" ],
+			"Fields": {
+			    "(O)SeaJelly": {
+					"Chance": 0.5,
+					"Precedence": -180, 
+					"ChanceBoostPerLuckLevel": 0.0,
+					"UseFishCaughtSeededRandom": false}, //Sea Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Very Common (50%)"},
+		},
+		{
+			"LogName": "Jelly Spawn Rates Very Common Island North",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "IslandNorth", "Fish" ],
+			"Fields": {
+			    "(O)RiverJelly": {
+					"Chance": 0.5,
+					"Precedence": -180, 
+					"ChanceBoostPerLuckLevel": 0.0,
+					"UseFishCaughtSeededRandom": false}, //River Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Very Common (50%)"},
+		},
+		{
+			"LogName": "Jelly Spawn Rates Very Common Underground Mine",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "UndergroundMine", "Fish" ],
+			"Fields": {
+			    "(O)CaveJelly": {
+					"Chance": 0.5,
+					"Precedence": -180, 
+					"ChanceBoostPerLuckLevel": 0.0,
+					"UseFishCaughtSeededRandom": false}, //Cave Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Very Common (50%)"},
+		},
+		{
+			"LogName": "Jelly Spawn Rates Rare Town",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Town", "Fish" ],
+			"Fields": {
+			    "(O)RiverJelly": {
+					"Chance": 0.07,
+					"Precedence": -180, 
+					"ChanceBoostPerLuckLevel": 0.0,
+					"UseFishCaughtSeededRandom": false}, //River Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Rare (7%)"},
+		},
+		{
+			"LogName": "Jelly Spawn Rates Rare Beach",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Beach", "Fish" ],
+			"Fields": {
+			    "(O)SeaJelly": {
+					"Chance": 0.07,
+					"Precedence": -180, 
+					"ChanceBoostPerLuckLevel": 0.0,
+					"UseFishCaughtSeededRandom": false}, //Sea Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Rare (7%)"},
+		},
+		{
+			"LogName": "Jelly Spawn Rates Rare Mountain",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Mountain", "Fish" ],
+			"Fields": {
+			    "(O)RiverJelly": {
+					"Chance": 0.07,
+					"Precedence": -180, 
+					"ChanceBoostPerLuckLevel": 0.0,
+					"UseFishCaughtSeededRandom": false}, //River Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Rare (7%)"},
+		},
+		{
+			"LogName": "Jelly Spawn Rates Rare Forest",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Forest", "Fish" ],
+			"Fields": {
+			    "(O)RiverJelly": {
+					"Chance": 0.07,
+					"Precedence": -180, 
+					"ChanceBoostPerLuckLevel": 0.0,
+					"UseFishCaughtSeededRandom": false}, //River Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Rare (7%)"},
+		},
+		{
+			"LogName": "Jelly Spawn Rates Rare Desert",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Desert", "Fish" ],
+			"Fields": {
+			    "(O)RiverJelly": {
+					"Chance": 0.07,
+					"Precedence": -180, 
+					"ChanceBoostPerLuckLevel": 0.0,
+					"UseFishCaughtSeededRandom": false}, //River Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Rare (7%)"},
+		},
+		{
+			"LogName": "Jelly Spawn Rates Rare Woods",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Woods", "Fish" ],
+			"Fields": {
+			    "(O)RiverJelly": {
+					"Chance": 0.07,
+					"Precedence": -180, 
+					"ChanceBoostPerLuckLevel": 0.0,
+					"UseFishCaughtSeededRandom": false}, //River Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Rare (7%)"},
+		},
+		{
+			"LogName": "Jelly Spawn Rates Rare Submarine",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Submarine", "Fish" ],
+			"Fields": {
+			    "(O)SeaJelly": {
+					"Chance": 0.07,
+					"Precedence": -180, 
+					"ChanceBoostPerLuckLevel": 0.0,
+					"UseFishCaughtSeededRandom": false}, //Sea Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Rare (7%)"},
+		},
+		{
+			"LogName": "Jelly Spawn Rates Rare Island South",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "IslandSouth", "Fish" ],
+			"Fields": {
+			    "(O)SeaJelly": {
+					"Chance": 0.07,
+					"Precedence": -180, 
+					"ChanceBoostPerLuckLevel": 0.0,
+					"UseFishCaughtSeededRandom": false}, //Sea Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Rare (7%)"},
+		},
+		{
+			"LogName": "Jelly Spawn Rates Rare Island South East",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "IslandSouthEast", "Fish" ],
+			"Fields": {
+			    "(O)SeaJelly": {
+					"Chance": 0.07,
+					"Precedence": -180, 
+					"ChanceBoostPerLuckLevel": 0.0,
+					"UseFishCaughtSeededRandom": false}, //Sea Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Rare (7%)"},
+		},
+		{
+			"LogName": "Jelly Spawn Rates Rare Island South East Cave",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "IslandSouthEastCave", "Fish" ],
+			"Fields": {
+			    "(O)SeaJelly": {
+					"Chance": 0.07,
+					"Precedence": -180, 
+					"ChanceBoostPerLuckLevel": 0.0,
+					"UseFishCaughtSeededRandom": false}, //Sea Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Rare (7%)"},
+		},
+		{
+			"LogName": "Jelly Spawn Rates Rare Island West River",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "IslandWest", "Fish" ],
+			"Fields": {
+			    "(O)RiverJelly": {
+					"Chance": 0.07,
+					"Precedence": -180, 
+					"ChanceBoostPerLuckLevel": 0.0,
+					"UseFishCaughtSeededRandom": false}, //River Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Rare (7%)"},
+		},
+		{
+			"LogName": "Jelly Spawn Rates Rare Island West Sea",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "IslandWest", "Fish" ],
+			"Fields": {
+			    "(O)SeaJelly": {
+					"Chance": 0.07,
+					"Precedence": -180, 
+					"ChanceBoostPerLuckLevel": 0.0,
+					"UseFishCaughtSeededRandom": false}, //Sea Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Rare (7%)"},
+		},
+		{
+			"LogName": "Jelly Spawn Rates Rare Island North",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "IslandNorth", "Fish" ],
+			"Fields": {
+			    "(O)RiverJelly": {
+					"Chance": 0.07,
+					"Precedence": -180, 
+					"ChanceBoostPerLuckLevel": 0.0,
+					"UseFishCaughtSeededRandom": false}, //River Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Rare (7%)"},
+		},
+		{
+			"LogName": "Jelly Spawn Rates Rare Underground Mine",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "UndergroundMine", "Fish" ],
+			"Fields": {
+			    "(O)CaveJelly": {
+					"Chance": 0.07,
+					"Precedence": -180, 
+					"ChanceBoostPerLuckLevel": 0.0,
+					"UseFishCaughtSeededRandom": false}, //Cave Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Rare (7%)"},
+		},
+		{
+			"LogName": "Jelly Spawn Rates Very Rare Town",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Town", "Fish" ],
+			"Fields": {
+			    "(O)RiverJelly": {
+					"Chance": 0.05,
+					"Precedence": -180, 
+					"ChanceBoostPerLuckLevel": 0.0,
+					"UseFishCaughtSeededRandom": false}, //River Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Very Rare (5%)"},
+		},
+		{
+			"LogName": "Jelly Spawn Rates Very Rare Beach",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Beach", "Fish" ],
+			"Fields": {
+			    "(O)SeaJelly": {
+					"Chance": 0.05,
+					"Precedence": -180, 
+					"ChanceBoostPerLuckLevel": 0.0,
+					"UseFishCaughtSeededRandom": false}, //Sea Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Very Rare (5%)"},
+		},
+		{
+			"LogName": "Jelly Spawn Rates Very Rare Mountain",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Mountain", "Fish" ],
+			"Fields": {
+			    "(O)RiverJelly": {
+					"Chance": 0.05,
+					"Precedence": -180, 
+					"ChanceBoostPerLuckLevel": 0.0,
+					"UseFishCaughtSeededRandom": false}, //River Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Very Rare (5%)"},
+		},
+		{
+			"LogName": "Jelly Spawn Rates Very Rare Forest",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Forest", "Fish" ],
+			"Fields": {
+			    "(O)RiverJelly": {
+					"Chance": 0.05,
+					"Precedence": -180, 
+					"ChanceBoostPerLuckLevel": 0.0,
+					"UseFishCaughtSeededRandom": false}, //River Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Very Rare (5%)"},
+		},
+		{
+			"LogName": "Jelly Spawn Rates Very Rare Desert",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Desert", "Fish" ],
+			"Fields": {
+			    "(O)RiverJelly": {
+					"Chance": 0.05,
+					"Precedence": -180, 
+					"ChanceBoostPerLuckLevel": 0.0,
+					"UseFishCaughtSeededRandom": false}, //River Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Very Rare (5%)"},
+		},
+		{
+			"LogName": "Jelly Spawn Rates Very Rare Woods",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Woods", "Fish" ],
+			"Fields": {
+			    "(O)RiverJelly": {
+					"Chance": 0.05,
+					"Precedence": -180, 
+					"ChanceBoostPerLuckLevel": 0.0,
+					"UseFishCaughtSeededRandom": false}, //River Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Very Rare (5%)"},
+		},
+		{
+			"LogName": "Jelly Spawn Rates Very Rare Submarine",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Submarine", "Fish" ],
+			"Fields": {
+			    "(O)SeaJelly": {
+					"Chance": 0.05,
+					"Precedence": -180, 
+					"ChanceBoostPerLuckLevel": 0.0,
+					"UseFishCaughtSeededRandom": false}, //Sea Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Very Rare (5%)"},
+		},
+		{
+			"LogName": "Jelly Spawn Rates Very Rare Island South",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "IslandSouth", "Fish" ],
+			"Fields": {
+			    "(O)SeaJelly": {
+					"Chance": 0.05,
+					"Precedence": -180, 
+					"ChanceBoostPerLuckLevel": 0.0,
+					"UseFishCaughtSeededRandom": false}, //Sea Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Very Rare (5%)"},
+		},
+		{
+			"LogName": "Jelly Spawn Rates Very Rare Island South East",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "IslandSouthEast", "Fish" ],
+			"Fields": {
+			    "(O)SeaJelly": {
+					"Chance": 0.05,
+					"Precedence": -180, 
+					"ChanceBoostPerLuckLevel": 0.0,
+					"UseFishCaughtSeededRandom": false}, //Sea Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Very Rare (5%)"},
+		},
+		{
+			"LogName": "Jelly Spawn Rates Very Rare Island South East Cave",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "IslandSouthEastCave", "Fish" ],
+			"Fields": {
+			    "(O)SeaJelly": {
+					"Chance": 0.05,
+					"Precedence": -180, 
+					"ChanceBoostPerLuckLevel": 0.0,
+					"UseFishCaughtSeededRandom": false}, //Sea Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Very Rare (5%)"},
+		},
+		{
+			"LogName": "Jelly Spawn Rates Very Rare Island West River",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "IslandWest", "Fish" ],
+			"Fields": {
+			    "(O)RiverJelly": {
+					"Chance": 0.05,
+					"Precedence": -180, 
+					"ChanceBoostPerLuckLevel": 0.0,
+					"UseFishCaughtSeededRandom": false}, //River Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Very Rare (5%)"},
+		},
+		{
+			"LogName": "Jelly Spawn Rates Very Rare Island West Sea",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "IslandWest", "Fish" ],
+			"Fields": {
+			    "(O)SeaJelly": {
+					"Chance": 0.05,
+					"Precedence": -180, 
+					"ChanceBoostPerLuckLevel": 0.0,
+					"UseFishCaughtSeededRandom": false}, //Sea Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Very Rare (5%)"},
+		},
+		{
+			"LogName": "Jelly Spawn Rates Very Rare Island North",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "IslandNorth", "Fish" ],
+			"Fields": {
+			    "(O)RiverJelly": {
+					"Chance": 0.05,
+					"Precedence": -180, 
+					"ChanceBoostPerLuckLevel": 0.0,
+					"UseFishCaughtSeededRandom": false}, //River Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Very Rare (5%)"},
+		},
+		{
+			"LogName": "Jelly Spawn Rates Very Rare Underground Mine",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "UndergroundMine", "Fish" ],
+			"Fields": {
+			    "(O)CaveJelly": {
+					"Chance": 0.05,
+					"Precedence": -180, 
+					"ChanceBoostPerLuckLevel": 0.0,
+					"UseFishCaughtSeededRandom": false}, //Cave Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Very Rare (5%)"},
+		},
+		{
+			"LogName": "Jelly Spawn Rates Near Impossible Town",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Town", "Fish" ],
+			"Fields": {
+			    "(O)RiverJelly": {
+					"Chance": 0.01,
+					"Precedence": -180, 
+					"ChanceBoostPerLuckLevel": 0.0,
+					"UseFishCaughtSeededRandom": false}, //River Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Near Impossible (1%)"},
+		},
+		{
+			"LogName": "Jelly Spawn Rates Near Impossible Beach",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Beach", "Fish" ],
+			"Fields": {
+			    "(O)SeaJelly": {
+					"Chance": 0.01,
+					"Precedence": -180, 
+					"ChanceBoostPerLuckLevel": 0.0,
+					"UseFishCaughtSeededRandom": false}, //Sea Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Near Impossible (1%)"},
+		},
+		{
+			"LogName": "Jelly Spawn Rates Near Impossible Mountain",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Mountain", "Fish" ],
+			"Fields": {
+			    "(O)RiverJelly": {
+					"Chance": 0.01,
+					"Precedence": -180, 
+					"ChanceBoostPerLuckLevel": 0.0,
+					"UseFishCaughtSeededRandom": false}, //River Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Near Impossible (1%)"},
+		},
+		{
+			"LogName": "Jelly Spawn Rates Near Impossible Forest",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Forest", "Fish" ],
+			"Fields": {
+			    "(O)RiverJelly": {
+					"Chance": 0.01,
+					"Precedence": -180, 
+					"ChanceBoostPerLuckLevel": 0.0,
+					"UseFishCaughtSeededRandom": false}, //River Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Near Impossible (1%)"},
+		},
+		{
+			"LogName": "Jelly Spawn Rates Near Impossible Desert",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Desert", "Fish" ],
+			"Fields": {
+			    "(O)RiverJelly": {
+					"Chance": 0.01,
+					"Precedence": -180, 
+					"ChanceBoostPerLuckLevel": 0.0,
+					"UseFishCaughtSeededRandom": false}, //River Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Near Impossible (1%)"},
+		},
+		{
+			"LogName": "Jelly Spawn Rates Near Impossible Woods",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Woods", "Fish" ],
+			"Fields": {
+			    "(O)RiverJelly": {
+					"Chance": 0.01,
+					"Precedence": -180, 
+					"ChanceBoostPerLuckLevel": 0.0,
+					"UseFishCaughtSeededRandom": false}, //River Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Near Impossible (1%)"},
+		},
+		{
+			"LogName": "Jelly Spawn Rates Near Impossible Submarine",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Submarine", "Fish" ],
+			"Fields": {
+			    "(O)SeaJelly": {
+					"Chance": 0.01,
+					"Precedence": -180, 
+					"ChanceBoostPerLuckLevel": 0.0,
+					"UseFishCaughtSeededRandom": false}, //Sea Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Near Impossible (1%)"},
+		},
+		{
+			"LogName": "Jelly Spawn Rates Near Impossible Island South",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "IslandSouth", "Fish" ],
+			"Fields": {
+			    "(O)SeaJelly": {
+					"Chance": 0.01,
+					"Precedence": -180, 
+					"ChanceBoostPerLuckLevel": 0.0,
+					"UseFishCaughtSeededRandom": false}, //Sea Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Near Impossible (1%)"},
+		},
+		{
+			"LogName": "Jelly Spawn Rates Near Impossible Island South East",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "IslandSouthEast", "Fish" ],
+			"Fields": {
+			    "(O)SeaJelly": {
+					"Chance": 0.01,
+					"Precedence": -180, 
+					"ChanceBoostPerLuckLevel": 0.0,
+					"UseFishCaughtSeededRandom": false}, //Sea Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Near Impossible (1%)"},
+		},
+		{
+			"LogName": "Jelly Spawn Rates Near Impossible Island South East Cave",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "IslandSouthEastCave", "Fish" ],
+			"Fields": {
+			    "(O)SeaJelly": {
+					"Chance": 0.01,
+					"Precedence": -180, 
+					"ChanceBoostPerLuckLevel": 0.0,
+					"UseFishCaughtSeededRandom": false}, //Sea Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Near Impossible (1%)"},
+		},
+		{
+			"LogName": "Jelly Spawn Rates Near Impossible Island West River",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "IslandWest", "Fish" ],
+			"Fields": {
+			    "(O)RiverJelly": {
+					"Chance": 0.01,
+					"Precedence": -180, 
+					"ChanceBoostPerLuckLevel": 0.0,
+					"UseFishCaughtSeededRandom": false}, //River Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Near Impossible (1%)"},
+		},
+		{
+			"LogName": "Jelly Spawn Rates Near Impossible Island West Sea",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "IslandWest", "Fish" ],
+			"Fields": {
+			    "(O)SeaJelly": {
+					"Chance": 0.01,
+					"Precedence": -180, 
+					"ChanceBoostPerLuckLevel": 0.0,
+					"UseFishCaughtSeededRandom": false}, //Sea Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Near Impossible (1%)"},
+		},
+		{
+			"LogName": "Jelly Spawn Rates Near Impossible Island North",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "IslandNorth", "Fish" ],
+			"Fields": {
+			    "(O)RiverJelly": {
+					"Chance": 0.01,
+					"Precedence": -180, 
+					"ChanceBoostPerLuckLevel": 0.0,
+					"UseFishCaughtSeededRandom": false}, //River Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Near Impossible (1%)"},
+		},
+		{
+			"LogName": "Jelly Spawn Rates Near Impossible Underground Mine",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "UndergroundMine", "Fish" ],
+			"Fields": {
+			    "(O)CaveJelly": {
+					"Chance": 0.01,
+					"Precedence": -180, 
+					"ChanceBoostPerLuckLevel": 0.0,
+					"UseFishCaughtSeededRandom": false}, //Cave Jelly
+					},
+				"When": {"Jelly Spawn Rates": "Near Impossible (1%)"},
+		},
+		{
+			"LogName": "Jelly Spawn Rates No Jellies Town",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Town", "Fish" ],
+			"Fields": {
+			    "(O)RiverJelly": {"Chance": 0}, //River Jelly
+					},
+				"When": {"Jelly Spawn Rates": "No Jellies"},
+		},
+		{
+			"LogName": "Jelly Spawn Rates No Jellies Beach",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Beach", "Fish" ],
+			"Fields": {
+			    "(O)SeaJelly": {"Chance": 0}, //Sea Jelly
+					},
+				"When": {"Jelly Spawn Rates": "No Jellies"},
+		},
+		{
+			"LogName": "Jelly Spawn Rates No Jellies Mountain",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Mountain", "Fish" ],
+			"Fields": {
+			    "(O)RiverJelly": {"Chance": 0}, //River Jelly
+					},
+				"When": {"Jelly Spawn Rates": "No Jellies"},
+		},
+		{
+			"LogName": "Jelly Spawn Rates No Jellies Forest",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Forest", "Fish" ],
+			"Fields": {
+			    "(O)RiverJelly": {"Chance": 0}, //River Jelly
+					},
+				"When": {"Jelly Spawn Rates": "No Jellies"},
+		},
+		{
+			"LogName": "Jelly Spawn Rates No Jellies Desert",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Desert", "Fish" ],
+			"Fields": {
+			    "(O)RiverJelly": {"Chance": 0}, //River Jelly
+					},
+				"When": {"Jelly Spawn Rates": "No Jellies"},
+		},
+		{
+			"LogName": "Jelly Spawn Rates No Jellies Woods",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Woods", "Fish" ],
+			"Fields": {
+			    "(O)RiverJelly": {"Chance": 0}, //River Jelly
+					},
+				"When": {"Jelly Spawn Rates": "No Jellies"},
+		},
+		{
+			"LogName": "Jelly Spawn Rates No Jellies Submarine",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Submarine", "Fish" ],
+			"Fields": {
+			    "(O)SeaJelly": {"Chance": 0}, //Sea Jelly
+					},
+				"When": {"Jelly Spawn Rates": "No Jellies"},
+		},
+		{
+			"LogName": "Jelly Spawn Rates No Jellies Island South",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "IslandSouth", "Fish" ],
+			"Fields": {
+			    "(O)SeaJelly": {"Chance": 0}, //Sea Jelly
+					},
+				"When": {"Jelly Spawn Rates": "No Jellies"},
+		},
+		{
+			"LogName": "Jelly Spawn Rates No Jellies Island South East",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "IslandSouthEast", "Fish" ],
+			"Fields": {
+			    "(O)SeaJelly": {"Chance": 0}, //Sea Jelly
+					},
+				"When": {"Jelly Spawn Rates": "No Jellies"},
+		},
+		{
+			"LogName": "Jelly Spawn Rates No Jellies Island South East Cave",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "IslandSouthEastCave", "Fish" ],
+			"Fields": {
+			    "(O)SeaJelly": {"Chance": 0}, //Sea Jelly
+					},
+				"When": {"Jelly Spawn Rates": "No Jellies"},
+		},
+		{
+			"LogName": "Jelly Spawn Rates No Jellies Island West River",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "IslandWest", "Fish" ],
+			"Fields": {
+			    "(O)RiverJelly": {"Chance": 0}, //River Jelly
+					},
+				"When": {"Jelly Spawn Rates": "No Jellies"},
+		},
+		{
+			"LogName": "Jelly Spawn Rates No Jellies Island West Sea",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "IslandWest", "Fish" ],
+			"Fields": {
+			    "(O)SeaJelly": {"Chance": 0}, //Sea Jelly
+					},
+				"When": {"Jelly Spawn Rates": "No Jellies"},
+		},
+		{
+			"LogName": "Jelly Spawn Rates No Jellies Island North",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "IslandNorth", "Fish" ],
+			"Fields": {
+			    "(O)RiverJelly": {"Chance": 0}, //River Jelly
+					},
+				"When": {"Jelly Spawn Rates": "No Jellies"},
+		},
+		{
+			"LogName": "Jelly Spawn Rates No Jellies Underground Mine",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "UndergroundMine", "Fish" ],
+			"Fields": {
+			    "(O)CaveJelly": {"Chance": 0}, //Cave Jelly
+					},
+				"When": {"Jelly Spawn Rates": "No Jellies"},
+		},
+	]
+}

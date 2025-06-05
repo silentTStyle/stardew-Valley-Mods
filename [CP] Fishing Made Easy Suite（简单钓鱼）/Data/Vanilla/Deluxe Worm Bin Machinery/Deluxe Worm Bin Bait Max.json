@@ -1,0 +1,144 @@
+{
+	"Changes": [
+		{
+			"LogName": "Deluxe Worm Bin Bait Max 6",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)DeluxeWormBin", "OutputRules", "Default", "OutputItem" ],
+			"Fields": {
+			    "(O)DeluxeBait": {"MaxStack": 6},
+					},
+			"When": {"Deluxe Worm Bin Bait Max": "6"},
+		},
+		{
+			"LogName": "Deluxe Worm Bin Bait Max 7",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)DeluxeWormBin", "OutputRules", "Default", "OutputItem" ],
+			"Fields": {
+			    "(O)DeluxeBait": {"MaxStack": 7},
+					},
+			"When": {"Deluxe Worm Bin Bait Max": "7"},
+		},
+		{
+			"LogName": "Deluxe Worm Bin Bait Max 8",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)DeluxeWormBin", "OutputRules", "Default", "OutputItem" ],
+			"Fields": {
+			    "(O)DeluxeBait": {"MaxStack": 8},
+					},
+			"When": {"Deluxe Worm Bin Bait Max": "8"},
+		},
+		{
+			"LogName": "Deluxe Worm Bin Bait Max 9",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)DeluxeWormBin", "OutputRules", "Default", "OutputItem" ],
+			"Fields": {
+			    "(O)DeluxeBait": {"MaxStack": 9},
+					},
+			"When": {"Deluxe Worm Bin Bait Max": "9"},
+		},
+		{
+			"LogName": "Deluxe Worm Bin Bait Max 10",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)DeluxeWormBin", "OutputRules", "Default", "OutputItem" ],
+			"Fields": {
+			    "(O)DeluxeBait": {"MaxStack": 10},
+					},
+			"When": {"Deluxe Worm Bin Bait Max": "10"},
+		},
+		{
+			"LogName": "Deluxe Worm Bin Bait Max 15",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)DeluxeWormBin", "OutputRules", "Default", "OutputItem" ],
+			"Fields": {
+			    "(O)DeluxeBait": {"MaxStack": 15},
+					},
+			"When": {"Deluxe Worm Bin Bait Max": "15"},
+		},
+		{
+			"LogName": "Deluxe Worm Bin Bait Max 20",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)DeluxeWormBin", "OutputRules", "Default", "OutputItem" ],
+			"Fields": {
+			    "(O)DeluxeBait": {"MaxStack": 20},
+					},
+			"When": {"Deluxe Worm Bin Bait Max": "20"},
+		},
+		{
+			"LogName": "Deluxe Worm Bin Bait Max 25",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)DeluxeWormBin", "OutputRules", "Default", "OutputItem" ],
+			"Fields": {
+			    "(O)DeluxeBait": {"MaxStack": 25},
+					},
+			"When": {"Deluxe Worm Bin Bait Max": "25"},
+		},
+		{
+			"LogName": "Deluxe Worm Bin Bait Max 30",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)DeluxeWormBin", "OutputRules", "Default", "OutputItem" ],
+			"Fields": {
+			    "(O)DeluxeBait": {"MaxStack": 30},
+					},
+			"When": {"Deluxe Worm Bin Bait Max": "30"},
+		},
+		{
+			"LogName": "Deluxe Worm Bin Bait Max 35",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)DeluxeWormBin", "OutputRules", "Default", "OutputItem" ],
+			"Fields": {
+			    "(O)DeluxeBait": {"MaxStack": 35},
+					},
+			"When": {"Deluxe Worm Bin Bait Max": "35"},
+		},
+		{
+			"LogName": "Deluxe Worm Bin Bait Max 40",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)DeluxeWormBin", "OutputRules", "Default", "OutputItem" ],
+			"Fields": {
+			    "(O)DeluxeBait": {"MaxStack": 40},
+					},
+			"When": {"Deluxe Worm Bin Bait Max": "40"},
+		},
+		{
+			"LogName": "Deluxe Worm Bin Bait Max 45",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)DeluxeWormBin", "OutputRules", "Default", "OutputItem" ],
+			"Fields": {
+			    "(O)DeluxeBait": {"MaxStack": 45},
+					},
+			"When": {"Deluxe Worm Bin Bait Max": "45"},
+		},
+		{
+			"LogName": "Deluxe Worm Bin Bait Max 50",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)DeluxeWormBin", "OutputRules", "Default", "OutputItem" ],
+			"Fields": {
+			    "(O)DeluxeBait": {"MaxStack": 50},
+					},
+			"When": {"Deluxe Worm Bin Bait Max": "50"},
+		},
+		{
+			"LogName": "Deluxe Worm Bin Bait Max 100",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)DeluxeWormBin", "OutputRules", "Default", "OutputItem" ],
+			"Fields": {
+			    "(O)DeluxeBait": {"MaxStack": 100},
+					},
+			"When": {"Deluxe Worm Bin Bait Max": "100"},
+		},
+	]
+}

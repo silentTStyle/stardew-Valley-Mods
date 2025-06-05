@@ -1,0 +1,174 @@
+{
+  "Changes": [
+    // Change NPC Schedules - Portraits ------------------------------------------------------------
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Lewis",
+      "FromFile": "Characters/LewisMarnie/assets/Portraits/Lewis_Lewd.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 128 },
+      "ToArea": { "X": 0, "Y": 640, "Width": 128, "Height": 128 },
+      "When": { "Change NPC Schedules": "true", "Hypnosis": "false", "LewisMarnie": "On, Lewis Only" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Lewis",
+      "FromFile": "Characters/LewisMarnie/assets/Portraits/Lewis_Lewd_Hypnosis.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 128 },
+      "ToArea": { "X": 0, "Y": 640, "Width": 128, "Height": 128 },
+      "When": { "Change NPC Schedules": "true", "Hypnosis": "true", "LewisMarnie": "On, Lewis Only" }
+    },
+	{
+      "Action": "EditImage",
+      "Target": "Portraits/Lewis_Winter",
+      "FromFile": "Characters/LewisMarnie/assets/Portraits/Lewis_Lewd.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 128 },
+      "ToArea": { "X": 0, "Y": 640, "Width": 128, "Height": 128 },
+      "When": { "Change NPC Schedules": "true", "Hypnosis": "false", "LewisMarnie": "On, Lewis Only" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Lewis_Winter",
+      "FromFile": "Characters/LewisMarnie/assets/Portraits/Lewis_Lewd_Hypnosis.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 128 },
+      "ToArea": { "X": 0, "Y": 640, "Width": 128, "Height": 128 },
+      "When": { "Change NPC Schedules": "true", "Hypnosis": "true", "LewisMarnie": "On, Lewis Only" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Marnie",
+      "FromFile": "Characters/LewisMarnie/assets/Portraits/Marnie_Lewd.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 128 },
+      "ToArea": { "X": 0, "Y": 640, "Width": 128, "Height": 128 },
+      "When": { "Change NPC Schedules": "true", "Hypnosis": "false", "LewisMarnie": "On, Marnie Only" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Marnie",
+      "FromFile": "Characters/LewisMarnie/assets/Portraits/Marnie_Lewd_Hypnosis.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 128 },
+      "ToArea": { "X": 0, "Y": 640, "Width": 128, "Height": 128 },
+      "When": { "Change NPC Schedules": "true", "Hypnosis": "true", "LewisMarnie": "On, Marnie Only" }
+    },
+	{
+      "Action": "EditImage",
+      "Target": "Portraits/Marnie_Winter",
+      "FromFile": "Characters/LewisMarnie/assets/Portraits/Marnie_Lewd.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 128 },
+      "ToArea": { "X": 0, "Y": 640, "Width": 128, "Height": 128 },
+      "When": { "Change NPC Schedules": "true", "Hypnosis": "false", "LewisMarnie": "On, Marnie Only" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Marnie_Winter",
+      "FromFile": "Characters/LewisMarnie/assets/Portraits/Marnie_Lewd_Hypnosis.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 128 },
+      "ToArea": { "X": 0, "Y": 640, "Width": 128, "Height": 128 },
+      "When": { "Change NPC Schedules": "true", "Hypnosis": "true", "LewisMarnie": "On, Marnie Only" }
+    },
+    // Change NPC Schedules - schedules ------------------------------------------------------------
+	// Lewis
+    {
+      "Action": "EditData",
+      "Target": "Characters/schedules/Lewis",
+      "Entries": {
+        "rain": "800 ManorHouse 8 5 0/1000 ManorHouse 2 8 2 lewis_onanie/1400 Saloon 12 20 0/1950 Town 65 86 3 lewis_urination/2200 ManorHouse 22 4 1 lewis_sleep",
+        "rain2": "800 ManorHouse 8 5 0/1000 ManorHouse 7 5 0 square_5_1_0/1400 Custom_DarkClub 18 34 3 lewis_drink/1830 Custom_DarkClub 18 34 2 lewis_onanie",
+        "Tue": "800 ManorHouse 8 5 0/1000 Town 62 88 0/1040 Town 65 86 3 lewis_garden/1140 SeedShop 6 19 0 \"Strings\\schedules\\Lewis:Tue.000\"/1600 ManorHouse 2 8 2 lewis_onanie/2100 ManorHouse 3 6 0/2200 ManorHouse 22 4 1 lewis_uplate",
+        "Fri": "800 ManorHouse 8 5 0/1000 Town 62 88 0/1040 Town 65 86 3 lewis_garden/1140 Town 30 56 2 lewis_onanie/1400 Town 29 27 3/1700 Saloon 9 22 3 lewis_drink/2300 ManorHouse 22 4 1 lewis_uplate",
+        "spring": "800 ManorHouse 8 5 0/900 Town 62 88 0/940 Town 65 86 3 lewis_urination/1040 CommunityCenter 55 6 0/1400 CommunityCenter 47 5 0/1440 CommunityCenter 51 4 2/1600 CommunityCenter 47 13 0/1700 CommunityCenter 33 9 0/1830 ManorHouse 2 8 2 lewis_onanie/2300 ManorHouse 22 4 1 lewis_sleep",
+        "default": "800 ManorHouse 8 5 0/1000 Town 62 88 0/1040 Town 65 86 3 lewis_urination/1140 Town 30 56 2 lewis_onanie/1400 Town 41 57 0/1600 ManorHouse 7 5 0 square_5_1_0/2000 ManorHouse 3 6 0/2200 ManorHouse 22 4 1 lewis_sleep"
+      },
+      "When": { "Change NPC Schedules": "true", "LewisMarnie": "On, Lewis Only" }
+    },
+	{
+      "Action": "EditData",
+      "Target": "Characters/schedules/Lewis",
+      "Entries": {
+        "spring_Sun": "800 ManorHouse 8 5 0/1000 Town 62 88 0/1040 Town 65 86 3 lewis_garden/1140 Town 30 56 2 lewis_onanie/1600 Custom_DarkClub 18 34 3 lewis_drink/1830 Custom_DarkClub 18 34 3 lewis_onanie",
+        "summer_Sun": "800 ManorHouse 8 5 0/1000 Town 62 88 0/1040 Town 65 86 3 lewis_garden/1140 Beach 19 24 2 lewis_onanie/1600 Custom_DarkClub 18 34 3 lewis_drink/1830 Custom_DarkClub 18 34 3 lewis_onanie",
+        "fall_Sun": "800 ManorHouse 8 5 0/930 Town 62 88 0/1020 Town 65 86 3 lewis_garden/1110 Forest 84 40 2 lewis_onanie/1600 Custom_DarkClub 18 34 3 lewis_drink/1830 Custom_DarkClub 18 34 3 lewis_onanie",
+        "winter_Sun": "800 ManorHouse 8 5 0/900 ManorHouse 7 5 0 square_5_1_0/1100 ArchaeologyHouse 22 9 2 lewis_onanie/1600 Custom_DarkClub 18 34 3 lewis_drink/1830 Custom_DarkClub 18 34 3 lewis_onanie",
+      },
+      "When": { "Change NPC Schedules": "true", "LewisMarnie": "Lewis Only" }
+    },
+	{
+      "Action": "EditData",
+      "Target": "Characters/schedules/Lewis",
+      "Entries": {
+        "spring_Sun": "800 ManorHouse 8 5 0/1000 Town 62 88 0/1040 Town 65 86 3 lewis_garden/1140 Town 30 56 2 lewis_onanie/1600 Custom_DarkClub 18 34 3 lewis_drink/1830 Custom_DarkClub 18 34 3 lewis_fuck",
+        "summer_Sun": "800 ManorHouse 8 5 0/1000 Town 62 88 0/1040 Town 65 86 3 lewis_garden/1140 Beach 19 24 2 lewis_onanie/1600 Custom_DarkClub 18 34 3 lewis_drink/1830 Custom_DarkClub 18 34 3 lewis_fuck",
+        "fall_Sun": "800 ManorHouse 8 5 0/930 Town 62 88 0/1020 Town 65 86 3 lewis_garden/1110 Forest 84 40 2 lewis_onanie/1600 Custom_DarkClub 18 34 3 lewis_drink/1830 Custom_DarkClub 18 34 3 lewis_fuck",
+        "winter_Sun": "800 ManorHouse 8 5 0/900 ManorHouse 7 5 0 square_5_1_0/1100 ArchaeologyHouse 22 9 2 lewis_onanie/1600 Custom_DarkClub 18 34 3 lewis_drink/1830 Custom_DarkClub 18 34 3 lewis_fuck",
+      },
+      "When": { "Change NPC Schedules": "true", "LewisMarnie": "On" }
+    },
+	// Marnie
+    {
+      "Action": "EditData",
+      "Target": "Characters/schedules/Marnie",
+      "Entries": {
+        "rain": "830 AnimalShop 17 5 0/850 AnimalShop 12 14 1 marnie_dildo2/1600 AnimalShop 24 15 0/1800 AnimalShop 17 6 0 marnie_dildo1/2400 AnimalShop 12 5 3 marnie_sleep",
+        "rain2": "830 AnimalShop 17 5 0/850 AnimalShop 12 14 2/1600 Custom_DarkClub 17 34 1 marnie_drink/1830 Custom_DarkClub 17 34 1 marnie_dildo2",
+        "Mon": "810 SeedShop 11 20 0/1200 AnimalShop 22 15 0 marnie_dildo1/2400 AnimalShop 12 5 3 marnie_sleep",
+        "Tue": "900 AnimalShop 17 5 0/1000 SeedShop 23 16 2/1300 SeedShop 28 17 2 marnie_exercise/1600 SeedShop 25 15 3 \"Strings\\schedules\\Marnie:Tue.000\"/1810 AnimalShop 24 15 0/2100 AnimalShop 12 5 3 marnie_uplate",
+        "Wed": "GOTO Sat",
+        "Fri": "830 AnimalShop 17 5 0/850 AnimalShop 12 14 2/1600 AnimalShop 17 6 0 marnie_dildo1/1700 Saloon 8 22 1 marnie_drink/2300 AnimalShop 12 5 3 marnie_uplate",
+        "Sat": "830 AnimalShop 17 5 0/850 AnimalShop 12 14 1 marnie_dildo2/1600 AnimalShop 17 8 1/1700 Saloon 9 22 1 marnie_drink/2300 AnimalShop 12 5 3 marnie_sleep",
+        "Sun": "830 AnimalShop 17 5 0/850 AnimalShop 12 14 2/1600 Custom_DarkClub 17 34 1 marnie_drink/1830 Custom_DarkClub 17 34 3 marnie_fuck",
+        "spring": "830 AnimalShop 17 5 0/850 AnimalShop 12 14 2/1600 AnimalShop 24 15 0/1800 AnimalShop 17 6 0 marnie_dildo1/2400 AnimalShop 12 5 3 marnie_sleep"
+      },
+      "When": { "Change NPC Schedules": "true", "LewisMarnie": "On, Marnie Only" }
+    },
+	{
+      "Action": "EditData",
+      "Target": "Characters/schedules/Marnie",
+      "Entries": {
+        "Sun": "830 AnimalShop 17 5 0/850 AnimalShop 12 14 2/1600 Custom_DarkClub 17 34 1 marnie_drink/1830 Custom_DarkClub 17 34 3 marnie_dildo2",
+      },
+      "When": { "Change NPC Schedules": "true", "LewisMarnie": "Marnie Only" }
+    },
+	{
+      "Action": "EditData",
+      "Target": "Characters/schedules/Marnie",
+      "Entries": {
+        "Sun": "830 AnimalShop 17 5 0/850 AnimalShop 12 14 2/1600 Custom_DarkClub 17 34 1 marnie_drink/1830 Custom_DarkClub 17 34 3 marnie_fuck",
+      },
+      "When": { "Change NPC Schedules": "true", "LewisMarnie": "On" }
+    },
+    // Change NPC Schedules - animationDescriptions ------------------------------------------------
+    {
+      "Action": "EditData",
+      "Target": "Data/animationDescriptions",
+      "Entries": {        
+        "lewis_drink": "19/19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 22 23 23 23 23 23 22 22 22 23 23 23 23 23 23 23 23 23 23/19",
+        "lewis_uplate": "100/100/100/Strings\\animationDescriptions:lewis_uplate",
+        "lewis_urination": "101/101/101/Strings\\animationDescriptions:lewis_urination",
+        "lewis_onanie": "102/102/102/Strings\\animationDescriptions:lewis_onanie",
+        "lewis_fuck": "104/104/104/Strings\\animationDescriptions:lewis_fuck",
+		
+        "marnie_uplate": "100/100/100/Strings\\animationDescriptions:marnie_uplate",
+        "marnie_dildo1": "101/101/101/Strings\\animationDescriptions:marnie_dildo1",
+        "marnie_dildo2": "102/102/102/Strings\\animationDescriptions:marnie_dildo2",
+        "marnie_fuck": "104/104/104/Strings\\animationDescriptions:marnie_fuck",
+      },
+      "When": { "Change NPC Schedules": "true" }
+    },
+    // Change NPC Schedules - animationDescriptions Dialogue ---------------------------------------
+    {
+      "Action": "EditData",
+      "Target": "Strings/animationDescriptions",
+      "Entries": {        
+        "lewis_uplate": "{{i18n:NPC.Lewis.UpLate}}",
+        "lewis_urination": "{{i18n:NPC.Lewis.Urination}}",
+        "lewis_onanie": "{{i18n:NPC.Lewis.Fuck}}",
+        "lewis_fuck": "{{i18n:NPC.Lewis.Fuck}}",
+		
+        "marnie_uplate": "{{i18n:NPC.Marnie.UpLate}}",
+        "marnie_dildo1": "{{i18n:NPC.Marnie.Fuck}}",
+        "marnie_dildo2": "{{i18n:NPC.Marnie.Fuck}}",
+        "marnie_fuck": "{{i18n:NPC.Marnie.Fuck}}",
+      },
+      "When": { "Change NPC Schedules": "true" }
+    },
+  ]
+}

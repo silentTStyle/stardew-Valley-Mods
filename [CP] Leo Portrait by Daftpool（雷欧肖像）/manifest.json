@@ -1,0 +1,11 @@
+{
+   "Name": "[CP] Leo Portrait by Daftpool",
+   "Author": "DDDaftpool",
+   "Version": "1.0.0",
+   "Description": "Hope you like it",
+   "UniqueID": "[CP] Leo Portrait by Daftpool",
+   "MinimumApiVersion": "2.5.0",
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher",
+   }
+}
