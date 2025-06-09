@@ -543,9 +543,9 @@
             "Target": "Maps/z_ESBoat",
             "FromFile": "assets/TileSheets/z_ESBoat.png"
         },
-        {
+    {
             "Action": "Load",
-            "Target": "Maps/spring_himeoutdoors, Maps/summer_himeoutdoors, Maps/fall_himeoutdoors , Maps/winter_himeoutdoors, Maps/Flooring",
+            "Target": "Maps/Flooring",
             "FromFile": "assets/TileSheets/{{TargetWithoutPath}}.png"
         },
         {

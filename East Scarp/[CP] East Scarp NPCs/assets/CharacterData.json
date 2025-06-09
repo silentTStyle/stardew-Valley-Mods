@@ -258,7 +258,7 @@
                     "CanSocialize": "PLAYER_HAS_MAIL Any KatarynaBecomesSocial",
                     "ItemDeliveryQuests": "PLAYER_HAS_SEEN_EVENT Host 57876001, !PLAYER_HAS_SEEN_EVENT Host 57876012",
                     "IntroductionsQuest": false,
-		    "PerfectionScore": false,
+                    "PerfectionScore": false,
                     "SpouseRoom": {
                         "MapAsset": "Lemurkat_EastScarp_SpouseRoom",
                         "MapSourceRect": {
@@ -266,6 +266,15 @@
                             "Y": 0,
                             "Width": 6,
                             "Height": 9
+                        }
+                    },
+                    "SpousePatio": {
+                        "MapAsset": "Lemurkat_EastScarp_OutsideArea",
+                        "MapSourceRect": {
+                            "X": 4,
+                            "Y": 0,
+                            "Width": 4,
+                            "Height": 4
                         }
                     },
                     "Home": [
@@ -419,10 +428,7 @@
                     "Optimism": "Positive",
                     "CanBeRomanced": false, //currently
                     "LoveInterest": "Jacob",
-                    "Calendar": "HiddenUntilMet", //delete when released
-                    "SocialTab": "HiddenUntilMet", //delete when released
                     "CanVisitIsland": "true",
-                   
                     "Home": [
                         {
                             "Id": "Default",

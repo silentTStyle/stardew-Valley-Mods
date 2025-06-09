@@ -147,7 +147,7 @@
         "ApryllForever.CPPolyamorySweet_AineFlower": {
           "Name": "Áine Flower",
           "DisplayName": "艾娜花",
-          "Description": "艾娜花，以爱尔兰夏季、爱情与性欲的女神艾娜命名， 它最初在爱尔兰的艾娜湖畔盛开。将艾娜花赠予伴侣，以宣告TA是你的正宫。或者，把它作为礼物送给你爱的人!",
+          "Description": "艾娜花，以爱尔兰夏季、爱情与性欲的女神艾娜命名， 它最初在爱尔兰的艾娜湖畔盛开。将艾娜花赠予伴侣，以宣告TA是你的正宫。或者，把它作为礼物送给你爱的人！",
           "Type": "Basic",
           "Category": -80,
           "Price": 339,
@@ -394,11 +394,11 @@
         "AineFlower_reject": "我...真的觉得我们的关系还没到这个地步，我不能收下这个...",
         "AineFlower_accept": "哇哦 谢谢你！！！你对我来说也是特别的人！",
         "AineFlower_spouse": "哇哦 谢谢你！！！我也很爱你！我愿意为你做任何事！$h",
-        "AphroditeFlower_accept": "...!!!$6#$b#当然！我很想和你一起要个孩子！$1",
+        "AphroditeFlower_accept": "...！！！$6#$b#当然！我很想和你一起要个孩子！$1",
         "AphroditeFlower_reject": "什么？！？！？！？你肯定是疯了！",
         "AphroditeFlower_notVillager": "这不是适合这个人的礼物。",
         "AphroditeFlower_alreadyGiven": "你今天已经给了{0}一朵阿佛洛狄忒之花。",
-        "LilithToken_accept": "这太美了！我爱这黑暗能量！莉莉丝的爱让我感受到了被爱！$1",
+        "LilithToken_accept": "这太棒了！我爱这黑暗能量！莉莉丝的爱让我感受到了被爱！$1",
         "LilithToken_reject": "啊！！！！$5#$b#你讨厌我吗？$2",
 
         "NPC.cs.4434": "唔...这是什么？我快睡着了。$a",
@@ -409,7 +409,10 @@
         "RoomieBGone": "什么？！？！？$2#$b#我会走的...",
         "NotRoomie": "我已经...不是你的室友了。#$b#笨蛋！$u",
 
-        "PolyamorySweet.GaveBirthToday": "我们的新宝宝要加入我们的生活了，我太高兴了！$1"
+        "PolyamorySweet.GaveBirthToday": "我们的新宝宝要加入我们的生活了，我太高兴了！$1",
+        "WifeGreeting": "嘿，亲爱的！很高兴看到你出来走走！#$b#见到你会让我的一天变得更好！$6"
+
+        
 
       }
     },
@@ -425,7 +428,7 @@
         "Lantana": {
 
           "Id": "Lantana",
-          "DisplayName": "Lantana礁",
+          "DisplayName": "兰塔娜礁",
           "TargetLocation": "Custom_LantanaLagoon",
           "TargetTile": {
             "X": 15,
@@ -632,7 +635,7 @@
             {
               "TradeItemId": null,
               "TradeItemAmount": 1,
-              "Price": 200,
+              "Price": 100,
               "ApplyDifficultyModifier": null,
               "AvailableStock": -1,
               "AvailableStockLimit": "Global",
@@ -1276,7 +1279,7 @@
       },
       "Entries": {
         "MermaidLantana": {
-          "DisplayName": "Lantana",
+          "DisplayName": "兰塔娜",
           "BirthSeason": "Summer",
           "BirthDay": 2,
           "HomeRegion": "Other",
@@ -1313,6 +1316,11 @@
     {
       "Action": "Load",
       "Target": "Data/Events/Custom_LantanaLagoon",
+      "FromFile": "assets/Blank.json"
+    },
+      {
+      "Action": "Load",
+      "Target": "Data/Events/Custom_LantanaTemple",
       "FromFile": "assets/Blank.json"
     },
 
@@ -1409,18 +1417,141 @@
       },
       "Target": "Data/Events/Farm",
       "Entries": {
-        "PolyamorySweetLantanaFarm/n ccBoilerRoom": "jaunty/-500 -500/farmer 64 16 2 MermaidLantana 64 18 0/viewport 64 17 true/pause 800/speak MermaidLantana \"嘿你好，@！我是人鱼Lantana！我喜欢你的农场！$1#$b#你一定在想，为什么会有人鱼出现在你家门口！\"/pause 300/emote farmer 8/pause 900/speak MermaidLantana \"我只是想让你知道，现在镇上的矿车修好了，你可以乘坐矿车来我在礁湖的小店坐坐。\"/pause 600/jump farmer/pause 1100/speak MermaidLantana \"如果你想和某人约会，请送TA一束美人鱼花束吧！只要你愿意，你可以和镇上的每个单身镇民约会！$1#$b#如果你想要和某人结婚，请必须先和TA约会，并且达到十心好感！然后，你可以送TA一枚阿塔加蒂斯吊坠作为定情信物！\"/pause 400/emote MermaidLantana 20/pause 500/speak MermaidLantana \"仔细听，这部分很重要：你同时只能和一个人订婚！$1#$b#除此之外，如果你有一个不愿搬走的钉子户室友，你可以送TA一根‘分居蜡烛’，保证24小时内起效！#$b#不过，这根蜡烛对于你已经结婚的任何伴侣都不起效。TA会觉得是你糊涂了！你必须先和TA离婚才行。#$b#和你聊天很开心！祝你今天过得愉快，亲爱的！^和你聊天真开心！祝你今天过得开心，小可爱！\"/pause 300/emote farmer 20/emote MermaidLantana 20/pause 1200/end"
+        "PolyamorySweetLantanaFarm/n ccBoilerRoom": "jaunty/-500 -500/farmer 64 16 2 MermaidLantana 64 18 0/viewport 64 17 true/pause 800/speak MermaidLantana \"嘿你好，@！我是人鱼兰塔娜！我喜欢你的农场！$1#$b#你一定在想，为什么会有人鱼出现在你家门口！\"/pause 300/emote farmer 8/pause 900/speak MermaidLantana \"我只是想让你知道，现在镇上的矿车修好了，你可以乘坐矿车来我在礁湖的小店坐坐。\"/pause 600/jump farmer/pause 1100/speak MermaidLantana \"如果你想和某人约会，请送TA一束美人鱼花束吧！只要你愿意，你可以和镇上的每个单身镇民约会！$1#$b#如果你想要和某人结婚，请必须先和TA约会，并且达到十心好感！然后，你可以送TA一枚阿塔加蒂斯吊坠作为定情信物！\"/pause 400/emote MermaidLantana 20/pause 500/speak MermaidLantana \"仔细听，这部分很重要：你同时只能和一个人订婚！$1#$b#除此之外，如果你有一个不愿搬走的钉子户室友，你可以送TA一根‘分居蜡烛’，保证24小时内起效！#$b#不过，这根蜡烛对于你已经结婚的任何伴侣都不起效。TA会觉得是你糊涂了！你必须先和TA离婚才行。#$b#和你聊天很开心！祝你今天过得愉快，亲爱的！^和你聊天真开心！祝你今天过得开心，小可爱！\"/pause 300/emote farmer 20/emote MermaidLantana 20/pause 1200/end"
       }
-    }
+    },
+
+    {
+      "Action": "EditData",
+      "When": {
+      "Relationship:Abigail": "Married"
+          },
+      "Target": "Characters/Dialogue/Abigail",
+      "Entries": {
+
+        "summer_Wed2": "我喜欢和你一起，住在旧农舍里。#$b#地板的嘎吱声，椽子间飘起的尘烟...这里充满了想象的空间！$1",
+        "summer_Tue4": "你这人真有趣，@。能和你在一起真是太好了！$h",
+        "summer_Sat6": "夏天或许很热，但是...$h#$b#至少这意味着秋天即将到来！$1",
+        "summer_Mon8": "有你在，鹈鹕镇变得更美好了！$h#$b#这是给你的一点小礼物，代表着我的爱！[226]",
+        "summer_Thu10": "哇，你今天看起来真不错。#$b#很高兴我让你养成了洗脸和保湿的好习惯！$l^和你结婚有个好处，那就是我可以偷用你的化妆品！$1",
+        "summer_Fri10": "我很高兴能让你在老农场里不再孤单！$1",
+
+        "Wed2": "啊，你好啊，@。你是在休息吗？#$b#我也是。只是在想，我拿到的网上大学学位能派上什么用场...#$b#如果钱实在太紧张，也许我可以找一份在家的工作？",
+        "Tue4": "很高兴遇到你出来走走！$h#$e#今天过得怎么样？希望你过得愉快！$1",
+        "Sat6": "你知道吗，自从你第一次在山洞里从蝙蝠群中救了我之后，我在那里经历了一些相当疯狂的冒险！$l#$b#别担心，没什么太危险的！我非常小心，因为我爱你！",
+        "Mon8": "来！让我看看你的手相！$h#$b#我看到你未来会有一个假期，而且你可爱的紫发妻子会陪在你身边！$1",
+        "Thu10": "嗨。$l#$e#你有没有觉得，最近一切都没有真实感？$l#$b#但这样并没有什么不好。$h",
+        "Fri6": "鸟儿们今天高兴地唧唧喳喳地叫着。看到它们在一起，让我想到有你陪伴是多么幸福！#$b#还有给你的一点小礼物，代表着我的爱！[226]",
+
+
+        "winter_Fri10": "@，有件事我想和你说...#$b#你真可爱，能和你结婚我真是太幸运了！#$b#就这件事！$1^我很高兴我终于接受了真实的自我，一个拉拉，并且和世界上最漂亮的女孩结婚！$6",
+        "winter_Sat6": "我最近一直在做白日梦...#$b#噢！是关于你的，当然了！$h^是关于你的，我的爱人，还有你甜蜜的吻！$1",
+        "winter_Thu10": "这一年又要过去了...#$b#很高兴明年能和你一起度过！$h",
+        "winter_Wed6": "每年到这个时候，就不需要操心庄稼了，真是太好了。#$e#而那也意味着，你就有更多时间来陪我啦！$h#$b#还有给你的一点小礼物，代表着我的爱！[226]",
+
+        "fall_Wed2": "我们今年种南瓜了吗？帮我留一个吧！$h#$b#还有给你的一点小礼物，代表着我的爱！[226]",
+        "fall_Tue4": "和你一起生活真好！#$b#别误会，我当然爱我的父母，但他们似乎从未完全意识到我已经是个大人了，直到我和你结婚！$2",
+        "fall_Sat6": "今天你的头发好酷啊...你做了什么改变吗？^今天你的头发好漂亮啊！你是如此美丽，我的爱人！$1",
+        "fall_Mon8": "我从未想过自己会成为一位农夫的妻子...#$b#但你知道吗？这太不可思议了！*咯咯笑*$l^但你知道吗？能成为你的妻子真是太棒了！你成为我的妻子，对我来说也是太棒了！$6",
+        "fall_Thu10": "我昨天晚上做了一个很有趣的梦，还梦到了你。#$b#那真是个美梦。$h",
+        "fall_Fri10": "我希望这个季节能再长一些。$8#$b#等风一起，感觉自己又回到了童年呢。$1",
+
+        "spring_23": "好吧，明天就是花舞节了。我还是讨厌这条傻里傻气的白裙子...$s",
+        "summer_27": "我们绝对不能错过明天的庆典。那是星露谷最美的盛景之一。#$b#和你一起观看更是妙不可言！",
+      }
+    },
+
+    {
+      "Action": "EditData",
+      "When": {
+      "Relationship:Leah": "Married"
+          },
+      "Target": "Characters/Dialogue/Leah",
+      "Entries": {
+        "spring_Tue4": "目睹世界从冬日的沉睡中苏醒，焕发生机，是灵魂最令人振奋的滋补品！",
+        "spring_Wed8": "春风是最清新的气息！#$b#也许有一天我能调制出这样的香水！$l^亲爱的，也许我们可以调制并喷上这样的香水！$l",
+        "spring_Thu6": "采集是我的特长。来，尝尝这新鲜的沙拉！[196 609 610]$h",
+        "spring_Fri6": "有时候，我会产生一种奇怪的感觉。我的头脑变得一片空白...我感到完全平静，甚至有些幸福。#$b#嘿，听着！这与喝酒无关！$h",
+        "spring_Sat8": "做农活太有趣了。我一直都想尝试一下。现在，我的梦想成真了！$l",
+        "spring_Sun8": "如果你有找到样貌有趣的浮木的话，我可能会用的着。#$e#从你那里得到这样的礼物真的很特别。",
+
+        "summer_Mon2": "我今天早上找到了一些野生的果子！#$b#抱歉，我已经吃光了！$1",
+        "summer_Thu4": "农场的声音与气息真是美妙，不是吗？#$b#能和你一起住在这里，我真是太幸运了！^有你做我的妻子，能和你一起在农场生活，我真是太幸福了！$1",
+        "summer_Tue4": "生活中简单的东西最棒了：夏天里一阵柔和的清风，宏伟的云，或者是一个装满了星露谷红酒的酒杯。$h^生活中简单的东西最棒了：夏天里一阵柔和的清风，宏伟的云，或者是一个装满了星露谷红酒的酒杯，以及作为一个拉拉爱上你！$h",
+        "summer_Fri4": "我喜欢走进森林……稍作停留……然后静静地欣赏大自然的美景。#$b#我们很容易忘记这个世界实际上是多么的不可思议...",
+        "summer_Sat4": "水流能让我们的房子夏天的时候能够稍微凉快一些。#$b#我不是很能忍受炎热，所以很感激这份恩赐！",
+        "summer_Sun4": "在这个炎热又慵懒的日子里我该做什么呢？*唉*#$b#有什么建议吗？#$b#还有给你的一点小礼物，代表着我的爱！[205]",
+        "fall_Mon2": "我喜欢山谷里这么多蘑菇！#$b#而且我喜欢你给我的那些！$1",
+        "fall_Tue4": "我喜欢秋天的色彩搭配...温暖的红色、黄色和橙色..",
+        "fall_Wed2": "住在河边真的太棒了。#$b#我每天都伴着轻柔的水流声，在你身旁入睡...$6",
+        "fall_Thu6": "等哪天有时间，我要给你做一份炒野生菌。$h",
+        "fall_Fri6": "我喜欢为你做饭。$h#$b#今天早些时候我特别为你做了这个！[606]",
+        "fall_Sat4": "装饰让四季的感觉更鲜明了。我觉得这个传统挺有意义的。",
+        "fall_Sun4": "我喜欢这个地方的一点是，这里有美丽的瀑布。#$b#还有你！^还有我亲爱的妻子！$1",
+        "winter_Mon4": "我很喜欢一切都被新雪覆盖住的样子。",
+        "winter_Tue4": "这里有时候会变得很冷...$s#$b#不过，我只是很喜欢依偎在你身边！$h",
+        "winter_Wed4": "我今天早上看到雪兔了！它们可是非常稀有的呢，不是吗？",
+        "winter_Thu6": "*唉*...冬天里很难找到新鲜的食物。#$e#我猜你的农场里应该过得挺好的吧，是不是装满了食物？",
+        "winter_Fri6": "你跑步时会不会觉得冷？#$b#想进来的话，可以躲进我的被子里喝杯苹果酒。$h",
+        "winter_Sat2": "你好，@。很高兴遇到你出来走走！",
+        "winter_Sun4": "你应该偶尔休息一整天。#$b#这不仅对心灵有好处，而且从长远来看，你实际上会更有生产力！"
+      }
+    },
 
 
 
+
+
+    {
+      "Action": "EditData",
+      "When": {
+      "Relationship:Haley": "Married"
+          },
+      "Target": "Characters/Dialogue/Haley",
+      "Entries": {
+
+    
+  "spring_Wed8": "以前，这个小镇，只有两点是我喜欢的。#$b#一个是海滩。另一个是你！*咯咯笑*$h#$b#但现在，我真的爱上了这里的自然风光！$1",
+  "spring_Tue2": "今早海滩会有美丽的贝壳被冲上来吗？#$e#虽然现在不是一年中捡贝壳的最好时节。",
+  "spring_Mon6": "我以前老是抱怨这个镇太小了，但是我越来越喜欢它了。#$b#假如太大的话，就不会有归属感了。#$b#我们可以在这里养育孩子，让他们深深扎根于自然和社区！",
+  "spring_Thu6": "我昨晚做了晚餐。感觉还不错！#$e#但是我把厨房搞得一团糟...",
+  "spring_Sun6": "我喜欢俯瞰海滩！这个地方真美！",
+  "spring_Sat8": "这些花终于要开了。#$b#那些粉色的好香。$h",
+  "spring_Fri10": "@，我们有空去野营吧？#$b#我去过的最怪异的地方就是祖祖城了。",
+
+  "summer_Wed8": "今天好热！#$b#能给我一个冰淇淋吗，亲爱的？$8",
+  "summer_Thu6": "有时候你会长时间待在阳光下...但我不想你被晒伤，亲爱的！#$b#我只想要你健康!$1",
+  "summer_Mon6": "我最近读了一些书...#$b#我了解到保护我们当地的生态环境是多么重要！",
+  "summer_Sun6": "夏天的日落和夜晚的凉爽，无与伦比！",
+  "summer_Sat6": "看起来是个游泳的好日子。",
+  "summer_Tue8": "我现在喜欢住在乡下了。#$b#我看待事情的方式和以前大不一样了！我也很高兴能和我姐姐住在同一个地方！$h",
+  "summer_Fri8": "啊，你好啊，@！#$e#你喜欢我的打扮吗？$l",
+
+  "fall_Fri4": "你好像忙坏了啊。#$b#为什么不休息一下呢？",
+  "fall_Wed4": "要是无聊了，来和我呆一会吧！$l",
+  "fall_Thu6": "自从认识你以来，我确实成长了很多。#$b#你竟然喜欢我，我太幸运了！^你和我一样是拉拉，我太幸运了！^你是我的妻子，我太爱你了！$l",
+   "fall_Sun6": "我喜欢在森林里拍照！#$b#多亏了你，因为是你帮助我突破了自我！$h#$b#我喜欢和你在一起！$l",
+  "fall_Tue8": "我喜欢树叶的味道！#$b#我对秋天有了全新的观感！$h",
+  "fall_Mon10": "@，今天很高兴见到你。$h#$b#你比向日葵还让我开心！$l",
+  "fall_Sat6": "我刚刚在落叶中跳舞了！#$b#太有趣了！$1",
+
+  "winter_Tue4": "嗨，，@。#$b#农场上有什么好玩的事吗？#$b#比如，昨晚我看到一只大脚怪在闻花！#$b#太可爱了！$9",
+  "winter_Wed6": "我喜欢住在农场！#$b#我也很喜欢漂亮的衣服和潮流。仅仅因为我们是农民，并不意味着我们不能变得时尚！$h",
+  "winter_Thu6": "冬日的日落真是美不胜收。$h#$b#一年中如此浪漫的时刻...#$b#...什么？$l",
+  "winter_Mon8": "星露谷要是能暖和一些就好了。#$b#我们可以搬到别的地方，但是...我喜欢这个农场！",
+  "winter_Fri8": "你觉得我们将来会有...",
+  "winter_Sat8": "冬天你就不用太操劳了，真是挺好呢。#$b#能多和你相处真是太好了！",
+  "winter_Sun10": "@，你今天精神不错啊，我喜欢。^@，你今天很漂亮嘛，我喜欢！$l#$e#...$h"
+
+
+  }
+},
     // {
     //"Action": "EditData",
     //"Target": "Strings/StringsFromCSFiles",
     //"Entries": {
-    // "FlowerDanceFemaleAccept": "You want to be my partner for the flower dance?#$b#Okay! I'd love to dance with you! <$h",
-    // "FlowerDanceMaleAccept": "You want to be my partner for the flower dance?#$b#Okay! I'd love to dance with you! <$h"
+    // "FlowerDanceFemaleAccept": "你想做我的舞伴吗？#$b#当然可以！我非常想和你跳舞！ <$h",
+    // "FlowerDanceMaleAccept": "你想做我的舞伴吗？#$b#当然可以！我非常想和你跳舞！ <$h"
     //}
     //}
 

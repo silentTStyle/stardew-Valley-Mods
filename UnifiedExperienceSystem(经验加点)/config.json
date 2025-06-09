@@ -3,5 +3,11 @@
   "ShowSkillPointButton": true,
   "UpdateIntervalTicks": 6,
   "LuckSkillIsEnabled": false,
-  "DebugMode": false
+  "DebugMode": false,
+  "MenuWidth": 800,
+  "MenuHeight": 700,
+  "SkillMenuVisibleRows": 5,
+  "SkillMenuRowSpacing": 80,
+  "ButtonPosX": null,
+  "ButtonPosY": null
 }

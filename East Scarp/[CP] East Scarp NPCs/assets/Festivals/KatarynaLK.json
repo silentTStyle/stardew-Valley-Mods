@@ -72,38 +72,71 @@
 			]
 		},
 		// F L O W E R   D A N C E
-		/* {   
-            //IF you do not have a MainEvent position set, your char sprite will not appear in the Flower Dance, should you (or someone) dance with them.
-            "Action": "EditData",
-            "Target": "Data/Festivals/spring24",
-            "TextOperations": [
-                {
-                    "Operation": "Append",
-                    "Target": [ "Entries","Set-Up_additionalCharacters" ],
-                    "Value": "<CHAR> X Y FACING",
-                    "Delimiter": "/"
-                },
-                {
-                    "Operation": "Append",
-                    "Target": [ "Entries","MainEvent_additionalCharacters"  ],
-                    "Value": "<CHAR> X Y FACING",
-                    "Delimiter": "/"
-                }
-            ], 
-            "When": {
-				"HasMod |contains=FlashShifter.StardewValleyExpandedCP": false
-                OR
-                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
+		{
+			//IF you do not have a MainEvent position set, your char sprite will not appear in the Flower Dance, should you (or someone) dance with them.
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			"TextOperations": [
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"Set-Up_additionalCharacters"
+					],
+					"Value": "KatarynaLK 3 27 1",
+					"Delimiter": "/"
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"MainEvent_additionalCharacters"
+					],
+					"Value": "KatarynaLK 3 27 1",
+					"Delimiter": "/"
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"Set-Up_additionalCharacters_y2"
+					],
+					"Value": "KatarynaLK 3 27 1",
+					"Delimiter": "/"
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"MainEvent_additionalCharacters_y2"
+					],
+					"Value": "KatarynaLK 3 27 1",
+					"Delimiter": "/"
+				}
+			],
+			"When": {
+				"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
 			}
-        },
-        {
+		},
+		{
 			"LogName": "Flower Dance Dialogue",
 			"Action": "EditData",
 			"Target": "data/festivals/spring24",
 			"Entries": {
-				"<CHAR>": "Char dialogue here"
+				"KatarynaLK": "{{i18n:festivals.spring24.Kataryna}}",
 			}
-		},*/
+		},
+		{
+			"LogName": "Flower Dance Dialogue",
+			"Action": "EditData",
+			"Target": "data/festivals/spring24",
+			"Entries": {
+				"KatarynaLK": "{{i18n:festivals.spring24.kataryna.spouse}}"
+			},
+			"When": {
+				"Relationship:KatarynaLK |contains= dating, engaged, married": true
+			}
+		},
 		// M O O N L I G H T   J E L L I E S
 		/* {
 			"Action": "EditData",

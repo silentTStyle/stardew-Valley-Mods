@@ -4,7 +4,11 @@
   "Controls": {
     "ToggleOverlay": "U"
   },
-  "ConnectorNames": [],
+  "ConnectorNames": [
+    "Stepping Stone Path",
+    "Gravel Path",
+    "Cobblestone Path"
+  ],
   "JunimoHutBehaviorForGems": "AutoDetect",
   "JunimoHutBehaviorForFertilizer": "AutoDetect",
   "JunimoHutBehaviorForSeeds": "AutoDetect",

@@ -89,7 +89,7 @@
         { //Kataryna
             "LogName": "Kataryna",
             "Action": "Load",
-	    "Priority":"Low",
+            "Priority": "Low",
             "Target": "Characters/KatarynaLK, Portraits/KatarynaLK",
             "FromFile": "assets/{{Target}}/Kataryna.png"
         },
@@ -102,7 +102,7 @@
         { //Abyss
             "LogName": "Abyss",
             "Action": "Load",
-	    "Priority":"Low",
+            "Priority": "Low",
             "Target": "Portraits/Abyssrooster",
             "FromFile": "assets/Images/Abyss_portrait.png"
         },
@@ -135,7 +135,7 @@
         { //Kataryna
             "LogName": "Kataryna",
             "Action": "Load",
-	    "Priority":"Low",
+            "Priority": "Low",
             "Target": "Portraits/KatarynaLK_wetHair",
             "FromFile": "assets/Portraits/KatarynaLK/Kataryna_wetHair.png"
         },
@@ -560,7 +560,6 @@
             }
         },
         //*********************************************************************************************
-       
         //Abyss schedule
         { //Abyss
             "LogName": "Abyss",
@@ -639,8 +638,6 @@
                 "57876031/o KatarynaLK/t 600 1200/f KatarynaLK 2000": "continue/64 15/farmer 64 15 2 KatarynaLK 65 16 0/addMailReceived NoDateKataryna/addConversationTopic Kataryna_NoDate/skippable/pause 500/emote farmer 8/pause 500/speak KatarynaLK \"{{i18n:57876031.01}}\"/pause 500/emote farmer 36/pause 500/speak KatarynaLK \"{{i18n:57876031.02}}\"/faceDirection KatarynaLK 2/pause 1000/emote KatarynaLK 40/pause 1000/faceDirection KatarynaLK 0/speak KatarynaLK \"{{i18n:57876031.03}}\"/pause 500/faceDirection KatarynaLK 2/pause 500/emote farmer 8/pause 1000/end"
             }
         },*/
-        //***********************************************
-        //M A R R I A G E - now obsolete as she is no longer datable
         {
             "LogName": "Engagement Dialogue",
             "Action": "EditData",
@@ -648,6 +645,17 @@
             "Entries": {
                 "KatarynaLK0": "{{i18n:engagement.kataryna0}}",
                 "KatarynaLK1": "{{i18n:engagement.kataryna1}}"
+            }
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/EastScarp_AbyssCoop",
+            "MapProperties": {
+                "Warp": "2 9 Farm 89 9"
+            },
+            "When": {
+                "Relationship:KatarynaLK": "Married",
+                "FarmType": "MeadowlandsFarm"
             }
         },
         { //Abyss
